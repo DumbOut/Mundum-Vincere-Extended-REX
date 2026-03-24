@@ -1,0 +1,24 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Extended settings
+; Override any game parameters here.
+; This file is optional — delete it to use defaults.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Sound — rolloff controls 3D distance attenuation
+; Lower values = sounds carry further
+; OG: 0.4 (designed for a zoomed-in camera)
+rolloff_factor 0.25
+
+; Strategy map sound rolloff (same scale as above)
+stratmap_rolloff_factor 0.25
+
+; Doppler pitch-shift from camera movement (0 = off, 1 = realistic)
+doppler_factor 0.3
+
+; Maximum number of factions (default in M2: 31, RTW: 21)
+; Increase to support more factions in mods
+max_factions 82
+
+; Minimum regions an AI faction needs before it can target superfaction members
+; (default 7, set to 0 to disable the restriction entirely)
+superfaction_min_regions 32

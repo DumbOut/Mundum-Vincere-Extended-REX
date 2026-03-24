@@ -1,0 +1,11 @@
+; descr_caps_ex.txt
+;
+; Engine feature toggles which can't be enabled transparently. Mods that don't ship this file get safe defaults so nothing breaks silently.
+
+; sprite definition format:
+;   sd    = legacy binary .rsd files (default)
+;   xml   = v7 .sd.xml with runtime atlas packing, allows you to freely add new sprites without modifying the binary files, including in loose .tgas.
+; NOTE: Data files that reference sprites by integer index (e.g. logo_index in descr_sm_factions.txt)
+; must use sprite NAMES instead (e.g. logo_index FACTION_LOGO_EMPIRE_WEST).
+; The name must match the sprite's name attribute in the .sd.xml file. Integer indices still work with rsd (binary) format.
+sprite_format  xml

@@ -1,0 +1,456 @@
+; custom locations , add new locations at the bottom
+
+custom_location		British Grassland
+{
+	location		99	459		
+	image			data/menu/grass1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Gallic Countryside
+{
+	location		137	393		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Italian Lowland
+{
+	location		220	330		
+	image			data/menu/grass3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Sahara Desert
+{
+	location		100	158		
+	image			data/menu/sand1.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Libyan Plains
+{
+	location		242	218		
+	image			data/menu/sand2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Arabian Dunes
+{
+	location		574	161		
+	image			data/menu/sand3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Germanic Forest
+{
+	location		166	457		
+	image			data/menu/forest1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Nordic Woodland
+{
+	location		242	578		
+	image			data/menu/forest2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Cappadocian Forest
+{
+	location		462	314		
+	image			data/menu/forest3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Prippet Marshes
+{
+	location		382	489		
+	image			data/menu/baron1.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Sierra Nevada
+{
+	location		479	176		
+	image			data/menu/baron2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Scottish Highland
+{
+	location		57	536		
+	image			data/menu/baron3.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		Armenian Mountains
+{
+	location		537	335		
+	image			data/menu/mountain1.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Pontic Peaks
+{
+	location		445	335		
+	image			data/menu/mountain2.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Alpine Valley
+{
+	location		161	390		
+	image			data/menu/mountain3.tga
+	sett_locked		yes
+	summer			no
+}
+
+custom_location		Tuscan Bay
+{
+	location		205	340		
+	image			data/menu/coast1.tga
+	sett_locked		no
+	summer			no
+
+}
+
+custom_location		Greek Shore
+{
+	location		320	273		
+	image			data/menu/coast2.tga
+	sett_locked		no
+	summer			no
+}
+
+custom_location		African Coast
+{
+	location		305	221		
+	image			data/menu/coast3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Moon River
+{
+	location		141	461		
+	image			data/menu/river1.tga
+	sett_locked		no
+	summer			no
+}
+custom_location		River Jordan
+{
+	location		452	228		
+	image			data/menu/river2.tga
+	sett_locked		yes
+	summer			no
+}
+custom_location		Nile Bridge
+{
+	location		411	201		
+	image			data/menu/river3.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Salona Foothills
+{
+	location		259	353		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Appenin Plain
+{
+	location		217	344		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Alesia Hill
+{
+	location		138	403		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Arverni Valley
+{
+	location		130	373		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Ararat South
+{
+	location		522	330		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Ararat North
+{
+	location		521	334		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Atlas River
+{
+	location		311	306		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Archaia Valley
+{
+	location		312	288		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Thermophyle Valley
+{
+	location		316	299		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Thames Shore
+{
+	location		103	456		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Rhenus Shore
+{
+	location		250	309		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Olymp South
+{
+	location		309	285 	
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Olymp North
+{
+	location		309	288 	
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Dacia Valley
+{
+	location		320	389 	
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Dacia High
+{
+	location		317	406		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Alba Shore
+{
+	location		70	533		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Alba Highland
+{
+	location		66	538		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Hybrides Hills
+{
+	location		42	563		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Lough Arrow
+{
+	location		29	500 	
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Boyne Valley
+{
+	location		41	492		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Sterling View
+{
+	location		64	527		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Mona Shore
+{
+	location		59	483		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Norway Fjord
+{
+	location		148	595		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Sardinia
+{
+	location		186	296		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Numidian Lake
+{
+	location		147	249		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Armenian Lake
+{
+	location		518	316		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Alpes Mediolanum
+{
+	location		181	381		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Alpes Cisalpina
+{
+	location		201	364		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Apeninne Liguria
+{
+	location		185	364		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Swamp
+{
+	location		214	366		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Grass Fertile
+{
+	location		212	363		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Grass Infertile
+{
+	location		412	300		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Open Forest
+{
+	location		121	389		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Deep Forest
+{
+	location		171	457		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Alpine
+{
+	location		198	395		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
+
+custom_location		Clima Arctic
+{
+	location		291	610		
+	image			data/menu/grass2.tga
+	sett_locked		no
+	summer			yes
+}
