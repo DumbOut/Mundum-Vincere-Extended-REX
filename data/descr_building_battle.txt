@@ -1,0 +1,448 @@
+;
+;  Building battle data.  Contains model item and info specs for all
+;  battle depictions for buildings and floors.  Each contains normal, damaged and 
+;  destroyed versions.
+;
+;  Conditions apply to the physical info hierarchy.  No outlines in more damaged
+;  versions should lie outside those of less damaged ones;  also, the physical
+;  grid heights can only increase as damage increases.  If the same physical info
+;  file is used for two levels, no changes are made when going between these levels.
+;
+;
+;name
+;{
+;	full_health 10
+;	level ; one or more levels required, up to 4
+;	{
+;		min_health 5 ; must be <= full health, and must decrease with each level, last must be 0
+;		battle_stats ; nothing here yet, just a placeholder
+;		basespec		basespec_temple  ; optional...
+;		item			temple
+;		physical_info	temple_info
+;	}
+;	level 
+;	{
+;		min_health 0
+;		battle_stats
+;		item			temple
+;		basespec		basespec_temple
+;		physical_info	temple_info
+;	}
+;}
+
+
+texture_variants
+{
+	; Format: 
+	; orig_texturename
+	; {
+	;    <season or faction or culture, or any combination> variant_name
+	; }
+	; Note factions must be the underscored versions, ie no spaces.  Also, no spaces allowed in texture names.
+	; eg:
+	; #roof.tga
+	; {
+	;    winter #roof_winter.tga
+	; }
+	##barb_log_wall.tga
+	{
+		roman		##roman_log_wall.tga
+		greek		##roman_log_wall.tga
+		eastern		##eastern_log_wall.tga
+		egyptian	##eastern_log_wall.tga
+	}
+	##barb_log_wall2.tga
+	{
+		roman		##roman_log_wall2.tga
+		greek		##roman_log_wall2.tga
+		eastern		##eastern_log_wall2.tga
+		egyptian	##eastern_log_wall2.tga
+	}
+	##standard_julii.tga
+	{
+		romans_julii	##standard_julii.tga
+		romans_brutii	##standard_brutii.tga
+		romans_scipii	##standard_scipii.tga
+		romans_senate	##standard_senate.tga
+		macedon			##standard_macedonia.tga
+		egypt			##standard_egypt.tga
+		seleucid		##standard_seleucid.tga
+		carthage		##standard_carthage.tga
+		parthia			##standard_parthia.tga
+		pontus			##standard_pontus.tga
+		gauls			##standard_gaul.tga
+		germans			##standard_german.tga
+		britons			##standard_briton.tga
+		armenia			##standard_armenia.tga
+		dacia			##standard_dacia.tga
+		greek_cities	##standard_greek_cities.tga
+		numidia			##standard_numidia.tga
+		scythia			##standard_scythia.tga
+		spain			##standard_spain.tga
+		thrace			##standard_thrace.tga
+		slave			##standard_slave.tga
+	}
+
+	##cren.tga
+	{
+		greek		##cren_greek.tga
+	}
+
+	##crenellations_brck42S.tga
+	{
+		greek		##crenellations_brck42S_greek.tga
+	}
+
+	brck42S.tga
+	{
+		greek		brck42S_greek.tga
+	}
+
+	rooftiles_large.tga
+	{
+		greek		rooftiles_greek.tga
+	}
+
+	roman_roof_tiles_bottom.tga
+	{
+		greek		rooftiles_greek.tga
+	}
+
+	roman_tenament_1.tga
+	{
+		greek		greek_tenament_1.tga
+	}
+
+	roman_tenament_3.tga
+	{
+		greek		greek_tenament_3.tga
+	}
+
+	destroyed_wall_roman.tga
+	{
+		greek		destroyed_wall_egyptian.tga
+		egyptian	destroyed_wall_egyptian.tga
+		eastern		destroyed_wall_eastern.tga
+		barbarian	destroyed_wall_barbarian.tga
+	}
+
+	destroyed_walltops_roman.tga
+	{
+		greek		destroyed_walltops_egyptian.tga
+		egyptian	destroyed_walltops_egyptian.tga
+		eastern		destroyed_walltops_eastern.tga
+		barbarian	destroyed_walltops_barbarian.tga
+	}
+
+	destroyed_rubble_roman.tga
+	{
+		greek		destroyed_rubble_egyptian.tga
+		egyptian	destroyed_rubble_egyptian.tga
+		eastern		destroyed_rubble_eastern.tga
+		barbarian	destroyed_rubble_barbarian.tga
+	}
+
+;	WINTER TEXTURES
+
+	##cornfield_clump.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##cornfield_edge.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##hay_clump.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##hay_edge_01.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##hay_edge_02.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##olive_tree01.tga
+	{
+	   winter ##olive_tree01_winter.tga
+	}
+
+	#&hayfield_floor_edge.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	#&under_winery2.tga
+	{
+	   winter #&under_winery2_winter.tga
+	}
+
+	crop_ground.tga
+	{
+	   winter crop_ground_winter.tga
+	}
+
+	tile_winery2.tga
+	{
+	   winter ##transparent_winter.tga
+	}
+
+	##barbarian_roof1.tga
+	{
+	   winter ##barbarian_roof1_winter.tga
+	}
+
+	roof_tiles.tga
+	{ 
+	   winter roof_tiles_winter.tga
+	}
+
+	barb_house_B.tga
+	{
+	   winter barb_house_B_winter.tga
+	}
+}
+
+
+spot_items
+{
+	flag_vertical_small
+	{
+		any			flag_vertical_small
+	}
+
+	flag_vertical_large
+	{
+		any			flag_vertical_small
+	}
+
+	flag_horizontal_large
+	{
+		any			flag_horizontal_large
+	}
+}
+
+stat_cats
+{
+	tiny_wooden
+	{
+		full_health 150
+		battle_stats  flammability_high impact_damage_high
+	}
+	small_wooden
+	{
+		full_health 250
+		battle_stats  flammability_high impact_damage_high
+	}
+	medium_wooden
+	{
+		full_health 1000
+		battle_stats  flammability_high impact_damage_high
+	}
+	large_wooden
+	{
+		full_health 2000
+		battle_stats  flammability_high impact_damage_medium
+	}
+	tiny_stone
+	{
+		full_health 150
+		battle_stats  flammability_low impact_damage_high
+	}
+	small_stone
+	{
+		full_health 250
+		battle_stats  flammability_low impact_damage_high
+	}
+	medium_stone
+	{
+		full_health 1000
+		battle_stats  flammability_low impact_damage_medium
+
+	}
+	large_stone
+	{
+		full_health 5000
+		battle_stats  flammability_low impact_damage_medium
+	}
+	medium_stone_nonflammable
+	{
+		full_health 1000
+		battle_stats  flammability_none impact_damage_medium
+
+	}
+	large_stone_nonflammable
+	{
+		full_health 5000
+		battle_stats  flammability_none impact_damage_medium
+	}
+	indestructable
+	{
+		full_health 5000
+		battle_stats  flammability_none impact_damage_none
+	}
+}
+
+;immense stone buildings, plazas etc. should be indestructable. 
+
+transition_scripts
+{
+	transition default
+	{
+		duration 50
+		physical_switch 10
+		start_items
+		{
+			0 enable
+			0 dust_bounds 30 0.5 3 1
+			0 shake 50 1.5 0.25
+			10 fall
+			40 fade 10 1 0
+			50 disable
+		}
+		end_items
+		{
+			0 enable
+			10 fade 10 0 1
+			50 disable
+		}
+	}
+	transition default_large_stone
+	{
+		duration 200
+		physical_switch 10
+		start_items
+		{
+			0 enable
+			0 dust_bounds 90 10 3 1 1.0 1.0 1.0 ;duration, radius, frequency of generation, how many per spawn tick, x,y (height),z scaling factor for dust Bounding box 
+			10 fall
+			11 fade  120 1 0   ; # duration 1 opacity=100% 0 opacity=0%
+			200 disable
+		}
+		end_items
+		{
+			10 fade 50 0 1   ; # duration  0 opacity=0% 1 opacity=100%
+			11 enable
+			11 dust_bounds 90 10 3 1 3 3 3
+			200 disable
+		}
+	}
+	transition default_small_wooden
+	{
+		duration 20
+		physical_switch 10
+		start_items
+		{
+			0 enable
+			0 dust_bounds 5 0.5 1 4
+			5 dust_bounds 5 0.5 1 3 1.3 0.5 1.3
+			10 dust_bounds 5 0.5 1 2 1.5 0.3 1.5
+			0 shake 20 6.5 0.05
+			10 fall
+			15 fade 5 1 0
+			20 disable
+		}
+		end_items
+		{
+			0 enable
+			10 fade 10 0 1
+			20 disable
+		}
+	}
+}
+
+	
+include dbb_slot_fillers.txt
+
+include dbb_walls_wooden.txt
+include dbb_walls_roman.txt
+include dbb_walls_greek.txt
+include dbb_walls_eastern.txt
+include dbb_walls_egyptian.txt
+include dbb_walls_barbarian.txt
+
+
+include dbb_wonders.txt
+include dbb_foliage.txt
+
+include dbb_nicks_roman_buildings.txt
+include dbb_nicks_egyptian_buildings.txt
+include dbb_nicks_greek_buildings.txt
+include dbb_nicks_eastern_buildings.txt
+
+include dbb_barbarian_buildings.txt
+
+include dbb_andrews_buildings.txt
+include dbb_bens_buildings.txt
+include dbb_kevins_buildings.txt
+include dbb_pauls_buildings.txt
+include dbb_johns_buildings.txt
+include dbb_joss_buildings.txt
+
+include dbb_roads.txt
+
+include dbb_gates.txt
+
+include dbb_animals.txt
+
+include dbb_ambient.txt
+
+
+	scale_soldier
+	{
+		full_health 10
+		localised_name ambient
+		level
+		{
+			min_health 0
+			battle_stats
+			item		scale_soldier
+			physical_info	none
+		}
+	}
+
+	construction_site_48x32
+	{
+		full_health 10
+		localised_name construction_site
+		level
+		{
+			min_health 0
+			battle_stats
+			item		construction_site_48x32
+			physical_info	info_construction_48x32.cas
+		}
+	}
+
+	construction_site_112x64
+	{
+		full_health 10
+		localised_name construction_site
+		level
+		{
+			min_health 0
+			battle_stats
+			item		construction_site_112x64
+			physical_info	info_construction_112x64.cas
+		}
+	}
+
+	construction_site_160x128
+	{
+		full_health 10
+		localised_name construction_site
+		level
+		{
+			min_health 0
+			battle_stats
+			item		construction_site_160x128
+			physical_info	info_construction_160x128.cas
+		}
+	}
