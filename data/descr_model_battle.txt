@@ -2541,12 +2541,12 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_hoplite_spartan_pylos
 skeleton			fs_slow_spearman, fs_slow_swordsman
 indiv_range			40
-texture			greek_cities, MVE/data/models_unit/textures/unit_new_spartan.tga
-model_flexi		MVE/data/models_unit/unit_greek_new_spartan_400.cas, 8
-model_flexi		MVE/data/models_unit/unit_greek_new_spartan_300.cas, 15
-model_flexi		MVE/data/models_unit/unit_greek_new_spartan_200.cas, 30
-model_flexi		MVE/data/models_unit/unit_greek_new_spartan_100.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_new_spartan_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/textures/unit_new_spartan.tga
+model_flexi		mve_rex/data/models_unit/unit_greek_new_spartan_400.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_greek_new_spartan_300.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_greek_new_spartan_200.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_greek_new_spartan_100.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_new_spartan_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type				greek_peasant
@@ -2658,13 +2658,13 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_levy_pikeman
 skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
-texture				macedon, MVE/data/models_unit/textures/unit_NL_greek_levy_phalangitai_macedon.tga
-texture				slave, MVE/data/models_unit/textures/unit_NL_greek_levy_phalangitai_slave.tga
-texture				seleucid, MVE/data/models_unit/textures/unit_NL_greek_levy_phalangitai_seleucid.tga
-model_flexi_m			MVE/data/models_unit/unit_NL_levy_phalangitai_high.cas, 8
-model_flexi_m			MVE/data/models_unit/unit_NL_levy_phalangitai_high.cas, 15
-model_flexi_m			MVE/data/models_unit/unit_NL_levy_phalangitai_high.cas, 30
-model_flexi			MVE/data/models_unit/unit_NL_levy_phalangitai_high.cas, max
+texture				macedon, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_macedon.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_slave.tga
+texture				seleucid, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_seleucid.tga
+model_flexi_m			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, 8
+model_flexi_m			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, 15
+model_flexi_m			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_argyraspid
@@ -3398,42 +3398,42 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				numidia_sacredband
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
-texture				numidia, MVE/data/models_unit/textures/numidia_sacredband.tga
-model_flexi			MVE/data/models_unit/numidia_sacredband.cas, 15
-model_flexi			MVE/data/models_unit/numidia_sacredband.cas, 30
-model_flexi			MVE/data/models_unit/numidia_sacredband.cas, 40
-model_flexi			MVE/data/models_unit/numidia_sacredband.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_carthage_sacreband_sprite.spr
+texture				numidia, mve_rex/data/models_unit/textures/numidia_sacredband.tga
+model_flexi			mve_rex/data/models_unit/numidia_sacredband.cas, 15
+model_flexi			mve_rex/data/models_unit/numidia_sacredband.cas, 30
+model_flexi			mve_rex/data/models_unit/numidia_sacredband.cas, 40
+model_flexi			mve_rex/data/models_unit/numidia_sacredband.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_carthage_sacreband_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 
 type				roman_praetorian_spear_cohort_i
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_spearman
 indiv_range			40
-texture				romans_brutii, MVE/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_BRUTII.TGA
-texture				romans_scipii, MVE/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_SCIPII.TGA
-texture				romans_julii, MVE/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_JULII.TGA
-texture				romans_senate, MVE/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_SENATE.TGA
-model_flexi			MVE/data/models_unit/unit_NL_roman_praetorian_high.cas, 15
-model_flexi			MVE/data/models_unit/unit_NL_roman_praetorian_high.cas, 30
-model_flexi			MVE/data/models_unit/unit_NL_roman_praetorian_high.cas, 40
-model_flexi			MVE/data/models_unit/unit_NL_roman_praetorian_high.cas, max
-model_sprite		romans_scipii, 60.0, MVE/data/sprites/romans_scipii_roman_praetorian_spear_sprite.spr
-model_sprite		romans_brutii, 60.0, MVE/data/sprites/romans_brutii_roman_praetorian_spear_sprite.spr
-model_sprite		romans_julii, 60.0, MVE/data/sprites/romans_julii_roman_praetorian_spear_sprite.spr
-model_sprite		romans_senate, 60.0, MVE/data/sprites/romans_senate_roman_praetorian_spear_sprite.spr
+texture				romans_brutii, mve_rex/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_BRUTII.TGA
+texture				romans_scipii, mve_rex/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_SCIPII.TGA
+texture				romans_julii, mve_rex/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_JULII.TGA
+texture				romans_senate, mve_rex/data/models_unit/textures/UNIT_NL_ROMAN_PRAETORIAN_CAVALRY_SENATE.TGA
+model_flexi			mve_rex/data/models_unit/unit_NL_roman_praetorian_high.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_roman_praetorian_high.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_roman_praetorian_high.cas, 40
+model_flexi			mve_rex/data/models_unit/unit_NL_roman_praetorian_high.cas, max
+model_sprite		romans_scipii, 60.0, mve_rex/data/sprites/romans_scipii_roman_praetorian_spear_sprite.spr
+model_sprite		romans_brutii, 60.0, mve_rex/data/sprites/romans_brutii_roman_praetorian_spear_sprite.spr
+model_sprite		romans_julii, 60.0, mve_rex/data/sprites/romans_julii_roman_praetorian_spear_sprite.spr
+model_sprite		romans_senate, 60.0, mve_rex/data/sprites/romans_senate_roman_praetorian_spear_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 
 type			galatian_swordsmen
 skeleton		fs_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_galatian_swordsman.tga
-model_flexi		MVE/data/models_unit/unit_galatian_swordsmen_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_galatian_swordsmen_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_galatian_swordsmen_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_galatian_swordsmen_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_galatian_swordsmen_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_galatian_swordsman.tga
+model_flexi		mve_rex/data/models_unit/unit_galatian_swordsmen_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_galatian_swordsmen_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_galatian_swordsmen_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_galatian_swordsmen_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_galatian_swordsmen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 
@@ -3441,565 +3441,565 @@ model_tri		400, 0.5f, 0.5f, 0.5f
 type			carthaginian_heavy_swords
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			carthage, MVE/data/models_unit/textures/unit_carthage_heavy_swords.tga
-model_flexi		MVE/data/models_unit/unit_carthage_heavy_swords_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_carthage_heavy_swords_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_carthage_heavy_swords_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_carthage_heavy_swords_lowest.cas, max
-model_sprite		carthage, 60.0, MVE/data/sprites/carthage_heavy_swords_sprite.spr
+texture			carthage, mve_rex/data/models_unit/textures/unit_carthage_heavy_swords.tga
+model_flexi		mve_rex/data/models_unit/unit_carthage_heavy_swords_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_carthage_heavy_swords_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_carthage_heavy_swords_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_carthage_heavy_swords_lowest.cas, max
+model_sprite		carthage, 60.0, mve_rex/data/sprites/carthage_heavy_swords_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			celtic_warrior_briton
 skeleton		fs_swordsman
 indiv_range		40
-texture			britons, MVE/data/models_unit/textures/unit_barb_warband_briton_.tga
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_briton_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_briton_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_briton_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_briton_lowest.cas, max
-model_sprite		britons, 60.0, MVE/data/sprites/britons_celtic_warrior_sprite.spr
+texture			britons, mve_rex/data/models_unit/textures/unit_barb_warband_briton_.tga
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_briton_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_briton_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_briton_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_briton_lowest.cas, max
+model_sprite		britons, 60.0, mve_rex/data/sprites/britons_celtic_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			celtic_warrior_gaul
 skeleton		fs_swordsman
 indiv_range		40
-texture			gauls, MVE/data/models_unit/textures/unit_barb_warband_gaul_.tga
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_gaul_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_gaul_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_gaul_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_celtic_warrior_gaul_lowest.cas, max
-model_sprite		gauls, 60.0, MVE/data/sprites/gauls_celtic_warrior_sprite.spr
+texture			gauls, mve_rex/data/models_unit/textures/unit_barb_warband_gaul_.tga
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_gaul_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_gaul_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_gaul_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_celtic_warrior_gaul_lowest.cas, max
+model_sprite		gauls, 60.0, mve_rex/data/sprites/gauls_celtic_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			citizen_cavalry
 skeleton		fs_hc_spearman, fs_hc_swordsman
 indiv_range		40
-texture			greek_cities, MVE/data/models_unit/textures/unit_greek_hoplite_greek.tga
-model_flexi		MVE/data/models_unit/unit_citizen_cavalry_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_citizen_cavalry_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_citizen_cavalry_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_citizen_cavalry_lowest.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_cities_citizen_cavalry_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/textures/unit_greek_hoplite_greek.tga
+model_flexi		mve_rex/data/models_unit/unit_citizen_cavalry_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_citizen_cavalry_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_citizen_cavalry_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_citizen_cavalry_lowest.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_citizen_cavalry_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			dacian_warrior
 skeleton		fs_swordsman
 indiv_range		40
-texture			dacia, MVE/data/models_unit/textures/unit_dacian_warrior.tga
-texture			thrace, MVE/data/models_unit/textures/unit_thracian_warrior.tga
-model_flexi		MVE/data/models_unit/unit_dacian_warrior_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_dacian_warrior_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_dacian_warrior_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_dacian_warrior_lowest.cas, max
-model_sprite		dacia, 60.0, MVE/data/sprites/dacia_dacian_warrior_sprite.spr
-model_sprite		thrace, 60.0, MVE/data/sprites/thrace_thracian_warrior_sprite.spr
+texture			dacia, mve_rex/data/models_unit/textures/unit_dacian_warrior.tga
+texture			thrace, mve_rex/data/models_unit/textures/unit_thracian_warrior.tga
+model_flexi		mve_rex/data/models_unit/unit_dacian_warrior_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_dacian_warrior_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_dacian_warrior_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_dacian_warrior_lowest.cas, max
+model_sprite		dacia, 60.0, mve_rex/data/sprites/dacia_dacian_warrior_sprite.spr
+model_sprite		thrace, 60.0, mve_rex/data/sprites/thrace_thracian_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			desert_swordsman
 skeleton		fs_swordsman
 indiv_range		40
-texture			numidia, MVE/data/models_unit/textures/unit_numidia_desert_swordsman.tga
-model_flexi		MVE/data/models_unit/unit_eastern_bedouin_sword_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_eastern_bedouin_sword_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_eastern_bedouin_sword_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_eastern_bedouin_sword_lowest.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_desert_swordsman_sprite.spr
+texture			numidia, mve_rex/data/models_unit/textures/unit_numidia_desert_swordsman.tga
+model_flexi		mve_rex/data/models_unit/unit_eastern_bedouin_sword_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_eastern_bedouin_sword_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_eastern_bedouin_sword_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_eastern_bedouin_sword_lowest.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_desert_swordsman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_axemen
 skeleton		fs_semi_fast_swordsman
 indiv_range		40
-texture			armenia, MVE/data/models_unit/textures/unit_east_axemen_armenia.tga
-texture			pontus, MVE/data/models_unit/textures/unit_east_axemen_pontus.tga
-model_flexi		MVE/data/models_unit/unit_east_axemen_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_east_axemen_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_east_axemen_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_east_axemen_lowest.cas, max
-model_sprite		armenia, 60.0, MVE/data/sprites/armenia_east_axemen_sprite.spr
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_east_axemen_sprite.spr
+texture			armenia, mve_rex/data/models_unit/textures/unit_east_axemen_armenia.tga
+texture			pontus, mve_rex/data/models_unit/textures/unit_east_axemen_pontus.tga
+model_flexi		mve_rex/data/models_unit/unit_east_axemen_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_east_axemen_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_east_axemen_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_east_axemen_lowest.cas, max
+model_sprite		armenia, 60.0, mve_rex/data/sprites/armenia_east_axemen_sprite.spr
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_east_axemen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_heavy_archer
 skeleton		fs_archer, fs_dagger
 indiv_range		40
-texture			armenia, MVE/data/models_unit/textures/unit_eastern_archer_armenia.tga
-model_flexi		MVE/data/models_unit/unit_east_heavy_archer_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_east_heavy_archer_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_east_heavy_archer_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_east_heavy_archer_lowest.cas, max
-model_sprite		armenia, 60.0, MVE/data/sprites/armenia_east_heavy_archer_sprite.spr
+texture			armenia, mve_rex/data/models_unit/textures/unit_eastern_archer_armenia.tga
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_archer_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_archer_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_archer_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_archer_lowest.cas, max
+model_sprite		armenia, 60.0, mve_rex/data/sprites/armenia_east_heavy_archer_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_heavy_swordsmen
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			armenia, MVE/data/models_unit/textures/unit_east_heavy_swordsmen.tga
-model_flexi		MVE/data/models_unit/unit_east_heavy_swordsmen_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_east_heavy_swordsmen_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_east_heavy_swordsmen_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_east_heavy_swordsmen_lowest.cas, max
-model_sprite		armenia, 60.0, MVE/data/sprites/armenia_east_heavy_swordsmen_sprite.spr
+texture			armenia, mve_rex/data/models_unit/textures/unit_east_heavy_swordsmen.tga
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_swordsmen_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_swordsmen_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_swordsmen_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_east_heavy_swordsmen_lowest.cas, max
+model_sprite		armenia, 60.0, mve_rex/data/sprites/armenia_east_heavy_swordsmen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_immortal
 skeleton		fs_archer, fs_spearman
 indiv_range		40
-texture			parthia, MVE/data/models_unit/textures/unit_east_immortal.tga
-model_flexi		MVE/data/models_unit/unit_immortals_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_immortals_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_immortals_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_immortals_lowest.cas, max
-model_sprite		parthia, 60.0, MVE/data/sprites/parthia_east_immortal_sprite.spr
+texture			parthia, mve_rex/data/models_unit/textures/unit_east_immortal.tga
+model_flexi		mve_rex/data/models_unit/unit_immortals_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_immortals_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_immortals_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_immortals_lowest.cas, max
+model_sprite		parthia, 60.0, mve_rex/data/sprites/parthia_east_immortal_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_spearbearer
 skeleton		fs_semi_fast_spearman
 indiv_range		40
-texture			parthia, MVE/data/models_unit/textures/unit_east_spearbearer.tga
-model_flexi		MVE/data/models_unit/unit_east_spearbearer_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_east_spearbearer_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_east_spearbearer_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_east_spearbearer_lowest.cas, max
-model_sprite		parthia, 60.0, MVE/data/sprites/parthia_east_spearbearer_sprite.spr
+texture			parthia, mve_rex/data/models_unit/textures/unit_east_spearbearer.tga
+model_flexi		mve_rex/data/models_unit/unit_east_spearbearer_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_east_spearbearer_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_east_spearbearer_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_east_spearbearer_lowest.cas, max
+model_sprite		parthia, 60.0, mve_rex/data/sprites/parthia_east_spearbearer_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			east_swordbearer
 skeleton		fs_semi_fast_swordsman
 indiv_range		40
-texture			parthia, MVE/data/models_unit/textures/unit_east_spearbearer.tga
-model_flexi		MVE/data/models_unit/unit_east_swordbearer_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_east_swordbearer_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_east_swordbearer_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_east_swordbearer_lowest.cas, max
-model_sprite		parthia, 60.0, MVE/data/sprites/parthia_east_swordbearer_sprite.spr
+texture			parthia, mve_rex/data/models_unit/textures/unit_east_spearbearer.tga
+model_flexi		mve_rex/data/models_unit/unit_east_swordbearer_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_east_swordbearer_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_east_swordbearer_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_east_swordbearer_lowest.cas, max
+model_sprite		parthia, 60.0, mve_rex/data/sprites/parthia_east_swordbearer_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			egyptian_heavy_infantry
 skeleton		fs_slow_swordsman
 indiv_range		40
-texture			egypt, MVE/data/models_unit/textures/unit_nile_infantry.tga
-model_flexi		MVE/data/models_unit/unit_nile_infantry_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_nile_infantry_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_nile_infantry_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_nile_infantry_lowest.cas, max
-model_sprite		egypt, 60.0, MVE/data/sprites/egypt_heavy_infantry_sprite.spr
+texture			egypt, mve_rex/data/models_unit/textures/unit_nile_infantry.tga
+model_flexi		mve_rex/data/models_unit/unit_nile_infantry_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_nile_infantry_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_nile_infantry_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_nile_infantry_lowest.cas, max
+model_sprite		egypt, 60.0, mve_rex/data/sprites/egypt_heavy_infantry_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			egyptian_medium_infantry
 skeleton		fs_swordsman
 indiv_range		40
-texture			egypt, MVE/data/models_unit/textures/unit_nile_axeman.tga
-model_flexi		MVE/data/models_unit/unit_nile_axeman_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_nile_axeman_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_nile_axeman_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_nile_axeman_lowest.cas, max
-model_sprite		egypt, 60.0, MVE/data/sprites/egypt_medium_infantry_sprite.spr
+texture			egypt, mve_rex/data/models_unit/textures/unit_nile_axeman.tga
+model_flexi		mve_rex/data/models_unit/unit_nile_axeman_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_nile_axeman_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_nile_axeman_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_nile_axeman_lowest.cas, max
+model_sprite		egypt, 60.0, mve_rex/data/sprites/egypt_medium_infantry_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			greek_spear_hypaspist
 skeleton		fs_javelinman, fs_slow_spearman
 indiv_range		40
-texture			macedon, MVE/data/models_unit/textures/unit_macedon_spear_hypaspist.tga
-texture			seleucid, MVE/data/models_unit/textures/unit_seleucid_spear_hypaspist.tga
-model_flexi		MVE/data/models_unit/unit_spear_hypaspist_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_spear_hypaspist_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_spear_hypaspist_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_spear_hypaspist_lowest.cas, max
-model_sprite		macedon, 60.0, MVE/data/sprites/macedon_greek_spear_hypaspist_sprite.spr
-model_sprite		seleucid, 60.0, MVE/data/sprites/seleucid_greek_spear_hypaspist_sprite.spr
+texture			macedon, mve_rex/data/models_unit/textures/unit_macedon_spear_hypaspist.tga
+texture			seleucid, mve_rex/data/models_unit/textures/unit_seleucid_spear_hypaspist.tga
+model_flexi		mve_rex/data/models_unit/unit_spear_hypaspist_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_spear_hypaspist_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_spear_hypaspist_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_spear_hypaspist_lowest.cas, max
+model_sprite		macedon, 60.0, mve_rex/data/sprites/macedon_greek_spear_hypaspist_sprite.spr
+model_sprite		seleucid, 60.0, mve_rex/data/sprites/seleucid_greek_spear_hypaspist_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			greek_swordsman
 skeleton		fs_javelinman, fs_swordsman
 indiv_range		40
-texture			macedon, MVE/data/models_unit/textures/unit_greek_swordsman_macedon.tga
-texture			seleucid, MVE/data/models_unit/textures/unit_greek_swordsman_seleucid.tga
-model_flexi		MVE/data/models_unit/unit_greek_swordsman_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_greek_swordsman_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_greek_swordsman_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_greek_swordsman_lowest.cas, max
-model_sprite		macedon, 60.0, MVE/data/sprites/macedon_swordsman_sprite.spr
-model_sprite		seleucid, 60.0, MVE/data/sprites/seleucid_swordsman_sprite.spr
+texture			macedon, mve_rex/data/models_unit/textures/unit_greek_swordsman_macedon.tga
+texture			seleucid, mve_rex/data/models_unit/textures/unit_greek_swordsman_seleucid.tga
+model_flexi		mve_rex/data/models_unit/unit_greek_swordsman_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_greek_swordsman_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_greek_swordsman_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_greek_swordsman_lowest.cas, max
+model_sprite		macedon, 60.0, mve_rex/data/sprites/macedon_swordsman_sprite.spr
+model_sprite		seleucid, 60.0, mve_rex/data/sprites/seleucid_swordsman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			iberian_spears
 skeleton		fs_javelinman, fs_spearman
 indiv_range		40
-texture			spain, MVE/data/models_unit/textures/unit_carthage_scutarius_spain.tga
-model_flexi		MVE/data/models_unit/unit_iberian_spears_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_iberian_spears_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_iberian_spears_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_iberian_spears_lowest.cas, max
-model_sprite		spain, 60.0, MVE/data/sprites/spain_iberian_spears_sprite.spr
+texture			spain, mve_rex/data/models_unit/textures/unit_carthage_scutarius_spain.tga
+model_flexi		mve_rex/data/models_unit/unit_iberian_spears_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_iberian_spears_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_iberian_spears_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_iberian_spears_lowest.cas, max
+model_sprite		spain, 60.0, mve_rex/data/sprites/spain_iberian_spears_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			kartli_axemen
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			armenia, MVE/data/models_unit/textures/unit_kartli_axemen.tga
-model_flexi		MVE/data/models_unit/unit_kartli_axemen_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_kartli_axemen_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_kartli_axemen_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_kartli_axemen_lowest.cas, max
-model_sprite		armenia, 60.0, MVE/data/sprites/armenia_kartli_axemen_sprite.spr
+texture			armenia, mve_rex/data/models_unit/textures/unit_kartli_axemen.tga
+model_flexi		mve_rex/data/models_unit/unit_kartli_axemen_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_kartli_axemen_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_kartli_axemen_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_kartli_axemen_lowest.cas, max
+model_sprite		armenia, 60.0, mve_rex/data/sprites/armenia_kartli_axemen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			maiden_spears
 skeleton		fs_spearman
 indiv_range		40
-texture			scythia, MVE/data/models_unit/textures/unit_maiden_spears.tga
-model_flexi		MVE/data/models_unit/unit_maiden_spears_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_maiden_spears_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_maiden_spears_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_maiden_spears_lowest.cas, max
-model_sprite		scythia, 60.0, MVE/data/sprites/scythia_maiden_spears_sprite.spr
+texture			scythia, mve_rex/data/models_unit/textures/unit_maiden_spears.tga
+model_flexi		mve_rex/data/models_unit/unit_maiden_spears_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_maiden_spears_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_maiden_spears_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_maiden_spears_lowest.cas, max
+model_sprite		scythia, 60.0, mve_rex/data/sprites/scythia_maiden_spears_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			noble_swordsmen
 skeleton		fs_slow_swordsman
 indiv_range		40
-texture			scythia, MVE/data/models_unit/textures/unit_noble_swordsmen.tga
-model_flexi		MVE/data/models_unit/unit_noble_swordsmen_high.CAS, 8
-model_flexi		MVE/data/models_unit/unit_noble_swordsmen_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_noble_swordsmen_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_noble_swordsmen_lowest.cas, max
-model_sprite		scythia, 60.0, MVE/data/sprites/scythia_noble_swordsmen_sprite.spr
+texture			scythia, mve_rex/data/models_unit/textures/unit_noble_swordsmen.tga
+model_flexi		mve_rex/data/models_unit/unit_noble_swordsmen_high.CAS, 8
+model_flexi		mve_rex/data/models_unit/unit_noble_swordsmen_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_noble_swordsmen_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_noble_swordsmen_lowest.cas, max
+model_sprite		scythia, 60.0, mve_rex/data/sprites/scythia_noble_swordsmen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			numidian_swords
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			numidia, MVE/data/models_unit/textures/unit_numidian_infantry.tga
-model_flexi		MVE/data/models_unit/unit_numidian_swords_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_numidian_swords_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_numidian_swords_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_numidian_swords_lowest.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_numidian_swords_sprite.spr
+texture			numidia, mve_rex/data/models_unit/textures/unit_numidian_infantry.tga
+model_flexi		mve_rex/data/models_unit/unit_numidian_swords_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_numidian_swords_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_numidian_swords_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_numidian_swords_lowest.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_numidian_swords_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			numidian_noble_cav
 skeleton		fs_hc_javelinman, fs_hc_swordsman
 indiv_range		40
-texture			numidia, MVE/data/models_unit/textures/unit_numidian_noble_cavalry.tga
-model_flexi		MVE/data/models_unit/unit_numidian_noble_cavalry_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_numidian_noble_cavalry_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_numidian_noble_cavalry_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_numidian_noble_cavalry_lowest.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_numidian_noble_cav_sprite.spr
+texture			numidia, mve_rex/data/models_unit/textures/unit_numidian_noble_cavalry.tga
+model_flexi		mve_rex/data/models_unit/unit_numidian_noble_cavalry_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_numidian_noble_cavalry_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_numidian_noble_cavalry_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_numidian_noble_cavalry_lowest.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_numidian_noble_cav_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			numidian_spears
 skeleton		fs_slow_spearman
 indiv_range		40
-texture			numidia, MVE/data/models_unit/textures/unit_numidian_infantry.tga
-model_flexi		MVE/data/models_unit/unit_numidian_spears_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_numidian_spears_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_numidian_spears_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_numidian_spears_lowest.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_numidian_spears_sprite.spr
+texture			numidia, mve_rex/data/models_unit/textures/unit_numidian_infantry.tga
+model_flexi		mve_rex/data/models_unit/unit_numidian_spears_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_numidian_spears_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_numidian_spears_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_numidian_spears_lowest.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_numidian_spears_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			pontic_heavy_swords
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_pontic_heavy_swords.tga
-model_flexi		MVE/data/models_unit/unit_pontic_heavy_swords_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_pontic_heavy_swords_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_pontic_heavy_swords_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_pontic_heavy_swords_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_pontic_heavy_swords_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_pontic_heavy_swords.tga
+model_flexi		mve_rex/data/models_unit/unit_pontic_heavy_swords_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_pontic_heavy_swords_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_pontic_heavy_swords_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_pontic_heavy_swords_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_pontic_heavy_swords_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			pontic_peltast
 skeleton		fs_semi_fast_javelinman, fs_semi_fast_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_pontic_peltast.tga
-model_flexi		MVE/data/models_unit/unit_pontic_peltast_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_pontic_peltast_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_pontic_peltast_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_pontic_peltast_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_pontic_peltast_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_pontic_peltast.tga
+model_flexi		mve_rex/data/models_unit/unit_pontic_peltast_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_pontic_peltast_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_pontic_peltast_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_pontic_peltast_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_pontic_peltast_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			pontic_royal_guard
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_pontic_royal_guard.tga
-model_flexi		MVE/data/models_unit/unit_pontic_royal_guard_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_pontic_royal_guard_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_pontic_royal_guard_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_pontic_royal_guard_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_pontic_royal_guard_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_pontic_royal_guard.tga
+model_flexi		mve_rex/data/models_unit/unit_pontic_royal_guard_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_pontic_royal_guard_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_pontic_royal_guard_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_pontic_royal_guard_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_pontic_royal_guard_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			pontic_swordsman
 skeleton		fs_javelinman, fs_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_pontic_swordsman.tga
-model_flexi		MVE/data/models_unit/unit_pontic_swordsman_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_pontic_swordsman_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_pontic_swordsman_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_pontic_swordsman_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_pontic_swordsman_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_pontic_swordsman.tga
+model_flexi		mve_rex/data/models_unit/unit_pontic_swordsman_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_pontic_swordsman_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_pontic_swordsman_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_pontic_swordsman_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_pontic_swordsman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			royal_swordsman
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			macedon, MVE/data/models_unit/textures/unit_macedon_royal_swordsman.tga
-model_flexi		MVE/data/models_unit/unit_royal_swordsman_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_royal_swordsman_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_royal_swordsman_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_royal_swordsman_lowest.cas, max
-model_sprite		macedon, 60.0, MVE/data/sprites/macedon_royal_swordsman_sprite.spr
+texture			macedon, mve_rex/data/models_unit/textures/unit_macedon_royal_swordsman.tga
+model_flexi		mve_rex/data/models_unit/unit_royal_swordsman_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_royal_swordsman_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_royal_swordsman_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_royal_swordsman_lowest.cas, max
+model_sprite		macedon, 60.0, mve_rex/data/sprites/macedon_royal_swordsman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			scythian_spearman
 skeleton		fs_spearman
 indiv_range		40
-texture			scythia, MVE/data/models_unit/textures/unit_barb_warband_scythia_.tga
-model_flexi		MVE/data/models_unit/unit_scythia_spearman_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_scythia_spearman_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_scythia_spearman_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_scythia_spearman_lowest.cas, max
-model_sprite		scythia, 60.0, MVE/data/sprites/scythia_scythian_spearman_sprite.spr
+texture			scythia, mve_rex/data/models_unit/textures/unit_barb_warband_scythia_.tga
+model_flexi		mve_rex/data/models_unit/unit_scythia_spearman_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_scythia_spearman_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_scythia_spearman_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_scythia_spearman_lowest.cas, max
+model_sprite		scythia, 60.0, mve_rex/data/sprites/scythia_scythian_spearman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			shield_cavalry
 skeleton		fs_hc_spearman, fs_hc_swordsman
 indiv_range		40
-texture			spain, MVE/data/models_unit/textures/unit_shield_warrior.tga
-model_flexi		MVE/data/models_unit/unit_shield_cavalry_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_shield_cavalry_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_shield_cavalry_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_shield_cavalry_lowest.cas, max
-model_sprite		spain, 60.0, MVE/data/sprites/spain_shield_cavalry_sprite.spr
+texture			spain, mve_rex/data/models_unit/textures/unit_shield_warrior.tga
+model_flexi		mve_rex/data/models_unit/unit_shield_cavalry_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_shield_cavalry_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_shield_cavalry_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_shield_cavalry_lowest.cas, max
+model_sprite		spain, 60.0, mve_rex/data/sprites/spain_shield_cavalry_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			shield_warrior
 skeleton		fs_javelinman, fs_swordsman
 indiv_range		40
-texture			spain, MVE/data/models_unit/textures/unit_shield_warrior.tga
-model_flexi		MVE/data/models_unit/unit_shield_warrior_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_shield_warrior_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_shield_warrior_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_shield_warrior_lowest.cas, max
-model_sprite		spain, 60.0, MVE/data/sprites/spain_shield_warrior_sprite.spr
+texture			spain, mve_rex/data/models_unit/textures/unit_shield_warrior.tga
+model_flexi		mve_rex/data/models_unit/unit_shield_warrior_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_shield_warrior_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_shield_warrior_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_shield_warrior_lowest.cas, max
+model_sprite		spain, 60.0, mve_rex/data/sprites/spain_shield_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			silver_swordsman
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			seleucid, MVE/data/models_unit/textures/unit_silver_shield_swords.tga
-model_flexi		MVE/data/models_unit/unit_silver_swordsman_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_silver_swordsman_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_silver_swordsman_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_silver_swordsman_lowest.cas, max
-model_sprite		seleucid, 60.0, MVE/data/sprites/seleucid_silver_swordsman_sprite.spr
+texture			seleucid, mve_rex/data/models_unit/textures/unit_silver_shield_swords.tga
+model_flexi		mve_rex/data/models_unit/unit_silver_swordsman_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_silver_swordsman_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_silver_swordsman_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_silver_swordsman_lowest.cas, max
+model_sprite		seleucid, 60.0, mve_rex/data/sprites/seleucid_silver_swordsman_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			spear_warrior
 skeleton		fs_spearman
 indiv_range		40
-texture			dacia, MVE/data/models_unit/textures/unit_spear_warrior_dacia.tga
-texture			gauls, MVE/data/models_unit/textures/unit_spear_warrior_gaul.tga
-model_flexi		MVE/data/models_unit/unit_spear_warrior_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_spear_warrior_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_spear_warrior_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_spear_warrior_lowest.cas, max
-model_sprite		dacia, 60.0, MVE/data/sprites/dacia_spear_warrior_sprite.spr
-model_sprite		gauls, 60.0, MVE/data/sprites/gauls_spear_warrior_sprite.spr
+texture			dacia, mve_rex/data/models_unit/textures/unit_spear_warrior_dacia.tga
+texture			gauls, mve_rex/data/models_unit/textures/unit_spear_warrior_gaul.tga
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_lowest.cas, max
+model_sprite		dacia, 60.0, mve_rex/data/sprites/dacia_spear_warrior_sprite.spr
+model_sprite		gauls, 60.0, mve_rex/data/sprites/gauls_spear_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			spear_warrior_briton
 skeleton		fs_spearman
 indiv_range		40
-texture			britons, MVE/data/models_unit/textures/unit_spear_warrior_briton.tga
-model_flexi		MVE/data/models_unit/unit_spear_warrior_briton_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_spear_warrior_briton_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_spear_warrior_briton_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_spear_warrior_briton_lowest.cas, max
-model_sprite		britons, 60.0, MVE/data/sprites/britons_spear_warrior_sprite.spr
+texture			britons, mve_rex/data/models_unit/textures/unit_spear_warrior_briton.tga
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_briton_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_briton_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_briton_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_briton_lowest.cas, max
+model_sprite		britons, 60.0, mve_rex/data/sprites/britons_spear_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			spear_warrior_german
 skeleton		fs_spearman, fs_swordsman
 indiv_range		40
-texture			germans, MVE/data/models_unit/textures/unit_spear_warrior_german.tga
-model_flexi		MVE/data/models_unit/unit_spear_warrior_german_high.CAS, 8
-model_flexi		MVE/data/models_unit/unit_spear_warrior_german_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_spear_warrior_german_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_spear_warrior_german_lowest.cas, max
-model_sprite		germans, 60.0, MVE/data/sprites/germans_spear_warrior_sprite.spr
+texture			germans, mve_rex/data/models_unit/textures/unit_spear_warrior_german.tga
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_german_high.CAS, 8
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_german_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_german_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_spear_warrior_german_lowest.cas, max
+model_sprite		germans, 60.0, mve_rex/data/sprites/germans_spear_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			sword_warrior
 skeleton		fs_swordsman
 indiv_range		40
-texture			germans, MVE/data/models_unit/textures/unit_sword_warrior.tga
-model_flexi		MVE/data/models_unit/unit_sword_warrior_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_sword_warrior_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_sword_warrior_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_sword_warrior_lowest.cas, max
-model_sprite		germans, 60.0, MVE/data/sprites/germans_sword_warrior_sprite.spr
+texture			germans, mve_rex/data/models_unit/textures/unit_sword_warrior.tga
+model_flexi		mve_rex/data/models_unit/unit_sword_warrior_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_sword_warrior_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_sword_warrior_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_sword_warrior_lowest.cas, max
+model_sprite		germans, 60.0, mve_rex/data/sprites/germans_sword_warrior_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			thorakitai
 skeleton		fs_javelinman, fs_slow_swordsman
 indiv_range		40
-texture			greek_cities, MVE/data/models_unit/textures/unit_thorakitai.tga
-model_flexi		MVE/data/models_unit/unit_thorakitai_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_thorakitai_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_thorakitai_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_thorakitai_lowest.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_cities_thorakitai_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/textures/unit_thorakitai.tga
+model_flexi		mve_rex/data/models_unit/unit_thorakitai_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_thorakitai_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_thorakitai_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_thorakitai_lowest.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_thorakitai_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			thracian_noble
 skeleton		fs_slow_2handed
 indiv_range		40
-texture			thrace, MVE/data/models_unit/textures/unit_thracian_noble.tga
-model_flexi		MVE/data/models_unit/unit_thracian_noble_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_thracian_noble_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_thracian_noble_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_thracian_noble_lowest.cas, max
-model_sprite		thrace, 60.0, MVE/data/sprites/thrace_thracian_noble_sprite.spr
+texture			thrace, mve_rex/data/models_unit/textures/unit_thracian_noble.tga
+model_flexi		mve_rex/data/models_unit/unit_thracian_noble_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_thracian_noble_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_thracian_noble_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_thracian_noble_lowest.cas, max
+model_sprite		thrace, 60.0, mve_rex/data/sprites/thrace_thracian_noble_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			thureophoroi
 skeleton		fs_javelinman, fs_spearman
 indiv_range		40
-texture			greek_cities, MVE/data/models_unit/textures/unit_thureophoroi.tga
-model_flexi		MVE/data/models_unit/unit_thureophoroi_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_thureophoroi_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_thureophoroi_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_thureophoroi_lowest.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_cities_thorakitai_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/textures/unit_thureophoroi.tga
+model_flexi		mve_rex/data/models_unit/unit_thureophoroi_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_thureophoroi_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_thureophoroi_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_thureophoroi_lowest.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_thorakitai_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			tribesmen
 skeleton		fs_spearman
 indiv_range		40
-texture			scythia, MVE/data/models_unit/textures/unit_tribesmen.tga
-model_flexi		MVE/data/models_unit/unit_barb_infantry_high.cas, 8
-model_flexi		MVE/data/models_unit/unit_barb_infantry_med.cas, 15
-model_flexi		MVE/data/models_unit/unit_barb_infantry_low.cas, 30
-model_flexi		MVE/data/models_unit/unit_barb_infantry_lowest.cas, max
-model_sprite		scythia, 60.0, MVE/data/sprites/scythia_tribesmen_sprite.spr
+texture			scythia, mve_rex/data/models_unit/textures/unit_tribesmen.tga
+model_flexi		mve_rex/data/models_unit/unit_barb_infantry_high.cas, 8
+model_flexi		mve_rex/data/models_unit/unit_barb_infantry_med.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_barb_infantry_low.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_barb_infantry_lowest.cas, max
+model_sprite		scythia, 60.0, mve_rex/data/sprites/scythia_tribesmen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			phrygian_axemen
 skeleton		fs_swordsman
 indiv_range		40
-texture			pontus, MVE/data/models_unit/textures/unit_phrygian_axemen.tga
-model_flexi		MVE/data/models_unit/unit_phrygian_axemen_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_phrygian_axemen_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_phrygian_axemen_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_phrygian_axemen_lowest.cas, max
-model_sprite		pontus, 60.0, MVE/data/sprites/pontus_phrygian_axemen_sprite.spr
+texture			pontus, mve_rex/data/models_unit/textures/unit_phrygian_axemen.tga
+model_flexi		mve_rex/data/models_unit/unit_phrygian_axemen_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_phrygian_axemen_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_phrygian_axemen_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_phrygian_axemen_lowest.cas, max
+model_sprite		pontus, 60.0, mve_rex/data/sprites/pontus_phrygian_axemen_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			greek_new_spartan
 skeleton		fs_slow_spearman, fs_slow_swordsman
 indiv_range		40
-texture			greek_cities, MVE/data/models_unit/new_spartan/textures/unit_new_spartan.tga
-model_flexi		MVE/data/models_unit/new_spartan/unit_greek_new_spartan_400.cas, 8
-model_flexi		MVE/data/models_unit/new_spartan/unit_greek_new_spartan_300.cas, 15
-model_flexi		MVE/data/models_unit/new_spartan/unit_greek_new_spartan_200.cas, 30
-model_flexi		MVE/data/models_unit/new_spartan/unit_greek_new_spartan_100.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/new_spartan/greek_new_spartan_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/new_spartan/textures/unit_new_spartan.tga
+model_flexi		mve_rex/data/models_unit/new_spartan/unit_greek_new_spartan_400.cas, 8
+model_flexi		mve_rex/data/models_unit/new_spartan/unit_greek_new_spartan_300.cas, 15
+model_flexi		mve_rex/data/models_unit/new_spartan/unit_greek_new_spartan_200.cas, 30
+model_flexi		mve_rex/data/models_unit/new_spartan/unit_greek_new_spartan_100.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/new_spartan/greek_new_spartan_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			long_shield_spear
 skeleton		fs_spearman, fs_swordsman
 indiv_range		40
-texture			numidia, MVE/data/models_unit/textures/unit_carthage_medium_infantry_numidia.tga
-model_flexi		MVE/data/models_unit/unit_carthage_medium_infantry_high.cas, 15
-model_flexi		MVE/data/models_unit/unit_carthage_medium_infantry_med.cas, 30
-model_flexi		MVE/data/models_unit/unit_carthage_medium_infantry_low.cas, 40
-model_flexi		MVE/data/models_unit/unit_carthage_medium_infantry_lowest.cas, max
-model_sprite		numidia, 60.0, MVE/data/sprites/numidia_long_shield_spear_sprite.spr
+texture			numidia, mve_rex/data/models_unit/textures/unit_carthage_medium_infantry_numidia.tga
+model_flexi		mve_rex/data/models_unit/unit_carthage_medium_infantry_high.cas, 15
+model_flexi		mve_rex/data/models_unit/unit_carthage_medium_infantry_med.cas, 30
+model_flexi		mve_rex/data/models_unit/unit_carthage_medium_infantry_low.cas, 40
+model_flexi		mve_rex/data/models_unit/unit_carthage_medium_infantry_lowest.cas, max
+model_sprite		numidia, 60.0, mve_rex/data/sprites/numidia_long_shield_spear_sprite.spr
 model_tri		400, 0.5f, 0.5f, 0.5f
 
 type				greek_thureophoroi
 skeleton			fs_fast_javelinman, fs_fast_spearman
 indiv_range			40
-texture			greek_cities, MVE/data/models_unit/textures/thureophoroi_greek.tga
-texture			egypt, MVE/data/models_unit/textures/thureophoroi_egypt.tga
-texture			macedon, MVE/data/models_unit/textures/thureophoroi_macedon.tga
-texture			seleucid, MVE/data/models_unit/textures/thureophoroi_seleucid.tga
-model_flexi			MVE/data/models_unit/unit_greek_infantry_medium_high.cas, 15
-model_flexi			MVE/data/models_unit/unit_greek_infantry_medium_high.cas, 30
-model_flexi			MVE/data/models_unit/unit_greek_infantry_medium_high.cas, 40
-model_flexi			MVE/data/models_unit/unit_greek_infantry_medium_high.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_cities_greek_heavy_peltast_sprite.spr
-model_sprite		seleucid, 60.0, MVE/data/sprites/seleucid_greek_peltast_sprite.spr
-model_sprite		macedon, 60.0, MVE/data/sprites/macedon_greek_peltast_sprite.spr
-model_sprite		egypt, 60.0, MVE/data/sprites/egypt_egyptian_peltast_sprite.spr
+texture			greek_cities, mve_rex/data/models_unit/textures/thureophoroi_greek.tga
+texture			egypt, mve_rex/data/models_unit/textures/thureophoroi_egypt.tga
+texture			macedon, mve_rex/data/models_unit/textures/thureophoroi_macedon.tga
+texture			seleucid, mve_rex/data/models_unit/textures/thureophoroi_seleucid.tga
+model_flexi			mve_rex/data/models_unit/unit_greek_infantry_medium_high.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_greek_infantry_medium_high.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_greek_infantry_medium_high.cas, 40
+model_flexi			mve_rex/data/models_unit/unit_greek_infantry_medium_high.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_greek_heavy_peltast_sprite.spr
+model_sprite		seleucid, 60.0, mve_rex/data/sprites/seleucid_greek_peltast_sprite.spr
+model_sprite		macedon, 60.0, mve_rex/data/sprites/macedon_greek_peltast_sprite.spr
+model_sprite		egypt, 60.0, mve_rex/data/sprites/egypt_egyptian_peltast_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				east_axe_01
 skeleton			fs_swordsman							; axe has same anims as club, and shares some with sword
 indiv_range			40
-texture				parthia, MVE/data/models_unit/textures/east_axe_parthia.tga
-texture				armenia, MVE/data/models_unit/textures/east_axe_armenia.tga
-model_flexi_m		MVE/data/models_unit/east_axe.cas, 8
-model_flexi_m		MVE/data/models_unit/east_axe.cas, 15
-model_flexi			MVE/data/models_unit/east_axe.cas, 30
-model_flexi			MVE/data/models_unit/east_axe.cas, max
-model_sprite		armenia, 60.0, MVE/data/sprites/armenia_east_axe_sprite.spr
-model_sprite		parthia, 60.0, MVE/data/sprites/parthia_east_axe_sprite.spr
+texture				parthia, mve_rex/data/models_unit/textures/east_axe_parthia.tga
+texture				armenia, mve_rex/data/models_unit/textures/east_axe_armenia.tga
+model_flexi_m		mve_rex/data/models_unit/east_axe.cas, 8
+model_flexi_m		mve_rex/data/models_unit/east_axe.cas, 15
+model_flexi			mve_rex/data/models_unit/east_axe.cas, 30
+model_flexi			mve_rex/data/models_unit/east_axe.cas, max
+model_sprite		armenia, 60.0, mve_rex/data/sprites/armenia_east_axe_sprite.spr
+model_sprite		parthia, 60.0, mve_rex/data/sprites/parthia_east_axe_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				gaul_revenger
 skeleton			fs_slow_swordsman
 indiv_range			40
-texture				gauls, MVE/data/models_unit/textures/gaul_revenger.tga
-model_flexi			MVE/data/models_unit/gaul_revenger.cas, 8
-model_flexi			MVE/data/models_unit/gaul_revenger.cas, 15
-model_flexi			MVE/data/models_unit/gaul_revenger.cas, 30
-model_flexi			MVE/data/models_unit/gaul_revenger.cas, 40
-model_flexi			MVE/data/models_unit/gaul_revenger.cas, max
-model_sprite		gauls, 60.0, MVE/data/sprites/gauls_gaul_revenger_sprite.spr
+texture				gauls, mve_rex/data/models_unit/textures/gaul_revenger.tga
+model_flexi			mve_rex/data/models_unit/gaul_revenger.cas, 8
+model_flexi			mve_rex/data/models_unit/gaul_revenger.cas, 15
+model_flexi			mve_rex/data/models_unit/gaul_revenger.cas, 30
+model_flexi			mve_rex/data/models_unit/gaul_revenger.cas, 40
+model_flexi			mve_rex/data/models_unit/gaul_revenger.cas, max
+model_sprite		gauls, 60.0, mve_rex/data/sprites/gauls_gaul_revenger_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				east_central_semitic_elite_mercswords
 skeleton			fs_s1_javelinman, fs_slow_swordsman
 indiv_range			40
-texture				slave, MVE/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_slave.tga
-texture				merc, MVE/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
-texture				seleucid, MVE/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
-texture				egypt, MVE/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
-model_flexi			MVE/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 15
-model_flexi			MVE/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 30
-model_flexi			MVE/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 40
-model_flexi			MVE/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, max
-model_sprite		60.0, MVE/data/sprites/slave_east_peasant_sprite.spr
-model_sprite		slave, 60.0, MVE/data/sprites/slave_east_peasant_sprite.spr
-model_sprite		merc, 60.0, MVE/data/sprites/slave_east_peasant_sprite.spr
+texture				slave, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_slave.tga
+texture				merc, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
+texture				seleucid, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
+texture				egypt, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
+model_flexi			mve_rex/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 15
+model_flexi			mve_rex/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 30
+model_flexi			mve_rex/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, 40
+model_flexi			mve_rex/data/models_unit/NETW/zxf_east_semitic_elitesword.cas, max
+model_sprite		60.0, mve_rex/data/sprites/slave_east_peasant_sprite.spr
+model_sprite		slave, 60.0, mve_rex/data/sprites/slave_east_peasant_sprite.spr
+model_sprite		merc, 60.0, mve_rex/data/sprites/slave_east_peasant_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				briton_longbow
 skeleton			fs_archer, fs_dagger
 indiv_range			40
-texture				britons, MVE/data/models_unit/textures/briton_longbow.tga
-model_flexi			MVE/data/models_unit/briton_longbow.cas, 15
-model_flexi			MVE/data/models_unit/briton_longbow.cas, 30
-model_flexi			MVE/data/models_unit/briton_longbow.cas, 40
-model_flexi			MVE/data/models_unit/briton_longbow.cas, max
-model_sprite		britons, 60.0, MVE/data/sprites/britons_briton_longbow_sprite.spr
+texture				britons, mve_rex/data/models_unit/textures/briton_longbow.tga
+model_flexi			mve_rex/data/models_unit/briton_longbow.cas, 15
+model_flexi			mve_rex/data/models_unit/briton_longbow.cas, 30
+model_flexi			mve_rex/data/models_unit/briton_longbow.cas, 40
+model_flexi			mve_rex/data/models_unit/briton_longbow.cas, max
+model_sprite		britons, 60.0, mve_rex/data/sprites/britons_briton_longbow_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_hoplite_late
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
-texture				greek_cities, MVE/data/models_unit/textures/greek_hoplite_late.tga
-texture				slave, MVE/data/models_unit/textures/greek_hoplite_late_slave.tga
-model_flexi			MVE/data/models_unit/greek_hoplite_late.cas, 15
-model_flexi			MVE/data/models_unit/greek_hoplite_late.cas, 30
-model_flexi			MVE/data/models_unit/greek_hoplite_late.cas, 40
-model_flexi			MVE/data/models_unit/greek_hoplite_late.cas, max
-model_sprite		greek_cities, 60.0, MVE/data/sprites/greek_cities_greek_hoplite_late_sprite.spr
-model_sprite		slave, 60.0, MVE/data/sprites/slave_greek_hoplite_late_sprite.spr
+texture				greek_cities, mve_rex/data/models_unit/textures/greek_hoplite_late.tga
+texture				slave, mve_rex/data/models_unit/textures/greek_hoplite_late_slave.tga
+model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 15
+model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 30
+model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 40
+model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, max
+model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_greek_hoplite_late_sprite.spr
+model_sprite		slave, 60.0, mve_rex/data/sprites/slave_greek_hoplite_late_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
