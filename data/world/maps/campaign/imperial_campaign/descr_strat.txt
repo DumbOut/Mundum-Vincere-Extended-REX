@@ -30,13 +30,13 @@ nonplayable
 end
 
 
-start_date	-313 summer
-end_date	996 summer
+start_date	-314 summer
+end_date	997 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 19
-pirate_spawn_value 1
+brigand_spawn_value 21
+pirate_spawn_value 3
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
@@ -13639,7 +13639,7 @@ relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	slave, balanced_smith
-denari	-194999
+denari	-199999
 settlement
 {
 	level town
@@ -13669,7 +13669,7 @@ settlement
 	region Acragas_R
 
 	year_founded 0
-	population 650
+	population 600
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -13688,7 +13688,7 @@ settlement
 	region Bosphorus
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator greek_cities
 	building
