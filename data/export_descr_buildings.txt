@@ -12,7 +12,7 @@ building core_building
         {
             capability
             {
-				taxable_income_bonus bonus -2 requires factions { slave, }
+				taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
