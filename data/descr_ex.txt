@@ -10,15 +10,73 @@
 rolloff_factor 0.25
 
 ; Strategy map sound rolloff (same scale as above)
-stratmap_rolloff_factor 0.25
+stratmap_rolloff_factor 0.4
 
 ; Doppler pitch-shift from camera movement (0 = off, 1 = realistic)
 doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 82
+max_factions 84
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
 superfaction_min_regions 32
+
+; Battle camera height limits (above terrain, in world units)
+; Min: how close you can zoom in (default 0.4, floor 0.1)
+; Max: how far you can zoom out (default 100.0)
+camera_min_height 0.4
+camera_max_height 100.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; UI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Hide character age display in UI (default false)
+hide_age false
+
+; Hide settlement upgrade population requirement (default false)
+hide_upgrade_pop false
+
+; Disable the player console (tilde key). Scripts still work. (default false)
+disable_console false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Gameplay
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Population changes when units are disbanded (default true)
+population_on_disband true
+
+; Any general can attempt night attacks regardless of traits (default false)
+easy_nightfight false
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Bribery
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Toggle whether diplomats can bribe armies (default true)
+bribe_armies true
+
+; Toggle whether diplomats can bribe settlements (default true)
+bribe_settlements true
+
+; Cost multiplier for army bribes (default 1.0)
+bribe_cost_army 1.0
+
+; Cost multiplier for settlement bribes (default 1.0)
+bribe_cost_settlement 1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Horde
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Initial XP for horde units (0-9, default 0)
+horde_initial_xp 0
+
+; Initial armor upgrade level for horde units (0-3, default 0)
+horde_initial_armor 0
+
+; Initial weapon upgrade level for horde units (0-3, default 0)
+horde_initial_weapon 0

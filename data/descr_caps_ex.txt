@@ -9,3 +9,8 @@
 ; must use sprite NAMES instead (e.g. logo_index FACTION_LOGO_EMPIRE_WEST).
 ; The name must match the sprite's name attribute in the .sd.xml file. Integer indices still work with rsd (binary) format.
 sprite_format  xml
+
+; portrait pool mode:
+;   merged   = portraits from all overlay scopes (mod + vanilla) are pooled together (default)
+;   isolated = only portraits from the highest-priority scope are used (for total conversions)
+portrait_pool  merged

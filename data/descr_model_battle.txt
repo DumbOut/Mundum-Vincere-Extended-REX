@@ -623,6 +623,7 @@ skeleton_camel		fs_hc_swordsman
 indiv_range			40
 texture				gauls, data/models_unit/textures/officer_barb_general_gaul.tga			
 texture				britons, data/models_unit/textures/officer_barb_general_briton.tga		
+texture                         spain, data/models_unit/textures/officer_barb_general_spain.tga	
 ;texture				spain, data/models_unit/textures/officer_celt_general_spain.tga			;SHOULD USE CARTHAGINIAN NOW?
 model_flexi		data/models_unit/officer_barb_general_high.CAS, 8
 model_flexi		data/models_unit/officer_barb_general_med.CAS, 15
@@ -4001,5 +4002,27 @@ model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 40
 model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, max
 model_sprite		greek_cities, 60.0, mve_rex/data/sprites/greek_cities_greek_hoplite_late_sprite.spr
 model_sprite		slave, 60.0, mve_rex/data/sprites/slave_greek_hoplite_late_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;;; New Unit Types ;;;
+
+type				numidia_levy_swordsmen_01
+skeleton			fs_semi_fast_swordsman
+indiv_range			40
+texture				numidia, mve_rex/data/models_unit/textures/numidia_levy_swordsmen_01_numidia.tga
+model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, 15
+model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, 30
+model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, 40
+model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type                        machimoi_thureophoroi_01
+skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
+indiv_range                 40
+texture                     numidia, data/models_unit/NL/textures/unit_nl_egyptian_machimoi_thureophoroi_numidia.tga
+model_flexi                 data/models_unit/NL/unit_nl_egyptian_machimoi_thureophoroi_01_high.cas, 15
+model_flexi                 data/models_unit/NL/unit_nl_egyptian_machimoi_thureophoroi_01_high.cas, 30
+model_flexi                 data/models_unit/NL/unit_nl_egyptian_machimoi_thureophoroi_01_high.cas, 40
+model_flexi                 data/models_unit/NL/unit_nl_egyptian_machimoi_thureophoroi_01_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 

@@ -30,12 +30,12 @@ nonplayable
 end
 
 
-start_date	-314 summer
-end_date	997 summer
+start_date	-316 summer
+end_date	998 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 21
+brigand_spawn_value 32
 pirate_spawn_value 3
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13106,14 +13106,14 @@ relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	scythia, trader smith
-denari	9000
+denari	3000
 settlement
 {
 	level large_town
 	region ScythianMetropolis_R
 
 	year_founded 0
-	population 2500
+	population 2200
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -13140,7 +13140,7 @@ settlement
 	region Ojum_R
 
 	year_founded 0
-	population 800
+	population 700
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -13639,7 +13639,7 @@ relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	slave, balanced_smith
-denari	-199999
+denari	-899999
 settlement
 {
 	level town

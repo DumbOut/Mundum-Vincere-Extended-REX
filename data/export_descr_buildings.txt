@@ -384,7 +384,7 @@ building barracks
         {
             capability
             {
-				taxable_income_bonus bonus -3 requires factions { slave, }
+				taxable_income_bonus bonus -2 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
@@ -396,6 +396,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
+                recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "east infantry"  0  requires factions { eastern, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egyptian, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
@@ -438,7 +439,9 @@ building barracks
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "dacian warrior"  0  requires factions { dacia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
+                recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, } 
+                recruit "machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "numidian desert warriors"  0  requires factions { numidia, } 
@@ -476,6 +479,7 @@ building barracks
                 recruit "carthaginian infantry"  0  requires factions { spain, }
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, } 
+                recruit "machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "spanish scutarii"  0  requires factions { spain, } 
@@ -508,6 +512,7 @@ building barracks
                 recruit "maiden spears"  0  requires factions { scythia, } 
                 recruit "noble swordsmen"  0  requires factions { scythia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
+                recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { eastern, } 
@@ -561,6 +566,7 @@ building barracks
                 recruit "carthaginian infantry"  0  requires factions { spain, }
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, } 
+                recruit "machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "spanish scutarii"  0  requires factions { spain, } 
@@ -595,6 +601,7 @@ building barracks
                 recruit "maiden spears"  0  requires factions { scythia, } 
                 recruit "noble swordsmen"  0  requires factions { scythia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
+                recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "numidian spears"  0  requires factions { numidia, } 
@@ -667,6 +674,7 @@ building barracks
                 recruit "carthaginian infantry"  0  requires factions { spain, }
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, } 
+                recruit "machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "spanish scutarii"  0  requires factions { spain, } 
@@ -701,6 +709,7 @@ building barracks
                 recruit "maiden spears"  0  requires factions { scythia, } 
                 recruit "noble swordsmen"  0  requires factions { scythia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
+                recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "numidian spears"  0  requires factions { numidia, } 
