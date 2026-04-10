@@ -2110,6 +2110,7 @@ indiv_range			40
 texture				armenia, data/models_unit/textures/unit_persian_sparabara_armenia.tga
 texture				parthia, data/models_unit/textures/unit_persian_sparabara_parthia.tga
 texture				pontus, data/models_unit/textures/unit_persian_sparabara_pontus.tga
+texture				seleucid, data/models_unit/NL/seleucid/textures/unit_persian_sparabara_rebel.tga
 texture				slave, data/models_unit/textures/unit_persian_sparabara_rebel.tga
 model_flexi_m		data/models_unit/unit_persian_sparabara_high.cas, 15
 model_flexi_m		data/models_unit/unit_persian_sparabara_med.cas, 30
@@ -4016,7 +4017,7 @@ model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, 40
 model_flexi			mve_rex/data/models_unit/numidia_levy_swordsmen_01.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-type                        machimoi_thureophoroi_01
+type                        unit_nl_egyptian_machimoi_thureophoroi_01
 skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
 indiv_range                 40
 texture                     numidia, data/models_unit/NL/textures/unit_nl_egyptian_machimoi_thureophoroi_numidia.tga

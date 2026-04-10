@@ -2927,7 +2927,7 @@ resource	slaves	353	,	6		;	TerraIncognita3 (east africa / arabia)
 
 faction	romans_julii, comfortable caesar
 superfaction romans_senate
-denari	3000
+denari	2400
 settlement
 {
 	level large_town
@@ -3063,7 +3063,7 @@ relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
 faction	romans_brutii, balanced stalin
 superfaction romans_senate
-denari	3000
+denari	2400
 settlement
 {
 	level large_town
@@ -3200,7 +3200,7 @@ relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
 
 faction	romans_scipii, bureaucrat napoleon
 superfaction romans_senate
-denari	3000
+denari	2400
 settlement
 {
 	level large_town
@@ -3259,6 +3259,21 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Minturnae_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ;	Rhegium
 character	Cornelius Scipio, named character, leader, age 54, , x 253, y 284
 traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
@@ -3284,6 +3299,16 @@ traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman archer				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+
+;	Minturnae
+character	Placus Scipio, named character, age 20, , x 233, y 323
+traits NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 1 , GoodCommander 2
+army
+unit		roman generals guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman archer				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 0 armour 0 weapon_lvl 0
 
@@ -3325,7 +3350,7 @@ relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 
 faction	romans_senate, comfortable napoleon
-denari	3000
+denari	2400
 settlement
 {
 	level city
@@ -3381,6 +3406,30 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Caeta_R
+
+	year_founded 0
+	population 850
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+
 ;	Rome
 character	Decius Maxentius, named character, leader, age 60, , x 220, y 330
 traits GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1
@@ -3405,6 +3454,17 @@ unit		roman triarii				exp 3 armour 1 weapon_lvl 0
 unit		roman velite				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati				exp 3 armour 1 weapon_lvl 0
 
+;	Caeta
+character	Caudianus Maxentius, named character, age 20, , x 230, y 324
+traits GoodCommander 2 , NaturalMilitarySkill 1 , PoliticsSkill 1 , GoodAdministrator 2 , Intelligent 1
+ancillaries bodyguard
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+
 ;	outside Rome
 character	Flavius Nepos, diplomat, age 30, , x 217, y 331
 traits GoodDiplomat 5
@@ -3427,12 +3487,15 @@ character_record		Publius Maxentius, 	male, command 0, influence 0, management 0
 character_record		Honoria, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
 character_record		Licinia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
 character_record		Marciana, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
+character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record		Papiria, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
 character_record		Prisca, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
 
 relative 	Decius Maxentius, 	Honoria,		Servius Maxentius,	Marcus Maxentius,	Prisca,	end
 relative 	Marcus Maxentius, 	Licinia,		Publius Maxentius,	Gaius Maxentius,	end
 relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
+;; Maxentius 01 ;;
+relative 	Caudianus Maxentius, 	Antistia,	end
 
 
 faction	macedon, fortified napoleon
@@ -3650,7 +3713,7 @@ settlement
 	region Megalopolis_R
 
 	year_founded 0
-	population 1500
+	population 1300
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -3669,7 +3732,7 @@ settlement
 	region Thasos_R
 
 	year_founded 0
-	population 800
+	population 680
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -3805,7 +3868,7 @@ settlement
 	region Nile_Delta
 
 	year_founded 0
-	population 3100
+	population 2800
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -8678,7 +8741,7 @@ relative 	Demetrius, 	Athena,		Kassandros,	Orthia,	end
 
 
 faction	carthage, balanced smith
-denari	12100
+denari	10100
 settlement
 {
 	level city
@@ -9835,7 +9898,7 @@ relative 	Theages, 	Xanthe,		end
 
 
 faction	parthia, balanced genghis
-denari	3000
+denari	2300
 
 settlement
 {
@@ -10658,7 +10721,7 @@ relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 
 faction	germans, balanced mao
-denari	3000
+denari	2400
 settlement
 {
 	level large_town
@@ -11510,7 +11573,7 @@ relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	greek_cities, balanced smith
-denari	3000
+denari	2400
 settlement
 {
 	level city
@@ -13106,7 +13169,7 @@ relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	scythia, trader smith
-denari	3000
+denari	2400
 settlement
 {
 	level large_town
@@ -13476,7 +13539,7 @@ relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	thrace, sailor napoleon
-denari	6890
+denari	4890
 settlement
 {
 	level large_town
@@ -13510,7 +13573,7 @@ settlement
 	region Seuthopolis_R
 
 	year_founded 0
-	population 1300
+	population 1100
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -13639,7 +13702,7 @@ relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	slave, balanced_smith
-denari	-889999
+denari	-887999
 settlement
 {
 	level town
@@ -15152,7 +15215,7 @@ settlement
 	region Thubactis_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -15190,7 +15253,7 @@ settlement
 	region Sufetula_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -37238,6 +37301,15 @@ character,	sub_faction greek_cities, Diodoros, general, age 20, , x 292, y 193
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Anabukis
+character,	sub_faction greek_cities, Diodoros, general, age 20, , x 296, y 192
+
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc cilician pirate				exp 1 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Segestica
