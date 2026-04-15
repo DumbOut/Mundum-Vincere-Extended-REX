@@ -121,6 +121,12 @@ strat_model		sm_barb_general
 battle_model	german_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			sciria_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			britons
 dictionary		2
 strat_model		sm_barb_general
@@ -266,6 +272,13 @@ strat_model		sm_barb_lesser_general
 battle_model	german_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			sciria_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			britons
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
@@ -396,6 +409,11 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+faction			sciria_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			britons
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -505,6 +523,11 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			sciria_01
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -621,6 +644,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+faction			sciria_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			britons
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -728,6 +756,11 @@ strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		gaul_admiral
 
 faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		german_admiral
+
+faction			sciria_01
 dictionary		2
 strat_card		data/ui/barbarian/agents/temp_admiral.tga
 strat_model		german_admiral
