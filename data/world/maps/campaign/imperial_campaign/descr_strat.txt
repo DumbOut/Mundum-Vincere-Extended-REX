@@ -21,22 +21,22 @@ playable
 	scythia
 	spain
 	thrace
+	sciria_01
 end
 unlockable
 end
 nonplayable
-	sciria_01
 	romans_senate
 	slave
 end
 
 
 start_date	-316 summer
-end_date	1098 summer
+end_date	998 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 32
+brigand_spawn_value 40
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13797,7 +13797,7 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 
 faction	slave, balanced_smith
-denari	-1000400
+denari	-900400
 settlement
 {
 	level town
@@ -49661,7 +49661,7 @@ faction_relationships	parthia,			600		slave
 faction_relationships	pontus,			600		slave
 faction_relationships	gauls,			600		slave
 faction_relationships	germans,			600		slave
-faction_relationships	sciria_01,,			600		slave
+faction_relationships	sciria_01,		600		slave
 faction_relationships	britons,			600		slave
 faction_relationships	armenia,			600		slave
 faction_relationships	dacia,			600		slave
