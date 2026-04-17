@@ -1,0 +1,19 @@
+Colors:
+
+white: 235 235 235
+grey: 90 90 90
+
+gold: 240 210 90
+brown: 128 82 24
+
+1. Take an icon, fill it completely with white or whatever pixels
+2. Open it up in GIMP and shrink selection  (6-12 pixels for 256 based symbols, 25-30 for 1024)
+3. Crop to selection for the logo, then upsize canvas (8 for 256, 24 for 24) with symbol centered
+4. For regular gold icon, resize to 90x90
+5. For white positive-negative icons, resize to 40x40, then upsize canvas to 46x46 with icon origin at top left
+6. Copy-paste provided positive & negative arrows into the bottom right corner
+
+Use the python files for proper formatting so it's consistent with the vanilla pips.
+
+If it's a logo from Pharoah, before doing anything, crop to the logo's selection then resize canvas so it's about 10 pixels from the sides or 21 pixels from the top/bottom to the logo itself
+Then use the primary color for the gold and the outline / detail lines for the brown. Don't just make it all one color.

@@ -1,0 +1,55 @@
+---Logo steps:
+Load 256x256 isolated logo in GIMP
+Logo should already be centered but if its not, correct it
+Select all non-transparent pixels
+Shrink select by 1
+Invert selection
+Apply gaussian blur of 0.5
+Select everything, apply antialias enhancement
+Scale image to 416x416
+
+
+---Template steps:
+Load template
+Fill 1st green layer with factions primary color
+Set 1st layer mode to HSL color
+If its too light, use LCH color
+If its too dark, use the second HSV saturation layer
+If its STILL too dark, set the bottom color layer to HSV hue
+If its STILL STILL too dark, go to background layer and decrease intended color temp to 1625
+Use 2nd green layer with HSV saturation only if color appears too dark
+Load 416x416 logo onto new layer, set to overlay
+Load logo again onto new layer, set to LCH color
+If logo appears too dark, use HSL color
+Load logo again onto new layer, hard light, set opacity to 20%. Experiment as needed
+If too light, use HSV value layer as necessary
+
+-For roll and select
+Just use other background layer
+
+Increase brightness of background by 40
+OR set color temp to 1625 or 1220
+
+-For grey logo:
+-90 saturation for all color and logo layers, not background
+
+
+Hide HSV saturation color layer (if used)
+Hide HSV hue logo layer (if used)
+Hide hard light layer (unless the logo becomes to faint)
+Undo any brightness changes to background logo
+Set main color layer to HSL color if you used HSV hue
+
+
+
+---Old info that might be of use:
+1 overlay layer
+1 lch color layer above overlay
+1 hard light layer 20% opacity
+hard light layer hidden for grayscale logo
+
+increase brightness & contrast of background by increments of 25 or 50 as needed
+hide brightened background for greyscale logo, use original
+
+apply color to green using fill with FG, switch its mode to hsl color
+if color is too light and shows up dark, use second layer and apply same color but with hsv saturation

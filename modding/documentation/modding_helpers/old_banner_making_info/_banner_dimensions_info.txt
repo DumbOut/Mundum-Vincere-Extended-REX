@@ -1,0 +1,50 @@
+banner_1024x1024
+
+camp_512x468
+
+symbol_427x430
+
+assuming you're using gimp and kurdishnomads template, the layers for each faction icon goes as follows
+
+normal shadow 3 no fill - normal
+grey shadow 4 no fill - grey
+roll shadow no fill - roll
+select shadow no fill - select
+
+faction icon - roll shadow 3 4 fill - resize to 360x360
+
+standard 583x640 
+
+standard_left 441x480 roughly
+
+take the original square image
+
+resize to 503x552
+
+make a copy of the 503x552 and resize to 441x480 (for proper proportions)
+
+go back to original 503x552
+
+expand canvas in paint.net NOT resize to 583x640
+
+fill in empty with background color of banner
+
+put 583x640 as the general banner, and put the 441x480 version to the left right above the little notch of transparency where the unit and general banner meet.
+
+--copied from KurdishNomad, inst. for banners
+
+Made using GIMP!
+Paste the symbols you made in a symbols[insert number].tga.dds
+
+Now to make normals go to, menu>filters>generic>normal
+
+Making specular:
+1. go to menu>colors>desaturate>desaturate
+2. go to menu>colors>linear invert
+
+Make sure the compression is BC3/dxt5 and generate mipmaps
+
+
+--OLD STUFF IGNORE
+
+for standard left, put in middle ruler 274-684

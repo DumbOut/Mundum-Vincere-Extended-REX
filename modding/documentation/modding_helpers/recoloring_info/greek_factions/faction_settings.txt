@@ -1,0 +1,291 @@
+These settings are for danymok's templates.
+
+Be sure to lock alpha before filling these colors
+and unlock after
+
+----template settings----
+primary color gradient set to
+255, 40, 49
+
+secondary color gradient set to
+47, 140, 140
+
+tertiary gradients set to
+47, 140, 140
+except sash, same as primary
+
+
+The following settings assume the faction's colors as described in descr_sm_factions are being used
+
+----achea--
+--primary
+saturation 0.4204
+hard light
+
+--secondary
+hsl color
+
+--tertiary (for collar, sash, and sleeves)
+lch color
+
+
+
+
+----aetolia
+--primary
+hard light
+saturation 0.3107
+lightness 0.022
+
+--secondary
+linear light
+saturation 0.5000
+opacity 50
+
+--tertiary
+hsl color
+
+
+
+
+----arcadia
+--primary
+hard light
+saturation 0.0540
+lightness -0.080
+
+--secondary
+lch color
+
+--tertiary
+hsl color
+
+ _peltast shield:
+  -50% saturation
+
+
+
+
+----argos
+--primary
+hard light
+lightness -0.471
+
+--secondary
+hsl color
+
+--tertiary
+hsl color
+
+	_peltast shield:
+		lightness up 2
+
+
+
+
+----bactria
+--primary
+hard light
+saturation 0.3667
+
+--secondary
+hsl color
+
+--tertiary
+soft light (to brighten things), otherwise use secondary
+
+
+
+
+--boetia--
+--primary
+hard light
+saturation 0.1422
+lightness -0.218
+
+--secondary
+linear light
+saturation 0.4201
+lightness 0.496
+opacity 50
+
+--tertiary
+lch color
+
+
+
+
+--byzantion
+--primary
+hard light
+saturation 0.4721
+lightness -0.312
+
+--secondary
+hsl color
+
+--tertiary
+lch color
+
+
+
+
+--cyprus
+--primary
+hsl color
+opacity 50
+
+--secondary
+hsv hue
+
+--tertiary
+hsl color
+
+	_peltast shield:
+		shield outline is secondary with lightness down 4 tics
+
+
+
+
+--elis--
+--primary
+lch color
+
+--secondary
+hsv hue
+
+--tertiary
+hsl color
+
+
+
+
+--gortyn
+--primary
+lch color
+saturation 0.3712
+lightness 0.100
+
+--secondary
+hsl color
+
+--tertiary
+lch color
+
+
+
+
+--heraclea
+--primary
+lch color
+
+--secondary
+hsl color
+
+--tertiary
+hsl color
+
+
+
+
+--knossos
+--primary
+hard light
+saturation 0.3331
+lightness -0.096
+
+--secondary
+hsl color
+
+--tertiary
+use secondary
+
+
+
+
+--kydonia
+--primary
+hard light
+lightness -0.224
+
+--secondary
+hsl color
+
+--tertiary
+lch color
+
+
+
+
+--melos
+--primary
+hsl color
+
+--secondary
+hsv hue
+
+--tertiary
+hsl color
+
+
+
+
+--rhodes
+--primary
+hard light
+saturation 0.2617
+
+--secondary
+linear light
+saturation 0.000
+lightness 0.802
+opacity 50
+
+--tertiary
+hsl color
+
+	_peltast shield:
+		primary color down 1 lightness tick
+
+
+
+
+--sardes / messenia
+--primary
+hard light
+
+--secondary
+hsl color
+
+--tertiary
+use secondary
+
+
+
+
+--sinop
+--primary
+lch hue
+
+--secondary
+hsl color
+
+--tertiary
+use secondary
+
+
+
+
+--taras
+--primary
+hard light
+saturation 0.2822
+
+--secondary
+linear light
+saturation 0.2194
+lightness 0.451
+opacity 50
+
+--tertiary
+hsl color

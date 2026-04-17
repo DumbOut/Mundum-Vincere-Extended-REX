@@ -1,0 +1,17 @@
+resize to 1024x1024:
+mogrify -resize 1024x1024 *.tga
+
+resize to 360x360:
+mogrify -resize 360x360 *.tga
+
+resize to 164x224:
+mogrify -resize 164x224 *.tga
+
+resize to 328x448:
+mogrify -resize 328x448 *.tga
+
+tga to dds:
+mogrify -format dds -define dds:mipmaps=10 -define dds:compression=dxt5 *.tga
+
+png to tga:
+mogrify -format tga *.png

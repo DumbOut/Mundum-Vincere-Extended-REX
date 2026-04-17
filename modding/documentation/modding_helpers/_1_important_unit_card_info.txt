@@ -1,0 +1,46 @@
+REGARDING RENDERING IN BLENDER
+DISABLE AMBIENT OCCLUSION for more simpler vanilla-like lighting, though it's not perfect
+Started disabling ambient occlusion when finishing bactrian roster
+
+
+----------List of unit cards without ambient occlusion:
+-Bactrian agents & ships
+-Bactrian royal hypaspists
+
+
+
+
+
+
+
+
+
+
+
+REGARDING ARROWS
+take the arrow model from the reference mesh
+give it the arrow texture from CA's template that comes with textures
+parent it to the reference vertex arrow
+cursor to selection the vertex
+selection to cursor the arrow
+---update october 2025:
+go to constraints of the arrow mesh, then point to the reference for copy rotation and location
+
+
+
+
+REGARDING HORSES
+idk figure it out have to remember what i did for it
+Just remember all roman families have different color horses
+
+
+
+REGARDING HAIR
+Roman hair style should be caeasr
+colored use 60 40 20 (verified)
+Greek hair style also caesar
+25 25 25 to start, though might be lighter
+
+
+Hair color for diplomats:
+209.2, 209.2, 209.2

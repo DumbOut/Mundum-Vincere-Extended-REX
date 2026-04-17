@@ -1,0 +1,61 @@
+-Duplicate name in same line
+Find:	^.*$
+Replace: $0\x20$0
+
+-Put something at end
+Find: $
+Replace:
+
+-Put something at start
+Find: ^
+Replace:
+
+-Delete everything after character X
+Setting: regular expression
+Find: \X.*
+Replace:
+
+-To sort descr_regions
+Steps:
+Use macros to add a unique character to beginning of every region line
+Use home key to ensure character will always be placed at beginning of line
+Run to end of file
+
+Then,
+
+Find: \R(?!;)		; Can be replaced with whatever unique character you're using
+Replace: \x{263a} (smiley face), regular expression
+
+This will make it look very weird, but trust the process
+Next,
+
+Sort Lines Lexicographically Ascending
+
+Finally,
+
+Find: \x{263a}
+Replace: \r\n
+
+End result should be a sorted descr_regions with all the region details with it. Thanks for not sorting the regions when you were making the map, Kirsi (joking)
+
+Courtesy of Peter Jones, notepad++ community forums
+
+
+-Remove every odd line
+Find: .+\r\n(.+(\r\n|$))
+Replace: $1
+
+-Replace multiple words
+Find:    (WORD1)|(WORD2)|(WORD3)|(WORD4)|(WORD5)
+Replace: (?1REPLACEMENT1)(?2REPLACEMENT2)(?3REPLACEMENT3)(?4REPLACEMENT4)(?5REPLACEMENT5)
+
+
+-Transform WORD1 WORD2 WORD1a WORD2a to
+-{WORD1WORD2}			WORD1a WORD2a
+Find: ^(\w+)\s(\w+)\s(\w+)\s(\w+)
+Replace: {\1\2}\t\t\t\3 \4
+
+-Add a space before capital letter in 2 words
+-ENSURE MATCH CASE IS CHECKED
+Find: ([a-z])([A-Z])
+Replace: \1 \2

@@ -1,0 +1,67 @@
+ALL STEPS WERE MADE WITH PAINT.NET 5.0.11
+
+-----FOR EASTERN BANNERS
+Coloring:
+1. make top and 2nd to top layer visible (should be green and pink)
+2. back on top layer, use magic wand to select pink on with about 56% tolerance
+3. make layers invisible again
+4. go to bottom layer, keeping selection
+5. select color of banner, make it secondary color
+6. make the primary color the factions main color, either in descr_sm_factions or by getting color of faction icon
+7. using recolor tool, recolor the selected area. recoloring should look nice
+8. go back to top layer, merge layer down (without saving)
+9. remake ltop layer visible (should have green and pink again)
+10. use magic wand to select green with about 56% tolerance
+11. make layer invisible
+12. go back to bottom layer
+13. select color of outer part of banner, make it secondary color
+14. make the primary color the factions secondary color, using methods from step 6
+15. using recolor tool, recolor selected area
+16. there might be some ugly overlap on the sides, that's just how it is :sadface:
+
+--FOR BANNER BIG
+1. resize icon to 1055x1055
+1alt. select all parts of emblem
+2. select all parts of the emblem with as much tolerance as possible without copying whole thing
+2alt. copy to new file with same dimensions
+3. make new, transparent file with same dimensions as emblem
+3alt. resize to to 855xwhatever, with maintain aspect ratio
+4. copy-paste emblem to that file
+4alt. skip and continue as ormal
+5. resize canvas to size of banner big, with picture in middle
+6. delete white to make transparency
+7. copy-paste banner big as new layer (with as much tolerance as possible when selecting from banner template)
+8. make emblem top layer
+9. make top emblem have transparency 200/233
+9a. make top emblem have transparency 133/166 for ally version
+10. merge layer down
+11. copy and paste back to original file/allied copy and then do steps for thin banner
+
+--FOR BANNER THIN
+Very similar to big banner
+1. when resizing canvas, first resize to same width, and 400 less than thin banner height with emblem in MIDDLE
+2. then resize to full banner thin height, with emblem on TOP
+3. this will result in the emblem being high, but not at the top nor at the middle
+
+
+Color settings: 60% hardness, 15% spacing, 50% tolerance
+
+
+NOTES:
+Basically repeat steps for other faction banners
+
+200 less width for thin, 400 less width for big. can take 50-100 more if emblem fits large
+If emblem is too long, do 400 less LENGTH for big, 300 less width for thin
+
+For greco-roman, select green with 64% tolerance, select pink with 56% tolerance
+
+Secondary color: 108 108 108
+
+When coloring in for banner, you actually don't realy need to select main color as secondary color
+
+When coloring in, click on lighter parts for darker coloring, darker parts for lighter coloring, and medium gray parts for moderate coloring (towards the middle of the banner for barbarian)
+
+Barbarian banner has less steps since its only one color. Use faction's primary color only
+
+For consistency, try sampling and coloring in starting at the bottom tip of the left banner
+

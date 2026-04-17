@@ -1,0 +1,44 @@
+If the logo doesn't have blurred outlines, be sure to do that by doing the following
+1. Alpha to selection
+2. Shrink selection by 1
+3. Apply gaussian blur 0.5
+4. Select whole thing
+5. Antialias
+This makes the edges appear less pixelly and more natural looking on the banners
+
+----- FOR ROMAN STRAT BANNER TEMPLATE
+1. Colorize primary layers with faction's primary
+2. Colorize secondary layers with faction's secondary
+3. Resize faction's logo to 1024x1024
+4. Go to channels
+5. Channel to selection logo 848x848
+6. Paste faction's logo into each layer with the channel selected for proper paste location
+7. Adjust hard lights as necessary. Logo should stand out and be visible
+
+----- FOR ROMAN BATTLE BANNER TEMPLATE
+1. Colorize primary layers with faction's primary
+2. Colorize secondary layers with faction's secondary
+3. Resize faction's logo to 1280x1280 (unless it was originally 1024x1024, then do 1024)
+4. Go to channels
+5. Channel to selection logo 1024x1024
+6. Paste faction's logo into each layer with the channel selected for proper paste location
+7. Adjust hard lights as necessary. Logo should stand out and be visible
+8. For the left logo, do 960x960 (unless it was originally 1024x1024, then do 768x768)
+
+
+------ FOR EASTERN BANNER TEMPLATES
+Same as roman banner templates
+
+------ FOR BARBARIAN BANNER TEMPLATES
+Do 1024x1024 for right and 830x830 for left by default
+Do NOT use centerpoint for strat banner, use the channel for placement (848x848)
+Only worry about primary color
+
+FOR BATTLE BANNERS 1024x1024 AND 830x830 ADVISED
+FOR STRAT BANNERS 848x848 ADVISED
+
+
+MAX SIZE FOR RIGHT LOGO 1072x1104 (so 1072x1072)
+MAX SIZE FOR LEFT LOGO 778X778 768 advised)
+
+MAX FOR STRAT 848X848

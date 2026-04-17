@@ -1,0 +1,50 @@
+These are the exact steps I take when adding an icon to an already colored barbarian banner using Danymok's template
+11/25/2023
+
+1. Open up 2 copies of the banner .psd file in paint.net, one for ally and one for default (you should have the .psd plugin for paint.net)
+2. Open up the faction symbol
+3. Use the magic wand tool to select as much of the logo within the circle as possible, without selecting the background color or circle outline
+4. Try to select as few background-colored pixels as possible. Zoom in on selection, inch the selection up until it selects pixels you don't want
+5. Create a new transparent file with the same dimensions as your selection, delete white and then paste the logo
+6. Save the logo file with faction name into a different folder for later use
+
+--FOR RIGHT BANNER
+1. Take the saved icon and resize it to have a width of 696 (used to be 746), or height of 682, whichever works so that icon's size does not exceed either limitation. Prioritize height change.
+2. Go to the battle banner file, select the right banner with as much tolerance as possible so that the bounding rectangle size on the bottom left says < 1146 x 1232 >
+3. Go back to the resized icon, and resize canvas to 1146 x 1232 with anchor in middle
+4. Select whitespace with magic wand, 0 tolerance, and delete so new area is transparent
+5. Go back to the battler banner with right banner still selected (hit ctrl+z once if it's not), copy it
+6. Go back to resized icon and add new layer, then paste the right banner. It should fit perfectly without asking to resize canvas
+7. Move banner layer to bottom
+8. Go to top layer, make the icon's transparency 200 (or 233 if background is light), blend mode normal
+9. Merge layer down with ctrl+m, then ctrl+a and copy the whole thing, do not save
+10. Go back to battle banner, add new layer, and paste selection
+11. Align the banner with the icon perfectly over the empty banner (I recommend finding pixels at the tips of the banners and slowly covering it, or temporarily modify transparency)
+12. Go back to resized icon, and ctrl+z until the icon transparency is back at 255
+13. Change icon transparency to 133 (or 166 if background is light), blend mode normal
+14. Repeat steps 9-11 except on other copy of the battle banner you opened, for allied version
+15. Go back to icon, ctrl+z all the way back to its unresized state
+
+--FOR LEFT BANNER
+16. Go back to battle banner, go to bottom layer, and select LEFT banner with as much tolerance as possible to meet below criteria
+17. Bounding rectangle size should be around 844 x 1880 - 1886
+18. Go back to icon, and resize it to have width 546, or height 582, with maintain aspect ratio ON (do the same change as you did for the right banner just 100 less)
+19. Resize canvas with ANCHOR MIDDLE to have height 400 less width of your bounding rectangle size for long banner selection, around 1440 - 1446. Have width be same
+20. Resize canvas again with ANCHOR TOP MIDDLE to have the same dimensions as the bounding rectangle size of banner selection
+21. Icon should be high but not too high
+22. Repeat steps 4-13, make sure to return to top layer when pasting selection
+23. Saved the normal version as a tga file with name <factionname> and the allied version as <factionname>_ally to a different folder
+
+Notes:
+If you did 100 below for right banner, do 100 below for left as well.
+If the emblem is pasted over an transparent hole, go underneath to bottom layer, select hole with 73%, go to top, ctrl+x
+MAKE SURE to delete the chain area from the banner before you make it. If you are making an allied version of a banner, leave the chain on.
+
+
+
+
+
+
+Old steps, here for reference:
+1. Take the saved icon and resize it to have a width of 746 (or down by icrements of 50 if too large) with maintain aspect ratio ON (if the icon is long and thin, resize it to have a height of 832)
+18. Go back to icon, and resize it to have width 644, with maintain aspect ratio ON (if icon is long, resize it to width 544, or 344 if like brigantes)
