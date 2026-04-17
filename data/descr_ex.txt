@@ -17,17 +17,17 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 94
+max_factions 296
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 36
+superfaction_min_regions 27
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.4, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
-camera_min_height 0.4
-camera_max_height 100.0
+camera_min_height 0.085
+camera_max_height 365.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -50,7 +50,7 @@ disable_console false
 population_on_disband true
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight false
+easy_nightfight true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery

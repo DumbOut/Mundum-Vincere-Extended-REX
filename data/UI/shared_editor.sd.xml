@@ -1,0 +1,40 @@
+<sprite_definitions version="7">
+  <page file="editor_shared01.tga" w="256" h="256">
+    <sprite name="TOOLBAR_BG" x="0" y="0" w="256" h="48" alpha="0"/>
+    <sprite name="TITLE_RIGHT_FADE" x="126" y="178" w="32" h="32" alpha="1"/>
+    <sprite name="TITLE_EXTENSION" x="158" y="178" w="64" h="32" alpha="1"/>
+    <sprite name="TITLE_LEFT_FADE" x="222" y="178" w="32" h="32" alpha="1"/>
+    <sprite name="TEXT_BG" x="127" y="50" w="126" h="126" alpha="1"/>
+    <sprite name="BEVEL_BOTTOM" x="68" y="49" w="32" h="8" alpha="1"/>
+    <sprite name="BEVEL_BR" x="100" y="49" w="8" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_GRID_TOP" x="108" y="49" w="8" h="8" alpha="1"/>
+    <sprite name="BEVEL_BL" x="116" y="49" w="8" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_HORIZ" x="68" y="57" w="32" h="8" alpha="1"/>
+    <sprite name="BEVEL_TOP" x="68" y="65" w="32" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_GRID_LEFT" x="100" y="57" w="8" h="8" alpha="1"/>
+    <sprite name="BEVEL_TR" x="100" y="65" w="8" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_GRID_MID" x="108" y="57" w="8" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_GRID_BOT" x="108" y="65" w="8" h="8" alpha="1"/>
+    <sprite name="MB_FRAME_GRID_RIGHT" x="116" y="57" w="8" h="8" alpha="1"/>
+    <sprite name="BEVEL_TL" x="116" y="65" w="8" h="8" alpha="1"/>
+    <sprite name="BEVEL_RIGHT_HALF" x="100" y="73" w="8" h="32" alpha="1"/>
+    <sprite name="MB_FRAME_VERT_HALF" x="108" y="73" w="8" h="32" alpha="1"/>
+    <sprite name="BEVEL_LEFT_HALF" x="116" y="73" w="8" h="32" alpha="1"/>
+    <sprite name="BEVEL_RIGHT_FULL" x="100" y="73" w="8" h="64" alpha="1"/>
+    <sprite name="MB_FRAME_VERT_FULL" x="108" y="73" w="8" h="64" alpha="1"/>
+    <sprite name="BEVEL_LEFT_FULL" x="116" y="73" w="8" h="64" alpha="1"/>
+    <sprite name="PLUS_UP" x="76" y="187" w="24" h="12" alpha="1"/>
+    <sprite name="PLUS_DOWN" x="100" y="187" w="24" h="12" alpha="1"/>
+    <sprite name="MINUS_UP" x="76" y="199" w="24" h="12" alpha="1"/>
+    <sprite name="MINUS_DOWN" x="100" y="199" w="24" h="12" alpha="1"/>
+    <sprite name="SHADOW_TOP" x="76" y="138" w="8" h="8" alpha="1"/>
+    <sprite name="SHADOW_VERT" x="76" y="146" w="8" h="32" alpha="1"/>
+    <sprite name="SHADOW_CORNER" x="76" y="178" w="8" h="8" alpha="1"/>
+    <sprite name="SHADOW_HORIZ" x="84" y="178" w="32" h="8" alpha="1"/>
+    <sprite name="SHADOW_RIGHT" x="116" y="178" w="8" h="8" alpha="1"/>
+    <sprite name="PAINT_MODIFIER" x="1" y="49" w="20" h="30" alpha="1"/>
+    <sprite name="ADD_UNIT_MODIFIER" x="22" y="49" w="10" h="20" alpha="1"/>
+    <sprite name="PLACE_SETTLEMENT_MODIFIER" x="33" y="49" w="25" h="17" alpha="1"/>
+    <sprite name="EDIT_HEIGHT_MODIFIER" x="1" y="81" w="13" h="21" alpha="1"/>
+  </page>
+</sprite_definitions>

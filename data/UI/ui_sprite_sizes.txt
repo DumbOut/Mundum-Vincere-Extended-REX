@@ -1,0 +1,24 @@
+; ui_sprite_sizes.txt
+;
+; These are the logical display sizes for dynamically-loaded UI sprites (width height).
+; These control how big sprites appear on the 1024x768 grid,
+; regardless of the actual TGA resolution.
+
+; Character UI
+advisor_portrait    69 69
+family_tree_male    31 41
+family_tree_other   31 41
+portrait_card       44 63
+ancillary           33 41
+
+; Unit cards
+unit_card           48 64
+
+; Buildings
+building_icon       78 62
+building_preview    361 163
+
+; Map UI
+pip                 16 16
+radar_icon          100 100
+event_pic           360 160
