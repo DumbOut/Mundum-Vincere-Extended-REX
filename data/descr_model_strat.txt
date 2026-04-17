@@ -83,6 +83,7 @@ texture				parthia, data/models_strat/textures/diplomat_parthia.tga
 texture				pontus, data/models_strat/textures/diplomat_pontus.tga
 texture				gauls, data/models_strat/textures/diplomat_gaul.tga
 texture				germans, data/models_strat/textures/diplomat_german.tga
+texture				sciria_01, data/models_strat/textures/diplomat_sciria_01.tga
 texture				britons, data/models_strat/textures/diplomat_briton.tga
 texture				armenia, data/models_strat/textures/diplomat_armenia.tga
 texture				dacia, data/models_strat/textures/diplomat_dacia.tga
@@ -112,6 +113,7 @@ texture				parthia, data/models_strat/textures/spy_parthia.tga
 texture				pontus, data/models_strat/textures/spy_pontus.tga
 texture				gauls, data/models_strat/textures/spy_gaul.tga
 texture				germans, data/models_strat/textures/spy_german.tga
+texture				sciria_01, data/models_strat/textures/spy_sciria_01.tga
 texture				britons, data/models_strat/textures/spy_briton.tga
 texture				armenia, data/models_strat/textures/spy_armenia.tga
 texture				dacia, data/models_strat/textures/spy_dacia.tga
@@ -143,6 +145,7 @@ texture				parthia, data/models_strat/textures/assassin_parthia.tga
 texture				pontus, data/models_strat/textures/assassin_pontus.tga
 texture				gauls, data/models_strat/textures/assassin_gaul.tga
 texture				germans, data/models_strat/textures/assassin_german.tga
+texture				sciria_01, data/models_strat/textures/assassin_sciria_01.tga
 texture				britons, data/models_strat/textures/assassin_briton.tga
 texture				armenia, data/models_strat/textures/assassin_armenia.tga
 texture				dacia, data/models_strat/textures/assassin_dacia.tga
@@ -168,6 +171,7 @@ scale				0.7
 indiv_range			40
 texture				gauls, data/models_strat/textures/officer_barb_general_gaul.tga
 texture				germans, data/models_strat/textures/officer_barb_general_german.tga
+texture				sciria_01, data/models_strat/textures/officer_barb_general_sciria_01.tga
 texture				britons, data/models_strat/textures/officer_barb_general_briton.tga
 texture				dacia, data/models_strat/textures/officer_barb_general_dacian.tga
 texture				scythia, data/models_strat/textures/officer_barb_general_scythian.tga
@@ -181,6 +185,7 @@ scale				0.7
 indiv_range			40
 texture				gauls, data/models_strat/textures/unit_strat_map_captain_gaul.tga
 texture				germans, data/models_strat/textures/unit_strat_map_captain_german.tga
+texture				sciria_01, data/models_strat/textures/unit_strat_map_captain_sciria_01.tga
 texture				britons, data/models_strat/textures/unit_strat_map_captain_briton.tga
 texture				dacia, data/models_strat/textures/unit_strat_map_captain_dacia.tga
 texture				scythia, data/models_strat/textures/unit_strat_map_captain_scythia.tga
@@ -498,6 +503,7 @@ type				slave_admiral
 skeleton			strat_navy
 indiv_range			40
 texture				slave, data/models_strat/textures/navy_slave.tga
+texture             sciria_01, data/models_strat/textures/navy_slave.tga
 model_flexi			data/models_strat/navy_roman.cas, max
 shadow_model_flexi	data/models_strat/navy_roman_shadow.cas, max
 

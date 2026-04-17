@@ -316,7 +316,7 @@ texture				dacia, data/models_unit/textures/mount_horse_light_dacia.tga
 texture				egypt, data/models_unit/textures/horse_light_egypt.tga
 texture				gauls, data/models_unit/textures/mount_horse_light_gaul.tga
 texture				germans, data/models_unit/textures/mount_horse_light_german.tga
-texture				sciria_01, data/models_unit/textures/mount_horse_light_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/mount_horse_light_sciria_01.tga
 texture				greek_cities, data/models_unit/textures/mount_horse_light_greece.tga
 texture				macedon, data/models_unit/textures/horse_light_macedon.tga
 texture				merc, data/models_unit/textures/mount_horse_light_mercenary.tga
@@ -373,7 +373,7 @@ texture				dacia, data/models_unit/textures/horse_medium_dacia.tga
 texture				egypt, data/models_unit/textures/horse_medium_egypt.tga
 texture				gauls, data/models_unit/textures/horse_medium_gaul.tga
 texture				germans, data/models_unit/textures/horse_medium_german.tga
-texture				sciria_01, data/models_unit/textures/horse_medium_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/horse_medium_sciria_01.tga
 texture				greek_cities, data/models_unit/textures/horse_medium_greece.tga
 texture				macedon, data/models_unit/textures/horse_medium_macedon.tga
 texture				mercenary, data/models_unit/textures/horse_medium_mercenary.tga
@@ -430,7 +430,7 @@ texture				dacia, data/models_unit/textures/horse_heavy_dacia.tga
 texture				egypt, data/models_unit/textures/horse_heavy_egypt.tga
 texture				gauls, data/models_unit/textures/horse_heavy_gaul.tga
 texture				germans, data/models_unit/textures/horse_heavy_german.tga
-texture				sciria_01, data/models_unit/textures/horse_heavy_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/horse_heavy_sciria_01.tga
 texture				greek_cities, data/models_unit/textures/horse_heavy_greece.tga
 texture				macedon, data/models_unit/textures/horse_heavy_macedon.tga
 texture				numidia, data/models_unit/textures/horse_heavy_numidia.tga
@@ -486,7 +486,7 @@ texture				dacia, data/models_unit/textures/horse_heavy_dacia.tga
 texture				egypt, data/models_unit/textures/horse_heavy_egypt.tga
 texture				gauls, data/models_unit/textures/horse_heavy_gaul.tga
 texture				germans, data/models_unit/textures/horse_heavy_german.tga
-texture				sciria_01, data/models_unit/textures/horse_heavy_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/horse_heavy_sciria_01.tga
 texture				greek_cities, data/models_unit/textures/horse_heavy_greece.tga
 texture				macedon, data/models_unit/textures/horse_heavy_macedon.tga
 texture				numidia, data/models_unit/textures/horse_heavy_numidia.tga
@@ -607,7 +607,7 @@ indiv_range			40
 texture				gauls, data/models_unit/textures/officer_barb_standard_gaul.tga
 texture				britons, data/models_unit/textures/officer_barb_standard_briton.tga
 texture				germans, data/models_unit/textures/officer_barb_standard_german.tga
-texture				sciria_01, data/models_unit/textures/officer_barb_standard_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/officer_barb_standard_sciria_01.tga
 texture				dacia, data/models_unit/textures/officer_barb_standard_dacia.tga
 texture				scythia, data/models_unit/textures/officer_barb_standard_scythia.tga
 model_flexi			data/models_unit/officer_barb_standard_400.cas, 8
@@ -662,7 +662,7 @@ skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
 texture				germans, data/models_unit/textures/officer_barb_general_german.tga
-texture				sciria_01, data/models_unit/textures/officer_barb_general_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/officer_barb_general_sciria_01.tga
 texture				dacia, data/models_unit/textures/officer_barb_general_dacian.tga			
 texture				scythia, data/models_unit/textures/officer_barb_general_scythian.tga			
 model_flexi		data/models_unit/officer_barb_general_high.CAS, 8
@@ -681,7 +681,7 @@ skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
 texture				germans, data/models_unit/textures/officer_barb_lesser_general_german.tga
-texture				sciria_01, data/models_unit/textures/officer_barb_lesser_general_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/officer_barb_lesser_general_sciria_01.tga
 texture				dacia, data/models_unit/textures/officer_barb_lesser_general_dacian.tga			
 texture				scythia, data/models_unit/textures/officer_barb_lesser_general_scythian.tga			
 model_flexi		data/models_unit/officer_barb_lesser_general_high.CAS, 8
@@ -1133,7 +1133,7 @@ skeleton			fs_hc_spearman										; combat spear
 indiv_range			40
 texture				gauls, data/models_unit/textures/unit_barb_warband_gaul_.tga
 texture				germans, data/models_unit/textures/unit_barb_warband_german_.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_warband_sciria_01_.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_sciria_01_.tga
 texture				dacia, data/models_unit/textures/unit_barb_warband_dacia_.tga
 texture				scythia, data/models_unit/textures/unit_barb_warband_scythia_.tga
 texture				slave, data/models_unit/textures/unit_barb_warband_slave.tga
@@ -1154,7 +1154,7 @@ indiv_range			40
 texture				gauls, data/models_unit/textures/unit_barb_infantry_gaul.tga
 texture				britons, data/models_unit/textures/unit_barb_infantry_briton.tga
 texture				germans, data/models_unit/textures/unit_barb_infantry_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_infantry_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_infantry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_infantry_scythia.tga
 model_flexi			data/models_unit/unit_barb_peasant_high.cas, 8
@@ -1174,7 +1174,7 @@ indiv_range			40
 texture				gauls, data/models_unit/textures/unit_barb_infantry_gaul.tga
 texture				britons, data/models_unit/textures/unit_barb_infantry_briton.tga
 texture				germans, data/models_unit/textures/unit_barb_infantry_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_infantry_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_infantry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_infantry_scythia.tga
 model_flexi			data/models_unit/unit_barb_peasant_high.cas, 8
@@ -1246,7 +1246,7 @@ skeleton			fs_hc_spearman
 indiv_range			40
 texture				gauls, data/models_unit/textures/unit_barb_noble_cavalry_gaul.tga
 texture				germans, data/models_unit/textures/unit_barb_noble_cavalry_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_noble_cavalry_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_noble_cavalry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_noble_cavalry_dacia.tga
 texture				thrace, data/models_unit/textures/unit_barb_noble_cavalry_thrace.tga
 texture				scythia, data/models_unit/textures/unit_barb_noble_cavalry_scythia.tga
@@ -1270,7 +1270,7 @@ indiv_range			40
 texture				gauls, data/models_unit/textures/unit_barb_infantry_gaul.tga
 texture				britons, data/models_unit/textures/unit_barb_infantry_briton.tga
 texture				germans, data/models_unit/textures/unit_barb_infantry_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_infantry_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_infantry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_infantry_scythia.tga
 texture				slave, data/models_unit/textures/unit_barb_infantry_slave.tga
@@ -1325,7 +1325,7 @@ type				warband_archer
 skeleton			fs_archer, fs_dagger
 indiv_range			40
 texture				germans, data/models_unit/textures/unit_barb_chosen_archer_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_chosen_archer_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_chosen_archer_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_chosen_archer_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_chosen_archer_scythia.tga
 texture				britons, data/models_unit/textures/unit_barb_chosen_archer_briton.tga
@@ -1345,7 +1345,7 @@ skeleton			fs_2handed_berserker													; SPIKED CLUB!!!
 scale				1.2
 indiv_range			40
 texture				germans, data/models_unit/textures/unit_barb_warband_beserker_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_warband_beserker_sciria_01.tga 
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_beserker_sciria_01.tga 
 model_flexi			data/models_unit/unit_barb_warband_beserker_400.cas, 8
 model_flexi			data/models_unit/unit_barb_warband_beserker_300.cas, 15
 model_flexi			data/models_unit/unit_barb_warband_beserker_200.cas, 30
@@ -1358,7 +1358,7 @@ type				warband_dhaxe
 skeleton			fs_2handed
 indiv_range			40
 texture				germans, data/models_unit/textures/unit_barb_warband_dhaxe_german.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_warband_dhaxe_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_dhaxe_sciria_01.tga
 model_flexi			data/models_unit/unit_barb_warband_dhaxe_german_high.cas, 8
 model_flexi			data/models_unit/unit_barb_warband_dhaxe_german_med.cas, 15
 model_flexi			data/models_unit/unit_barb_warband_dhaxe_german_low.cas, 30
@@ -1465,7 +1465,7 @@ indiv_range			40
 texture				spain, data/models_unit/textures/barb_gaestae_spain.tga
 texture				gauls, data/models_unit/textures/barb_gaestae_gaul.tga
 texture				germans, data/models_unit/textures/barb_gaestae_german.tga
-texture				sciria_01, data/models_unit/textures/barb_gaestae_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/barb_gaestae_sciria_01.tga
 texture				dacia, data/models_unit/textures/barb_gaestae_dacia.tga
 texture				slave, data/models_unit/textures/barb_gaestae_slave.tga
 model_flexi			data/models_unit/unit_barb_gaestae_high.cas, 8
@@ -1495,7 +1495,7 @@ skeleton			fs_hc_spearman
 indiv_range			40
 texture				gauls, data/models_unit/textures/unit_visigoth_cavalry_gaul.tga
 texture				germans, data/models_unit/textures/unit_visigoth_cavalry_german.tga
-texture				sciria_01, data/models_unit/textures/unit_visigoth_cavalry_sciria_01.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_visigoth_cavalry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_visigoth_cavalry_dacia.tga
 texture				thrace, data/models_unit/textures/unit_visigoth_cavalry_thrace.tga
 model_flexi			data/models_unit/unit_visigoth_cavalry_400.cas, 8
@@ -1585,7 +1585,7 @@ type				warband_spearman_german
 skeleton			fs_spearman, fs_swordsman
 indiv_range			40
 texture				germans, data/models_unit/textures/unit_barb_warband_german_.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_warband_sciria_01_.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_sciria_01_.tga
 model_flexi_m		data/models_unit/unit_barb_warband_german_spear_high.cas, 8
 model_flexi_m		data/models_unit/unit_barb_warband_german_spear_med.cas, 15
 model_flexi			data/models_unit/unit_barb_warband_german_spear_low.cas, 30
@@ -1597,7 +1597,7 @@ type				warband_axe
 skeleton			fs_swordsman							; axe has same anims as club, and shares some with sword
 indiv_range			40
 texture				germans, data/models_unit/textures/unit_barb_warband_german_.tga
-texture				sciria_01, data/models_unit/textures/unit_barb_warband_sciria_01_.tga
+texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_sciria_01_.tga
 model_flexi_m		data/models_unit/unit_barb_warband_german_axe_high.cas, 8
 model_flexi_m		data/models_unit/unit_barb_warband_german_axe_med.cas, 15
 model_flexi			data/models_unit/unit_barb_warband_german_axe_low.cas, 30

@@ -16,7 +16,7 @@ building core_building
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
                 recruit "barb peasant gaul"  0  requires factions { gauls, } 
-                recruit "barb peasant german"  0  requires factions { germans, } 
+                recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 recruit "east peasant"  0  requires factions { parthia, pontus, armenia, } 
@@ -40,7 +40,7 @@ building core_building
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
                 recruit "barb peasant gaul"  0  requires factions { gauls, } 
-                recruit "barb peasant german"  0  requires factions { germans, } 
+                recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
@@ -58,8 +58,8 @@ building core_building
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
 				recruit "barb chieftain cavalry early gaul"  1  requires factions { gauls, }  and not marian_reforms
 				recruit "barb chieftain cavalry gaul"  1  requires factions { gauls, }  and marian_reforms 
-				recruit "barb chieftain cavalry early german"  1  requires factions { germans, }  and not marian_reforms
-				recruit "barb chieftain cavalry german"  1  requires factions { germans, }  and marian_reforms 
+				recruit "barb chieftain cavalry early german"  1  requires factions { germans, sciria_01, }  and not marian_reforms
+				recruit "barb chieftain cavalry german"  1  requires factions { germans, sciria_01, }  and marian_reforms 
 				recruit "barb chieftain cavalry early scythian"  1  requires factions { scythia, }  and not marian_reforms
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
@@ -99,7 +99,7 @@ building core_building
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
                 recruit "barb peasant gaul"  0  requires factions { gauls, } 
-                recruit "barb peasant german"  0  requires factions { germans, } 
+                recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
@@ -117,8 +117,8 @@ building core_building
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
 				recruit "barb chieftain cavalry early gaul"  1  requires factions { gauls, }  and not marian_reforms
 				recruit "barb chieftain cavalry gaul"  1  requires factions { gauls, }  and marian_reforms 
-				recruit "barb chieftain cavalry early german"  1  requires factions { germans, }  and not marian_reforms
-				recruit "barb chieftain cavalry german"  1  requires factions { germans, }  and marian_reforms 
+				recruit "barb chieftain cavalry early german"  1  requires factions { germans, sciria_01, }  and not marian_reforms
+				recruit "barb chieftain cavalry german"  1  requires factions { germans, sciria_01, }  and marian_reforms 
 				recruit "barb chieftain cavalry early scythian"  1  requires factions { scythia, }  and not marian_reforms
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
@@ -159,7 +159,7 @@ building core_building
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
                 recruit "barb peasant gaul"  0  requires factions { gauls, } 
-                recruit "barb peasant german"  0  requires factions { germans, } 
+                recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
@@ -177,8 +177,8 @@ building core_building
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
 				recruit "barb chieftain cavalry early gaul"  1  requires factions { gauls, }  and not marian_reforms
 				recruit "barb chieftain cavalry gaul"  1  requires factions { gauls, }  and marian_reforms 
-				recruit "barb chieftain cavalry early german"  1  requires factions { germans, }  and not marian_reforms
-				recruit "barb chieftain cavalry german"  1  requires factions { germans, }  and marian_reforms 
+				recruit "barb chieftain cavalry early german"  1  requires factions { germans, sciria_01, }  and not marian_reforms
+				recruit "barb chieftain cavalry german"  1  requires factions { germans, sciria_01, }  and marian_reforms 
 				recruit "barb chieftain cavalry early scythian"  1  requires factions { scythia, }  and not marian_reforms
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
@@ -219,7 +219,7 @@ building core_building
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
                 recruit "barb peasant gaul"  0  requires factions { gauls, } 
-                recruit "barb peasant german"  0  requires factions { germans, } 
+                recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
@@ -237,8 +237,8 @@ building core_building
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
 				recruit "barb chieftain cavalry early gaul"  1  requires factions { gauls, }  and not marian_reforms
 				recruit "barb chieftain cavalry gaul"  1  requires factions { gauls, }  and marian_reforms 
-				recruit "barb chieftain cavalry early german"  1  requires factions { germans, }  and not marian_reforms
-				recruit "barb chieftain cavalry german"  1  requires factions { germans, }  and marian_reforms 
+				recruit "barb chieftain cavalry early german"  1  requires factions { germans, sciria_01, }  and not marian_reforms
+				recruit "barb chieftain cavalry german"  1  requires factions { germans, sciria_01, }  and marian_reforms 
 				recruit "barb chieftain cavalry early scythian"  1  requires factions { scythia, }  and not marian_reforms
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
@@ -383,7 +383,7 @@ building barracks
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
-                recruit "warband spear german"  0  requires factions { germans, } 
+                recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
@@ -419,13 +419,13 @@ building barracks
                 recruit "spear warrior briton"  0  requires factions { britons, } 
                 recruit "spear warrior dacia"  0  requires factions { dacia, } 
                 recruit "spear warrior gaul"  0  requires factions { gauls, } 
-                recruit "warband spear german"  0  requires factions { germans, } 
-                recruit "spear warrior german"  0  requires factions { germans, } 
+                recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
+                recruit "spear warrior german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
-                recruit "warband axe german"  0  requires factions { germans, } 
+                recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
                 recruit "scythian spearman"  0  requires factions { scythia, } 
                 recruit "warband axe scythian"  0  requires factions { scythia, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
@@ -486,20 +486,20 @@ building barracks
                 recruit "spear warrior briton"  0  requires factions { britons, } 
                 recruit "spear warrior dacia"  0  requires factions { dacia, } 
                 recruit "spear warrior gaul"  0  requires factions { gauls, } 
-                recruit "warband spear german"  0  requires factions { germans, } 
-                recruit "spear warrior german"  0  requires factions { germans, } 
+                recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
+                recruit "spear warrior german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
-                recruit "warband axe german"  0  requires factions { germans, } 
+                recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "dacian warrior"  0  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, } 
                 recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, } 
-                recruit "sword warrior"  0  requires factions { germans, } 
-                recruit "warband dhaxe german"  0  requires factions { germans, } 
+                recruit "sword warrior"  0  requires factions { germans, sciria_01, } 
+                recruit "warband dhaxe german"  0  requires factions { germans, sciria_01, } 
                 recruit "scythian spearman"  1  requires factions { scythia, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, } 
                 recruit "maiden spears"  0  requires factions { scythia, } 
@@ -549,7 +549,7 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, } 
+        army_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, sciria_01, } 
         {
             capability
             {
@@ -576,20 +576,20 @@ building barracks
                 recruit "spear warrior briton"  0  requires factions { britons, } 
                 recruit "spear warrior dacia"  0  requires factions { dacia, } 
                 recruit "spear warrior gaul"  0  requires factions { gauls, } 
-                recruit "warband spear german"  0  requires factions { germans, } 
-                recruit "spear warrior german"  0  requires factions { germans, } 
+                recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
+                recruit "spear warrior german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
-                recruit "warband axe german"  0  requires factions { germans, } 
+                recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "dacian warrior"  0  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, } 
                 recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, } 
-                recruit "sword warrior"  0  requires factions { germans, } 
-                recruit "warband dhaxe german"  0  requires factions { germans, } 
+                recruit "sword warrior"  0  requires factions { germans, sciria_01, } 
+                recruit "warband dhaxe german"  0  requires factions { germans, sciria_01, } 
                 recruit "scythian spearman"  1  requires factions { scythia, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, } 
                 recruit "maiden spears"  0  requires factions { scythia, } 
@@ -658,7 +658,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, } 
+        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, sciria_01, } 
         {
             capability
             {
@@ -685,20 +685,20 @@ building barracks
                 recruit "spear warrior briton"  0  requires factions { britons, } 
                 recruit "spear warrior dacia"  0  requires factions { dacia, } 
                 recruit "spear warrior gaul"  0  requires factions { gauls, } 
-                recruit "warband spear german"  0  requires factions { germans, } 
-                recruit "spear warrior german"  0  requires factions { germans, } 
+                recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
+                recruit "spear warrior german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
-                recruit "warband axe german"  0  requires factions { germans, } 
+                recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband falx dacian"  0  requires factions { dacia, } 
                 recruit "dacian warrior"  0  requires factions { dacia, } 
                 recruit "barb warguard gaul"  0  requires factions { gauls, } 
                 recruit "barb warguard briton"  0  requires factions { britons, } 
                 recruit "barb warguard dacian"  0  requires factions { dacia, } 
-                recruit "sword warrior"  0  requires factions { germans, } 
-                recruit "warband dhaxe german"  0  requires factions { germans, } 
+                recruit "sword warrior"  0  requires factions { germans, sciria_01, } 
+                recruit "warband dhaxe german"  0  requires factions { germans, sciria_01, } 
                 recruit "scythian spearman"  1  requires factions { scythia, } 
                 recruit "warband axe scythian"  1  requires factions { scythia, } 
                 recruit "maiden spears"  0  requires factions { scythia, } 
@@ -788,13 +788,14 @@ building equestrian
                 recruit "carthaginian cavalry"  0  requires factions { spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb cavalry german"  0  requires factions { germans, } 
+                recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
                 recruit "barb wardogs briton"  0  requires factions {  britons, } 
                 recruit "barb wardogs dacian"  0  requires factions { dacia, } 
                 recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
+                recruit "barb wardogs german"  0  requires factions { germans, sciria_01, } 
+                recruit "barb gothic cavalry german"  0  requires factions { sciria_01, }
                 recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
@@ -825,16 +826,17 @@ building equestrian
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb cavalry german"  0  requires factions { germans, } 
+                recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
                 recruit "barb wardogs briton"  0  requires factions {  britons, } 
                 recruit "barb wardogs dacian"  0  requires factions { dacia, } 
                 recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
+                recruit "barb wardogs german"  0  requires factions { germans, sciria_01, } 
+                recruit "barb gothic cavalry german"  0  requires factions { sciria_01, }
                 recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb noble cavalry german"  0  requires factions { germans, } 
+                recruit "barb noble cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb scythian nobles scythian"  0  requires factions { scythia, } 
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
@@ -879,16 +881,17 @@ building equestrian
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb cavalry german"  0  requires factions { germans, } 
+                recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
                 recruit "barb wardogs briton"  0  requires factions {  britons, } 
                 recruit "barb wardogs dacian"  0  requires factions { dacia, } 
                 recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
+                recruit "barb wardogs german"  0  requires factions { germans, sciria_01, } 
+                recruit "barb gothic cavalry german"  0  requires factions { sciria_01, }
                 recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb noble cavalry german"  0  requires factions { germans, } 
+                recruit "barb noble cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb scythian nobles scythian"  0  requires factions { scythia, } 
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
@@ -949,16 +952,17 @@ building equestrian
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb cavalry german"  0  requires factions { germans, } 
+                recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
                 recruit "barb wardogs briton"  0  requires factions {  britons, } 
                 recruit "barb wardogs dacian"  0  requires factions { dacia, } 
                 recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
+                recruit "barb wardogs german"  0  requires factions { germans, sciria_01, } 
+                recruit "barb gothic cavalry german"  0  requires factions { sciria_01, }
                 recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
-                recruit "barb noble cavalry german"  0  requires factions { germans, } 
+                recruit "barb noble cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb scythian nobles scythian"  0  requires factions { scythia, } 
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
@@ -1029,7 +1033,7 @@ building missiles
             {
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
-                recruit "barb peltast german"  0  requires factions { germans, } 
+                recruit "barb peltast german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
@@ -1058,11 +1062,11 @@ building missiles
                 recruit "carthaginian slinger"  0  requires factions { spain, } 
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
-                recruit "barb peltast german"  0  requires factions { germans, } 
+                recruit "barb peltast german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
-                recruit "warband archer german"  0  requires factions { germans, } 
+                recruit "warband archer german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband archer dacian"  0  requires factions { dacia, } 
                 recruit "warband archer scythian"  0  requires factions { scythia, } 
                 recruit "warband huntsman gaul"  0  requires factions { gauls, } 
@@ -1103,11 +1107,11 @@ building missiles
                 recruit "carthaginian slinger"  0  requires factions { spain, } 
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
-                recruit "barb peltast german"  0  requires factions { germans, } 
+                recruit "barb peltast german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
-                recruit "warband archer german"  0  requires factions { germans, } 
+                recruit "warband archer german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband archer dacian"  0  requires factions { dacia, } 
                 recruit "warband archer scythian"  0  requires factions { scythia, } 
                 recruit "warband huntsman gaul"  0  requires factions { gauls, } 
@@ -1158,11 +1162,11 @@ building missiles
                 recruit "carthaginian slinger"  0  requires factions { spain, } 
                 recruit "carthaginian peltast"  0  requires factions { spain, } 
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
-                recruit "barb peltast german"  0  requires factions { germans, } 
+                recruit "barb peltast german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb slinger briton"  0  requires factions { britons, } 
                 recruit "barb archer dacian"  0  requires factions { dacia, } 
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
-                recruit "warband archer german"  0  requires factions { germans, } 
+                recruit "warband archer german"  0  requires factions { germans, sciria_01, } 
                 recruit "warband archer dacian"  0  requires factions { dacia, } 
                 recruit "warband archer scythian"  0  requires factions { scythia, } 
                 recruit "warband huntsman gaul"  0  requires factions { gauls, } 
@@ -2010,7 +2014,7 @@ building taverns
         {
             capability
             {
-                recruit "barb night raiders german"  0  requires factions { germans, } 
+                recruit "barb night raiders german"  0  requires factions { germans, sciria_01, } 
                 happiness_bonus bonus 2
             }
             construction  3 
@@ -2277,7 +2281,7 @@ building temple_of_fertility
 {
     levels temple_of_fertility_shrine temple_of_fertility_temple temple_of_fertility_large_temple temple_of_fertility_awesome_temple temple_of_fertility_pantheon 
     {
-        temple_of_fertility_shrine requires factions { germans, egyptian, romans_julii, } 
+        temple_of_fertility_shrine requires factions { germans, sciria_01, egyptian, romans_julii, } 
         {
             capability
             {
@@ -2293,7 +2297,7 @@ building temple_of_fertility
                 temple_of_fertility_temple
             }
         }
-        temple_of_fertility_temple requires factions { germans, egyptian, romans_julii, } 
+        temple_of_fertility_temple requires factions { germans, sciria_01, egyptian, romans_julii, } 
         {
             capability
             {
@@ -2309,7 +2313,7 @@ building temple_of_fertility
                 temple_of_fertility_large_temple
             }
         }
-        temple_of_fertility_large_temple requires factions { germans, egyptian, romans_julii, } 
+        temple_of_fertility_large_temple requires factions { germans, sciria_01, egyptian, romans_julii, } 
         {
             capability
             {
@@ -3570,7 +3574,7 @@ building temple_of_violence
 {
     levels temple_of_violence_shrine temple_of_violence_temple temple_of_violence_large_temple temple_of_violence_awesome_temple temple_of_violence_pantheon 
     {
-        temple_of_violence_shrine requires factions { germans, pontus, macedon, romans_brutii, } 
+        temple_of_violence_shrine requires factions { germans, sciria_01, pontus, macedon, romans_brutii, } 
         {
             capability
             {
@@ -3584,7 +3588,7 @@ building temple_of_violence
                 temple_of_violence_temple
             }
         }
-        temple_of_violence_temple requires factions { germans, pontus, macedon, romans_brutii, } 
+        temple_of_violence_temple requires factions { germans, sciria_01, pontus, macedon, romans_brutii, } 
         {
             capability
             {
@@ -3599,11 +3603,11 @@ building temple_of_violence
                 temple_of_violence_large_temple
             }
         }
-        temple_of_violence_large_temple requires factions { germans, pontus, macedon, romans_brutii, } 
+        temple_of_violence_large_temple requires factions { germans, sciria_01, pontus, macedon, romans_brutii, } 
         {
             capability
             {
-                recruit "barb berserker german"  0  requires factions { germans, } 
+                recruit "barb berserker german"  0  requires factions { germans, sciria_01, } 
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 2
             }
@@ -3619,7 +3623,7 @@ building temple_of_violence
         {
             capability
             {
-                recruit "barb berserker german"  0  requires factions { germans, } 
+                recruit "barb berserker german"  0  requires factions { germans, sciria_01, } 
                 recruit "roman arcani"  0  requires factions { romans_brutii, } 
                 happiness_bonus bonus 4
                 recruits_exp_bonus bonus 3
@@ -3636,7 +3640,7 @@ building temple_of_violence
         {
             capability
             {
-                recruit "barb berserker german"  0  requires factions { germans, } 
+                recruit "barb berserker german"  0  requires factions { germans, sciria_01, } 
                 recruit "roman arcani"  0  requires factions { romans_brutii, } 
                 happiness_bonus bonus 5
                 recruits_exp_bonus bonus 3
@@ -3660,7 +3664,7 @@ building temple_of_viking
 {
     levels temple_of_viking_shrine temple_of_viking_temple temple_of_viking_large_temple 
     {
-        temple_of_viking_shrine requires factions { germans, } 
+        temple_of_viking_shrine requires factions { germans, sciria_01, } 
         {
             capability
             {
@@ -3675,11 +3679,11 @@ building temple_of_viking
                 temple_of_viking_temple
             }
         }
-        temple_of_viking_temple requires factions { germans, } 
+        temple_of_viking_temple requires factions { germans, sciria_01, } 
         {
             capability
             {
-                recruit "barb naked fanatics german"  0  requires factions { germans, } 
+                recruit "barb naked fanatics german"  0  requires factions { germans, sciria_01, } 
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
@@ -3691,12 +3695,12 @@ building temple_of_viking
                 temple_of_viking_large_temple
             }
         }
-        temple_of_viking_large_temple requires factions { germans, } 
+        temple_of_viking_large_temple requires factions { germans, sciria_01, } 
         {
             capability
             {
-                recruit "barb naked fanatics german"  0  requires factions { germans, } 
-                recruit "barb gothic cavalry german"  0  requires factions { germans, } 
+                recruit "barb naked fanatics german"  0  requires factions { germans, sciria_01, } 
+                recruit "barb gothic cavalry german"  0  requires factions { germans, sciria_01, } 
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }

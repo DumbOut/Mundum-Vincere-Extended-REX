@@ -25,17 +25,18 @@ end
 unlockable
 end
 nonplayable
+	sciria_01
 	romans_senate
 	slave
 end
 
 
 start_date	-316 summer
-end_date	998 summer
+end_date	1098 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 40
+brigand_spawn_value 32
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13539,7 +13540,7 @@ relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	thrace, sailor napoleon
-denari	4890
+denari	3890
 settlement
 {
 	level large_town
@@ -13696,13 +13697,107 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
+faction	sciria_01, balanced napoleon
+denari	2000
+settlement
+{
+	level large_town
+	region Soulonium_R
+
+	year_founded 0
+	population 2195
+	plan_set default_set
+	faction_creator sciria_01
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level town
+	region Sudinium_R
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+;	Soulonium_R
+character	Scirius, named character, leader, age 21, , x 301, y 476
+traits GoodCommander 4 , GoodAttacker 2 , Energetic 1 , Bloodthirsty 2
+ancillaries bodyguard, comedian, aged_retainer
+army
+unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
+unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
+unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
+unit		barb berserker german				exp 4 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+
+;	Sudinium
+character	Etreleus, named character, leader, age 23, , x 320, y 493
+traits GoodCommander 1 , GoodAdministrator 2 , Bloodthirsty 1
+ancillaries bodyguard, comedian
+army
+unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb gothic cavalry german				exp 3 armour 0 weapon_lvl 2
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+
+;	outside Odryssa
+character	Hanhavaldi, diplomat, age 20, , x 321, y 493
+traits GoodDiplomat 1
+
+character_record		Gunderic, 	male, command 3, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Aelric, 	male, command 3, influence 0, management 2, subterfuge 0, age 1, alive, never_a_leader
+character_record		Ziles, 	male, command 4, influence 2, management 2, subterfuge 0, age 1, alive, never_a_leader
+character_record		Adelgund, 	female, command 0, influence 0, management 0, subterfuge 0, age 21, alive, never_a_leader
+character_record		Bendidora, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+
+relative 	Scirius, 	Adelgund,		Gunderic,	Aelric,	end
+relative 	Etreleus, 	Eberharde,		Vangio,	end
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION SLAVE		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 faction	slave, balanced_smith
-denari	-12083999
+denari	-1000400
 settlement
 {
 	level town
@@ -24171,48 +24266,10 @@ settlement
 settlement
 {
 	level town
-	region Soulonium_R
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator germans
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
 	region Galindium_R
 
 	year_founded 0
 	population 800
-	plan_set default_set
-	faction_creator germans
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Sudinium_R
-
-	year_founded 0
-	population 700
 	plan_set default_set
 	faction_creator germans
 	building
@@ -48920,28 +48977,8 @@ unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
 
-;	Soulonium
-character,	sub_faction germans, Gunderic, general, age 20, , x 301, y 476
-
-army
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-
 ;	Galindium
 character,	sub_faction germans, Gunderic, general, age 20, , x 297, y 495
-
-army
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-
-;	Sudinium
-character,	sub_faction germans, Gunderic, general, age 20, , x 320, y 493
 
 army
 unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
@@ -49584,6 +49621,7 @@ core_attitudes	gauls,		90		germans, britons
 core_attitudes	germans,		90		gauls
 core_attitudes	germans,		310		britons
 core_attitudes	germans,		600		slave
+core_attitudes	sciria_01,		600		slave
 core_attitudes	britons,		310		germans
 core_attitudes	britons,		600		slave
 core_attitudes	armenia,		90		parthia
@@ -49601,7 +49639,7 @@ core_attitudes	spain,		600		slave
 core_attitudes	thrace,		310		romans_brutii
 core_attitudes	thrace,		300		dacia
 core_attitudes	thrace,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -49623,6 +49661,7 @@ faction_relationships	parthia,			600		slave
 faction_relationships	pontus,			600		slave
 faction_relationships	gauls,			600		slave
 faction_relationships	germans,			600		slave
+faction_relationships	sciria_01,,			600		slave
 faction_relationships	britons,			600		slave
 faction_relationships	armenia,			600		slave
 faction_relationships	dacia,			600		slave
@@ -49631,6 +49670,6 @@ faction_relationships	numidia,			600		slave
 faction_relationships	scythia,			600		slave
 faction_relationships	spain,			600		slave
 faction_relationships	thrace,			600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
