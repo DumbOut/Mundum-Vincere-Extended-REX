@@ -99,7 +99,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 100, 20, 30, 150
-ownership        germans
+ownership        germans, sciria_01
 
 type             barb peasant scythian
 dictionary       barb_peasant_scythian      ; Barbarian Peasants
@@ -8109,18 +8109,18 @@ officer          carthaginian_standard
 attributes       sea_faring, hide_improved_forest
 formation        1, 1, 2, 2, 4, square
 stat_health      1, 0
-stat_pri         11, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25 ,1
+stat_pri         10, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25 ,1
 stat_pri_attr    prec, thrown ap
-stat_sec         7, 3, no, 0, 0, melee, simple, piercing, spear, 25 ,0.73
-stat_sec_attr    spear, spear_bonus_8
+stat_sec         6, 3, no, 0, 0, melee, simple, piercing, spear, 25 ,0.73
+stat_sec_attr    spear, spear_bonus_4
 stat_pri_armour  5, 5, 5, metal
 stat_sec_armour  0, 1, flesh
 stat_heat        1
 stat_ground      2, 1, 0, -1
-stat_mental      4, impetuous, untrained
+stat_mental      4, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 450, 170, 40, 60, 450
+stat_cost        1, 460, 170, 40, 60, 460
 ownership        spain
 
