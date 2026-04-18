@@ -72,11 +72,11 @@ pool Northern_Greece
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Northern_Italy
-	regions Etruria Umbria Latium Minturnae_R				
+	regions Etruria Umbria Latium Minturnae_R Caeta_R				
 	unit merc samnite,			exp 0 cost 750 replenish 0.03 - 0.05 max 1 initial 0
 
 pool Persia
-	regions Media Elymais				
+	regions Media Elymais SeleuciaCalycadnum_R		
 	unit merc eastern infantry,			exp 0 cost 650 replenish 0.125 - 0.25 max 3 initial 1
 
 pool Galatia
