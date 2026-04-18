@@ -12,6 +12,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -4 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -36,6 +37,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -3 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -375,6 +377,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -2 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -392,6 +395,7 @@ building barracks
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
+                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
             }
             construction  2 
@@ -406,6 +410,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -444,6 +449,7 @@ building barracks
                 recruit "egyptian nile infantry"  0  requires factions { egypt, }
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
+                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
@@ -523,6 +529,7 @@ building barracks
                 recruit "egyptian infantry"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
+                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
@@ -622,6 +629,7 @@ building barracks
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
+                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, } 
@@ -732,6 +740,7 @@ building barracks
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
+                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, } 
