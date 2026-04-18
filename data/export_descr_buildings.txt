@@ -97,6 +97,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -1 requires factions { slave, }             
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -302,6 +303,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -1 requires factions { slave, }
                 wall_level 1
                 gate_strength 1
                 tower_level 1
@@ -395,7 +397,7 @@ building barracks
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
-                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
+                recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
             }
             construction  2 
@@ -449,11 +451,11 @@ building barracks
                 recruit "egyptian nile infantry"  0  requires factions { egypt, }
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
-                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
+                recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
-				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, }
+				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -529,11 +531,11 @@ building barracks
                 recruit "egyptian infantry"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
-                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
+                recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
-				recruit "merc greek hoplites"  0  requires factions { thrace, }
+				recruit "merc greek hoplites"  0  requires factions { thrace, greek_cities, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
                 recruit "greek pikemen"  0  requires factions { thrace, seleucid, macedon, } 
@@ -629,7 +631,7 @@ building barracks
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
-                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
+                recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, } 
@@ -646,7 +648,7 @@ building barracks
                 recruit "greek spear hypaspist"  0  requires factions { macedon, seleucid, } 
                 recruit "greek hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
-				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, }
+				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 2 requires factions { thrace, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -740,7 +742,7 @@ building barracks
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
-                reccruit "pontic ionian tolmetai" 0 requires factions { pontus, }
+                recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, } 
