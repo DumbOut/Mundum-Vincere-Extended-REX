@@ -543,6 +543,7 @@ building barracks
                 recruit "greek new hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek swordsman"  0  requires factions { seleucid, macedon, } 
                 recruit "thracian warrior"  0  requires factions { thrace, } 
+                recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -642,6 +643,7 @@ building barracks
                 recruit "greek new hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek swordsman"  0  requires factions { seleucid, macedon, } 
                 recruit "thracian warrior"  0  requires factions { thrace, } 
+                recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "greek royal pikemen"  0  requires factions { macedon, } 
                 recruit "greek silver shield pikemen"  0  requires factions { seleucid, } 
@@ -649,7 +651,8 @@ building barracks
                 recruit "greek hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
-				recruit "merc barbarian infantry" 2 requires factions { thrace, }
+				recruit "merc barbarian infantry" 0 requires factions { thrace, }
+                recruit "parthian immortals"  0  requires factions { parthia, } and settlement_min huge_city
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -672,6 +675,7 @@ building barracks
         {
             capability
             {
+				taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -753,6 +757,7 @@ building barracks
                 recruit "greek new hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek swordsman"  0  requires factions { seleucid, macedon, } 
                 recruit "thracian warrior"  0  requires factions { thrace, } 
+                recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "greek royal pikemen"  0  requires factions { macedon, } 
                 recruit "greek silver shield pikemen"  0  requires factions { seleucid, } 

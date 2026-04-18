@@ -4064,3 +4064,25 @@ model_flexi         mve_rex/data/models_unit/NETW/pontic_ionian_tolmetai.cas, 40
 model_flexi         mve_rex/data/models_unit/NETW/pontic_ionian_tolmetai.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type				parthian_immortal
+skeleton			fs_semi_fast_archer, fs_semi_fast_spearman
+indiv_range			40
+texture				parthia, mve_rex/data/models_unit/textures/immortal.tga
+model_flexi			mve_rex/data/models_unit/immortal.cas, 8
+model_flexi			mve_rex/data/models_unit/immortal.cas, 15
+model_flexi			mve_rex/data/models_unit/immortal.cas, 30
+model_flexi			mve_rex/data/models_unit/immortal.cas, max
+model_sprite		parthia, 60.0, mve_rex/data/sprites/parthia_persian_immortal_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				thrace_pike
+skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
+indiv_range			40
+texture				thrace, data/models_unit/textures/thrace_pike_thrace.tga
+model_flexi_m			mve_rex/data/models_unit/thrace_pike.cas, 8
+model_flexi_m			mve_rex/data/models_unit/thrace_pike.cas, 15
+model_flexi			mve_rex/data/models_unit/thrace_pike.cas, 30
+model_flexi			mve_rex/data/models_unit/thrace_pike.cas, 40
+model_flexi			mve_rex/data/models_unit/thrace_pike.cas, max
+model_sprite		thrace, 60.0, mve_rex/data/sprites/thrace_thrace_pike_sprite.spr
+
