@@ -4577,7 +4577,32 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 930, 110, 100, 140, 930
-ownership        greek_cities, macedon
+ownership        greek_cities, macedon, seleucid, thrace
+
+type             east heavy onager
+dictionary       east_heavy_onagers      ; Heavy Onagers
+category         siege
+class            missile
+voice_type       Medium_1
+soldier          east_crew, 16, 2, 0.8
+engine           heavy_onager
+attributes       sea_faring
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 0
+stat_pri         4, 2, no, 0, 0, melee, simple, piercing, knife, 25 ,1
+stat_pri_attr    no
+stat_sec         63, 2, big_boulder, 300, 30, siege_missile, blade, blunt, none, 25 ,1
+stat_sec_attr    ap, bp, area, launching
+stat_pri_armour  0, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 950, 100, 100, 140, 950
+ownership        pontus, armenia, parthia
 
 type             greek chariot scythed
 dictionary       greek_scythed_chariots      ; Scythed Chariots

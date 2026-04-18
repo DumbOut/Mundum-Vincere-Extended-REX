@@ -1207,7 +1207,8 @@ building missiles
                 recruit "greek heavy peltast"  0  requires factions { greek_cities, } 
                 recruit "greek ballista"  0  requires factions { macedon, greek_cities, } 
                 recruit "greek onager"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
-                recruit "greek heavy onager"  0  requires factions { macedon, greek_cities, } 
+                recruit "greek heavy onager"  0  requires factions { macedon, greek_cities, seleucid, thrace, } 
+                recruit "east heavy onager"  0  requires factions { pontus, armenia, parthia, }
                 recruit "roman velite"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman light infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman archer"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
