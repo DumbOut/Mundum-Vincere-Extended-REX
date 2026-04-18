@@ -456,7 +456,7 @@ building barracks
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
-				recruit "merc barbarian infantry" 0 requires factions { thrace, }
+				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -536,7 +536,7 @@ building barracks
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
 				recruit "merc greek hoplites"  0  requires factions { thrace, greek_cities, carthage, }
-				recruit "merc barbarian infantry" 0 requires factions { thrace, }
+				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
                 recruit "greek pikemen"  0  requires factions { thrace, seleucid, macedon, } 
 				recruit "east central semitic elite mercswords"  0  requires factions { egypt, seleucid, }
