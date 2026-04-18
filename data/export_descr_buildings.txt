@@ -412,7 +412,7 @@ building barracks
         {
             capability
             {
-                taxable_income_bonus bonus -1 requires factions { slave, }
+                taxable_income_bonus bonus -2 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
