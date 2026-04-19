@@ -4088,3 +4088,16 @@ model_flexi			mve_rex/data/models_unit/thrace_pike.cas, 40
 model_flexi			mve_rex/data/models_unit/thrace_pike.cas, max
 model_sprite		thrace, 60.0, mve_rex/data/sprites/thrace_thrace_pike_sprite.spr
 
+type				eastern_01_cappodocian_cavalry
+skeleton			fs_hc_spearman, fs_hc_swordsman
+indiv_range			40
+texture			pontus, mve_rex/data/models_unit/textures/ME_EAST_CAPPODOCEAN_CAVALRY_PONTUS.TGA
+texture			armenia, mve_rex/data/models_unit/textures/ME_EAST_CAPPODOCEAN_CAVALRY_ARMENIA.TGA
+texture			parthia, mve_rex/data/models_unit/textures/ME_EAST_CAPPODOCEAN_CAVALRY_PARTHIA.TGA
+texture			seleucid, mve_rex/data/models_unit/textures/ME_EAST_CAPPODOCEAN_CAVALRY_SELEUCID.TGA
+model_flexi_m			mve_rex/data/models_unit/ME_east_cappodocean_cav_high.cas, 15
+model_flexi_m			mve_rex/data/models_unit/ME_east_cappodocean_cav_med.cas, 30
+model_flexi_m			mve_rex/data/models_unit/ME_east_cappodocean_cav_low.cas, 40
+model_flexi			mve_rex/data/models_unit/ME_east_cappodocean_cav_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+

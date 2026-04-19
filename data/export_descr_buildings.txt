@@ -814,6 +814,7 @@ building equestrian
                 recruit "barb gothic cavalry german"  0  requires factions { sciria_01, }
                 recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
+                recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } 
@@ -858,6 +859,7 @@ building equestrian
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
                 recruit "royal lancers"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
+                recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { carthage, numidia, } 
                 recruit "carthaginian elephant forest"  0  requires factions { carthage, }  and resource elephants
@@ -913,6 +915,7 @@ building equestrian
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
                 recruit "royal lancers"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
+                recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { carthage, numidia, } 
                 recruit "carthaginian elephant forest"  0  requires factions { carthage, }  and resource elephants
@@ -984,6 +987,7 @@ building equestrian
                 recruit "barb noble horse archers scythian"  0  requires factions { scythia, } 
                 recruit "royal lancers"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
+                recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { carthage, numidia, } 
                 recruit "carthaginian elephant forest"  0  requires factions { carthage, }  and resource elephants
@@ -3960,7 +3964,7 @@ building temple_of_argeadai
                 farming_level bonus 2
             }
             construction  6 
-            cost  6900 
+            cost  6910 
             settlement_min huge_city
             upgrades
             {
