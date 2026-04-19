@@ -11033,7 +11033,7 @@ relative 	Cynfawr, 	Eudaf,		Sennianus,	Drustan,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	armenia, fortified henry
-denari	1200
+denari	1000
 settlement
 {
 	level large_town
@@ -11439,7 +11439,7 @@ relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, balanced stalin
-denari	1200
+denari	1000
 settlement
 {
 	level large_town
@@ -12984,7 +12984,7 @@ relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	numidia, balanced henry
-denari	1200
+denari	1000
 settlement
 {
 	level large_town
@@ -13335,7 +13335,6 @@ character	Phillipos, general, age 20, , x 398, y 433
 
 army
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
-unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 
 ;	Scythian Metropolis
 character	Belnirari, named character, age 27, , x 419, y 420
@@ -13374,7 +13373,7 @@ relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	spain, fortified mao
-denari	1200
+denari	1000
 settlement
 {
 	level large_town
@@ -13404,7 +13403,7 @@ settlement
 	region Pallantia_R
 
 	year_founded 0
-	population 2200
+	population 2000
 	plan_set default_set
 	faction_creator spain
 	building
@@ -13427,7 +13426,7 @@ settlement
 	region Castulo_R
 
 	year_founded 0
-	population 1000
+	population 900
 	plan_set default_set
 	faction_creator spain
 	building
@@ -13446,7 +13445,7 @@ settlement
 	region Dertosa_R
 
 	year_founded 0
-	population 1600
+	population 1200
 	plan_set default_set
 	faction_creator spain
 	building
@@ -13538,7 +13537,7 @@ relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	thrace, sailor napoleon
-denari	3890
+denari	2890
 settlement
 {
 	level large_town
