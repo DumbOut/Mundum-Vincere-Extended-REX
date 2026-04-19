@@ -37,7 +37,7 @@ building core_building
         {
             capability
             {
-                taxable_income_bonus bonus -3 requires factions { slave, }
+                taxable_income_bonus bonus -4 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -86,7 +86,7 @@ building core_building
                 recruit "roman praetorian spear cohort i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } and marian_reforms
             }
             construction  2 
-            cost  800 
+            cost  900 
             settlement_min town
             upgrades
             {
