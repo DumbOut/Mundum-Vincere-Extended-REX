@@ -2915,7 +2915,7 @@ building temple_of_justice
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
-                recruit "spanish bull warriors"  0  requires factions { spain, } 
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, } 
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
@@ -2934,7 +2934,7 @@ building temple_of_justice
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
-                recruit "spanish bull warriors"  0  requires factions { spain, } 
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, } 
                 recruit "carthaginian sacred band infantry"  0  requires factions { carthage, } 
                 happiness_bonus bonus 4
                 law_bonus bonus 4
@@ -2954,7 +2954,7 @@ building temple_of_justice
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
-                recruit "spanish bull warriors"  0  requires factions { spain, } 
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, } 
                 recruit "carthaginian sacred band infantry"  0  requires factions { carthage, } 
                 happiness_bonus bonus 7
                 law_bonus bonus 5
@@ -3880,4 +3880,94 @@ building temple_of_alexander
 			}
 		}
 	}
+}
+building temple_of_argeadai
+{
+    levels temple_of_argeadai_shrine temple_of_argeadai_temple temple_of_argeadai_large_temple temple_of_argeadai_awesome_temple temple_of_argeadai_pantheon 
+    {
+        temple_of_argeadai_shrine requires factions { macedon, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 2
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_argeadai_temple
+            }
+        }
+        temple_of_argeadai_temple requires factions { macedon, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 3
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_argeadai_large_temple
+            }
+        }
+        temple_of_argeadai_large_temple requires factions { macedon, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                weapon_missile bonus 1
+                law_bonus bonus 3
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_argeadai_awesome_temple
+            }
+        }
+        temple_of_argeadai_awesome_temple requires factions { macedon, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                weapon_missile bonus 2
+                law_bonus bonus 2
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_argeadai_pantheon
+            }
+        }
+        temple_of_argeadai_pantheon requires factions { macedon, } 
+        {
+            capability
+            {
+                recruits_exp_bonus bonus 1
+                taxable_income_bonus bonus 2
+                happiness_bonus bonus 4
+                law_bonus bonus 3
+                weapon_missile bonus 2
+                trade_base_income_bonus bonus 0.2
+                farming_level bonus 2
+            }
+            construction  6 
+            cost  6900 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
 }

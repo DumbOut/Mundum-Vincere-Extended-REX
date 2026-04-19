@@ -2303,7 +2303,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1150, 200, 120, 180, 1150
-ownership        spain
+ownership        spain, carthage
 
 type             numidian javelinmen
 dictionary       numidian_javelinmen      ; Numidian Javelinmen
@@ -5684,7 +5684,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 170, 50, 70, 450
-ownership        slave
+ownership        slave, carthage
 
 type             merc cilician pirate
 dictionary       merc_cilician_pirate      ; Cilician Pirates
