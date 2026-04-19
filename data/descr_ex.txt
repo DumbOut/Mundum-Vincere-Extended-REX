@@ -26,8 +26,8 @@ superfaction_min_regions 29
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.4, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
-camera_min_height 0.025
-camera_max_height 365.0
+camera_min_height 0.013
+camera_max_height 512.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
