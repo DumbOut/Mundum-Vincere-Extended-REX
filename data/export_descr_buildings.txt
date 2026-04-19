@@ -800,6 +800,7 @@ building equestrian
         {
             capability
             {
+                taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
