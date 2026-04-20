@@ -4101,3 +4101,17 @@ model_flexi_m			mve_rex/data/models_unit/ME_east_cappodocean_cav_low.cas, 40
 model_flexi			mve_rex/data/models_unit/ME_east_cappodocean_cav_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type				greek_levy_pikeman_merc
+skeleton			fs_thp_f_spearman_p, fs_s1_swordsman
+indiv_range			40
+texture				merc, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				egypt, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				greek_cities, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				seleucid, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_high.cas, 8
+model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_med.cas, 15
+model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_low.cas, 30
+model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_lowest.cas, max
+model_sprite		60.0, mve_rex/Data/sprites/greek_levy_pikeman_merc_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+

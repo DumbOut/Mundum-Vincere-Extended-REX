@@ -8217,7 +8217,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 841, 151, 78, 110, 841
+stat_cost        0, 841, 151, 78, 110, 841
 ownership        thrace
 
 type             eastern 01 cappodocian cavalry
@@ -8247,5 +8247,37 @@ stat_mental      10, disciplined, trained
 stat_charge_dist 90
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 989, 315, 87, 128, 989
+stat_cost        0, 989, 315, 87, 128, 989
 ownership        armenia, parthia, pontus
+
+type             greek levy pikemen merc  
+dictionary       greek_levy_pikemen_merc
+category         infantry
+class            spearmen
+voice_type       Light_1
+soldier          greek_levy_pikeman_merc, 60, 0, 2.8
+officer          greek_levy_pikeman_merc
+officer          greek_levy_pikeman_merc
+officer          greek_standard
+officer			 greek_musician
+mount_effect     horse +5, camel +4, elephant +3
+attributes       sea_faring, hide_forest, can_sap, mercenary_unit, hardy
+formation        1, 1, 2, 2, 8, square,phalanx
+stat_health      1, 5
+stat_pri         14, 9, no, 0, 0, melee, blade, piercing, spear, 105 , 1
+stat_pri_attr    spear, long_pike, spear_bonus_12
+stat_sec         5, 2, no, 0, 0, melee, simple, piercing, sword, 75 , 1
+stat_sec_attr    no
+stat_pri_armour  9, 10, 5, leather
+stat_sec_armour  0, 5, flesh
+stat_heat        0
+stat_ground      2, 0, 0, 0
+stat_mental      9, normal, highly_trained
+stat_charge_dist 2
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 730, 140, 70, 120, 730
+ownership        slave, greek_cities, egypt, seleucid
+
+
+

@@ -545,6 +545,7 @@ building barracks
                 recruit "thracian warrior"  0  requires factions { thrace, } 
                 recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -645,6 +646,7 @@ building barracks
                 recruit "thracian warrior"  0  requires factions { thrace, } 
                 recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
                 recruit "greek royal pikemen"  0  requires factions { macedon, } 
                 recruit "greek silver shield pikemen"  0  requires factions { seleucid, } 
                 recruit "greek spear hypaspist"  0  requires factions { macedon, seleucid, } 
@@ -749,7 +751,7 @@ building barracks
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
-                recruit "greek hoplite"  1  requires factions { greek_cities, } 
+                recruit "greek hoplite"  0  requires factions { greek_cities, } 
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
                 recruit "thorakitai"  0  requires factions { greek_cities, } 
                 recruit "greek pikemen"  0  requires factions { thrace, seleucid, macedon, } 
@@ -759,6 +761,7 @@ building barracks
                 recruit "thracian warrior"  0  requires factions { thrace, } 
                 recruit "thrace pikemen"  0  requires factions { thrace, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
                 recruit "greek royal pikemen"  0  requires factions { macedon, } 
                 recruit "greek silver shield pikemen"  0  requires factions { seleucid, } 
                 recruit "greek spear hypaspist"  0  requires factions { macedon, seleucid, } 
@@ -774,7 +777,7 @@ building barracks
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman legionary cohort i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman legionary first cohort i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and hidden_resource rome and marian_reforms 
-                recruit "roman triarii"  1  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman triarii"  1  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }
                 recruit "roman legionary cohort ii"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman legionary first cohort ii"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and hidden_resource rome and marian_reforms 
                 recruit "roman praetorian cohort urban i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
