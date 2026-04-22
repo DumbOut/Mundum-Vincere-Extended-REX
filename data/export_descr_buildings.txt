@@ -654,7 +654,7 @@ building barracks
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, }
-                recruit "parthian immortals"  0  requires factions { parthia, } and settlement_min huge_city
+                recruit "parthian immortal"  0  requires factions { parthia, } and settlement_min huge_city
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
