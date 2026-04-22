@@ -4080,7 +4080,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				thrace_pike
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
-texture				thrace, data/models_unit/textures/thrace_pike_thrace.tga
+texture				thrace, mve_rex/data/models_unit/textures/thrace_pike_thrace.tga
 model_flexi_m			mve_rex/data/models_unit/thrace_pike.cas, 8
 model_flexi_m			mve_rex/data/models_unit/thrace_pike.cas, 15
 model_flexi			mve_rex/data/models_unit/thrace_pike.cas, 30
@@ -4112,7 +4112,6 @@ model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_high.cas, 8
 model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_med.cas, 15
 model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_low.cas, 30
 model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_lowest.cas, max
-model_sprite		60.0, mve_rex/data/sprites/greek_levy_pikeman_merc_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				barb_infantry_longshield_german
@@ -4130,10 +4129,6 @@ type				greek_hoplite_01
 skeleton			fs_s1_hoplite						; combat spear
 indiv_range			40
 texture			scythia, mve_rex/data/models_unit/textures/A_greek_hoplite_scythia.TGA
-texture			greek_cities, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_greek.TGA
-texture			slave, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_slave.TGA
-texture			macedon, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_macedon.TGA
-texture			parthia, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_parthia.TGA
 model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_high.cas, 15
 model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_med.cas, 30
 model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_low.cas, 40
