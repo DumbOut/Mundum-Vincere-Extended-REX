@@ -545,6 +545,7 @@ building barracks
                 recruit "greek swordsman"  0  requires factions { seleucid, macedon, } 
                 recruit "thracian warrior"  0  requires factions { thrace, } 
                 recruit "thrace pikemen"  0  requires factions { thrace, }
+                recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
@@ -612,6 +613,7 @@ building barracks
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "numidian spears"  0  requires factions { numidia, } 
+                recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { eastern, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
@@ -727,6 +729,7 @@ building barracks
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "numidian spears"  0  requires factions { numidia, } 
+                recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { eastern, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 

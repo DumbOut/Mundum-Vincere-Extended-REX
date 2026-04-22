@@ -4104,28 +4104,38 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_levy_pikeman_merc
 skeleton			fs_thp_f_spearman_p, fs_s1_swordsman
 indiv_range			40
-texture				merc, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
-texture				egypt, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
-texture				greek_cities, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
-texture				seleucid, mve_rex/Data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
-model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_high.cas, 8
-model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_med.cas, 15
-model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_low.cas, 30
-model_flexi			mve_rex/Data/models_unit/unit_NL_pezhetairoi_lowest.cas, max
-model_sprite		60.0, mve_rex/Data/sprites/greek_levy_pikeman_merc_sprite.spr
+texture				merc, mve_rex/data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				egypt, mve_rex/data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				greek_cities, mve_rex/data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+texture				seleucid, mve_rex/data/models_unit/textures/unit_NL_pezhetairoi_merc.tga
+model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_high.cas, 8
+model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_med.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_low.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_pezhetairoi_lowest.cas, max
+model_sprite		60.0, mve_rex/data/sprites/greek_levy_pikeman_merc_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				barb_infantry_longshield_german
 skeleton			fs_spearman, fs_swordsman
 indiv_range			40
-texture				germans, mve_rex/Data/models_unit/textures/unit_barb_warband_german.tga
-texture				slave, mve_rex/Data/models_unit/textures/unit_NL_barb_infantry_longshield_german_slave.tga
-model_flexi			mve_rex/Data/models_unit/unit_NL_barb_infantry_longshield_german_high.cas, 8
-model_flexi			mve_rex/Data/models_unit/unit_NL_barb_infantry_longshield_german_med.cas, 15
-model_flexi			mve_rex/Data/models_unit/unit_NL_barb_infantry_longshield_german_low.cas, 30
-model_flexi			mve_rex/Data/models_unit/unit_NL_barb_infantry_longshield_german_lowest.cas, max
-model_sprite		germans, 60.0, mve_rex/data/sprites/germans_barb_infantry_longshield_german_sprite.spr
-model_sprite		slave, 60.0, mve_rex/data/sprites/slave_barb_infantry_longshield_german_sprite.spr
+texture				germans, mve_rex/data/models_unit/textures/unit_barb_warband_german.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_NL_barb_infantry_longshield_german_slave.tga
+model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_high.cas, 8
+model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_med.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_low.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-
+type				greek_hoplite_01
+skeleton			fs_s1_hoplite						; combat spear
+indiv_range			40
+texture			scythia, mve_rex/data/models_unit/textures/A_greek_hoplite_scythia.TGA
+texture			greek_cities, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_greek.TGA
+texture			slave, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_slave.TGA
+texture			macedon, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_macedon.TGA
+texture			parthia, mve_rex/data/models_unit/textures/unit_NL_greek_hoplite_parthia.TGA
+model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_high.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_med.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_low.cas, 40
+model_flexi			mve_rex/data/models_unit/unit_NL_greek_hoplite_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
