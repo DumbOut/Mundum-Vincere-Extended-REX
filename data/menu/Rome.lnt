@@ -5109,15 +5109,17 @@
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
-    <UI piece>symbol48_21
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+	 <UI piece>CFP_symbol48_21
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>932</x>
-        <y>568</y>
+        <x>919</x>
+        <y>430</y>
         <width>59</width>
         <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
       </Parameters>
-      <object_id>empty_toggle_button</object_id>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
     </UI piece>
 	<UI piece>CFP_symbol48_22
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
@@ -5196,18 +5198,6 @@
       <Parameters>
         <x>919</x>
         <y>486</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-  <UI piece>CFP_symbol48_29
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>978</x>
-        <y>489</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
