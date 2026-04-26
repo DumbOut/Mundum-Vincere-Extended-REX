@@ -8323,3 +8323,56 @@ stat_food        60, 300
 stat_cost        1, 700, 160, 70, 100, 700
 ownership        scythia
 
+type             warband spear scythian  
+dictionary       warband_spear_scythia
+category         infantry
+class            spearmen
+voice_type       Light_1
+soldier          warband_spearman_scythian, 60, 0, 3.2
+officer          warband_spearman_scythian
+officer          barb_standard
+mount_effect     horse +5, camel +4, elephant +3
+attributes       sea_faring, hide_improved_forest, hardy
+formation        1, 1, 2, 2, 8, square,phalanx
+stat_health      1, 5
+stat_pri         9, 2, no, 0, 0, melee, simple, piercing, spear, 75 , 1
+stat_pri_attr    spear, spear_bonus_12
+stat_sec         7, 3, no, 0, 0, melee, blade, piercing, axe, 75 , 1
+stat_sec_attr    ap
+stat_pri_armour  6, 10, 6, metal
+stat_sec_armour  0, 5, flesh
+stat_heat        2
+stat_ground      2, -2, 3, 2
+stat_mental      7, normal, trained
+stat_charge_dist 4
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 550, 95, 50, 30, 550
+ownership        scythia
+
+type             carthaginian imperial guard  
+dictionary       carthaginian_imperial_guard
+category         infantry
+class            spearmen
+voice_type       Heavy_1
+soldier          carthaginian_imperial_pikemen, 60, 0, 3.4
+officer			 carthaginian_imperial_pikemen
+officer          carthaginian_standard
+mount_effect     horse +5, camel +4, elephant +3
+attributes       sea_faring, hide_forest, can_sap, hardy
+formation        1, 1, 2, 2, 8, square,phalanx
+stat_health      3, 5
+stat_pri         19, 13, no, 0, 0, melee, simple, piercing, spear, 75 , 1
+stat_pri_attr    spear, long_pike, spear_bonus_12
+stat_sec         14, 10, no, 0, 0, melee, blade, piercing, sword, 45 , 1
+stat_sec_attr    ap
+stat_pri_armour  10, 12, 7, metal
+stat_sec_armour  0, 7, flesh
+stat_heat        1
+stat_ground      2, 0, 0, 0
+stat_mental      13, disciplined, highly_trained
+stat_charge_dist 20
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 1990, 230, 90, 130, 1990
+ownership        carthage

@@ -391,6 +391,7 @@ building barracks
                 recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
+                recruit "warband spearman scythian"  0  requires factions { scythia, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "east infantry"  0  requires factions { eastern, seleucid, } 
@@ -430,6 +431,7 @@ building barracks
                 recruit "spear warrior german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
+                recruit "warband spearman scythian"  0  requires factions { scythia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
@@ -498,6 +500,7 @@ building barracks
                 recruit "spear warrior german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
+                recruit "warband spearman scythian"  0  requires factions { scythia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
@@ -593,6 +596,7 @@ building barracks
                 recruit "spear warrior german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
+                recruit "warband spearman scythian"  0  requires factions { scythia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
@@ -709,6 +713,7 @@ building barracks
                 recruit "spear warrior german"  0  requires factions { germans, } 
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
+                recruit "warband spearman scythian"  0  requires factions { scythia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, sciria_01, } 
@@ -787,6 +792,7 @@ building barracks
                 recruit "roman legionary cohort ii"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman legionary first cohort ii"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and hidden_resource rome and marian_reforms 
                 recruit "roman praetorian cohort urban i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
+                recruit "carthaginian imperial guard"  0  requires factions { carthage, }
                 recruit "roman praetorian cohort i"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
             }
             construction  7 
