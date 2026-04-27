@@ -4151,3 +4151,13 @@ texture				carthage, mve_rex/data/models_unit/textures/unit_nl_carthage_imperial
 model_flexi			mve_rex/data/models_unit/unit_NL_carthage_imperial_guard.cas, max
 model_sprite		carthage, 60.0, mve_rex/data/sprites/carthage_carthage_imperial_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				carthaginian_heavy_infantry_02
+skeleton			fs_spearman
+indiv_range			40
+texture				carthage, mve_rex/data/models_unit/textures/unit_NL_carthaginian_heavy_infantry.tga
+model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_high.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_med.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_low.cas, 40
+model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
