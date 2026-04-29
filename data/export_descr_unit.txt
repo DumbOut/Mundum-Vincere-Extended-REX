@@ -8388,7 +8388,7 @@ officer          carthaginian_standard
 attributes       sea_faring, hide_forest, very_hardy
 formation        1, 1, 2, 2, 8, square
 stat_health      1, 5
-stat_pri         10, 6, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_pri         10, 5, no, 0, 0, melee, simple, piercing, spear, 75, 1
 stat_pri_attr    light_spear, spear_bonus_8
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25, 1
 stat_sec_attr    no
@@ -8396,10 +8396,35 @@ stat_pri_armour  6, 12, 5, metal
 stat_sec_armour  0, 5, flesh
 stat_heat        -1
 stat_ground      0, 3, 0, -4
-stat_mental      10, disciplined, highly_trained
+stat_mental      8, disciplined, highly_trained
 stat_charge_dist 20
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 834, 98, 70, 30, 834
 ownership        carthage
+
+type             eastern macemen  
+dictionary       eastern_macemen
+category         infantry
+class            light
+voice_type       Light_1
+soldier          eastern_macemen, 50, 0, 1.1
+officer          eastern_macemen
+attributes       sea_faring, hide_forest, can_sap, hardy
+formation        1.2, 1.2, 2.4, 2.4, 8, square
+stat_health      1, 4
+stat_pri         9, 5, no, 0, 0, melee, simple, blunt, mace, 75 , 1
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 , 1
+stat_sec_attr    no
+stat_pri_armour  4, 8, 4, leather
+stat_sec_armour  0, 3, flesh
+stat_heat        -1
+stat_ground      2, 1, 0, -1
+stat_mental      9, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 709, 115, 35, 45, 709
+ownership        eastern, slave
 

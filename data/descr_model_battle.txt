@@ -4161,3 +4161,18 @@ model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_med.c
 model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_low.cas, 40
 model_flexi			mve_rex/data/models_unit/unit_NL_carthaginian_heavy_infantry_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+
+type				eastern_macemen
+skeleton			fs_s1_swordsman						
+indiv_range			40
+texture			armenia, mve_rex/data/models_unit/textures/UNIT_NL_EAST_MACEMEN_ARMENIA.TGA
+texture			pontus, mve_rex/data/models_unit/textures/UNIT_NL_EAST_MACEMEN_PONTUS.TGA
+texture			parthia, mve_rex/data/models_unit/textures/UNIT_NL_EAST_MACEMEN_PARTHIA.TGA
+texture			slave, mve_rex/data/models_unit/textures/UNIT_NL_EAST_MACEMEN_SLAVE.TGA
+model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_med.cas, 30
+model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_low.cas, 40
+model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+

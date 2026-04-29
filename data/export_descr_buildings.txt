@@ -320,6 +320,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -4 requires factions { slave, }
                 wall_level 2
                 tower_level 1
                 gate_defences 1
@@ -354,6 +355,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -4 requires factions { slave, }
                 wall_level 4
                 tower_level 2
                 gate_defences 2
@@ -379,7 +381,7 @@ building barracks
         {
             capability
             {
-                taxable_income_bonus bonus -2 requires factions { slave, }
+                taxable_income_bonus bonus -3 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, } 
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -457,6 +459,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
@@ -540,6 +543,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { thrace, greek_cities, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
@@ -766,6 +770,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
                 recruit "thorakitai"  0  requires factions { greek_cities, } 
                 recruit "greek pikemen"  0  requires factions { thrace, seleucid, macedon, } 
