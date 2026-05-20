@@ -397,7 +397,7 @@ can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; New Factions - 33 ;;
+;; New Factions ;;
 
 faction						sciria_01
 culture						barbarian
@@ -417,6 +417,28 @@ death_movie					fmv/death/death_german_snow_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
+
+;;;;; Mauryan Empire  ;;;;;;
+
+faction						mauryans
+culture						eastern
+symbol						models_strat/symbol_mauryans.CAS
+rebel_symbol				models_strat/symbol_eastern_rebel.CAS
+primary_colour				red 217, green 176, blue 83
+secondary_colour			red 78, green 144, blue 174
+loading_logo				loading_screen/symbols/symbol128_slave.tga
+standard_index				37
+logo_index					FACTION_LOGO_MAURYANS
+small_logo_index			SMALL_FACTION_LOGO_MAURYANS
+triumph_value				5
+intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
+victory_movie				fmv/victory/eastern_outro_320x240.wmv
+defeat_movie				fmv/lose/parthia_eliminated.wmv
+death_movie					fmv/death/death_parthia_sand_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						slave

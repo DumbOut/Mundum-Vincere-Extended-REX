@@ -244,6 +244,7 @@ skeleton			fs_indian_elephant				; indian is correct, african skeleton is only f
 indiv_range			40
 texture				carthage, data/models_unit/textures/mount_african_elephant.tga
 texture				seleucid, data/models_unit/textures/mount_african_elephant_seleucid.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/mount_indian_elephant_decorated.tga
 texture				parthia, data/models_unit/textures/mount_african_elephant_parthia.tga
 texture				merc, data/models_unit/textures/mount_african_elephant_mercenary.tga
 model_flexi			data/models_unit/mount_elephant_african_400.CAS, 15
@@ -258,6 +259,7 @@ skeleton			fs_african_elephant
 indiv_range			40
 texture				carthage, data/models_unit/textures/mount_cataphract_elephant.tga
 texture				seleucid, data/models_unit/textures/mount_cataphract_elephant_seleucid.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/mount_cataphract_indian_elephant_decorated.tga
 model_flexi			data/models_unit/mount_elephant_african_cataphract_400.CAS, 30
 model_flexi			data/models_unit/mount_elephant_african_cataphract_300.CAS, 60
 model_flexi			data/models_unit/mount_elephant_african_cataphract_200.CAS, 120
@@ -314,6 +316,7 @@ texture				romans_brutii, data/models_unit/textures/horse_light_brutii.tga
 texture				carthage, data/models_unit/textures/horse_light_carthage.tga
 texture				dacia, data/models_unit/textures/mount_horse_light_dacia.tga
 texture				egypt, data/models_unit/textures/horse_light_egypt.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/horse_light_india.tga
 texture				gauls, data/models_unit/textures/mount_horse_light_gaul.tga
 texture				germans, data/models_unit/textures/mount_horse_light_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/mount_horse_light_sciria_01.tga
@@ -371,6 +374,7 @@ texture				romans_brutii, data/models_unit/textures/horse_medium_brutii.tga
 texture				carthage, data/models_unit/textures/horse_medium_carthage.tga
 texture				dacia, data/models_unit/textures/horse_medium_dacia.tga
 texture				egypt, data/models_unit/textures/horse_medium_egypt.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/horse_medium_india.tga
 texture				gauls, data/models_unit/textures/horse_medium_gaul.tga
 texture				germans, data/models_unit/textures/horse_medium_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/horse_medium_sciria_01.tga
@@ -428,6 +432,7 @@ texture				romans_brutii, data/models_unit/textures/horse_heavy_brutii.tga
 texture				carthage, data/models_unit/textures/horse_heavy_carthage.tga
 texture				dacia, data/models_unit/textures/horse_heavy_dacia.tga
 texture				egypt, data/models_unit/textures/horse_heavy_egypt.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/horse_heavy_india.tga
 texture				gauls, data/models_unit/textures/horse_heavy_gaul.tga
 texture				germans, data/models_unit/textures/horse_heavy_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/horse_heavy_sciria_01.tga
@@ -484,6 +489,7 @@ texture				romans_brutii, data/models_unit/textures/horse_heavy_brutii.tga
 texture				carthage, data/models_unit/textures/horse_heavy_carthage.tga
 texture				dacia, data/models_unit/textures/horse_heavy_dacia.tga
 texture				egypt, data/models_unit/textures/horse_heavy_egypt.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/horse_heavy_india.tga
 texture				gauls, data/models_unit/textures/horse_heavy_gaul.tga
 texture				germans, data/models_unit/textures/horse_heavy_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/horse_heavy_sciria_01.tga
@@ -536,6 +542,7 @@ texture				armenia, data/models_unit/textures/horse_cataphract_armenia.tga
 texture				pontus, data/models_unit/textures/mount_horse_cataphract_pontus.tga
 texture				parthia, data/models_unit/textures/horse_cataphract_parthia.tga
 texture				seleucid, data/models_unit/textures/mount_horse_cataphract_seleucid.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/horse_cataphract_india.tga
 texture				scythia, data/models_unit/textures/mount_horse_cataphract_scythia.tga
 model_flexi_m			data/models_unit/mount_horse_cataphract_high.CAS, 25
 model_flexi			data/models_unit/mount_horse_cataphract_med.CAS, 55
@@ -2594,8 +2601,6 @@ type				greek_royal_cavalry												; combat spear
 skeleton			fs_hc_spearman, fs_hc_swordsman
 indiv_range			40
 texture				macedon, data/models_unit/textures/unit_greek_royal_cavalry_macedon.tga
-texture				greek_cities, data/models_unit/textures/unit_greek_royal_cavalry_macedon.tga
-texture				seleucid, data/models_unit/textures/unit_greek_royal_cavalry_macedon.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_royal_cavalry_greek.tga
 texture				seleucid, data/models_unit/textures/unit_greek_royal_cavalry_seleucid.tga
 model_flexi_m		data/models_unit/unit_greek_royal_cavalry_400.cas, 8
@@ -4176,3 +4181,284 @@ model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_low.cas, 40
 model_flexi			mve_rex/data/models_unit/unit_NL_eastern_macemen_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+;;;		Altered for Alexander
+
+type				mauryan_general
+skeleton			fs_dagger
+skeleton_horse		fs_hc_swordsman	
+skeleton_elephant	fs_forest_elephant_rider
+skeleton_chariot	fs_chariot_sword
+skeleton_camel		fs_hc_swordsman
+indiv_range			40
+;;;		texture				egypt, data/models_unit/textures/officer_egyptian_general_egypt.tga
+;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_minor_general.TGA
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_Porus.TGA
+;;;		model_flexi			data/models_unit/officer_egyptian_general_high.cas, 15
+;;;		model_flexi			data/models_unit/officer_egyptian_general_med.cas, 30
+;;;		model_flexi			data/models_unit/officer_egyptian_general_low.cas, 40
+;;;		model_flexi			data/models_unit/officer_egyptian_general_lowest.cas, max
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod1.cas, 15
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod2.cas, 30
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod3.cas, 40
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod4.cas, max
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+;;;		Altered for Alexander
+
+type				mauryan_lesser_general
+skeleton			fs_dagger
+skeleton_horse		fs_hc_swordsman	
+skeleton_elephant	fs_forest_elephant_rider
+skeleton_chariot	fs_chariot_sword
+skeleton_camel		fs_hc_swordsman
+indiv_range			40
+;;;		texture				egypt, data/models_unit/textures/officer_egyptian_general_egypt.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_minor_general.TGA
+;;;		model_flexi			data/models_unit/officer_egyptian_general_high.cas, 15
+;;;		model_flexi			data/models_unit/officer_egyptian_general_med.cas, 30
+;;;		model_flexi			data/models_unit/officer_egyptian_general_low.cas, 40
+;;;		model_flexi			data/models_unit/officer_egyptian_general_lowest.cas, max
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod1.cas, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod2.cas, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod3.cas, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod4.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+;Bob Standard bearer is pants, so use chariot crew as officer instead
+type				india_standard
+;skeleton			fs_standard_bearer
+;indiv_range			40
+;texture				egypt, data/models_unit/textures/unit_egyptian_standard.tga
+;model_flexi			data/models_unit/officer_egyptian_standard_400.cas, 8
+;model_flexi			data/models_unit/officer_egyptian_standard_300.cas, 15
+;model_flexi			data/models_unit/officer_egyptian_standard_200.cas, 30
+;model_flexi			data/models_unit/officer_egyptian_standard_100.cas, 40
+;model_flexi			data/models_unit/officer_egyptian_standard_70.cas, max
+;model_sprite		egypt, 60.0, data/sprites/egypt_egyptian_elite_guards_new_sprite.spr
+;model_tri			400, 0.5f, 0.5f, 0.5
+skeleton			fs_standard_bearer				;;;		fs_dagger
+indiv_range			40
+;;;		texture				egypt, data/models_unit/textures/unit_egyption_elite_guard.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_standard.TGA
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_high.cas, 15
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_med.cas, 30
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_low.cas, 40
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_lowest.cas, max
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_standard_lod1.CAS, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_standard_lod2.CAS, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_standard_lod3.CAS, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_standard_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#endif
+
+type				ALEX_indian_chariots
+skeleton			fs_chariot_sword
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_chariot_crew.TGA
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_high.cas, 15
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_med.cas, 30
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_low.cas, 40
+;;;		model_flexi			data/models_unit/egypt_chariot_crew_lowest.cas, max
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_chariot_crew_lod1.CAS, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_chariot_crew_lod2.CAS, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_chariot_crew_lod3.CAS, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_chariot_crew_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_elephants
+skeleton			fs_forest_elephant_rider
+indiv_range			40
+;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_noble_archer.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_elephant_crew.TGA
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_noble_archer_high.CAS, 15
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_noble_archer_med.CAS, 30
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_noble_archer_low.CAS, 40
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_noble_archer_lowest.CAS, max
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_female_archers      ; Levy Archers
+skeleton			fs_archer, fs_swordsman
+indiv_range			40
+;;;	texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_archer_yellow.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/ALEX_indian_female_archer.tga
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_female_archer_lod_1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_female_archer_lod_2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_female_archer_lod_3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_female_archer_lod_4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+type				ALEX_indian_general      ; General
+skeleton			fs_big_elephant_rider
+indiv_range			40
+;;;		texture				egypt, data/models_unit/textures/unit_carthage_light_archer_carthage.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_elephant_crew.TGA
+;;;		model_flexi		data/models_unit/unit_carthage_archer_high.cas, 15
+;;;		model_flexi		data/models_unit/unit_carthage_archer_med.cas, 30
+;;;		model_flexi		data/models_unit/unit_carthage_archer_low.cas, 40
+;;;		model_flexi		data/models_unit/unit_carthage_archer_lowest.cas, max
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod1.cas, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod2.cas, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod3.cas, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_elephant_crew_lod4.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#ifdef ALEX
+
+type				ALEX_indian_javelin_men
+skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman
+indiv_range			40
+;;;	texture				greek_cities, data/models_unit/textures/unit_greek_heavy_peltast_greek.tga
+;;;	texture				slave, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_javelinman.tga
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod1.cas, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod2.cas, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod3.cas, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod4.cas, max
+model_sprite		egypt, 60.0, mve_rex/data/sprites/egy/ALXpt_ALEX_indian_javelin_men_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_levy_archers
+skeleton			fs_archer, fs_swordsman
+indiv_range			40
+;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_archer_yellow.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_levy_archer.TGA
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_archer_high.CAS, 15
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_archer_med.CAS, 30
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_archer_low.CAS, 40
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_archer_lowest.CAS, max
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_levy_archer_lod_1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_levy_archer_lod_2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_levy_archer_lod_3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_levy_archer_lod_4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_light_cavalry
+skeleton			 fs_hc_spearman
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_light_cavalry.TGA
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_light_cavalry_lod1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_light_cavalry_lod2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_light_cavalry_lod3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_light_cavalry_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_longbowmen
+skeleton			fs_archer, fs_swordsman
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_longbowman.TGA
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_longbowman_lod_1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_longbowman_lod_2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_longbowman_lod_3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_longbowman_lod_4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_medium_cavalry
+skeleton			fs_hc_spearman, fs_hc_swordsman								; combat spear
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_medium_cavalry.TGA
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_medium_cavalry_lod1.cas, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_medium_cavalry_lod2.cas, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_medium_cavalry_lod3.cas, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_medium_cavalry_lod4.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_mercenaries      ; Mercenary Spearmen
+skeleton			fs_spearman
+indiv_range			40
+;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_spear_elite_yellow.tga
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_mercenary_spearman.TGA
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_spearman_high.CAS, 15
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_spearman_med.CAS, 30
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_spearman_low.CAS, 40
+;;;		model_flexi		mve_rex/data/models_unit/ALX/unit_indian_spearman_lowest.CAS, max
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_mercenary_spearman_lod1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_mercenary_spearman_lod2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_mercenary_spearman_lod3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_mercenary_spearman_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_slingers
+skeleton			fs_slinger_new, fs_slinger_new
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_slinger.tga
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_slinger_lod1.cas, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_slinger_lod2.cas, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_slinger_lod3.cas, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_slinger_lod4.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+;#endif
+
+
+;#ifdef ALEX
+
+type				ALEX_indian_spearmen      ; Levy Spearmen
+skeleton			fs_spearman
+indiv_range			40
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_spearman.TGA
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_spearman_lod1.CAS, 15
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_spearman_lod2.CAS, 30
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_spearman_lod3.CAS, 40
+model_flexi		mve_rex/data/models_unit/ALX/ALEX_indian_spearman_lod4.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+;#endif
