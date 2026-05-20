@@ -2826,7 +2826,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 170, 30, 50, 290
-ownership        eastern
+ownership        parthia, pontus, armenia
 
 type             east infantry
 dictionary       east_infantry      ; Eastern Infantry
@@ -8777,3 +8777,5 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 100, 10, 10, 350
 ownership        mauryans
+
+;;; Rework stats
