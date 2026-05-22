@@ -462,6 +462,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
@@ -548,6 +549,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { thrace, greek_cities, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
@@ -779,6 +781,7 @@ building barracks
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
+                recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
                 recruit "thorakitai"  0  requires factions { greek_cities, } 
@@ -853,6 +856,7 @@ building equestrian
                 recruit "east cavalry"  0  requires factions { pontus, } 
                 recruit "east horse archer"  0  requires factions { armenia, parthia, } 
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
+                recruit "barb getic steppe raiders" requires factions { dacia, }
                 recruit "greek light lancer"  0  requires factions { macedon, } 
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, } 
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -909,6 +913,7 @@ building equestrian
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
                 recruit "east cataphract archer"  0  requires factions { armenia, } 
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
+                recruit "barb getic steppe raiders" requires factions { dacia, }
                 recruit "egyptian nubian cavalry"  0  requires factions { egypt, } 
                 recruit "greek light lancer"  0  requires factions { macedon, } 
                 recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, } 
@@ -974,6 +979,7 @@ building equestrian
                 recruit "east heavy cataphract"  0  requires factions { armenia, parthia, } 
                 recruit "east elephant"  0  requires factions { parthia, }  and resource elephants
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
+                recruit "barb getic steppe raiders" requires factions { dacia, }
                 recruit "egyptian nubian cavalry"  0  requires factions { egypt, } 
                 recruit "egyptian cleruch"  0  requires factions { egypt, } 
                 recruit "egyptian bedouin"  0  requires factions { egypt, }  and resource camels
@@ -985,7 +991,8 @@ building equestrian
                 recruit "greek heavy cavalry"  0  requires factions { macedon, } 
                 recruit "east heavy cataphract"  0  requires factions { seleucid, } 
                 recruit "greek elephant african"  0  requires factions { seleucid, }  and resource elephants
-                recruit "citizen cavalry"  0  requires factions { greek_cities, } 
+                recruit "citizen cavalry"  0  requires factions { greek_cities, }
+                recruit "barb getic noble cavalry" requires factions { dacia, } 
                 recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman light cavalry"  1  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -1052,6 +1059,7 @@ building equestrian
                 recruit "east elephant"  0  requires factions { parthia, }  and resource elephants
                 recruit "east camel cataphract"  0  requires factions { parthia, }  and resource camels
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
+                recruit "barb getic steppe raiders" requires factions { dacia, }
                 recruit "egyptian nubian cavalry"  0  requires factions { egypt, } 
                 recruit "egyptian cleruch"  0  requires factions { egypt, } 
                 recruit "egyptian bedouin"  0  requires factions { egypt, }  and resource camels
@@ -1065,7 +1073,8 @@ building equestrian
                 recruit "greek elephant african"  0  requires factions { seleucid, }  and resource elephants
                 recruit "greek royal cavalry"  0  requires factions { seleucid, macedon, } 
                 recruit "greek elephant cataphract"  0  requires factions { seleucid, }  and resource elephants
-                recruit "citizen cavalry"  0  requires factions { greek_cities, } 
+                recruit "citizen cavalry"  0  requires factions { greek_cities, }
+                recruit "barb getic noble cavalry" requires factions { dacia, } 
                 recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman light cavalry"  2  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 

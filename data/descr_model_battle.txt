@@ -4480,3 +4480,40 @@ model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_in
 model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
+
+type						median_takabara
+
+skeleton					fs_s1_barbswordsman
+indiv_range			40
+texture				armenia, mve_rex/data/characters/textures/unit_NL_median_takabara_armenia.tga
+texture				parthia, mve_rex/data/characters/textures/unit_NL_median_takabara_parthia.tga
+texture				pontus, mve_rex/data/characters/textures/unit_NL_median_takabara_pontus.tga
+texture				seleucid, mve_rex/data/characters/textures/unit_NL_median_takabara_seleucid.tga
+texture				slave, mve_rex/data/characters/textures/unit_NL_median_takabara_slave.tga
+texture				merc, mve_rex/data/characters/textures/unit_NL_median_takabara_merc.tga
+model_flexi			mve_rex/data/characters/unit_NL_median_takabara_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+type						barb_getic_steppe_raider
+
+skeleton					fs_hc_javelinman, fs_hc_swordsman
+indiv_range			40
+texture				dacia, mve_rex/data/characters/textures/unit_NL_barb_getic_steppe_raider_dacia.tga
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_steppe_raider_high.cas, 8
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_steppe_raider_med.cas, 15
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_steppe_raider_low.cas, 30
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_steppe_raider_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+
+type						barb_getic_noble_cavalry
+
+skeleton					fs_hc_javelinman, fs_hc_swordsman
+indiv_range			40
+texture				dacia, mve_rex/data/characters/textures/unit_NL_barb_getic_noble_cavalry_dacia.tga
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_high.CAS, 15
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_med.cas, 30
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_low.cas, 40
+model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
