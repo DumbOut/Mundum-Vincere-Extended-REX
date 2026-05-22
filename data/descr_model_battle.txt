@@ -4463,3 +4463,20 @@ model_tri			400, 0.5f, 0.5f, 0.5
 
 ;#endif
 
+type                        celtic_heavy_infantry
+;;--------------------------------------
+skeleton                    fs_s1_javelinman, fs_s1_barbswordsman
+indiv_range			40
+texture                     merc, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_merc.tga
+texture                     burgundii, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_burgundii.tga
+texture                     germans, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_germans.tga
+texture                     britons, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_britons.tga
+texture                     gauls, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_gauls.tga
+texture                     picts, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_picts.tga
+texture                     dacia, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_dacia.tga
+texture                     slave, mve_rex/data/characters/textures/unit_NL_barb_celtic_heavy_infantry_slave.tga
+model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_med.cas, 30
+model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_low.cas, 40
+model_flexi                 mve_rex/data/characters/unit_NL_barb_celtic_heavy_infantry_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
