@@ -3261,7 +3261,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 960, 80, 100, 150, 960
-ownership        eastern
+ownership        parthia, pontus, armenia, slave
 
 type             east generals cavalry
 dictionary       east_generals_cavalry      ; Armoured Eastern General
@@ -8658,7 +8658,6 @@ category         infantry
 class            missile
 voice_type       Heavy_1
 soldier          ALEX_indian_longbowmen, 40, 0, 1
-officer          egyptian_standard
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0

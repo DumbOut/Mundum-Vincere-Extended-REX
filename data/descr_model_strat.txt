@@ -543,3 +543,30 @@ model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod2.cas, 3
 model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod3.cas, 40
 model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod4.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
+
+;;;		Altered for Alexander
+
+type				mauryan_general
+skeleton			fs_dagger
+skeleton_horse		fs_hc_swordsman	
+skeleton_elephant	fs_forest_elephant_rider
+skeleton_chariot	fs_chariot_sword
+skeleton_camel		fs_hc_swordsman
+indiv_range			40
+;;;		texture				egypt, data/models_unit/textures/officer_egyptian_general_egypt.tga
+;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_minor_general.TGA
+texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_Porus.TGA
+;;;		model_flexi			data/models_unit/officer_egyptian_general_high.cas, 15
+;;;		model_flexi			data/models_unit/officer_egyptian_general_med.cas, 30
+;;;		model_flexi			data/models_unit/officer_egyptian_general_low.cas, 40
+;;;		model_flexi			data/models_unit/officer_egyptian_general_lowest.cas, max
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod1.cas, 15
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod2.cas, 30
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod3.cas, 40
+;;;		model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_minor_general_lod4.cas, max
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 15
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 30
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, 40
+model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_Porus_lod1.CAS, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
