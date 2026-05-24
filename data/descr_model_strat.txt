@@ -526,11 +526,8 @@ model_flexi			data/models_strat/general_pontus.cas, max
 
 
 type				mauryan_lesser_general
-skeleton			fs_dagger
-skeleton_horse		fs_hc_swordsman	
-skeleton_elephant	fs_forest_elephant_rider
-skeleton_chariot	fs_chariot_sword
-skeleton_camel		fs_hc_swordsman
+skeleton			strat_named_with_army
+scale				0.7
 indiv_range			40
 ;;;		texture				egypt, data/models_unit/textures/officer_egyptian_general_egypt.tga
 texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_minor_general.TGA
@@ -547,11 +544,8 @@ model_tri			400, 0.5f, 0.5f, 0.5
 ;;;		Altered for Alexander
 
 type				mauryan_general
-skeleton			fs_dagger
-skeleton_horse		fs_hc_swordsman	
-skeleton_elephant	fs_forest_elephant_rider
-skeleton_chariot	fs_chariot_sword
-skeleton_camel		fs_hc_swordsman
+skeleton			strat_named_with_army
+scale				0.7
 indiv_range			40
 ;;;		texture				egypt, data/models_unit/textures/officer_egyptian_general_egypt.tga
 ;;;		texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_minor_general.TGA
