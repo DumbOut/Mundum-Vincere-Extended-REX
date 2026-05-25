@@ -14043,8 +14043,7 @@ character_record		Vitashoka Maurya, 	male, command 0, influence 0, management 0,
 relative 	Chandragupta Maurya, 	Durdhara,		Bindusara Maurya,	end
 relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparswa Maurya,	Tissa Maurya,	Vitashoka Maurya,	end
 
-;faction caledonians_01,
-;balanced_smith
+;faction caledonians_01, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14092,8 +14091,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 990, y 233
 
-;faction voluntii_01,
-;balanced_smith
+;faction voluntii_01, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14122,8 +14120,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 39, y 502
 
-;faction coriondi_01,
-;balanced_smith
+;faction coriondi_01, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14152,8 +14149,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
 
-;faction nok_culture,
-;balanced_smith
+;faction nok_culture, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14183,8 +14179,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
 
 
-;faction arevaci_01,
-;balanced_smith
+;faction arevaci_01, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entry for gauls is NOT removed yet.
@@ -49845,7 +49840,8 @@ core_attitudes	mauryans,		600		slave
 ;core_attitudes	coriondi_01,		600		slave
 ;core_attitudes	nok_culture,		600		slave
 ;core_attitudes	arevaci_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01
+;core_attitudes	zhou,		600		slave
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -49882,6 +49878,7 @@ faction_relationships	mauryans,			600		slave
 ;faction_relationships	coriondi_01,		600		slave
 ;faction_relationships	nok_culture,		600		slave
 ;faction_relationships	arevaci_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01
+;faction_relationships	zhou,		600		slave
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
