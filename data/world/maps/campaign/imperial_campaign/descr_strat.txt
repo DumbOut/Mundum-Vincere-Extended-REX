@@ -14216,6 +14216,28 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;}
 ;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
 
+;faction	zhou, balanced smith
+;denari	20000
+;settlement
+;{
+;    level town
+;   region Sanchuan_R
+;
+;    year_founded 0
+;    population 400
+;    plan_set default_set
+;    faction_creator zhou
+;    building
+;    {
+;        type core_building governors_house
+;    }
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;}
+;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
+
 faction	slave, balanced_smith
 denari	-25962500
 settlement
