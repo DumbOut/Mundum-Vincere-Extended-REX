@@ -1,0 +1,204 @@
+;------------------------------------------
+Trait FearsNomad
+    Characters family
+    ExcludeCultures nomad
+    AntiTraits HatesNomad
+
+    Level Uncomfortable_Near_Nomads
+        Description Uncomfortable_Near_Nomads_desc
+        EffectsDescription Uncomfortable_Near_Nomads_effects_desc
+        Threshold  1 
+
+        Effect Combat_V_Nomad -1 
+
+    Level Fears_Nomads
+        Description Fears_Nomads_desc
+        EffectsDescription Fears_Nomads_effects_desc
+        Threshold  2 
+
+        Effect Combat_V_Nomad -2 
+
+    Level Terrified_by_Nomad_Ways
+        Description Terrified_by_Nomad_Ways_desc
+        EffectsDescription Terrified_by_Nomad_Ways_effects_desc
+        GainMessage Terrified_by_Nomad_Ways_gain_desc
+        Threshold  4 
+
+        Effect Combat_V_Nomad -3 
+
+;------------------------------------------
+Trait HatesNomad
+    Characters family
+    ExcludeCultures nomad
+    AntiTraits FearsNomad
+
+    Level Despises_Nomad_Ways
+        Description Despises_Nomad_Ways_desc
+        EffectsDescription Despises_Nomad_Ways_effects_desc
+        Threshold  1 
+
+        Effect Combat_V_Nomad  1 
+
+    Level Hates_Nomads
+        Description Hates_Nomads_desc
+        EffectsDescription Hates_Nomads_effects_desc
+        Threshold  2 
+
+        Effect Combat_V_Nomad  2 
+
+    Level Loathes_Vile_Nomads
+        Description Loathes_Vile_Nomads_desc
+        EffectsDescription Loathes_Vile_Nomads_effects_desc
+        Threshold  4 
+
+        Effect Combat_V_Nomad  3 
+		
+
+
+
+
+;------------------------------------------
+Trigger dad_FearsNomad
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait FearsNomad >= 1
+
+    Affects HatesNomad  1  Chance  25
+
+;------------------------------------------
+Trigger dad_HatesNomad
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait HatesNomad >= 1
+
+    Affects HatesNomad  1  Chance  25
+
+;------------------------------------------
+Trigger hate_Nomad
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess = crushing
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtCulture nomad
+
+    Affects HatesNomad  1  Chance  40
+
+;------------------------------------------
+Trigger fear_Nomad
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess = crushing
+          and I_ConflictType Normal
+          and BattleOdds >= 1.5
+          and GeneralFoughtCulture nomad
+          and not CultureType nomad
+
+    Affects FearsNomad  1  Chance  20
+
+
+
+
+Uncomfortable_Near_Nomads
+Uncomfortable_Near_Nomads_desc
+Uncomfortable_Near_Nomads_effects_desc
+Fears_Nomads
+Fears_Nomads_desc
+Fears_Nomads_effects_desc
+Terrified_by_Nomad_Ways
+Terrified_by_Nomad_Ways_desc
+Terrified_by_Nomad_Ways_effects_desc
+Terrified_by_Nomad_Ways_gain_desc
+Despises_Nomad_Ways
+Despises_Nomad_Ways_desc
+Despises_Nomad_Ways_effects_desc
+Hates_Nomads
+Hates_Nomads_desc
+Hates_Nomads_effects_desc
+Loathes_Vile_Nomads
+Loathes_Vile_Nomads_desc
+Loathes_Vile_Nomads_effects_desc
+
+
+
+¬--------------------
+
+{Uncomfortable_Near_Nomads}	Uncomfortable Near Scythians
+
+{Uncomfortable_Near_Nomads_desc}
+This man is deeply uneasy whenever Scythians are near - what might they do?
+
+{Uncomfortable_Near_Nomads_effects_desc}
+-1 Command when fighting against Scythians
+
+¬--------------------
+
+{Fears_Nomads}	Fears Scythians
+
+{Fears_Nomads_desc}
+Scythians and their fearsome ways scare this man, and his fears are obvious to his men!
+
+{Fears_Nomads_effects_desc}
+-1 Morale for all troops on the battlefield, -2 Command when fighting against Barbarians
+
+¬--------------------
+
+{Terrified_by_Nomad_Ways}	Terrified by Scythians
+
+{Terrified_by_Nomad_Ways_desc}
+The galloping of Scythian horses echo through this man's darkest nightmares…
+
+{Terrified_by_Nomad_Ways_effects_desc}
+-1 Morale for all troops on the battlefield, -3 Command when fighting against Scythians
+
+{Terrified_by_Nomad_Ways_gain_desc}
+Fear of Scythians has mastered this man's mind.
+
+¬--------------------
+
+{Despises_Nomad_Ways}	Despises Trouser-wearers
+
+{Despises_Nomad_Ways_desc}
+Barbaric, trouser-wearing, ignorant, thugs who reek of the pig-pen bring out the worst in this man.
+
+{Despises_Nomad_Ways_effects_desc}
++1 Command when fighting against Scythians
+
+¬--------------------
+
+{Hates_Nomads}	Hates Scythians
+
+{Hates_Nomads_desc}
+Scythians are good for three things: being killed, slavery and being killed.
+
+{Hates_Nomads_effects_desc}
++1 Morale for all troops on the battlefield, +2 Command when fighting against Scythians
+
+¬--------------------
+
+{Loathes_Vile_Nomads}	Loathes Disgusting Scythians
+
+{Loathes_Vile_Nomads_desc}
+A barbarian can be civilized. He's very civilized when he's dead, and being eaten by crows.
+
+{Loathes_Vile_Nomads_effects_desc}
++3 Command when fighting against Scythians
+
+¬--------------------
+
+Fear of barbarians has mastered this man's mind.
+
+This man has let his fear of Carthaginians become his master.
+
+This man has allowed his fear of Greeks to overwhelm his reason.
+
+This man has allowed his fear of Egyptians to eat into his soul.
+
+This man's fear of Easterners has become his master.
+
+This man has allowed his irrational fear of slaves to become a new master in his house.
