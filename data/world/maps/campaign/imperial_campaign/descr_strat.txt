@@ -36,7 +36,7 @@ end_date	1021 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 50
+brigand_spawn_value 51
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -9060,7 +9060,7 @@ settlement
 	region Mauretania
 
 	year_founded 0
-	population 1700
+	population 1200
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -13613,7 +13613,7 @@ settlement
 	region Kypsela_R
 
 	year_founded 0
-	population 1100
+	population 1000
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -13645,6 +13645,7 @@ ancillaries wine_steward
 army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -13728,7 +13729,7 @@ settlement
 	region Sudinium_R
 
 	year_founded 0
-	population 1050
+	population 900
 	plan_set default_set
 	faction_creator sciria_01
 	building
@@ -13795,14 +13796,14 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 ;	Maurya Empire
 faction	mauryans, balanced smith
-denari	-999999999 ;;starts in extreme debt
+denari	 950
 settlement
 {
 	level city
 	region Pataliputra_R
 
 	year_founded 0
-	population 5050
+	population 5000
 	plan_set default_set
 	faction_creator mauryans
 	building
@@ -14050,7 +14051,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 
 faction	slave, balanced_smith
-denari	-15962500
+denari	-25962500
 settlement
 {
 	level town
