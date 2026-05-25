@@ -14043,10 +14043,45 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;balanced_smith
 ;denari 5000
 
+; relative settlement entries for rebels are NOT removed yet.
 ;settlement
 ;{
+;	level town
+;	region Eydin_R
 
+;	year_founded 0
+;	population 800
+;	plan_set default_set
+;	faction_creator caledonians_01
+;	building
+;	{
+;		type core_building governors_house
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
 ;}
+
+;settlement
+;{
+;	level town
+;	region Lindum_R
+;
+;	year_founded 0
+;	population 800
+;	plan_set default_set
+;	faction_creator caledonians_01
+;	building
+;	{
+;		type core_building governors_house
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;}
+
 ;character FirstName LastName, named character, faction leader, age 42, , x 990, y 233
 
 
