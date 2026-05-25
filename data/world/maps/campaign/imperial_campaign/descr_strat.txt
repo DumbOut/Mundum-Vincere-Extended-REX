@@ -29,6 +29,7 @@ nonplayable
 ;	caledonians_01
 ;	voluntii_01
 ;	coriondi_01
+;	nok_culture
 	romans_senate
 	slave
 end
@@ -14126,6 +14127,32 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	population 1500
 ;	plan_set default_set
 ;	faction_creator coriondi_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
+
+;faction nok_culture,
+;balanced_smith
+;denari 5000
+
+; relative settlement entries for rebels are NOT removed yet.
+;settlement
+;{
+;	level town
+;	region Tagama_R
+;
+;	year_founded 0
+;	population 1500
+;	plan_set default_set
+;	faction_creator nok_culture
 ;	building
 ;	{
 ;		type core_building governors_villa
