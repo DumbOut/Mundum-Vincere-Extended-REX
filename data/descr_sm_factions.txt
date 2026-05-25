@@ -500,3 +500,23 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						coriondi_01
+culture						barbarian
+symbol						models_strat/symbol_coriondi_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 77, green 58, blue 63
+secondary_colour			red 232, green 213, blue 186
+loading_logo				loading_screen/symbols/symbol128_coriondi_01.tga
+standard_index				12
+logo_index					FACTION_LOGO_CORIONDI_01
+small_logo_index			SMALL_FACTION_LOGO_CORIONDI_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/britons_eliminated.wmv
+death_movie					fmv/death/death_britons_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
