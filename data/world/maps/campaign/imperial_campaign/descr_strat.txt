@@ -27,6 +27,7 @@ end
 nonplayable
 	mauryans
 ;	caledonians_01
+;	voluntii_01
 	romans_senate
 	slave
 end
@@ -14084,6 +14085,17 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 990, y 233
 
+;faction voluntii_01,
+;balanced_smith
+;denari 5000
+
+; relative settlement entries for rebels are NOT removed yet.
+;settlement
+;{
+;Put these guys in the northeast region of Ireland
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 39, y 502
 
 faction	slave, balanced_smith
 denari	-25962500
