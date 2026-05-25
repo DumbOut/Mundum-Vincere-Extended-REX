@@ -1061,6 +1061,36 @@
   }
   .urn-orig small { color: var(--text-dim); font-size: 9px; font-style: italic; }
   .unit-rename-row .rename-input { width: 100%; min-width: 0; }
+  /* Folder-blocked help panel */
+  .folder-help {
+    padding: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    line-height: 1.5;
+  }
+  .folder-help-title {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #e8b04a;
+    margin-bottom: 10px;
+  }
+  .folder-help p { font-size: 12px; color: var(--text); margin: 8px 0; }
+  .folder-help code {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    padding: 1px 5px;
+    font-size: 11px;
+    color: var(--gold-light);
+  }
+  .folder-help-fix {
+    margin: 12px 0;
+    padding: 10px 12px;
+    background: var(--bg-dark);
+    border-left: 3px solid var(--gold);
+  }
+  .folder-help-fix strong { color: var(--text-bright); font-size: 12px; }
+  .folder-help-fix ol { margin: 6px 0 0 18px; }
+  .folder-help-fix li { font-size: 12px; color: var(--text); margin: 3px 0; }
 </style>
 </head>
 <body>
@@ -2756,10 +2786,22 @@ function getAssetImageUrl(path) {
 
 // Vanilla RTW stat ranges [min, max] by unit class/category
 const VANILLA_RANGES = {
-  attack:  { light: [5,9],  medium: [7,11], heavy: [9,14], missile: [4,8],  cavalry_light: [7,11], cavalry_medium: [8,12], cavalry_heavy: [10,14], elephant: [12,16] },
-  armour:  { light: [0,4],  medium: [3,7],  heavy: [6,12], missile: [0,3],  cavalry_light: [2,5],  cavalry_medium: [3,7],  cavalry_heavy: [6,11],  elephant: [3,7]  },
-  morale:  { light: [4,9],  medium: [7,11], heavy: [9,15], missile: [4,8],  cavalry_light: [7,10], cavalry_medium: [8,12], cavalry_heavy: [10,15], elephant: [4,8]  },
-  charge:  { light: [2,6],  medium: [4,7],  heavy: [4,7],  missile: [1,4],  cavalry_light: [6,10], cavalry_medium: [7,12], cavalry_heavy: [8,14], elephant: [10,20] }
+  // primary melee attack
+  attack:    { light: [5,9],  medium: [7,11], heavy: [9,14], missile: [4,8],  cavalry_light: [7,11], cavalry_medium: [8,12], cavalry_heavy: [10,14], elephant: [12,16] },
+  // charge bonus
+  charge:    { light: [2,6],  medium: [3,7],  heavy: [3,8],  missile: [1,4],  cavalry_light: [6,10], cavalry_medium: [7,12], cavalry_heavy: [8,14],  elephant: [10,20] },
+  // stat_pri_armour[0] — base armour value
+  armour:    { light: [0,4],  medium: [3,7],  heavy: [6,12], missile: [0,3],  cavalry_light: [2,5],  cavalry_medium: [3,8],  cavalry_heavy: [6,12],  elephant: [3,8]  },
+  // stat_pri_armour[1] — defence skill
+  defence:   { light: [1,4],  medium: [3,7],  heavy: [5,10], missile: [1,4],  cavalry_light: [2,5],  cavalry_medium: [3,7],  cavalry_heavy: [4,9],   elephant: [2,6]  },
+  // stat_pri_armour[2] — shield bonus
+  shield:    { light: [0,3],  medium: [0,5],  heavy: [2,8],  missile: [0,2],  cavalry_light: [0,3],  cavalry_medium: [0,4],  cavalry_heavy: [0,6],   elephant: [0,0]  },
+  // stat_mental[0] — morale
+  morale:    { light: [4,9],  medium: [7,11], heavy: [9,15], missile: [4,9],  cavalry_light: [7,10], cavalry_medium: [8,12], cavalry_heavy: [10,15], elephant: [6,10] },
+  // stat_health[0] — hit points per soldier
+  hitpoints: { light: [1,1],  medium: [1,1],  heavy: [1,2],  missile: [1,1],  cavalry_light: [1,1],  cavalry_medium: [1,1],  cavalry_heavy: [1,2],   elephant: [4,8]  },
+  // stat_sec[0] — secondary weapon attack (only adjusted if a sec weapon exists)
+  sec_attack:{ light: [3,7],  medium: [4,8],  heavy: [5,9],  missile: [3,7],  cavalry_light: [4,8],  cavalry_medium: [5,9],  cavalry_heavy: [6,10],  elephant: [6,10] }
 };
 // Cost per soldier by class key
 const VANILLA_COST_PER_SOL = {
@@ -2817,77 +2859,119 @@ function vanillaBalance() {
     const { tier, costKey } = resolveVanillaTier(u);
     const R = VANILLA_RANGES;
     const changes = [];
+    let block = u.eduBlock;
 
-    const check = (field, oldRaw, min, max, label) => {
+    // Helper: compute a balanced value for one stat
+    const balance = (oldRaw, range) => {
       const oldVal = parseInt(oldRaw) || 0;
-      const newVal = hardClamp
+      const [min, max] = range;
+      return hardClamp
         ? Math.max(min, Math.min(max, oldVal))
         : vanillaClamp(oldVal, min, max, blendStrength);
-      if (newVal !== oldVal) changes.push({ field, label, old: oldVal, new: newVal });
-      return newVal;
+    };
+    const rng = (key) => R[key][tier] || R[key].medium;
+    const record = (field, label, oldV, newV) => {
+      if (newV !== oldV) changes.push({ field, label, old: oldV, new: newV });
     };
 
-    const atkRange = R.attack[tier]  || R.attack.medium;
-    const armRange = R.armour[tier]  || R.armour.medium;
-    const morRange = R.morale[tier]  || R.morale.medium;
-    const chgRange = R.charge[tier]  || R.charge.medium;
-    const newAtk = check('attack',  u.attack,  atkRange[0], atkRange[1], 'stat_pri[0]');
-    const newDef = check('armour',  u.defence, armRange[0], armRange[1], 'stat_pri_armour[0]');
-    const newMor = check('morale',  u.morale,  morRange[0], morRange[1], 'stat_mental[0]');
-    const newChg = check('charge',  u.charge,  chgRange[0], chgRange[1], 'stat_pri[1]');
+    // ── stat_pri: attack (idx 0) + charge (idx 1) ──
+    const priM = block.match(/^(stat_pri\s+)(-?\d+)(\s*,\s*)(-?\d+)(.*)$/m);
+    if (priM) {
+      const oldAtk = parseInt(priM[2]), oldChg = parseInt(priM[4]);
+      const newAtk = balance(oldAtk, rng('attack'));
+      const newChg = balance(oldChg, rng('charge'));
+      record('attack', 'stat_pri attack', oldAtk, newAtk);
+      record('charge', 'stat_pri charge', oldChg, newChg);
+      if (newAtk !== oldAtk || newChg !== oldChg) {
+        block = block.replace(/^(stat_pri\s+)(-?\d+)(\s*,\s*)(-?\d+)/m,
+          `$1${newAtk}$3${newChg}`);
+      }
+      u.attack = String(newAtk);
+      u.charge = String(newChg);
+    }
 
+    // ── stat_sec: secondary attack (idx 0) — only if a real sec weapon exists ──
+    const secM = block.match(/^(stat_sec\s+)(-?\d+)(\s*,\s*)(-?\d+)(.*)$/m);
+    if (secM) {
+      const oldSecAtk = parseInt(secM[2]);
+      // A sec weapon is "real" if its attack > 0 OR the type field isn't "no"
+      const secTail = secM[5] || '';
+      const hasSecWeapon = oldSecAtk > 0 || /,\s*(melee|thrown|missile)\b/i.test(secTail);
+      if (hasSecWeapon) {
+        const newSecAtk = balance(oldSecAtk, rng('sec_attack'));
+        record('sec_attack', 'stat_sec attack', oldSecAtk, newSecAtk);
+        if (newSecAtk !== oldSecAtk) {
+          block = block.replace(/^(stat_sec\s+)(-?\d+)/m, `$1${newSecAtk}`);
+        }
+      }
+    }
+
+    // ── stat_pri_armour: armour (0), defence skill (1), shield (2) ──
+    const armM = block.match(/^(stat_pri_armour\s+)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)(.*)$/m);
+    if (armM) {
+      const oldArm = parseInt(armM[2]), oldDef = parseInt(armM[4]), oldShl = parseInt(armM[6]);
+      const newArm = balance(oldArm, rng('armour'));
+      const newDef = balance(oldDef, rng('defence'));
+      // shield: keep 0 if originally 0 (unshielded units shouldn't gain a shield)
+      const newShl = oldShl === 0 ? 0 : balance(oldShl, rng('shield'));
+      record('armour',  'stat_pri_armour armour',  oldArm, newArm);
+      record('defence', 'stat_pri_armour defence', oldDef, newDef);
+      record('shield',  'stat_pri_armour shield',  oldShl, newShl);
+      if (newArm !== oldArm || newDef !== oldDef || newShl !== oldShl) {
+        block = block.replace(/^(stat_pri_armour\s+)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)/m,
+          `$1${newArm}$3${newDef}$5${newShl}`);
+      }
+      u.defence = String(newArm);  // unit card "defence" shows base armour
+    }
+
+    // ── stat_mental: morale (idx 0) ──
+    const menM = block.match(/^(stat_mental\s+)(-?\d+)(.*)$/m);
+    if (menM) {
+      const oldMor = parseInt(menM[2]);
+      const newMor = balance(oldMor, rng('morale'));
+      record('morale', 'stat_mental morale', oldMor, newMor);
+      if (newMor !== oldMor) {
+        block = block.replace(/^(stat_mental\s+)(-?\d+)/m, `$1${newMor}`);
+      }
+      u.morale = String(newMor);
+    }
+
+    // ── stat_health: hit points per soldier (idx 0) ──
+    const hpM = block.match(/^(stat_health\s+)(-?\d+)(.*)$/m);
+    if (hpM) {
+      const oldHp = parseInt(hpM[2]);
+      const newHp = balance(oldHp, rng('hitpoints'));
+      record('hitpoints', 'stat_health hp', oldHp, newHp);
+      if (newHp !== oldHp) {
+        block = block.replace(/^(stat_health\s+)(-?\d+)/m, `$1${newHp}`);
+      }
+    }
+
+    // ── stat_cost: recalculated from soldier count × per-soldier cost ──
     const perSol = VANILLA_COST_PER_SOL[costKey] || VANILLA_COST_PER_SOL.default;
     const rawNewCost = (parseInt(u.soldiers) || 40) * perSol;
-    const newCost = Math.round(rawNewCost / 10) * 10;
-    if (newCost !== (parseInt(u.cost) || 0)) changes.push({ field: 'cost', label: 'stat_cost', old: parseInt(u.cost)||0, new: newCost });
+    const newCost = Math.max(100, Math.round(rawNewCost / 10) * 10);
+    const oldCost = parseInt(u.cost) || 0;
+    if (newCost !== oldCost) {
+      changes.push({ field: 'cost', label: 'stat_cost', old: oldCost, new: newCost });
+      const upkeep = Math.max(70,  Math.round(newCost * 0.20 / 10) * 10);
+      const wepUpg = Math.max(30,  Math.round(newCost * 0.10 / 10) * 10);
+      const armUpg = Math.max(20,  Math.round(newCost * 0.07 / 10) * 10);
+      block = block.replace(
+        /^(stat_cost\s+)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)(\s*,\s*)(-?\d+)/m,
+        (_, pre, turns, s1, _c, s2, _u2, s3, _w, s4, _a, s5) =>
+          `${pre}${turns}${s1}${newCost}${s2}${upkeep}${s3}${wepUpg}${s4}${armUpg}${s5}${newCost}`
+      );
+      u.cost = String(newCost);
+    }
 
     if (!changes.length) {
       addLog('info', `  ${u.name} — already within vanilla range, no changes`);
       return;
     }
 
-    // Apply to unit object
-    changes.forEach(c => {
-      if (c.field === 'attack')  u.attack  = String(c.new);
-      if (c.field === 'armour')  u.defence = String(c.new);
-      if (c.field === 'morale')  u.morale  = String(c.new);
-      if (c.field === 'charge')  u.charge  = String(c.new);
-      if (c.field === 'cost')    u.cost    = String(c.new);
-    });
-
-    // Patch eduBlock text
-    let block = u.eduBlock;
-    const atkC = changes.find(c => c.field === 'attack');
-    const chgC = changes.find(c => c.field === 'charge');
-    if (atkC || chgC) {
-      // Replace first two numbers on stat_pri line
-      block = block.replace(/^(stat_pri\s+)(\d+)(,\s*)(\d+)/m, (_, pre, a, sep, b) => {
-        const na = atkC ? atkC.new : parseInt(a);
-        const nb = chgC ? chgC.new : parseInt(b);
-        return `${pre}${na}${sep}${nb}`;
-      });
-    }
-    const defC = changes.find(c => c.field === 'armour');
-    if (defC) block = block.replace(/^(stat_pri_armour\s+)(\d+)/m, `$1${defC.new}`);
-    const morC = changes.find(c => c.field === 'morale');
-    if (morC) block = block.replace(/^(stat_mental\s+)(\d+)/m, `$1${morC.new}`);
-    const costC = changes.find(c => c.field === 'cost');
-    if (costC) {
-      const nc = costC.new;
-      // RTW stat_cost: turns_to_build, cost, upkeep, weapon_upgrade, armour_upgrade, custom_battle_cost
-      // Scale them proportionally from new cost
-      const upkeep = Math.max(50, Math.round(nc * 0.18 / 10) * 10);
-      const wepUpg = Math.max(20, Math.round(nc * 0.09 / 10) * 10);
-      const armUpg = Math.max(15, Math.round(nc * 0.06 / 10) * 10);
-      block = block.replace(
-        /^(stat_cost\s+)(\d+)(\s*,\s*)(\d+)(\s*,\s*)(\d+)(\s*,\s*)(\d+)(\s*,\s*)(\d+)(\s*,\s*)(\d+)/m,
-        (_, pre, turns, s1, _c, s2, _u, s3, _w, s4, _a, s5, _b) =>
-          `${pre}${turns}${s1}${nc}${s2}${upkeep}${s3}${wepUpg}${s4}${armUpg}${s5}${nc}`
-      );
-    }
     u.eduBlock = block;
     totalChanges += changes.length;
-
     addLog('ok', `  ${u.name}  [${tier}]`);
     changes.forEach(c => addLog('info', `    ${c.label}: ${c.old} → ${c.new}`));
   });
@@ -3377,6 +3461,11 @@ function renderModExportTab() {
       : `<div style="margin-bottom:10px">
           <button class="btn btn-secondary" onclick="selectExportFolder()">📁 Select Target Mod Folder…</button>
           <div style="font-size:11px;color:var(--text-dim);margin-top:4px">Write files directly to your mod folder — no ZIP needed (Chrome/Edge)</div>
+          <div style="font-size:11px;color:#e0a850;margin-top:6px;padding:6px 9px;border:1px solid #5a4420;background:rgba(180,130,40,0.08);line-height:1.45">
+            ⚠ <strong>Chrome cannot write into <code style="color:#f0c060">Program Files</code></strong> — if your RTW is under
+            <code style="color:#f0c060">C:\\Program Files (x86)\\Steam</code>, the folder picker will refuse it.
+            Either use <strong>Export Mod ZIP</strong> below, or copy your mod folder to <code style="color:#f0c060">Documents</code> first.
+          </div>
          </div>`
     }
 
@@ -3537,21 +3626,70 @@ async function exportModZip() {
 // ═══════════════════════════════════════════
 async function selectExportFolder() {
   if (!window.showDirectoryPicker) {
-    showToast('Folder picker requires Chrome or Edge');
-    addLog('warn', 'showDirectoryPicker not available — use ZIP export instead');
+    showToast('Folder picker requires Chrome or Edge — use ZIP export instead');
+    addLog('warn', 'showDirectoryPicker not available in this browser — use the ZIP export, which works everywhere.');
     return;
   }
   try {
-    const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
+    // startIn:'desktop' nudges the picker away from protected system roots
+    const handle = await window.showDirectoryPicker({ mode: 'readwrite', startIn: 'documents' });
     state.targetModFolder = handle;
     state.targetModFolderName = handle.name;
     addLog('ok', `Export folder set: ${handle.name}`);
+    // Verify we can actually write here before declaring success
+    try {
+      const perm = await handle.requestPermission({ mode: 'readwrite' });
+      if (perm !== 'granted') {
+        addLog('warn', 'Write permission was not granted for that folder.');
+      }
+    } catch { /* older browsers: permission implied */ }
     await loadTextFilesFromFolderHandle(handle);
     showToast(`Export folder: ${handle.name}`);
     if (state.activeTab === 'modexport') renderOutput();
   } catch(e) {
-    if (e.name !== 'AbortError') { addLog('err', `Folder select: ${e.message}`); showToast('Folder select failed'); }
+    if (e.name === 'AbortError') return;   // user cancelled — no message
+    // Chrome blocks folders it considers system locations (Program Files, Steam under it, Windows, etc.)
+    const msg = (e.message || '') + ' ' + (e.name || '');
+    const isSystemBlock = /system files|not allowed|SecurityError|blocklist/i.test(msg);
+    if (isSystemBlock) {
+      addLog('err', 'Chrome blocked that folder because it sits in a protected system location (e.g. Program Files). RTW installed under "Program Files (x86)\\Steam" cannot be written to directly by a browser.');
+      showFolderBlockedHelp();
+    } else {
+      addLog('err', `Folder select failed: ${e.message}`);
+      showToast('Folder select failed — use ZIP export instead');
+    }
   }
+}
+
+// Explain the Program Files block and the two real fixes
+function showFolderBlockedHelp() {
+  const el = document.getElementById('outputContent');
+  const helpHtml = `
+    <div class="folder-help">
+      <div class="folder-help-title">⚠ Chrome can't write to that folder</div>
+      <p>The browser blocked the folder because it's inside a <strong>protected system location</strong>
+      &mdash; typically <code>C:\\Program Files (x86)\\Steam\\steamapps\\...</code>.
+      Browsers refuse direct file access to Program Files, Windows, and similar roots for security.</p>
+      <div class="folder-help-fix">
+        <strong>Fix 1 &mdash; Use ZIP export (works everywhere):</strong>
+        <ol>
+          <li>Click <em>Export Mod ZIP</em> below.</li>
+          <li>Extract the ZIP straight into your mod folder &mdash; the folder structure matches RTW exactly.</li>
+        </ol>
+      </div>
+      <div class="folder-help-fix">
+        <strong>Fix 2 &mdash; Pick a non-system folder for direct write:</strong>
+        <ol>
+          <li>Copy your <code>mve_rex</code> (or other mod) folder to <code>Documents</code> or the <code>Desktop</code>.</li>
+          <li>Select <em>that</em> copy as the export folder &mdash; direct write will work.</li>
+          <li>When done, copy the updated files back into the Steam install.</li>
+        </ol>
+      </div>
+      <p style="opacity:.7;font-size:11px">Tip: moving the whole Rome install out of Program Files (e.g. <code>C:\\Games\\RTW</code>) permanently avoids this and is also good practice for modding.</p>
+      <button class="btn btn-secondary" style="margin-top:8px" onclick="renderOutput()">← Back to Mod Export</button>
+    </div>`;
+  if (el) el.innerHTML = helpHtml;
+  showToast('That folder is protected — see the panel for fixes');
 }
 
 function clearExportFolder() {
@@ -3562,20 +3700,42 @@ function clearExportFolder() {
 
 async function loadTextFilesFromFolderHandle(dirHandle) {
   const TARGET = { 'export_descr_unit.txt': 'edu', 'descr_model_battle.txt': 'dmb', 'export_units.txt': 'eu' };
+  let foundCount = 0;
   async function scan(handle, depth) {
     if (depth > 4) return;
-    for await (const [name, entry] of handle) {
-      const lname = name.toLowerCase();
-      if (entry.kind === 'file' && TARGET[lname] && !state.targetFiles[TARGET[lname]]) {
-        const file = await entry.getFile();
-        state.targetFiles[TARGET[lname]] = await readFileAsText(file);
-        addLog('ok', `Target file auto-loaded from folder: ${name}`);
-      } else if (entry.kind === 'directory') {
-        await scan(entry, depth + 1);
+    let entries;
+    try {
+      entries = handle.entries ? handle.entries() : handle;
+    } catch (e) { return; }
+    try {
+      for await (const [name, entry] of entries) {
+        const lname = name.toLowerCase();
+        try {
+          if (entry.kind === 'file' && TARGET[lname] && !state.targetFiles[TARGET[lname]]) {
+            const file = await entry.getFile();
+            state.targetFiles[TARGET[lname]] = await readFileAsText(file);
+            foundCount++;
+            addLog('ok', `Target file auto-loaded from folder: ${name}`);
+          } else if (entry.kind === 'directory') {
+            await scan(entry, depth + 1);
+          }
+        } catch (inner) {
+          // Skip individual unreadable entries silently
+        }
       }
+    } catch (e) {
+      // Iterating this directory failed (permissions / locked) — skip quietly
     }
   }
-  try { await scan(dirHandle, 0); } catch(e) { addLog('warn', `Folder scan: ${e.message}`); }
+  try {
+    await scan(dirHandle, 0);
+    if (foundCount === 0) {
+      addLog('info', 'No export_descr_unit.txt / descr_model_battle.txt / export_units.txt found in that folder yet — they will be created on export.');
+    }
+  } catch (e) {
+    const m = (e && e.message) ? e.message : 'folder could not be fully scanned';
+    addLog('warn', `Folder scan note: ${m}`);
+  }
 }
 
 async function getFileHandleForPath(rootDir, filePath) {
@@ -3591,6 +3751,16 @@ async function exportToFolder() {
   const units = state.imported.length ? state.imported : (state.queue.length ? state.queue : []);
   if (!units.length) { showToast('Queue is empty'); return; }
   if (!state.targetModFolder) { showToast('No export folder selected'); return; }
+
+  // Progress UI elements — guard against missing DOM (these caused "fill is not defined")
+  const progress = document.getElementById('zipProgress');
+  const fill     = document.getElementById('zipProgressFill');
+  const plabel   = document.getElementById('zipProgressLabel');
+  const setProg  = (pct, label) => {
+    if (fill)   fill.style.width = pct + '%';
+    if (plabel && label) plabel.textContent = label;
+  };
+  if (progress) progress.classList.add('active');
 
   const prefix = state.renamePrefix || '';
   const suffix = state.renameSuffix || '';
@@ -3662,18 +3832,18 @@ async function exportToFolder() {
     // EDU
     const newEdu = renamedUnits.map(u => u.eduBlock).join('\n\n');
     await appendToFolderFile(state.targetModFolder, 'data/export_descr_unit.txt', newEdu, dateSep);
-    filesWritten++; fill.style.width = '20%'; plabel.textContent = 'Wrote EDU…';
+    filesWritten++; setProg(20, 'Wrote EDU…');
 
     // DMB
     const newDmb = renamedUnits.map(u => u.dmbBlock).join('\n\n');
     await appendToFolderFile(state.targetModFolder, 'data/descr_model_battle.txt', newDmb, dateSep);
-    filesWritten++; fill.style.width = '35%'; plabel.textContent = 'Wrote DMB…';
+    filesWritten++; setProg(35, 'Wrote DMB…');
 
     // EU — export_units.txt in UTF-16 LE
     const newEuText = formatEUBlock(renamedUnits);
     const euSep = '¬-- appended ' + new Date().toLocaleDateString() + ' --\r\n\r\n';
     await appendUTF16File(state.targetModFolder, 'data/text/export_units.txt', newEuText, euSep);
-    filesWritten++; fill.style.width = '50%'; plabel.textContent = 'Wrote strings…';
+    filesWritten++; setProg(50, 'Wrote strings…');
 
     // Binary assets
     const allPaths = renamedUnits.flatMap(u => getBinaryPaths(u));
@@ -3682,8 +3852,7 @@ async function exportToFolder() {
     let ai = 0;
     for (const { path, strictPath } of uPaths) {
       ai++;
-      fill.style.width = `${50 + Math.round((ai / Math.max(uPaths.length, 1)) * 45)}%`;
-      plabel.textContent = `Writing ${path.split('/').pop()}…`;
+      setProg(50 + Math.round((ai / Math.max(uPaths.length, 1)) * 45), `Writing ${path.split('/').pop()}…`);
       const asset = strictPath ? getAssetStrict(path) : getAsset(path);
       if (asset) {
         const writePath = (path.endsWith('.tga') && asset.name.toLowerCase().endsWith('.tga.dds')) ? path + '.dds' : path;
@@ -3696,14 +3865,23 @@ async function exportToFolder() {
       }
     }
 
-    fill.style.width = '100%'; plabel.textContent = 'Done!';
+    setProg(100, 'Done!');
     addLog('ok', `Direct export: ${filesWritten} file(s) → ${state.targetModFolderName}/`);
     showToast(`${filesWritten} files written to ${state.targetModFolderName}/`);
   } catch(e) {
-    addLog('err', `Folder export: ${e.message}`);
-    showToast('Folder export failed — see log');
+    const msg = (e.message || '') + ' ' + (e.name || '');
+    if (/system files|not allowed|SecurityError|NotAllowedError|blocklist/i.test(msg)) {
+      addLog('err', 'Write blocked: the export folder is in a protected system location (e.g. Program Files / Steam). Browsers cannot write there.');
+      showFolderBlockedHelp();
+    } else if (/NoModificationAllowed|InvalidState/i.test(msg)) {
+      addLog('err', 'Write blocked: a file is locked (is Rome: Total War or a text editor open with that file?). Close it and retry.');
+      showToast('A file is locked — close RTW / editors and retry');
+    } else {
+      addLog('err', `Folder export failed: ${e.message}`);
+      showToast('Folder export failed — see log, or use ZIP export');
+    }
   }
-  setTimeout(() => { progress.classList.remove('active'); fill.style.width = '0%'; }, 1800);
+  setTimeout(() => { if (progress) progress.classList.remove('active'); if (fill) fill.style.width = '0%'; }, 1800);
 }
 
 // ═══════════════════════════════════════════
