@@ -4512,3 +4512,18 @@ model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_low.cas, 
 model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
 
+type                        baltic_spearman
+
+skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
+indiv_range			40
+texture                     germans, mve_rex/data/characters/textures/unit_NL_barb_baltic_spearmen_germans.tga
+texture                     slave, mve_rex/data/characters/textures/unit_NL_barb_baltic_spearmen_slave.tga
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_med.cas, 30
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_low.cas, 40
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_lowest.cas, max
+no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_high.cas, 15
+no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_med.cas, 30
+no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_low.cas, 40
+no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5

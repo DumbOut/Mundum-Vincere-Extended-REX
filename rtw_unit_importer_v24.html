@@ -1938,6 +1938,34 @@ const RTW_CULTURE_NAMES = new Set([
   'eastern','egyptian','greek','greek_cities','nomad','nomadic'
 ]);
 
+// Built-in vanilla RTW culture → faction folders, used when descr_sm_factions.txt
+// is NOT loaded. This makes culture ownership expand to ALL its factions out of the box.
+// Folder names match ui/units/<faction>/ in a vanilla install.
+const DEFAULT_CULTURE_FACTIONS = {
+  roman:         ['romans_julii', 'romans_brutii', 'romans_scipii', 'romans_senate'],
+  romans:        ['romans_julii', 'romans_brutii', 'romans_scipii', 'romans_senate'],
+  barbarian:     ['gauls', 'germans', 'britons', 'dacia', 'scythia', 'spain', 'thrace'],
+  barbarians:    ['gauls', 'germans', 'britons', 'dacia', 'scythia', 'spain', 'thrace'],
+  greek:         ['greek_cities', 'macedon', 'seleucid'],
+  greek_cities:  ['greek_cities', 'macedon', 'seleucid'],
+  carthaginian:  ['carthage', 'numidia'],
+  carthage:      ['carthage', 'numidia'],
+  eastern:       ['parthia', 'armenia', 'pontus'],
+  egyptian:      ['egypt'],
+  nomad:         ['scythia'],
+  nomadic:       ['scythia']
+};
+// Normalise a culture token to a canonical key (handles roman/romans etc.)
+function normaliseCultureKey(t) {
+  t = (t || '').toLowerCase().trim();
+  if (t === 'romans') return 'roman';
+  if (t === 'barbarians') return 'barbarian';
+  if (t === 'carthage') return 'carthaginian';
+  if (t === 'greek_cities') return 'greek';
+  if (t === 'nomadic') return 'nomad';
+  return t;
+}
+
 // Is this ownership token a culture (not a real faction)?
 function isCultureToken(token) {
   const t = (token || '').toLowerCase();
@@ -1952,20 +1980,27 @@ function isCultureToken(token) {
 function expandOwnershipToken(token) {
   const t = (token || '').toLowerCase().trim();
   if (!t) return [];
-  if (state.factionMap.has(t)) return [t];                 // confirmed real faction
-  if (state.cultureMap.has(t)) {                            // confirmed culture → its factions
+  // 1. Confirmed real faction from loaded SMF
+  if (state.factionMap.has(t)) return [t];
+  // 2. Confirmed culture from loaded SMF → all its factions
+  if (state.cultureMap.has(t)) {
     const facs = state.cultureMap.get(t);
-    return (facs && facs.length) ? facs.slice() : ['romans_julii'];
+    if (facs && facs.length) return facs.slice();
   }
+  // 3. Culture name — expand via built-in default map (works without SMF)
   if (RTW_CULTURE_NAMES.has(t)) {
-    // It's a culture name but SMF not loaded (or culture has no factions yet)
-    if (!_smfWarnedCultures.has(t)) {
-      _smfWarnedCultures.add(t);
-      addLog('warn', `Ownership uses culture "${t}" but descr_sm_factions.txt not loaded — UI cards default to romans_julii. Load SMF to expand to real factions.`);
+    const key = normaliseCultureKey(t);
+    const defFacs = DEFAULT_CULTURE_FACTIONS[key] || DEFAULT_CULTURE_FACTIONS[t];
+    if (defFacs && defFacs.length) {
+      if (!state.cultureMap.size && !_smfWarnedCultures.has(t)) {
+        _smfWarnedCultures.add(t);
+        addLog('info', `Culture "${t}" expanded to built-in vanilla factions: ${defFacs.join(', ')}. Load descr_sm_factions.txt to use your mod's exact faction list.`);
+      }
+      return defFacs.slice();
     }
     return ['romans_julii'];
   }
-  // Unknown token, assume it's a faction name
+  // 4. Unknown token — assume it's a faction name
   return [t];
 }
 const _smfWarnedCultures = new Set();

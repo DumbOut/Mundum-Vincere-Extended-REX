@@ -8878,3 +8878,28 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1350, 250, 60, 90, 500
 ownership        dacia
+
+type             baltic spearmen
+dictionary       baltic_spearmen
+category         infantry
+class            light
+voice_type       Medium_1
+soldier          baltic_spearman, 60, 0, 1.2, 0.4, 1.7
+attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
+formation        1, 1.66, 2, 3.33, 4, square
+stat_health      1, 5
+stat_pri         8, 3, javelin, 40, 6, thrown, simple, piercing, spear, 25, 1
+stat_pri_attr    prec, thrown
+stat_sec         4, 10, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_sec_attr    light_spear, spear_bonus_4
+stat_pri_armour  2, 4, 3, flesh, wood
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      0, -4, 3, 4
+stat_mental      9, normal, untrained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 492, 100, 50, 30, 492
+ownership        germans, slave
+

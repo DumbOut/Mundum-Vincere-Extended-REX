@@ -403,6 +403,7 @@ building barracks
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "baltic spearmen"  0  requires factions { germans, }
             }
             construction  2 
             cost  600 
@@ -467,6 +468,7 @@ building barracks
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "baltic spearmen"  0  requires factions { germans, }
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
             }
@@ -564,6 +566,7 @@ building barracks
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "baltic spearmen"  0  requires factions { germans, }
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -679,6 +682,7 @@ building barracks
 				recruit "merc barbarian infantry" 0 requires factions { thrace, }
                 recruit "parthian immortal"  0  requires factions { parthia, }
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "baltic spearmen"  0  requires factions { germans, }
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -803,6 +807,7 @@ building barracks
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
                 recruit "thracian noble"  0  requires factions { thrace, } 
                 recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "baltic spearmen"  0  requires factions { germans, }
                 recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
