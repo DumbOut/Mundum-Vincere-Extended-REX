@@ -27,6 +27,10 @@ end
 nonplayable
 	mauryans
 ;	caledonians_01
+;	voluntii_01
+;	coriondi_01
+;	nok_culture
+;	arevaci_01
 	romans_senate
 	slave
 end
@@ -14043,12 +14047,174 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;balanced_smith
 ;denari 5000
 
+; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
 ;{
+;	level large_town
+;	region Eydin_R
 
+;	year_founded 0
+;	population 2100
+;	plan_set default_set
+;	faction_creator caledonians_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
 ;}
+
+;settlement
+;{
+;	level town
+;	region Lindum_R
+;
+;	year_founded 0
+;	population 800
+;	plan_set default_set
+;	faction_creator caledonians_01
+;	building
+;	{
+;		type core_building governors_house
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;}
+
 ;character FirstName LastName, named character, faction leader, age 42, , x 990, y 233
 
+;faction voluntii_01,
+;balanced_smith
+;denari 5000
+
+; relative settlement and character entries for rebels are NOT removed yet.
+;settlement
+;{
+;	level large_town
+;	region Regia_R
+;
+;	year_founded 0
+;	population 2100
+;	plan_set default_set
+;	faction_creator voluntii_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 39, y 502
+
+;faction coriondi_01,
+;balanced_smith
+;denari 5000
+
+; relative settlement and character entries for rebels are NOT removed yet.
+;settlement
+;{
+;	level large_town
+;	region Manapia_R
+;
+;	year_founded 0
+;	population 2100
+;	plan_set default_set
+;	faction_creator coriondi_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
+
+;faction nok_culture,
+;balanced_smith
+;denari 5000
+
+; relative settlement and character entries for rebels are NOT removed yet.
+;settlement
+;{
+;	level large_town
+;	region Tagama_R
+;
+;	year_founded 0
+;	population 2100
+;	plan_set default_set
+;	faction_creator nok_culture
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
+
+
+;faction arevaci_01,
+;balanced_smith
+;denari 5000
+
+; relative settlement and character entry for gauls is NOT removed yet.
+;settlement
+;{
+;	level large_town
+;	region Celtiberia
+
+;	year_founded 0
+;	population 3000
+;	plan_set default_set
+;	faction_creator arevaci_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type equestrian stables
+;	}
+;	building
+;	{
+;		type defenses wooden_wall
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
+;}
+;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
 
 faction	slave, balanced_smith
 denari	-25962500
@@ -49652,7 +49818,12 @@ core_attitudes	thrace,		310		romans_brutii
 core_attitudes	thrace,		300		dacia
 core_attitudes	thrace,		600		slave
 core_attitudes	mauryans,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
+;core_attitudes	caledonians_01,		600		slave
+;core_attitudes	voluntii_01,		600		slave
+;core_attitudes	coriondi_01,		600		slave
+;core_attitudes	nok_culture,		600		slave
+;core_attitudes	arevaci_01,		600		slave
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -49684,6 +49855,11 @@ faction_relationships	scythia,			600		slave
 faction_relationships	spain,			600		slave
 faction_relationships	thrace,			600		slave
 faction_relationships	mauryans,			600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
+;faction_relationships	caledonians_01,		600		slave
+;faction_relationships	voluntii_01,		600		slave
+;faction_relationships	coriondi_01,		600		slave
+;faction_relationships	nok_culture,		600		slave
+;faction_relationships	arevaci_01,		600		slave
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
