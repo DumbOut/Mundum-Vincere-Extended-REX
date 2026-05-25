@@ -31,11 +31,11 @@ nonplayable
 end
 
 start_date	-316 summer
-end_date	998 summer
+end_date	1021 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 48
+brigand_spawn_value 50
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13860,7 +13860,7 @@ settlement
 	region Pertalis_R
 
 	year_founded 0
-	population 1000
+	population 800
 	plan_set default_set
 	faction_creator mauryans
 	building
@@ -13936,7 +13936,7 @@ settlement
 	region Tamralipta_R
 
 	year_founded 00
-	population 1450
+	population 1250
 	plan_set default_set
 	faction_creator mauryans
 	building
@@ -14039,7 +14039,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 
 faction	slave, balanced_smith
-denari	-9962500
+denari	-15962500
 settlement
 {
 	level town
