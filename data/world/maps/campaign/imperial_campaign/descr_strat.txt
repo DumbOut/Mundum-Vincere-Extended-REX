@@ -14052,12 +14052,12 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	region Eydin_R
 
 ;	year_founded 0
-;	population 800
+;	population 1500
 ;	plan_set default_set
 ;	faction_creator caledonians_01
 ;	building
 ;	{
-;		type core_building governors_house
+;		type core_building governors_villa
 ;	}
 ;	building
 ;	{
@@ -14093,7 +14093,21 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ; relative settlement entries for rebels are NOT removed yet.
 ;settlement
 ;{
-;Put these guys in the northeast region of Ireland
+;	level town
+;	region Regia_R
+;
+;	year_founded 0
+;	population 1500
+;	plan_set default_set
+;	faction_creator voluntii_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
 ;}
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 39, y 502
@@ -14105,7 +14119,21 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ; relative settlement entries for rebels are NOT removed yet.
 ;settlement
 ;{
-;Put these guys in the southeast region of Ireland
+;	level town
+;	region Manapia_R
+;
+;	year_founded 0
+;	population 1500
+;	plan_set default_set
+;	faction_creator coriondi_01
+;	building
+;	{
+;		type core_building governors_villa
+;	}
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
 ;}
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 38, y 471
