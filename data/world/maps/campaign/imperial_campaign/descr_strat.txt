@@ -26,6 +26,7 @@ unlockable
 end
 nonplayable
 	mauryans
+;	caledonians_01
 	romans_senate
 	slave
 end
@@ -14036,6 +14037,16 @@ character_record		Vitashoka Maurya, 	male, command 0, influence 0, management 0,
 
 relative 	Chandragupta Maurya, 	Durdhara,		Bindusara Maurya,	end
 relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparswa Maurya,	Tissa Maurya,	Vitashoka Maurya,	end
+
+;faction caledonians_01,
+;balanced_smith
+;denari 5000
+
+;settlement
+;{
+
+;}
+;character FirstName LastName, named character, faction leader, age 42, , x 990, y 233
 
 
 faction	slave, balanced_smith
