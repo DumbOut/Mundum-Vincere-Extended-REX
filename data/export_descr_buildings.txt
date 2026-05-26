@@ -382,7 +382,8 @@ building barracks
             capability
             {
                 taxable_income_bonus bonus -3 requires factions { slave, }
-                recruit "carthaginian city militia"  0  requires factions { spain, } 
+                recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
@@ -418,7 +419,8 @@ building barracks
             capability
             {
                 taxable_income_bonus bonus -2 requires factions { slave, }
-                recruit "carthaginian city militia"  0  requires factions { spain, } 
+                recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
@@ -485,7 +487,8 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { spain, } 
+                recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
@@ -586,7 +589,8 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { spain, } 
+                recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
@@ -708,7 +712,8 @@ building barracks
             capability
             {
 				taxable_income_bonus bonus -1 requires factions { slave, }
-                recruit "carthaginian city militia"  0  requires factions { spain, } 
+                recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }

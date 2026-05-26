@@ -4568,3 +4568,15 @@ model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_low.cas, 3
 model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
+type                        libyan_light_infantry
+
+skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
+indiv_range			40
+texture                     numidia, mve_rex/data/characters/textures/unit_NL_libyan_light_infantry_numidia.tga
+texture                     carthage, mve_rex/data/characters/textures/unit_NL_libyan_light_infantry_carthage.tga
+texture                     slave, mve_rex/data/characters/textures/unit_NL_libyan_light_infantry_slave.tga
+model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_med.cas, 30
+model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_low.cas, 40
+model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f

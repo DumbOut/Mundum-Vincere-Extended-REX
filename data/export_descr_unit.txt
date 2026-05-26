@@ -9003,3 +9003,27 @@ stat_food        60, 300
 stat_cost        1, 480, 80, 50, 30, 480
 ownership        dacia
 
+type             libyan light infantry
+dictionary       libyan_light_infantry
+category         infantry
+class            missile
+voice_type       Heavy_1
+soldier          libyan_light_infantry, 60, 0, 1.4, 0.4, 1.7
+mount_effect     horse +6, chariot +6, elephant +6
+attributes       sea_faring, hide_forest, can_sap, very_hardy
+formation        1.2, 1.2, 2.66, 2.66, 6, square
+stat_health      1, 7
+stat_pri         5, 3, javelin, 40, 10, thrown, simple, piercing, spear, 25, 1
+stat_pri_attr    prec, thrown
+stat_sec         5, 4, no, 0, 0, melee, simple, piercing, spear, 25, 1
+stat_sec_attr    light_spear, spear_bonus_6
+stat_pri_armour  2, 3, 1, leather, wood
+stat_sec_armour  0, 0, flesh
+stat_heat        -2
+stat_ground      0, 3, 0, -4
+stat_mental      7, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 450, 70, 50, 30, 450
+ownership        numidia, carthage, slave
