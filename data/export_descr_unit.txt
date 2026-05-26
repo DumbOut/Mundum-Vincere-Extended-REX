@@ -8217,7 +8217,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 841, 151, 78, 110, 841
+stat_cost        1, 602, 151, 78, 110, 602
 ownership        thrace
 
 type             eastern 01 cappodocian cavalry
@@ -8980,3 +8980,29 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 130, 70, 50, 660
 ownership        roman
+
+type             barb getic spear warband
+dictionary       barb_getic_spear_warband      
+category         infantry
+class            light
+voice_type       Light_1
+soldier          getic_spear_warband, 60, 0, 1.2
+officer          barb_standard
+attributes       sea_faring, hide_improved_forest, very_hardy, warcry
+formation        1.2, 1.2, 2.4, 2.4, 5, square
+stat_health      1, 5
+stat_pri         6, 4, javelin, 35, 3, thrown, archery, piercing, spear, 25, 1
+stat_pri_attr    prec, thrown ap
+stat_sec         4, 6, no, 0, 0, melee, simple, piercing, spear, 25, 1
+stat_sec_attr    light_spear, spear_bonus_6
+stat_pri_armour  2, 3, 2, leather, wood
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      0, -3, 3, 3
+stat_mental      5, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 480, 80, 50, 30, 480
+ownership        dacia
+

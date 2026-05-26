@@ -4556,3 +4556,15 @@ texture				romans_senate, mve_rex/data/characters/textures/unit_NL_roman_marian_
 texture				slave, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_slave.tga
 model_flexi                 mve_rex/data/characters/unit_NL_roman_marian_light_cavalry_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type						getic_spear_warband
+
+skeleton					fs_javelinman, fs_spearman
+indiv_range			40
+texture				dacia, mve_rex/data/characters/textures/unit_NL_dacian_warband_spearman_dacia.tga
+model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_high.cas, 8
+model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_med.cas, 15
+model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_low.cas, 30
+model_flexi			mve_rex/data/characters/unit_NL_dacian_warband_spearman_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
