@@ -8954,3 +8954,31 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 449, 85, 50, 30, 449
 ownership        thrace
+
+type             roman marian light cavalry
+dictionary       roman_marian_light_cavalry      
+category         cavalry
+class            heavy
+voice_type       Medium_1
+soldier          roman_marian_light_cavalry, 50, 0, 1, 0.4, 1.7
+officer          roman_decurion
+officer          roman_early_signifer
+mount            medium horse
+mount_effect     camel -4, elephant -4
+attributes       sea_faring, hide_forest, very_hardy
+formation        1.5, 4, 3, 6, 6, square, wedge
+stat_health      1, 5
+stat_pri         10, 14, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_pri_attr    no
+stat_sec         10, 6, no, 0, 0, melee, simple, piercing, sword, 75, 1
+stat_sec_attr    no
+stat_pri_armour  8, 9, 5, leather
+stat_sec_armour  0, 6, flesh
+stat_heat        3
+stat_ground      0, -3, -2, 3
+stat_mental      10, normal, trained
+stat_charge_dist 120
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 660, 130, 70, 50, 660
+ownership        roman

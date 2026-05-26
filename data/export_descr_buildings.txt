@@ -1083,6 +1083,7 @@ building equestrian
                 recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "roman light cavalry"  2  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman marian light cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman praetorian cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
