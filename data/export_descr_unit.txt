@@ -8885,6 +8885,7 @@ category         infantry
 class            light
 voice_type       Medium_1
 soldier          baltic_spearman, 60, 0, 1.2, 0.4, 1.7
+officer          barb_standard
 attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
 formation        1, 1.66, 2, 3.33, 4, square
 stat_health      1, 5
@@ -8896,10 +8897,34 @@ stat_pri_armour  2, 4, 3, flesh, wood
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      0, -4, 3, 4
-stat_mental      9, normal, untrained
+stat_mental      6, normal, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 492, 100, 50, 30, 492
 ownership        germans, slave
 
+type             baltic warband
+dictionary       baltic_warband
+category         infantry
+class            light
+voice_type       Light_1
+soldier          baltic_warband, 55, 0, 1.4, 0.4, 1.7
+officer          barb_standard
+attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
+formation        1.6, 2, 3.2, 4, 4, square
+stat_health      1, 5
+stat_pri         8, 5, javelin, 50, 11, thrown, archery, piercing, spear, 75, 1
+stat_pri_attr    prec, thrown
+stat_sec         7, 5, no, 0, 0, melee, simple, blunt, mace, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 4, 3, flesh, wood
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      0, -4, 3, 4
+stat_mental      4, impetuous, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 405, 80, 40, 30, 405
+ownership        germans, slave

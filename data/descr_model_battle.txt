@@ -4522,8 +4522,16 @@ model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_med.cas, 30
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman_lowest.cas, max
-no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_high.cas, 15
-no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_med.cas, 30
-no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_low.cas, 40
-no_variation model_flexi    mve_rex/data/characters/unit_NL_barb_baltic_spearman_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+type                        baltic_warband
+
+skeleton                    fs_s1_semi_fast_javelinman, fs_s1_barbswordsman
+indiv_range			40
+texture                     germans, mve_rex/data/characters/textures/unit_NL_barb_baltic_warband_germans.tga
+texture                     slave, mve_rex/data/characters/textures/unit_NL_barb_baltic_warband_slave.tga
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_med.cas, 30
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_low.cas, 40
+model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
