@@ -4513,7 +4513,6 @@ model_flexi			mve_rex/data/characters/unit_NL_barb_getic_noble_cavalry_lowest.ca
 model_tri			400, 0.5f, 0.5f, 0.5
 
 type                        baltic_spearman
-
 skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
 indiv_range			40
 texture                     germans, mve_rex/data/characters/textures/unit_NL_barb_baltic_spearmen_germans.tga
@@ -4525,7 +4524,6 @@ model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_spearman
 model_tri			400, 0.5f, 0.5f, 0.5
 
 type                        baltic_warband
-
 skeleton                    fs_s1_semi_fast_javelinman, fs_s1_barbswordsman
 indiv_range			40
 texture                     germans, mve_rex/data/characters/textures/unit_NL_barb_baltic_warband_germans.tga
@@ -4534,4 +4532,15 @@ model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_med.cas, 30
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_NL_barb_baltic_warband_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5
+
+type                        thracian_medium_skirmisher
+
+skeleton                    fs_s1_semi_fast_javelinman, fs_s1_semi_fast_swordsman
+indiv_range			40
+texture                     thrace, mve_rex/data/characters/textures/unit_NL_thracian_medium_skirmisher_thrace.tga
+model_flexi                 mve_rex/data/characters/unit_NL_thracian_medium_skirmisher_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_NL_thracian_medium_skirmisher_high.cas, 30
+model_flexi                 mve_rex/data/characters/unit_NL_thracian_medium_skirmisher_high.cas, 40
+model_flexi                 mve_rex/data/characters/unit_NL_thracian_medium_skirmisher_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
