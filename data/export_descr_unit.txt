@@ -8885,7 +8885,6 @@ category         infantry
 class            light
 voice_type       Medium_1
 soldier          baltic_spearman, 60, 0, 1.2, 0.4, 1.7
-officer          barb_standard
 attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
 formation        1, 1.66, 2, 3.33, 4, square
 stat_health      1, 5
@@ -8910,7 +8909,6 @@ category         infantry
 class            light
 voice_type       Light_1
 soldier          baltic_warband, 55, 0, 1.4, 0.4, 1.7
-officer          barb_standard
 attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
 formation        1.6, 2, 3.2, 4, 4, square
 stat_health      1, 5
@@ -8987,7 +8985,6 @@ category         infantry
 class            light
 voice_type       Light_1
 soldier          getic_spear_warband, 60, 0, 1.2
-officer          barb_standard
 attributes       sea_faring, hide_improved_forest, very_hardy, warcry
 formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 5

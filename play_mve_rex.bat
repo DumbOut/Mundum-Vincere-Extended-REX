@@ -1,3 +1,3 @@
 @echo off
 cd /d "%~dp0.."
-start "" "REX.exe" -mod:mve_rex
+start "" "REX.exe" -mod:mve_rex -show_err
