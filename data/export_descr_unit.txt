@@ -8888,9 +8888,9 @@ soldier          baltic_spearman, 60, 0, 1.2, 0.4, 1.7
 attributes       sea_faring, hide_improved_forest, hide_long_grass, very_hardy, can_sap
 formation        1, 1.66, 2, 3.33, 4, square
 stat_health      1, 5
-stat_pri         8, 3, javelin, 40, 6, thrown, simple, piercing, spear, 25, 1
+stat_pri         6, 3, javelin, 40, 6, thrown, simple, piercing, spear, 25, 1
 stat_pri_attr    prec, thrown
-stat_sec         4, 10, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_sec         4, 6, no, 0, 0, melee, simple, piercing, spear, 75, 1
 stat_sec_attr    light_spear, spear_bonus_4
 stat_pri_armour  2, 4, 3, flesh, wood
 stat_sec_armour  0, 0, flesh
@@ -8914,7 +8914,7 @@ formation        1.6, 2, 3.2, 4, 4, square
 stat_health      1, 5
 stat_pri         8, 5, javelin, 50, 11, thrown, archery, piercing, spear, 75, 1
 stat_pri_attr    prec, thrown
-stat_sec         7, 5, no, 0, 0, melee, simple, blunt, mace, 25, 1
+stat_sec         5, 5, no, 0, 0, melee, simple, blunt, mace, 25, 1
 stat_sec_attr    no
 stat_pri_armour  3, 4, 3, flesh, wood
 stat_sec_armour  0, 0, flesh
@@ -8964,9 +8964,9 @@ mount_effect     camel -4, elephant -4
 attributes       sea_faring, hide_forest, very_hardy
 formation        1.5, 4, 3, 6, 6, square, wedge
 stat_health      1, 5
-stat_pri         10, 14, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 75, 1
 stat_pri_attr    no
-stat_sec         10, 6, no, 0, 0, melee, simple, piercing, sword, 75, 1
+stat_sec         6, 4, no, 0, 0, melee, simple, piercing, sword, 75, 1
 stat_sec_attr    no
 stat_pri_armour  8, 9, 5, leather
 stat_sec_armour  0, 6, flesh
@@ -8976,7 +8976,7 @@ stat_mental      10, normal, trained
 stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 660, 130, 70, 50, 660
+stat_cost        1, 662, 130, 70, 50, 662
 ownership        roman
 
 type             barb getic spear warband
@@ -8990,7 +8990,7 @@ formation        1.2, 1.2, 2.4, 2.4, 5, square
 stat_health      1, 5
 stat_pri         6, 4, javelin, 35, 3, thrown, archery, piercing, spear, 25, 1
 stat_pri_attr    prec, thrown ap
-stat_sec         4, 6, no, 0, 0, melee, simple, piercing, spear, 25, 1
+stat_sec         4, 5, no, 0, 0, melee, simple, piercing, spear, 25, 1
 stat_sec_attr    light_spear, spear_bonus_6
 stat_pri_armour  2, 3, 2, leather, wood
 stat_sec_armour  0, 0, flesh
