@@ -461,4 +461,122 @@ can_sap						no
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Re-add from wip
+faction						caledonians_01
+culture						barbarian
+symbol						models_strat/symbol_caledonians_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 145, green 89, blue 138
+secondary_colour			red 255, green 255, blue 255
+loading_logo				loading_screen/symbols/symbol128_caledonians_01.tga
+standard_index				34
+logo_index					FACTION_LOGO_CALEDONIANS_01
+small_logo_index			SMALL_FACTION_LOGO_CALEDONIANS_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/britons_eliminated.wmv
+death_movie					fmv/death/death_britons_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						voluntii_01
+culture						barbarian
+symbol						models_strat/symbol_voluntii_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 222, green 134, blue 2
+secondary_colour			red 232, green 213, blue 186
+loading_logo				loading_screen/symbols/symbol128_voluntii_01.tga
+standard_index				12
+logo_index					FACTION_LOGO_VOLUNTII_01
+small_logo_index			SMALL_FACTION_LOGO_VOLUNTII_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/britons_eliminated.wmv
+death_movie					fmv/death/death_britons_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						coriondi_01
+culture						barbarian
+symbol						models_strat/symbol_coriondi_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 77, green 58, blue 63
+secondary_colour			red 232, green 213, blue 186
+loading_logo				loading_screen/symbols/symbol128_coriondi_01.tga
+standard_index				12
+logo_index					FACTION_LOGO_CORIONDI_01
+small_logo_index			SMALL_FACTION_LOGO_CORIONDI_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/britons_eliminated.wmv
+death_movie					fmv/death/death_britons_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						nok_culture
+culture						carthaginian
+symbol						models_strat/symbol_nok_culture.CAS
+rebel_symbol				models_strat/symbol_carthage_rebel.CAS
+primary_colour				red 2, green 36, blue 0
+secondary_colour			red 232, green 213, blue 186
+loading_logo				loading_screen/symbols/symbol128_nok_culture.tga
+standard_index				12
+logo_index					FACTION_LOGO_NOK_CULTURE
+small_logo_index			SMALL_FACTION_LOGO_NOK_CULTURE
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/carthage_outro_320x240.wmv
+defeat_movie				fmv/lose/numidian_eliminated.wmv
+death_movie					fmv/death/death_numidia_sand_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						arevaci_01
+culture						barbarian
+symbol						models_strat/symbol_arevaci_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 209, green 161, blue 27
+secondary_colour			red 133, green 17, blue 16
+loading_logo				loading_screen/symbols/symbol128_arevaci_01.tga
+standard_index				12
+logo_index					FACTION_LOGO_AREVACI_01
+small_logo_index			SMALL_FACTION_LOGO_AREVACI_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/britons_eliminated.wmv
+death_movie					fmv/death/death_britons_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						no
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						zhou
+culture						eastern
+symbol						models_strat/symbol_zhou.CAS
+rebel_symbol				models_strat/symbol_slaves.CAS
+primary_colour				red 150, green 10, blue 20
+secondary_colour			red 255, green 255, blue 255
+loading_logo				loading_screen/symbols/symbol128_zhou.tga
+standard_index				3
+logo_index					FACTION_LOGO_ZHOU
+small_logo_index			SMALL_FACTION_LOGO_ZHOU
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/scipii_outro_320x240.wmv+
+defeat_movie				fmv/lose/SPQR_eliminated.wmv
+death_movie					fmv/death/death_SPQR_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
