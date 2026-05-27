@@ -14114,7 +14114,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;	building
 ;	{
-;		type defenses wooden_pallisade
+;		type defenses wooden_wall
 ;	}
 ;	building
 ;	{
@@ -14143,7 +14143,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;	building
 ;	{
-;		type defenses wooden_pallisade
+;		type defenses wooden_wall
 ;	}
 ;	building
 ;	{
@@ -14172,7 +14172,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;	building
 ;	{
-;		type defenses wooden_pallisade
+;		type defenses wooden_wall
 ;	}
 ;	building
 ;	{
@@ -14218,13 +14218,15 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;faction	zhou, balanced smith
 ;denari	20000
+
+; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
 ;{
 ;    level town
 ;   region Sanchuan_R
 ;
 ;    year_founded 0
-;    population 400
+;    population 800
 ;    plan_set default_set
 ;    faction_creator zhou
 ;    building
@@ -14258,7 +14260,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;    }
 ;	building
 ;	{
-;		type defenses wooden_pallisade
+;		type defenses wooden_wall
 ;	}
 ;	building
 ;	{
@@ -14278,12 +14280,12 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;    region Transalpine_Gaul
 ;
 ;    year_founded 0
-;    population 2200
+;    population 2100
 ;    plan_set default_set
 ;    faction_creator massilia_01
 ;    building
 ;    {
-;        type core_building governors_palace
+;        type core_building governors_villa
 ;    }
 ;	building
 ;	{
