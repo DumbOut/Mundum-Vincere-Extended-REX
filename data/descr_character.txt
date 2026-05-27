@@ -206,10 +206,10 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			nok_culture
+;            faction			nok_culture_01
 ;            dictionary		2
-;            strat_model		sm_carthage_general
-;            battle_model	carthaginian_general
+;            strat_model		sm_egypt_general
+;            battle_model	egyptian_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;            faction			arevaci_01
@@ -218,10 +218,10 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			zhou
+;            faction			zhou_01
 ;            dictionary		15
-;            strat_model		sm_roman_general
-;            battle_model	roman_general
+;            strat_model		sm_eastern_general
+;            battle_model	east_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;            faction			illyria_01
@@ -430,11 +430,11 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_lesser_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			nok_culture
+;            faction			nok_culture_01
 ;            dictionary		2
 ;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_carthage_lesser_general
-;            battle_model	carthaginian_lesser_general
+;            strat_model		sm_egypt_lesser_general
+;            battle_model	egyptian_lesser_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;            faction			arevaci_01
@@ -444,7 +444,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_lesser_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			zhou
+;            faction			zhou_01
 ;            dictionary		2
 ;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
 ;            strat_model		sm_eastern_lesser_general

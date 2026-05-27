@@ -29,9 +29,9 @@ nonplayable
 ;	caledonians_01
 ;	voluntii_01
 ;	coriondi_01
-;	nok_culture
+;	nok_culture_01
 ;	arevaci_01
-;	zhou
+;	zhou_01
 ;	illyria_01
 ;	massilia_01
 ;	aestii_01
@@ -14153,7 +14153,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 39, y 621
 
-;faction nok_culture, balanced_smith
+;faction nok_culture_01, balanced_smith
 ;denari 5000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14165,7 +14165,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	year_founded 0
 ;	population 2100
 ;	plan_set default_set
-;	faction_creator nok_culture
+;	faction_creator nok_culture_01
 ;	building
 ;	{
 ;		type core_building governors_villa
@@ -14216,7 +14216,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 79, y 474
 
-;faction	zhou, balanced smith
+;faction	zhou_01, balanced smith
 ;denari	20000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
@@ -14228,7 +14228,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;    year_founded 0
 ;    population 800
 ;    plan_set default_set
-;    faction_creator zhou
+;    faction_creator zhou_01
 ;    building
 ;    {
 ;        type core_building governors_house
@@ -49933,13 +49933,13 @@ core_attitudes	mauryans,		600		slave
 ;core_attitudes	caledonians_01,		600		slave
 ;core_attitudes	voluntii_01,		600		slave
 ;core_attitudes	coriondi_01,		600		slave
-;core_attitudes	nok_culture,		600		slave
+;core_attitudes	nok_culture_01,		600		slave
 ;core_attitudes	arevaci_01,		600		slave
-;core_attitudes	zhou,		600		slave
+;core_attitudes	zhou_01,		600		slave
 ;core_attitudes	illyria_01,		600		slave
 ;core_attitudes	massilia_01,		600		slave
 ;core_attitudes	aestii_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01, aestii_01
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, massilia_01, aestii_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -49974,12 +49974,12 @@ faction_relationships	mauryans,			600		slave
 ;faction_relationships	caledonians_01,		600		slave
 ;faction_relationships	voluntii_01,		600		slave
 ;faction_relationships	coriondi_01,		600		slave
-;faction_relationships	nok_culture,		600		slave
+;faction_relationships	nok_culture_01,		600		slave
 ;faction_relationships	arevaci_01,		600		slave
-;faction_relationships	zhou,		600		slave
+;faction_relationships	zhou_01,		600		slave
 ;faction_relationships	illyria_01,		600		slave
 ;faction_relationships	massilia_01,		600		slave
 ;faction_relationships	aestii_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01, aestii_01
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, massilia_01, aestii_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
