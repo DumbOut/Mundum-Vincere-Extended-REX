@@ -80,3 +80,53 @@ horde_initial_armor 0
 
 ; Initial weapon upgrade level for horde units (0-3, default 0)
 horde_initial_weapon 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Family / character ageing
+; All values in years. (M2 uses descr_campaign_db for these instead.)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Age a character is forced to die of old age (default 127)
+max_age_before_death 150
+
+; Age the random old-age death check begins (default 60)
+old_age 60
+
+; Elderly-age threshold used by the UI (default 120)
+max_age 150
+
+; Age a child character becomes an adult (default 10)
+max_age_of_child 10
+
+; Age a male child comes of age (default 16)
+age_of_manhood 16
+
+; Youngest age a daughter can be married (default 12)
+daughters_age_of_consent 12
+
+; Age an unmarried daughter is retired (default 60)
+daughters_retirement_age 60
+
+; Oldest age a man / woman is matched for marriage (defaults 75 / 50)
+max_age_for_marriage_for_male 75
+max_age_for_marriage_for_female 50
+
+; Spouse age difference range, husband minus wife (defaults -10 to 30)
+age_difference_min -10
+age_difference_max 40
+
+; Minimum parent-to-child age gap (default 12)
+parent_to_child_min_age_diff 8
+
+; Adoptable age range (defaults 20 to 30)
+min_adoption_age 20
+max_adoption_age 30
+
+; Oldest age a character can still father a child (default 50)
+max_age_for_conception 60
+
+; Max ancillaries a single character can hold (default 8)
+max_num_ancillaries 32
+
+; Max children a character can have (default 4)
+max_num_children 100
