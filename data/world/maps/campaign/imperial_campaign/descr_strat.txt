@@ -34,6 +34,7 @@ nonplayable
 ;	zhou
 ;	illyria_01
 ;	massilia_01
+;	aestii_01
 	romans_senate
 	slave
 end
@@ -14291,6 +14292,34 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 ;character FirstName LastName, named character, faction leader, age 42, , x 152, y 345
+
+;faction	aestii_01, balanced smith
+;denari	5000
+
+; relative settlement and character entries for rebels are NOT removed yet.
+;settlement
+;{
+;    level large_town
+;    region Aestium_R
+;
+;    year_founded 0
+;    population 2100
+;    plan_set default_set
+;    faction_creator aestii_01
+;    building
+;    {
+;        type core_building governors_house
+;    }
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;	building
+;	{
+;		type barracks muster_field
+;	}
+;}
+;character FirstName LastName, named character, faction leader, age 42, , x 287, y 92
 
 faction	slave, balanced_smith
 denari	-25962500
@@ -49902,7 +49931,8 @@ core_attitudes	mauryans,		600		slave
 ;core_attitudes	zhou,		600		slave
 ;core_attitudes	illyria_01,		600		slave
 ;core_attitudes	massilia_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01
+;core_attitudes	aestii_01,		600		slave
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01, aestii_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -49942,6 +49972,7 @@ faction_relationships	mauryans,			600		slave
 ;faction_relationships	zhou,		600		slave
 ;faction_relationships	illyria_01,		600		slave
 ;faction_relationships	massilia_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01
+;faction_relationships	aestii_01,		600		slave
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture, arevaci_01, zhou, illyria_01, massilia_01, aestii_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
