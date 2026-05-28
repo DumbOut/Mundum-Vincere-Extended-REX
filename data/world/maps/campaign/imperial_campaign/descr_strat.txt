@@ -32,6 +32,7 @@ nonplayable
 ;	nok_culture_01
 ;	arevaci_01
 ;	zhou_01
+;	qin_01
 ;	illyria_01
 ;	massilia_01
 ;	aestii_01
@@ -14240,6 +14241,31 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;}
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 1280, y 540
+
+;faction	qin_01, balanced smith
+;denari	20000
+
+; relative settlement and character entries for rebels are NOT removed yet.
+;settlement
+;{
+;    level town
+;   region Weinan_R
+;
+;    year_founded 0
+;    population 800
+;    plan_set default_set
+;    faction_creator qin_01
+;    building
+;    {
+;        type core_building governors_house
+;    }
+;	building
+;	{
+;		type defenses wooden_pallisade
+;	}
+;}
+
+;character FirstName LastName, named character, faction leader, age 42, , x 1250, y 385
 
 ;faction	illyria_01, balanced smith
 ;denari	5000
