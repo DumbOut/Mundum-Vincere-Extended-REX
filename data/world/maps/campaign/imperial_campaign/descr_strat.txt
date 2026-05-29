@@ -5060,6 +5060,18 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 
+;	Sybene Aethiopis
+character	Aakheperre, named character, age 16, , x 638, y 147
+traits StrategicSkill 3 , NaturalMilitarySkill 2 , PublicFaith 3
+ancillaries magician
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
 ;	Thebes egypt
 character	Minmose, general, age 20, , x 432, y 303
 
@@ -5476,7 +5488,7 @@ character_record		Hemetsekhmet, 	female, command 0, influence 0, management 0, s
 character_record		Duatbast, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Baketanhur, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
 
-relative 	Hekhemmut, 	Ankheshathor,		Khnumhotep,	Ptahhotep,	Sekhmetsekhemkhet,	Hemetsekhmet,	end
+relative 	Hekhemmut, 	Ankheshathor,		Khnumhotep,	Ptahhotep,	Sekhmetsekhemkhet,	Hemetsekhmet,	Aakheperre,	end
 relative 	Khnumhotep, 	Neferneferuaset,		Ahmose,	Duatbast,	Merira,	end
 relative 	Ptahhotep, 	Satsobek,		Baketanhur,	Tutankhanhur,	end
 relative 	Sekhmetsekhemkhet, 	Padibastet,		Sabast,	end
