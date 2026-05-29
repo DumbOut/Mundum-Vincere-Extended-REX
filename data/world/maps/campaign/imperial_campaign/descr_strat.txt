@@ -5034,6 +5034,25 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Sybene_Aethiopis_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ;	end egypt cities
 
 ;	Alexandria

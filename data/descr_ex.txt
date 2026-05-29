@@ -27,7 +27,7 @@ superfaction_min_regions 24
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 100.0
+camera_max_height 512.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -124,7 +124,7 @@ age_difference_max 30
 parent_to_child_min_age_diff 12
 
 ; Adoptable age range (defaults 20 to 30)
-min_adoption_age 20
+min_adoption_age 16
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
