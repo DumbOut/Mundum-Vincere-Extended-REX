@@ -17,17 +17,17 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 312
+max_factions 21
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 29
+superfaction_min_regions 7
 
 ; Battle camera height limits (above terrain, in world units)
-; Min: how close you can zoom in (default 0.4, floor 0.1)
+; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
-camera_min_height 0.09
-camera_max_height 512.0
+camera_min_height 0.1
+camera_max_height 100.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -42,6 +42,11 @@ hide_upgrade_pop false
 ; Disable the player console (tilde key). Scripts still work. (default false)
 disable_console false
 
+; Minimum seconds the main loading screen must stay visible before closing.
+; Useful so players can finish reading quote / tip text on fast machines.
+; 0 disables the delay entirely. Fractional values allowed.
+minimum_load_time 0
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Gameplay
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -50,7 +55,7 @@ disable_console false
 population_on_disband true
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight true
+easy_nightfight false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -87,13 +92,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 150
+max_age_before_death 127
 
 ; Age the random old-age death check begins (default 60)
 old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 150
+max_age 120
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -113,20 +118,20 @@ max_age_for_marriage_for_female 50
 
 ; Spouse age difference range, husband minus wife (defaults -10 to 30)
 age_difference_min -10
-age_difference_max 40
+age_difference_max 30
 
 ; Minimum parent-to-child age gap (default 12)
-parent_to_child_min_age_diff 8
+parent_to_child_min_age_diff 12
 
 ; Adoptable age range (defaults 20 to 30)
 min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 60
+max_age_for_conception 50
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 32
+max_num_ancillaries 8
 
 ; Max children a character can have (default 4)
-max_num_children 100
+max_num_children 4

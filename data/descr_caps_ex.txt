@@ -19,3 +19,9 @@ items_source  text
 ;   merged   = portraits from all overlay scopes (mod + vanilla) are pooled together (default)
 ;   isolated = only portraits from the highest-priority scope are used (for total conversions)
 portrait_pool  merged
+
+; baseline recruitment points granted to every settlement before building caps stack on top.
+;   1 = vanilla RTW (one unit completes per turn before building bonuses)
+;   0 = strict M2 parity: settlements get nothing unless a building grants `recruitment_slots N` in EDB
+; Building caps with `recruitment_slots bonus N` always stack on top of this value (summed across buildings).
+default_recruitment_slots  1

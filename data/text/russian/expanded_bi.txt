@@ -1,0 +1,1507 @@
+¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
+¬ alemanni, empire_east, empire_west, empire_east_rebels, empire_west_rebels, franks, huns, sarmatians, sassanids, saxons, vandals, goths, 
+¬ white_huns, ostrogoths, romano_british, slavs, celts, slave
+
+¬ Faction Names
+{ROMANS_JULII}					Дом Юлиев
+{ROMANS_BRUTII}					Дом Брутов
+{ROMANS_SCIPII}					Дом Сципионов
+{ROMANS_SENATE}					Сенат и граждане Рима
+{MACEDON}					Македония
+{EGYPT}					Египет
+{SELEUCID}					Империя Селевкидов
+{CARTHAGE}					Карфаген
+{PARTHIA}					Парфия
+{PONTUS}					Понт
+{GAULS}					Галлия
+{GERMANS}					Германия
+{BRITONS}					Британия
+{ARMENIA}					Армения
+{DACIA}					Дакия
+{GREEK_CITIES}					Греческие города
+{NUMIDIA}					Нумидия
+{SCYTHIA}					Скифия
+{SPAIN}					Испания
+{THRACE}							Фракия
+{SLAVE}							Повстанцы
+{ALEMANNI}							Алеманны
+{EMPIRE_EAST}						Римляне (Западная империя)
+{EMPIRE_WEST}						Римляне (Восточная империя)
+{EMPIRE_EAST_REBELS}					Римляне (мятежники Восточной империи)
+{EMPIRE_WEST_REBELS}					Римляне (мятежники Западной империи)
+{FRANKS}							Франки
+{HUNS}						Гунны
+{SARMATIANS}						Сарматы
+{SASSANIDS}							Сасаниды
+{SAXONS}							Саксы
+{VANDALS}							Вандалы
+{GOTHS}							Готы
+{CELTS}							Кельты
+{WHITE_HUNS}						Белые гунны
+{OSTROGOTHS}						Остготы
+{ROMANO_BRITISH}					Британские римляне
+{SLAVS}								Славяне
+{MOORS}							Мавры
+{BERBERS}							Берберы
+
+¬Culture Names
+{ROMAN}					Рим
+{BARBARIAN}					Варвары
+{CARTHAGINIAN}				Карфаген
+{GREEK}					Греки
+{EGYPTIAN}					Египет
+{EASTERN}					Восток
+{NOMAD}					Кочевники
+{HUN}						Гунны
+
+{EMT_ROMANS_JULII_SPY}					Римский шпион (Юлии)
+{EMT_ROMANS_JULII_ASSASSIN}					Римский убийца (Юлии)
+{EMT_ROMANS_JULII_DIPLOMAT}					Римский дипломат (Юлии)
+{EMT_ROMANS_JULII_ADMIRAL}					Римский флот (Юлии)
+{EMT_ROMANS_JULII_GENERAL}					Римская армия (Юлии)
+{EMT_ROMANS_JULII_NAMED_CHARACTER}					Римский член семьи (Юлии)
+{EMT_ROMANS_BRUTII_SPY}					Римский шпион (Бруты)
+{EMT_ROMANS_BRUTII_ASSASSIN}					Римский убийца (Бруты)
+{EMT_ROMANS_BRUTII_DIPLOMAT}					Римский дипломат (Бруты)
+{EMT_ROMANS_BRUTII_ADMIRAL}					Римский флот (Бруты)
+{EMT_ROMANS_BRUTII_GENERAL}					Римская армия (Бруты)
+{EMT_ROMANS_BRUTII_NAMED_CHARACTER}					Римский член семьи (Бруты)
+{EMT_ROMANS_SCIPII_SPY}					Римский шпион (Сципионы)
+{EMT_ROMANS_SCIPII_ASSASSIN}					Римский убийца (Сципионы)
+{EMT_ROMANS_SCIPII_DIPLOMAT}					Римский дипломат (Сципионы)
+{EMT_ROMANS_SCIPII_ADMIRAL}					Римский флот (Сципионы)
+{EMT_ROMANS_SCIPII_GENERAL}					Римская армия (Сципионы)
+{EMT_ROMANS_SCIPII_NAMED_CHARACTER}					Римский член семьи (Сципионы)
+{EMT_ROMANS_SENATE_SPY}					Римский шпион (Сенат)
+{EMT_ROMANS_SENATE_ASSASSIN}					Римский убийца (Сенат)
+{EMT_ROMANS_SENATE_DIPLOMAT}					Римский дипломат (Сенат)
+{EMT_ROMANS_SENATE_ADMIRAL}					Римский флот (Сенат)
+{EMT_ROMANS_SENATE_GENERAL}					Римская армия (Сенат)
+{EMT_ROMANS_SENATE_NAMED_CHARACTER}					Римский член семьи (Сенат)
+{EMT_MACEDON_SPY}					Македонский шпион
+{EMT_MACEDON_ASSASSIN}					Македонский убийца
+{EMT_MACEDON_DIPLOMAT}					Македонский дипломат
+{EMT_MACEDON_ADMIRAL}					Македонский флот
+{EMT_MACEDON_GENERAL}					Македонская армия
+{EMT_MACEDON_NAMED_CHARACTER}					Македонский член семьи
+{EMT_EGYPT_SPY}					Египетский шпион
+{EMT_EGYPT_ASSASSIN}					Египетский убийца
+{EMT_EGYPT_DIPLOMAT}					Египетский дипломат
+{EMT_EGYPT_ADMIRAL}					Египетский флот
+{EMT_EGYPT_GENERAL}					Египетская армия
+{EMT_EGYPT_NAMED_CHARACTER}					Египетский член семьи
+{EMT_SELEUCID_SPY}					Селевкидский шпион
+{EMT_SELEUCID_ASSASSIN}					Селевкидский убийца
+{EMT_SELEUCID_DIPLOMAT}					Селевкидский дипломат
+{EMT_SELEUCID_ADMIRAL}					Селевкидский флот
+{EMT_SELEUCID_GENERAL}					Селевкидская армия
+{EMT_SELEUCID_NAMED_CHARACTER}					Селевкидский член семьи
+{EMT_CARTHAGE_SPY}					Карфагенский шпион
+{EMT_CARTHAGE_ASSASSIN}					Карфагенский убийца
+{EMT_CARTHAGE_DIPLOMAT}					Карфагенский дипломат
+{EMT_CARTHAGE_ADMIRAL}					Карфагенский флот
+{EMT_CARTHAGE_GENERAL}					Карфагенская армия
+{EMT_CARTHAGE_NAMED_CHARACTER}					Карфагенский член семьи
+{EMT_PARTHIA_SPY}					Парфянский шпион
+{EMT_PARTHIA_ASSASSIN}					Парфянский убийца
+{EMT_PARTHIA_DIPLOMAT}					Парфянский дипломат
+{EMT_PARTHIA_ADMIRAL}					Парфянский флот
+{EMT_PARTHIA_GENERAL}					Парфянская армия
+{EMT_PARTHIA_NAMED_CHARACTER}					Парфянский член семьи
+{EMT_PONTUS_SPY}					Понтийский шпион
+{EMT_PONTUS_ASSASSIN}					Понтийский убийца
+{EMT_PONTUS_DIPLOMAT}					Понтийский дипломат
+{EMT_PONTUS_ADMIRAL}					Понтийский флот
+{EMT_PONTUS_GENERAL}					Понтийская армия
+{EMT_PONTUS_NAMED_CHARACTER}					Понтийский член семьи
+{EMT_GAULS_SPY}					Галльский шпион
+{EMT_GAULS_ASSASSIN}					Галльский убийца
+{EMT_GAULS_DIPLOMAT}					Галльский дипломат
+{EMT_GAULS_ADMIRAL}					Галльский флот
+{EMT_GAULS_GENERAL}					Галльская армия
+{EMT_GAULS_NAMED_CHARACTER}					Галльский член семьи
+{EMT_GERMANS_SPY}					Германский шпион
+{EMT_GERMANS_ASSASSIN}					Германский убийца
+{EMT_GERMANS_DIPLOMAT}					Германский дипломат
+{EMT_GERMANS_ADMIRAL}					Германский флот
+{EMT_GERMANS_GENERAL}					Германская армия
+{EMT_GERMANS_NAMED_CHARACTER}					Германский член семьи
+{EMT_BRITONS_SPY}					Британский шпион
+{EMT_BRITONS_ASSASSIN}					Британский убийца
+{EMT_BRITONS_DIPLOMAT}					Британский дипломат
+{EMT_BRITONS_ADMIRAL}					Британский флот
+{EMT_BRITONS_GENERAL}					Британская армия
+{EMT_BRITONS_NAMED_CHARACTER}					Британский член семьи
+{EMT_ARMENIA_SPY}					Армянский шпион
+{EMT_ARMENIA_ASSASSIN}					Армянский убийца
+{EMT_ARMENIA_DIPLOMAT}					Армянский дипломат
+{EMT_ARMENIA_ADMIRAL}					Армянский флот
+{EMT_ARMENIA_GENERAL}					Армянская армия
+{EMT_ARMENIA_NAMED_CHARACTER}					Армянский член семьи
+{EMT_DACIA_SPY}					Дакийский шпион
+{EMT_DACIA_ASSASSIN}					Дакийский убийца
+{EMT_DACIA_DIPLOMAT}					Дакийский дипломат
+{EMT_DACIA_ADMIRAL}					Дакийский флот
+{EMT_DACIA_GENERAL}					Дакийская армия
+{EMT_DACIA_NAMED_CHARACTER}					Дакийский член семьи
+{EMT_GREEK_CITIES_SPY}					Греческий шпион
+{EMT_GREEK_CITIES_ASSASSIN}					Греческий убийца
+{EMT_GREEK_CITIES_DIPLOMAT}					Греческий дипломат
+{EMT_GREEK_CITIES_ADMIRAL}					Греческий флот
+{EMT_GREEK_CITIES_GENERAL}					Греческая армия
+{EMT_GREEK_CITIES_NAMED_CHARACTER}					Греческий член семьи
+{EMT_NUMIDIA_SPY}					Нумидийский шпион
+{EMT_NUMIDIA_ASSASSIN}					Нумидийский убийца
+{EMT_NUMIDIA_DIPLOMAT}					Нумидийский дипломат
+{EMT_NUMIDIA_ADMIRAL}					Нумидийский флот
+{EMT_NUMIDIA_GENERAL}					Нумидийская армия
+{EMT_NUMIDIA_NAMED_CHARACTER}					Нумидийский член семьи
+{EMT_SCYTHIA_SPY}					Скифский шпион
+{EMT_SCYTHIA_ASSASSIN}					Скифский убийца
+{EMT_SCYTHIA_DIPLOMAT}					Скифский дипломат
+{EMT_SCYTHIA_ADMIRAL}					Скифский флот
+{EMT_SCYTHIA_GENERAL}					Скифская армия
+{EMT_SCYTHIA_NAMED_CHARACTER}					Скифский член семьи
+{EMT_SPAIN_SPY}					Испанский шпион
+{EMT_SPAIN_ASSASSIN}					Испанский убийца
+{EMT_SPAIN_DIPLOMAT}					Испанский дипломат
+{EMT_SPAIN_ADMIRAL}					Испанский флот
+{EMT_SPAIN_GENERAL}					Испанская армия
+{EMT_SPAIN_NAMED_CHARACTER}					Испанский член семьи
+{EMT_THRACE_SPY}					Фракийский шпион
+{EMT_THRACE_ASSASSIN}					Фракийский убийца
+{EMT_THRACE_DIPLOMAT}					Фракийский дипломат
+{EMT_THRACE_ADMIRAL}					Фракийский флот
+{EMT_THRACE_GENERAL}					Фракийская армия
+{EMT_THRACE_NAMED_CHARACTER}					Фракийский член семьи
+
+{EMT_ALEMANNI_SPY}							Алеманнский шпион
+{EMT_ALEMANNI_ASSASSIN}						Алеманнский наемный убийца
+{EMT_ALEMANNI_DIPLOMAT}						Алеманнский дипломат
+{EMT_ALEMANNI_ADMIRAL}						Алеманнский флот
+{EMT_ALEMANNI_GENERAL}						Алеманнская армия
+{EMT_ALEMANNI_NAMED_CHARACTER}				Алеманнский член семьи
+
+{EMT_EMPIRE_EAST_SPY}						Римский (Восточная Империя) шпион
+{EMT_EMPIRE_EAST_ASSASSIN}					Римский (Восточная Империя) наемный убийца
+{EMT_EMPIRE_EAST_DIPLOMAT}					Римский (Восточная Империя) дипломат
+{EMT_EMPIRE_EAST_ADMIRAL}					Римский (Восточная Империя) флот
+{EMT_EMPIRE_EAST_GENERAL}					Римская (Восточная Империя) армия
+{EMT_EMPIRE_EAST_NAMED_CHARACTER}			Римский (Восточная Империя) член семьи
+
+{EMT_EMPIRE_WEST_SPY}						Римский (Западная Империя) шпион
+{EMT_EMPIRE_WEST_ASSASSIN}					Римский (Западная Империя) наемный убийца
+{EMT_EMPIRE_WEST_DIPLOMAT}					Римский (Западная Империя) дипломат
+{EMT_EMPIRE_WEST_ADMIRAL}					Римский (Западная Империя) флот
+{EMT_EMPIRE_WEST_GENERAL}					Римская (Западная Империя) армия
+{EMT_EMPIRE_WEST_NAMED_CHARACTER}			Римский (Западная Империя) член семьи
+
+{EMT_EMPIRE_EAST_REBELS_SPY}						Римский (мятежники Восточной Империи) шпион
+{EMT_EMPIRE_EAST_REBELS_ASSASSIN}					Римский (мятежники Восточной Империи) наемный убийца
+{EMT_EMPIRE_EAST_REBELS_DIPLOMAT}					Римский (мятежники Восточной Империи) дипломат
+{EMT_EMPIRE_EAST_REBELS_ADMIRAL}					Римский (мятежники Восточной Империи) флот
+{EMT_EMPIRE_EAST_REBELS_GENERAL}					Римская (мятежники Восточной Империи) армия
+{EMT_EMPIRE_EAST_REBELS_NAMED_CHARACTER}			Римский (мятежники Восточной Империи) член семьи
+
+{EMT_EMPIRE_WEST_REBELS_SPY}						Римский (мятежники Западной Империи) шпион
+{EMT_EMPIRE_WEST_REBELS_ASSASSIN}					Римский (мятежники Западной Империи) наемный убийца
+{EMT_EMPIRE_WEST_REBELS_DIPLOMAT}					Римский (мятежники Западной Империи) дипломат
+{EMT_EMPIRE_WEST_REBELS_ADMIRAL}					Римский (мятежники Западной Империи) флот
+{EMT_EMPIRE_WEST_REBELS_GENERAL}					Римская (мятежники Западной Империи) армия
+{EMT_EMPIRE_WEST_REBELS_NAMED_CHARACTER}			Римский (мятежники Западной Империи) член семьи
+
+{EMT_FRANKS_SPY}							Франкский шпион
+{EMT_FRANKS_ASSASSIN}						Франкский наемный убийца
+{EMT_FRANKS_DIPLOMAT}						Франкский дипломат
+{EMT_FRANKS_ADMIRAL}						Франкский флот
+{EMT_FRANKS_GENERAL}						Франкская армия
+{EMT_FRANKS_NAMED_CHARACTER}				Франкский член семьи
+
+{EMT_HUNS_SPY}						Гуннский шпион
+{EMT_HUNS_ASSASSIN}					Гуннский наемный убийца
+{EMT_HUNS_DIPLOMAT}					Гуннский дипломат
+{EMT_HUNS_ADMIRAL}					Гуннский флот
+{EMT_HUNS_GENERAL}					Гуннская армия
+{EMT_HUNS_NAMED_CHARACTER}			Гуннский член семьи
+
+{EMT_SARMATIANS_SPY}						Сарматский шпион
+{EMT_SARMATIANS_ASSASSIN}					Сарматский наемный убийца
+{EMT_SARMATIANS_DIPLOMAT}					Сарматский дипломат
+{EMT_SARMATIANS_ADMIRAL}					Сарматский флот
+{EMT_SARMATIANS_GENERAL}					Сарматская армия
+{EMT_SARMATIANS_NAMED_CHARACTER}			Сарматский член семьи
+
+{EMT_SASSANIDS_SPY}							Сасанидский шпион
+{EMT_SASSANIDS_ASSASSIN}					Сасанидский наемный убийца
+{EMT_SASSANIDS_DIPLOMAT}					Сасанидский дипломат
+{EMT_SASSANIDS_ADMIRAL}						Сасанидский флот
+{EMT_SASSANIDS_GENERAL}						Сасанидская армия
+{EMT_SASSANIDS_NAMED_CHARACTER}				Сасанидский член семьи
+
+{EMT_SAXONS_SPY}							Шпион саксов
+{EMT_SAXONS_ASSASSIN}						Наемный убийца саксов
+{EMT_SAXONS_DIPLOMAT}						Дипломат саксов
+{EMT_SAXONS_ADMIRAL}						Флот саксов
+{EMT_SAXONS_GENERAL}						Армия саксов
+{EMT_SAXONS_NAMED_CHARACTER}				Член семьи саксов
+
+{EMT_VANDALS_SPY}							Шпион вандалов
+{EMT_VANDALS_ASSASSIN}						Наемный убийца вандалов
+{EMT_VANDALS_DIPLOMAT}						Дипломат вандалов
+{EMT_VANDALS_ADMIRAL}						Флот вандалов
+{EMT_VANDALS_GENERAL}						Армия вандалов
+{EMT_VANDALS_NAMED_CHARACTER}				Член семьи вандалов
+
+{EMT_GOTHS_SPY}							Готский шпион
+{EMT_GOTHS_ASSASSIN}					Готский наемный убийца
+{EMT_GOTHS_DIPLOMAT}					Готский дипломат
+{EMT_GOTHS_ADMIRAL}						Готский флот
+{EMT_GOTHS_GENERAL}						Готская армия
+{EMT_GOTHS_NAMED_CHARACTER}				Готский член семьи
+
+{EMT_WHITE_HUNS_SPY}						Бело-гуннский шпион
+{EMT_WHITE_HUNS_ASSASSIN}					Бело-гуннский наемный убийца
+{EMT_WHITE_HUNS_DIPLOMAT}					Бело-гуннский дипломат
+{EMT_WHITE_HUNS_ADMIRAL}					Бело-гуннский флот
+{EMT_WHITE_HUNS_GENERAL}					Бело-гуннская армия
+{EMT_WHITE_HUNS_NAMED_CHARACTER}			Бело-гуннский член семьи
+
+{EMT_OSTROGOTHS_SPY}						Остготский шпион
+{EMT_OSTROGOTHS_ASSASSIN}					Остготский наемный убийца
+{EMT_OSTROGOTHS_DIPLOMAT}					Остготский дипломат
+{EMT_OSTROGOTHS_ADMIRAL}					Остготский флот
+{EMT_OSTROGOTHS_GENERAL}					Остготская армия
+{EMT_OSTROGOTHS_NAMED_CHARACTER}			Остготский член семьи
+
+{EMT_ROMANO_BRITISH_SPY}					Романо-британский шпион
+{EMT_ROMANO_BRITISH_ASSASSIN}				Романо-британский наемный убийца
+{EMT_ROMANO_BRITISH_DIPLOMAT}				Романо-британский дипломат
+{EMT_ROMANO_BRITISH_ADMIRAL}				Романо-британский флот
+{EMT_ROMANO_BRITISH_GENERAL}				Романо-британская армия
+{EMT_ROMANO_BRITISH_NAMED_CHARACTER}		Романо-британский член семьи
+
+{EMT_SLAVS_SPY}							Славянский шпион
+{EMT_SLAVS_ASSASSIN}					Славянский наемный убийца
+{EMT_SLAVS_DIPLOMAT}					Славянский дипломат
+{EMT_SLAVS_ADMIRAL}						Славянский флот
+{EMT_SLAVS_GENERAL}						Славянская армия
+{EMT_SLAVS_NAMED_CHARACTER}				Славянский член семьи
+
+{EMT_CELTS_SPY}							Кельтский шпион
+{EMT_CELTS_ASSASSIN}					Кельтский наемный убийца
+{EMT_CELTS_DIPLOMAT}					Кельтский дипломат
+{EMT_CELTS_ADMIRAL}						Кельтский флот
+{EMT_CELTS_GENERAL}						Кельтская армия
+{EMT_CELTS_NAMED_CHARACTER}				Кельтский член семьи
+
+{EMT_BERBERS_SPY}							Берберский шпион
+{EMT_BERBERS_ASSASSIN}						Берберский наемный убийца
+{EMT_BERBERS_DIPLOMAT}						Берберский дипломат
+{EMT_BERBERS_ADMIRAL}						Берберский флот
+{EMT_BERBERS_GENERAL}						Берберская армия
+{EMT_BERBERS_NAMED_CHARACTER}					Берберский член семьи
+
+{EMT_MOORS_SPY}							Мавританский шпион
+{EMT_MOORS_ASSASSIN}						Мавританский наемный убийца
+{EMT_MOORS_DIPLOMAT}						Мавританский дипломат
+{EMT_MOORS_ADMIRAL}						Мавританский флот
+{EMT_MOORS_GENERAL}						Мавританская армия
+{EMT_MOORS_NAMED_CHARACTER}					Мавританский член семьи
+
+{EMT_SLAVE_SPY}						Шпион мятежников
+{EMT_SLAVE_ASSASSIN}					Убийца-мятежник
+{EMT_SLAVE_DIPLOMAT}					Дипломат мятежников
+{EMT_SLAVE_ADMIRAL}					Мятежный флот
+{EMT_SLAVE_GENERAL}					Мятежная армия
+{EMT_SLAVE_NAMED_CHARACTER}					Мятежный член семьи
+
+{EMT_ROMANS_JULII_VILLAGE}					Римская деревня (Юлии)
+{EMT_ROMANS_JULII_TOWN}					Римский город (Юлии)
+{EMT_ROMANS_JULII_LARGE_TOWN}					Римский крупный город (Юлии)
+{EMT_ROMANS_JULII_CITY}					Римский большой город (Юлии)
+{EMT_ROMANS_JULII_LARGE_CITY}					Римский огромный город (Юлии)
+{EMT_ROMANS_JULII_HUGE_CITY}					Римский великий город (Юлии)
+{EMT_ROMANS_BRUTII_VILLAGE}					Римская деревня (Бруты)
+{EMT_ROMANS_BRUTII_TOWN}					Римский город (Бруты)
+{EMT_ROMANS_BRUTII_LARGE_TOWN}					Римский крупный город (Бруты)
+{EMT_ROMANS_BRUTII_CITY}					Римский большой город (Бруты)
+{EMT_ROMANS_BRUTII_LARGE_CITY}					Римский огромный город (Бруты)
+{EMT_ROMANS_BRUTII_HUGE_CITY}					Римский великий город (Бруты)
+{EMT_ROMANS_SCIPII_VILLAGE}					Римская деревня (Сципионы)
+{EMT_ROMANS_SCIPII_TOWN}					Римский город (Сципионы)
+{EMT_ROMANS_SCIPII_LARGE_TOWN}					Римский крупный город (Сципионы)
+{EMT_ROMANS_SCIPII_CITY}					Римский большой город (Сципионы)
+{EMT_ROMANS_SCIPII_LARGE_CITY}					Римский огромный город (Сципионы)
+{EMT_ROMANS_SCIPII_HUGE_CITY}					Римский великий город (Сципионы)
+{EMT_ROMANS_SENATE_VILLAGE}					Римская деревня (Сенат)
+{EMT_ROMANS_SENATE_TOWN}					Римский город (Сенат)
+{EMT_ROMANS_SENATE_LARGE_TOWN}					Римский крупный город (Сенат)
+{EMT_ROMANS_SENATE_CITY}					Римский большой город (Сенат)
+{EMT_ROMANS_SENATE_LARGE_CITY}					Римский огромный город (Сенат)
+{EMT_ROMANS_SENATE_HUGE_CITY}					Римский великий город (Сенат)
+{EMT_MACEDON_VILLAGE}					Македонская деревня
+{EMT_MACEDON_TOWN}					Македонский город
+{EMT_MACEDON_LARGE_TOWN}					Македонский крупный город
+{EMT_MACEDON_CITY}					Македонский большой город
+{EMT_MACEDON_LARGE_CITY}					Македонский огромный город
+{EMT_MACEDON_HUGE_CITY}					Македонский великий город
+{EMT_EGYPT_VILLAGE}					Египетская деревня
+{EMT_EGYPT_TOWN}					Египетский город
+{EMT_EGYPT_LARGE_TOWN}					Египетский крупный город
+{EMT_EGYPT_CITY}					Египетский большой город
+{EMT_EGYPT_LARGE_CITY}					Египетский огромный город
+{EMT_EGYPT_HUGE_CITY}					Египетский великий город
+{EMT_SELEUCID_VILLAGE}					Селевкидская деревня
+{EMT_SELEUCID_TOWN}					Селевкидский город
+{EMT_SELEUCID_LARGE_TOWN}					Селевкидский крупный город
+{EMT_SELEUCID_CITY}					Селевкидский большой город
+{EMT_SELEUCID_LARGE_CITY}					Селевкидский огромный город
+{EMT_SELEUCID_HUGE_CITY}					Селевкидский великий город
+{EMT_CARTHAGE_VILLAGE}					Карфагенская деревня
+{EMT_CARTHAGE_TOWN}					Карфагенский город
+{EMT_CARTHAGE_LARGE_TOWN}					Карфагенский крупный город
+{EMT_CARTHAGE_CITY}					Карфагенский большой город
+{EMT_CARTHAGE_LARGE_CITY}					Карфагенский огромный город
+{EMT_CARTHAGE_HUGE_CITY}					Карфагенский великий город
+{EMT_PARTHIA_VILLAGE}					Парфянская деревня
+{EMT_PARTHIA_TOWN}					Парфянский город
+{EMT_PARTHIA_LARGE_TOWN}					Парфянский крупный город
+{EMT_PARTHIA_CITY}					Парфянский большой город
+{EMT_PARTHIA_LARGE_CITY}					Парфянский огромный город
+{EMT_PARTHIA_HUGE_CITY}					Парфянский великий город
+{EMT_PONTUS_VILLAGE}					Понтийская деревня
+{EMT_PONTUS_TOWN}					Понтийский город
+{EMT_PONTUS_LARGE_TOWN}					Понтийский крупный город
+{EMT_PONTUS_CITY}					Понтийский большой город
+{EMT_PONTUS_LARGE_CITY}					Понтийский огромный город
+{EMT_PONTUS_HUGE_CITY}					Понтийский великий город
+{EMT_GAULS_VILLAGE}					Галльская деревня
+{EMT_GAULS_TOWN}					Галльский город
+{EMT_GAULS_LARGE_TOWN}					Галльский крупный город
+{EMT_GAULS_CITY}					Галльский большой город
+{EMT_GAULS_LARGE_CITY}					Галльский огромный город
+{EMT_GAULS_HUGE_CITY}					Галльский великий город
+{EMT_GERMANS_VILLAGE}					Германская деревня
+{EMT_GERMANS_TOWN}					Германский город
+{EMT_GERMANS_LARGE_TOWN}					Германский крупный город
+{EMT_GERMANS_CITY}					Германский большой город
+{EMT_GERMANS_LARGE_CITY}					Германский огромный город
+{EMT_GERMANS_HUGE_CITY}					Германский великий город
+{EMT_BRITONS_VILLAGE}					Британская деревня
+{EMT_BRITONS_TOWN}					Британский город
+{EMT_BRITONS_LARGE_TOWN}					Британский крупный город
+{EMT_BRITONS_CITY}					Британский большой город
+{EMT_BRITONS_LARGE_CITY}					Британский огромный город
+{EMT_BRITONS_HUGE_CITY}					Британский великий город
+{EMT_ARMENIA_VILLAGE}					Армянская деревня
+{EMT_ARMENIA_TOWN}					Армянский город
+{EMT_ARMENIA_LARGE_TOWN}					Армянский крупный город
+{EMT_ARMENIA_CITY}					Армянский большой город
+{EMT_ARMENIA_LARGE_CITY}					Армянский огромный город
+{EMT_ARMENIA_HUGE_CITY}					Армянский великий город
+{EMT_DACIA_VILLAGE}					Дакийская деревня
+{EMT_DACIA_TOWN}					Дакийский город
+{EMT_DACIA_LARGE_TOWN}					Дакийский крупный город
+{EMT_DACIA_CITY}					Дакийский большой город
+{EMT_DACIA_LARGE_CITY}					Дакийский огромный город
+{EMT_DACIA_HUGE_CITY}					Дакийский великий город
+{EMT_GREEK_CITIES_VILLAGE}					Греческая деревня
+{EMT_GREEK_CITIES_TOWN}					Греческий город
+{EMT_GREEK_CITIES_LARGE_TOWN}					Греческий крупный город
+{EMT_GREEK_CITIES_CITY}					Греческий большой город
+{EMT_GREEK_CITIES_LARGE_CITY}					Греческий огромный город
+{EMT_GREEK_CITIES_HUGE_CITY}					Греческий великий город
+{EMT_NUMIDIA_VILLAGE}					Нумидийская деревня
+{EMT_NUMIDIA_TOWN}					Нумидийский город
+{EMT_NUMIDIA_LARGE_TOWN}					Нумидийский крупный город
+{EMT_NUMIDIA_CITY}					Нумидийский большой город
+{EMT_NUMIDIA_LARGE_CITY}					Нумидийский огромный город
+{EMT_NUMIDIA_HUGE_CITY}					Нумидийский великий город
+{EMT_SCYTHIA_VILLAGE}					Скифская деревня
+{EMT_SCYTHIA_TOWN}					Скифский город
+{EMT_SCYTHIA_LARGE_TOWN}					Скифский крупный город
+{EMT_SCYTHIA_CITY}					Скифский большой город
+{EMT_SCYTHIA_LARGE_CITY}					Скифский огромный город
+{EMT_SCYTHIA_HUGE_CITY}					Скифский великий город
+{EMT_SPAIN_VILLAGE}					Испанская деревня
+{EMT_SPAIN_TOWN}					Испанский город
+{EMT_SPAIN_LARGE_TOWN}					Испанский крупный город
+{EMT_SPAIN_CITY}					Испанский большой город
+{EMT_SPAIN_LARGE_CITY}					Испанский огромный город
+{EMT_SPAIN_HUGE_CITY}					Испанский великий город
+{EMT_THRACE_VILLAGE}					Фракийская деревня
+{EMT_THRACE_TOWN}					Фракийский город
+{EMT_THRACE_LARGE_TOWN}					Фракийский крупный город
+{EMT_THRACE_CITY}					Фракийский большой город
+{EMT_THRACE_LARGE_CITY}					Фракийский огромный город
+{EMT_THRACE_HUGE_CITY}					Фракийский великий город
+{EMT_SLAVE_VILLAGE}					Мятежная деревня
+{EMT_SLAVE_TOWN}					Мятежный город
+{EMT_SLAVE_LARGE_TOWN}					Мятежный крупный город
+{EMT_SLAVE_CITY}					Мятежный большой город
+{EMT_SLAVE_LARGE_CITY}					Мятежный огромный город
+{EMT_SLAVE_HUGE_CITY}					Мятежный великий город
+{EMT_ALEMANNI_VILLAGE}		Алеманнская деревня
+{EMT_ALEMANNI_TOWN}			Алеманнское городище
+{EMT_ALEMANNI_LARGE_TOWN}	Алеманнское крупное городище
+{EMT_ALEMANNI_CITY}			Алеманнский город
+{EMT_ALEMANNI_LARGE_CITY}	Алеманнский большой город
+{EMT_ALEMANNI_HUGE_CITY}	Алеманнский великий город
+{EMT_EMPIRE_EAST_VILLAGE}		Римская (Восточная Империя) деревня
+{EMT_EMPIRE_EAST_TOWN}			Римское (Восточная Империя) городище
+{EMT_EMPIRE_EAST_LARGE_TOWN}	Римское (Восточная Империя) крупное городище
+{EMT_EMPIRE_EAST_CITY}			Римский (Восточная Империя) город
+{EMT_EMPIRE_EAST_LARGE_CITY}	Римский (Восточная Империя) большой город
+{EMT_EMPIRE_EAST_HUGE_CITY}		Римский (Восточная Империя) великий город
+{EMT_EMPIRE_WEST_VILLAGE}		Римская (Западная Империя) деревня
+{EMT_EMPIRE_WEST_TOWN}			Римское (Западная Империя) городище
+{EMT_EMPIRE_WEST_LARGE_TOWN}	Римское (Западная Империя) крупное городище
+{EMT_EMPIRE_WEST_CITY}			Римский (Западная Империя) город
+{EMT_EMPIRE_WEST_LARGE_CITY}	Римский (Западная Империя) большой город
+{EMT_EMPIRE_WEST_HUGE_CITY}		Римский (Западная Империя) великий город
+{EMT_EMPIRE_EAST_REBELS_VILLAGE}		Римская (мятежники Восточной Империи) деревня
+{EMT_EMPIRE_EAST_REBELS_TOWN}			Римское (мятежники Восточной Империи) городище
+{EMT_EMPIRE_EAST_REBELS_LARGE_TOWN}		Римское (мятежники Восточной Империи) крупное городище
+{EMT_EMPIRE_EAST_REBELS_CITY}			Римский (мятежники Восточной Империи) город
+{EMT_EMPIRE_EAST_REBELS_LARGE_CITY}		Римский (мятежники Восточной Империи) большой город
+{EMT_EMPIRE_EAST_REBELS_HUGE_CITY}		Римский (мятежники Восточной Империи) великий город
+{EMT_EMPIRE_WEST_REBELS_VILLAGE}		Римская (мятежники Западной Империи) деревня
+{EMT_EMPIRE_WEST_REBELS_TOWN}			Римское (мятежники Западной Империи) городище
+{EMT_EMPIRE_WEST_REBELS_LARGE_TOWN}		Римское (мятежники Западной Империи) крупное городище
+{EMT_EMPIRE_WEST_REBELS_CITY}			Римский (мятежники Западной Империи) город
+{EMT_EMPIRE_WEST_REBELS_LARGE_CITY}		Римский (мятежники Западной Империи) большой город
+{EMT_EMPIRE_WEST_REBELS_HUGE_CITY}		Римский (мятежники Западной Империи) великий город
+{EMT_FRANKS_VILLAGE}		Франкская деревня
+{EMT_FRANKS_TOWN}			Франкское городище
+{EMT_FRANKS_LARGE_TOWN}		Франкское крупное городище
+{EMT_FRANKS_CITY}			Франкский город
+{EMT_FRANKS_LARGE_CITY}		Франкский большой город
+{EMT_FRANKS_HUGE_CITY}		Франкский великий город
+{EMT_HUNS_VILLAGE}		Гуннская деревня
+{EMT_HUNS_TOWN}			Гуннское городище
+{EMT_HUNS_LARGE_TOWN}		Гуннское крупное городище
+{EMT_HUNS_CITY}			Гуннский город
+{EMT_HUNS_LARGE_CITY}		Гуннский большой город
+{EMT_HUNS_HUGE_CITY}		Гуннский великий город
+{EMT_SARMATIANS_VILLAGE}			Сарматская деревня
+{EMT_SARMATIANS_TOWN}				Сарматское городище
+{EMT_SARMATIANS_LARGE_TOWN}			Сарматское крупное городище
+{EMT_SARMATIANS_CITY}				Сарматский город
+{EMT_SARMATIANS_LARGE_CITY}			Сарматский большой город
+{EMT_SARMATIANS_HUGE_CITY}			Сарматский великий город
+{EMT_SASSANIDS_VILLAGE}			Сасанидская деревня
+{EMT_SASSANIDS_TOWN}			Сасанидское городище
+{EMT_SASSANIDS_LARGE_TOWN}		Сасанидское крупное городище
+{EMT_SASSANIDS_CITY}			Сасанидский город
+{EMT_SASSANIDS_LARGE_CITY}		Сасанидский большой город
+{EMT_SASSANIDS_HUGE_CITY}		Сасанидский великий город
+{EMT_SAXONS_VILLAGE}			Деревня саксов
+{EMT_SAXONS_TOWN}				Городище саксов
+{EMT_SAXONS_LARGE_TOWN}			Крупное городище саксов
+{EMT_SAXONS_CITY}				Город саксов
+{EMT_SAXONS_LARGE_CITY}			Большой город саксов
+{EMT_SAXONS_HUGE_CITY}			Великий город саксов
+{EMT_VANDALS_VILLAGE}			Деревня вандалов
+{EMT_VANDALS_TOWN}				Городище вандалов
+{EMT_VANDALS_LARGE_TOWN}		Крупное городище вандалов
+{EMT_VANDALS_CITY}				Город вандалов
+{EMT_VANDALS_LARGE_CITY}		Большой город вандалов
+{EMT_VANDALS_HUGE_CITY}			Великий город вандалов
+{EMT_GOTHS_VILLAGE}			Готская деревня
+{EMT_GOTHS_TOWN}			Готское городище
+{EMT_GOTHS_LARGE_TOWN}		Готское крупное городище
+{EMT_GOTHS_CITY}			Готский город
+{EMT_GOTHS_LARGE_CITY}		Готский большой город
+{EMT_GOTHS_HUGE_CITY}		Готский великий город
+{EMT_WHITE_HUNS_VILLAGE}		Бело-гуннская деревня
+{EMT_WHITE_HUNS_TOWN}			Бело-гуннское городище
+{EMT_WHITE_HUNS_LARGE_TOWN}		Бело-гуннское крупное городище
+{EMT_WHITE_HUNS_CITY}			Бело-гуннский город
+{EMT_WHITE_HUNS_LARGE_CITY}		Бело-гуннский большой город
+{EMT_WHITE_HUNS_HUGE_CITY}		Бело-гуннский великий город
+{EMT_OSTROGOTHS_VILLAGE}			Остготская деревня
+{EMT_OSTROGOTHS_TOWN}				Остготское городище
+{EMT_OSTROGOTHS_LARGE_TOWN}			Остготское крупное городище
+{EMT_OSTROGOTHS_CITY}				Остготский город
+{EMT_OSTROGOTHS_LARGE_CITY}			Остготский большой город
+{EMT_OSTROGOTHS_HUGE_CITY}			Остготский великий город
+{EMT_ROMANO_BRITISH_VILLAGE}			Романо-британская деревня
+{EMT_ROMANO_BRITISH_TOWN}				Романо-британское городище
+{EMT_ROMANO_BRITISH_LARGE_TOWN}			Романо-британское крупное городище
+{EMT_ROMANO_BRITISH_CITY}				Романо-британский город
+{EMT_ROMANO_BRITISH_LARGE_CITY}			Романо-британский большой город
+{EMT_ROMANO_BRITISH_HUGE_CITY}			Романо-британский великий город
+{EMT_SLAVS_VILLAGE}			Славянская деревня
+{EMT_SLAVS_TOWN}			Славянское городище
+{EMT_SLAVS_LARGE_TOWN}		Славянское крупное городище
+{EMT_SLAVS_CITY}			Славянский город
+{EMT_SLAVS_LARGE_CITY}		Славянский большой город
+{EMT_SLAVS_HUGE_CITY}		Славянский великий город
+{EMT_CELTS_VILLAGE}			Кельтская деревня
+{EMT_CELTS_TOWN}			Кельтское городище
+{EMT_CELTS_LARGE_TOWN}		Кельтское крупное городище
+{EMT_CELTS_CITY}			Кельтский город
+{EMT_CELTS_LARGE_CITY}		Кельтский большой город
+{EMT_CELTS_HUGE_CITY}		Кельтский великий город
+
+{EMT_BERBERS_VILLAGE}			Берберская деревня
+{EMT_BERBERS_TOWN}			Берберское городище
+{EMT_BERBERS_LARGE_TOWN}		Берберское крупное городище
+{EMT_BERBERS_CITY}			Берберский город
+{EMT_BERBERS_LARGE_CITY}		Берберский большой город
+{EMT_BERBERS_HUGE_CITY}		Берберский великий город
+
+{EMT_MOORS_VILLAGE}			Мавританская деревня
+{EMT_MOORS_TOWN}			Мавританское городище
+{EMT_MOORS_LARGE_TOWN}		Мавританское крупное городище
+{EMT_MOORS_CITY}			Мавританский город
+{EMT_MOORS_LARGE_CITY}		Мавританский большой город
+{EMT_MOORS_HUGE_CITY}		Мавританский великий город
+
+{EMT_ROMANS_JULII_CAPITAL}					Римская столица (Юлии)
+{EMT_ROMANS_BRUTII_CAPITAL}					Римская столица (Бруты)
+{EMT_ROMANS_SCIPII_CAPITAL}					Римская столица (Сципионы)
+{EMT_ROMANS_SENATE_CAPITAL}					Римская столица (Сенат)
+{EMT_MACEDON_CAPITAL}					Македонская столица
+{EMT_EGYPT_CAPITAL}					Египетская столица
+{EMT_SELEUCID_CAPITAL}					Селевкидская столица
+{EMT_CARTHAGE_CAPITAL}					Карфагенская столица
+{EMT_PARTHIA_CAPITAL}					Парфянская столица
+{EMT_PONTUS_CAPITAL}					Понтийская столица
+{EMT_GAULS_CAPITAL}					Галльская столица
+{EMT_GERMANS_CAPITAL}					Германская столица
+{EMT_BRITONS_CAPITAL}					Британская столица
+{EMT_ARMENIA_CAPITAL}					Армянская столица
+{EMT_DACIA_CAPITAL}					Дакийская столица
+{EMT_GREEK_CITIES_CAPITAL}					Греческая столица
+{EMT_NUMIDIA_CAPITAL}					Нумидийская столица
+{EMT_SCYTHIA_CAPITAL}					Скифская столица
+{EMT_SPAIN_CAPITAL}					Испанская столица
+{EMT_THRACE_CAPITAL}					Фракийская столица
+{EMT_ALEMANNI_CAPITAL}		Алеманнская столица
+{EMT_EMPIRE_EAST_CAPITAL}		Римская столица (Восточная Империя)
+{EMT_EMPIRE_WEST_CAPITAL}		Римская столица (Западная Империя)
+{EMT_EMPIRE_EAST_REBELS_CAPITAL}		Римская столица (мятежники Восточной Империи)
+{EMT_EMPIRE_WEST_REBELS_CAPITAL}		Римская столица (мятежники Западной Империи)
+{EMT_FRANKS_CAPITAL}		Франкская столица
+{EMT_HUNS_CAPITAL}		Гуннская столица
+{EMT_SARMATIANS_CAPITAL}			Сарматская столица
+{EMT_SASSANIDS_CAPITAL}			Сасанидская столица
+{EMT_SAXONS_CAPITAL}			Столица саксов
+{EMT_VANDALS_CAPITAL}			Столица вандалов
+{EMT_GOTHS_CAPITAL}			Готская столица
+{EMT_WHITE_HUNS_CAPITAL}		Бело-гуннская столица
+{EMT_OSTROGOTHS_CAPITAL}			Остготская столица
+{EMT_ROMANO_BRITISH_CAPITAL}			Столица романо-британцев
+{EMT_SLAVS_CAPITAL}			Славянская столица
+{EMT_SLAVE_CAPITAL}					Мятежная столица
+{EMT_CELTS_CAPITAL}				Кельтская столица
+{EMT_BERBERS_CAPITAL}				Берберская столица
+{EMT_MOORS_CAPITAL}				Мавританская столица
+
+
+
+{EMT_ROMANS_JULII_FORT}					Римский форт (Юлии)
+{EMT_ROMANS_BRUTII_FORT}					Римский форт (Бруты)
+{EMT_ROMANS_SCIPII_FORT}					Римский форт (Сципионы)
+{EMT_ROMANS_SENATE_FORT}					Римский форт (Сенат)
+{EMT_MACEDON_FORT}					Македонский форт
+{EMT_EGYPT_FORT}					Египетский форт
+{EMT_SELEUCID_FORT}					Селевкидский форт
+{EMT_CARTHAGE_FORT}					Карфагенский форт
+{EMT_PARTHIA_FORT}					Парфянский форт
+{EMT_PONTUS_FORT}					Понтийский форт
+{EMT_GAULS_FORT}					Галльский форт
+{EMT_GERMANS_FORT}					Германский форт
+{EMT_BRITONS_FORT}					Британский форт
+{EMT_ARMENIA_FORT}					Армянский форт
+{EMT_DACIA_FORT}					Дакийский форт
+{EMT_GREEK_CITIES_FORT}					Греческий форт
+{EMT_NUMIDIA_FORT}					Нумидийский форт
+{EMT_SCYTHIA_FORT}					Скифский форт
+{EMT_SPAIN_FORT}					Испанский форт
+{EMT_THRACE_FORT}					Фракийский форт
+{EMT_ALEMANNI_FORT}			Алеманнский форт
+{EMT_EMPIRE_EAST_FORT}			Римский (Восточная Империя) форт
+{EMT_EMPIRE_WEST_FORT}			Римский (Западная Империя) форт
+{EMT_EMPIRE_EAST_REBELS_FORT}			Римский (мятежники Восточной Империи) форт
+{EMT_EMPIRE_WEST_REBELS_FORT}			Римский (мятежники Западной Империи) форт
+{EMT_FRANKS_FORT}			Франкский форт
+{EMT_HUNS_FORT}			Гуннский форт
+{EMT_SARMATIANS_FORT}				Сарматский форт
+{EMT_SASSANIDS_FORT}			Сасанидский форт
+{EMT_SAXONS_FORT}				Форт саксов
+{EMT_VANDALS_FORT}				Форт вандалов
+{EMT_GOTHS_FORT}			Готский форт
+{EMT_WHITE_HUNS_FORT}			Бело-гуннский форт
+{EMT_OSTROGOTHS_FORT}				Остготский форт
+{EMT_ROMANO_BRITISH_FORT}				Романо-британский форт
+{EMT_SLAVS_FORT}			Славянский форт
+{EMT_SLAVE_FORT}					Мятежный форт
+{EMT_CELTS_FORT}			Кельтский форт
+{EMT_BERBERS_FORT}		Берберский форт
+{EMT_MOORS_FORT}			Мавританский форт
+
+{EMT_ROMANS_JULII_PORT}					Римский порт (Юлии)
+{EMT_ROMANS_BRUTII_PORT}					Римский порт (Бруты)
+{EMT_ROMANS_SCIPII_PORT}					Римский порт (Сципионы)
+{EMT_ROMANS_SENATE_PORT}					Римский порт (Сенат)
+{EMT_MACEDON_PORT}					Македонский порт
+{EMT_EGYPT_PORT}					Египетский порт
+{EMT_SELEUCID_PORT}					Селевкидский порт
+{EMT_CARTHAGE_PORT}					Карфагенский порт
+{EMT_PARTHIA_PORT}					Парфянский порт
+{EMT_PONTUS_PORT}					Понтийский порт
+{EMT_GAULS_PORT}					Галльский порт
+{EMT_GERMANS_PORT}					Германский порт
+{EMT_BRITONS_PORT}					Британский порт
+{EMT_ARMENIA_PORT}					Армянский порт
+{EMT_DACIA_PORT}					Дакийский порт
+{EMT_GREEK_CITIES_PORT}					Греческий порт
+{EMT_NUMIDIA_PORT}					Нумидийский порт
+{EMT_SCYTHIA_PORT}					Скифский порт
+{EMT_SPAIN_PORT}					Испанский порт
+{EMT_THRACE_PORT}					Фракийский порт
+{EMT_ALEMANNI_PORT}			Алеманнский порт
+{EMT_EMPIRE_EAST_PORT}			Римский (Восточная Империя) порт
+{EMT_EMPIRE_WEST_PORT}			Римский (Западная Империя) порт
+{EMT_EMPIRE_EAST_REBELS_PORT}			Римский (мятежники Восточной Империи) порт
+{EMT_EMPIRE_WEST_REBELS_PORT}			Римский (мятежники Западной Империи) порт
+{EMT_FRANKS_PORT}			Франкский порт
+{EMT_HUNS_PORT}			Гуннский порт
+{EMT_SARMATIANS_PORT}				Сарматский порт
+{EMT_SASSANIDS_PORT}			Сасанидский порт
+{EMT_SAXONS_PORT}				Порт саксов
+{EMT_VANDALS_PORT}				Порт вандалов
+{EMT_GOTHS_PORT}			Готский порт
+{EMT_WHITE_HUNS_PORT}			Бело-гуннский порт
+{EMT_OSTROGOTHS_PORT}				Остготский порт
+{EMT_ROMANO_BRITISH_PORT}				Романо-британский порт
+{EMT_SLAVS_PORT}			Славянский порт
+{EMT_SLAVE_PORT}					Мятежный порт
+{EMT_CELTS_PORT}			Кельтский порт
+{EMT_BERBERS_PORT}		Берберский порт
+{EMT_MOORS_PORT}			Мавританский порт
+
+{EMT_ROMANS_JULII_DOCK}					Римские верфи (Юлии)
+{EMT_ROMANS_BRUTII_DOCK}					Римские верфи (Бруты)
+{EMT_ROMANS_SCIPII_DOCK}					Римские верфи (Сципионы)
+{EMT_ROMANS_SENATE_DOCK}					Римские верфи (Сенат)
+{EMT_MACEDON_DOCK}					Македонские верфи
+{EMT_EGYPT_DOCK}					Египетские верфи
+{EMT_SELEUCID_DOCK}					Селевкидские верфи
+{EMT_CARTHAGE_DOCK}					Карфагенские верфи
+{EMT_PARTHIA_DOCK}					Парфянские верфи
+{EMT_PONTUS_DOCK}					Понтийские верфи
+{EMT_GAULS_DOCK}					Галльские верфи
+{EMT_GERMANS_DOCK}					Германские верфи
+{EMT_BRITONS_DOCK}					Британские верфи
+{EMT_ARMENIA_DOCK}					Армянские верфи
+{EMT_DACIA_DOCK}					Дакийские верфи
+{EMT_GREEK_CITIES_DOCK}					Греческие верфи
+{EMT_NUMIDIA_DOCK}					Нумидийские верфи
+{EMT_SCYTHIA_DOCK}					Скифские верфи
+{EMT_SPAIN_DOCK}					Испанские верфи
+{EMT_THRACE_DOCK}					Фракийские верфи
+{EMT_ALEMANNI_DOCK}				Алеманнские верфи
+{EMT_EMPIRE_EAST_DOCK}				Римские (Восточная Империя) верфи
+{EMT_EMPIRE_WEST_DOCK}				Римские (Западная Империя) верфи
+{EMT_EMPIRE_EAST_REBELS_DOCK}				Римские (мятежники Восточной Империи) верфи
+{EMT_EMPIRE_WEST_REBELS_DOCK}				Римские (мятежники Западной Империи) верфи
+{EMT_FRANKS_DOCK}					Франкские верфи
+{EMT_HUNS_DOCK}				Гуннские верфи
+{EMT_SARMATIANS_DOCK}				Сарматские верфи
+{EMT_SASSANIDS_DOCK}				Сасанидские верфи
+{EMT_SAXONS_DOCK}					Верфи саксов
+{EMT_VANDALS_DOCK}					Верфи вандалов
+{EMT_GOTHS_DOCK}				Готские верфи
+{EMT_WHITE_HUNS_DOCK}				Бело-гуннские верфи
+{EMT_OSTROGOTHS_DOCK}				Остготские верфи
+{EMT_ROMANO_BRITISH_DOCK}			Романо-британские верфи
+{EMT_SLAVS_DOCK}					Славянские верфи
+{EMT_SLAVE_DOCK}					Мятежные верфи
+{EMT_CELTS_DOCK}					Кельтские верфи
+{EMT_BERBERS_DOCK}		Берберские верфи
+{EMT_MOORS_DOCK}			Мавританские верфи
+
+
+{EMT_ROMANS_JULII_FISHING_VILLAGE}					Римская рыбачья деревня (Юлии)
+{EMT_ROMANS_BRUTII_FISHING_VILLAGE}					Римская рыбачья деревня (Бруты)
+{EMT_ROMANS_SCIPII_FISHING_VILLAGE}					Римская рыбачья деревня (Сципионы)
+{EMT_ROMANS_SENATE_FISHING_VILLAGE}					Римская рыбачья деревня (Сенат)
+{EMT_MACEDON_FISHING_VILLAGE}					Македонская рыбачья деревня
+{EMT_EGYPT_FISHING_VILLAGE}					Египетская рыбачья деревня
+{EMT_SELEUCID_FISHING_VILLAGE}					Селевкидская рыбачья деревня
+{EMT_CARTHAGE_FISHING_VILLAGE}					Карфагенская рыбачья деревня
+{EMT_PARTHIA_FISHING_VILLAGE}					Парфянская рыбачья деревня
+{EMT_PONTUS_FISHING_VILLAGE}					Понтийская рыбачья деревня
+{EMT_GAULS_FISHING_VILLAGE}					Галльская рыбачья деревня
+{EMT_GERMANS_FISHING_VILLAGE}					Германская рыбачья деревня
+{EMT_BRITONS_FISHING_VILLAGE}					Британская рыбачья деревня
+{EMT_ARMENIA_FISHING_VILLAGE}					Армянская рыбачья деревня
+{EMT_DACIA_FISHING_VILLAGE}					Дакийская рыбачья деревня
+{EMT_GREEK_CITIES_FISHING_VILLAGE}					Греческая рыбачья деревня
+{EMT_NUMIDIA_FISHING_VILLAGE}					Нумидийская рыбачья деревня
+{EMT_SCYTHIA_FISHING_VILLAGE}					Скифская рыбачья деревня
+{EMT_SPAIN_FISHING_VILLAGE}					Испанская рыбачья деревня
+{EMT_THRACE_FISHING_VILLAGE}					Фракийская рыбачья деревня
+{EMT_ALEMANNI_FISHING_VILLAGE}	Алеманнская рыбачья деревня
+{EMT_EMPIRE_EAST_FISHING_VILLAGE}	Римская (Восточная Империя) рыбачья деревня
+{EMT_EMPIRE_WEST_FISHING_VILLAGE}	Римская (Западная Империя) рыбачья деревня
+{EMT_EMPIRE_EAST_REBELS_FISHING_VILLAGE}	Римская (мятежники Восточной Империи) рыбачья деревня
+{EMT_EMPIRE_WEST_REBELS_FISHING_VILLAGE}	Римская (мятежники Западной Империи) рыбачья деревня
+{EMT_FRANKS_FISHING_VILLAGE}	Франкская рыбачья деревня
+{EMT_HUNS_FISHING_VILLAGE}	Гуннская рыбачья деревня
+{EMT_SARMATIANS_FISHING_VILLAGE}	Сарматская рыбачья деревня
+{EMT_SASSANIDS_FISHING_VILLAGE}	Сасанидская рыбачья деревня
+{EMT_SAXONS_FISHING_VILLAGE}	Рыбачья деревня саксов
+{EMT_VANDALS_FISHING_VILLAGE}	Рыбачья деревня вандалов
+{EMT_GOTHS_FISHING_VILLAGE}	Готская рыбачья деревня
+{EMT_WHITE_HUNS_FISHING_VILLAGE}	Бело-гуннская рыбачья деревня
+{EMT_OSTROGOTHS_FISHING_VILLAGE}	Остготская рыбачья деревня
+{EMT_ROMANO_BRITISH_FISHING_VILLAGE}	Романо-британская рыбачья деревня
+{EMT_SLAVS_FISHING_VILLAGE}			Славянская рыбачья деревня
+{EMT_SLAVE_FISHING_VILLAGE}					Мятежная рыбачья деревня
+{EMT_CELTS_FISHING_VILLAGE}			Кельтская рыбачья деревня
+{EMT_BERBERS_FISHING_VILLAGE}					Берберская рыбачья деревня
+{EMT_MOORS_FISHING_VILLAGE}			Мавританская рыбачья деревня
+
+{EMT_ROMANS_JULII_WATCHTOWER}					Римская сторожевая башня (Юлии)
+{EMT_ROMANS_BRUTII_WATCHTOWER}					Римская сторожевая башня (Бруты)
+{EMT_ROMANS_SCIPII_WATCHTOWER}					Римская сторожевая башня (Сципионы)
+{EMT_ROMANS_SENATE_WATCHTOWER}					Римская сторожевая башня (Сенат)
+{EMT_MACEDON_WATCHTOWER}					Македонская сторожевая башня
+{EMT_EGYPT_WATCHTOWER}					Египетская сторожевая башня
+{EMT_SELEUCID_WATCHTOWER}					Селевкидская сторожевая башня
+{EMT_CARTHAGE_WATCHTOWER}					Карфагенская сторожевая башня
+{EMT_PARTHIA_WATCHTOWER}					Парфянская сторожевая башня
+{EMT_PONTUS_WATCHTOWER}					Понтийская сторожевая башня
+{EMT_GAULS_WATCHTOWER}					Галльская сторожевая башня
+{EMT_GERMANS_WATCHTOWER}					Германская сторожевая башня
+{EMT_BRITONS_WATCHTOWER}					Британская сторожевая башня
+{EMT_ARMENIA_WATCHTOWER}					Армянская сторожевая башня
+{EMT_DACIA_WATCHTOWER}					Дакийская сторожевая башня
+{EMT_GREEK_CITIES_WATCHTOWER}					Греческая сторожевая башня
+{EMT_NUMIDIA_WATCHTOWER}					Нумидийская сторожевая башня
+{EMT_SCYTHIA_WATCHTOWER}					Скифская сторожевая башня
+{EMT_SPAIN_WATCHTOWER}					Испанская сторожевая башня
+{EMT_THRACE_WATCHTOWER}					Фракийская сторожевая башня
+{EMT_ALEMANNI_WATCHTOWER}	Алеманнская сторожевая башня
+{EMT_EMPIRE_EAST_WATCHTOWER}	Римская (Восточная Империя) сторожевая башня
+{EMT_EMPIRE_WEST_WATCHTOWER}	Римская (Западная Империя) сторожевая башня
+{EMT_EMPIRE_EAST_REBELS_WATCHTOWER}	Римская (мятежники Восточной Империи) сторожевая башня
+{EMT_EMPIRE_WEST_REBELS_WATCHTOWER}	Римская (мятежники Западной Империи) сторожевая башня
+{EMT_FRANKS_WATCHTOWER}		Франкская сторожевая башня
+{EMT_HUNS_WATCHTOWER}		Гуннская сторожевая башня
+{EMT_SARMATIANS_WATCHTOWER}			Сарматская сторожевая башня
+{EMT_SASSANIDS_WATCHTOWER}		Сасанидская сторожевая башня
+{EMT_SAXONS_WATCHTOWER}			Сторожевая башня саксов
+{EMT_VANDALS_WATCHTOWER}		Сторожевая башня вандалов
+{EMT_GOTHS_WATCHTOWER}		Готская сторожевая башня
+{EMT_WHITE_HUNS_WATCHTOWER}	Бело-гуннская сторожевая башня
+{EMT_OSTROGOTHS_WATCHTOWER}			Остготская сторожевая башня
+{EMT_ROMANO_BRITISH_WATCHTOWER}			Романо-британская сторожевая башня
+{EMT_SLAVS_WATCHTOWER}		Славянская сторожевая башня
+{EMT_SLAVE_WATCHTOWER}					Мятежная сторожевая башня
+{EMT_CELTS_WATCHTOWER}				Кельтская сторожевая башня
+{EMT_BERBERS_WATCHTOWER}			Берберская сторожевая башня
+{EMT_MOORS_WATCHTOWER}				Мавританская сторожевая башня
+
+
+{EMT_ROMANS_JULII_FACTION_LEADER}					Римскийправитель фракции (Юлии) 
+{EMT_ROMANS_BRUTII_FACTION_LEADER}					Римский правитель фракции (Бруты)
+{EMT_ROMANS_SCIPII_FACTION_LEADER}					Римский правитель фракции (Сципионы)
+{EMT_ROMANS_SENATE_FACTION_LEADER}					Римский правитель фракции (Сенат)
+{EMT_MACEDON_FACTION_LEADER}					Македонский правитель фракции
+{EMT_EGYPT_FACTION_LEADER}					Египетский правитель фракции
+{EMT_SELEUCID_FACTION_LEADER}					Селевкидский правитель фракции
+{EMT_CARTHAGE_FACTION_LEADER}					Карфагенский правитель фракции
+{EMT_PARTHIA_FACTION_LEADER}					Парфянский правитель фракции
+{EMT_PONTUS_FACTION_LEADER}					Понтийский правитель фракции
+{EMT_GAULS_FACTION_LEADER}					Галльский правитель фракции
+{EMT_GERMANS_FACTION_LEADER}					Германский правитель фракции
+{EMT_BRITONS_FACTION_LEADER}					Британский правитель фракции
+{EMT_ARMENIA_FACTION_LEADER}					Армянский правитель фракции
+{EMT_DACIA_FACTION_LEADER}					Дакийский правитель фракции
+{EMT_GREEK_CITIES_FACTION_LEADER}					Греческий правитель фракции
+{EMT_NUMIDIA_FACTION_LEADER}					Нумидийский правитель фракции
+{EMT_SCYTHIA_FACTION_LEADER}					Скифский правитель фракции
+{EMT_SPAIN_FACTION_LEADER}					Испанский правитель фракции
+{EMT_THRACE_FACTION_LEADER}					Фракийский правитель фракции
+{EMT_ALEMANNI_FACTION_LEADER}		Алеманнский правитель фракции
+{EMT_EMPIRE_EAST_FACTION_LEADER}	Римский (Восточная Империя) правитель фракции
+{EMT_EMPIRE_WEST_FACTION_LEADER}	Римский (Западная Империя) правитель фракции
+{EMT_EMPIRE_EAST_REBELS_FACTION_LEADER}	Римский (мятежники Восточной Империи) правитель фракции
+{EMT_EMPIRE_WEST_REBELS_FACTION_LEADER}	Римский (мятежники Западной Империи) правитель фракции
+{EMT_FRANKS_FACTION_LEADER}			Франкский правитель фракции
+{EMT_HUNS_FACTION_LEADER}		Гуннский правитель фракции
+{EMT_SARMATIANS_FACTION_LEADER}		Сарматский правитель фракции
+{EMT_SASSANIDS_FACTION_LEADER}		Сасанидский правитель фракции
+{EMT_SAXONS_FACTION_LEADER}			Правитель фракции саксов
+{EMT_VANDALS_FACTION_LEADER}		Правитель фракции вандалов
+{EMT_GOTHS_FACTION_LEADER}		Готский правитель фракции
+{EMT_WHITE_HUNS_FACTION_LEADER}		Бело-гуннский правитель фракции
+{EMT_OSTROGOTHS_FACTION_LEADER}		Остготский правитель фракции
+{EMT_ROMANO_BRITISH_FACTION_LEADER}	Романо-британский правитель фракции
+{EMT_SLAVS_FACTION_LEADER}			Славянский правитель фракции
+{EMT_SLAVE_FACTION_LEADER}					Мятежный правитель фракции
+{EMT_CELTS_FACTION_LEADER}			Кельтский правитель фракции
+{EMT_BERBERS_FACTION_LEADER}			Берберский правитель фракции
+{EMT_MOORS_FACTION_LEADER}			Мавританский правитель фракции
+
+{EMT_ROMANS_JULII_FACTION_HEIR}					Римский преемник фракции (Юлии)
+{EMT_ROMANS_BRUTII_FACTION_HEIR}					Римский преемник фракции (Бруты)
+{EMT_ROMANS_SCIPII_FACTION_HEIR}					Римский преемник фракции (Сципионы)
+{EMT_ROMANS_SENATE_FACTION_HEIR}					Римский преемник фракции (Сенат)
+{EMT_MACEDON_FACTION_HEIR}					Македонский преемник фракции
+{EMT_EGYPT_FACTION_HEIR}					Египетский преемник фракции
+{EMT_SELEUCID_FACTION_HEIR}					Селевкидский преемник фракции
+{EMT_CARTHAGE_FACTION_HEIR}					Карфагенский преемник фракции
+{EMT_PARTHIA_FACTION_HEIR}					Парфянский преемник фракции
+{EMT_PONTUS_FACTION_HEIR}					Понтийский преемник фракции
+{EMT_GAULS_FACTION_HEIR}					Галльский преемник фракции
+{EMT_GERMANS_FACTION_HEIR}					Германский преемник фракции
+{EMT_BRITONS_FACTION_HEIR}					Британский преемник фракции
+{EMT_ARMENIA_FACTION_HEIR}					Армянский преемник фракции
+{EMT_DACIA_FACTION_HEIR}					Дакийский преемник фракции
+{EMT_GREEK_CITIES_FACTION_HEIR}					Греческий преемник фракции
+{EMT_NUMIDIA_FACTION_HEIR}					Нумидийский преемник фракции
+{EMT_SCYTHIA_FACTION_HEIR}					Скифский преемник фракции
+{EMT_SPAIN_FACTION_HEIR}					Испанский преемник фракции
+{EMT_THRACE_FACTION_HEIR}					Фракийский преемник фракции
+{EMT_ALEMANNI_FACTION_HEIR}			Алеманнский преемник фракции
+{EMT_EMPIRE_EAST_FACTION_HEIR}		Римский (Восточная Империя) преемник фракции
+{EMT_EMPIRE_WEST_FACTION_HEIR}		Римский (Западная Империя) преемник фракции
+{EMT_EMPIRE_EAST_REBELS_FACTION_HEIR}		Римский (мятежники Восточной Империи) преемник фракции
+{EMT_EMPIRE_WEST_REBELS_FACTION_HEIR}		Римский (мятежники Западной Империи) преемник фракции
+{EMT_FRANKS_FACTION_HEIR}			Франкский преемник фракции
+{EMT_HUNS_FACTION_HEIR}		Гуннский преемник фракции
+{EMT_SARMATIANS_FACTION_HEIR}		Сарматский преемник фракции
+{EMT_SASSANIDS_FACTION_HEIR}		Сасанидский преемник фракции
+{EMT_SAXONS_FACTION_HEIR}			Преемник фракции саксов
+{EMT_VANDALS_FACTION_HEIR}			Преемник фракции вандалов
+{EMT_GOTHS_FACTION_HEIR}		Готский преемник фракции
+{EMT_WHITE_HUNS_FACTION_HEIR}		Бело-гуннский преемник фракции
+{EMT_OSTROGOTHS_FACTION_HEIR}		Остготский преемник фракции
+{EMT_ROMANO_BRITISH_FACTION_HEIR}	Романо-британский преемник фракции
+{EMT_SLAVS_FACTION_HEIR}			Славянский преемник фракции
+{EMT_SLAVE_FACTION_HEIR}					Мятежный преемник фракции
+{EMT_CELTS_FACTION_HEIR}					Кельтский преемник фракции
+{EMT_BERBERS_FACTION_HEIR}					Берберский преемник фракции
+{EMT_MOORS_FACTION_HEIR}					Мавританский преемник фракции
+
+
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_JULII}					Ваши силы атаковали армию Юлиев
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_BRUTII}					Ваши силы атаковали армию Брутов
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_SCIPII}					Ваши силы атаковали армию Сципионов
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_SENATE}					Ваши силы атаковали армию Сената
+{EMT_YOUR_FORCES_ATTACK_ARMY_MACEDON}					Ваши войска атаковали армию Македонии
+{EMT_YOUR_FORCES_ATTACK_ARMY_EGYPT}					Ваши войска атаковали армию Египта
+{EMT_YOUR_FORCES_ATTACK_ARMY_SELEUCID}					Ваши силы атаковали войска империи Селевкидов
+{EMT_YOUR_FORCES_ATTACK_ARMY_CARTHAGE}					Ваши войска атаковали армию Карфагена
+{EMT_YOUR_FORCES_ATTACK_ARMY_PARTHIA}					Ваши войска атаковали армию Парфии
+{EMT_YOUR_FORCES_ATTACK_ARMY_PONTUS}					Ваши войска атаковали армию Понта
+{EMT_YOUR_FORCES_ATTACK_ARMY_GAULS}					Ваши войска атаковали армию галлов
+{EMT_YOUR_FORCES_ATTACK_ARMY_GERMANS}					Ваши войска атаковали армию германцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRITONS}					Ваши войска атаковали армию британцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_ARMENIA}					Ваши войска атаковали армию Армении
+{EMT_YOUR_FORCES_ATTACK_ARMY_DACIA}					Ваши войска атаковали армию Дакии
+{EMT_YOUR_FORCES_ATTACK_ARMY_GREEK_CITIES}					Ваши силы атаковали войска греческих городов
+{EMT_YOUR_FORCES_ATTACK_ARMY_NUMIDIA}					Ваши войска атаковали армию Нумидии
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCYTHIA}					Ваши войска атаковали армию скифов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SPAIN}					Ваши войска атаковали армию испанцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_THRACE}					Ваши войска атаковали армию фракийцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_ALEMANNI}						Ваши войска атаковали армию алеманнов
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_EAST}					Ваши войска атаковали армию Восточной Империи
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_WEST}					Ваши войска атаковали армию Западной Империи
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_EAST_REBELS}				Ваши войска атаковали армию мятежников Восточной Империи
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_WEST_REBELS}				Ваши войска атаковали армию мятежников Западной Империи
+{EMT_YOUR_FORCES_ATTACK_ARMY_FRANKS}							Ваши войска атаковали армию франков
+{EMT_YOUR_FORCES_ATTACK_ARMY_HUNS}						Ваши войска атаковали армию гуннов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SARMATIANS}						Ваши войска атаковали армию сарматов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SASSANIDS}						Ваши войска атаковали армию Сасанидов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SAXONS}							Ваши войска атаковали армию саксов
+{EMT_YOUR_FORCES_ATTACK_ARMY_VANDALS}						Ваши войска атаковали армию вандалов
+{EMT_YOUR_FORCES_ATTACK_ARMY_GOTHS}						Ваши войска атаковали армию готов
+{EMT_YOUR_FORCES_ATTACK_ARMY_WHITE_HUNS}						Ваши войска атаковали армию белых гуннов
+{EMT_YOUR_FORCES_ATTACK_ARMY_OSTROGOTHS}						Ваши войска атаковали армию остготов
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANO_BRITISH}					Ваши войска атаковали армию романо-британцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVS}							Ваши войска атаковали армию славян
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVE}						Ваши войска атаковали армию мятежников
+{EMT_YOUR_FORCES_ATTACK_ARMY_CELTS}						Ваши войска атаковали армию кельтов
+{EMT_YOUR_FORCES_ATTACK_ARMY_BERBERS}					Ваши войска атаковали армию берберов
+{EMT_YOUR_FORCES_ATTACK_ARMY_MOORS}						Ваши войска атаковали армию мавров
+
+
+
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_JULII}					Ваши войска атаковали флот Юлиев
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_BRUTII}					Ваши войска атаковали флот Брутов
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_SCIPII}					Ваши войска атаковали флот Сципионов
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_SENATE}					Ваши войска атаковали флот Сената
+{EMT_YOUR_FORCES_ATTACK_NAVY_MACEDON}					Ваши войска атаковали флот Македонии
+{EMT_YOUR_FORCES_ATTACK_NAVY_EGYPT}					Ваши войска атаковали флот Египта
+{EMT_YOUR_FORCES_ATTACK_NAVY_SELEUCID}					Ваши войска атаковали флот империи Селевкидов
+{EMT_YOUR_FORCES_ATTACK_NAVY_CARTHAGE}					Ваши войска атаковали флот Карфагена
+{EMT_YOUR_FORCES_ATTACK_NAVY_PARTHIA}					Ваши войска атаковали флот Парфии
+{EMT_YOUR_FORCES_ATTACK_NAVY_PONTUS}					Ваши войска атаковали флот Понта
+{EMT_YOUR_FORCES_ATTACK_NAVY_GAULS}					Ваши войска атаковали флот галлов
+{EMT_YOUR_FORCES_ATTACK_NAVY_GERMANS}					Ваши войска атаковали флот германцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRITONS}					Ваши войска атаковали флот британцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_ARMENIA}					Ваши войска атаковали флот Армении
+{EMT_YOUR_FORCES_ATTACK_NAVY_DACIA}					Ваши войска атаковали флот Дакии
+{EMT_YOUR_FORCES_ATTACK_NAVY_GREEK_CITIES}					Ваши войска атаковали флот греческих городов
+{EMT_YOUR_FORCES_ATTACK_NAVY_NUMIDIA}					Ваши войска атаковали флот Нумидии
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCYTHIA}					Ваши войска атаковали флот скифов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SPAIN}					Ваши войска атаковали флот испанцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_THRACE}					Ваши войска атаковали флот фракийцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_ALEMANNI}				Ваши войска атаковали флот алеманнов
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_EAST}			Ваши войска атаковали флот Восточной Империи
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_WEST}			Ваши войска атаковали флот Западной Империи
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_EAST_REBELS}			Ваши войска атаковали флот мятежников Восточной Империи
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_WEST_REBELS}			Ваши войска атаковали флот мятежников Западной Империи
+{EMT_YOUR_FORCES_ATTACK_NAVY_FRANKS}				Ваши войска атаковали флот франков
+{EMT_YOUR_FORCES_ATTACK_NAVY_HUNS}			Ваши войска атаковали флот гуннов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SARMATIANS}			Ваши войска атаковали флот сарматов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SASSANIDS}				Ваши войска атаковали флот Сасанидов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SAXONS}				Ваши войска атаковали флот саксов
+{EMT_YOUR_FORCES_ATTACK_NAVY_VANDALS}				Ваши войска атаковали флот вандалов
+{EMT_YOUR_FORCES_ATTACK_NAVY_GOTHS}				Ваши войска атаковали флот готов
+{EMT_YOUR_FORCES_ATTACK_NAVY_WHITE_HUNS}			Ваши войска атаковали флот белых гуннов
+{EMT_YOUR_FORCES_ATTACK_NAVY_OSTROGOTHS}			Ваши войска атаковали флот остготов
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANO_BRITISH}		Ваши войска атаковали флот романо-британцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVS}					Ваши войска атаковали флот славян
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVE}					Ваши войска атаковали флот мятежников
+{EMT_YOUR_FORCES_ATTACK_NAVY_CELTS}					Ваши войска атаковали флот кельтов
+{EMT_YOUR_FORCES_ATTACK_NAVY_BERBERS}					Ваши войска атаковали флот берберов
+{EMT_YOUR_FORCES_ATTACK_NAVY_MOORS}					Ваши войска атаковали флот мавров
+
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_JULII}					Ваши войска напали из засады на силы Юлиев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_BRUTII}					Ваши войска напали из засады на силы Брутов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_SCIPII}					Ваши войска напали из засады на силы Сципионов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_SENATE}					Ваши войска напали из засады на силы Сената
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MACEDON}					Ваши войска напали из засады на силы Македонии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EGYPT}					Ваши войска напали из засады на силы Египта
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SELEUCID}					Ваши войска напали из засады на силы империи Селевкидов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CARTHAGE}					Ваши войска напали из засады на силы Карфагена
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PARTHIA}					Ваши войска напали из засады на силы Парфии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PONTUS}					Ваши войска напали из засады на силы Понта
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GAULS}					Ваши войска напали из засады на силы галлов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GERMANS}					Ваши войска напали из засады на силы германцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRITONS}					Ваши войска напали из засады на силы британцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ARMENIA}					Ваши войска напали из засады на силы Армении
+{EMT_YOUR_FORCES_AMBUSH_ARMY_DACIA}					Ваши войска напали из засады на силы Дакии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GREEK_CITIES}					Ваши войска напали из засады на силы греческих городов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_NUMIDIA}					Ваши войска напали из засады на силы Нумидии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCYTHIA}					Ваши войска напали из засады на силы скифов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SPAIN}					Ваши войска напали из засады на силы испанцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_THRACE}					Ваши войска напали из засады на силы фракийцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ALEMANNI}				Ваши войска устроили засаду армии алеманнов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_EAST}			Ваши войска устроили засаду армии Восточной Империи
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_WEST}			Ваши войска устроили засаду армии Западной Империи
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_EAST_REBELS}			Ваши войска устроили засаду армии мятежников Восточной Империи
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_WEST_REBELS}			Ваши войска устроили засаду армии мятежников Западной Империи
+{EMT_YOUR_FORCES_AMBUSH_ARMY_FRANKS}				Ваши войска устроили засаду армии франков
+{EMT_YOUR_FORCES_AMBUSH_ARMY_HUNS}			Ваши войска устроили засаду армии гуннов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SARMATIANS}			Ваши войска устроили засаду армии сарматов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SASSANIDS}				Ваши войска устроили засаду армии Сасанидов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SAXONS}				Ваши войска устроили засаду армии саксов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_VANDALS}				Ваши войска устроили засаду армии вандалов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GOTHS}				Ваши войска устроили засаду армии готов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_WHITE_HUNS}			Ваши войска устроили засаду армии белых гуннов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_OSTROGOTHS}			Ваши войска устроили засаду армии остготов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANO_BRITISH}		Ваши войска устроили засаду армии романо-британцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVS}					Ваши войска устроили засаду армии славян
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVE}					Ваши войска напали из засады на силы мятежников
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CELTS}					Ваши войска устроили засаду армии кельтов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BERBERS}					Ваши войска устроили засаду армии берберов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MOORS}					Ваши войска устроили засаду армии мавров
+
+
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_JULII}					Ваши войска атакованы силами Юлиев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_BRUTII}					Ваши войска атакованы силами Брутов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_SCIPII}					Ваши войска атакованы силами Сципионов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_SENATE}					Ваши войска атакованы силами Сената
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MACEDON}					Ваши войска атакованы силами Македонии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EGYPT}					Ваши войска атакованы силами Египта
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SELEUCID}					Ваши войска атакованы силами империи Селевкидов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CARTHAGE}					Ваши войска атакованы силами Карфагена
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PARTHIA}					Ваши войска атакованы силами Парфии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PONTUS}					Ваши войска атакованы силами Понта
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GAULS}					Ваши войска атакованы силами галлов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GERMANS}					Ваши войска атакованы силами германцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRITONS}					Ваши войска атакованы силами британцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ARMENIA}					Ваши войска атакованы силами Армении
+{EMT_YOUR_FORCES_ATTACKED_ARMY_DACIA}					Ваши войска атакованы силами Дакии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GREEK_CITIES}					Ваши войска атакованы силами греческих городов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_NUMIDIA}					Ваши войска атакованы силами Нумидии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCYTHIA}					Ваши войска атакованы силами скифов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SPAIN}					Ваши войска атакованы силами испанцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_THRACE}					Ваши войска атакованы силами фракийцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ALEMANNI}				Ваши войска были атакованы армией алеманнов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_EAST}				Ваши войска были атакованы армией Восточной Империи
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_WEST}				Ваши войска были атакованы армией Западной Империи
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_EAST_REBELS}				Ваши войска были атакованы армией мятежников Восточной Империи
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_WEST_REBELS}				Ваши войска были атакованы армией мятежников Западной Империи
+{EMT_YOUR_FORCES_ATTACKED_ARMY_FRANKS}					Ваши войска были атакованы армией франков
+{EMT_YOUR_FORCES_ATTACKED_ARMY_HUNS}				Ваши войска были атакованы армией гуннов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SARMATIANS}				Ваши войска были атакованы армией сарматов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SASSANIDS}				Ваши войска были атакованы армией Сасанидов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SAXONS}					Ваши войска были атакованы армией саксов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_VANDALS}					Ваши войска были атакованы армией вандалов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GOTHS}				Ваши войска были атакованы армией готов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_WHITE_HUNS}				Ваши войска были атакованы армией белых гуннов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_OSTROGOTHS}				Ваши войска были атакованы армией остготов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANO_BRITISH}			Ваши войска были атакованы армией романо-британцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVS}					Ваши войска были атакованы армией славян
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVE}					Ваши войска атакованы силами мятежников
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CELTS}					Ваши войска были атакованы армией кельтов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BERBERS}					Ваши войска были атакованы армией берберов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MOORS}					Ваши войска были атакованы армией мавров
+
+
+
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_JULII}					Ваши войска атакованы флотом Юлиев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_BRUTII}					Ваши войска атакованы флотом Брутов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_SCIPII}					Ваши войска атакованы флотом Сципионов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_SENATE}					Ваши войска атакованы флотом Сената
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MACEDON}					Ваши войска атакованы флотом Македонии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EGYPT}					Ваши войска атакованы флотом Египта
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SELEUCID}					Ваши войска атакованы флотом империи Селевкидов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CARTHAGE}					Ваши войска атакованы флотом Карфагена
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PARTHIA}					Ваши войска атакованы флотом Парфии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PONTUS}					Ваши войска атакованы флотом Понта
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GAULS}					Ваши войска атакованы флотом галлов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GERMANS}					Ваши войска атакованы флотом германцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRITONS}					Ваши войска атакованы флотом британцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ARMENIA}					Ваши войска атакованы флотом Армении
+{EMT_YOUR_FORCES_ATTACKED_NAVY_DACIA}					Ваши войска атакованы флотом Дакии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GREEK_CITIES}					Ваши войска атакованы флотом греческих городов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_NUMIDIA}					Ваши войска атакованы флотом Нумидии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCYTHIA}					Ваши войска атакованы флотом скифов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SPAIN}					Ваши войска атакованы флотом испанцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_THRACE}					Ваши войска атакованы флотом фракийцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ALEMANNI}				Ваши войска были атакованы флотом алеманнов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_EAST}				Ваши войска были атакованы флотом Восточной Империи
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_WEST}				Ваши войска были атакованы флотом Западной Империи
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_EAST_REBELS}				Ваши войска были атакованы флотом мятежников Восточной Империи
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_WEST_REBELS}				Ваши войска были атакованы флотом мятежников Западной Империи
+{EMT_YOUR_FORCES_ATTACKED_NAVY_FRANKS}					Ваши войска были атакованы флотом франков
+{EMT_YOUR_FORCES_ATTACKED_NAVY_HUNS}				Ваши войска были атакованы флотом гуннов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SARMATIANS}				Ваши войска были атакованы флотом сарматов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SASSANIDS}				Ваши войска были атакованы флотом Сасанидов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SAXONS}					Ваши войска были атакованы флотом саксов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_VANDALS}					Ваши войска были атакованы флотом вандалов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GOTHS}				Ваши войска были атакованы флотом готов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_WHITE_HUNS}				Ваши войска были атакованы флотом белых гуннов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_OSTROGOTHS}				Ваши войска были атакованы флотом остготов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANO_BRITISH}			Ваши войска были атакованы флотом романо-британцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVS}					Ваши войска были атакованы флотом славян
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVE}					Ваши войска атакованы флотом мятежников
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CELTS}					Ваши войска были атакованы флотом кельтов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BERBERS}					Ваши войска были атакованы флотом берберов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MOORS}					Ваши войска были атакованы флотом мавров
+
+
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_JULII}					Ваша армия попала в засаду, устроенную войсками Юлиев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_BRUTII}					Ваша армия попала в засаду, устроенную войсками Брутов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_SCIPII}					Ваша армия попала в засаду, устроенную войсками Сципионов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_SENATE}					Ваша армия попала в засаду, устроенную войсками Сената
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MACEDON}					Ваша армия попала в засаду, устроенную войсками Македонии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EGYPT}					Ваша армия попала в засаду, устроенную войсками Египта
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SELEUCID}					Ваша армия попала в засаду, устроенную войсками империи Селевкидов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CARTHAGE}					Ваша армия попала в засаду, устроенную войсками Карфагена
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PARTHIA}					Ваша армия попала в засаду, устроенную войсками Парфии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PONTUS}					Ваша армия попала в засаду, устроенную войсками Понта
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GAULS}					Ваша армия попала в засаду, устроенную войсками галлов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GERMANS}					Ваша армия попала в засаду, устроенную войсками германцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRITONS}					Ваша армия попала в засаду, устроенную войсками британцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ARMENIA}					Ваша армия попала в засаду, устроенную войсками Армении
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_DACIA}					Ваша армия попала в засаду, устроенную войсками Дакии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GREEK_CITIES}					Ваша армия попала в засаду, устроенную войсками греческих городов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_NUMIDIA}					Ваша армия попала в засаду, устроенную войсками Нумидии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCYTHIA}					Ваша армия попала в засаду, устроенную войсками скифов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SPAIN}					Ваша армия попала в засаду, устроенную войсками испанцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_THRACE}					Ваша армия попала в засаду, устроенную войсками фракийцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ALEMANNI}				Ваши войска попали в засаду армии алеманнов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_EAST}				Ваши войска попали в засаду армии Восточной Империи
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_WEST}				Ваши войска попали в засаду армии Западной Империи
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_EAST_REBELS}				Ваши войска попали в засаду армии мятежников Восточной Империи
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_WEST_REBELS}				Ваши войска попали в засаду армии мятежников Западной Империи
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_FRANKS}					Ваши войска попали в засаду армии франков
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_HUNS}				Ваши войска попали в засаду армии гуннов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SARMATIANS}				Ваши войска попали в засаду армии сарматов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SASSANIDS}				Ваши войска попали в засаду армии Сасанидов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SAXONS}					Ваши войска попали в засаду армии саксов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_VANDALS}					Ваши войска попали в засаду армии вандалов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GOTHS}				Ваши войска попали в засаду армии готов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_WHITE_HUNS}				Ваши войска попали в засаду армии белых гуннов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_OSTROGOTHS}				Ваши войска попали в засаду армии остготов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANO_BRITISH}			Ваши войска попали в засаду армии романо-британцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVS}					Ваши войска попали в засаду армии славян
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVE}					Ваша армия попала в засаду, устроенную войсками мятежников
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CELTS}					Ваши войска попали в засаду армии кельтов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BERBERS}					Ваши войска попали в засаду армии берберов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MOORS}					Ваши войска попали в засаду армии мавров
+
+
+{EMT_VICTORY_ROMANS_JULII}		Победа Дома Юлиев
+{EMT_VICTORY_ROMANS_BRUTII}		Победа Дома Брутов
+{EMT_VICTORY_ROMANS_SCIPII}		Победа Дома Сципионов
+{EMT_VICTORY_ROMANS_SENATE}		Победа Сената и граждан Рима
+{EMT_VICTORY_MACEDON}			Победа македонян
+{EMT_VICTORY_EGYPT}			Победа египтян
+{EMT_VICTORY_SELEUCID}			Победа Селевкидов
+{EMT_VICTORY_CARTHAGE}		Победа карфагенян
+{EMT_VICTORY_PARTHIA}			Победа парфян
+{EMT_VICTORY_PONTUS}			Победа понтийцев
+{EMT_VICTORY_GAULS}			Победа галлов
+{EMT_VICTORY_GERMANS}			Победа германцев
+{EMT_VICTORY_BRITONS}			Победа британцев
+{EMT_VICTORY_ARMENIA}			Победа армян
+{EMT_VICTORY_DACIA}			Победа даков
+{EMT_VICTORY_GREEK_CITIES}		Победа греков
+{EMT_VICTORY_NUMIDIA}			Победа нумидийцев
+{EMT_VICTORY_SCYTHIA}			Победа скифов
+{EMT_VICTORY_SPAIN}			Победа испанцев
+{EMT_VICTORY_THRACE}			Победа фракийцев
+{EMT_VICTORY_ALEMANNI}			Победа алеманнов
+{EMT_VICTORY_EMPIRE_EAST}		Победа Восточной Империи
+{EMT_VICTORY_EMPIRE_WEST}		Победа Западной Империи
+{EMT_VICTORY_EMPIRE_EAST_REBELS}	Победа мятежников Восточной Империи
+{EMT_VICTORY_EMPIRE_WEST_REBELS}	Победа мятежников Западной Империи
+{EMT_VICTORY_FRANKS}			Победа франков
+{EMT_VICTORY_HUNS}			Победа гуннов
+{EMT_VICTORY_SARMATIANS}		Победа сарматов
+{EMT_VICTORY_SASSANIDS}		Победа Сасанидов
+{EMT_VICTORY_SAXONS}			Победа саксов
+{EMT_VICTORY_VANDALS}			Победа вандалов
+{EMT_VICTORY_GOTHS}			Победа готов
+{EMT_VICTORY_WHITE_HUNS}		Победа белых гуннов
+{EMT_VICTORY_OSTROGOTHS}		Победа остготов
+{EMT_VICTORY_ROMANO_BRITISH}		Победа романо-британцев
+{EMT_VICTORY_SLAVS}			Победа славян
+{EMT_VICTORY_SLAVE}			Победа мятежников
+{EMT_VICTORY_BERBERS}			Победа берберов
+{EMT_VICTORY_MOORS}			Победа мавров
+{EMT_VICTORY_CELTS}			Победа кельтов
+
+{EMT_VICTORY_DESCR_ROMANS_BRUTII}		Рим будет процветать под властью Брутов! Вы оправдали самые высокие ожидания. Меч сжат в крепком кулаке Брутов! В другой руке Брутов палка, при помощи которой они будут править всем миром! Именно за это Бруты боролись долгие годы, и они наконец добились своего!
+{EMT_VICTORY_DESCR_ROMANS_JULII}		Этот момент стоит посмаковать! Рим и Империя - в сущности, весь мир - лежат у ваших ног, а граждане Рима любят вас! Старые бабы из Сената больше не будут беспокоить вас. Ваши враги слабы, испуганы и разбиты. Победа ваша - наслаждайтесь честно заслуженными браздами правления!
+{EMT_VICTORY_DESCR_ROMANS_SCIPII}		Великий дом Сципионов благословлен богами и вашим великолепным руководством! Победа сладка, и все римляне могут спать спокойно, зная, что мы правим Империей и защищаем ее от всех врагов. Римские армии - армии Сципионов - контролируют империю, которая охватила полмира! Победа ваша!
+{EMT_VICTORY_DESCR_BRITONS}			Победа за вами! Римскому миру пришел конец, наши воины правят землями, простирающимися от заката до рассвета. По всему миру друиды возносят хвалу древним богам! Это момент, который мы будем смаковать, момент, когда пришла пора поднять бокал за победу и осушить его до дна!
+{EMT_VICTORY_DESCR_CARTHAGE}			Мир принадлежит вам, победа за вами! Ничто больше не угрожает величию, которого Карфаген достиг под вашим чутким и решительным руководством! Это праздничный день, день, когда мы поразмыслим, каким станет мир в руках у своих новых карфагенских властителей!
+{EMT_VICTORY_DESCR_EGYPT}			Победа за вами! Все ваши враги превратились в тени, развеяны в прах ветрами пустынь. Много веков спустя фараоны будут принимать ваше имя в подтверждение ваших заслуг перед Египтом. Это вы помогли ему достичь величия!
+{EMT_VICTORY_DESCR_GAULS}			Галльская храбрость - и ваше храброе руководство - завоевали победу! Отпразднуйте победу и взгляните с гордостью на галльскую империю - настоящее чудо света. Другим народам остается лишь скорбеть и трепетать перед вашей мощью!!
+{EMT_VICTORY_DESCR_GERMANS}			Вы вывели храбрых германцев из темных лесов на залитые солнцем поля побед! Мир принадлежит вам, и все низшие народы в страхе склоняются перед вашей армией. Это великая победа - для варварского народа! 
+{EMT_VICTORY_DESCR_GREEK_CITIES}		Мы донесли цивилизацию до всего мира! Греки мудро и справедливо правят обширными землями, и это победа! И еще лучше, эта победа одержана под вашим чутким и мудрым руководством! Поистине олимпийские боги наделили вас удивительным даром командования!
+{EMT_VICTORY_DESCR_PARTHIA}			Парфия теперь империя, а не какое-то презираемое соседями царство. Ваше военное искусство принесло блестящие победы парфянской армии, парфянское знамя развевается над стенами многих городов и деревень. Отныне мир -- игрушка в руках парфян!
+{EMT_VICTORY_DESCR_SELEUCID}			Империя Селевкидов теперь -- могущественнейшая сила в мире, которой не страшна больше ни одна внешняя угроза! Благодаря вашим потрясающим качествам истинного командира Селевкиды добились победы, и теперь во всех деревнях и городах будут воздвигнуты статуи в вашу честь! Сами боги с ревностью поглядывают на вас!
+
+{EMT_VICTORY_DESCR_ALEMANNI}			Вы достигли триумфа, и теперь от морских берегов до самых высоких гор правители говорят по-немецки, не по-латыни. Мир теперь устроен так, как вам удобно, и алеманны правят всеми меньшими народами!
+{EMT_VICTORY_DESCR_EMPIRE_EAST}		Римская Империя возродилась из праха. От синих морей до высоких гор Господь даровал победу легионам и разогнал варварскую тьму. Римские клинки, римская доблесть и римская добродетель одолели всех противников! 
+{EMT_VICTORY_DESCR_EMPIRE_WEST}		Римская империя одержала победу! Мы возродили наследие Цезаря, и легионы снова стоят на страже единого народа. Варвары разгромлены, и новая эра открывается перед вами, властителем нового мира!
+{EMT_VICTORY_DESCR_EMPIRE_EAST_REBELS}	'Естественный порядок' был сломан, и вам удалось одержать победу! Новая Римская Империя поднялась из пепла старой - как раз вовремя - и под вашим мудрым руководством идет навстречу новой эре мира и процветания. 
+{EMT_VICTORY_DESCR_EMPIRE_WEST_REBELS}	Рим пал, и на его месте поднялся Новый Рим, озаренный блеском боевой славы! Ваш триумф восхваляет вся империя - величие возродилось, и новый род Цезарей правит миром!
+{EMT_VICTORY_DESCR_FRANKS}			Вы привели свой народ к блестящей победе! Теперь мир по праву принадлежит франкам, и никакие пропахшие лошадиным навозом кочевники или надушенные римляне теперь не посмеют повысить на вас голос - не говоря уж о том, чтобы поднять на вас меч!
+{EMT_VICTORY_DESCR_HUNS}			Меч, добрый конь и бескрайняя степь - что еще нужно настоящему воину? Победа, конечно! И сегодня великий день, день, когда воины гуннов сокрушили своих врагов, втоптали их в пыль копытами лошадей. Сегодня мы выпьем за новых властителей степей и за огромный мир, лежащий у наших ног!
+{EMT_VICTORY_DESCR_SARMATIANS}		Меч, добрый конь и сарматское боевое товарищество могут далеко завести человека. Да, они могут привести правителя к такому дню, как этот! Вы одержали триумфальную победу. 
+{EMT_VICTORY_DESCR_SASSANIDS}			Со своего законного места на Троне Павлина вы можете восхищаться собственными достижениями, и смотреть на расстилающуюся перед вами империю. Ваши соперники уничтожены, ваши подданные низко склонились перед вами. Это победа!
+{EMT_VICTORY_DESCR_SAXONS}			Вы добились полного триумфа! Земли саксов простираются по всему миру и за океанами. Теперь барды будут плести свои словесные ожерелья, чтобы воспеть и восславить вашу великую победу!
+{EMT_VICTORY_DESCR_VANDALS}			Поздравляем! Вы привели яростных, неукротимых вандалов к полной победе. Теперь завоеванные вами народы должны склониться перед вами -- и ждать вашей милости!
+{EMT_VICTORY_DESCR_GOTHS}			Восхитительно! Вы привели готов к полной и окончательной победе над всеми малыми народами, включая могучих некогда римлян и суровых всадников восточных степей. Это момент славы, момент триумфа!
+{EMT_VICTORY_DESCR_WHITE_HUNS}		Меч, добрый конь и бескрайняя степь - что еще нужно настоящему воину? Победа, конечно! И сегодня великий день, день, когда воины белых гуннов сокрушили своих врагов, втоптали их в пыль копытами лошадей. Сегодня мы выпьем за новых властителей степей и за огромный мир, лежащий у наших ног. 
+{EMT_VICTORY_DESCR_OSTROGOTHS}		Восхитительно! Вы привели остготов к полной и окончательной победе над всеми меньшими народами, включая даже близких вам готов с запада! Какой еще вождь смог бы добиться такого? Это момент славы, момент триумфа!
+{EMT_VICTORY_DESCR_ROMANO_BRITISH}		Великая победа! Возможно, уход Римской Империи из Британии был печальной страницей в истории, но часто неудачи закладывают фундамент будущего величия! Рим возрожден благодаря вашим усилиям - это ваша победа!
+{EMT_VICTORY_DESCR_SLAVS}			Вы победили! Славяне завоевали весь мир, разогнали всех противников, и все это под вашим мудрым руководством. Пройдет много столетий, прежде чем что-нибудь снова будет угрожать родине славян!
+{EMT_VICTORY_DESCR_SLAVE}			Восстание было не напрасно! Удачливый мятежник уже не мятежник - нет, он новый повелитель всего, что видит. Теперь историю будете писать вы: старый порядок будет показан в соответствующем свете, а ваш триумф превознесен до небес!
+{EMT_VICTORY_DESCR_BERBERS}			Великая победа! Ваш народ прошел от песков пустыни до холодных, густых лесов, и все в страхе разбегались перед ним! Никто больше не осмелится поставить под сомнение мощь армий берберов!
+{EMT_VICTORY_DESCR_MOORS}			Великая победа! Ваш народ прошел от песков пустыни до холодных, густых лесов, и все в страхе разбегались перед ним! Никто больше не осмелится поставить под сомнение мощь армий мавров!
+{EMT_VICTORY_DESCR_CELTS}			Вы победили! Под вашим мудрым руководством кельты освободили свои исконные земли из многовекового рабства, и теперь даже жестокие римляне преклоняют колени перед кельтскими правителями!
+
+{EMT_DEFEATED_BY_ROMANS_BRUTII}		Победа была уже у вас в руках, но в последний момент ее вырвали у вас Бруты, жестокие римляне, которые сжали мир в своем железном кулаке. В результате мир стал ужасным, мрачным местом!
+{EMT_DEFEATED_BY_ROMANS_JULII}			Победа ускользнула от вас, и теперь вы не сможете править миром. Дом Юлиев, лучшие друзья римской черни, заправляют теперь всем. Римская империя сохранится на века!
+{EMT_DEFEATED_BY_ROMANS_SCIPII}		На сей раз боги не улыбнулись вам, и победа ускользнула от вас. Более того, любимцами богов оказались римляне Сципионы - а ведь они всегда этим бахвалились! - и теперь именно они решают судьбы мира!
+{EMT_DEFEATED_BY_BRITONS}			Выкрашенные синькой британцы и их друиды с окровавленными руками вырвали у вас победу. На этот раз вам досталась лишь горечь поражения, а не сладкое вино успеха!
+{EMT_DEFEATED_BY_CARTHAGE}			Поражение -- вот все, на что вы смогли претендовать! Сегодня победу празднуют карфагеняне и их подлые наемники! Теперь они распространят по всему миру свой гнусный обычай убивать младенцев, и все узнают, что такое настоящий страх. 
+{EMT_DEFEATED_BY_EGYPT}			Фараон и его лизоблюды вырвали у вас победу. Какой же мрачный сегодня день: теперь миром будут править эти некрофилы, поклоняющиеся смерти!
+{EMT_DEFEATED_BY_GAULS}			Больше вы не сможете мечтать о победе. Ее вырвали у вас отвратительные усатые галлы в штанах! Куда катится мир, если позволяет немытым выскочкам править собой!
+{EMT_DEFEATED_BY_GERMANS}			Поражение - вот ваша награда! Боги повернулись к вам спиной. Германцы - да кто они вообще такие, просто дикари из темного леса! - одержали победу над всеми своими врагами! Будь проклят этот день!
+{EMT_DEFEATED_BY_GREEK_CITIES}			Это же надо, чтобы из всех народов победа досталась грекам! Будь проклят этот день: теперь миром будут править надушенные хлыщи, считающие себя светочами культуры. Но с другой стороны, кто сказал, что поражение окончательно?..
+{EMT_DEFEATED_BY_PARTHIA}			Жестокие, коварные парфяне вырвали победу из ваших рук. Какой печальный день - на вашей земле празднуют победу эти грязные любители лошадей с немытого Востока!
+{EMT_DEFEATED_BY_SELEUCID}			Империя Селевкидов добилась триумфа, победа досталась им. Вашим честолюбивым планам не суждено было сбыться, но неужели все свободные люди мира склонятся под пятой жестоких Селевкидов?
+
+{EMT_DEFEATED_BY_ALEMANNI}			Вас одолели алеманны, хитроумный народ, оказавшийся достойным противником. Станут ли они столь же достойными правителями для своих новых подданных?
+{EMT_DEFEATED_BY_EMPIRE_EAST}			Вас одолели войска Восточной Империи. Они называют себя римлянами, но на самом деле они просто изнеженные греки... И эти людишки победили вас?!
+{EMT_DEFEATED_BY_EMPIRE_WEST}			Победа ускользнула от вас. Слишком велика доблесть римлян, а кажущаяся слабость Рима была, без сомнения, лишь уловкой, чтобы заставить вас расслабиться перед тем, как они нанесут вам решающий удар!
+{EMT_DEFEATED_BY_EMPIRE_EAST_REBELS}		Победил Рим, но не Рим Цезаря и Траяна. Вас побили грязные римские мятежники! Это новый Рим - восточный, Рим, которым правят греки, если не кое-кто похуже!
+{EMT_DEFEATED_BY_EMPIRE_WEST_REBELS}		Старые порядки низвергнуты, сборище римских мятежников и бандитов одолело вас. Этот новый Рим объявил себя повелителем мира, но его настоящие повелители лежат в могилах!
+{EMT_DEFEATED_BY_FRANKS}			Франки победили вас. Никто не осмелится поднять восстание против этих машущих топорами варваров, даже всадники степей или могучие некогда римляне!
+{EMT_DEFEATED_BY_HUNS}				Дикость и жестокость -- ужасные хозяева, но по сравнению с гуннами они покажутся любящими родителями! Вас победили эти отвратительные полулюди из далеких, бескрайних степей. Все потеряно! Весь мир поглотила тьма!
+{EMT_DEFEATED_BY_SARMATIANS}			Вас сокрушили могучие конники-сарматы. Да, они достойные противники. Но выйдут ли из них великодушные завоеватели? 
+{EMT_DEFEATED_BY_SASSANIDS}			Вас сокрушила великая Персидская империя. В своих огромных дворцах на востоке Сасаниды имеют полное право гордиться своими достижениями, а ваш народ дрожит от страха перед своими новыми господами...
+{EMT_DEFEATED_BY_SAXONS}			Жестокие саксы совладали с вами. Их барды будут петь бесконечные песни, восхваляя их победу -- более страшного наказания не заслуживают несчастные, которым придется жить под их железной пятой!
+{EMT_DEFEATED_BY_VANDALS}			Вас разбили жестокие вандалы, народ столь варварский, что само его имя стало синонимом бессмысленного разрушения! Ужасно будет будущее вашего народа при таких жестоких хозяевах!
+{EMT_DEFEATED_BY_GOTHS}			Вас поставили на колени хитрые и злобные готы, народ, и в мирное, и в военное время живущий по жестоким и непонятным обычаям. Ваш народ стонет при одной мысли о таких страшных хозяевах...
+{EMT_DEFEATED_BY_WHITE_HUNS}			Немало дикости и жестокости придется испытать тем, кто будет жить под ударами плети белых гуннов! Они завоевали вас, и теперь все потеряно! Все покрыто тьмой! И лишь стенания женщин ознаменуют ваш уход...
+{EMT_DEFEATED_BY_OSTROGOTHS}			Вас поставили на колени хитрые остготы, народ, оказавшийся ужасным противником. Ваши люди плачут при мысли о том, что после поражения им придется ждать милости от этих злобных властителей...
+{EMT_DEFEATED_BY_ROMANO_BRITISH}		Вас одолели романо-британцы, жители Британии, которые, с обычной для жителей этого острова хитростью, отказались смириться с отступлением Рима с их земель. Теперь у них появился шанс построить новый Рим на своих землях!
+{EMT_DEFEATED_BY_SLAVS}			Вас победили жестокие славяне. Теперь ваши земли принадлежат им, ваш народ обрабатывает поля славян, а ваши дети вырастут рабами жестоких славянских хозяев!
+{EMT_DEFEATED_BY_SLAVE}			Естественный порядок мироустройства перевернут с ног на голову! Вас одолели мятежники, рабы и прочий сброд, которые теперь называют себя господами!
+{EMT_DEFEATED_BY_BERBERS}			Вас победили берберы! Ваш народ будет называть господами грязных погонщиков верблюдов, ворующих коз, и низко кланяться им. Унылый день, полный отчаяния и унижения! 
+{EMT_DEFEATED_BY_MOORS}			Вас победили мавры! Ваш народ будет называть господами грязных погонщиков верблюдов, ворующих коз, и низко кланяться им. Унылый день, полный отчаяния и унижения!
+{EMT_DEFEATED_BY_CELTS}			Вас одолели кельты, древний народ, считающий, что мир должен принадлежать ему. Некогда кельты правили Европой, теперь они снова у власти, и годы величия Рима кажутся лишь сном...
+
+{EMT_SHORT_VICTORY_ROMANS_BRUTII}		Знаменитые предки Брутов гордятся вашей победой. Грязные македоняне и надушенные греки ушли, оставив за собой лишь руины! Поздравляем вас с этим триумфом римского духа!
+{EMT_SHORT_VICTORY_ROMANS_JULII}		Ваша победа достойна истинного римлянина. Дом Юлиев может радоваться, глядя на волосатых галльских варваров - в изгнании, в цепях, в отчаянии! Это триумф, радуйтесь же ему!
+{EMT_SHORT_VICTORY_ROMANS_SCIPII}		Вы одержали достойнейшую и благороднейшую победу! Ваши вероломные враги в Африке - Карфаген и Нумидия - удостоятся лишь сносок в исторических книгах, в которых будет описываться ваш триумф!
+{EMT_SHORT_VICTORY_BRITONS}			Ваша победа достойна скромного праздника, на котором вы будете пить, пить и еще раз пить! Грязных, провонявших луком галлов больше нет, ваши земли защищают храбрые воины! Отмечайте свой триумф!
+{EMT_SHORT_VICTORY_CARTHAGE}			Это сладчайшая и достойнейшая из побед! Злобные и лживые Сципионы покоятся в могилах - и нельзя сказать, что они ушли преждевременно - и испанские варвары тоже больше не будут тревожить вас. Это триумф, который стоит отметить!
+{EMT_SHORT_VICTORY_EGYPT}			Любой фараон был бы счастлив отпраздновать такую победу. Селевкидам пришел конец, а земли Египта обширны и обильны. Сегодня день радости: день победы под вашим руководством!
+{EMT_SHORT_VICTORY_GAULS}			Дом Юлиев и их лживые союзники в Римском Сенате повержены. Галльские воины правят миром, и это стало возможным только благодаря вашему руководству. Празднуйте свой успех!
+{EMT_SHORT_VICTORY_GERMANS}			Благодаря вашему чуткому руководству победа пришла к германцам! Жестокие даки и безумные конники из Скифии мертвы или проданы в рабство, германским воинам подчиняются многочисленные земли!
+{EMT_SHORT_VICTORY_GREEK_CITIES}		Боги улыбаются вам и даруют вам победу! Македоняне и фракийцы повержены в прах, и все истинные греки празднуют ваш триумф!
+{EMT_SHORT_VICTORY_PARTHIA}			Победа! Благодаря вашей решительности парфянская конница правит огромной территорией. Более того, злобные Селевкиды и армяне изгнаны со своих земель и проданы в рабство!
+{EMT_SHORT_VICTORY_SELEUCID}			Сегодня благодаря вашему чуткому руководству империя Селевкидов может праздновать победу! Что еще лучше, извращенцы-египтяне, поклоняющиеся смерти, отправились к своим предкам - пусть порадуются!
+
+
+{CHRISTIAN_LABEL}			Христианство
+{CHRISTIAN_ORDER}			Христианство улучшает общественный порядок в данном поселении
+{CHRISTIAN_UNREST}			Христианство вызывает беспорядки в данном поселении
+{ZOROASTRIAN_LABEL}			Зороастризм
+{ZOROASTRIAN_ORDER}			Зороастризм улучшает общественный порядок в данном поселении
+{ZOROASTRIAN_UNREST}			Зороастризм вызывает беспорядки в данном поселении
+{PAGAN_LABEL}				Язычество
+{PAGAN_ORDER}				Язычество улучшает общественный порядок в данном поселении
+{PAGAN_UNREST}				Язычество вызывает беспорядки в данном поселении
+
+¬ Faction Descriptions - Label should be the faction's labes in caps appended with _DESCR
+
+{ROMANS_JULII_DESCR}			Римский дом Юлиев\nЛегионерская пехота и вспомогательные союзные войска, ограниченное количество кавалерии
+{ROMANS_BRUTII_DESCR}			Римский дом Брутов\nЛегионерская пехота и вспомогательные союзные войска, ограниченное количество кавалерии
+{ROMANS_SCIPII_DESCR}			Римский дом Сципионов\nЛегионерская пехота и вспомогательные союзные войска, ограниченное количество кавалерии
+{ROMANS_SENATE_DESCR}			Сенат и граждане Рима\nЛегионерская пехота и вспомогательные союзные войска, ограниченное количество кавалерии
+{MACEDON_DESCR}			Македоняне\nФаланги гоплитов и сариссофоров плюс мощная кавалерия
+{EGYPT_DESCR}				Египтяне\nХорошие копьеносцы и пешие стрелки, а также быстрая кавалерия и колесницы
+{SELEUCID_DESCR}			Селевкиды\nМощные фаланги, тяжелые конники-катафрактарии и слоны
+{CARTHAGE_DESCR}			Карфагеняне\nГибкий выбор всех типов войск, плюс мощные слоны!
+{PARTHIA_DESCR}			Парфяне\nКавалерия, включающая конных стрелков и хорошо защищенных катафрактариев; слабая пехота
+{PONTUS_DESCR}				Понтийцы\nГибкая армия, состоящая из легкой пехоты, фаланг, тяжелой кавалерии и колесниц
+{GAULS_DESCR}				Галлы\nСильная пехота для ближнего боя, но очень ограниченное количество кавалерии
+{GERMANS_DESCR}			Германды\nВоины с секирами и особые виды пехоты с небольшим количеством кавалерии
+{BRITONS_DESCR}			Британцы\nФанатичная варварская пехота и быстрые колесницы
+{ARMENIA_DESCR}			Армяне\nКонные стрелки, включающие бронированных катафрактариев, но мало типов пехоты
+{DACIA_DESCR}				Даки\nВарварская пехота ближнего боя, включающая фалксменов и небольшое количество кавалерии
+{GREEK_CITIES_DESCR}			Греки\nМного фаланг гоплитов (включая спартанцев) и поддержка стрелков, но ограниченное количество кавалерии
+{NUMIDIA_DESCR}			Нумидийцы\nЛегкая пехота, способная сражаться в пустыне и неплохой выбор кавалеристов, включая наездников на верблюдах
+{SCYTHIA_DESCR}			Скифы\nОтличные наездники и стрелки, но почти нет пехотинцев
+{SPAIN_DESCR}				Испанцы\nОтличная смесь фанатичных варваров и организованной пехоты с незначительной поддержкой кавалерии
+{THRACE_DESCR}				Фракийцы\nМножество фаланг гоплитов и варварских специалистов по ближнему бою, но ограниченное количество кавалерии
+{SLAVE_DESCR}				Рабы и повстанцы\nГладиаторы и дешевые (но слабые) крестьяне
+
+{ALEMANNI_DESCR}			Алеманны\nХороший выбор варварских отрядов, героические воины!
+{EMPIRE_EAST_DESCR}			Восточная Римская Империя\nСильная и разносторонняя армия, мало слабых соединений
+{EMPIRE_WEST_DESCR}			Западная Римская Империя\nПрекрасная пехота, мало кавалерии
+{EMPIRE_EAST_REBELS_DESCR}		Мятежники Восточной Римской империи\nСильная и разносторонняя армия, мало слабых соединений
+{EMPIRE_WEST_REBELS_DESCR}		Мятежники Западной Римской империи\nПрекрасная пехота, мало кавалерии
+{FRANKS_DESCR}				Германское племя франков\nНадежная пехота, неплохие стрелки, но маловато кавалерии
+{HUNS_DESCR}				Гунны\nПрактически непревзойденные стрелки и наездники, слабая вспомогательная пехота
+{SARMATIANS_DESCR}			Сарматы\nПрекрасная кавалерия и конные стрелки, неплохая вспомогательная пехота
+{SASSANIDS_DESCR}			Империя Сасанидов\nСильная и разносторонняя армия, в том числе катафракты и слоны
+{SAXONS_DESCR}				Саксы\nВосхитительная пехота, очень ограниченный выбор кавалерии
+{VANDALS_DESCR}			Вандалы\nСильная и разносторонняя армия, мало осадного снаряжения
+{GOTHS_DESCR}				Готы\nХорошая кавалерия и пехота, мало осадного снаряжения
+{CELTS_DESCR}				Кельты\nСтаромодная, но эффективная структура легковооруженных войск
+{WHITE_HUNS_DESCR}			Белые гунны\nПрактически непревзойденные стрелки и наездники, слабая вспомогательная пехота
+{OSTROGOTHS_DESCR}			Остготы\nХорошая кавалерия и пехота, мало осадного снаряжения
+{ROMANO_BRITISH_DESCR}		Романо-британцы\nНебольшой выбор римских войск, плюс собственные элитные соединения
+{SLAVS_DESCR}				Славяне\nХорошая, сбалансированная армия. Мало осадного снаряжения
+{MOORS_DESCR}				Мавры\nОграниченный выбор крепких воинов пустыни
+{BERBERS_DESCR}			Берберы\nОграниченный выбор крепких воинов пустыни
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{LOMBARDI}					Ломбарды
+{BURGUNDII}					Бургунды
+{ROXOLANI}					Роксоланы
+
+{EMT_LOMBARDI_SPY}					Ломбардский шпион
+{EMT_LOMBARDI_ASSASSIN}					Ломбардский наемный убийца
+{EMT_LOMBARDI_DIPLOMAT}					Ломбардский дипломат
+{EMT_LOMBARDI_ADMIRAL}					Ломбардский флот
+{EMT_LOMBARDI_GENERAL}					Ломбардская армия
+{EMT_LOMBARDI_NAMED_CHARACTER}					Ломбардский член семьи
+{EMT_BURGUNDII_SPY}					Бургундский шпион
+{EMT_BURGUNDII_ASSASSIN}					Бургундский наемный убийца
+{EMT_BURGUNDII_DIPLOMAT}					Бургундский дипломат
+{EMT_BURGUNDII_ADMIRAL}					Бургундский флот
+{EMT_BURGUNDII_GENERAL}					Бургундская армия
+{EMT_BURGUNDII_NAMED_CHARACTER}					Бургундский член семьи
+{EMT_ROXOLANI_SPY}					Роксоланский шпион
+{EMT_ROXOLANI_ASSASSIN}					Роксоланский наемный убийца
+{EMT_ROXOLANI_DIPLOMAT}					Роксоланский дипломат
+{EMT_ROXOLANI_ADMIRAL}					Роксоланский флот
+{EMT_ROXOLANI_GENERAL}					Роксоланская армия
+{EMT_ROXOLANI_NAMED_CHARACTER}					Роксоланский член семьи
+
+{LOMBARDI_DESCR}			Ломбарды\nХороший выбор варварских отрядов, героические воины!
+{BURGUNDII_DESCR}			Бургунды\nХороший выбор варварских отрядов, героические воины!
+{ROXOLANI_DESCR}			Роксоланы\nПрекрасная кавалерия и конные стрелки, неплохая вспомогательная пехота.
+
+{EMT_VICTORY_DESCR_LOMBARDI}			Вы достигли триумфа, и теперь от морских берегов до самых высоких гор правители говорят по-немецки, не по-латыни. Мир теперь устроен так, как вам удобно, и ломбарды правят всеми меньшими народами!
+{EMT_VICTORY_DESCR_BURGUNDII}			Вы достигли триумфа, и теперь от морских берегов до самых высоких гор правители говорят по-немецки, не по-латыни. Мир теперь устроен так, как вам удобно, и бургунды правят всеми меньшими народами!
+{EMT_VICTORY_DESCR_ROXOLANI}		Меч, добрый конь и роксоланское воинское братство могут далеко завести человека. Да, они могут привести правителя к такому дню, как этот! Вы одержали триумфальную победу. 
+
+{EMT_DEFEATED_BY_LOMBARDI}			Вас одолели ломбарды, хитрый народ, оказавшийся достойным противником. Станут ли они столь же достойными правителями для своих новых подданных?
+{EMT_DEFEATED_BY_BURGUNDII}			Вас одолели бургунды, хитрый народ, оказавшийся достойным противником. Станут ли они столь же достойными правителями для своих новых подданных?
+{EMT_DEFEATED_BY_ROXOLANI}			Вас сокрушили могучие конники-роксоланы. Да, они достойные противники. Но выйдут ли из них великодушные завоеватели? 
+
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_LOMBARDI}				Ваши войска попали в засаду армии ломбардов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BURGUNDII}				Ваши войска попали в засаду армии бургундов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROXOLANI}				Ваши войска попали в засаду армии роксоланов
+
+{EMT_YOUR_FORCES_ATTACKED_NAVY_LOMBARDI}				Ваши войска были атакованы флотом ломбардов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BURGUNDII}				Ваши войска были атакованы флотом бургундов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROXOLANI}				Ваши войска были атакованы флотом роксоланов
+
+{EMT_YOUR_FORCES_AMBUSH_ARMY_LOMBARDI}				Ваши войска устроили засаду армии ломбардов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BURGUNDII}				Ваши войска устроили засаду армии бургундов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROXOLANI}			Ваши войска устроили засаду армии роксоланов
+
+{EMT_YOUR_FORCES_ATTACKED_ARMY_LOMBARDI}				Ваши войска были атакованы армией ломбардов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BURGUNDII}				Ваши войска были атакованы армией бургундов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROXOLANI}				Ваши войска были атакованы армией роксоланов
+
+{EMT_YOUR_FORCES_ATTACK_ARMY_LOMBARDI}						Ваши войска атаковали армию ломбардов
+{EMT_YOUR_FORCES_ATTACK_ARMY_BURGUNDII}						Ваши войска атаковали армию бургундов
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROXOLANI}						Ваши войска атаковали армию роксоланов
+
+{EMT_YOUR_FORCES_ATTACK_NAVY_LOMBARDI}				Ваши войска атаковали флот ломбардов
+{EMT_YOUR_FORCES_ATTACK_NAVY_BURGUNDII}				Ваши войска атаковали флот бургундов
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROXOLANI}			Ваши войска атаковали флот роксоланов
+
+{EMT_LOMBARDI_FACTION_HEIR}			Преемник фракции ломбардов
+{EMT_BURGUNDII_FACTION_HEIR}			Преемник фракции бургундов
+{EMT_ROXOLANI_FACTION_HEIR}			Преемник фракции роксоланов
+
+{EMT_LOMBARDI_FACTION_LEADER}		Правитель фракции ломбардов
+{EMT_BURGUNDII_FACTION_LEADER}		Правитель фракции бургундов
+{EMT_ROXOLANI_FACTION_LEADER}		Правитель фракции роксоланов
+
+{EMT_LOMBARDI_WATCHTOWER}				Ломбардская сторожевая башня
+{EMT_BURGUNDII_WATCHTOWER}				Бургундская сторожевая башня
+{EMT_ROXOLANI_WATCHTOWER}				Роксоланская сторожевая башня
+
+{EMT_LOMBARDI_FISHING_VILLAGE}			Ломбардская рыбачья деревня
+{EMT_BURGUNDII_FISHING_VILLAGE}			Бургундская рыбачья деревня
+{EMT_ROXOLANI_FISHING_VILLAGE}			Роксоланская рыбачья деревня
+
+{EMT_LOMBARDI_DOCK}			Ломбардские верфи
+{EMT_BURGUNDII_DOCK}			Бургундские верфи
+{EMT_ROXOLANI_DOCK}			Роксоланские верфи
+
+{EMT_LOMBARDI_PORT}			Ломбардский порт
+{EMT_BURGUNDII_PORT}			Бургундский порт
+{EMT_ROXOLANI_PORT}			Роксоланский порт
+
+{EMT_LOMBARDI_FORT}			Ломбардский форт
+{EMT_BURGUNDII_FORT}			Бургундский форт
+{EMT_ROXOLANI_FORT}			Роксоланский форт
+
+{EMT_LOMBARDI_CAPITAL}				Ломбардская столица
+{EMT_BURGUNDII_CAPITAL}				Бургундская столица
+{EMT_ROXOLANI_CAPITAL}				Роксоланская столица
+
+{EMT_LOMBARDI_VILLAGE}			Ломбардская деревня
+{EMT_LOMBARDI_TOWN}			Ломбардское городище
+{EMT_LOMBARDI_LARGE_TOWN}		Ломбардское крупное городище
+{EMT_LOMBARDI_CITY}			Ломбардский город
+{EMT_LOMBARDI_LARGE_CITY}		Ломбардский большой город
+{EMT_LOMBARDI_HUGE_CITY}		Ломбардский великий город
+{EMT_BURGUNDII_VILLAGE}			Бургундская деревня
+{EMT_BURGUNDII_TOWN}			Бургундское городище
+{EMT_BURGUNDII_LARGE_TOWN}		Бургундское крупное городище
+{EMT_BURGUNDII_CITY}			Бургундский город
+{EMT_BURGUNDII_LARGE_CITY}		Бургундский большой город
+{EMT_BURGUNDII_HUGE_CITY}		Бургундский великий город
+{EMT_ROXOLANI_VILLAGE}			Роксоланская деревня
+{EMT_ROXOLANI_TOWN}			Роксоланское городище
+{EMT_ROXOLANI_LARGE_TOWN}		Роксоланское крупное городище
+{EMT_ROXOLANI_CITY}			Роксоланский город
+{EMT_ROXOLANI_LARGE_CITY}		Роксоланский большой город
+{EMT_ROXOLANI_HUGE_CITY}		Роксоланский великий город
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			Only changes made after 06/06/2005 17:00:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{VANDALS_DESCR}			Вандалы\nСильная и разносторонняя армия, мало осадного снаряжения
+{SLAVS_DESCR}				Славяне\nХорошая, сбалансированная армия. Мало осадного снаряжения
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:55:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:43:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:23:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			THERE SHOULD NOW BE NO MORE CHANGES! 
+¬*			SEE ROSS/LUCI/MIKE!
+¬*
+¬*			Only changes made after 05/08/2005 16:25:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

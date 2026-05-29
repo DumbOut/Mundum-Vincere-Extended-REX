@@ -1,0 +1,776 @@
+¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
+{EMT_ROMAN_JULII_SPY}					Римский шпион (Юлии)
+{EMT_ROMAN_JULII_ASSASSIN}					Римский убийца (Юлии)
+{EMT_ROMAN_JULII_DIPLOMAT}					Римский дипломат (Юлии)
+{EMT_ROMAN_JULII_ADMIRAL}					Римский флот (Юлии)
+{EMT_ROMAN_JULII_GENERAL}					Римская армия (Юлии)
+{EMT_ROMAN_JULII_NAMED_CHARACTER}					Римский член семьи (Юлии)
+{EMT_ROMAN_BRUTII_SPY}					Римский шпион (Бруты)
+{EMT_ROMAN_BRUTII_ASSASSIN}					Римский убийца (Бруты)
+{EMT_ROMAN_BRUTII_DIPLOMAT}					Римский дипломат (Бруты)
+{EMT_ROMAN_BRUTII_ADMIRAL}					Римский флот (Бруты)
+{EMT_ROMAN_BRUTII_GENERAL}					Римская армия (Бруты)
+{EMT_ROMAN_BRUTII_NAMED_CHARACTER}					Римский член семьи (Бруты)
+{EMT_ROMAN_SCIPII_SPY}					Римский шпион (Сципионы)
+{EMT_ROMAN_SCIPII_ASSASSIN}					Римский убийца (Сципионы)
+{EMT_ROMAN_SCIPII_DIPLOMAT}					Римский дипломат (Сципионы)
+{EMT_ROMAN_SCIPII_ADMIRAL}					Римский флот (Сципионы)
+{EMT_ROMAN_SCIPII_GENERAL}					Римская армия (Сципионы)
+{EMT_ROMAN_SCIPII_NAMED_CHARACTER}					Римский член семьи (Сципионы)
+{EMT_ROMAN_SENATE_SPY}					Римский шпион (Сенат)
+{EMT_ROMAN_SENATE_ASSASSIN}					Римский убийца (Сенат)
+{EMT_ROMAN_SENATE_DIPLOMAT}					Римский дипломат (Сенат)
+{EMT_ROMAN_SENATE_ADMIRAL}					Римский флот (Сенат)
+{EMT_ROMAN_SENATE_GENERAL}					Римская армия (Сенат)
+{EMT_ROMAN_SENATE_NAMED_CHARACTER}					Римский член семьи (Сенат)
+{EMT_MACEDON_SPY}					Македонский шпион
+{EMT_MACEDON_ASSASSIN}					Македонский убийца
+{EMT_MACEDON_DIPLOMAT}					Македонский дипломат
+{EMT_MACEDON_ADMIRAL}					Македонский флот
+{EMT_MACEDON_GENERAL}					Македонская армия
+{EMT_MACEDON_NAMED_CHARACTER}					Македонский член семьи
+{EMT_EGYPT_SPY}					Египетский шпион
+{EMT_EGYPT_ASSASSIN}					Египетский убийца
+{EMT_EGYPT_DIPLOMAT}					Египетский дипломат
+{EMT_EGYPT_ADMIRAL}					Египетский флот
+{EMT_EGYPT_GENERAL}					Египетская армия
+{EMT_EGYPT_NAMED_CHARACTER}					Египетский член семьи
+{EMT_SELEUCID_SPY}					Селевкидский шпион
+{EMT_SELEUCID_ASSASSIN}					Селевкидский убийца
+{EMT_SELEUCID_DIPLOMAT}					Селевкидский дипломат
+{EMT_SELEUCID_ADMIRAL}					Селевкидский флот
+{EMT_SELEUCID_GENERAL}					Селевкидская армия
+{EMT_SELEUCID_NAMED_CHARACTER}					Селевкидский член семьи
+{EMT_CARTHAGE_SPY}					Карфагенский шпион
+{EMT_CARTHAGE_ASSASSIN}					Карфагенский убийца
+{EMT_CARTHAGE_DIPLOMAT}					Карфагенский дипломат
+{EMT_CARTHAGE_ADMIRAL}					Карфагенский флот
+{EMT_CARTHAGE_GENERAL}					Карфагенская армия
+{EMT_CARTHAGE_NAMED_CHARACTER}					Карфагенский член семьи
+{EMT_PARTHIA_SPY}					Парфянский шпион
+{EMT_PARTHIA_ASSASSIN}					Парфянский убийца
+{EMT_PARTHIA_DIPLOMAT}					Парфянский дипломат
+{EMT_PARTHIA_ADMIRAL}					Парфянский флот
+{EMT_PARTHIA_GENERAL}					Парфянская армия
+{EMT_PARTHIA_NAMED_CHARACTER}					Парфянский член семьи
+{EMT_PONTUS_SPY}					Понтийский шпион
+{EMT_PONTUS_ASSASSIN}					Понтийский убийца
+{EMT_PONTUS_DIPLOMAT}					Понтийский дипломат
+{EMT_PONTUS_ADMIRAL}					Понтийский флот
+{EMT_PONTUS_GENERAL}					Понтийская армия
+{EMT_PONTUS_NAMED_CHARACTER}					Понтийский член семьи
+{EMT_GAULS_SPY}					Галльский шпион
+{EMT_GAULS_ASSASSIN}					Галльский убийца
+{EMT_GAULS_DIPLOMAT}					Галльский дипломат
+{EMT_GAULS_ADMIRAL}					Галльский флот
+{EMT_GAULS_GENERAL}					Галльская армия
+{EMT_GAULS_NAMED_CHARACTER}					Галльский член семьи
+{EMT_GERMAN_SPY}					Германский шпион
+{EMT_GERMAN_ASSASSIN}					Германский убийца
+{EMT_GERMAN_DIPLOMAT}					Германский дипломат
+{EMT_GERMAN_ADMIRAL}					Германский флот
+{EMT_GERMAN_GENERAL}					Германская армия
+{EMT_GERMAN_NAMED_CHARACTER}					Германский член семьи
+{EMT_BRITON_SPY}					Британский шпион
+{EMT_BRITON_ASSASSIN}					Британский убийца
+{EMT_BRITON_DIPLOMAT}					Британский дипломат
+{EMT_BRITON_ADMIRAL}					Британский флот
+{EMT_BRITON_GENERAL}					Британская армия
+{EMT_BRITON_NAMED_CHARACTER}					Британский член семьи
+{EMT_ARMENIA_SPY}					Армянский шпион
+{EMT_ARMENIA_ASSASSIN}					Армянский убийца
+{EMT_ARMENIA_DIPLOMAT}					Армянский дипломат
+{EMT_ARMENIA_ADMIRAL}					Армянский флот
+{EMT_ARMENIA_GENERAL}					Армянская армия
+{EMT_ARMENIA_NAMED_CHARACTER}					Армянский член семьи
+{EMT_DACIA_SPY}					Дакийский шпион
+{EMT_DACIA_ASSASSIN}					Дакийский убийца
+{EMT_DACIA_DIPLOMAT}					Дакийский дипломат
+{EMT_DACIA_ADMIRAL}					Дакийский флот
+{EMT_DACIA_GENERAL}					Дакийская армия
+{EMT_DACIA_NAMED_CHARACTER}					Дакийский член семьи
+{EMT_GREEK_SPY}					Греческий шпион
+{EMT_GREEK_ASSASSIN}					Греческий убийца
+{EMT_GREEK_DIPLOMAT}					Греческий дипломат
+{EMT_GREEK_ADMIRAL}					Греческий флот
+{EMT_GREEK_GENERAL}					Греческая армия
+{EMT_GREEK_NAMED_CHARACTER}					Греческий член семьи
+{EMT_NUMIDIA_SPY}					Нумидийский шпион
+{EMT_NUMIDIA_ASSASSIN}					Нумидийский убийца
+{EMT_NUMIDIA_DIPLOMAT}					Нумидийский дипломат
+{EMT_NUMIDIA_ADMIRAL}					Нумидийский флот
+{EMT_NUMIDIA_GENERAL}					Нумидийская армия
+{EMT_NUMIDIA_NAMED_CHARACTER}					Нумидийский член семьи
+{EMT_SCYTHIA_SPY}					Скифский шпион
+{EMT_SCYTHIA_ASSASSIN}					Скифский убийца
+{EMT_SCYTHIA_DIPLOMAT}					Скифский дипломат
+{EMT_SCYTHIA_ADMIRAL}					Скифский флот
+{EMT_SCYTHIA_GENERAL}					Скифская армия
+{EMT_SCYTHIA_NAMED_CHARACTER}					Скифский член семьи
+{EMT_SPAIN_SPY}					Испанский шпион
+{EMT_SPAIN_ASSASSIN}					Испанский убийца
+{EMT_SPAIN_DIPLOMAT}					Испанский дипломат
+{EMT_SPAIN_ADMIRAL}					Испанский флот
+{EMT_SPAIN_GENERAL}					Испанская армия
+{EMT_SPAIN_NAMED_CHARACTER}					Испанский член семьи
+{EMT_THRACE_SPY}					Фракийский шпион
+{EMT_THRACE_ASSASSIN}					Фракийский убийца
+{EMT_THRACE_DIPLOMAT}					Фракийский дипломат
+{EMT_THRACE_ADMIRAL}					Фракийский флот
+{EMT_THRACE_GENERAL}					Фракийская армия
+{EMT_THRACE_NAMED_CHARACTER}					Фракийский член семьи
+{EMT_SLAVE_SPY}					Шпион мятежников
+{EMT_SLAVE_ASSASSIN}					Убийца-мятежник
+{EMT_SLAVE_DIPLOMAT}					Дипломат мятежников
+{EMT_SLAVE_ADMIRAL}					Мятежный флот
+{EMT_SLAVE_GENERAL}					Мятежная армия
+{EMT_SLAVE_NAMED_CHARACTER}					Мятежный член семьи
+{EMT_ROMAN_JULII_VILLAGE}					Римская деревня (Юлии)
+{EMT_ROMAN_JULII_TOWN}					Римский город (Юлии)
+{EMT_ROMAN_JULII_LARGE_TOWN}					Римский крупный город (Юлии)
+{EMT_ROMAN_JULII_CITY}					Римский большой город (Юлии)
+{EMT_ROMAN_JULII_LARGE_CITY}					Римский огромный город (Юлии)
+{EMT_ROMAN_JULII_HUGE_CITY}					Римский великий город (Юлии)
+{EMT_ROMAN_BRUTII_VILLAGE}					Римская деревня (Бруты)
+{EMT_ROMAN_BRUTII_TOWN}					Римский город (Бруты)
+{EMT_ROMAN_BRUTII_LARGE_TOWN}					Римский крупный город (Бруты)
+{EMT_ROMAN_BRUTII_CITY}					Римский большой город (Бруты)
+{EMT_ROMAN_BRUTII_LARGE_CITY}					Римский огромный город (Бруты)
+{EMT_ROMAN_BRUTII_HUGE_CITY}					Римский великий город (Бруты)
+{EMT_ROMAN_SCIPII_VILLAGE}					Римская деревня (Сципионы)
+{EMT_ROMAN_SCIPII_TOWN}					Римский город (Сципионы)
+{EMT_ROMAN_SCIPII_LARGE_TOWN}					Римский крупный город (Сципионы)
+{EMT_ROMAN_SCIPII_CITY}					Римский большой город (Сципионы)
+{EMT_ROMAN_SCIPII_LARGE_CITY}					Римский огромный город (Сципионы)
+{EMT_ROMAN_SCIPII_HUGE_CITY}					Римский великий город (Сципионы)
+{EMT_ROMAN_SENATE_VILLAGE}					Римская деревня (Сенат)
+{EMT_ROMAN_SENATE_TOWN}					Римский город (Сенат)
+{EMT_ROMAN_SENATE_LARGE_TOWN}					Римский крупный город (Сенат)
+{EMT_ROMAN_SENATE_CITY}					Римский большой город (Сенат)
+{EMT_ROMAN_SENATE_LARGE_CITY}					Римский огромный город (Сенат)
+{EMT_ROMAN_SENATE_HUGE_CITY}					Римский великий город (Сенат)
+{EMT_MACEDON_VILLAGE}					Македонская деревня
+{EMT_MACEDON_TOWN}					Македонский город
+{EMT_MACEDON_LARGE_TOWN}					Македонский крупный город
+{EMT_MACEDON_CITY}					Македонский большой город
+{EMT_MACEDON_LARGE_CITY}					Македонский огромный город
+{EMT_MACEDON_HUGE_CITY}					Македонский великий город
+{EMT_EGYPT_VILLAGE}					Египетская деревня
+{EMT_EGYPT_TOWN}					Египетский город
+{EMT_EGYPT_LARGE_TOWN}					Египетский крупный город
+{EMT_EGYPT_CITY}					Египетский большой город
+{EMT_EGYPT_LARGE_CITY}					Египетский огромный город
+{EMT_EGYPT_HUGE_CITY}					Египетский великий город
+{EMT_SELEUCID_VILLAGE}					Селевкидская деревня
+{EMT_SELEUCID_TOWN}					Селевкидский город
+{EMT_SELEUCID_LARGE_TOWN}					Селевкидский крупный город
+{EMT_SELEUCID_CITY}					Селевкидский большой город
+{EMT_SELEUCID_LARGE_CITY}					Селевкидский огромный город
+{EMT_SELEUCID_HUGE_CITY}					Селевкидский великий город
+{EMT_CARTHAGE_VILLAGE}					Карфагенская деревня
+{EMT_CARTHAGE_TOWN}					Карфагенский город
+{EMT_CARTHAGE_LARGE_TOWN}					Карфагенский крупный город
+{EMT_CARTHAGE_CITY}					Карфагенский большой город
+{EMT_CARTHAGE_LARGE_CITY}					Карфагенский огромный город
+{EMT_CARTHAGE_HUGE_CITY}					Карфагенский великий город
+{EMT_PARTHIA_VILLAGE}					Парфянская деревня
+{EMT_PARTHIA_TOWN}					Парфянский город
+{EMT_PARTHIA_LARGE_TOWN}					Парфянский крупный город
+{EMT_PARTHIA_CITY}					Парфянский большой город
+{EMT_PARTHIA_LARGE_CITY}					Парфянский огромный город
+{EMT_PARTHIA_HUGE_CITY}					Парфянский великий город
+{EMT_PONTUS_VILLAGE}					Понтийская деревня
+{EMT_PONTUS_TOWN}					Понтийский город
+{EMT_PONTUS_LARGE_TOWN}					Понтийский крупный город
+{EMT_PONTUS_CITY}					Понтийский большой город
+{EMT_PONTUS_LARGE_CITY}					Понтийский огромный город
+{EMT_PONTUS_HUGE_CITY}					Понтийский великий город
+{EMT_GAULS_VILLAGE}					Галльская деревня
+{EMT_GAULS_TOWN}					Галльский город
+{EMT_GAULS_LARGE_TOWN}					Галльский крупный город
+{EMT_GAULS_CITY}					Галльский большой город
+{EMT_GAULS_LARGE_CITY}					Галльский огромный город
+{EMT_GAULS_HUGE_CITY}					Галльский великий город
+{EMT_GERMAN_VILLAGE}					Германская деревня
+{EMT_GERMAN_TOWN}					Германский город
+{EMT_GERMAN_LARGE_TOWN}					Германский крупный город
+{EMT_GERMAN_CITY}					Германский большой город
+{EMT_GERMAN_LARGE_CITY}					Германский огромный город
+{EMT_GERMAN_HUGE_CITY}					Германский великий город
+{EMT_BRITON_VILLAGE}					Британская деревня
+{EMT_BRITON_TOWN}					Британский город
+{EMT_BRITON_LARGE_TOWN}					Британский крупный город
+{EMT_BRITON_CITY}					Британский большой город
+{EMT_BRITON_LARGE_CITY}					Британский огромный город
+{EMT_BRITON_HUGE_CITY}					Британский великий город
+{EMT_ARMENIA_VILLAGE}					Армянская деревня
+{EMT_ARMENIA_TOWN}					Армянский город
+{EMT_ARMENIA_LARGE_TOWN}					Армянский крупный город
+{EMT_ARMENIA_CITY}					Армянский большой город
+{EMT_ARMENIA_LARGE_CITY}					Армянский огромный город
+{EMT_ARMENIA_HUGE_CITY}					Армянский великий город
+{EMT_DACIA_VILLAGE}					Дакийская деревня
+{EMT_DACIA_TOWN}					Дакийский город
+{EMT_DACIA_LARGE_TOWN}					Дакийский крупный город
+{EMT_DACIA_CITY}					Дакийский большой город
+{EMT_DACIA_LARGE_CITY}					Дакийский огромный город
+{EMT_DACIA_HUGE_CITY}					Дакийский великий город
+{EMT_GREEK_VILLAGE}					Греческая деревня
+{EMT_GREEK_TOWN}					Греческий город
+{EMT_GREEK_LARGE_TOWN}					Греческий крупный город
+{EMT_GREEK_CITY}					Греческий большой город
+{EMT_GREEK_LARGE_CITY}					Греческий огромный город
+{EMT_GREEK_HUGE_CITY}					Греческий великий город
+{EMT_NUMIDIA_VILLAGE}					Нумидийская деревня
+{EMT_NUMIDIA_TOWN}					Нумидийский город
+{EMT_NUMIDIA_LARGE_TOWN}					Нумидийский крупный город
+{EMT_NUMIDIA_CITY}					Нумидийский большой город
+{EMT_NUMIDIA_LARGE_CITY}					Нумидийский огромный город
+{EMT_NUMIDIA_HUGE_CITY}					Нумидийский великий город
+{EMT_SCYTHIA_VILLAGE}					Скифская деревня
+{EMT_SCYTHIA_TOWN}					Скифский город
+{EMT_SCYTHIA_LARGE_TOWN}					Скифский крупный город
+{EMT_SCYTHIA_CITY}					Скифский большой город
+{EMT_SCYTHIA_LARGE_CITY}					Скифский огромный город
+{EMT_SCYTHIA_HUGE_CITY}					Скифский великий город
+{EMT_SPAIN_VILLAGE}					Испанская деревня
+{EMT_SPAIN_TOWN}					Испанский город
+{EMT_SPAIN_LARGE_TOWN}					Испанский крупный город
+{EMT_SPAIN_CITY}					Испанский большой город
+{EMT_SPAIN_LARGE_CITY}					Испанский огромный город
+{EMT_SPAIN_HUGE_CITY}					Испанский великий город
+{EMT_THRACE_VILLAGE}					Фракийская деревня
+{EMT_THRACE_TOWN}					Фракийский город
+{EMT_THRACE_LARGE_TOWN}					Фракийский крупный город
+{EMT_THRACE_CITY}					Фракийский большой город
+{EMT_THRACE_LARGE_CITY}					Фракийский огромный город
+{EMT_THRACE_HUGE_CITY}					Фракийский великий город
+{EMT_SLAVE_VILLAGE}					Мятежная деревня
+{EMT_SLAVE_TOWN}					Мятежный город
+{EMT_SLAVE_LARGE_TOWN}					Мятежный крупный город
+{EMT_SLAVE_CITY}					Мятежный большой город
+{EMT_SLAVE_LARGE_CITY}					Мятежный огромный город
+{EMT_SLAVE_HUGE_CITY}					Мятежный великий город
+{EMT_ROMAN_JULII_CAPITAL}					Римская столица (Юлии)
+{EMT_ROMAN_BRUTII_CAPITAL}					Римская столица (Бруты)
+{EMT_ROMAN_SCIPII_CAPITAL}					Римская столица (Сципионы)
+{EMT_ROMAN_SENATE_CAPITAL}					Римская столица (Сенат)
+{EMT_MACEDON_CAPITAL}					Македонская столица
+{EMT_EGYPT_CAPITAL}					Египетская столица
+{EMT_SELEUCID_CAPITAL}					Селевкидская столица
+{EMT_CARTHAGE_CAPITAL}					Карфагенская столица
+{EMT_PARTHIA_CAPITAL}					Парфянская столица
+{EMT_PONTUS_CAPITAL}					Понтийская столица
+{EMT_GAULS_CAPITAL}					Галльская столица
+{EMT_GERMAN_CAPITAL}					Германская столица
+{EMT_BRITON_CAPITAL}					Британская столица
+{EMT_ARMENIA_CAPITAL}					Армянская столица
+{EMT_DACIA_CAPITAL}					Дакийская столица
+{EMT_GREEK_CAPITAL}					Греческая столица
+{EMT_NUMIDIA_CAPITAL}					Нумидийская столица
+{EMT_SCYTHIA_CAPITAL}					Скифская столица
+{EMT_SPAIN_CAPITAL}					Испанская столица
+{EMT_THRACE_CAPITAL}					Фракийская столица
+{EMT_SLAVE_CAPITAL}					Мятежная столица
+{EMT_ROMAN_JULII_FORT}					Римский форт (Юлии)
+{EMT_ROMAN_BRUTII_FORT}					Римский форт (Бруты)
+{EMT_ROMAN_SCIPII_FORT}					Римский форт (Сципионы)
+{EMT_ROMAN_SENATE_FORT}					Римский форт (Сенат)
+{EMT_MACEDON_FORT}					Македонский форт
+{EMT_EGYPT_FORT}					Египетский форт
+{EMT_SELEUCID_FORT}					Селевкидский форт
+{EMT_CARTHAGE_FORT}					Карфагенский форт
+{EMT_PARTHIA_FORT}					Парфянский форт
+{EMT_PONTUS_FORT}					Понтийский форт
+{EMT_GAULS_FORT}					Галльский форт
+{EMT_GERMAN_FORT}					Германский форт
+{EMT_BRITON_FORT}					Британский форт
+{EMT_ARMENIA_FORT}					Армянский форт
+{EMT_DACIA_FORT}					Дакийский форт
+{EMT_GREEK_FORT}					Греческий форт
+{EMT_NUMIDIA_FORT}					Нумидийский форт
+{EMT_SCYTHIA_FORT}					Скифский форт
+{EMT_SPAIN_FORT}					Испанский форт
+{EMT_THRACE_FORT}					Фракийский форт
+{EMT_SLAVE_FORT}					Мятежный форт
+{EMT_ROMAN_JULII_PORT}					Римский порт (Юлии)
+{EMT_ROMAN_BRUTII_PORT}					Римский порт (Бруты)
+{EMT_ROMAN_SCIPII_PORT}					Римский порт (Сципионы)
+{EMT_ROMAN_SENATE_PORT}					Римский порт (Сенат)
+{EMT_MACEDON_PORT}					Македонский порт
+{EMT_EGYPT_PORT}					Египетский порт
+{EMT_SELEUCID_PORT}					Селевкидский порт
+{EMT_CARTHAGE_PORT}					Карфагенский порт
+{EMT_PARTHIA_PORT}					Парфянский порт
+{EMT_PONTUS_PORT}					Понтийский порт
+{EMT_GAULS_PORT}					Галльский порт
+{EMT_GERMAN_PORT}					Германский порт
+{EMT_BRITON_PORT}					Британский порт
+{EMT_ARMENIA_PORT}					Армянский порт
+{EMT_DACIA_PORT}					Дакийский порт
+{EMT_GREEK_PORT}					Греческий порт
+{EMT_NUMIDIA_PORT}					Нумидийский порт
+{EMT_SCYTHIA_PORT}					Скифский порт
+{EMT_SPAIN_PORT}					Испанский порт
+{EMT_THRACE_PORT}					Фракийский порт
+{EMT_SLAVE_PORT}					Мятежный порт
+{EMT_ROMAN_JULII_DOCK}					Римские верфи (Юлии)
+{EMT_ROMAN_BRUTII_DOCK}					Римские верфи (Бруты)
+{EMT_ROMAN_SCIPII_DOCK}					Римские верфи (Сципионы)
+{EMT_ROMAN_SENATE_DOCK}					Римские верфи (Сенат)
+{EMT_MACEDON_DOCK}					Македонские верфи
+{EMT_EGYPT_DOCK}					Египетские верфи
+{EMT_SELEUCID_DOCK}					Селевкидские верфи
+{EMT_CARTHAGE_DOCK}					Карфагенские верфи
+{EMT_PARTHIA_DOCK}					Парфянские верфи
+{EMT_PONTUS_DOCK}					Понтийские верфи
+{EMT_GAULS_DOCK}					Галльские верфи
+{EMT_GERMAN_DOCK}					Германские верфи
+{EMT_BRITON_DOCK}					Британские верфи
+{EMT_ARMENIA_DOCK}					Армянские верфи
+{EMT_DACIA_DOCK}					Дакийские верфи
+{EMT_GREEK_DOCK}					Греческие верфи
+{EMT_NUMIDIA_DOCK}					Нумидийские верфи
+{EMT_SCYTHIA_DOCK}					Скифские верфи
+{EMT_SPAIN_DOCK}					Испанские верфи
+{EMT_THRACE_DOCK}					Фракийские верфи
+{EMT_SLAVE_DOCK}					Мятежные верфи
+{EMT_ROMAN_JULII_FISHING_VILLAGE}					Римская рыбачья деревня (Юлии)
+{EMT_ROMAN_BRUTII_FISHING_VILLAGE}					Римская рыбачья деревня (Бруты)
+{EMT_ROMAN_SCIPII_FISHING_VILLAGE}					Римская рыбачья деревня (Сципионы)
+{EMT_ROMAN_SENATE_FISHING_VILLAGE}					Римская рыбачья деревня (Сенат)
+{EMT_MACEDON_FISHING_VILLAGE}					Македонская рыбачья деревня
+{EMT_EGYPT_FISHING_VILLAGE}					Египетская рыбачья деревня
+{EMT_SELEUCID_FISHING_VILLAGE}					Селевкидская рыбачья деревня
+{EMT_CARTHAGE_FISHING_VILLAGE}					Карфагенская рыбачья деревня
+{EMT_PARTHIA_FISHING_VILLAGE}					Парфянская рыбачья деревня
+{EMT_PONTUS_FISHING_VILLAGE}					Понтийская рыбачья деревня
+{EMT_GAULS_FISHING_VILLAGE}					Галльская рыбачья деревня
+{EMT_GERMAN_FISHING_VILLAGE}					Германская рыбачья деревня
+{EMT_BRITON_FISHING_VILLAGE}					Британская рыбачья деревня
+{EMT_ARMENIA_FISHING_VILLAGE}					Армянская рыбачья деревня
+{EMT_DACIA_FISHING_VILLAGE}					Дакийская рыбачья деревня
+{EMT_GREEK_FISHING_VILLAGE}					Греческая рыбачья деревня
+{EMT_NUMIDIA_FISHING_VILLAGE}					Нумидийская рыбачья деревня
+{EMT_SCYTHIA_FISHING_VILLAGE}					Скифская рыбачья деревня
+{EMT_SPAIN_FISHING_VILLAGE}					Испанская рыбачья деревня
+{EMT_THRACE_FISHING_VILLAGE}					Фракийская рыбачья деревня
+{EMT_SLAVE_FISHING_VILLAGE}					Мятежная рыбачья деревня
+{EMT_ROMAN_JULII_WATCHTOWER}					Римская сторожевая башня (Юлии)
+{EMT_ROMAN_BRUTII_WATCHTOWER}					Римская сторожевая башня (Бруты)
+{EMT_ROMAN_SCIPII_WATCHTOWER}					Римская сторожевая башня (Сципионы)
+{EMT_ROMAN_SENATE_WATCHTOWER}					Римская сторожевая башня (Сенат)
+{EMT_MACEDON_WATCHTOWER}					Македонская сторожевая башня
+{EMT_EGYPT_WATCHTOWER}					Египетская сторожевая башня
+{EMT_SELEUCID_WATCHTOWER}					Селевкидская сторожевая башня
+{EMT_CARTHAGE_WATCHTOWER}					Карфагенская сторожевая башня
+{EMT_PARTHIA_WATCHTOWER}					Парфянская сторожевая башня
+{EMT_PONTUS_WATCHTOWER}					Понтийская сторожевая башня
+{EMT_GAULS_WATCHTOWER}					Галльская сторожевая башня
+{EMT_GERMAN_WATCHTOWER}					Германская сторожевая башня
+{EMT_BRITON_WATCHTOWER}					Британская сторожевая башня
+{EMT_ARMENIA_WATCHTOWER}					Армянская сторожевая башня
+{EMT_DACIA_WATCHTOWER}					Дакийская сторожевая башня
+{EMT_GREEK_WATCHTOWER}					Греческая сторожевая башня
+{EMT_NUMIDIA_WATCHTOWER}					Нумидийская сторожевая башня
+{EMT_SCYTHIA_WATCHTOWER}					Скифская сторожевая башня
+{EMT_SPAIN_WATCHTOWER}					Испанская сторожевая башня
+{EMT_THRACE_WATCHTOWER}					Фракийская сторожевая башня
+{EMT_SLAVE_WATCHTOWER}					Мятежная сторожевая башня
+{EMT_ROMAN_JULII_FACTION_LEADER}					Римскийправитель фракции (Юлии) 
+{EMT_ROMAN_BRUTII_FACTION_LEADER}					Римский правитель фракции (Бруты)
+{EMT_ROMAN_SCIPII_FACTION_LEADER}					Римский правитель фракции (Сципионы)
+{EMT_ROMAN_SENATE_FACTION_LEADER}					Римский правитель фракции (Сенат)
+{EMT_MACEDON_FACTION_LEADER}					Македонский правитель фракции
+{EMT_EGYPT_FACTION_LEADER}					Египетский правитель фракции
+{EMT_SELEUCID_FACTION_LEADER}					Селевкидский правитель фракции
+{EMT_CARTHAGE_FACTION_LEADER}					Карфагенский правитель фракции
+{EMT_PARTHIA_FACTION_LEADER}					Парфянский правитель фракции
+{EMT_PONTUS_FACTION_LEADER}					Понтийский правитель фракции
+{EMT_GAULS_FACTION_LEADER}					Галльский правитель фракции
+{EMT_GERMAN_FACTION_LEADER}					Германский правитель фракции
+{EMT_BRITON_FACTION_LEADER}					Британский правитель фракции
+{EMT_ARMENIA_FACTION_LEADER}					Армянский правитель фракции
+{EMT_DACIA_FACTION_LEADER}					Дакийский правитель фракции
+{EMT_GREEK_FACTION_LEADER}					Греческий правитель фракции
+{EMT_NUMIDIA_FACTION_LEADER}					Нумидийский правитель фракции
+{EMT_SCYTHIA_FACTION_LEADER}					Скифский правитель фракции
+{EMT_SPAIN_FACTION_LEADER}					Испанский правитель фракции
+{EMT_THRACE_FACTION_LEADER}					Фракийский правитель фракции
+{EMT_SLAVE_FACTION_LEADER}					Мятежный правитель фракции
+{EMT_ROMAN_JULII_FACTION_HEIR}					Римский преемник фракции (Юлии)
+{EMT_ROMAN_BRUTII_FACTION_HEIR}					Римский преемник фракции (Бруты)
+{EMT_ROMAN_SCIPII_FACTION_HEIR}					Римский преемник фракции (Сципионы)
+{EMT_ROMAN_SENATE_FACTION_HEIR}					Римский преемник фракции (Сенат)
+{EMT_MACEDON_FACTION_HEIR}					Македонский преемник фракции
+{EMT_EGYPT_FACTION_HEIR}					Египетский преемник фракции
+{EMT_SELEUCID_FACTION_HEIR}					Селевкидский преемник фракции
+{EMT_CARTHAGE_FACTION_HEIR}					Карфагенский преемник фракции
+{EMT_PARTHIA_FACTION_HEIR}					Парфянский преемник фракции
+{EMT_PONTUS_FACTION_HEIR}					Понтийский преемник фракции
+{EMT_GAULS_FACTION_HEIR}					Галльский преемник фракции
+{EMT_GERMAN_FACTION_HEIR}					Германский преемник фракции
+{EMT_BRITON_FACTION_HEIR}					Британский преемник фракции
+{EMT_ARMENIA_FACTION_HEIR}					Армянский преемник фракции
+{EMT_DACIA_FACTION_HEIR}					Дакийский преемник фракции
+{EMT_GREEK_FACTION_HEIR}					Греческий преемник фракции
+{EMT_NUMIDIA_FACTION_HEIR}					Нумидийский преемник фракции
+{EMT_SCYTHIA_FACTION_HEIR}					Скифский преемник фракции
+{EMT_SPAIN_FACTION_HEIR}					Испанский преемник фракции
+{EMT_THRACE_FACTION_HEIR}					Фракийский преемник фракции
+{EMT_SLAVE_FACTION_HEIR}					Мятежный преемник фракции
+{EMT_YOUR_FORCES_ATTACK_ARMY_JULII}					Ваши силы атаковали армию Юлиев
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRUTII}					Ваши силы атаковали армию Брутов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCIPII}					Ваши силы атаковали армию Сципионов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SENATE}					Ваши силы атаковали армию Сената
+{EMT_YOUR_FORCES_ATTACK_ARMY_MACEDON}					Ваши войска атаковали армию Македонии
+{EMT_YOUR_FORCES_ATTACK_ARMY_EGYPT}					Ваши войска атаковали армию Египта
+{EMT_YOUR_FORCES_ATTACK_ARMY_SELEUCID}					Ваши силы атаковали войска империи Селевкидов
+{EMT_YOUR_FORCES_ATTACK_ARMY_CARTHAGE}					Ваши войска атаковали армию Карфагена
+{EMT_YOUR_FORCES_ATTACK_ARMY_PARTHIA}					Ваши войска атаковали армию Парфии
+{EMT_YOUR_FORCES_ATTACK_ARMY_PONTUS}					Ваши войска атаковали армию Понта
+{EMT_YOUR_FORCES_ATTACK_ARMY_GAUL}					Ваши войска атаковали армию галлов
+{EMT_YOUR_FORCES_ATTACK_ARMY_GERMAN}					Ваши войска атаковали армию германцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRITON}					Ваши войска атаковали армию британцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_ARMENIA}					Ваши войска атаковали армию Армении
+{EMT_YOUR_FORCES_ATTACK_ARMY_DACIA}					Ваши войска атаковали армию Дакии
+{EMT_YOUR_FORCES_ATTACK_ARMY_GREEK}					Ваши силы атаковали войска греческих городов
+{EMT_YOUR_FORCES_ATTACK_ARMY_NUMIDIA}					Ваши войска атаковали армию Нумидии
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCYTHIA}					Ваши войска атаковали армию скифов
+{EMT_YOUR_FORCES_ATTACK_ARMY_SPAIN}					Ваши войска атаковали армию испанцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_THRACE}					Ваши войска атаковали армию фракийцев
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVE}					Ваши войска атаковали армию мятежников
+{EMT_YOUR_FORCES_ATTACK_NAVY_JULII}					Ваши войска атаковали флот Юлиев
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRUTII}					Ваши войска атаковали флот Брутов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCIPII}					Ваши войска атаковали флот Сципионов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SENATE}					Ваши войска атаковали флот Сената
+{EMT_YOUR_FORCES_ATTACK_NAVY_MACEDON}					Ваши войска атаковали флот Македонии
+{EMT_YOUR_FORCES_ATTACK_NAVY_EGYPT}					Ваши войска атаковали флот Египта
+{EMT_YOUR_FORCES_ATTACK_NAVY_SELEUCID}					Ваши войска атаковали флот империи Селевкидов
+{EMT_YOUR_FORCES_ATTACK_NAVY_CARTHAGE}					Ваши войска атаковали флот Карфагена
+{EMT_YOUR_FORCES_ATTACK_NAVY_PARTHIA}					Ваши войска атаковали флот Парфии
+{EMT_YOUR_FORCES_ATTACK_NAVY_PONTUS}					Ваши войска атаковали флот Понта
+{EMT_YOUR_FORCES_ATTACK_NAVY_GAUL}					Ваши войска атаковали флот галлов
+{EMT_YOUR_FORCES_ATTACK_NAVY_GERMAN}					Ваши войска атаковали флот германцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRITON}					Ваши войска атаковали флот британцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_ARMENIA}					Ваши войска атаковали флот Армении
+{EMT_YOUR_FORCES_ATTACK_NAVY_DACIA}					Ваши войска атаковали флот Дакии
+{EMT_YOUR_FORCES_ATTACK_NAVY_GREEK}					Ваши войска атаковали флот греческих городов
+{EMT_YOUR_FORCES_ATTACK_NAVY_NUMIDIA}					Ваши войска атаковали флот Нумидии
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCYTHIA}					Ваши войска атаковали флот скифов
+{EMT_YOUR_FORCES_ATTACK_NAVY_SPAIN}					Ваши войска атаковали флот испанцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_THRACE}					Ваши войска атаковали флот фракийцев
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVE}					Ваши войска атаковали флот мятежников
+{EMT_YOUR_FORCES_AMBUSH_ARMY_JULII}					Ваши войска напали из засады на силы Юлиев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRUTII}					Ваши войска напали из засады на силы Брутов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCIPII}					Ваши войска напали из засады на силы Сципионов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SENATE}					Ваши войска напали из засады на силы Сената
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MACEDON}					Ваши войска напали из засады на силы Македонии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EGYPT}					Ваши войска напали из засады на силы Египта
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SELEUCID}					Ваши войска напали из засады на силы империи Селевкидов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CARTHAGE}					Ваши войска напали из засады на силы Карфагена
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PARTHIA}					Ваши войска напали из засады на силы Парфии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PONTUS}					Ваши войска напали из засады на силы Понта
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GAUL}					Ваши войска напали из засады на силы галлов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GERMAN}					Ваши войска напали из засады на силы германцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRITON}					Ваши войска напали из засады на силы британцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ARMENIA}					Ваши войска напали из засады на силы Армении
+{EMT_YOUR_FORCES_AMBUSH_ARMY_DACIA}					Ваши войска напали из засады на силы Дакии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GREEK}					Ваши войска напали из засады на силы греческих городов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_NUMIDIA}					Ваши войска напали из засады на силы Нумидии
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCYTHIA}					Ваши войска напали из засады на силы скифов
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SPAIN}					Ваши войска напали из засады на силы испанцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_THRACE}					Ваши войска напали из засады на силы фракийцев
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVE}					Ваши войска напали из засады на силы мятежников
+{EMT_YOUR_FORCES_ATTACKED_ARMY_JULII}					Ваши войска атакованы силами Юлиев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRUTII}					Ваши войска атакованы силами Брутов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCIPII}					Ваши войска атакованы силами Сципионов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SENATE}					Ваши войска атакованы силами Сената
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MACEDON}					Ваши войска атакованы силами Македонии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EGYPT}					Ваши войска атакованы силами Египта
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SELEUCID}					Ваши войска атакованы силами империи Селевкидов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CARTHAGE}					Ваши войска атакованы силами Карфагена
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PARTHIA}					Ваши войска атакованы силами Парфии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PONTUS}					Ваши войска атакованы силами Понта
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GAUL}					Ваши войска атакованы силами галлов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GERMAN}					Ваши войска атакованы силами германцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRITON}					Ваши войска атакованы силами британцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ARMENIA}					Ваши войска атакованы силами Армении
+{EMT_YOUR_FORCES_ATTACKED_ARMY_DACIA}					Ваши войска атакованы силами Дакии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GREEK}					Ваши войска атакованы силами греческих городов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_NUMIDIA}					Ваши войска атакованы силами Нумидии
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCYTHIA}					Ваши войска атакованы силами скифов
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SPAIN}					Ваши войска атакованы силами испанцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_THRACE}					Ваши войска атакованы силами фракийцев
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVE}					Ваши войска атакованы силами мятежников
+{EMT_YOUR_FORCES_ATTACKED_NAVY_JULII}					Ваши войска атакованы флотом Юлиев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRUTII}					Ваши войска атакованы флотом Брутов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCIPII}					Ваши войска атакованы флотом Сципионов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SENATE}					Ваши войска атакованы флотом Сената
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MACEDON}					Ваши войска атакованы флотом Македонии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EGYPT}					Ваши войска атакованы флотом Египта
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SELEUCID}					Ваши войска атакованы флотом империи Селевкидов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CARTHAGE}					Ваши войска атакованы флотом Карфагена
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PARTHIA}					Ваши войска атакованы флотом Парфии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PONTUS}					Ваши войска атакованы флотом Понта
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GAUL}					Ваши войска атакованы флотом галлов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GERMAN}					Ваши войска атакованы флотом германцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRITON}					Ваши войска атакованы флотом британцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ARMENIA}					Ваши войска атакованы флотом Армении
+{EMT_YOUR_FORCES_ATTACKED_NAVY_DACIA}					Ваши войска атакованы флотом Дакии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GREEK}					Ваши войска атакованы флотом греческих городов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_NUMIDIA}					Ваши войска атакованы флотом Нумидии
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCYTHIA}					Ваши войска атакованы флотом скифов
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SPAIN}					Ваши войска атакованы флотом испанцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_THRACE}					Ваши войска атакованы флотом фракийцев
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVE}					Ваши войска атакованы флотом мятежников
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_JULII}					Ваша армия попала в засаду, устроенную войсками Юлиев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRUTII}					Ваша армия попала в засаду, устроенную войсками Брутов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCIPII}					Ваша армия попала в засаду, устроенную войсками Сципионов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SENATE}					Ваша армия попала в засаду, устроенную войсками Сената
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MACEDON}					Ваша армия попала в засаду, устроенную войсками Македонии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EGYPT}					Ваша армия попала в засаду, устроенную войсками Египта
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SELEUCID}					Ваша армия попала в засаду, устроенную войсками империи Селевкидов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CARTHAGE}					Ваша армия попала в засаду, устроенную войсками Карфагена
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PARTHIA}					Ваша армия попала в засаду, устроенную войсками Парфии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PONTUS}					Ваша армия попала в засаду, устроенную войсками Понта
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GAUL}					Ваша армия попала в засаду, устроенную войсками галлов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GERMAN}					Ваша армия попала в засаду, устроенную войсками германцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRITON}					Ваша армия попала в засаду, устроенную войсками британцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ARMENIA}					Ваша армия попала в засаду, устроенную войсками Армении
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_DACIA}					Ваша армия попала в засаду, устроенную войсками Дакии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GREEK}					Ваша армия попала в засаду, устроенную войсками греческих городов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_NUMIDIA}					Ваша армия попала в засаду, устроенную войсками Нумидии
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCYTHIA}					Ваша армия попала в засаду, устроенную войсками скифов
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SPAIN}					Ваша армия попала в засаду, устроенную войсками испанцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_THRACE}					Ваша армия попала в засаду, устроенную войсками фракийцев
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVE}					Ваша армия попала в засаду, устроенную войсками мятежников
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{EMT_VICTORY_JULII}		Дом Юлиев победоносен
+{EMT_VICTORY_BRUTII}		Дом Брутов победоносен
+{EMT_VICTORY_SCIPII}		Дом Сципионов победоносен
+{EMT_VICTORY_SENATE}		Сенат и народ Рима победоносны
+{EMT_VICTORY_MACEDON}		Македонцы победоносны
+{EMT_VICTORY_EGYPT}		Египтяне победоносны
+{EMT_VICTORY_SELEUCID}		Селевкиды победоносны
+{EMT_VICTORY_CARTHAGE}		Карфагеняне победоносны
+{EMT_VICTORY_PARTHIA}		Парфяне победоносны
+{EMT_VICTORY_PONTUS}		Понтийцы победоносны
+{EMT_VICTORY_GAUL}		Галлы победоносны
+{EMT_VICTORY_GERMAN}		Германцы победоносны
+{EMT_VICTORY_BRITON}		Британцы победоносны
+{EMT_VICTORY_ARMENIA}		Армяне победоносны
+{EMT_VICTORY_DACIA}		Дакийцы победоносны
+{EMT_VICTORY_GREEK}		Греки победоносны
+{EMT_VICTORY_NUMIDIA}		Нумидийцы победоносны
+{EMT_VICTORY_SCYTHIA}		Скифы победоносны
+{EMT_VICTORY_SPAIN}		Испанцы победоносны
+{EMT_VICTORY_THRACE}		Фракийцы победоносны
+{EMT_VICTORY_SLAVE}		Мятежники победоносны
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

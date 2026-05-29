@@ -1,0 +1,29 @@
+<sprite_definitions version="7">
+  <page file="editor_battle01.tga" w="256" h="256">
+    <sprite name="CREATE_ARMY" x="39" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="ADD_UNITS" x="76" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_HEIGHTS" x="150" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_TEXTURES" x="187" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_VEGETATION" x="150" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_TOWN_PLAN" x="2" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_RIGID_MODEL" x="39" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CONDITIONS" x="76" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_DEPLOYMENT_AREAS" x="113" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_BATTLE_OPTIONS" x="2" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_JIGSAW_PIECES" x="113" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_BATTLE_OPTIONS_DISABLED" x="2" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="CREATE_ARMY_DISABLED" x="39" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="ADD_UNITS_DISABLED" x="76" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_HEIGHTS_DISABLED" x="150" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_TEXTURES_DISABLED" x="187" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_VEGETATION_DISABLED" x="150" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_TOWN_PLAN_DISABLED" x="2" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_RIGID_MODEL_DISABLED" x="39" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CONDITIONS_DISABLED" x="76" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_DEPLOYMENT_AREAS_DISABLED" x="113" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_JIGSAW_PIECES_DISABLED" x="113" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_DEPLOYMENT_AREA_MODIFIER" x="225" y="2" w="24" h="19" alpha="1"/>
+    <sprite name="PLACE_TILE_MODIFIER" x="225" y="22" w="24" h="14" alpha="1"/>
+    <sprite name="PLACE_SPECIAL_PIECE_MODIFIER" x="225" y="37" w="15" h="22" alpha="1"/>
+  </page>
+</sprite_definitions>

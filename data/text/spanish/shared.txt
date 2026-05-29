@@ -1,0 +1,668 @@
+¬ Text file converted with loc_parser
+{ST_JULII}					Los Julios
+{ST_BRUTII}					Los Brutos
+{ST_SCIPII}					Los Escipiones
+{ST_SENATE}					S.P.Q.R.
+{ST_MACEDON}					Macedonia
+{ST_EGYPT}					Egipto
+{ST_SELEUCID}					El imperio seléucida
+{ST_CARTHAGE}					Cartago
+{ST_PARTHIA}					Partia
+{ST_PONTUS}					Ponto
+{ST_GAULS}					La Galia
+{ST_GERMANS}					Germania
+{ST_BRITONS}					Britania
+{ST_ARMENIA}					Armenia
+{ST_DACIA}					Dacia
+{ST_GREEK_CITIES}					Las polis griegas
+{ST_NUMIDIA}					Numidia
+{ST_SCYTHIA}					Escitia
+{ST_SPAIN}					Hispania
+{ST_THRACE}					Tracia
+{ST_SLAVES}					Rebeldes
+{ST_YES}					Sí
+{ST_NO}					No
+{ST_ACCEPT}					Aceptar
+{ST_DECLINE}					Rechazar
+{ST_CONTINUE}					Continuar
+{ST_FACTION}					Facción
+{ST_DEFEAT_CLOSE}					DERROTA AJUSTADA
+{ST_DEFEAT_AVERAGE}					DERROTA NORMAL
+{ST_DEFEAT_CLEAR}					DERROTA CLARA
+{ST_DEFEAT_CRUSHING}					DERROTA APLASTANTE
+{ST_VICTORY_DRAW}					TABLAS
+{ST_VICTORY_CLOSE}					VICTORIA AJUSTADA
+{ST_VICTORY_AVERAGE}					VICTORIA NORMAL
+{ST_VICTORY_CLEAR}					VICTORIA CLARA
+{ST_VICTORY_CRUSHING}					VICTORIA ÉPICA
+{ST_BATTLE_NO_RESULT}					SIN RESOLVER
+{ST_COHORT}					Cohorte
+{ST_UNIT_TYPE}					Tipo de unidad
+{ST_EXPERIENCE}					Experiencia
+{ST_CASUALTIES}					Bajas
+{ST_GAINED}					obtenida
+{ST_INFLICTED}					causadas
+{ST_SUSTAINED}					sufridas
+{ST_HEALED}					curadas
+{ST_MEN_REMAINING}					Supervivientes
+{ST_SHIP}					Nave
+{ST_SHIPS}					Naves
+{ST_TYPE}					Tipo
+{ST_HULL}					Casco
+{ST_DAMAGE}					Daño
+{ST_LIGHT}					leve
+{ST_MEDIUM}					medio
+{ST_HEAVY}					grave
+{ST_SUNK}					Hundida
+{ST_SOUND_OPTIONS}					Opciones de audio
+{ST_MUTE}					Silencio
+{ST_SOUND_MAIN_VOL}					Principal
+{ST_SOUND_SFX_VOL}					Efectos especiales
+{ST_SOUND_MUSIC_VOL}					Música
+{ST_SOUND_SPEECH_VOL}					Voces
+{ST_SOUND_SUBTITLES}					Subtítulos
+{ST_SOUND_ENGLISH}					Inglés
+{ST_GFX_OPTIONS}					Opciones de vídeo
+{ST_GFX_UNIT_DETAIL}					Detalle de unidades
+{ST_GFX_BUILDING_DETAIL}					Detalle de edificios
+{ST_GFX_ANTIALIASING}					Suavizado de bordes
+{ST_GFX_WIDESCREEN}					Pantalla panorámica
+{ST_GFX_SMOKE}					Humo
+{ST_GFX_USE_TNL}					Usar T&L
+{ST_GFX_DUST}					Polvo
+{ST_GFX_REFLECTIONS}					Reflejos
+{ST_GFX_SHADOW_DETAIL}					Detalle de sombras
+{ST_SUPER_LOW}					Muy bajo
+{ST_LOW}					Bajo
+{ST_NORMAL}					Normal
+{ST_HIGH}					Alto
+{ST_SUPER_HIGH}					Muy alto
+{ST_SCREENMODE}					Modo de pantalla
+{ST_LOAD_SUCCESS}					Se ha cargado la partida
+{ST_LOAD_FAILED}					No se ha cargado la partida
+{ST_SAVE_SUCCESS}					Se ha guardado la partida
+{ST_SAVE_FAILED}					No se ha guardado la partida
+{ST_END_GAME}					Salir de la partida
+{ST_LOAD}					Cargar partida
+{ST_SAVE}					Guardar partida
+{ST_RETURN_TO_GAME}					Volver a la partida
+{ST_EXIT_MENU}					Salir del menú
+{ST_CONFIRM_QUIT}					¿Seguro que quieres salir?
+{ST_STATE_FACTION_LEADER}					Líder de la facción
+{ST_STATE_WAS_FACTION_LEADER}					Antiguo líder de la facción
+{ST_STATE_FACTION_HEIR}					Heredero de la facción
+{ST_STATE_IN_SETTLEMENT}					Visitando enclave
+{ST_STATE_ON_SHIP}					Viajando en nave
+{ST_STATE_WITH_ARMY}					Viajando con ejército
+{ST_STATE_SIEGING}					Montando un asedio
+{ST_STATE_AMBUSHING}					Tendiendo una emboscada
+{ST_STATE_CAMPED}					Acampado
+{ST_STATE_ENTRENCHED}					Atrincherado
+{ST_STATE_HEALTH_RISK}					Enfermo
+{ST_STATE_IS_HOSTAGE}					Retenido como rehén
+{ST_STATE_HIDING}					Escondido
+{ST_STATE_ENEMY_TERRITORY}					En territorio enemigo
+{ST_STATE_DIPLOMACY}					Negociando
+{ST_KEYBOARD_SHORTCUTS}					Atajos de teclado
+{ST_TIME_TO_REINFORCE_X_HOURS}					Llegarán al campo de batalla en %d horas
+{ST_ONE_HOUR_TO_REINFORCE}					Llegarán al campo de batalla en 1 hora
+{ST_OR}					o
+{ST_AND}					y
+{ST_COMMAND}					Mando
+{ST_INFLUENCE}					Influencia
+{ST_MANAGEMENT}					Gestión
+{ST_SUBTERFUGE}					Subterfugio
+{ST_DOCTOR}					Médico
+{ST_QUARTERMASTER}					Intendente
+{ST_PRIEST}					Sacerdote
+{ST_SCOUT}					Rastreador
+{ST_ENGINEER}					Ingeniero
+{ST_DOCTORS}					Médicos
+{ST_QUARTERMASTERS}					Intendentes
+{ST_SCOUTS}					Rastreadores
+{ST_ENGINEERS}					Ingenieros
+{ST_PRIESTS}					Sacerdotes
+{ST_TOWERS}					Torres
+{ST_LADDERS}					Escalas
+{ST_RAMS}					Arietes
+{ST_SAPPING}					Zapa
+{ST_SIEGE_TOWER}					Torre de asedio
+{ST_LADDER}					Escala
+{ST_RAM}					Ariete
+{ST_SAP_POINT}					Zapa
+{ST_NAMED_CHARACTER}					Miembro de familia
+{ST_SPY}					Espía
+{ST_ASSASSIN}					Asesino
+{ST_DIPLOMAT}					Diplomático
+{ST_ADMIRAL}					Almirante
+{ST_GENERAL}					Capitán
+{ST_ANCILLARY}					Unidades auxiliares
+{ST_SIEGE_ENGINES}					Máquinas de asedio
+{ST_UNITS}					Unidades
+{ST_CULTURE_ROMAN}					Romanos
+{ST_CULTURE_BARBARIAN}					Bárbaros
+{ST_CULTURE_CARTHAGE}					Cartagineses
+{ST_CULTURE_GREEK}					Griegos
+{ST_CULTURE_EGYPT}					Egipcios
+{ST_CULTURE_EASTERN}					Orientales
+{ST_EDIT_SETTLEMENT}					Editar enclave
+{ST_SELECT_SETTLEMENT_LEVEL}					Nivel
+{ST_FORTIFICATION_LEVEL}					Nivel de fortificación
+{ST_TAX}					Nivel de impuestos
+{ST_POPULATION}					Población
+{ST_FOUNDATION_YEAR}					Año de fundación
+{ST_SELECT_FACTION}					Seleccionar facción
+{ST_VILLAGE}					Aldea
+{ST_TOWN}					Pueblo
+{ST_LARGE_TOWN}					Pueblo grande
+{ST_CITY}					Ciudad
+{ST_LARGE_CITY}					Urbe
+{ST_HUGE_CITY}					Metrópolis
+{ST_FORT}					Fuerte
+{ST_SLOT}					Espacio
+{ST_SELECT_SLOT}					Seleccionar edificios para espacios del enclave
+{ST_NAME}					Nombre
+{ST_GRASS_SHORT}					Prado
+{ST_GRASS_LONG}					Herbazal
+{ST_SAND}					Arena
+{ST_ROCK}					Roca
+{ST_FOREST_DENSE}					Bosque tupido
+{ST_SCRUB_DENSE}					Matorrales tupidos
+{ST_SWAMPY}					Pantano
+{ST_MUD}					Barro
+{ST_MUD_ROAD}					Carretera embarrada
+{ST_STONE_ROAD}					Carretera de piedra
+{ST_WATER}					Agua
+{ST_ICE}					Hielo
+{ST_SNOW}					Nieve
+{ST_ROAD_LEVEL}					Nivel de carreteras
+{ST_ROAD_DIRT}					Carretera de tierra
+{ST_ROAD_STONE}					Carretera de piedra
+{ST_ROAD_STONE_HIGHWAY}					Vía pavimentada
+{ST_X_DENARI}					%d denarios
+{ST_X_BC}					%d a. C.
+{ST_X_AD}					%d d. C.
+{ST_WINTER}					Invierno
+{ST_SPRING}					Primavera
+{ST_SUMMER}					Verano
+{ST_AUTUMN}					Otoño
+{ST_ZOOM_TO_EVENT_POSITION}					Ubicar suceso
+{ST_BATTLE_RESULT}					RESULTADOS DE LA BATALLA
+{ST_MEN_DEPLOYED}					Hombres desplegados
+{ST_KILLS}					Bajas
+{ST_YOUR_ARMY}					Tu ejército
+{ST_ENEMY_ARMY}					Ejército enemigo
+{ST_YOUR_ARMIES}					Tus ejércitos
+{ST_ENEMY_ARMIES}					Ejércitos enemigos
+{ST_TEAM}						Equipo
+{ST_RANK}						Clasificación
+{ST_SHOW_DETAILS}					Mostrar estadísticas de la batalla
+{ST_SAVE_REPLAY}					Guardar repetición de batalla
+{ST_PLAYER}					Jugador
+{ST_ATTACKER}					Atacante
+{ST_DEFENDER}					Defensor
+{ST_ALLIES}					Aliados
+{ST_ENEMY}					Enemigo
+{ST_BATTLE_STATISTICS}					ESTADÍSTICAS DE LA BATALLA
+{ST_MEN}					Hombres
+{ST_DELETE}					Borrar
+{ST_SORT_BY_NAME}					Ordenar por nombre
+{ST_SORT_BY_DATE}					Ordenar por fecha
+{ST_AA2x2}					2x2
+{ST_AA3x3}					3x3
+{ST_AA4x4}					4x4
+{ST_ACCEPT_CHANGES}					Aceptar cambios
+{ST_MOB}					Turba
+{ST_SQUARE}					Cuadro
+{ST_COLUMN}					Columna
+{ST_WEDGE}					Cuña
+{ST_SQUARE_HOLLOW}					Cuadro hueco
+{ST_TESTUDO}					Testudo
+{ST_PHALANX}					Falange
+{ST_WALL}					Muro
+{ST_OVERWRITE_EXPLANATION}					Ese archivo ya existe y se va a sobrescribir. ¿Continuar?
+{ST_EDITOR_QUIT_WARNING}					Has hecho cambios desde la última vez que guardaste, y se perderán si continúas.
+{ST_EXPAND_SCROLL}					Expandir pergamino al máximo
+{ST_COLLAPSE_SCROLL}					Minimizar pergamino
+{ST_EXIT_EDITOR}					Salir del editor
+{ST_ADVISOR_MESSAGE}					Mensaje del consejero
+{ST_DONT_SHOW_TIP}					No volver a mostrar este consejo
+{ST_OK}					Aceptar
+{ST_MORE}					Más...
+{ST_BACK}					Atrás
+{ST_QUESTION_MARK}					¿?
+{ST_REBEL_FACTION}					Facción rebelde
+{ST_ZOOM_TO_ADVICE}					Mostrar ubicación de este elemento
+{ST_SHOW_SCROLL_HELP}						Mostrar ayuda para este pergamino
+{ST_NONE}	Ninguna
+{ST_CTRL}	Ctrl
+{ST_SHIFT}	Mayús
+{ST_ALT}	Alt
+{ST_ANY}	Cualquiera
+{ST_THE_SEA}	El mar
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_SHOW_FURTHER_DETAILS}		Ver información detallada
+{ST_DIRT}					Mugre
+{ST_ADVISOR_BUTTON_DISMISS}		Despedir consejero [ESC]
+{ST_ADVISOR_BUTTON_SHOW_ME}		Muéstramelo
+{ST_ADVISOR_BUTTON_TOGGLE_BUBBLE}	Cambiar la visibilidad del consejero
+{ST_ADVISOR_BUTTON_ZOOM_TO}		Mostrar ubicación o evento
+{ST_VICTORY}				Victoria
+{ST_DEFEAT}					Derrota
+{ST_SCREENMODE}				Resolución
+{ST_SHOW_BATTLE_RESULT}			Ver resultado de la batalla
+{ST_GAME_OPTIONS}				Opciones de juego
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_SHOW_RTM}				Mostrar película
+{ST_RESET_ADVICE}				REINICIAR CONSEJERO
+{ST_VIDEO_DETAIL_NONE}			Ninguno
+{ST_VIDEO_DETAIL_LOW}			Bajo
+{ST_VIDEO_DETAIL_MEDIUM}		Medio
+{ST_VIDEO_DETAIL_HIGH}			Alto
+{ST_GAME_OPTIONS_REVOLTS}		Revueltas
+{ST_GAME_OPTIONS_BARBARIANS}		Horda bárbara
+{ST_GAME_OPTIONS_DISASTERS}		Desastres
+{ST_GAME_OPTIONS_RANDOM_HARVEST}	Cosechas aleatorias
+{ST_GAME_OPTIONS_CHARACTER_AGING}	Envejecimiento de personajes
+{ST_FACTION_SELECT_ARCADE_BATTLES}	Batallas arcade
+{ST_GAME_OPTIONS_TIME_LIMIT}		Sin límite de tiempo en batallas de campaña
+{ST_GAME_OPTIONS_TITLE}			Ajustes del juego
+{ST_FACTION_SELECT_ADVISOR_LEVEL}	Nivel de consejos
+{ST_GAME_OPTIONS_CAMPAIGN_SETTINGS}	Ajustes de campaña
+{ST_GAME_OPTIONS_REALISM}		Ajustes de realismo
+{ST_GAME_OPTIONS_RESTRICT}		Restringir cámara
+{ST_GAME_OPTIONS_DEFAULT_CAMERA}	Cámara Total War
+{ST_GAME_OPTIONS_GENERAL_CAMERA}	Cámara del general
+{ST_GAME_OPTIONS_RTS_CAMERA}		Cámara estrategia en tiempo real
+{ST_GAME_OPTIONS_CAMERA_MODE}		Modo de cámara
+{ST_GAME_OPTIONS_ROTATE_CAMERA}	Velocidad de rotación de cámara
+{ST_GAME_OPTIONS_MOVE_CAMERA}		Velocidad de movimiento de cámara
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_RESET_ADVICE}				Reiniciar consejero
+{ST_SCORED_VICTORY}				Victorias por mayor puntuación
+{ST_GFX_OPTIONS}				Opciones de vídeo
+{ST_AA2x2}					Bajo
+{ST_AA3x3}					Medio
+{ST_AA4x4}					Alto
+{ST_SOUND_OPTIONS}				Opciones de audio
+{ST_ANCILLARY}					Séquito
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_ADVISOR_BUTTON_ENABLE_TEXT_DISABLE_VOICE}		Voz y textos del consejero\nAlternar: eliminar la voz del consejero
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_AND_TEXT}			Solo voz del consejero\n Alternar: mostrar los textos de los consejos
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT}		Solo textos del consejero\nAlternar: solo la voz del consejero
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_X_DENARI}					%d denarios
+{ST_WOODEN_GATE}					Portón de madera
+{ST_REINFORCED_GATE}				Portón reforzado
+{ST_IRON_GATE}					Portón de hierro
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_LOW}			Inferior
+{ST_NORMAL}			Bajo
+{ST_HIGH}			Medio
+{ST_SUPER_HIGH}		Alto
+{ST_UTRA_HIGH}		Superior
+{ST_AUTOSAVE}		Autoguardado
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_CATAPULT}		Onagro
+{ST_CATAPULTS}		Onagros
+{ST_BALLISTA}		Balista
+{ST_BALLISTAS}		Balistas
+{ST_SCORPION}		Escorpión
+{ST_SCORPIONS}		Escorpiones
+{ST_GFX_SHADOW_DETAIL}	Sombras de gran calidad
+{ST_GFX_SMOKE}		Humo/polvo
+{ST_GFX_REFLECTIONS}	Reflejos/destellos
+{ST_MUTE}			Quitar la música
+{ST_MUTE_SOUND}		Quitar efectos de sonido
+{ST_GFX_VEGETATION}	Vegetación/hierba
+{ST_GFX_DESYNC_MEN}	Desincronizar animaciones
+{ST_SOUND_PROVIDER}	Proveedor de sonido
+{ST_JANUARY}		enero
+{ST_FEBRUARY}		febrero
+{ST_MARCH}			marzo
+{ST_APRIL}			abril
+{ST_MAY}			mayo
+{ST_JUNE}			junio
+{ST_JULY}			julio
+{ST_AUGUST}			agosto
+{ST_SEPTEMBER}		septiembre
+{ST_OCTOBER}		octubre
+{ST_NOVEMBER}		noviembre
+{ST_DECEMBER}		diciembre
+{ST_MONDAY}			Lunes
+{ST_TUESDAY}		Martes
+{ST_WEDNESDAY}		Miércoles
+{ST_THURSDAY}		Jueves
+{ST_FRIDAY}			Viernes
+{ST_SATURDAY}		Sábado
+{ST_SUNDAY}			Domingo
+{ST_AM_UPPER}		AM
+{ST_AM_LOWER}		am
+{ST_PM_UPPER}		PM
+{ST_PM_LOWER}		pm
+{ST_FILE_SAVE_RESULT_FAIL}		Error de escritura sin especificar
+{ST_FILE_SAVE_RESULT_FAIL_NO_CREATE}	No se ha podido crear el archivo de guardado en el disco
+{ST_FILE_SAVE_RESULT_FAIL_NO_HEADER}	No se ha podido crear el encabezado de partida guardada
+{ST_FILE_SAVE_RESULT_FAIL_NO_SPACE}	Disco duro lleno
+{UA_CANT_HIDE}				No se pueden esconder
+{UA_HIDE_LONG_GRASS}			No se pueden esconder en la maleza
+{UA_EXPERT_HIDING_IN_WOODS}		Expertos en ocultarse en los bosques
+{UA_HIDE_ANYWHERE}			Se pueden esconder donde sea
+{UA_TESTUDO}				Pueden formar en testudo
+{UA_PHALANX}				Pueden formar en falange
+{UA_WARCRY}				El grito de batalla mejora el ataque
+{UA_CHANT}				El canto inspira a las tropas cercanas
+{UA_SCREECH}				Los chillidos desaniman al enemigo
+{UA_FLAMING_AMMO}			Pueden usar proyectiles incendiarios
+{UA_CANTABRIAN_CIRCLE}			Pueden formar en círculo cántabro
+{UA_WEDGE}				Pueden formar en cuña
+{UA_RALLY}				Pueden reagrupar a las tropas cercanas
+{UA_EAGLE}				El águila inspira a las tropas cercanas
+{UA_GOOD_IN_DESERTS}			Bonif. al combate en desiertos
+{UA_GOOD_IN_WOODS}			Bonif. al combate en bosques
+{UA_GOOD_IN_WOODS_AND_SNOW}		Bonif. al combate en bosques o nieve
+{UA_GOOD_IN_SNOW}			Bonif. al combate en nieve
+{UA_AREA_ATTACK}			Ataque de área
+{UA_BODY_PIERCING_ATTACK}		Los proyectiles pueden atravesar a varios hombres
+{UA_SPECIAL_ATTACK}			Ataque especial
+{UA_ARMOUR_PIERCING_ATTACK}		Eficaz contra armadura
+{UA_LONG_MISSILE_RANGE}			Proyectiles de largo alcance
+{UA_VERY_LONG_MISSILE_RANGE}		Proyectiles de muy largo alcance
+{UA_PRECURSOR_WEAPONS}			Las jabalinas se arrojan antes de cargar
+{UA_FRIGHTENS_ELEPHANTS}			Asustan a los elefantes
+{UA_FRIGHTENS_ENEMY}			Asustan al enemigo cercano
+{UA_FRIGHTENS_ENEMY_FOOT}		Asustan a la infantería enemiga cercana
+{UA_CAMELS_SCARE_HORSES}		Aterrorizan a los caballos
+{UA_HARDY}				Buena resistencia
+{UA_VERY_HARDY}				Muy buena resistencia
+{UA_MAY_CHARGE_WITHOUT_ORDERS}		Pueden cargar sin órdenes
+{UA_POOR_MORALE}			Moral baja
+{UA_GOOD_MORALE}			Moral buena
+{UA_EXCELLENT_MORALE}			Moral excelente
+{UA_ANIMALS_MAY_RUN_AMOK}		Los animales pueden enfurecerse
+{UA_VULNERABLE_TO_MISSILE}		Vulnerables a los proyectiles
+{UA_WELL_ARMOURED}			Con buena armadura
+{UA_VERY_WELL_ARMOURED}		Con muy buena armadura
+{UA_POWERFULL_CHARGE}			Carga potente
+{UA_BONUS_FIGHTING_CAVALRY}		Bonif. al luchar contra caballería
+{UA_LONG_PIKES}				Lanzas muy largas
+{UA_INACCURATE_AGAINST_SOLDIERS}		Poca precisión contra tropas
+{UA_MOVES_QUICKLY}			Movimiento rápido
+{UA_INEFFECTIVE_AGAINST_WALLS_AND_BUILDINGS} Poco eficaces contra murallas y edificios
+{UA_CAN_SAP}				Pueden zapar
+{ST_RIGHT_ALT}				Alt Gr
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{UA_BONUS_FIGHTING_ELEPHANTS_AND_CAVALRY}	Bonif. contra elefantes y carros
+{GERR_REINSTALL_DX}			Rome: Total War no ha podido encontrar DirectX 9, imprescindible para que el juego se ejecute.\nVuelve a instalar DirectX.
+{GERR_ANOTHER_INSTANCE}			Ya está en marcha una ejecución de Rome: Total War. Esta otra se va a cerrar.
+{GERR_GENERIC}				Rome: Total War ha encontrado un error sin especificar y se va a cerrar.
+{ST_CANCEL_CHANGES}			Cancelar cambios
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_BDL_NOT_SPECIFIED}		Automático
+{ST_GFX_VEGETATION}		Hierba
+{ST_GFX_VEGETATION_DETAIL}	Detalle de la vegetación
+{ST_LOAD_SUCCESS}					Éxito al cargar
+{ST_LOAD_FAILED}					Fallo al cargar
+{ST_SAVE_SUCCESS}					Éxito al guardar
+{ST_SAVE_FAILED}					Fallo al guardar
+{ST_SHIPS_SUNK}			Barcos hundidos
+{ST_SHIPS_DEPLOYED}		Barcos desplegados
+{ST_SHIPS_REMAINING}		Barcos restantes
+{ST_ADVISOR_BUTTON_DISMISS}	Descartar consejo
+{ST_REPLAY}				Repetición
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_CHANGE_TO}						Cambiar a:
+{ST_CANNOT_CHANGE_VIDEO_WHEN_NOT_PAUSED}		No se pueden cambiar las opciones de vídeo durante una partida multijugador si no se activa la pausa
+{ST_SCREEN_RES_CHANGE_TIME_LEFT}			Segundos hasta que se reinicie la pantalla:
+{ST_CONFIRM_SCREEN_RES}					¿Te parece bien este modo de pantalla?
+{ST_YOUR_ALLY}						Ejército aliado
+{ST_YOUR_ALLIES}						Ejércitos aliados
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_GFX_SFX_DETAIL}			Detalle de efectos
+{ST_GRASS_DETAIL}				Detalle de hierba
+{ST_TERRAIN_DETAIL}			Detalle del terreno
+{ST_GFX_USE_SHADOWS}			Sombras
+{ST_MICROMANAGE_ALL_SETTLEMENTS}	No gestionar automáticamente nunca los enclaves
+{ST_CAMPAIGN_AI_FOLLOW}			Seguir movimiento de la IA
+{ST_CAMPAIGN_AI_SKIP}			Saltarse movimiento de la IA
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_MICROMANAGE_ALL_SETTLEMENTS}	Gestionar los enclaves
+{ST_SOUND_PROVIDER_ERROR}		No se ha podido activar el proveedor de sonido: esto puede deberse a la ausencia de hardware compatible
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 9/03/04 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_GFX_USE_SHADERS} 	Sombreado de unidades
+{ST_GFX_REFLECTIONS}	Mapas con brillos
+{ST_CONCEDE}		Admitir la derrota
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 1/05/05 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{ST_SCHILTROM}	Schiltron
+{ST_SHIELD_WALL}	Muro de escudos
+{ST_SAVE_REPLAY_SHORT}	Guardar repetición
+{UA_CAN_SWIM}		Puede nadar
+{UA_CAN_HORDE}		Unidad de horda
+{UA_CAN_GO_BERSERK}	Puede entrar en berserk
+{UA_CAN_SCHILTROM}	Puede formar en schiltron
+{UA_CAN_SHIELD_WALL}	Puede hacer un muro de escudos
+{UA_PRECURSOR_WEAPONS}	Usa un arma de proyectil antes de cargar
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:02:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT_PROLOGUE}		Voz y textos del consejero\nAlternar: solo la voz del consejero
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 7/08/05 17:44:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+{ST_RECRUITED_GENERAL}	General

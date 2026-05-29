@@ -1,0 +1,511 @@
+¬ Text file converted with loc_parser
+{BET_CREATE_NEW_ARMY}					Armeedetails bearbeiten
+{BET_SELECT_FACTION}					Seite wählen
+{BET_IS_ATTACKER}						Greift an?
+{BET_IS_REINFORCEMENT}					Ist Verstärkung?
+{BET_TIME_TO_REINFORCE}					Schließt sich in %d Stunden an
+{BET_ONE_HOUR_TO_REINFORCE}				Schließt sich in 1 Stunde an
+{BET_CREATE_NEW_UNIT}					Einheitendetails bearbeiten
+{BET_UNIT_SIZE}							Einheitengröße
+{BET_EXPERIENCE}						Erfahrung
+{BET_PRI_WPN_LVL}						Waffenaufrüstungen
+{BET_ARMOUR_LVL}						Rüstungsaufrüstungen
+{BET_CAN_WITHDRAW}						Kann sich zurückziehen
+{BET_SUPPORTING_ARMIES}					Anz. Unterstützungsarmeen
+{BET_GENERAL}							General
+{BET_NAME}								Name
+{BET_AGE}								Alter
+{BET_CREATE_DEPLOYMENT}					Positionierungsbereiche erstellen\nEine Armee muss gewählt sein, um Positionierungsbereiche zu erstellen.\nWählen Sie mindestens drei Punkte für einen Bereich.\nMarkierungen können versetzt werden, wenn der Mauszeiger hervorgehoben ist.\nHalten Sie Umschalten gedrückt und bewegen Sie eine hervorgehobene Markierung, um den gesamten Bereich zu bewegen.
+{BET_EDIT_HEIGHTS}						Landschaftshöhen bearbeiten
+{BET_EDIT_TEXTURES}						Landschaftstexturen bearbeiten
+{BET_UPDATE_TREES}						Bäume aktualisieren\nBäume mit dem Landschafts-Textur-Werkzeug hinzufügen und entfernen.\nKlicken sie dann hier zum Aktualisieren.
+{BET_EDIT_SETTLEMENT}					Siedlungsplan und Gebäude hinzufügen.\nNur eine größere Siedlung kann pro Karte platziert werden.\nBewegen Sie platzierte Siedlungen im Modus 'Objekte'.
+{BET_PLACE_LANDSCAPE_FEATURES}			Objektmodelle platzieren und bewegen\nModell platzieren, wenn die Vorlage grün angezeigt wird.\nBei der Platzierung kann mit beiden gedrückten Tasten rotiert werden.\nModelle mit rechter Maustaste löschen.\nPlatzierte Modelle können durch erneute Wahl und Ziehen zu einer neuen Position bewegt werden.
+{BET_EDIT_ARMIES}						Armee erstellen
+{BET_EDIT_UNITS}						Einheiten erstellen/bearbeiten\nEine Armee oder Einheit muss gewählt sein, um ihr Einheiten hinzuzufügen.\nEinheiten einem Positionierungsbereich hinzufügen.\nKlicken und die Taste gedrückt halten, Maus nach links oder rechts bewegen, um die Blickrichtung und Formationsbreite zu verändern.
+{BET_START_TIME}					Startzeit
+{BET_EDIT_UNIT_SCRIPT}					Einheiten-KI-Skript bearbeiten
+{BET_DELETE_FACTION_CONFIRMATION}		Das Löschen einer Seite führt zum Verlust aller zugehörigen Armeen, Charaktere, Positionierungsbereiche und Einheiten. Sind Sie sicher, dass Sie diese Aktion durchführen möchten?
+{BET_DELETE_ARMY_CONFIRMATION}			Das Löschen einer Armee führt zum Verlust aller zugehörigen Charaktere, Einheiten und Positionierungsbereiche. Sind Sie sicher, dass Sie diese Aktion durchführen möchten?
+{BET_DELETE_UNIT_CONFIRMATION}			Das Löschen einer Einheit führt zum Verlust aller zugehörigen Daten. Sind Sie sicher, dass Sie diese Aktion durchführen möchten?
+{BET_DELETE_CHARACTER_CONFIRMATION}		Das Löschen eines Charakters führt zum Verlust aller zugehörigen Einheiten-/Armee-Daten. Sind Sie sicher, dass Sie diese Aktion durchführen möchten?
+{BET_DELETE_SETTLEMENT_CONFIRMATION}	Sind Sie sicher, dass Sie diese Siedlung löschen möchten?
+{BET_CONFIRM_DELETE}					Löschen bestätigen
+{BET_SET_VICTORY_CONDITIONS}			Siegbedingungen festlegen
+{BET_CONDITIONS}					Bedingungen
+{BET_BATTLE_DURATION}					Zeitlimit festlegen (Stunden):
+{BET_ADD_CONDITION}						Neue Bedingung hinzufügen
+{BET_DELETE_CONDITION}				Bedingung löschen
+{BET_ILLEGAL_DEPLOYMENT_AREA}			Der Positionierungsbereich mit diesen drei Punkten ist ungültig. Wählen Sie Abbrechen, um die Punkte neu zu bearbeiten, oder Annehmen, um den gesamten Bereich zu löschen.
+{BET_ERROR}								Fehler
+{BET_MODEL_TYPE_GENERAL}				Allgemeine Landschaften
+{BET_MODEL_TYPE_RIVERS}					Flüsse
+{BET_MODEL_TYPE_AMBIENT_SETTLEMENT}		Siedlungsumgebungen
+{BET_MODEL_TYPE_SPECIAL}				Spezial
+{BET_EDIT_BATTLE_DETAILS}				Schlachtdetails bearbeiten
+{BET_IS_NIGHT_BATTLE}					Nächtliche Schlacht?
+{BET_IS_AMBUSH}							Hinterhalt?
+{BET_ENTER_DESCRIPTION}					Schlachtbeschreibung eingeben
+{BET_EDIT_CHARACTER}					Charakter bearbeiten
+{BET_SELECT_CHARACTER_TYPE}				Charaktertyp
+{BET_EDIT_CHARACTER_RECORD}				Charakterdaten bearbeiten
+{BET_IS_MALE}							Ist männlich?
+{BET_CREATE_CHARACTER}					Neuen Charakter erstellen
+{BET_CREATE_SETTLEMENT}					Neue Siedlung erstellen
+{BET_MOVE_ITEM}							Objekt bewegen
+{BET_EDIT_FAMILY}						Stammbaum bearbeiten\nEine Seite muss gewählt sein, um den Stammbaum zu bearbeiten.
+{BET_EDIT_CLIMATES}						Klimakarte bearbeiten
+{BET_EDIT_GROUND_TYPES}					Bodentypen bearbeiten
+{BET_CREATE_CHARACTER_RECORD}			Charakterdaten von Frauen oder Kindern erstellen
+{BET_ADD_CHILD}							Als Kind hinzufügen
+{BET_ADD_SPOUSE}						Als Gemahlin hinzufügen
+{BET_REMOVE_RELATIVE}					Verhältnis auflösen
+{BET_EDIT_RESOURCE}					Ressourcen, Forts und Wachtürme bearbeiten
+{BET_EDIT_RIVERS}					Landschaftsobjekte bearbeiten
+{BET_EDIT_TRADE_ROUTES}					Handelsrouten bearbeiten
+{BET_SELECT_RESOURCE}					Ressource und Stufe wählen
+{BET_ADD_UNITS}					Einheiten der Armee hinzufügen
+{BET_REMOVE_UNITS}					Gewählte Einheit entfernen
+{BET_GARRISONED}					Garnison
+{BET_CREATE_ALLIANCES}					Bündnisse erstellen
+{BET_SELECT_ALLIANCE}					Bündnis wählen
+{BET_DELETE_ALLIANCE}					Bündnis löschen
+{BET_CAN_WAIT}					Kann warten\nArmeen dieses Bündnisses können eine Schlacht zu Beginn verzögern.
+{BET_CAN_DEPLOY}					Kann positionieren\nArmeen dieses Bündnisses können Einheiten in der Positionierungsphase positionieren.
+{BET_CAN_VIEW}					Kann anschauen\nArmeen dieses Bündnisses können sich das Schlachtfeld vor der Positionierung anschauen.
+{BET_SELECT_HOME_FACTION}					Heimseite wählen
+{BET_WEATHER_SEED}					Wetter-Generierung
+{BET_GENERATE_RANDOM_SEED}					Neues Wetter generieren
+{BET_WALL_SIZE_NORMAL}					Normal
+{BET_WALL_SIZE_LARGE}					Groß
+{BET_WALL_SIZE_HUGE}					Riesig
+{BET_WALL_LEVEL}					Mauernstufe
+{BET_TOWERS_NORMAL}					Wachtürme
+{BET_TOWERS_ARROW}					Pfeil-Türme
+{BET_TOWERS_BALLISTA}					Ballisten-Türme
+{BET_TOWER_LEVEL}					Turmstufe
+{BET_GATES_0}					Holz
+{BET_GATES_1}					Starkes Holz
+{BET_GATES_2}					Eisenverstärkt
+{BET_GATE_LEVEL}					Torstufe
+{BET_GATE_DEFENCES_NONE}					Ohne
+{BET_GATE_DEFENCES_SAND}					Kochender Sand
+{BET_GATE_DEFENCES_OIL}					Kochendes Öl
+{BET_GATE_DEFENCES_LEVEL}					Tor-Verteidigung
+{BET_NOT_ENOUGH_FACTIONS}					Es müssen in der Schlacht zumindest zwei Seiten vertreten sein.
+{BET_FACTION_MUST_HAVE_1_ARMY}					Seite muss über mindestens eine Armee verfügen
+{BET_ARMY_HAS_NO_UNITS}						Eine Armee hat keine Einheiten
+{BET_ARMY_HAS_NO_GENERALS_UNIT}						Diese Armee muss über eine Einheit verfügen, die den General unterstützt (schauen Sie sich die Typbeschreibungen 'Generalseinheit' in der Einheitenliste an).
+{BET_FACTION_NOT_IN_ALLIANCE}					Diese Seite befindet sich nicht in einem Bündnis, muss sie jedoch. Jegliche Einheitenskripte gehen verloren.
+{BET_UNIT_OUTSIDE_DEPLOYMENT_AREA}					Diese Einheit befindet sich nicht in einem Positionierungsbereich.
+{BET_NO_HOME_FACTION_SET}					Die Heim-Seite muss festgelegt werden (Heim-Seite im Dialog Siegbedingungen festlegen).
+{BET_NEED_TWO_ALLIANCES}					Es müssen mindestens zwei Bündnisse pro Schlacht vorhanden sein. Legen Sie diese im Dialog Siegbedingungen fest.
+{BET_ALLIANCE_WITH_NO_CONDITIONS}					Jedes Bündnis muss über mindestens eine Siegbedingung verfügen.
+{BET_DURATION_SET_TO_ZERO}					Die Dauer der Schlacht ist momentan auf 0 Stunden eingestellt.
+{BET_ERROR_REPORT_END}					Das Schlacht-Skript kann immer noch generiert werden, die Schlacht könnte jedoch nicht korrekt geladen werden oder es gibt unerwünschte Effekte.\nEs empfiehlt sich, alle Fehler zu beheben.
+{BET_SANITY_REPORT}					Statusbericht
+{BET_REGIONS_TOOL}					Regionen bearbeiten
+{BET_EDIT_ROADS}					Straße bearbeiten
+{BET_EDIT_FACTION}					Seite bearbeiten
+{BET_STARTING_DENARI}					Start-Denare
+{BET_RESOURCES}					Ressourcen
+{BET_WATCHTOWERS}					Wachtürme
+{BET_STARTING_FORMATION}					Anfängliche Formation wählen
+{BET_STONE_ROAD}					Steinstraße
+{BET_DIRT_ROAD}					Trampelpfad
+{BET_SELECT_BRUSH}					Verfügbare Pinsel
+{BET_SELECT_TEXTURE}					Verfügbare Texturen
+{BET_CREATE_CHARACTER_TOOLTIP}					Auf ein Geländefeld klicken, um einen neuen Charakter zu platzieren.\nDoppelt auf einen existierenden Charakter klicken, um dessen Details zu bearbeiten.
+{BET_EDIT_REGIONS_TOOLTIP}					Rechts auf ein Geländefeld klicken, um die Regionsfarbe zum Malen zu wählen.\nFarbe mit linker Maustaste benutzen.\nPinsel zum Bemalen größerer Bereiche wählen.
+{BET_ADD_ARMY_TOOLTIP}					Linksklick auf einen existierenden General,\nbenannten Charakter oder Siedlung, um Einheiten zu seiner Armee hinzufügen (oder entfernen).
+{BET_ADD_SETTLEMENT_TOOLTIP}					Linksklick auf eine Siedlungsposition, um eine neue Siedlung zu erstellen.\nDoppelt auf eine existierende Siedlung klicken, um deren Daten zu bearbeiten.\nExistierende Siedlungen können mit dem Bewegungs-Werkzeug verschoben werden\nStandard-Siedlungspositionen können mit dem Regionsbearbeitungswerkzeug bewegt werden.
+{BET_CREATE_NEW_REGION}					Neue Region erstellen
+{BET_REGION_NAME}					Regionsname:
+{BET_SETTLEMENT_NAME}					Siedlungsname:
+{BET_NEED_TO_SELECT_A_NAME}					Name muss vor dem Fortsetzen festgelegt werden.
+{BET_INVALID_CHARACTER_TYPE_FOR_POS}					Ein Charakter des gewählten Typs kann nicht bei der gewählten Position erstellt werden.
+{BET_NEED_TO_SELECT_CHARACTER_TYPE}					Zur Erstellung eines Charakters muss ein Charakter-Typ festgelegt werden.
+{BET_NEED_TO_SELECT_FACTION_CHARACTER}					Zur Erstellung eines Charakters muss eine Seite festgelegt werden.
+{BET_NEED_TO_SELECT_FACTION_SETTLEMENT}					Zur Erstellung einer Siedlung muss eine Seite festgelegt werden.
+{BET_NEED_TO_SELECT_PLAN}					Zur Erstellung einer Siedlung muss ein Siedlungsplan festgelegt werden.
+{BET_NEED_TO_SELECT_SIZE}					Zur Erstellung einer Siedlung muss eine Siedlungsgröße festgelegt werden
+{BET_RECALCULATE_REGIONS}					Regionsgrenzen neu berechnen.
+{BET_SEA_REGION_COLOUR_ERROR}					Diese Farbe ist Seeregionen vorbehalten, daher kann sie nicht für eine Landregion verwendet werden.
+{BET_LAND_REGION_COLOUR_ERROR}					Diese Farbe ist nicht für Seeregionen definiert, daher kann sie nicht als Farbe von Seeregionen verwendet werden.
+{BET_SETTLEMENT_COLOUR_ERROR}					Diese Farbe ist Standard-Siedlungspositionen auf der Regionskarte vorbehalten, daher kann sie nicht als Regionsfarbe verwendet werden.
+{BET_PORT_COLOUR_ERROR}					Diese Farbe ist Standard-Hafenpositionen auf der Regionskarte vorbehalten, daher kann sie nicht als Regionsfarbe verwendet werden.
+{BET_CREATE_CHARACTER_MODE_HELP}					Linksklick auf die Karte zum Erstellen eines neuen Charakters. Doppelklick auf einen existierenden Charakter, um die Charakterdetails zu bearbeiten. Das erste platzierte Familienmitglied ist der Anführer der Seite.
+{BET_ADD_UNIT_MODE_HELP}					Linksklick auf einen General oder Admiral, um seiner Armee Einheiten hinzuzufügen. Auf eine Siedlung klicken, um ihrer Garnison Einheiten hinzuzufügen.
+{BET_ADD_SETTTLEMENT_MODE_HELP}					Die Karte zeigt mögliche Orte von Siedlungen und Häfen an. Auf einen Siedlungsort klicken, um bei dieser Position eine Siedlung zu erstellen. Siedlungspositionen können mit dem Werkzeug Bewegen oder im Regionsbearbeitungswerkzeug bewegt werden.
+{BET_ADD_RESOURCE_MODE_HELP}					Ressource (& Ressourcenstufe), Wachturm oder Fort im Dialog wählen und mit der linken Maustaste auf der Karte platzieren.
+{BET_MOVE_MODE_HELP}					Linksklick auf einen Typ, um ihn aufzunehmen, erneut klicken, um ihn an der neuen Position abzusetzen.
+{BET_FAMILY_TREE_DISABLED_HELP}					Wählen Sie eine Seite mit einem Anführer aus der Liste an der Seite. (Erstellen Sie den Anführer einer Seite, indem Sie mit Neuen Charakter erstellen ein Familienmitglied erstellen).
+{BET_FAMILY_TREE_MODE_HELP}					Um Familien miteinander zu verbinden, wählen Sie einen Namen aus der Liste und einen Charakter im Stammbaum, wählen Sie dann 'Als Gemahlin hinzufügen' oder 'Als Kind hinzufügen'.
+{BET_EDIT_REGIONS_MODE_HELP}					Um eine Regionsfarbe festzulegen, wählen Sie eine Farbe aus der Palette oder klicken mit rechts auf eine existierende Region, um deren Farbe zu übernehmen. Durch die Wahl einer nicht-existierenden Regionsfarbe wird eine neue Region erstellt, wenn das nächste Geländefeld gewählt wird. Sie können keine Farbe für eine Landregion für See-Geländefelder verwenden oder Farben für Seeregionen an Land verwenden. Durch das Löschen des letzten Geländefelds einer Region wird diese Region gelöscht. Klicken Sie auf 'Grenzen neu berechnen', um Küstenregionen neu zu berechnen.
+{BET_EDIT_REGION_MODE_PLACE_SETTLEMENT_HELP}					Jede neue Region erfordert die Platzierung eines Siedlungsortes.
+{BET_EDIT_REGION_MODE_PLACE_PORT_HELP}					Neue Regionen mit Küsten-Geländefeldern erfordern einen Hafen an der Küste.
+{BET_EDIT_CLIMATE_MODE_HELP}					Wählen Sie einen Klimatyp aus der Liste oder klicken mit rechts auf ein Geländefeld, um das Klima zu übernehmen.
+{BET_EDIT_GROUND_TYPE_MODE_HELP}					Wählen Sie aus der Liste einen Bodentyp oder klicken mit rechts auf ein Geländefeld, um den Bodentyp zu wählen. Bereiche unter dem Meeresspiegel müssen einen See-Bodentyp erhalten.
+{BET_EDIT_RIVERS_MODE_HELP}					Wählen Sie ein Landschaftsobjekt aus der Liste und platzieren Sie es mit der linken Maustaste auf dem Boden. Wenn das Geländefeld seine Farbe nicht verändert, so ist die Platzierung dieses Objekts ungültig. Entfernen Sie ein Objekt mit der rechten Maustaste. Flüsse müssen in der entgegengesetzten Reihenfolge entfernt werden, in der sie platziert wurden.
+{BET_EDIT_TRADE_ROUTES_MODE_HELP}					Dieses Objekt ist noch nicht voll integriert!!!
+{BET_EDIT_HEIGHTS_MODE_HELP}					Links gedrückt halten und den Mauszeiger nach oben oder unten ziehen, um die Höhe zu verändern. Umschalten und die linke Maustaste gedrückt halten, um die Höhe auf dieselbe Ebene zu bringen wie der Ort, an den geklickt wurde.
+{BET_TRIUMPH_VALUE}					Triumph-Wert:
+{BET_DEPLOYMENT_AREA_HELP}					Klicken zum Platzieren der Eck-Markierungen. Positionierungsbereiche müssen über mindestens 3 Punkte verfügen. Löschen Sie Eckpunkte, indem Sie bei hervorgehobenem Mauszeiger rechts klicken. Bewegen Sie den Eckpunkt, indem Sie links klicken, wenn der Mauszeiger hervorgehoben ist. Verlassen Sie den Modus und öffnen Sie ihn erneut, um einen neuen Bereich zu erstellen.
+{BET_EDIT_TEXTURES_HELP}					Wählen Sie eine Textur und einen Pinsel aus der Liste. Mit der linken Maustaste füllen Sie die gewählte Textur aus. Vegetation können Sie hinzufügen oder entfernen, indem Sie mit der entsprechenden Bodentextur zeichnen. Klicken Sie auf Bäume aktualisieren, um die Resultate der Veränderungen zu sehen.
+{BET_PLACE_SETTLEMENT_HELP}					Wählen Sie die Siedlungsdetails aus der Liste. Benutzen Sie die linke Maustaste und ziehen Sie sie, um die Siedlung zu positionieren. Lassen Sie die linke Maustaste los, wenn sich die Vorlage in einer gültigen Position befindet (grün hervorgehoben). Wenn Sie bei gehaltener linker Maustaste rechts klicken, verändert sich die Ausrichtung der Siedlung. Bewegen Sie existierende Siedlungen im Modus 'Modell platzieren'. Entfernen Sie eine Siedlung, indem Sie sie aus der Liste der Seite wählen und auf Entf drücken.
+{BET_PLACE_MODEL_HELP}					Wählen Sie ein Modell aus der Liste. Benutzen Sie die linke Maustaste, um das Modell zu platzieren. Lassen Sie die linke Maustaste los, wenn sich die Vorlage in einer gültigen Position befindet (grün hervorgehoben). Wenn Sie bei gehaltener linker Maustaste rechts klicken, verändert sich die Ausrichtung des Modells. Klicken Sie mit rechts auf ein existierendes Modell, um es zu löschen.
+{BET_ADD_UNITS_HELP}					Wählen Sie eine Einheit aus der Liste. Einheiten, die mit einem Stern markiert sind, eignen sich für einen General. Es muss pro Armee mindestens eine 'Generalseinheit' geben. Klicken Sie mit links auf einen existierenden Positionierungsbereich, um die Einheit zu positionieren; ziehen Sie und legen Sie so die Formationsbreite fest. Bewegen Sie eine existierende Einheit, indem Sie auf ihre Flagge klicken und sie an eine neue Position ziehen. Die Einheiten-Formationsbreite und Ausrichtung kann verändert werden, indem Sie auf die Einheitenflagge klicken und die Einheitenflagge mit beiden gedrückten Maustasten bewegen.
+{BET_EDIT_ROAD_HELP}					Wählen Sie einen Straßentyp aus der Liste und platzieren Sie das Geländefeld mit der linken Maustaste.
+{BET_ERROR_UNIT_OVERFLOW}					Eine Armee kann nur über maximal 20 Einheiten verfügen.
+{BET_ERROR_UNIT_IN_ALIEN_AREA}					Kann diesem Positionierungsbereich keine Einheit hinzufügen, da hier bereits Einheiten einer anderen Armee positioniert wurden.
+{BET_ERROR_INVALID_DEPLOYMENT}					Diese Einheit ist ungültig positioniert und und sie konnte nicht zu einer gültigen Position bewegt werden. Bitte bewegen Sie sie manuell so, dass sie nicht außerhalb ihres Positionierungsbereiches gelangt oder sich mit einem Landschaftsobjekt überschneidet.
+{BET_ERROR_UNIT_CHANGE_ARMY}					Die bewegte Einheit hat die Armee gewechselt (und möglicherweise auch die Seite), da der Positionierungsbereich, zu dem sie bewegt wurde, nun zu einer anderen Armee gehört.
+{BET_ERROR_UNITS_LEFT_IN_DEPLOYMENT_AREA}					Kann diesen Punkt des Positionierungsbereichs nicht löschen, da ein Bereich mehr als 3 Punkte benötigt, wenn sich Einheiten darin befinden.
+{BET_SELECT_AN_ARMY_HELP}					Wählen Sie eine Armee aus der Liste der Seiten, um die Siegbedingungen fertig zu stellen.
+{BET_SELECT_A_SETTLEMENT_HELP}					Wählen Sie eine Siedlung aus der Liste der Seiten, um die Siegbedingungen fertig zu stellen.
+{BET_SELECT_LOCATION_HELP}					Wählen Sie einen Punkt auf der Karte, indem Sie auf den Boden klicken, um die Siegbedingungen fertig zu stellen.
+{BET_INVALID_VICTORY_CONDITION}					Kann aufgrund einer ungültigen Siegbedingung nicht fortsetzen.
+{BET_EDIT_ALLIANCES}					Bündnisse bearbeiten
+{BET_ALLIED}					Verbündet
+{BET_AT_WAR}					Im Krieg
+{BET_NEUTRAL}					Neutral
+{BET_ADD_ALLY}					Gewählte Seite dieser Seite als Verbündetem hinzufügen.
+{BET_ADD_ENEMY}					Gewählte Seite dieser Seite als Gegner hinzufügen.
+{BET_REMOVE_ALLY}					Gewählte Seite von den Verbündeten dieser Seite entfernen.
+{BET_REMOVE_ENEMY}					Gewählte Seite von den Gegnern dieser Seite entfernen.
+{BET_EDIT_TRAITS}					Charaktermerkmale bearbeiten
+{BET_TRAIT_LEVEL}					Merkmalsstufe
+{BET_ADD_TRAIT}					Gewähltes Merkmal hinzufügen
+{BET_REMOVE_TRAIT}					Gewähltes Merkmal entfernen
+{BET_EXISTING_TRAITS}					Existierende Merkmale
+{BET_ADD_FACTION_TO_ALLIANCE}					Die Seite in dieser Spalte diesem Bündnis hinzufügen.
+{BET_RECALCULATING_REGIONS}					Regionsgrenzen neu berechnen. Bitte warten.
+{BET_IS_PLAYABLE}					Ist spielbar?
+{BET_NAMED_CHARACTER_WITH_NO_ARMY}					Dieser Charakter ist ein benannter Charakter ohne Armee. Dies ist nicht zulässig.
+{BET_STRAT_ERROR_REPORT_END}					Das Kampagnen-Skript kann immer noch generiert werden, die Kampagne könnte jedoch nicht korrekt geladen werden oder es gibt unerwünschte Effekte.\nEs empfiehlt sich, alle Fehler abzustellen.
+{BET_ADD_RESOURCE}					Gewählte Ressource dieser Region hinzufügen.
+{BET_REMOVE_RESOURCE}					Gewählte Ressource in dieser Liste von der Region entfernen.
+{BET_RIVER_SOURCE}					Flussquelle
+{BET_RIVER}					Fluss
+{BET_CLIFF}					Kliff
+{BET_VOLCANO}					Vulkan
+{BET_FORD}					Furt
+{BET_RECALCULATING_FEATURES}					Neuberechnung von Landschaftsobjekten
+{BET_RECALCULATING_MOUNTAINS}					Neuberechnung von Bergplatzierung
+{BET_SAVING_GAME}					Spiel wird gespeichert
+{BET_MUST_BE_1_ATTACKER}					Es muss zumindest ein angreifendes Bündnis geben. Geben Sie das angreifende Bündnis im Dialogfeld 'Bündnisse bearbeiten' ein.
+{BET_MUST_BE_1_DEFENDER}					Es muss mindestens ein verteidigendes Bündnis geben. Geben Sie das verteidigende Bündnis im Dialogfeld 'Bündnisse bearbeiten' ein.
+{BET_PLAYABLE}					Spielbar
+{BET_NONPLAYABLE}					Nicht spielbar
+{BET_UNLOCKABLE}					Kann freigespielt werden
+{BET_DUPLICATE_CHARACTER_NAME}					Zwei (oder mehr) Charaktere haben denselben Namen.
+{BET_REGION}					Region
+{BET_SETTLEMENT_PLACEMENT_INVALID}					Die Siedlung für diese Region befindet sich auf einem ungültigen Geländefeld.
+{BET_PORT_PLACEMENT_INVALID}					Der Hafen für diese Region befindet sich auf einem ungültigen Geländefeld.
+{BET_NO_DEFAULT_FACTION}					Für diese Region wurde keine Seite festgelegt.
+{BET_NO_REBEL_FACTION}					Für diese Region wurde keine rebellierende Seite festgelegt.
+{BET_TO_FEW_TILES_IN_REGION}					Diese Region verfügt über weniger als 5 Geländefelder.
+{BET_TWO_REGIONS_SAME_COLOUR}					Diese Region hat den gleichen Farbidentifikator wie eine andere Region.
+{BET_NO_SETTLEMENT_POS_SET}					Für die Siedlung in dieser Region wurde keine Position festgelegt.
+{BET_NO_PORT_POS_SET}					Diese Region verfügt über Küsten-Geländefelder, es wurde jedoch keine Hafenposition festgelegt.
+{BET_INVALID_PLACEMENT_IN_SEA}			Ungültige Platzierung: Dieses Geländefeld ist als See-Geländefeld markiert.
+{BET_INVALID_PLACEMENT_IN_DENSE_FOREST}		Ungültige Platzierung: Dieses Geländefeld ist als tiefer Wald markiert.
+{BET_INVALID_PLACEMENT_FLOODED}			Ungültige Platzierung: Dieses Geländefeld ist als Überflutungsgebiet markiert.
+{BET_INVALID_PLACEMENT_TOO_MOUNTAINOUS}		Ungültige Platzierung: Dieses Geländefeld ist als zu bergig markiert.
+{BET_INVALID_PLACEMENT_ON_CLIFF}			Ungültige Platzierung: Dieses Geländefeld ist als Kliff markiert.
+{BET_INVALID_PLACEMENT_ON_INTERNAL_BORDER}	Ungültige Platzierung: Dieses Geländefeld ist als innere Grenze markiert.
+{BET_INVALID_PLACEMENT_ON_EXISTING_LANDMARK}	Ungültige Platzierung: Dieses Geländefeld weist einen Meilenstein auf.
+{BET_INVALID_PLACEMENT_ON_WALL}			Ungültige Platzierung: Dieses Geländefeld ist als Mauer markiert.
+{BET_INVALID_PLACEMENT_IN_RIVER}			Ungültige Platzierung: Dieses Geländefeld ist als Fluss markiert.
+{BET_INVALID_PLACEMENT_ON_ENEMY_CHARACTER}	Ungültige Platzierung: Dieses Geländefeld wird von einem anderen Spielobjekt blockiert.
+{BET_INVALID_PLACEMENT_WRONG_REGION}		Ungültige Platzierung: Kann keine Regionen verändern.
+{BET_INVALID_PLACEMENT_NON_COASTAL}			Ungültige Platzierung: Dieses Geländefeld ist kein Küstengelände
+{BET_EDIT_FORT}						Furt-Details bearbeiten
+{BET_FORTIFICATION_LEVEL}				Befestigungsstufe
+{BET_GATE_STRENGTH}					Torstärke
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_EDIT_HEIGHTS_MODE_HELP}				Linke Maustaste gedrückt halten und dann nach oben und unten ziehen, um die Höhe anzupassen. Umschalten und linke Maustaste gedrückt halten, um dieselbe Höhe einzustellen, die an der Stelle des Mausklicks vorliegt. Strg und linke Maustaste zum Glätten der Höhen verwenden.
+{BET_SELECT_ROAD_TYPE}					Straßentyp wählen
+{BET_SELECT_UNIT}						Einheit wählen
+{BET_SELECT_SETTLEMENT_PLAN}				Siedlungsplan wählen
+{BET_SELECT_MODEL}					Modell wählen
+{BET_SELECT_SUBFACTION}					Ursprüngliche Seite des Sklaven wählen
+{BET_INVALID_PLACEMENT_ON_EXISTING_VOLCANO}	Ungültige Platzierung: Dieses Geländefeld wurde mit einem Vulkan versehen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_AMBIENT_SETTLEMENT}		Abgelegene Siedlung?
+{BET_MULTIPLAYER}				Mehrspielerkarte?
+{BET_SINGLEPLAYER}			Einzelspielerkarte?
+{BET_WALL_CULTURE}			Mauernbauer-Seitentyp
+{BET_NUM_SAP_POINTS}			Anzahl der Tunnelbau-Punkte
+{BET_TIME_TO_REINFORCE}			Anschluss in %d Minuten (Echtzeit)
+{BET_ONE_MIN_TO_REINFORCE}		Anschluss in 1 Minute (Echtzeit)
+{BET_ERROR_DELETING_SETTLEMENT_WRONG_MODE}	In diesem Modus können keine Siedlungen gelöscht werden. Zum Löschen einer Siedlung diese aus der Seitenliste wählen und die Taste Entf drücken.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BET_BELIEF}			Glaube
+{BET_RE_EMERGENT}			Wiederkehrend?
+{BET_DEAD_UNTIL_RESURRECTED}	Tot bis zur Wiederbelebung?
+{BET_SUPERFACTION}		Hat eine Oberseite?
+{BET_TWO_ARMIES_ON_SAME_TILE}	Es wurden mindestens zwei Armeen auf demselben Feld platziert
+{BET_LEGION_NAME}			Legionsname
+{BET_WORLD_MAP_POS}		Weltkartenposition:
+{BET_SETTLEMENT_OWNER_NOT_AT_HOME}	Eine Hauptsiedlung wurde integriert und die entsprechende Seite besitzt keine Armeen auf dem Schlachtfeld.
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:46:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:40:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:22:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

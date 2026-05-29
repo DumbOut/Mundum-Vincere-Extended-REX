@@ -1,0 +1,98 @@
+
+vs_1_1
+dcl_position0 v0
+dcl_blendweight v1
+dcl_blendindices v2
+dcl_normal0 v3
+dcl_texcoord0 v4
+#line 4 "src\\game\\shaders\\fleximesh1.vsh"
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; v0 = position
+; v1 = blend weights
+; v2 = blend indices
+; v3 = normal
+; v4 = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; r0.w = Last blend weight
+; r1 = Blend indices
+; r2 = Temp position
+; r3 = Temp normal
+; r4 = Blended position in camera space
+; r5 = Blended normal in camera space
+; r6 = view space vertex position
+; r8.x = fog exponent
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; oPos = Output position
+; oD0 = Diffuse
+; oD1 = Specular
+; oT0 = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+#line 31 "src\\game\\shaders\\fleximesh1.vsh"
+mul r8, v2.zyxw, c[0].wwww
+#line 35 "src\\game\\shaders\\fleximesh1.vsh"
+dp3 r0.w, v1.xyz,	c[0].xzz; 
+add r0.w, -r0.w, c[0].x
+#line 39 "src\\game\\shaders\\fleximesh1.vsh"
+mov a0.x, r8.x
+dp3 r4.x, v0, c[a0.x + 24 + 0]
+dp3 r4.y, v0, c[a0.x + 24 + 1]
+dp3 r4.z, v0, c[a0.x + 24 + 2]
+mov r4.w, c[0].x
+
+dp3 r5.x, v3, c[a0.x + 24 + 0]
+dp3 r5.y, v3, c[a0.x + 24 + 1]
+dp3 r5.z, v3, c[a0.x + 24 + 2]
+mov r5.w, c[0].z
+#line 52 "src\\game\\shaders\\fleximesh1.vsh"
+mul r4, r4, v1.xxxx
+mul r5, r5, v1.xxxx
+#line 56 "src\\game\\shaders\\fleximesh1.vsh"
+mov r9.x, c[a0.x + 24 + 0].w
+mov r9.y, c[a0.x + 24 + 1].w
+mov r9.z, c[a0.x + 24 + 2].w
+mov r9.w, c[0].z
+#line 62 "src\\game\\shaders\\fleximesh1.vsh"
+mov a0.x, r8.y
+dp3 r2.x, v0, c[a0.x + 24 + 0]
+dp3 r2.y, v0, c[a0.x + 24 + 1]
+dp3 r2.z, v0, c[a0.x + 24 + 2]
+mov r2.w, c[0].x
+
+dp3 r3.x, v3, c[a0.x + 24 + 0]
+dp3 r3.y, v3, c[a0.x + 24 + 1]
+dp3 r3.z, v3, c[a0.x + 24 + 2]
+mov r3.w, c[0].z
+#line 74 "src\\game\\shaders\\fleximesh1.vsh"
+mad r4, r2, r0.wwww, r4
+mad r5, r3, r0.wwww, r5
+#line 78 "src\\game\\shaders\\fleximesh1.vsh"
+add r4, r4, r9
+#line 81 "src\\game\\shaders\\fleximesh1.vsh"
+m4x4 r6, r4, c[2]
+mov oPos, r6
+
+; normal dot light
+dp3 r0.x, r5, -c[1]
+
+; clamp it to 0
+max r0.x, r0.x, c[0].z
+
+; start with ambient
+mov r1,	c[7]
+
+; add light colour * intensity
+mad r1.xyz,	r0.x, c[6], r1
+#line 86 "src\\game\\shaders\\fleximesh1.vsh"
+min oD0, r1, c[0].x ; clamp if > 1 and output
+mov oD1, c[0].zzzz ; output specular
+
+; Copy texture coordinate
+mov oT0, v4
+mov oFog, c[0].y
+mov oT1, v4
+
+m4x4 oT2, r4, c[11]

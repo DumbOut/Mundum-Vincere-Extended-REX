@@ -1,0 +1,410 @@
+¬ Comments are marked with whatever character this is at the start
+¬ There must be a comment on the first line if tag delimeters and comments are included in the rest of the file
+{strat}					Menu stratégie		¬ Mid line comment, just to test
+{strat_ed}					Menu éditeur de stratégie
+{battle}					Menu bataille
+{battle_view}					Vue de la bataille
+{battle_ed}					Editeur de bataille
+{overview}					Menu général
+{all}						Tous les menus
+{order_halt}				Mouvement : halte
+{unit_zoom}					Zoom : unité
+{orders_group}				Grouper les unités sélectionnées
+{orders_ungroup}				Annuler le groupement
+{general_zoom}				Zoom : général
+{unit_track}				Suivre : unité
+{end_battle}				Quitter le combat
+{show_help}					Afficher l’aide
+{general_chat}				Envoyer un message
+{inc_scale}					Radar : augmenter l’échelle
+{dec_scale}					Radar : réduire l’échelle
+{faction_highlight}			Régions des factions en surbrillance
+{save_stratmap}				Sauvegarde rapide
+{load_stratmap}				Chargement rapide
+{speedup_ai}				Accélérer l’IA
+{stop_character}				Immobiliser le personnage
+{quit}						Quitter la partie
+{capital_zoom}				Zoomer sur la capitale
+{undo}						Annuler la dernière fonction
+{redo}						Rétablir la dernière fonction
+{delete_selected}			Effacer l’objet sélectionné
+{step_fwd}					Caméra : travelling avant
+{step_fwd_fast}				Caméra : travelling avant rapide
+{step_bck}					Caméra : travelling arrière
+{cam_up}					Caméra : travelling vers le haut
+{cam_down}					Caméra : travelling vers le bas
+{rot_l}						Caméra : rotation gauche
+{rot_r}						Caméra : rotation droite
+{fov_dec}					Caméra : réduire le champ de vision
+{fov_inc}					Caméra : augmenter le champ de vision
+{rot_u}						Caméra : rotation haut
+{rot_d}						Caméra : rotation bas
+{step_l}					Caméra : travelling latéral gauche
+{step_r}					Caméra : travelling latéral droit
+{speed_inc}					Caméra : accélérer
+{speed_dec}					Caméra : ralentir
+{select_all}				Portraits : sélectionner tous
+{select_prev}				Portraits : sélectionner précédent
+{deselect_all}				Portraits : désélectionner tous
+{select_next}				Portraits : sélectionner suivant
+{select_next_grp}			Portraits : sélectionner groupe suivant
+{select_prev_grp}			Portraits : sélectionner groupe précédent
+{select_siege}				Sélectionner toutes les unités d’artillerie
+{select_infantry}			Sélectionner toutes les unités d’infanterie
+{select_cavalry}			Sélectionner toutes les unités de cavalerie
+{select_melee}				Sélectionner toutes les unités de combat rapproché
+{select_missile}			Sélectionner toutes les unités de tireurs
+{save}						Sauvegarder
+{load}						Charger
+{zoom_in}					Zoomer sur la carte
+{zoom_out}					Faire un zoom arrière sur la carte
+{display_standards}			Paramètres d’affichage		
+{pause_battle}				Interrompre la partie
+{hide_gui}					Afficher/masquer IGU
+{formation_1}				 Formation d’unité : une seule ligne
+{formation_2}				 Formation d’unité : sélection sur une seule ligne
+{formation_3}				 Formation d’unité : double ligne
+{formation_4}				 Formation d’unité : sélection sur double ligne
+{formation_5}				 Formation d’unité : sur trois lignes, tireurs devant
+{formation_6}				 Formation d’unité : sur trois lignes, fantassins devant
+{formation_7}				 Formation d’unité : sur trois lignes, cavalerie devant
+{formation_8}				 Formation d’unité : en colonne
+{fov_up}					Elargir le champ de vision
+{fov_down}					Rétrécir le champ de vision
+{next_army}					Sélectionner l’armée suivante
+{toggle_character_labels}	Afficher/masquer noms des personnages
+{toggle_settlement_labels}	Afficher/masquer noms des communautés
+{show_waypoints}			Afficher les points de navigation
+{toggle_run}				Courir oui/non
+{assign0}					Définir l’unité sélectionnée comme groupe 1
+{assign1}					Définir l’unité sélectionnée comme groupe 2
+{assign2}					Définir l’unité sélectionnée comme groupe 3
+{assign3}					Définir l’unité sélectionnée comme groupe 4
+{assign4}					Définir l’unité sélectionnée comme groupe 5
+{assign5}					Définir l’unité sélectionnée comme groupe 6
+{assign6}					Définir l’unité sélectionnée comme groupe 7
+{assign7}					Définir l’unité sélectionnée comme groupe 8
+{assign8}					Définir l’unité sélectionnée comme groupe 9
+{assign9}					Définir l’unité sélectionnée comme groupe 10
+{select0}					Sélectionner l’unité 1
+{select1}					Sélectionner l’unité 2
+{select2}					Sélectionner l’unité 3
+{select3}					Sélectionner l’unité 4
+{select4}					Sélectionner l’unité 5
+{select5}					Sélectionner l’unité 6
+{select6}					Sélectionner l’unité 7
+{select7}					Sélectionner l’unité 8
+{select8}					Sélectionner l’unité 9
+{select9}					Sélectionner l’unité 10
+{bookmark1}					Repère de caméra 01
+{bookmark2}					Repère de caméra 02
+{bookmark3}					Repère de caméra 03
+{bookmark4}					Repère de caméra 04
+{bookmark5}					Repère de caméra 05
+{bookmark6}					Repère de caméra 06
+{bookmark7}					Repère de caméra 07
+{bookmark8}					Repère de caméra 08
+{bookmark9}					Repère de caméra 09
+{bookmark10}				Repère de caméra 10
+{bookmark11}				Repère de caméra 11
+{bookmark12}				Repère de caméra 12
+{bookmark13}				Repère de caméra 13
+{bookmark14}				Repère de caméra 14
+{bookmark15}				Repère de caméra 15
+{bookmark16}				Repère de caméra 16
+{bookmark17}				Repère de caméra 17
+{bookmark18}				Repère de caméra 18
+{bookmark19}				Repère de caméra 19
+{bookmark20}				Repère de caméra 20
+{bookmark21}				Repère de caméra 21
+{bookmark22}				Repère de caméra 22
+{automerge_units}			Fusionner automatiquement les unités
+{accel}						Accélérer la caméra
+{decel}						Ralentir la caméra
+{toggle_overlays}			Afficher/masquer filtres de couleur
+{dec_formation}				Resserrer la formation
+{inc_formation}				Elargir la formation
+{inc_xp}					Augmenter l’expérience (-cheat activé)
+{dec_xp}					Diminuer l’expérience (-cheat activé)
+{toggle_sfx}				Activer/désactiver les effets sonores
+{toggle_music}				Activer/désactiver la musique
+{toggle_auto_link_up}		Activer/désactiver le chaînage auto. des unités sélectionnées
+{toggle_unit_visibility}	Afficher/masquer les unités non repérées
+{unit_info_toggle}			Afficher/masquer les informations
+{dec_rotation}				Faire pivoter l’unité vers la droite
+{inc_rotation}				Faire pivoter l’unité vers la gauche
+{intellizoom}				Gros plan de l’action
+{show_console}				Afficher la console de déboguage
+{toggle_formation_tightness}		Formation resserrée/dispersée
+{toggle_fire_at_will}			Activer/désactiver le feu à volonté
+{toggle_skirmish}				Activer/désactiver le mode Embuscade
+{toggle_defend}				Activer/désactiver le mode Garde
+{toggle_special_ability}			Activer/désactiver les capacités spéciales des unités
+{order_withdraw}				Repli
+{construction_button}			Ouvrir le tableau de construction
+{recruitment_button}			Ouvrir le tableau de recrutement
+{diplomacy_overview_button}		Ouvrir le tableau de la situation diplomatique
+{finances_button}				Ouvrir le tableau de la situation financière
+{senate_button}				Ouvrir le tableau de la situation du sénat
+{faction_button}				Ouvrir le tableau de la situation des factions
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{toggle_cam_mode}				Alterner entre la caméra Total War et la caméra STR
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{default}			Configuration par défaut
+{fps}				Vue subjective
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{next_brush}		Sélectionner brosse suivante
+{prev_brush}		Sélectionner brosse précédente
+{battle_replay}		Vidéo de bataille
+{toggle_cam_mode}		Sélectionner caméra Total War ou caméra RTS
+{toggle_move_fast}	Changer vitesse caméra
+{battle_details_tool}	Définir détails de bataille
+{edit_armies_tool}	Mode Créer armée
+{edit_units_tool}		Mode Modifier unité
+{deployment_area_tool}	Mode Zone de déploiement
+{heights_tool}		Mode Définir relief	
+{textures_tool}		Mode Définir textures
+{place_settlements_tool}	Mode Placer communautés
+{place_models_tool}		Mode Placer modèles
+{victory_conditions_tool}	Fenêtre Conditions de victoire
+{roads_tool}		Mode Modifier routes
+{update_trees_tool}	Actualiser végétation
+{options_button}		Afficher les options de jeu
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{unit_info_toggle}			Afficher/masquer les informations sur les unités
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{radar_zoom_in_button}		Radar : augmenter l’échelle
+{radar_zoom_out_button}		Radar : réduire l’échelle
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{camera}	Caméra
+{editor}	Editeurs
+{misc}	Divers
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{default}			Configuration Total War
+{pause_button}		Vitesse : Pause
+{play_button}		Vitesse : Normale
+{ffwd_button}		Vitesse : Double
+{ultra_ffwd_button}	Vitesse : Triple
+{show_waypoints}			Afficher destinations des unités
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{reveal_advice}		Afficher/faire défiler conseil(s)
+{dismiss_advice}		Ne pas tenir compte du conseil
+{toggle_speed}		Modifier vitesse du jeu (rapide/normale)
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{reset_rally_point}	Réinitialisez les points de ralliement des communautés sélectionnées
+{freelook}			Mode caméra libre
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{rot_l}		Caméra : rotation/travelling latéral gauche
+{rot_r}		Caméra : rotation/travelling latéral droite
+{step_l}		Caméra : travelling latéral/rotation gauche
+{step_r}		Caméra : travelling latéral/rotation droite
+
+{toggle_auto_link_up}		Activer/désactiver le contrôle des unités par l’IA
+{screen_grab}	Capture d’écran
+{speedup_ai}				Accélération de l’animation
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{toggle_hires_radar}	Activer/désactiver radar plein écran
+{disband}			Se séparer de toutes les unités sélectionnées
+{dec_rotation}				Faire pivoter l’unité vers la gauche
+{inc_rotation}				Faire pivoter l’unité vers la droite
+{global_chat}		Chat rapide (général)
+{general_chat}		Envoyer un message/Chat rapide (équipe)
+{toggle_radar}		Activer/désactiver visibilité radar
+{toggle_buttons}		Activer/désactiver touche visibilité
+{toggle_cards}		Activer/désactiver visibilité carte d’unité
+{show_multi_turn_paths}	Afficher tous les chemins multidirectionnels
+{select_next_selected}	Sélectionner le type d’objet suivant
+{select_prev_selected}	Sélectionner le type d’objet précédent

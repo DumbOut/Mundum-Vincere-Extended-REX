@@ -1,0 +1,424 @@
+¬ Comments are marked with whatever character this is at the start
+¬ There must be a comment on the first line if tag delimeters and comments are included in the rest of the file
+{strat}					Strategy menu		¬ Mid line comment, just to test
+{strat_ed}					Strategy editor menu
+{battle}					Battle menu
+{battle_view}					Battle view
+{battle_ed}					Battle editor menu
+{overview}					Overview menu
+{all}						All menus
+{order_halt}				Movement: halt
+{unit_zoom}					Zoom: unit
+{orders_group}				Group selected units
+{orders_ungroup}				Ungroup selected units
+{general_zoom}				Zoom: general
+{unit_track}				Track: unit
+{end_battle}				Quit battle
+{show_help}					Show help window
+{general_chat}				Send message
+{inc_scale}					Radar: increase scale
+{dec_scale}					Radar: decrease scale
+{faction_highlight}			Highlight faction regions
+{save_stratmap}				Quick Save game
+{load_stratmap}				Quick Load game
+{speedup_ai}				AI speedup
+{stop_character}				Stop Character Walking
+{quit}						Quit game
+{capital_zoom}				Zoom to capital
+{undo}						Undo last function
+{redo}						Redo previous undo
+{delete_selected}			Delete selected item
+{step_fwd}					Camera: move forward
+{step_fwd_fast}				Camera: move forward fast
+{step_bck}					Camera: move backward
+{cam_up}					Camera: move up
+{cam_down}					Camera: move down
+{rot_l}						Camera: rotate left
+{rot_r}						Camera: rotate right
+{fov_dec}					Camera: decrease field of view
+{fov_inc}					Camera: increase field of view
+{rot_u}						Camera: rotate up
+{rot_d}						Camera: rotate down
+{step_l}					Camera: strafe left
+{step_r}					Camera: strafe right
+{speed_inc}					Camera: increase speed
+{speed_dec}					Camera: decrease speed
+{select_all}				Cards: select all
+{select_prev}				Cards: select previous
+{deselect_all}				Cards: deselect all
+{select_next}				Cards: select next
+{select_next_grp}			Cards: select next group
+{select_prev_grp}			Cards: select previous group
+{select_siege}				Select all artillery units
+{select_infantry}			Select all infantry units
+{select_cavalry}			Select all cavalry units
+{select_melee}				Select all melee units
+{select_missile}			Select all missile firing units
+{save}						Save
+{load}						Load
+{zoom_in}					Zoom in on map
+{zoom_out}					Zoom out on map
+{display_standards}			Display standards		
+{pause_battle}				Pause game
+{hide_gui}					Toggle gui
+{formation_1}				Unit Group Formation: Single line
+{formation_2}				Unit Group Formation: Sorted single line
+{formation_3}				Unit Group Formation: Double line
+{formation_4}				Unit Group Formation: Sorted double line
+{formation_5}				Unit Group Formation: Missile first 3 line
+{formation_6}				Unit Group Formation: Foot first 3 line
+{formation_7}				Unit Group Formation: Cavalry first 3 line
+{formation_8}				Unit Group Formation: Column
+{fov_up}					Field of view wider
+{fov_down}					Field of view narrower
+{next_army}					Select next army
+{toggle_character_labels}	Toggle character labels
+{toggle_settlement_labels}	Toggle settlement labels
+{show_waypoints}			Show waypoints
+{toggle_run}				Toggle run
+{assign0}					Assign selected unit group as group 1
+{assign1}					Assign selected unit group as group 2
+{assign2}					Assign selected unit group as group 3
+{assign3}					Assign selected unit group as group 4
+{assign4}					Assign selected unit group as group 5
+{assign5}					Assign selected unit group as group 6
+{assign6}					Assign selected unit group as group 7
+{assign7}					Assign selected unit group as group 8
+{assign8}					Assign selected unit group as group 9
+{assign9}					Assign selected unit group as group 10
+{select0}					Select unit group 1
+{select1}					Select unit group 2
+{select2}					Select unit group 3
+{select3}					Select unit group 4
+{select4}					Select unit group 5
+{select5}					Select unit group 6
+{select6}					Select unit group 7
+{select7}					Select unit group 8
+{select8}					Select unit group 9
+{select9}					Select unit group 10
+{bookmark1}					Camera bookmark 01
+{bookmark2}					Camera bookmark 02
+{bookmark3}					Camera bookmark 03
+{bookmark4}					Camera bookmark 04
+{bookmark5}					Camera bookmark 05
+{bookmark6}					Camera bookmark 06
+{bookmark7}					Camera bookmark 07
+{bookmark8}					Camera bookmark 08
+{bookmark9}					Camera bookmark 09
+{bookmark10}				Camera bookmark 10
+{bookmark11}				Camera bookmark 11
+{bookmark12}				Camera bookmark 12
+{bookmark13}				Camera bookmark 13
+{bookmark14}				Camera bookmark 14
+{bookmark15}				Camera bookmark 15
+{bookmark16}				Camera bookmark 16
+{bookmark17}				Camera bookmark 17
+{bookmark18}				Camera bookmark 18
+{bookmark19}				Camera bookmark 19
+{bookmark20}				Camera bookmark 20
+{bookmark21}				Camera bookmark 21
+{bookmark22}				Camera bookmark 22
+{automerge_units}			Automerge units
+{accel}						Increase Camera Speed
+{decel}						Decrease Camera Speed
+{toggle_overlays}			Toggle Colour Overlays
+{dec_formation}				Decrease formation width
+{inc_formation}				Increase formation width
+{inc_xp}					Increase Experience (-cheat enabled)
+{dec_xp}					Decrease Experience (-cheat enabled)
+{toggle_sfx}				Toggle Sound Effects
+{toggle_music}				Toggle Music
+{toggle_auto_link_up}		Toggle Automatic Linking Up of Selected Unit(s)
+{toggle_unit_visibility}	Toggle display of unseen units
+{unit_info_toggle}			Toggle Unit information dislay
+{dec_rotation}				Rotate unit clockwise
+{inc_rotation}				Rotate unit anti-clockwise
+{intellizoom}				Close up of the action
+{show_console}				Show Debug Console
+{toggle_formation_tightness}		Toggle unit formation (tight/loose)
+{toggle_fire_at_will}			Toggle fire at will
+{toggle_skirmish}				Toggle skirmish
+{toggle_defend}				Toggle guard mode
+{toggle_special_ability}			Toggle special unit ability
+{order_withdraw}				Withdraw
+{construction_button}			Open construction scroll
+{recruitment_button}			Open recruitment scroll
+{diplomacy_overview_button}		Open diplomacy overview scroll
+{finances_button}				Open finances overview scroll
+{senate_button}				Open Senate overview scroll
+{faction_button}				Open faction overview scroll
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{toggle_cam_mode}				Toggle between TotalWar camera and RTS cmera
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{default}			Default Setup
+{fps}				FPS Style Setup
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{next_brush}		Select Next Brush
+{prev_brush}		Select Previous Brush
+{battle_replay}		Battle replay
+{toggle_cam_mode}		Toggle between Total War camera and RTS camera
+{toggle_move_fast}	Toggle Camera Speed
+{battle_details_tool}	Set Battle Details
+{edit_armies_tool}	Create Army Mode
+{edit_units_tool}		Edit Unit Mode
+{deployment_area_tool}	Deployment Area Mode
+{heights_tool}		Set Heights Mode	
+{textures_tool}		Set Textures Mode
+{place_settlements_tool}	Place Settlements Mode
+{place_models_tool}		Place Models Mode
+{victory_conditions_tool}	Edit Victory Conditions Dialog
+{roads_tool}		Edit Roads Mode
+{update_trees_tool}	Update Vegetation
+{options_button}		Show Ingame Options
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{unit_info_toggle}			Toggle Unit information display
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{radar_zoom_in_button}		Radar: increase scale
+{radar_zoom_out_button}		Radar: decrease scale
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{camera}	Camera
+{editor}	Editors
+{misc}	Miscellaneous
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{default}			Total War Style Setup
+{pause_button}		Speed Control: Pause
+{play_button}		Speed Control: Normal
+{ffwd_button}		Speed Control: Double
+{ultra_ffwd_button}	Speed Control: Triple
+{show_waypoints}			Show unit destinations
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{reveal_advice}		Reveal/Advance advice
+{dismiss_advice}		Dismiss advice
+{toggle_speed}		Toggle game speed (fast/normal)
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{reset_rally_point}	Reset selected settlements rally points
+{freelook}			Free look mode
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{rot_l}		Camera: rotate/strafe left
+{rot_r}		Camera: rotate/strafe right
+{step_l}		Camera: strafe/rotate left
+{step_r}		Camera: strafe/rotate right
+
+{toggle_auto_link_up}		Toggle unit group AI control
+{screen_grab}	Grab screenshot
+{speedup_ai}				Animation speed-up
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{toggle_hires_radar}	Toggle Fullscreen Radar
+{disband}			Disband all selected units
+{dec_rotation}				Rotate unit anti-clockwise
+{inc_rotation}				Rotate unit clockwise
+{global_chat}		Quick chat (global)
+{general_chat}		Send message/Quick chat (team)
+{toggle_radar}		Toggle radar visibility
+{toggle_buttons}		Toggle button visibility
+{toggle_cards}		Toggle unit card visibility
+{show_multi_turn_paths}	Show all multi-turn paths
+{select_next_selected}	Select next of object type selected
+{select_prev_selected}	Select previous of object type selected
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

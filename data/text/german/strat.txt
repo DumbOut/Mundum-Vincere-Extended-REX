@@ -1,0 +1,1862 @@
+¬ Text file converted with loc_parser
+{SMT_CULTURE_ROMAN}				Römisch
+{SMT_CULTURE_BARBARIAN}			Barbarisch
+{SMT_CULTURE_CARTHAGE}				Karthagisch
+{SMT_CULTURE_GREEK}				Griechisch
+{SMT_CULTURE_EGYPT}				Ägyptisch
+{SMT_CULTURE_EASTERN}				Östlich
+{SMT_END_TURN}					Runde beenden
+{SMT_SABOTAGE}					Sabotage
+{SMT_ASSASSINATE}				Attentat verüben
+{SMT_SETTLEMENTS}				Siedlungen
+{SMT_CAPITAL}					Hauptstadt
+{SMT_ALLIES}					Verbündete
+{SMT_ENEMIES}					Feinde
+{SMT_SUSPICIOUS}				Verdächtig
+{SMT_NEUTRAL}					Neutral
+{SMT_HOSTILE}					Feindlich
+{SMT_AT_WAR}					Im Krieg
+{SMT_NIGHT_ATTACK}				Nachtangriff versuchen
+{SMT_TRADE_RIGHTS}				Handelsrechte
+{SMT_SIEGE}					Belagern
+{SMT_ASSAULT}					Siedlung angreifen
+{SMT_END_SIEGE}					Belagerung abbrechen
+{SMT_AGE}					Alter
+{SMT_LOYALTY}					Loyalität
+{SMT_GOVERNOR}					Statthalter
+{SMT_GARRISON}					Garnison
+{SMT_RECRUITMENT_COST}				Rekrutierungskosten:
+{SMT_RECRUITMENT_TIME}				Rekrutierungszeit:
+{SMT_RETRAIN_TIME}				Fortbildungszeit:
+{SMT_RETRAIN_COST}				Fortbildungskosten:
+{SMT_FIGHT_BATTLE}				Schlacht auf Schlachtkarte austragen
+{SMT_WITHDRAW}				Aus Schlacht zurückziehen
+{SMT_AUTORESOLVE}				Schlacht automatisch entscheiden
+{SMT_DISBAND}					Einheit auflösen\nLandeinheiten können nur in der Heimatregion, Seeeinheiten nur im Hafen aufgelöst werden;\nGeneralseinheiten können nicht aufgelöst werden.
+{SMT_DOCTOR_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_QUARTERMASTER_DESCR}			THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_PRIEST_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_SCOUT_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_ENGINEER_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_SPY_DESCR}				Ein Spion findet Informationen über gegnerische Seiten heraus. Er kann etwas über gegnerische Städte, Armeen und Charaktere in Erfahrung bringen. Je länger er als Spion an einem Ort bleibt, desto mehr Informationen sammelt er. Er kann auch Unzufriedenheit in gegnerischen Siedlungen fördern und, wenn er sich in einer durch seine Seite belagerten Stadt befindet, die Tore öffnen!
+{SMT_ASSASSIN_DESCR}				Manchmal kann ein einzelnes Messer mehr erreichen als Tausend Schwerter - wenn man damit direkt in die Eingeweide der richtigen Person sticht. Ein Attentäter kann Politik und Krieg zu persönlichen Angelegenheiten werden lassen, indem er direkt gegen Anführer und wichtige Charaktere einer Seite eingesetzt wird. Die Erfolgsaussichten eines Attentäters hängen von seinen eigenen Fähigkeiten, der Wichtigkeit seines Ziels und einem gewissen Maß an Glück ab.
+{SMT_DIPLOMAT_DESCR}				Ein Diplomat ist in Sachen Schmeichelei, Überredungskunst und manchmal auch Schikanieren geschickt und wird zu gegnerischen Seiten gesendet. Zu seinen Aufgaben gehört es, Vereinbarungen abzuschließen, Friedensverträge zu sichern oder die Kapitulation zu verlangen. Diplomaten können an den Orten, die sie besuchen, auch als Augen und Ohren ihrer Seite dienen.
+{SMT_ADMIRAL_DESCR}				Ein Admiral ist ein weniger bedeutender Kommandant einer Flotte. Sein Geschick und seine Fähigkeiten können bei Seeschlachten dienlich sein und er hilft der Flotte, sicher zu navigieren. Alle Flotten werden permanent von einem Admiral befehligt.
+{SMT_ARMY_UPKEEP}				Armee-Unterhalt:
+{SMT_LOYALTY_REVOLTING}			Revoltierend
+{SMT_LOYALTY_RIOTING}				Aufständisch
+{SMT_LOYALTY_DISILLUSIONED}			Desillusioniert
+{SMT_LOYALTY_CONTENT}				Zufrieden
+{SMT_LOYALTY_HAPPY}				Glücklich
+{SMT_FORTIFICATION_NONE}			Keine Befestigungen
+{SMT_FORTIFICATION_0}				Holz
+{SMT_FORTIFICATION_1}				Holz (groß)
+{SMT_FORTIFICATION_2}				Stein
+{SMT_FORTIFICATION_3}				Stein (groß)
+{SMT_FORTIFICATION_4}				Episch
+{SMT_MISSION_INFILTRATE}			Infiltrationsmission
+{SMT_MISSION_DIPLOMACY}			Diplomatiemission
+{SMT_MISSION_BRIBE}				Bestechungsmission
+{SMT_MISSION_SPYING}				Spionagemission
+{SMT_MISSION_ASSASSINATE}			Attentatsmission
+{SMT_MISSION_SABOTAGE}				Sabotagemission
+{SMT_NAME}					Name
+{SMT_FORT}					Fort
+{SMT_FACTION}					Seite
+{SMT_PORT}					Hafen
+{SMT_POPULATION}				Bevölkerung
+{SMT_FATIGUE}					Ermüdungsstufe
+{SMT_EXPERIENCE}				Erfahrung
+{SMT_MILD}					mild
+{SMT_MASSIVE}					gewaltig
+{SMT_CATASTROPHIC}				katastrophal
+{SMT_SMALL}					klein
+{SMT_MEDIUM}					mäßig
+{SMT_LARGE}					groß
+{SMT_HUGE}					riesig
+{SMT_CURRENTLY_BUILDING}			Momentan im Bau
+{SMT_HEALTHY}					Gesund
+{SMT_TIRED}					Müde
+{SMT_ILL}					Krank
+{SMT_DYING}					Sterbend
+{SMT_ARMY_DETAILS}				Armeedetails
+{SMT_ENEMY_ARMY_DETAILS}			Details Feindarmee
+{SMT_ALLIED_ARMY_DETAILS}			Details Verbündetenarmee
+{SMT_NEUTRAL_ARMY_DETAILS}			Details neutrale Armee
+{SMT_NAVY_DETAILS}				Flottenverbanddetails
+{SMT_ENEMY_NAVY_DETAILS}			Details Feindflottenverband
+{SMT_ALLIED_NAVY_DETAILS}			Details Verbündetenflottenverband
+{SMT_NEUTRAL_NAVY_DETAILS}			Details neutraler Flottenverband
+{SMT_SETTLEMENT_DETAILS}			Siedlungsdetails
+{SMT_ENEMY_SETTLEMENT_DETAILS}		Details Feindsiedlung
+{SMT_NEUTRAL_SETTLEMENT_DETAILS}		Details neutrale Siedlung
+{SMT_ALLIED_SETTLEMENT_DETAILS}		Details verbündete Siedlung
+{SMT_FORT_DETAILS}				Fortdetails
+{SMT_ENEMY_FORT_DETAILS}			Details Feindfort
+{SMT_ALLIED_FORT_DETAILS}			Details verbündetes Fort
+{SMT_NEUTRAL_FORT_DETAILS}			Details neutrales Fort
+{SMT_SET_HEIR}					Erben bestimmen
+{SMT_PREV_CITY}					Vorherige Stadt wählen
+{SMT_NEXT_CITY}				Nächste Stadt wählen
+{SMT_NEXT_CHARACTER}				Nächsten Charakter wählen
+{SMT_PREV_CHARACTER}				Vorherigen Charakter wählen
+{SMT_NEXT_UNIT}				Nächste Einheit wählen
+{SMT_PREV_UNIT}					Vorherige Einheit wählen
+{SMT_PREV_FORT}				Vorheriges Fort wählen
+{SMT_NEXT_FORT}				Nächstes Fort wählen
+{SMT_FOOD_SUPPLIES}				Nahrungsversorgung
+{SMT_STATE_REVOLTING}				Die Bauern in dieser Siedlung revoltieren
+{SMT_STATE_NOT_REVOLTING}			Keine Anzeichen von Unruhen unter den Bauern dieser Siedlung
+{SMT_STATE_UNDER_SIEGE}			Diese Siedlung wird belagert
+{SMT_STATE_NOT_UNDER_SIEGE}			Diese Siedlung wird nicht belagert
+{SMT_STATE_HOLDING_GAMES}			Diese Siedlung hält Spiele ab
+{SMT_STATE_NOT_HOLDING_GAMES}			Diese Siedlung hält keine Spiele ab
+{SMT_STATE_PLAGUE}				Eine Seuche sucht die Straßen dieser Siedlung heim
+{SMT_STATE_NOT_PLAGUED}			Keine Anzeichen einer Seuche in dieser Siedlung
+{SMT_FERTILE_LOW}				Geringe Fruchtbarkeit
+{SMT_FERTILE_MEDIUM}				Mittlere Fruchtbarkeit
+{SMT_FERTILE_HIGH}				Hohe Fruchtbarkeit
+{SMT_WILDERNESS}				Wildnis
+{SMT_MOUNTAINS_HIGH}				Hohe Berge
+{SMT_MOUNTAINS_LOW}				Niedrige Berge
+{SMT_HILLS}					Hügel
+{SMT_FOREST_DENSE}				Dichter Wald
+{SMT_FOREST_SPARSE}				Waldland
+{SMT_SWAMP}					Sumpf
+{SMT_OCEAN}					Ozean
+{SMT_SEA_DEEP}					Tiefes Meer
+{SMT_SEA_SHALLOW}				Flaches Meer
+{SMT_BEACH}					Küste
+{SMT_FAMINE_THREAT_OK}				Keine
+{SMT_FAMINE_THREAT_HUNGRY}			Hunger
+{SMT_FAMINE_THREAT_FAMINE_1}			Leichte Hungersnot
+{SMT_FAMINE_THREAT_FAMINE_2}			Hungersnot
+{SMT_FAMINE_THREAT_FAMINE_3}			Verheerende Hungersnot
+{SMT_FAMINE_THREAT}				Hungersnot-Gefahr
+{SMT_HARVEST_LEVEL}				Erntestufe
+{SMT_FARMING_LEVEL}				Farmstufe
+{SMT_TAX_LEVEL_LOW}				Niedriger Steuersatz
+{SMT_TAX_LEVEL_NORMAL}				Normaler Steuersatz
+{SMT_TAX_LEVEL_HIGH}				Hoher Steuersatz
+{SMT_TAX_LEVEL_VERY_HIGH}			Sehr hoher Steuersatz
+{SMT_GOVERNOR_POLICY_BALANCED}		Ausgeglichene Baupolitik
+{SMT_GOVERNOR_POLICY_FINANCIAL}		Finanzielle Baupolitik
+{SMT_GOVERNOR_POLICY_MILITARY}			Militärische Baupolitik
+{SMT_GOVERNOR_POLICY_STRONGHOLD}		Defensive Baupolitik
+{SMT_GOVERNOR_POLICY_CULTURAL}			Kulturelle Baupolitik
+{SMT_NO_GOVERNOR}				Kein Statthalter
+{SMT_SHOW_GARRISON}				Einheiten der Garnison anzeigen
+{SMT_SHOW_UNITS}				Einheiten der Armee anzeigen
+{SMT_SHOW_UNITS_NAVY}				Einheiten des Flottenverbands anzeigen
+{SMT_SHOW_BUILDINGS}				Gebäude der Siedlung anzeigen
+{SMT_SHOW_VISITORS}				Besucher der Siedlung anzeigen
+{SMT_SHOW_TRAVELLING_CHARACTERS}		Mit der Armee reisende Charaktere anzeigen
+{SMT_SHOW_TRAVELLING_CHARACTERS_NAVY}	Mit dem Flottenverband reisende Charaktere anzeigen
+{SMT_SHOW_PASSENGERS}				Mit gewählter Flotte reisende Einheiten anzeigen
+{SMT_RCLICK_SHOW_SETTLEMENTS}			Mit einem Rechtsklick auf die Registerkarte werden Eure Siedlungen aufgelistet.
+{SMT_RCLICK_SHOW_CHARACTERS}			Mit einem Rechtsklick auf die Registerkarte werden Eure Charaktere aufgelistet.
+{SMT_RCLICK_SHOW_ARMIES}			Mit einem Rechtsklick auf die Registerkarte werden Eure Militärkräfte aufgelistet.
+{SMT_LOYALTY_DECREASING}			Die Loyalität zu Eurem Statthalter lässt nach.\nDas Volk muss ermuntert werden.
+{SMT_LOYALTY_INCREASING}			Die Loyalität nimmt zu.\nMacht weiter so.
+{SMT_MISSION_BREAK_ALLIANCE_TITLE}		Bündnis beenden
+{SMT_MISSION_BREAK_ALLIANCE_PROPOSAL}		Der Senat besteht darauf, dass Ihr Euer Bündnis mit dieser Seite, den Feinden Roms, beendet.
+{SMT_MISSION_BREAK_ALLIANCE_EXPIRY}		Der Senat zieht den Auftrag zurück, das Bündnis mit dieser Seite zu beenden, da es keine Feinde Roms mehr sind.
+{SMT_MISSION_BREAK_ALLIANCE_FAILURE}		Der Senat ist empört, dass Ihr Euer Bündnis mit dieser Seite noch nicht beendet habt.
+{SMT_MISSION_BREAK_ALLIANCE_SUCCESS}		Der Senat stellt fest, dass Ihr Euer Bündnis mit dieser Seite beendet habt.
+{SMT_MISSION_CAPTURE_REBEL_CITY_TITLE}		Aufständischen-Siedlung einnehmen
+{SMT_MISSION_CAPTURE_REBEL_CITY_PROPOSAL}	Der Senat toleriert keinen Aufstand, daher müsst Ihr diese Siedlung einnehmen und die Autorität Roms durchsetzen.
+{SMT_MISSION_CAPTURE_REBEL_CITY_EXPIRY}	Diese Siedlung wurde zurückerobert. Ihr müsst nicht mehr versuchen, sie einzunehmen.
+{SMT_MISSION_CAPTURE_REBEL_CITY_FAILURE}	Der Senat ist unzufrieden, da Ihr diese Siedlung nicht eingenommen habt.
+{SMT_MISSION_CAPTURE_REBEL_CITY_SUCCESS}	Der Senat ist glücklich, dass Ihr diese Siedlung eingenommen habt.
+{SMT_MISSION_DESTROY_REBEL_CITY_TITLE}		Aufständischen-Siedlung zerstören
+{SMT_MISSION_DESTROY_REBEL_CITY_PROPOSAL}	Befreit das Imperium von dieser aufständischen Siedlung! Zerstört sie und statuiert an ihr ein Exempel für alle Untertanen Roms.
+{SMT_MISSION_DESTROY_REBEL_CITY_EXPIRY}	Der Senat hält es nicht mehr für nötig, dass Ihr die Siedlung zerstört.
+{SMT_MISSION_DESTROY_REBEL_CITY_FAILURE}	Der Senat ist unzufrieden, da Ihr diese Siedlung nicht zerstört habt.
+{SMT_MISSION_DESTROY_REBEL_CITY_SUCCESS}	Der Senat ist zufrieden, da Ihr diese Siedlung zerstört habt.
+{SMT_MISSION_GIVE_BACK_CITY_TITLE}		Siedlung zurückgeben
+{SMT_MISSION_GIVE_BACK_CITY_PROPOSAL}		Der Senat verlangt, dass Ihr diese Siedlung zurückgebt.
+{SMT_MISSION_GIVE_BACK_CITY_EXPIRY}		Der Senat verlangt nicht mehr, dass Ihr diese Siedlung zurückgebt.
+{SMT_MISSION_GIVE_BACK_CITY_FAILURE}		Der Senat stellt fest, dass Ihr diese Siedlung nicht zurückgegeben habt.
+{SMT_MISSION_GIVE_BACK_CITY_SUCCESS}		Der Senat stellt fest, dass Ihr diese Siedlung erfolgreich zurückgegeben habt.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_TITLE}	Geächtete Seite angreifen
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_PROPOSAL}	Diese Seite wurde geächtet. Der Senat will, dass Ihr sie angreift.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_EXPIRY}	Der Senat verlangt nicht mehr, dass Ihr diese Seite angreift, da ein Frieden ausgehandelt wurde.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_FAILURE}	Der Senat stellt fest, dass Ihr diese Seite nicht angegriffen habt.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_SUCCESS}	Der Senat stellt zufrieden fest, dass Ihr diese Seite angegriffen habt.
+{SMT_MISSION_CEASE_HOSTILITIES_TITLE}		Feindseligkeiten einstellen
+{SMT_MISSION_CEASE_HOSTILITIES_PROPOSAL}	Der Senat bittet Euch, die Feindseligkeiten gegen diese Seite einzustellen.
+{SMT_MISSION_CEASE_HOSTILITIES_EXPIRY}		Der Senat hält es nicht mehr für nötig, die Feindseligkeiten gegen diese Seite einzustellen.
+{SMT_MISSION_CEASE_HOSTILITIES_FAILURE}		Der Senat ist unzufrieden, da Ihr Eure Feindseligkeiten gegen diese Seite nicht eingestellt habt.
+{SMT_MISSION_CEASE_HOSTILITIES_SUCCESS}	Der Senat stellt zufrieden fest, dass Ihr Eure Feindseligkeiten gegen diese Seite eingestellt habt.
+{SMT_MISSION_DECLARE_WAR_TITLE}		Krieg erklären
+{SMT_MISSION_DECLARE_WAR_PROPOSAL}		Diese Seite ist ein Feind Roms und der Senat wünscht, dass Ihr gegen sie in den Krieg zieht.
+{SMT_MISSION_DECLARE_WAR_EXPIRY}		Der Senat verlangt nicht mehr, dass Ihr gegen diese Seite Krieg führt.
+{SMT_MISSION_DECLARE_WAR_DECLINED}		Der Senat ist entrüstet, dass Ihr beschlossen habt, unserem Feind nicht den Krieg zu erklären.
+{SMT_MISSION_DECLARE_WAR_FAILURE}		Der Senat ist empört, dass Ihr den Krieg nicht fortsetzt.
+{SMT_MISSION_DECLARE_WAR_SUCCESS}		Der Senat ist dankbar für Eure Leistung im Sinne des Krieges.
+{SMT_MISSION_HELP_PLAYER_TITLE}			Hilfe vom Senat
+{SMT_MISSION_HELP_PLAYER_PROPOSAL}		Der Senat bewundert Eure Mühen für das Imperium und möchte mit dieser Prämie seinen Dank ausdrücken.
+{SMT_MISSION_ASSASSINATION_TITLE}		Attentat
+{SMT_MISSION_ASSASSINATION_PROPOSAL}		Der Senat findet, dass die Welt ohne diese Person ein schönerer Ort wäre, und verlangt ein Attentat.
+{SMT_MISSION_ASSASSINATION_EXPIRY_NOW_AN_ALLY}	Die Attentatsmission ist nicht mehr erforderlich, da die Zielperson zum Freund Roms geworden ist.
+{SMT_MISSION_ASSASSINATION_EXPIRY_OTHER_MEANS}	Die Attentatsmission ist nicht mehr erforderlich, da die Zielperson inzwischen verstorben ist.
+{SMT_MISSION_ASSASSINATION_EXPIRY_HIDING}	Die Attentatsmission ist nicht mehr erforderlich, da die Zielperson sich versteckt hat.
+{SMT_MISSION_ASSASSINATION_EXPIRY_IN_BATTLE}	Die Attentatsmission ist nicht mehr erforderlich, da der Senat die heimliche Ermordung der Zielperson wünschte, keinen lauten Tod auf dem Schlachtfeld.
+{SMT_MISSION_ASSASSINATION_SUCCESS}		Der Senat ist zufrieden, da das Attentat erfolgreich vonstatten ging.
+{SMT_MISSION_ASSASSINATION_FAILURE}		Der Senat ist nicht erfreut, dass Ihr nicht in der Lage wart, diese Person zu töten.
+{SMT_MISSION_TAKE_CITY_TITLE}			Siedlung besetzen
+{SMT_MISSION_TAKE_CITY_PROPOSAL}		Der Senat bittet Euch, diese Siedlung zum Ruhme des Imperiums zu besetzen.
+{SMT_MISSION_TAKE_CITY_EXPIRY}			Der Senat wünscht nicht mehr, dass Ihr diese Siedlung besetzt.
+{SMT_MISSION_TAKE_CITY_FAILURE}			Der Senat stellt unzufrieden fest, dass Ihr diese Siedlung nicht besetzt habt.
+{SMT_MISSION_TAKE_CITY_SUCCESS}		Der Senat stellt zufrieden fest, dass Ihr diese Siedlung besetzt habt.
+{SMT_MISSION_RECAPTURE_EAGLE_TITLE}		Legionsadler zurückerobern
+{SMT_MISSION_RECAPTURE_EAGLE_PROPOSAL}	Der Senat erwartet, dass Ihr diese Siedlung besetzt und Eure Legionsadler um der römischen Ehre Willen zurückerobert.
+{SMT_MISSION_RECAPTURE_EAGLE_EXPIRY}		Diese Siedlung wurde besetzt und Eure Adler sind verloren.
+{SMT_MISSION_RECAPTURE_EAGLE_FAILURE}		Der Senat ist höchst ungehalten, da Ihr Eure Legionsadler nicht zurückerobern konntet.
+{SMT_MISSION_RECAPTURE_EAGLE_SUCCESS}		Der Senat stellt mit Genugtuung fest, dass Ihr Eure Legionsadler zurückerobert habt.
+{SMT_MISSION_SEND_EMISSARY_TITLE}		Gesandten schicken
+{SMT_MISSION_SEND_EMISSARY_PROPOSAL}		Der Senat fordert Euch auf, einen Gesandten zu dieser Seite zu schicken.
+{SMT_MISSION_SEND_EMISSARY_FAILURE}		Der Senat stellt fest, dass Eure Diplomaten sich nicht mit dieser Seite in Verbindung gesetzt haben.
+{SMT_MISSION_SEND_EMISSARY_SUCCESS}		Der Senat stellt fest, dass Euer Gesandter sich mit dieser Seite in Verbindung gesetzt hat.
+{SMT_MISSION_DEMAND_SUICIDE_TITLE}		Selbstmordforderung
+{SMT_MISSION_DEMAND_SUICIDE_PROPOSAL}		Zum Wohl des Imperiums verlangt der Senat, dass Euer Anführer Selbstmord begeht.
+{SMT_MISSION_DEMAND_SUICIDE_DECLINED}		Der Senat ist ungehalten, da Ihr Euch weigert, Euren Anführer Selbstmord begehen zu lassen.
+{SMT_MISSION_DEMAND_SUICIDE_SUCCESS}		Der Senat ist angesichts des Selbstmords Eures Anführers zufrieden.
+{SMT_SENATE_FAILURE}				Wenn Ihr versagt:
+{SMT_SENATE_FINE_AWARDED}			Ihr werdet für Eure erbärmlichen Taten bestraft.
+{SMT_PENALTY_OUTLAW_DESCRIPTION}		Ihr werdet geächtet.
+{SMT_PENALTY_OUTLAW}				Der Senat erklärt Eurer Seite den Krieg. Ihr werdet geächtet.
+{SMT_PENALTY_CENSOR_INVESTIGATES_FAMILY_DESCRIPTION}	Der Zensor wird Eure Familie untersuchen.
+{SMT_PENALTY_CENSOR_INVESTIGATES_FAMILY}		Nach der Untersuchung Eurer Familie durch den Zensor hat das folgende Familienmitglied Selbstmord begangen. Der Senat drückt sein tiefstes Beileid aus.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_CORRUPTION_DESCRIPTION}	Der Quästor wird Eure Seite auf Korruption untersuchen.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_CORRUPTION}			Nach der Untersuchung Eurer Seite durch den Quästor müsst Ihr %d Denare Strafe zahlen.
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION_DESCRIPTION}			Der Zensor wird Eure Seite untersuchen.
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION}					Nach der Untersuchung Eurer Seite durch den Zensor hat %S Selbstmord begangen.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_FINANCIAL_IRREGULARITIES_DESCRIPTION}	Der Quästor wird Eure Seite auf finanzielle Ungereimtheiten untersuchen.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_FINANCIAL_IRREGULARITIES}		Nach der Untersuchung Eurer Seite durch den Quästor müsst Ihr %d Denare Strafe zahlen.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_ACCOUNTING_IRREGULARITIES_DESCRIPTION}		Der Quästor wird Eure Seite auf Ungereimtheiten bei der Buchhaltung untersuchen.
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_ACCOUNTING_IRREGULARITIES}			Nach der Untersuchung Eurer Seite auf Ungereimtheiten bei der Buchhaltung durch den Quästor müsst Ihr %d Denare Strafe zahlen.
+{SMT_PENALTY_SENATE_DISPLEASURE_DESCRIPTION}			Ihr werdet das Missfallen des Senats erregen.
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE_DESCRIPTION}		Euer Geheimnis wird gelüftet werden.
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE}			Euer Geheimnis wurde gelüftet.
+{SMT_PENALTY_OFFICES_WITHELD_DESCRIPTION}			Eure Seite kommt vier Jahre lang nicht für einen Senatsposten in Frage.
+{SMT_PENALTY_OFFICES_WITHELD}					Es ist unwahrscheinlich, dass der Senat Eure Seite in nächster Zeit für einen Senatsposten in Betracht zieht.
+{SMT_SENATE_SUCCESS}						Wenn Ihr Erfolg habt:
+{SMT_SENATE_BOUNTY_AWARDED}					Ihr erhaltet für Eure Mühen eine Prämie.
+{SMT_REWARD_MAJOR_EXOTIC_UNIT_DESCRIPTION}			Ihr werdet mit einer bedeutenden exotischen Einheit belohnt.
+{SMT_REWARD_TWO_MINOR_EXOTIC_UNITS_DESCRIPTION}		Ihr werdet mit zwei weniger bedeutenden exotischen Einheiten belohnt.
+{SMT_REWARD_TWO_BEST_BUILDABLE_UNITS_DESCRIPTION}		Ihr werdet mit zwei Eurer besten möglichen Einheiten belohnt.
+{SMT_REWARD_ONE_BEST_BUILDABLE_UNIT_DESCRIPTION}		Ihr werdet mit einer Eurer besten möglichen Einheiten belohnt.
+{SMT_REWARD_ONE_MINOR_EXOTIC_UNIT_DESCRIPTION}		Ihr werdet mit einer weniger bedeutenden exotischen Einheit belohnt.
+{SMT_REWARD_ONE_BUILDABLE_UNIT_DESCRIPTION}			Ihr werdet mit einer Eurer möglichen Einheiten belohnt.
+{SMT_REWARD_CANNOT_BUILD_A_UNIT}				Ihr könnt keine Belohnung erhalten, da Ihr keine Einheiten produzieren könnt.
+{SMT_REWARD_UNIT_AT_YOUR_CAPITAL}				Eure Belohnung befindet sich in Eurer Hauptstadt:\n
+{SMT_REWARD_SENATE_GRATITUDE_DESCRIPTION}			Ihr erntet den Dank des Senats.
+{SMT_REWARD_SENATE_GRATITUDE}					Der Senat hat Eure Mühen für Rom bemerkt und ist sehr dankbar.
+{SMT_REWARD_THROW_GAMES_DESCRIPTION}				Spiele werden auf Kosten des Senats in Eurer Hauptstadt abgehalten.
+{SMT_REWARD_MAJOR_REWARD_DESCRIPTION}			Ihr werdet reich belohnt.
+{SMT_REWARD_MODERATE_REWARD_DESCRIPTION}			Ihr werdet großzügig belohnt.
+{SMT_REWARD_MINOR_REWARD_DESCRIPTION}				Ihr werdet belohnt.
+{SMT_REWARD_MONEY}						Er erhaltet ein Geschenk von %d Denaren.
+{SMT_REWARD_PROMISE_OF_APPOINTMENT_DESCRIPTION}		Ihr erhaltet den Vorrang bei der Benennung für ein Amt.
+{SMT_REWARD_PROMISE_OF_APPOINTMENT}				Der Senat wird Eure Seite bei der Besetzung eines Senatsposten besonders bedenken.
+{SMT_SENATE_ATTITUDE}						Der Senat ist Euch wohl gesinnt.
+{SMT_SENATE_OFFICE_QUAESTOR_TITLE}				Quästor
+{SMT_SENATE_OFFICE_QUAESTOR_DESCRIPTION}			Beamter
+{SMT_SENATE_OFFICE_AEDILE_TITLE}				Ädil
+{SMT_SENATE_OFFICE_AEDILE_DESCRIPTION}				Verantwortlich für das Abhalten von Spielen
+{SMT_SENATE_OFFICE_PRAETOR_TITLE}				Prätor
+{SMT_SENATE_OFFICE_PRAETOR_DESCRIPTION}			Kommandant der Prätorianerwache
+{SMT_SENATE_OFFICE_CONSUL_TITLE}				Konsul
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}				Entwickler der Senatspolitik
+{SMT_SENATE_OFFICE_CENSOR_TITLE}				Zensor
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}				Hüter der öffentlichen Moral
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_TITLE}			Pontifex Maximus
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}		Oberster Religionsanführer
+{SMT_REMOVE_RALLY_POINT}					Sammelpunkt dieser Siedlung entfernen\nNeu rekrutierte Einheiten schließen sich der Garnison an.
+{SMT_SET_RALLY_POINT}						Sammelpunkte anzeigen
+{SMT_1_TURN}							1 Runde
+{SMT_X_TURNS}							%d Runden
+{SMT_SELECT_UNIT_TO_RECRUIT}					Einheit zum Rekrutieren wählen
+{SMT_SELECT_UNIT_TO_RETRAIN}					Einheit zum Fortbilden wählen
+{SMT_SET_TO_RECRUIT_MODE}					Rekrutierbare Einheiten anzeigen
+{SMT_SET_TO_RETRAIN_MODE}					Einheiten der Garnison anzeigen, die Fortbildung und Ausrüstung benötigen
+{SMT_MERGE_SELECTED_UNITS}					Gewählte Objekte vom linken Bereich in den rechten transferieren
+{SMT_X_PERCENT_COMPLETE}					%d Prozent abgeschlossen
+{SMT_DIPLOMACY_OFFER_ALLIANCE}					Bündnis
+{SMT_DIPLOMACY_OFFER_CANCEL_ALLIANCE}				Bündnis beenden
+{SMT_DIPLOMACY_OFFER_CEASEFIRE}				Waffenstillstand
+{SMT_DIPLOMACY_OFFER_MILITARY_ACCESS}				Militärischer Zugang
+{SMT_DIPLOMACY_OFFER_CANCEL_MILITARY_ACCESS}			Militärischen Zugang beenden
+{SMT_DIPLOMACY_OFFER_TRADE_RIGHTS}				Handelsrechte
+{SMT_DIPLOMACY_OFFER_CANCEL_TRADE_RIGHTS}			Handelsrechte beenden
+{SMT_DIPLOMACY_OFFER_ATTACK_FACTION}				Seite angreifen
+{SMT_DIPLOMACY_OFFER_CEDE_REGION}				Region abtreten
+{SMT_DIPLOMACY_OFFER_SINGLE_PAYMENT}				Einmalige Zahlung
+{SMT_DIPLOMACY_OFFER_YEARLY_PAYMENT}				Regelmäßiger Tribut
+{SMT_DIPLOMACY_OFFER_CANCEL_YEARLY_PAYMENT}			Regelmäßigen Tribut beenden
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Keine Angriffsdrohung
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Kein Angriff
+{SMT_DIPLOMACY_OFFER_MAP_INFORMATION}				Karteninformation
+{SMT_DIPLOMACY_OFFER_BRIBE}					Bestechung
+{SMT_DIPLOMACY_OFFER_PROTECTORATE}				Protektorat werden
+{SMT_MAKE_OFFER}						Angebot abgeben
+{SMT_MAKE_DEMAND}						Forderung abgeben
+{SMT_YOUR_DEMANDS}						Eure Forderungen
+{SMT_YOUR_OFFERS}						Eure Angebote
+{SMT_THEIR_OFFERS}						Ihre Angebote
+{SMT_THEIR_DEMANDS}						Ihre Forderungen
+{SMT_GIVE_X_DENARI}						Gebt uns %d Denare.
+{SMT_WE_WILL_GIVE_X_DENARI}					Wir geben %d Denare.
+{SMT_GIVE_YEARLY_TRIBUTE_OF_X_DENARI}				Zahlt einen Tribut von %d Denaren je Runde.
+{SMT_OFFER_YEARLY_TRIBUTE_OF_X_DENARI}				Wir zahlen einen Tribut von %d Denaren je Runde.
+{SMT_CANCEL_YEARLY_TRIBUTE_OF_X_DENARI}			Den Tribut von %d Denaren beenden
+{SMT_DIP_ACCEPT_OFFER}						Aktuellen Vorschlag annehmen
+{SMT_DIP_DECLINE_OFFER}						Aktuellen Vorschlag ablehnen
+{SMT_DIP_COUNTER_OFFER}					Gegenangebot für aktuellen Vorschlag abgeben
+{SMT_DIP_NEW_OFFER}						Neues Angebot abgeben
+{SMT_DIP_INIT_OFFER}						Angebot abgeben\nAngebote oder Forderungen offen lassen, um herauszufinden, was die Gegenseite im Austausch verlangen oder geben würde.
+{SMT_DIP_MAKE_GIFT}						Objekte als Geschenk anbieten\nNur bestimmte Objekte können als Geschenke angeboten werden.
+{SMT_DIP_INFORM}						Gegenseite von beendetem Vertragsverhältnis in Kenntnis setzen
+{SMT_TRIBUTE_PAYED}						Gezahlter Tribut:
+{SMT_TRIBUTE_RECIEVED}						Erhaltener Tribut:
+{SMT_MILITARY_ACCESS_RECEIVED}					Militärischen Zugang erhalten
+{SMT_MILITARY_ACCESS_GIVEN}					Militärischen Zugang vergeben
+{SMT_TRADE_RIGHTS_GRANTED}					Handelsrechte vergeben
+{SMT_ABILITIES_AT_A_GLANCE}					Fähigkeiten auf einen Blick
+{SMT_DESCRIPTION}						Beschreibung
+{SMT_UPGRADES}							Aufrüstungen
+{SMT_X_MEN}							%d Männer
+{SMT_YOUR_ARMY_HAS_X_BUILD_POINTS}				Eure Armee hat %d Baupunkte.
+{SMT_SELECT_SIEGE_EQUIPMENT}					Belagerungsausrüstung für Bauliste wählen
+{SMT_BUILT}							Gebaut
+{SMT_ZOOM_TO_SETTLEMENT}					Siedlungsstandort finden
+{SMT_ZOOM_TO_UNIT}						Standort der Armee der Einheit finden
+{SMT_ZOOM_TO_CHARACTER}					Charakter-Standort finden
+{SMT_OPEN_CONSTRUCTION_WINDOW}				Baufenster der gewählten Siedlung öffnen
+{SMT_NOTHING_TO_CONSTRUCT}					In der gewählten Siedlung können keine Gebäude errichtet werden.
+{SMT_OPEN_TRAINING_WINDOW}					Schriftrolle Ausbildung von Einheiten für gewählte Siedlung öffnen
+{SMT_NOTHING_TO_TRAIN}						In der gewählten Siedlung können keine Einheiten rekrutiert werden.
+{SMT_CURRENTLY_TRAINING}					Ausbildung im Gang
+{SMT_OPEN_OPTIONS_WINDOW}					Spieloptionen einstellen
+{SMT_OPEN_SENATE_WINDOW}					Senat-Informationsfenster öffnen
+{SMT_OPEN_FINANCE_WINDOW}					Finanzfenster öffnen
+{SMT_OPEN_DIPLOMACY_WINDOW}					Diplomatiestatus-Fenster öffnen
+{SMT_FACTION_BUTTON_TOOLTIP}					Seiten-Übersichtsfenster öffnen\nMit rechter Maustaste Hauptstadt der Seite finden
+{SMT_SELECTED_ITEM_TOOLTIP}					Aktuell gewähltes Objekt\nEinmal klicken, um das Objekt zu zentrieren
+{SMT_BUILD_QUEUE_CONFLICT}					Dieses Gebäude befindet sich bereits in der Bauliste dieser Siedlung.
+{SMT_BUILD_QUEUE_FULL}						Objekt kann nicht hinzugefügt werden, da die Bauliste voll ist.
+{SMT_BUILD_QUEUE_INSUFFICIENT_FUNDS}				Gebäude kann nicht hinzugefügt werden, da das Geld nicht ausreicht.
+{SMT_TRAINING_INSUFFICIENT_POPULACE}				Objekt kann nicht hinzugefügt werden, da in dieser Siedlung nicht genug Leute zum Rekrutieren sind.
+{SMT_TRAINING_INSUFFICIENT_FUNDS}				Objekt kann nicht der Ausbildungsliste hinzugefügt werden, da das Geld nicht ausreicht.
+{SMT_TRAINING_QUEUE_FULL}					Objekt kann nicht hinzugefügt werden, da die Ausbildungsliste voll ist.
+{SMT_DIPLOMACY_SUMMARY}					Diplomatieübersicht
+{SMT_WE_HAVE_MILITARY_ACCESS}					Wir haben militärischen Zugang.
+{SMT_THEY_HAVE_MILITARY_ACCESS}				Sie haben militärischen Zugang.
+{SMT_PAYING_YOU_TRIBUTE_X_PER_TURN}				Euch werden je Runde %d Denare als Tribut bezahlt.
+{SMT_PAYING_THEM_TRIBUTE_X_PER_TURN}				Ihnen werden je Runde %d Denare als Tribut bezahlt.
+{SMT_ASSISTANCE_REQUESTED_AGAINST}				Hilfe erbeten gegen
+{SMT_ASSISTANCE_PROVIDED_AGAINST}				Hilfe geleistet gegen
+{SMT_CONFIRM_OFFER}						Angebotsdetails bestätigen
+{SMT_CANCEL_OFFER}						Angebotsdetails verwerfen
+{SMT_OFFER_MONEY_TITLE}					Geld anbieten
+{SMT_DEMAND_MONEY_TITLE}					Geld fordern
+{SMT_AMOUNT_OF_DENARI}					Anzahl an Denaren
+{SMT_OFFER_TRIBUTE_TITLE}					Tribut anbieten
+{SMT_DEMAND_TRIBUTE}						Tribut fordern
+{SMT_NUMBER_OF_YEARS}						Anzahl der Runden
+{SMT_OR_UNTIL_FURTHER_NOTICE}					Oder bis auf weiteres
+{SMT_UNTIL_FURTHER_NOTICE}					Bis auf weiteres
+{SMT_DEMAND_ATTACK_ON_FACTION}				Angriff gegen Seite fordern
+{SMT_OFFER_ATTACK_ON_FACTION}					Angriff gegen Seite anbieten
+{SMT_WITHIN}							In 
+{SMT_YEARS}							Runden
+{SMT_GIVE}							Geben
+{SMT_DEMAND_SETTLEMENT_TITLE}					Siedlungen fordern
+{SMT_OFFER_SETTLEMENT_TITLE}					Siedlungen anbieten
+{SMT_CITY}							Stadt
+{SMT_CHARACTERS}						Charaktere
+{SMT_STATUS}							Status
+{SMT_CHARACTER_PERFORMED_TURNS_ACTION}			Der gewählte Charakter hat in dieser Runde eine Mission ausgeführt.
+{SMT_TARGET_TILE_IS_IMPASSABLE}					Die Zielposition ist für diesen Charaktertyp ungültig.
+{SMT_CANNOT_LEAVE_SIEGED_FORT}				Während einer Belagerung kann keiner das Fort verlassen, außer um die belagernde Armee anzugreifen.
+{SMT_CANNOT_LEAVE_SIEGED_SETTLEMENT}				Während einer Belagerung kann keiner die Siedlung verlassen, außer um die belagernde Armee anzugreifen.
+{SMT_CANNOT_LEAVE_ENEMIES_ZOC}				Verlassen der feindlichen Kontrollzone nicht möglich
+{SMT_CHARACTER_DETAILS}					Charakterdetails
+{SMT_ENEMY_CHARACTER_DETAILS}					Details Feind-Charakter
+{SMT_NEUTRAL_CHARACTER_DETAILS}				Details neutraler Charakter
+{SMT_ALLIED_CHARACTER_DETAILS}					Details verbündeter Charakter
+{SMT_VICES}							Laster
+{SMT_FACTION_SUMMARY}						Seitenübersicht
+{SMT_FACTION_LEADER}						Anführer:
+{SMT_HEIRS}							Erben:
+{SMT_REGIONS_GAINED}						Erlangte Regionen:
+{SMT_BATTLES_WON}						Gewonnene Schlachten:
+{SMT_BATTLES_LOST}						Verlorene Schlachten:
+{SMT_SHOW_FAMILY_TREE}					Stammbaum anzeigen
+{SMT_SHOW_EVENT_LOG}						Ereignisjournal anzeigen
+{SMT_FINANCIAL_SUMMARY}					Finanzübersicht
+{SMT_INCOME}							Einnahmen
+{SMT_EXPENDITURE}						Ausgaben
+{SMT_FARMING}							Farmwesen
+{SMT_RESOURCES}						Ressourcen
+{SMT_TRADE}							Handel
+{SMT_TAXES}							Steuern
+{SMT_WAGES}							Sold
+{SMT_PROJECTED_INCOME}						Geplante Gesamterträge
+{SMT_PROJECTED_EXPENDITURE}					Geplante Gesamtausgaben
+{SMT_PROJECTED_PROFIT}						Geplanter Gewinn
+{SMT_TOTAL_INCOME}						Gesamterträge
+{SMT_TOTAL_EXPENDITURE}					Gesamtausgaben
+{SMT_TOTAL_PROFIT}						Gewinn
+{SMT_ARMY_RECRUIT}						Rekrutierung
+{SMT_CONSTRUCTION}						Bau
+{SMT_DIPLOMACY}						Diplomatie
+{SMT_TRIBUTE}							Tribute
+{SMT_OTHER}							Sonstige
+{SMT_SENATE_TRANSACTIONS}					Senat-Transaktionen
+{SMT_EVENT_LOG}						Ereignisjournal
+{SMT_OFFICE}							Amt
+{SMT_CHARACTER}						Charakter
+{SMT_SENATE_OFFICIALS}						Senatsbeamte
+{SMT_SENATE_MISSIONS}						Senatsmissionen
+{SMT_SHOW_SENATE_OFFICES}					Liste der Senatsposten anzeigen
+{SMT_TIME_REMAINING}						Verbleibende Zeit
+{SMT_TARGETS}							Ziele
+{SMT_TARGET}							Ziel
+{SMT_REWARD}							Belohnung
+{SMT_PENALTY}							Strafe
+{SMT_SETTLEMENT}						Siedlung
+{SMT_TRADE_DETAILS}						Handelsdetails
+{SMT_SHOW_TRADE_SUMMARY}					Schriftrolle Handelsübersicht dieser Siedlung anzeigen
+{SMT_RESOURCE_GOLD}						Gold
+{SMT_RESOURCE_SILVER}						Silber
+{SMT_RESOURCE_IRON}						Eisen
+{SMT_RESOURCE_POTTERY}						Töpferwaren
+{SMT_RESOURCE_FURS}						Felle
+{SMT_RESOURCE_GRAIN}						Korn
+{SMT_RESOURCE_TIMBER}						Schnittholz
+{SMT_RESOURCE_ELEPHANT}					Elefanten
+{SMT_RESOURCE_CAMEL}						Kamele
+{SMT_RESOURCE_DOG}						Hunde
+{SMT_RESOURCE_PIG}						Schweine
+{SMT_RESOURCE_OLIVE_OIL}					Olivenöl
+{SMT_RESOURCE_WINE}						Wein
+{SMT_RESOURCE_SLAVES}						Sklaven
+{SMT_RESOURCE_GLASS}						Glas
+{SMT_RESOURCE_MARBLE}						Marmor
+{SMT_RESOURCE_TEXTILES}					Textilien
+{SMT_RESOURCE_PURPLE_DYE}					Purpurnes Färbemittel
+{SMT_RESOURCE_INCENSE}						Weihrauch
+{SMT_RESOURCE_SILK}						Seide
+{SMT_RESOURCE_WILD_ANIMALS}					Wilde Tiere
+{SMT_RESOURCE_HIDES}						Häute
+{SMT_RESOURCE_TIN}						Zinn
+{SMT_RESOURCE_COPPER}						Kupfer
+{SMT_RESOURCE_LEAD}						Blei
+{SMT_RESOURCE_AMBER}						Bernstein
+{SMT_HARVEST_POOR}						Schlechte Ernte
+{SMT_HARVEST_NORMAL}						Durchschnittliche Ernte
+{SMT_HARVEST_GOOD}						Gute Ernte
+{SMT_HARVEST_EXCELLENT}					Ausgezeichnete Ernte
+{SMT_MINING_INCOME}						Minenerträge
+{SMT_FARM_INCOME}						Farmerträge
+{SMT_FIND_SELECTED_CHARACTER}					Gewählten Charakter auf der Karte finden
+{SMT_FAMILY_TREE_TITLE}						Stammbaum
+{SMT_OWNED_BY}							Im Besitz von:
+{SMT_WEAPON_ARMOUR_PIERCING}					Verwenden panzerbrechende Waffen
+{SMT_WEAPON_BODY_PIERCING}					Verwenden Körper durchdringende Waffen
+{SMT_WEAPON_PRECURSOR}					Verwenden zunächst Fernkampfwaffen
+{SMT_WEAPON_AREA}						Waffe hat Bereichswirkung
+{SMT_UNIT_IS_GENERAL}						Für einen General geeignete Einheit
+{SMT_UNIT_IS_COMMAND}						Eine Kommandoeinheit
+{SMT_UNIT_CAN_CONCEAL}						Können sich verstecken
+{SMT_UNIT_IS_HARDY}						Sind zäh
+{SMT_UNIT_IS_VERY_HARDY}					Sind sehr zäh
+{SMT_UNIT_IS_HEAVY}						Sind eine schwere Einheit
+{SMT_CAN_DO_TESTUDO}						Beherrschen Schildkröten-Formation
+{SMT_CAN_DO_PHALANX}						Können Phalanx bilden
+{SMT_GOOD_ON_SCRUB}						In Gestrüpp geeignet
+{SMT_GOOD_ON_SAND}						In Wüsten geeignet
+{SMT_GOOD_ON_FOREST}						In Wäldern geeignet
+{SMT_GOOD_ON_SNOW}						Im Schnee geeignet
+{SMT_BAD_ON_SCRUB}						In Gestrüpp ungeeignet
+{SMT_BAD_ON_SAND}						In Wüsten ungeeignet
+{SMT_BAD_ON_FOREST}						In Wäldern ungeeignet
+{SMT_BAD_ON_SNOW}						Im Schnee ungeeignet
+{SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_TITLE}		Agent entdeckt
+{SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_DESCRIPTION}	Wir haben einen verräterischen und gefährlichen Spion in dieser Siedlung entdeckt. Kennen unsere Gegner keine Ehre?
+{SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_TITLE}		Agent aufgeflogen
+{SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_DESCRIPTION}	Unser Agent ist von den Verantwortlichen dieser Siedlung enttarnt worden. Wir müssen davon ausgehen, dass er tot ist. 
+{SMT_APPOINT_TO_GOVERNOR_TITLE}				Statthalter ernannt
+{SMT_APPOINT_TO_GOVERNOR_DESCRIPTION}				Dieser Mann ist zum neuen Statthalter ernannt worden.
+{SMT_SETTLEMENT_BESIEGE_TITLE}					Siedlung wird belagert
+{SMT_SETTLEMENT_BESIEGE_DESCRIPTION}				Diese Siedlung wird zurzeit belagert und ihr Volk leidet darunter. 
+{SMT_SETTLEMENT_REVOLT_TITLE}					Siedlung revoltiert
+{SMT_SETTLEMENT_REVOLT_DESCRIPTION}				Die Bürger dieser Siedlung revoltieren und zeigen damit ihre Undankbarkeit und Falschheit.
+{SMT_SETTLEMENT_LOST_TITLE}					Siedlung verloren
+{SMT_SETTLEMENT_LOST_DESCRIPTION}				Diese Siedlung ist nicht mehr unter unserer Kontrolle, was unserem Wohlstand und unserem Prestige schadet.
+{SMT_SETTLEMENT_GAINED_TITLE}					Siedlung gewonnen
+{SMT_SETTLEMENT_GAINED_DESCRIPTION}				Wir haben diese Siedlung unter unsere Kontrolle gebracht, was unseren Wohlstand und unser Prestige verbessert!
+{SMT_NAVY_BLOCKADED_TITLE}					Blockade effektiv
+{SMT_NAVY_BLOCKADED_DESCRIPTION}				Der maritime Handel leidet unter dieser Blockade.
+{SMT_BIRTH_TITLE}						Geburt in der Familie
+{SMT_BIRTH_DESCRIPTION}						Unsere Seite wurde mit der Geburt eines Kindes gesegnet. Mit der Zeit wird es heranwachsen und zum Ruhm unseres Volkes beitragen.
+{SMT_ADOPTION_TITLE}						Adoption
+{SMT_ADOPTION_DESCRIPTION}					Dieser Mann wurde in unsere Familie aufgenommen und wird unserem Namen durch seine Taten zu Ehre und Ruhm verhelfen.
+{SMT_COMING_OF_AGE_TITLE}					Volljährigkeit
+{SMT_COMING_OF_AGE_DESCRIPTION}				Dieser Mann ist volljährig geworden und kann nun seinen Beitrag zur guten Regierung leisten.
+{SMT_MARRIAGE_TITLE}						Heirat
+{SMT_MARRIAGE_DESCRIPTION}					Dieser Mann hat geheiratet und legt damit den Grundstein für die zukünftige Stärke unserer Familie.
+{SMT_NATURAL_DEATH_TITLE}					Natürlicher Tod
+{SMT_NATURAL_DEATH_DESCRIPTION}				Dieser Mann ist eines natürlichen Todes gestorben und gesellt sich nun zu unseren ruhmreichen Ahnen im Jenseits. 
+{SMT_NEW_FACTION_LEADER_TITLE}					Neuer Anführer
+{SMT_NEW_FACTION_LEADER_DESCRIPTION}				Ein neuer Anführer ist erschienen und hat nun alles unter Kontrolle. 
+{SMT_NEW_FACTION_HEIR_TITLE}					Neuer Erbe
+{SMT_NEW_FACTION_HEIR_DESCRIPTION}				Ein neuer Erbe der Seite ist erschienen, doch hoffen wird, dass er nicht allzu bald die Führung übernimmt.
+{SMT_FACTION_DEFEATED_TITLE}					Seite besiegt
+{SMT_FACTION_DEFEATED_DESCRIPTION}				Diese Seite wurde besiegt und muss uns keine Sorgen bereiten. 
+{SMT_UNKNOWN}							Unbekannt
+{SMT_UNKNOWN_UNIT}						Unbekannter Einheitentyp
+{SMT_UNKNOWN_BUILDING}						Unbekannter Gebäudetyp
+{SMT_ARMY_BREAKDOWN}						Armeeübersicht
+{SMT_SHOW_ARMY_DETAILS}					Armeedetails einsehen
+{SMT_SHOW_VNV_DETAILS}					Tugenden und Laster des Charakters einsehen
+{SMT_TRAITS_UKNOWN}						Merkmale unbekannt
+{SMT_STATUS_UNKNOWN}						Status unbekannt
+{SMT_SPOTTED_BY}						Entdeckt von:
+{SMT_WATCHTOWER}						Wachturm
+{SMT_EXCHANGE_COMMANDING_OFFICER}				Kommandant einer Armee kann nicht transferiert werden.
+{SMT_EXCHANGE_NO_MOVEMENT_POINTS}				Zu wenige Bewegungspunkte für den Transfer.
+{SMT_EXCHANGE_NO_NAVY_PRESENT}				Schiff kann nicht transferiert werden, um Armee an Land zu bringen.
+{SMT_EXCHANGE_SELECTED}					Mit dem Zusammenführen-Button oder durch Verschieben kann eine Karte in ein anderes Menü transferiert werden.
+{SMT_EXCHANGE_UNSELECTED}					Eine Karte wählen, die in das andere Menü transferiert werden soll.
+{SMT_EXCHANGE_NO_SELECTION}					Karten zum Transfer auswählen und mit Registerkarten unterschiedliche Kategorien einsehen.
+{SMT_EXCHANGE_MERGE_OK}					Mit dem Zusammenführen-Button die gewählten Karten in ein anderes Menü transferieren.
+{SMT_EXCHANGE_CAPACITY_EXCEEDED}				Gewählte Karten können nicht transferiert werden, da sonst die Kapazität überschritten wird. Wählt Karten in beiden Menüs, um sie zu tauschen.
+{SMT_SHOW_MISSION_TARGET}					Position des Missionsziels anzeigen
+{SMT_RALLY_POINTS}						Sammelpunkte
+{SMT_RALLY_POINT}						Sammelpunkt
+{SMT_CANNOT_MERGE_THIS_UNIT_SELECTION}			Diese Einheitenauswahl kann nicht ins andere Fenster transferiert werden.
+{SMT_CANNOT_MERGE_THIS_CHARACTER_SELECTION}			Diese Charakterauswahl kann nicht ins andere Fenster transferiert werden.
+{SMT_ZOOM_DOWN_TO_CITY}					Siedlung auf Schlachtkarte ansehen
+{SMT_DESTROY_BUILDING}						Gebäude zerstören
+{SMT_RETAINERS}							Gefolge
+{SMT_RETAINERS_UNKNOWN}					Gefolge unbekannt
+{SMT_SUCCESS_RATE}						Erfolgsrate
+{SMT_SHOW_CHARACTER_TARGETS}					Potentielle Zielcharaktere anzeigen
+{SMT_SHOW_BUILDING_TARGETS}					Potentielle Zielgebäude anzeigen
+{SMT_ACCEPT_MISSION}						Mission annehmen
+{SMT_BUILDING}							Gebäude
+{SMT_MILITARY_FORCES}						Militärstreitkräfte
+{SMT_NUM_SOLDIERS}						Soldaten
+{SMT_ATTACK}							Angriff
+{SMT_ATTACK_CHARGE}						Sturm
+{SMT_ARMOUR}							Rüstung
+{SMT_DEFENCE}							Verteidigung
+{SMT_SHIELD}							Schild
+{SMT_HP}							Trefferpunkte
+{SMT_CREATION_COST}						Rekrutierkosten
+{SMT_ARMY_STRENGTH_RATIO}					Armee-Stärkeverhältnis
+{SMT_NAVY_STRENGTH_RATIO}					Flottenverband-Stärkeverhältnis
+{SMT_PROTECTOR}						Protektor
+{SMT_PROTECTORATES}						Protektorate
+{SMT_YOU_ARE_PROTECTOR}					Ihr seid der Protektor dieser Seite.
+{SMT_ENABLE_AUTO_TRAIN}					Automatische Einheitenausbildung zulassen
+{SMT_ENABLE_AUTO_CONSTRUCT}					Automatische Gebäudekonstruktion zulassen
+{SMT_AUTOMATE_ALL}						Gesamte Produktion automatisieren
+{SMT_AI_SPEND_POLICY}						KI-Ausgabenpolitik
+{SMT_SAVE}							Sparen
+{SMT_SPEND}							Ausgeben
+{SMT_CONSTRUCTION_OPTIONS}					Bauoptionen
+{SMT_CONSTRUCTION_QUEUE}					Bauliste
+{SMT_LAND_EXPORTS}						Landexporte
+{SMT_SEA_EXPORTS}						Seeexporte
+{SMT_IMPORTS}							Importe
+{SMT_TRADE_INCOME}						Handelserträge
+{SMT_RECRUITMENT_QUEUE}					Rekrutierliste
+{SMT_DEFENSES}							Verteidigungsanlagen
+{SMT_SIEGE_DETAILS}						Belagerungsdetails
+{SMT_SETTLEMENT_HAS_FOOD_FOR_X_YEARS}			Diese Siedlung hat genug Nahrung für %d Jahre.
+{SMT_FORT_HAS_FOOD_FOR_X_YEARS}				Dieses Fort hat genug Nahrung für %d Jahre.
+{SMT_SETTLEMENT_HAS_FOOD_FOR_1_YEAR}				Diese Siedlung hat genug Nahrung für ein Jahr.
+{SMT_FORT_HAS_FOOD_FOR_1_YEAR}				Dieses Fort hat genug Nahrung für ein Jahr.
+{SMT_SETTLEMENT_HAS_NO_FOOD}					Diese Siedlung hat nur noch sehr wenig Nahrung auf Lager.
+{SMT_FORT_HAS__NO_FOOD}					Dieses Fort hat nur noch sehr wenig Nahrung auf Lager.
+{SMT_AUTOMANAGE_ALL_TOOLTIP}					Für jede Siedlung automatisch einen KI-Bauassistenten einsetzen
+{SMT_ALLOW_BUILDING_TOOLTIP}					Dem Bauassistenten das Bauen von Gebäuden erlauben
+{SMT_ALLOW_TROOP_PRODUCTION_TOOLTIP}				Dem Bauassistenten das Rekrutieren von Truppen erlauben
+{SMT_SPEND_SLIDER_TOOLTIP}					Die für den Bauassistenten verfügbare Geldmenge bestimmen
+{SMT_BUILDING_ADVICE}						Berater um Empfehlung bitten, welches Gebäude als Nächstes zu bauen ist
+{SMT_RECRUITMENT_ADVICE}					Berater um Empfehlung bitten, welche Einheiten als Nächstes zu rekrutieren sind
+{SMT_DAMAGE}							Schaden
+{SMT_INVALID_RALLY_POINT_POSITION}				Dieser Ort ist nicht für einen Sammelpunkt geeignet
+{SMT_CANNOT_PERFORM_MISSIONS_WITH_MULTIPLE_CHARACTERS}	Wenn mehrere Charaktere gewählt sind, kann keine Mission ausgeführt werden.
+{SMT_OPEN_MERCENARY_RECRUITMENT}				Schriftrolle Söldner-Rekrutierung für gewählte Armee öffnen
+{SMT_AVAILABLE_MERCENARIES}					Zum Anheuern verfügbare Söldner-Einheiten
+{SMT_HIRE_ALL_QUEUED_UNITS}					Alle Einheiten der Liste anheuern
+{SMT_NO_ROOM_FOR_MERCENARIES}					Es können keine Söldner angeheuert werden, da in der Armee kein Platz mehr ist.
+{SMT_NO_MERCENARIES_AVAILABLE}					Zurzeit sind in dieser Region keine Söldner zum Rekrutieren verfügbar.
+{SMT_CANNOT_AFFORD_THIS_MERCENARY}				Ihr könnt es Euch nicht leisten, diesen Söldner anzuheuern.
+{SMT_ONLY_FAMILY_CAN_RECRUIT_MERCENARIES}			Nur Familienmitglieder können Söldner rekrutieren.
+{SMT_ASSISTANCE_REQUESTED}					Hilfe wird erbeten
+{SMT_WHICH_ALLY}						Verbündete Armee
+{SMT_WHICH_ARMY_REQUESTED}					Hilfe wird erbeten von
+{SMT_ACCEPT_ASSISTANCE_REQUEST}				Euer Verbündeter hat um Hilfe bei einer Schlacht gebeten. Wenn Ihr annehmt, wird Eure Armee seine auf dem Schlachtfeld verstärken. Wollt Ihr dieser Bitte entsprechen?
+{SMT_ATTACKING_THIS_SETTLEMENT_WILL_BREAK_ALLIANCE}		Ihr seid zurzeit mit der Seite verbündet, der diese Siedlung gehört. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Wollt Ihr wirklich fortfahren?
+{SMT_ATTACKING_THIS_FORT_WILL_BREAK_ALLIANCE}			Ihr seid zurzeit mit der Seite verbündet, der dieses Fort gehört. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Wollt Ihr wirklich fortfahren?
+{SMT_ATTACKING_THIS_PORT_WILL_BREAK_ALLIANCE}			Ihr seid zurzeit mit der Seite verbündet, der dieser Hafen gehört. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Wollt Ihr wirklich fortfahren?
+{SMT_ATTACKING_THIS_ARMY_WILL_BREAK_ALLIANCE}			Ihr seid zurzeit mit der Seite verbündet, die diese Armee kontrolliert. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Wollt Ihr wirklich fortfahren?
+{SMT_ATTACKING_THIS_NAVY_WILL_BREAK_ALLIANCE}			Ihr seid zurzeit mit der Seite verbündet, die diesen Flottenverband kontrolliert. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Wollt Ihr wirklich fortfahren?
+{SMT_CANNOT_ATTACK_ALLY}					Ihr könnt Rom noch nicht angreifen. Ihr genießt noch nicht genug Unterstützung, um die Macht an Euch zu reißen. 
+{SMT_CONFIRM_ATTACK_ON_ALLY}					Verbündeten angreifen?
+{SMT_YOUR_FORCES}						Eure Truppen
+{SMT_ENEMY_FORCES}						Feindliche Truppen
+{SMT_AI_REINFORCEMENT}						Diese Armee wird von der KI gesteuert.
+{SMT_REINFORCEMENTS}						Verstärkungen:
+{SMT_BATTLE_DEPLOYMENT}					Schlachtaufstellung
+{SMT_YOUR_ARMY_SALLIES_FORTH}					Ihr zieht aus, um Eurem Feind zu begegnen.
+{SMT_ENEMY_SALLIES_FORTH}					Euer Feind zieht aus, um anzugreifen.
+{SMT_RIGHT_CLICK_FOR_CHARACTER_INFO}				Ein Rechtsklick auf ein Porträt blendet vollständige Charakterinformationen und eine Armeeübersicht ein.
+{SMT_FIELD_CONSTRUCTION}					Feldbauten
+{SMT_PROVINCE}							Provinz:
+{SMT_WATCHTOWER_DESCRIPTION}					Wachtürme verbessern die Sichtweite über feindlichem Gebiet.
+{SMT_FORT_DESCRIPTION}						Forts bieten vorläufigen Schutz für Armeen, wenn sie unterwegs sind, und können strategische Positionen verteidigen.
+{SMT_CANNOT_TRANSFER_GENERALS_UNIT}				Diese Einheit ist die Leibwache des Generals und kann nicht transferiert werden.
+{SMT_FAMOUS_BATTLE_SITE}					Stätte einer berühmten Schlacht
+{SMT_BATTLE_YEAR}						Jahr
+{SMT_VICTOR}							Sieger
+{SMT_LOSER}							Verlierer
+{SMT_GAMES_FREQUENCY_YEARLY}					Jährliche Spiele
+{SMT_GAMES_FREQUENCY_MONTHLY}				Monatliche Spiele
+{SMT_GAMES_FREQUENCY_DAILY}					Tägliche Spiele
+{SMT_RACES_FREQUENCY_YEARLY}					Jährliche Rennen
+{SMT_RACES_FREQUENCY_MONTHLY}					Monatliche Rennen
+{SMT_RACES_FREQUENCY_DAILY}					Tägliche Rennen
+{SMT_GAMES_AND_RACES_FREQUENCY_YEARLY}			Jährliche Spiele & Rennen
+{SMT_GAMES_AND_RACES_FREQUENCY_MONTHLY}			Monatliche Spiele & Rennen
+{SMT_GAMES_AND_RACES_FREQUENCY_DAILY}				Tägliche Spiele & Rennen
+{SMT_SHOW_SETTLEMENT_STATS}					Siedlungsdetails anzeigen
+{SMT_AUTOMANAGE}						Automatische Verwaltung
+{SMT_SETTLEMENT_STATISTICS}					Siedlungsdetails
+{SMT_PUBLIC_ORDER}						Öffentliche Ordnung
+{SMT_POPULATION_GROWTH}					Bevölkerungswachstum
+{SMT_SET_POLICIES}						Politik bestimmen
+{SMT_POPULATION_REQUIRED}					Für nächste Siedlungsstufe benötigte Bevölkerung:
+{SMT_CONSTRUCTION_TIME}					Bauzeit
+{SMT_CONSTRUCTION_COST}					Baukosten
+{SMT_ANCILLARIES}						Gefolge
+{SMT_TRAITS}							Merkmale
+{SMT_RECRUITMENT_OPTIONS}					Fortbildungsoptionen
+{SMT_MEN_IN_GARRISON}						Männer in der Garnison
+{SMT_MEN_IN_ARMY}						Männer in der Armee
+{SMT_SELECTED_MERCENARIES}					Ausgewählte Söldner
+{SMT_SHOW_FACTION_RANKINGS}					Schriftrolle Seitenwertung anzeigen
+{SMT_FACTION_RANKINGS}						Seiten
+{SMT_RANKING_SCORE}						Gesamt
+{SMT_RANKING_MILITARY}						Militär
+{SMT_RANKING_PRODUCTION}					Produktion
+{SMT_RANKING_REGIONS}						Gebiete
+{SMT_RANKING_FINANCIAL}						Finanzen
+{SMT_RANKING_POPULATION}					Bevölkerung
+{SMT_FACTION_FILTER}						Seitenfilter
+{SMT_OWN_FACTION}						Eigene Seite
+{SMT_ALL_FACTIONS}						Alle Seiten
+{SMT_TOP_5_FACTIONS}						Beste 5 Seiten
+{SMT_CUSTOM_SELECTION}					Eigene Auswahl
+{SMT_FILTER_NEIGHBOURS}						Nachbarn
+{SMT_TURNS}							Runden
+{SMT_VICTORY}							SIEG!
+{SMT_DEFEAT}							NIEDERLAGE!
+{SMT_VICTORY_BODY}						Ihr habt das Spiel gewonnen! Euer Volk feiert den Sieg! Wollt Ihr fortfahren und noch mehr Ruhm erlangen?
+{SMT_DEFEAT_BODY}						Ihr habt Eure Ziele nicht erfüllt, aber würdet Ihr trotzdem gern fortfahren?
+{SMT_DEFEAT_GAME_OVER}					Eure Seite wurde ausgelöscht. Andere werden die Geschichte weiterschreiben und Eure Leistungen als ihre eigenen darstellen! Vielleicht habt Ihr beim nächsten Mal mehr Glück!
+{SMT_CONTINUE_CAMPAIGN}					Weiterspielen?
+{SMT_EXIT_CAMPAIGN}						Zurück zum Menü
+{SMT_CAPTURED_SETTLEMENT}					Eroberte Siedlung
+{SMT_DENARI_GAINED_FROM_LOOTING}				Durch Plünderung erlangte Denare
+{SMT_POPULATION_GAINED_FROM_ENSLAVE}				Unter regierten Siedlungen zu verteilende Bevölkerung
+{SMT_POPULATION_KILLED}						Zu massakrierende Bevölkerung
+{SMT_LOOT_SETTLEMENT}						Siedlung besetzen
+{SMT_ENSLAVE_POPULACE}						Bevölkerung versklaven
+{SMT_EXTERMINATE}						Bevölkerung ausradieren
+{SMT_SETTLEMENT_LOOT_BODY_STRING}				Diese Siedlung ist der Macht Eurer Armee erlegen. Der Sieg ist Euer und das Schicksal der Siedlung liegt in Eurer Hand!
+{SMT_BUILDINGS_NEEDING_REPAIR}					Reparaturbedürftige Gebäude
+{SMT_SHOW_NEW_BUILDINGS}					Baubare Gebäude anzeigen
+{SMT_SHOW_REPAIRABLE_BUILDINGS}				Reparaturbedürftige Gebäude anzeigen
+{SMT_REPAIR_TIME}						Reparaturzeit
+{SMT_REPAIR_COST}						Reparaturkosten
+{SMT_BUILD_POINTS}						Baupunkte:
+{SMT_ALWAYS_SHOW_ADVANCED_STATS}				Siedlungsdetails immer einblenden
+{SMT_ADVANCED_STATS}						Siedlungsdetails
+{SMT_SHOW_TECH_TREE}						Gebäudekartei anzeigen
+{SMT_BUILDING_BROWSER}						Gebäudekartei
+{SMT_STATE_ICON_FARMING_LEVEL}					Farmstufe
+{SMT_STATE_ICON_FARMS_BUILT}					Gebaute Farmen
+{SMT_STATE_ICON_FOOD_IMPORTS}					Nahrungsimporte
+{SMT_STATE_ICON_HEALTH}					Gesundheit
+{SMT_STATE_ICON_BUILDINGS}					Gebäude
+{SMT_STATE_ICON_TAX_RATE_BONUS}				Steuerraten-Bonus
+{SMT_STATE_ICON_UNIT_DISBANDS}					Einheitenauflösungen
+{SMT_STATE_ICON_SLAVERY}					Sklaverei
+{SMT_STATE_ICON_SQUALOUR}					Schmutz
+{SMT_STATE_ICON_DISASTERS}					Katastrophen
+{SMT_STATE_ICON_UNIT_RECRUITS}					Rekrutierte Bewohner
+{SMT_STATE_ICON_TAX_RATE_PENALTY}				Steuerraten-Strafe
+{SMT_STATE_ICON_GARRISON}					Garnison
+{SMT_STATE_ICON_BUILDINGS_LAW}					Gesetzes- und Ordnungsgebäude
+{SMT_STATE_ICON_BUILDINGS_FUN}					Unterhaltungs- und Spaßgebäude
+{SMT_STATE_ICON_GOVERNORS_INFLUENCE}				Einfluss des Statthalters
+{SMT_STATE_ICON_TAX_BONUS}					Steuerbonus
+{SMT_STATE_ICON_TRIUMPH}					Triumph
+{SMT_STATE_ICON_WONDER}					Wunder
+{SMT_STATE_ICON_BOOM}						Bevölkerungsaufschwung
+{SMT_STATE_ICON_DISTANCE_TO_CAPITAL}				Entfernung zur Hauptstadt
+{SMT_STATE_ICON_CULTURE_PENALTY}				Kulturstrafe
+{SMT_STATE_ICON_NO_GOVERNANCE}				Keine Führung
+{SMT_STATE_ICON_TAX_PENALTY}					Steuerstrafe
+{SMT_STATE_ICON_TURMOIL}					Aufruhr
+{SMT_STATE_ICON_UNDERPOPULATION}				Unterbevölkerung
+{SMT_STATE_ICON_BESIEGED}					Belagert
+{SMT_STATE_ICON_BLOCKADED}					Unter Blockade
+{SMT_STATE_ICON_RECESSION}					Rezession
+{SMT_STATE_ICON_ENTERTAINED}					Unterhalten
+{SMT_STATE_ICON_FARMS}						Farmen
+{SMT_STATE_ICON_TAXES}						Steuern
+{SMT_STATE_ICON_RESOURCES}					Ressourcen
+{SMT_STATE_ICON_TRADE}						Handel
+{SMT_STATE_ICON_DIPLOMATIC_INCOME}				Diplomatieerträge
+{SMT_STATE_ICON_DEMOLITION}					Zerstörung
+{SMT_STATE_ICON_LOOTING}					Plünderung
+{SMT_STATE_ICON_ADMIN}						Verwaltung
+{SMT_STATE_ICON_WAGES}					Sold
+{SMT_STATE_ICON_UPKEEP}					Unterhalt
+{SMT_STATE_ICON_CONSTRUCTION}					Bau
+{SMT_STATE_ICON_RECRUITMENT}					Rekrutierung
+{SMT_STATE_ICON_DIPLOMATIC_OUTGOINGS}				Diplomatische Ausgaben
+{SMT_STATE_ICON_CORRUPTION}					Korruption
+{SMT_TECH_TREE_THREAD_ALREADY_BUILT}				Dies wurde gebaut.
+{SMT_TECH_TREE_THREAD_AVAILABLE_TO_BUILD}			Dieses Objekt kann gebaut werden.
+{SMT_TECH_TREE_THREAD_NOT_AVAILABLE_TO_BUILD}			Dieses Objekt kann noch nicht gebaut werden.
+{SMT_ESPIONAGE_IN_CARTHAGE_TITLE}				Spionage in Karthago
+{SMT_A_NEW_RELIGION_TITLE}					Eine neue Religion
+{SMT_ERUPTION_AT_ETNA_TITLE}					Ausbruch des Ätna
+{SMT_PLAGUE_IN_MACEDONIA_TITLE}				Seuche in Makedonien
+{SMT_STOIC_PHILOSOPHY_TITLE}					Stoische Philosophie
+{SMT_HAND_PUMP_INVENTED_TITLE}					Die Erfindung der Handpumpe
+{SMT_LIBRARIAN_AT_ALEXANDRIA_TITLE}				Bibliothekar in Alexandria
+{SMT_GREAT_LIBRARY_COMPLETED_TITLE}				Alexandrinische Bibliothek vervollständigt
+{SMT_THROUGH_A_GLASS_CLEARLY_TITLE}				Klar wie Glas
+{SMT_ARCHIMEDES_SCREW_TITLE}					Die Archimedische Schraube
+{SMT_GREEK_LOGIC_TITLE}						Griechische Logik
+{SMT_STAR_CATALOGUE_TITLE}					Sternkatalog
+{SMT_PLAGUE_IN_ALEXANDRIA_TITLE}				Seuche in Alexandria
+{SMT_RITES_OF_BACCHUS_BANNED_TITLE}				Bacchus-Riten untersagt
+{SMT_EARTHQUAKE_IN_PONTUS_TITLE}				Erdbeben in Pontus
+{SMT_CONCRETE_INVENTED_TITLE}					Die Erfindung des Zements
+{SMT_ERUPTION_AT_VESUVIUS_TITLE}				Ausbruch des Vesuv
+{SMT_PHILOSOPHY_IS_FOPPISH_TITLE}				Philosophie ist für Gecken!
+{SMT_ASTRONOMY_ADVANCES_TITLE}				Der Fortschritt der Astronomie
+{SMT_LEX_AEBUTIA_TITLE}						Lex Aebutia
+{SMT_ROMAN_STOICISM_TITLE}					Römische Stoik
+{SMT_LEX_PAPIRA_TITLE}						Lex Papira
+{SMT_PLAGUE_IN_ITALY_TITLE}					Seuche in Italien
+{SMT_VESTAL_VIRGIN_STRUCK_DOWN_TITLE}				Eine niedergeschlagene Vestalin
+{SMT_A_NEW_MAN__GAIUS_MARIUS_TITLE}				Der neue Mann: Gaius Marius
+{SMT_DE_RERUM_NATURA_TITLE}					De Rerum Natura
+{SMT_PLAGUE_IN_ASIA_MINOR_TITLE}				Seuche in Kleinasien
+{SMT_LEX_POMPEIA_TITLE}						Lex Pompeia
+{SMT_DE_MATERIA_MEDICA_TITLE}					De Materia Medica
+{SMT_JULIAN_CALENDAR_TITLE}					Der Julianische Kalender
+{SMT_EARTHQUAKE_IN_IBERIA_TITLE}				Erdbeben in Iberien
+{SMT_THE_AENEID_TITLE}						Die Äneis
+{SMT_LEX_ADULTERIIS_COERCENDIS_TITLE}				Lex Adulteriis Coercendis
+{SMT_TROUBLE_IN_JUDEA_TITLE}					Schwierigkeiten in Judäa
+{SMT_LEX_FUFIA_CANINIA_TITLE}					Lex Fufia Caninia
+{SMT_ESPIONAGE_IN_CARTHAGE_BODY}				Die Römer leugnen, Spione nach Karthago geschickt zu haben, um das Geheimnis des begehrten purpurnen Färbemittels zu stehlen. Sie weisen jedoch darauf hin, dass die Weigerung Karthagos, seine Entdeckung mit der Welt zu teilen, Spionage heraufbeschwört. Die Karthager haben zwei elende Männer festgenommen, die bereits nach leichter Folterung gestanden. Beide wurden gekreuzigt.
+{SMT_A_NEW_RELIGION_BODY}					König Asoka von Mauryan hat einen Missionar in die hellenistischen Königreiche entsendet, der die 'Erleuchtung' des Staates seiner Erhabenen Hoheit durch 'den Buddha' verkünden soll. Der Missionar soll die glückselige Erkenntnis unter all denen verbreiten, die noch unwissend sind. In den griechischen Landen kratzen sich viele am Kopf und wundern sich, was das bloß zu bedeuten hat ...
+{SMT_ERUPTION_AT_ETNA_BODY}					Der Gott Vulcanus hat die griechische Stadt Naxos zerstört, indem er den Ätna ausbrechen ließ! Tausende sind unter der feurigen Lava ums Leben gekommen.
+{SMT_PLAGUE_IN_MACEDONIA_BODY}				Eine große und schreckliche Seuche in Makedonien droht, sich in südlicher Richtung nach Griechenland zu verbreiten. Sicher wird sie durch die Kelten und andere Barbaren verursacht.
+{SMT_STOIC_PHILOSOPHY_BODY}					Ariston von Chios beginnt seine Lehren des stoischen Lebens. Diese Philosophie leitet ihren Namen von der Vorhalle der athenischen Agora (Stoa poikile) ab. Hier trafen sich die Stoiker erstmals und legten ihre Überzeugung dar, dass Emotionen wie Neid oder Leidenschaft durch Fehleinschätzungen entstehen. Wer moralische und intellektuelle Perfektion erlangt hat, vermeidet derartige Gefühle.
+{SMT_HAND_PUMP_INVENTED_BODY}					Archimedes hat die erste Wasserpumpe der Welt erfunden, mit der Wasser schnell und leicht dorthin gehoben werden kann, wo es benötigt wird.
+{SMT_LIBRARIAN_AT_ALEXANDRIA_BODY}				Eratosthenes wird zum Leiter der Alexandrinischen Bibliothek. Er ist ein talentierter Schriftgelehrter und Geograph. Neben seinen vielen anderen Leistungen wird Eratosthenes den Umfang der Erde in sehr genauem Maße kalkulieren und als Erster das System vorschlagen, genaue Positionen durch Längen- und Breitengrade zu bestimmen.
+{SMT_GREAT_LIBRARY_COMPLETED_BODY}				Das Zuhause von 800.000 Büchern, die Alexandrinische Bibliothek, wurde endlich vervollständigt. Dies ist mit Sicherheit das größte Gelehrtenzentrum der Welt. Hier lagern die Werke von Plato, Homer, Sokrates und Aristoteles, zusammen mit Schriftstücken der größten babylonischen, jüdischen und ägyptischen Gelehrten.
+{SMT_THROUGH_A_GLASS_CLEARLY_BODY}				Während die Ägypter seit Jahren farbiges Glas herstellen, haben die Karthager eine Methode perfektioniert, mit der sie klares produzieren können! Die neuen klaren Kelche werden von Menschen mit Geschmack aus aller Welt geschätzt.
+{SMT_ARCHIMEDES_SCREW_BODY}					Archimedes hat eine raffinierte Pumpe erfunden, die im inneren eine Spirale verwendet, um Wasser zu heben. Mit diesem Gerät kann das Wasser aus den Minen gepumpt werden und die Bewässerung geht effizient vonstatten.
+{SMT_GREEK_LOGIC_BODY}						Die Theorien von Plato und Aristoteles sind zu einem neuen Gedankensystem zusammengeschlossen worden, das sich 'Logik' nennt - eine Philosophie, die sich mit dem Prinzip der Argumentation bei Debatten befasst. Als Werkzeug des rationalen Denkens ermöglicht es die Logik den Philosophen, ihre Ideen mit neuer und revolutionärer Gründlichkeit zu diskutieren und zu erproben.
+{SMT_STAR_CATALOGUE_BODY}					Eratosthenes vervollständigt seinen Katalog der 675 Sterne am Himmelszelt und verwendet eine elegante Methode, um mit Schattenmessung die Größe der Erde zu ermitteln (und das sogar ziemlich exakt).
+{SMT_PLAGUE_IN_ALEXANDRIA_BODY}				Der Fluch des Seth sucht Alexandria heim und fordert unzählige Tote. Die Ägypter beten wieder die alten Götter an in der Hoffnung, dass Isis sie vor der Pestilenz beschützen wird - was offenbar außerhalb der Macht der griechischen Götter steht, die die Ptolemäer ins Land brachten!
+{SMT_RITES_OF_BACCHUS_BANNED_BODY}				Der römische Senat hat entschieden, dass die Orgien der Bacchanalien eindeutig zu weit gehen. Die Verdorbenheit und Lüsternheit der Säufer haben die Patrizier zu Taten gezwungen. Wer die Riten des Bacchus von nun an ausübt, wird verbannt und ist kein römischer Bürger mehr.
+{SMT_EARTHQUAKE_IN_PONTUS_BODY}				Pontus wurde von gewaltigen Erdbeben - sicher ein Zeichen des Missfallens von Poseidon - erschüttert und viele sind gestorben.
+{SMT_CONCRETE_INVENTED_BODY}					Der Porticus Aemilia, ein Markt am Tiber, ist das erste aus Zement errichtete Gebäude. Bei diesem 'flüssigen Stein' handelt es sich um eine Mischung aus Schutt, Mörtel, Vulkanasche und Wasser, die in hölzerne Formen gegossen wird. Im Senat behaupten einige, dieses neue Material sei nicht so sicher wie Marmor, und unternehmen Schritte, um seine Verwendung zu verbieten. Tatsächlich ist die römische Art der Zementherstellung in mancherlei Hinsicht besser als die Art, wie man ihn mehr als 2000 Jahre später herstellen wird.
+{SMT_ERUPTION_AT_VESUVIUS_BODY}				Die Stadt Herculaneum ist unter der Asche des Vesuv verschüttet worden und eine gewaltige Flutwelle in der Bucht hat Messina großen Schaden zugefügt. Dies ist ein eindeutiges Zeichen, dass sowohl Neptun als auch Vulcanus erzürnt sind.
+{SMT_PHILOSOPHY_IS_FOPPISH_BODY}				Rom verbannt griechische Philosophen gemäß des Lex Fannia. Damit muss die verweichlichte und unerwünschte griechische 'Philosophie' zugunsten der mannhafteren und wirklich römischen Zeitvertreibe weichen, für die man den Kopf nicht so sehr anstrengen muss.
+{SMT_ASTRONOMY_ADVANCES_BODY}				Hipparch von Nikaia hat die Länge eines Sonnenjahres berechnet, 1080 Sterne kartografiert und die Präzession entdeckt. Dies ist teils seiner wunderbaren Erfindung zu verdanken: dem Astrolabium, das auch für die Navigation eingesetzt wird.
+{SMT_LEX_AEBUTIA_BODY}						Dieser Kodex ordnen die gewöhnliche Rechtsausübung formell in einem kohärenten System. Bisher ging es bei römischem Gesetz eher ad hoc zu.
+{SMT_ROMAN_STOICISM_BODY}					Bei einem Besuch beeindruckt der griechische Stoiker Panaetius die römische Elite. Seine Ideen werden vor allem deswegen aufgegriffen, weil der Stoizismus dem natürlichen und richtigen römischen Leben zu entsprechen scheint.
+{SMT_LEX_PAPIRA_BODY}						Um Korruption und Amtsvergehen zu verhindern, wird dieses Gesetz in Kraft gesetzt, so dass die Legislatur durch geheime Wahl stattfindet und keine Wahlen mehr manipuliert werden.
+{SMT_PLAGUE_IN_ITALY_BODY}					In ganz Italien sind Tausende einer erneuten Pestilenz zum Opfer gefallen, die die abscheulichen Barbaren mit sich brachten. Der römische Senat hat befohlen, sämtliche Städte 40 Tage lang zu verschließen. Feuer sollen brennen, um die Luft zu reinigen, und in den Tempel werden nach strengen Zeitplänen Opfer gebracht.
+{SMT_VESTAL_VIRGIN_STRUCK_DOWN_BODY}				In Rom beherrscht der Aberglaube die Herzen und Gedanken des einfachen Volkes, der Plebejer, nachdem ein Blitzschlag die junge Tochter eines Ritters getötet hat. Eine richterliche Untersuchung hat bereits ergeben, dass drei der Vestalinnen unkeusch waren - sie wurden zum Tode verurteilt. Die Kybelischen Orakel haben ebenfalls geraten, dass man zur Beschwichtigung der Götter griechische und gallische Paare lebendig begraben sollte. Bisher scheint es gewirkt zu haben.
+{SMT_A_NEW_MAN__GAIUS_MARIUS_BODY}				Gaius Marius hat eine Reihe von Gesetzen vorgeschlagen, die dem Proletariat erlauben, seiner neu organisierten römischen Armee beizutreten. Als Belohnung für mehrere Jahre Militärdienst wird jeder Soldat Land als eine Art Rente bekommen. Diese Reform wird ohne Zustimmung des Senats in der Volksversammlung beschlossen. Man kann mit Sicherheit davon ausgehen, dass ein derart populäres - und populistisches - Rechtsmittel Marius auf lange Sicht nichts Gutes bringen wird!\n\nDie nun zur Verfügung stehenden Truppentypen repräsentieren die Struktur der neuen professionellen Armee. Weitere Details findet Ihr in der Schriftrolle Rekrutierung.
+{SMT_DE_RERUM_NATURA_BODY}					Bisher war Titus Lucretius Carus am besten als Poet und Philosoph bekannt, doch in seinem Buch 'De Rerum Natura' (Über die Natur) zeigt er sich als Meister der epikureischen Denkweise. Er behauptet auch, die Materie bestehe aus winzigen Partikeln, die er 'Atome' nennt.
+{SMT_PLAGUE_IN_ASIA_MINOR_BODY}				Eine Seuche ist durch die Städte Kleinasiens gefegt und hat viele Opfer gefordert. Die vorsichtigen Bürger der griechischen, italienischen und ägyptischen Städte haben bereits ihre Tore und Häfen vor allen verschlossen, die nicht aus ihrer Region stammen.
+{SMT_LEX_POMPEIA_BODY}						Dieses neue Gesetz schreibt gewissen Ausländern Rechte zu, damit sie römische Bürger heiraten und mit ihnen Handel treiben dürfen. Sie bekommen sogar die Gelegenheit, römische Bürger zu werden!
+{SMT_DE_MATERIA_MEDICA_BODY}					Pedanius Dioscorides von Kilikien hat sein großes Werk veröffentlicht, indem er alle ihm bekannten Pflanzen aufführt, die Heilwirkung haben. Er nennt auch alle giftigen und ihre Gegengifte. Somit ist sein Buch das bisher bedeutendste medizinische Werk.
+{SMT_JULIAN_CALENDAR_BODY}					Nach reichlichen Überlegungen wurde ein neuer Kalender zur Verwendung in römischen Ländern eingeführt. Der alte Kalender lag hoffnungslos daneben, was die Jahreszeiten anging. Dieser neue Kalender teilt das Jahr wieder so ein, wie es sein sollte, und bleibt auf raffinierte Weise mit dem Mond- und Sonnenjahr im Einklang, indem es alle vier Jahre einen zusätzlichen Tag gibt.
+{SMT_EARTHQUAKE_IN_IBERIA_BODY}				Die iberische Stadt Saguntum wurde von einem gewaltigen Erdbeben erschüttert, das zweifellos Neptun dem Volk geschickt hat. Viele wurden getötet und der Tempel ist eingestürzt.
+{SMT_THE_AENEID_BODY}						Vergil hat seine epische Nacherzählung der römischen Geschichte im Stil des Homer vervollständigt. Es ist ein geniales Werk und wird wegen seiner poetischen Korrektheit sehr von den Römern geschätzt.
+{SMT_LEX_ADULTERIIS_COERCENDIS_BODY}				Der römische Senat hat ein neues Gesetz eingeführt, wonach eheliche Untreue ein Verbrechen ist. Wer Ehebruch begeht, kann nun mit dem Tode bestraft oder aus Rom verbannt werden.
+{SMT_TROUBLE_IN_JUDEA_BODY}					Der Protektoratsherrscher von Judäa scheint etwas verrückt geworden zu sein. Er hat befohlen, alle Neugeborenen in seinem Land zu töten. Dieser beunruhigende Befehl wurde verkündet, nachdem drei Zarathustra-Philosophen ihn besuchten und ihm schlaflose Nächte bereiteten.
+{SMT_LEX_FUFIA_CANINIA_BODY}					Der römische Senat hat ein neues Gesetz eingeführt, um das Problem zu beseitigen, dass Sklaven durch die Testamente ihrer Herren die Freiheit geschenkt wurde. Die Massen-Freilassung ist jetzt nicht mehr gestattet. Ein Herr kann nur einen Teil seiner Sklaven per Testament freilassen.
+{SMT_THE_SENATE}						Der Senat
+{SMT_SENATE_POLICY}						Senatspolitik
+{SMT_SENATE_FLOOR}						Senatsparkett
+{SMT_SENATE_NO_MISSIONS}					Zurzeit sind keine Senatsmissionen verfügbar
+{SMT_SENATE_THE_SENATE}					Der Senat
+{SMT_SENATE_THE_PEOPLE}					Das Volk
+{SMT_SENATE_STANDING}						Aktueller Status
+{SMT_SENATE_POLICY_AT_WAR_STANCE_AT_WAR}			Der Senat stellt zufrieden fest, dass seine Politik und die Eure in Bezug auf dieses Volk übereinstimmen. Es sind Feinde Roms, die durch unsere Legionen vernichtet werden sollten. 
+{SMT_SENATE_POLICY_HARASS_STANCE_AT_WAR}			Nach reiflicher Überlegung ist der Senat zu dem Entschluss gekommen, dass dieses Volk es verdient, mit einem Grad an Feindseligkeit behandelt zu werden. Zwar will er nicht so weit gehen, ihnen den Krieg zu erklären, doch er sieht auch keinen Grund, sie angemessen oder gerecht zu behandeln. 
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_AT_WAR}			Der Senat hat nach reiflicher Überlegung entschieden, dass Eure kriegerische Einstellung gegenüber diesem Volk den Interessen der Republik entgegensteht. Er ist der Meinung, ein formeller Frieden und keine warme Freundschaft sei der Idealzustand für die guten Römer und dieses Volk. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_AT_WAR}			Der Senat erklärt, dass Euer Krieg gegen dieses Volk nicht im Interesse Roms ist. Das sofortige Ende des Krieges und ein Rapprochement wären wünschenswert.
+{SMT_SENATE_POLICY_ASSIST_STANCE_AT_WAR}			Wozu ist der Krieg nutze? Zu nichts, wie Der Senat findet. Die Senatoren sind ungehalten und erklären, dass Euer Krieg gegen dieses Volk im direkten Konflikt zum besten Interesse Roms steht. Ein sofortiges Rapprochement ist erwünscht. 
+{SMT_SENATE_POLICY_AT_WAR_STANCE_NEUTRAL}			Der Senat und das römische Volk sind sich einig, dass diese Seite ein schlimmer Feind Roms ist. Ihre Existenz beleidigt die römische Würde und Krieg ist der einzig mögliche Lösungsweg. 
+{SMT_SENATE_POLICY_HARASS_STANCE_NEUTRAL}			Der Senat hat nach reiflicher Überlegung entschieden, dass dieses Volk nicht als Freund Roms angesehen werden sollte. Sein Anspruch auf Land, Freiheit und Unabhängigkeit sollte bei jeder möglichen Gelegenheit angefochten werden. 
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_NEUTRAL}			Nach reiflicher Überlegung ist der Senat zu dem Entschluss gekommen, dass ihm das Schicksal dieses Volkes ziemlich gleichgültig ist. Eure derzeitige Neutralität ihm gegenüber scheint unter diesen Umständen angebracht, doch zurzeit kümmert sich kein Senator darum. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_NEUTRAL}			Die Senatoren stellen zufrieden fest, dass es Euch zurzeit fern liegt, gegen dieses Volk Krieg zu führen. Er würde Euch jedoch gern ans Herz legen, dass es im Interesse des Senats und des römischen Volks liegt, eine freundliche diplomatische Beziehung einzugehen. 
+{SMT_SENATE_POLICY_ASSIST_STANCE_NEUTRAL}			Der Senat und das römische Volk sind der Ansicht, dass eine bessere Beziehung zu diesem Volk im Interesse der Republik läge. Eure Einstellung ihm gegenüber ist zwar im Grund bewundernswert, doch jede Beziehung kann verbessert werden. 
+{SMT_SENATE_POLICY_AT_WAR_STANCE_ALLIED}			Der Senat ist fest überzeugt, dass diese Leute die Feinde Roms sind. Bei einer Politik in Bezug auf dieses Volk sollte man eher Schwerter als Friedenstauben in Betracht ziehen. Mit diesem Volk zu verhandeln bedeutet, zugleich eine Katastrophe für die Republik und das Missfallen des Senats heraufzubeschwören. Frieden ist kein gutes Mittel, um mit diesem Volk zurecht zu kommen. 
+{SMT_SENATE_POLICY_HARASS_STANCE_ALLIED}			Der Senat und das römische Volk sind entschlossen, dass dieses Volk mit Verachtung und nicht als ebenbürtig behandelt werden sollte. Ihre unerwünschte Forderung nach territorialer Integrität, Unabhängigkeit und ein Leben und Freiheit außerhalb Roms sollten energisch verweigert und angefochten werden. Das Schlagwort sollte hier 'Forderungen' lauten, nicht 'Diplomatie'.
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_ALLIED}			Der Senat hat entschieden, dass eine enge diplomatische Beziehung zu diesem Volk nicht unbedingt im Interesse Roms liegt, wenn man die vielen Verpflichtungen der Republik bedenkt. Bündnisse sind zwar schön und gut, aber nicht immer angebracht. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_ALLIED}			Der Senat stellt fest Eure freundliche Beziehung zu diesem Volk und wünscht, dass Ihr diese Politik beibehaltet. Seid gewiss, dass Euer friedliches Vorgehen im besten Interesse Roms liegt. 
+{SMT_SENATE_POLICY_ASSIST_STANCE_ALLIED}			Der Senat und das Volk Roms stellen zufrieden fest, dass Ihr mit Eurem Bündnis dieselben Ziele verfolgt wie ihre Politik. Die Menschen dieses Volkes sind unsere Freunde und verdienen jede Hilfe. 
+{SMT_SENATE_STANDING_RANKING_0}				Im Senat seid Ihr unbeliebt. Würde man Euch ein Verbrechen oder Verrat vorwerfen, so würde jeder Euch für schuldig halten. Schlimmer noch: Man würde glauben, Ihr hättet etwas noch viel Schlimmeres getan, was noch nicht herausgekommen wäre. 
+{SMT_SENATE_STANDING_RANKING_1}				Mitglieder des Senats weigern sich, Euch zu erkennen, wenn sie Euch auf der Straße begegnen. Die Frauen der Senatoren tun so, als würdet Ihr nicht existieren. Die Sklaven der Senatoren überqueren die Straße, um Euch aus dem Weg zu gehen. Ihr seid unpopulär und niemand liebt Euch. 
+{SMT_SENATE_STANDING_RANKING_2}				Viele Senatoren loben öffentlich Eure Ahnen und drücken häufig Ihren Wunsch aus, dass Ihr Euch zu ihnen begeben würdet - möglichst bald. 
+{SMT_SENATE_STANDING_RANKING_3}				Eure Beliebtheit ist derart, dass es Senatoren als unangenehm empfinden, sich in der Öffentlichkeit mit Euch sehen zu lassen. Privat genießen sie jedoch Euren Wein und Eure Gesellschaft. 
+{SMT_SENATE_STANDING_RANKING_4}				Wenn der Senat überhaupt an Euch denkt, betrachtet er Eure Leistungen rein objektiv. Eure Beliebtheit oder Euer Mangel daran haben keinerlei Einfluss auf die edlen Senatoren. 
+{SMT_SENATE_STANDING_RANKING_5}				Eine kleine Mehrzahl im Senat erkennt Eure Größe an, doch die meisten stehen Euch gleichgültig gegenüber. Glücklicherweise zieht Ihr nur noch selten die Feindschaft der Senatoren auf Euch. 
+{SMT_SENATE_STANDING_RANKING_6}				Die Mehrzahl im Senat hat eine gute Meinung von Euren Taten, doch einige Senatoren fragen sich, ob Eure Handlungen vielleicht eher von Eurem Bedürfnis nach persönlichem Ruhm anstelle römischen Ruhmes getrieben werden. 
+{SMT_SENATE_STANDING_RANKING_7}				Die wenigen unsicheren und ehrlich gesagt leider geistesgestörten Senatoren, die sich durch die Beliebtheit anderer bedroht fühlen, sehen Euch nun als eines ihrer größten Probleme. Sie beneiden Euch um Euren Charme und Eure Leistungen. 
+{SMT_SENATE_STANDING_RANKING_8}				Der Senat schätzt Euch sehr. Noch wird darüber beraten, ob man Euch zum Vater der Republik erklären oder Euch einfach die Schlüssel zu den Quartieren der Vestalinnen geben sollte! 
+{SMT_SENATE_STANDING_RANKING_9}				Der Senat hält Euch für die Reinkarnation des Romulus, einen wahren Retter der Republik und den wichtigsten Verteidiger Roms. Euer Name ist zum Inbegriff der Tugend, der Würde und der römischen Art geworden. 
+{SMT_SENATE_POPULAR_SUPPORT_0}				Ihr seid so unbeliebt, dass die Plebejer sich nicht einmal die Mühe machen, Euch mit Exkrementen und Beschimpfungen zu bewerfen, wenn Ihr vorbeigeht. Einem verwesenden Fischkopf wird mehr Respekt und Liebe entgegengebracht als Euch. 
+{SMT_SENATE_POPULAR_SUPPORT_1}				Die Plebejer hassen Euch. Mehr noch: Die Plebejer hassen alle Eure Freunde. Und deren Freunde. Und ihre Haustiere, Sklaven und Anhänger. So unbeliebt seid Ihr. 
+{SMT_SENATE_POPULAR_SUPPORT_2}				Eure Beliebtheit bei den Unterklassen ist ein wenig unterwältigend. Wenn ein Plebejer Euch etwas entgegenruft, ist es meistens etwas Unanständiges. 
+{SMT_SENATE_POPULAR_SUPPORT_3}				Eure Beliebtheit bei den Plebejern könnte besser sein, aber wenigstens werfen sie Euch keine Steine oder Schimpfworte an den Kopf. Meistens erkennen sie Euch einfach gar nicht. 
+{SMT_SENATE_POPULAR_SUPPORT_4}				Euer Ansehen bei den Plebejern könnte besser sein, aber es könnte auch schlechter sein. Ihr seid berühmt genug, dass man Euch erkennt, aber nicht berühmt genug, dass man Euch liebt. 
+{SMT_SENATE_POPULAR_SUPPORT_5}				Euer Ansehen bei den Plebejern ist durchaus zufriedenstellend. Man hält Euch für einen guten Römer, wenn auch nicht gerade für einen beliebten. 
+{SMT_SENATE_POPULAR_SUPPORT_6}				Eure Beliebtheit bei den unteren Schichten ist solide. Man hält Euch für einen guten Mann und, was wichtiger ist, für einen guten Römer. 
+{SMT_SENATE_POPULAR_SUPPORT_7}				Die Plebejer mögen Euch - sogar sehr. Für sie seid Ihr wie ein Bollwerk gegen die diktatorische Macht des Senats, ein Held Roms. 
+{SMT_SENATE_POPULAR_SUPPORT_8}				Ihr seid bei den Plebejern äußerst beliebt und werdet als Held Roms gefeiert, wann immer Ihr die Stadt betretet. Auf den Getränken, die Euch die Leute anbieten, könnte eine Triere schwimmen.
+{SMT_SENATE_POPULAR_SUPPORT_9}				Die Plebejer halten Euch für die Reinkarnation des Romulus! Selbst Eure wenigen Feinde loben öffentlich Eure offensichtliche Perfektion. Sie wagen es nicht, die Meute zu verärgern. 
+{SMT_TURNS_UNTIL_SURRENDER}					Belagerung im Gang. Runden bis zur Kapitulation:
+{SMT_NO_ASSASSINATION_TARGETS}				Keine gültigen Attentatsziele
+{SMT_NO_SABOTAGE_TARGETS}					Keine Gebäude zum Sabotieren
+{SMT_MISSION_TARGET}						Missionsziel wählen
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE}			Diese Siedlung sollte noch weitere %d Runden durchstehen können.
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE}			Im Falle einer Belagerung kann diese Siedlung %d Runden durchhalten.
+{SMT_GARRISON_BREAKDOWN}					Garnisonsübersicht
+{SMT_NAVY_BREAKDOWN}						Flottenverband-Übersicht
+{SMT_INFANTRY}							Infanterie
+{SMT_CAVALRY}							Kavallerie
+{SMT_ARTILLERY}							Artillerie
+{SMT_SHIPS}							Schiffe
+{SMT_ARMY_FULL}						Diese Armee kann keine weiteren Einheiten aufnehmen.
+{SMT_NAVY_FULL}						Dieser Flottenverband kann keine weiteren Einheiten aufnehmen.
+{SMT_NO_GARRISON_COMMANDER}					Kein Garnisonskommandant vorhanden
+{SMT_SAILORS}							Matrosen
+{SMT_ENTERTAINMENT_TRANSACTIONS}				Unterhaltung
+{SMT_CAPABILITY_POPULATION_GROWTH_BONUS}		Bevölkerungswachstums-Modifikator
+{SMT_CAPABILITY_POPULATION_LOYALTY_BONUS}		Bevölkerungsloyalitäts-Modifikator
+{SMT_CAPABILITY_POPULATION_HEALTH_BONUS}		Bevölkerungsgesundheits-Modifikator
+{SMT_CAPABILITY_TRADE_BASE_INCOME_BONUS}		Handelserträge-Modifikator
+{SMT_CAPABILITY_TRADE_LEVEL_BONUS}			Handelsstufen-Modifikator
+{SMT_CAPABILITY_TRADE_FLEET}				Handelsflotte
+{SMT_CAPABILITY_TAXABLE_INCOME_BONUS}		Versteuerbare-Erträge-Modifikator
+{SMT_CAPABILITY_MINE_RESOURCE}			Bergbau
+{SMT_CAPABILITY_FARMING_LEVEL}			Farmwesen
+{SMT_CAPABILITY_ROAD_LEVEL}				Straßen
+{SMT_CAPABILITY_GATE_STRENGTH}			Torstärke
+{SMT_CAPABILITY_GATE_DEFENSES}			Torverteidigung
+{SMT_CAPABILITY_TOWER_LEVEL}				Turmverteidigung
+{SMT_CAPABILITY_ARMOUR}					Rüstung
+{SMT_CAPABILITY_STAGE_GAMES}				Spiele abhalten
+{SMT_CAPABILITY_STAGE_RACES}				Rennen abhalten
+{SMT_CAPABILITY_POPULATION_FIRE_RISK_BONUS}	Brandgefahr-Modifikator
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Einfache Waffen
+{SMT_CAPABILITY_WEAPON_MISSILE}			Fernkampfwaffen
+{SMT_CAPABILITY_WEAPON_BLADED}			Klingenwaffen
+{SMT_CAPABILITY_WEAPON_SIEGE}				Belagerungswaffen
+{SMT_CAPABILITY_WEAPON_OTHER}				Spezialwaffen
+{SMT_CAPABILITY_BODYGUARD}				Leibwachen			
+{SMT_CAPABILITY_RECRUITS_MORALE_BONUS}		Rekrutenkampfgeist-Modifikator
+{SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS}	Rekrutenerfahrungs-Modifikator
+{SMT_CAPABILITY_HAPPINESS_BONUS}			Zufriedenheits-Modifikator
+{SMT_CAPABILITY_LAW_BONUS}				Rechts-Modifikator
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	Senkung militärischer Baukosten
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	Senkung religiöser Baukosten
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	Senkung defensiver Baukosten
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		Senkung ziviler Baukosten
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	Senkung militärischer Bauzeit
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	Senkung religiöser Bauzeit
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	Senkung defensiver Bauzeit
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		Senkung ziviler Bauzeit
+{SMT_CAPS_LOC_TRAINS_EXPERIENCE}				Erfahrung
+{SMT_CAPS_LOC_TRAINS}						Bildet aus
+{SMT_CAPS_LOC_TRAINS_BONUS}					Ausbildungsbonus
+{SMT_CAPS_LOC_RECRUITS_LEVEL}				Stufe
+{SMT_CAPS_LOC_RECRUITS}						Rekrutiert
+{SMT_CAPS_LOC_RECRUITS_BONUS}					Rekrutierbonus
+{SMT_CAPS_LOC_PROVIDES}						Ermöglicht
+{SMT_CAPS_LOC_PROVIDES_BONUS}					Bringt Bonus
+{SMT_CAPS_LOC_REQUIRES}						Benötigt
+{SMT_CAPS_LOC_CONDITION_NOT}						nicht
+{SMT_CAPS_LOC_CONDITION_AND}						und
+{SMT_CAPS_LOC_CONDITION_OR}							oder
+{SMT_CAPS_LOC_CONDITION_BUILDING_PRESENT_MIN_LEVEL}	oder höher
+{SMT_CAPS_LOC_CONDITION_CAPABILITY_VALUE}			oder höher
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 30/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+{SMT_MISSION_BUILD_ARMY_TITLE}						Region verstärken
+{SMT_MISSION_BUILD_ARMY_PROPOSAL}					Der Senat findet, diese Region sei nicht ausreichend bemannt und daher verletzlich. Er bittet Euch, Eure Truppen hier innerhalb von 18 Monaten um mindestens 4 Einheiten zu verstärken.
+{SMT_MISSION_BUILD_ARMY_EXPIRY}						Der Verlust dieser Region ist ein Schlag für Rom. Wenn Ihr schneller agiert hättet, wäre dies nicht geschehen.
+{SMT_MISSION_BUILD_ARMY_FAILURE}					Der Senat findet, dass Euer Missachten seines Rats gefährlich ist. Wenn Ihr diese Region aufgrund Eurer Nachlässigkeit verliert, kann dies Konsequenzen haben.
+{SMT_MISSION_BUILD_ARMY_SUCCESS}					Der Senat stellt fest, dass Ihr seinen Rat befolgt und diese Region verstärkt habt. Hoffentlich wendet das die Bedrohung ab.
+{SMT_MISSION_ASSIST_FACTION_TITLE}					Verbündeten verstärken
+{SMT_MISSION_ASSIST_FACTION_PROPOSAL}					Der Senat bittet Euch, eine Armee mit mindestens 4 Einheiten in diese Region zu entsenden und ihre Kontrolle an die verbündeten Streitmächte dort zu übergeben.
+{SMT_MISSION_ASSIST_FACTION_EXPIRY}					Der Verlust dieser Region ist ein Schlag für Rom. Wenn Ihr schneller agiert hättet, wäre dies nicht geschehen.
+{SMT_MISSION_ASSIST_FACTION_FAILURE}					Der Senat findet, dass Euer Missachten seines Rats gefährlich ist. Wenn Ihr diese Region aufgrund Eurer Nachlässigkeit verliert, kann dies Konsequenzen haben.
+{SMT_MISSION_ASSIST_FACTION_SUCCESS}					Der Senat stellt fest, dass Ihr seinen Rat befolgt habt und unsere Verbündeten in der Region verstärkt habt. Bitte lasst Eure Armee für mindestens 2 Jahre unter ihrer Kontrolle.
+{SMT_MISSION_LEAVE_REGION_TITLE}					Region verlassen
+{SMT_MISSION_LEAVE_REGION_PROPOSAL}					Der Senat verlangt, dass Ihr diese Armee entfernt. Sie befindet sich auf dem Land eines Freundes von Rom. Wenn Ihr Euch nur auf der Durchreise befindet, solltet Ihr zunächst um ein Bündnis und militärischen Zugang bitten. Wenn Ihr einen Angriff plant, solltet Ihr Eure Pläne sofort ändern.
+{SMT_MISSION_LEAVE_REGION_EXPIRY}					Eure offenkundige Ignoranz gegenüber der Politik des Senats ist irritierend und gefährlich. Rom ist darauf angewiesen, dass seine großen Familien seine Politik unterstützen. Wenn jede Familie ihre eigene Außenpolitik betreibt, bedeutet dies Chaos.
+{SMT_MISSION_LEAVE_REGION_FAILURE}					Der Senat findet, dass Euer Missachten seines Rats gefährlich ist. Es war eine kleine Bitte, Euer Scheitern bei ihrer Erfüllung könnte ernsthafte Konsequenzen haben.
+{SMT_MISSION_LEAVE_REGION_SUCCESS}					Der Senat stellt fest, dass Ihr seinen Rat befolgt und die Armee entfernt habt. Bitte denkt nächstes Mal daran, zunächst um militärischen Zugang zu bitten, bevor Ihr Truppen in eine friedliche Region bringt.
+{SMT_MISSION_EXACT_TRIBUTE_TITLE}					Tribut verlangen
+{SMT_MISSION_EXACT_TRIBUTE_PROPOSAL}					Der Senat findet, dass diese Seite die Überlegenheit Roms anerkennen muss. Er bittet Euch darum, einen Diplomaten zu entsenden, um die Bezahlung eines Tributs zu verlangen. Ihr werdet abhängig von dem erlangten Tribut belohnt.
+{SMT_MISSION_EXACT_TRIBUTE_EXPIRY}					Es scheint, dass die Politik des Senats, diese Leute unter Kontrolle zu halten, von den Ereignissen überholt wurde. Die Mission wird abgebrochen.
+{SMT_MISSION_EXACT_TRIBUTE_FAILURE}					Der Senat stellt fest, dass Ihr keinen Tribut von diesem Volk verlangen konntet. Unabhängig davon, ob es an ihrer Kompromisslosigkeit oder mangelnden Taten Eurerseits liegt, machen wir Euch dafür verantwortlich.
+{SMT_MISSION_EXACT_TRIBUTE_SUCCESS}					Der Senat ist erfreut, dass Ihr es geschafft habt, von dieser Seite Tribut zu erlangen. Die Pläne Roms, sie zu dominieren, sind auf erfolgreichem Wege.
+{SMT_MISSION_MAKE_SUBMIT_TITLE}						Kapitulation erreichen
+{SMT_MISSION_MAKE_SUBMIT_PROPOSAL}					Der Senat findet, dass diese Seite ausreichend geschwächt wurde und das Erzwingen einer Kapitulation eine realistische Option ist. Entsendet einen Diplomaten und verlangt, dass sie zu einem Protektorat unter römischer Kontrolle werden.
+{SMT_MISSION_MAKE_SUBMIT_EXPIRY}					Der Senat stellt fest, dass Eure Mission, diese Seite zur Kapitulation zu zwingen und zu einem Protektorat zu machen, von den Ereignissen überholt wurde. Die Mission wird abgebrochen.
+{SMT_MISSION_MAKE_SUBMIT_FAILURE}					Der Senat stellt fest, dass Ihr es nicht geschafft habt, eine Kapitulation zu erreichen. Vielleicht führt eine Kombination einer diplomatischen Mission mit erhöhtem militärischen Druck das nächste Mal zum gewünschten Resultat.
+{SMT_MISSION_MAKE_SUBMIT_SUCCESS}					Der Senat gratuliert Euch dazu, dass Ihr dieses Volk überzeugt habt, zu einem römischen Protektorat zu werden. Es hat eine Menge Zeit und militärische Anstrengung gespart; die fortlaufenden Tributzahlungen werden beim Aufbau des Imperiums nützlich sein.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_TITLE}				Rückgabe des Adlers verhandeln
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_PROPOSAL}				Der Senat würde gerne einen Diplomaten entsenden, um die Rückkehr des Legionsadlers, den diese Seite hält, auszuhandeln. Der Verlust der Adler-Standarte ist eine dauerhafte Schande für die Legion, die ihn verloren hat. Es scheint wenig Möglichkeiten zu geben, ihn mit militärischen Mitteln zurückzuerlangen.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_EXPIRY}				Es scheint, dass die diplomatische Mission, den verlorenen Adler zurückzuerlangen, von den Ereignissen überholt wurde. Die Mission wird abgebrochen.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_FAILURE}				Der Senat stellt fest, dass Ihr es nicht geschafft habt, den verlorenen Adler zurückzuerlangen. Dieses Scheitern vergrößert die Schande, die der Verlust des Adlers bereits auf Euer Haus geworfen hat.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_SUCCESS}				Der Senat stellt fest, dass Ihr die Rückgabe des verlorenen Adlers erfolgreich ausgehandelt habt. Hierdurch wird der Fleck auf dem Ruf Eures Hauses, da Ihr ihn überhaupt erst verloren habt, in gewisser Weise wieder wettgemacht. Versucht, nicht wieder einen zu verlieren.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_TITLE}				Siedlungsübergabe verhandeln
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_PROPOSAL}				Der Senat findet, dass es eine realistische Aussicht gibt, die momentanen Besitzer zu überreden, diese Siedlung zu übergeben. Hierzu sollten wir ihnen eine andere Siedlung anbieten, die für uns weniger wertvoll ist. Entsendet einen Diplomaten und versucht, sie zur Übergabe zu bewegen.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_EXPIRY}				Es scheint, dass Eure diplomatische Mission, diese Siedlung für uns zu erlangen, nicht mehr länger relevant ist. Die Mission wird abgebrochen.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_FAILURE}				Der Senat stellt fest, dass Ihr bei dem Versuch gescheitert seid, diese Siedlung für uns zu erlangen. Vielleicht wird eine militärische Streitmacht dort den Erfolg gewähren, wo die Diplomatie gescheitert ist.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_SUCCESS}				Glückwunsch zum erfolgreichen Abschluss Eurer diplomatischen Mission. Der Senat hofft, dass der Preis, der für diese Siedlung gezahlt wurde, nicht zu hoch war.
+{SMT_MISSION_GET_MAP_INFO_TITLE}					Karteninformationen erlangen
+{SMT_MISSION_GET_MAP_INFO_PROPOSAL}					Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu senden und einen Vertrag zum Erlangen von Karteninformationen zu verhandeln, mit dem Ihr Roms Wissen über die Welt verbessert.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY}					Diese Mission wurde abgebrochen, da die entsprechende Seite ausgelöscht wurde.
+{SMT_MISSION_GET_MAP_INFO_FAILURE}					Der Senat ist nicht glücklich, dass Ihr diese Mission nicht erfüllen konntet.
+{SMT_MISSION_GET_MAP_INFO_SUCCESS}					Der Senat dankt Euch, dass Ihr erfolgreich die angeforderten Karteninformationen erlangt habt.
+{SMT_MISSION_GET_TRADING_RIGHTS_TITLE}					Handelsvereinbarung abschließen
+{SMT_MISSION_GET_TRADING_RIGHTS_PROPOSAL}				Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu schicken und einen Vertrag auszuhandeln, um Handelsrechte für Rom zu erlangen.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY}					Diese Mission wurde abgebrochen, da die entsprechende Seite ausgelöscht wurde.
+{SMT_MISSION_GET_TRADING_RIGHTS_FAILURE}				Der Senat ist nicht erfreut, dass Ihr diese Mission nicht erfüllen konntet.
+{SMT_MISSION_GET_TRADING_RIGHTS_SUCCESS}				Der Senat dankt Euch, dass Ihr die Handelsvereinbarung erfolgreich abgeschlossen habt.
+{SMT_MISSION_APPEASE_FACTION_TITLE}					Seite beschwichtigen
+{SMT_MISSION_APPEASE_FACTION_PROPOSAL}					Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu entsenden und ihr die Zustimmung abzuringen, dass sie nicht angreift. Bietet Tribut oder alles andere an, das sinnvoll erscheint. Als kurzfristige Maßnahme ist dies sehr wichtig.
+{SMT_MISSION_APPEASE_FACTION_EXPIRY}					Diese Mission ist nicht mehr relevant und wurde abgebrochen.
+{SMT_MISSION_APPEASE_FACTION_FAILURE}					Der Senat ist nicht erfreut, dass Ihr es nicht geschafft habt, diese Mission zu erfüllen.
+{SMT_MISSION_APPEASE_FACTION_SUCCESS}					Der Senat dankt Euch, dass Ihr die Zustimmung, um die wir gebeten hatten, erlangt habt.
+{SMT_MISSION_PROVOKE_ATTACK_TITLE}					Angriff provozieren
+{SMT_MISSION_PROVOKE_ATTACK_PROPOSAL}					Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu entsenden, um zu sehen, ob Ihr sie zu einem Angriff gegen uns provozieren könnt. Rom wünscht den Krieg, will jedoch nicht als Aggressor erscheinen.
+{SMT_MISSION_PROVOKE_ATTACK_EXPIRY}					Diese Mission ist nicht mehr relevant und wurde abgebrochen.
+{SMT_MISSION_PROVOKE_ATTACK_FAILURE}					Der Senat stellt fest, dass Eure Anstrengungen, einen Angriff zu provozieren, fruchtlos waren. Dennoch gilt Euch sein Dank.
+{SMT_MISSION_PROVOKE_ATTACK_SUCCESS}					Der Senat dankt Euch dafür, dass Ihr sie erfolgreich dazu gebracht habt, den Krieg für uns zu beginnen.
+{SMT_MISSION_PEACE_TALKS_TITLE}						Friedensverhandlungen
+{SMT_MISSION_PEACE_TALKS_PROPOSAL}					Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu entsenden und zu versuchen, das Verhältnis zu ihr zu verbessern. Es wird kein besonderes Resultat erwartet - nur, dass Ihr den Diplomat als ersten Schritt entsendet.
+{SMT_MISSION_PEACE_TALKS_EXPIRY}					Diese Mission ist nicht mehr relevant und wurde abgebrochen.
+{SMT_MISSION_PEACE_TALKS_FAILURE}					Der Senat stellt fest, dass Ihr keinen diplomatischen Kontakt zu dieser Seite herstellen konntet.
+{SMT_MISSION_PEACE_TALKS_SUCCESS}					Der Senat dankt Euch für die Anstrengungen, das Verhältnis zu dieser Seite zu verbessern.
+{SMT_MISSION_BLOCKADE_TITLE}						Hafenblockade
+{SMT_MISSION_BLOCKADE_PROPOSAL}						Der Senat bittet Euch, eine Eurer Flotten zu entsenden, um diesen Hafen zu blockieren. Hierdurch wird der Druck auf diese Seite erhöht, indem Ihr ihre Einnahmen reduziert.
+{SMT_MISSION_BLOCKADE_EXPIRY}						Eure Mission, diesen Hafen zu blockieren, ist nicht mehr relevant und wird nun abgebrochen.
+{SMT_MISSION_BLOCKADE_FAILURE}						Der Senat stellt fest, dass Ihr nicht in der Lage wart, diesen Hafen wie gefordert zu blockieren. Hierdurch wird der Gegner zum Nachteil Roms gestärkt.
+{SMT_MISSION_BLOCKADE_SUCCESS}						Der Senat stellt fest, dass die Blockade des Hafens steht. Bitte belasst sie für mindestens 2 Jahre dort.
+{SMT_MISSION_INCITE_UNREST_TITLE}					Unruhe stiften
+{SMT_MISSION_INCITE_UNREST_PROPOSAL}					Der Senat sieht eine Möglichkeit, Probleme für einen Gegner Roms zu schaffen, indem in dieser Siedlung Unruhe gestiftet wird. Entsendet einen Spion und versucht, eine Rebellion anzustiften.
+{SMT_MISSION_INCITE_UNREST_EXPIRY}					Die Mission, diese Siedlung zur Rebellion zu bringen, ist nicht mehr relevant. Die Mission wird abgebrochen.
+{SMT_MISSION_INCITE_UNREST_FAILURE}					Der Senat hat auf die geplante Rebellion in dieser Siedlung gewartet, und sie ist nicht erfolgt. Dies wird als Versagen Eurerseits angesehen.
+{SMT_MISSION_INCITE_UNREST_SUCCESS}					Die Rebellion in dieser Siedlung wird als gute Neuigkeit angesehen. Eure verborgene Hand in der Angelegenheit wird Euch gedankt.
+{SMT_MISSION_EXTERMINATE_CITY_TITLE}					Siedlung auslöschen
+{SMT_MISSION_EXTERMINATE_CITY_PROPOSAL}					Der Senat bittet Euch, diese Siedlung einzunehmen und die Bevölkerung auszulöschen.
+{SMT_MISSION_EXTERMINATE_CITY_EXPIRY}					Der Senat hält es nicht mehr für nötig, diese Siedlung einzunehmen.
+{SMT_MISSION_EXTERMINATE_CITY_FAILURE}					Der Senat ist nicht erfreut, dass Ihr es nicht geschafft habt, diese Mission durchzuführen.
+{SMT_MISSION_EXTERMINATE_CITY_SUCCESS}					Der Senate ist erfreut, dass diese Mission erfolgreich durchgeführt wurde.
+{SMT_MISSION_ENSLAVE_CITY_TITLE}					Siedlung versklaven
+{SMT_MISSION_ENSLAVE_CITY_PROPOSAL}					Der Senat bittet Euch, diese Siedlung einzunehmen und die Bevölkerung zu versklaven.
+{SMT_MISSION_ENSLAVE_CITY_EXPIRY}					Der Senat hält es nicht mehr für nötig, diese Siedlung einzunehmen.
+{SMT_MISSION_ENSLAVE_CITY_FAILURE}					Der Senat ist nicht erfreut, dass Ihr es nicht geschafft habt, diese Mission durchzuführen.
+{SMT_MISSION_ENSLAVE_CITY_SUCCESS}					Der Senat ist erfreut, dass diese Mission erfolgreich durchgeführt worden ist.
+{SMT_STATE_ICON_RESOURCES}						Bergbau
+{SMT_AUTOMANAGE_SETTLEMENT}						Diese Siedlung automatisch verwalten lassen
+{SMT_CANNOT_RECRUIT_WHILST_IN_BATTLE}				Es ist nicht möglich, während einer Schlacht zu rekrutieren
+{SMT_VICTORY_CONDITION_IMPERATOR_TITLE}				Imperator:
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}				Werdet zum Herrscher Roms
+{SMT_VICTORY_CONDITION_LAND_OWNER_TITLE}				Vorherrschaft:
+{SMT_VICTORY_CONDITION_LAND_OWNER_DESCR}				Nehmt %d weitere Regionen ein
+{SMT_VICTORY_CONDITION_TYCOON_TITLE}				Magnat:
+{SMT_VICTORY_CONDITION_TYCOON_DESCR}				Vergrößert Euer Imperium, dass %d Denare pro Runde eingenommen werden
+{SMT_VICTORY_CONDITION_TIME_LIMIT_TITLE}				Zeitlimit:
+{SMT_VICTORY_CONDITION_TIME_LIMIT_DESCR}				Werdet in %d Runden zur mächtigsten Seite
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_TITLE}			Überlebenskünstler:
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}			Überlebt länger als die folgenden Seiten:
+{SMT_CAMPAIGN_VICTORY_CONDITIONS}					Siegbedingung
+{SMT_CAMPAIGN_VICTORY_CONDITIONS_COMPLETE}			Abgeschlossen
+
+{SMT_CAPABILITY_POPULATION_GROWTH_BONUS}		Bonus Bevölkerungswachstum:
+{SMT_CAPABILITY_POPULATION_LOYALTY_BONUS}		Bonus öffentliche Ordnung:
+{SMT_CAPABILITY_POPULATION_HEALTH_BONUS}		Bonus allgemeine Gesundheit:
+{SMT_CAPABILITY_TRADE_BASE_INCOME_BONUS}		Steigerung von Handelsgütern
+{SMT_CAPABILITY_TRADE_LEVEL_BONUS}			Steigerung des Handels
+{SMT_CAPABILITY_TRADE_FLEET}				Verfügbare Handelsflotten:
+{SMT_CAPABILITY_TAXABLE_INCOME_BONUS}		Bonus Steuereinnahmen:
+{SMT_CAPABILITY_MINE_RESOURCE}			Minenerträge:
+{SMT_CAPABILITY_FARMING_LEVEL}			Verbesserte Farmen und Nahrungsmittelproduktion
+{SMT_CAPABILITY_ROAD_LEVEL}				Verbesserte Straßen und Handel
+{SMT_CAPABILITY_GATE_STRENGTH}			Verbesserte Torstärke
+{SMT_CAPABILITY_GATE_DEFENSES}			Zusätzliche Torverteidigungen
+{SMT_CAPABILITY_TOWER_LEVEL}				Zusätzliche Mauerverteidigungen
+{SMT_CAPABILITY_ARMOUR}					Verbessert Rüstung: 
+{SMT_CAPABILITY_STAGE_GAMES}				Ermöglicht Gladiatorenspiele
+{SMT_CAPABILITY_STAGE_RACES}				Ermöglicht Rennen
+{SMT_CAPABILITY_POPULATION_FIRE_RISK_BONUS}	Verringert Brandgefahr
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Verbessert Nahkampfwaffen:
+{SMT_CAPABILITY_WEAPON_MISSILE}			Verbessert Fernkampfwaffen:
+{SMT_CAPABILITY_WEAPON_BLADED}			Verbessert Klingenwaffen:
+{SMT_CAPABILITY_WEAPON_SIEGE}				Verbessert Belagerungswaffen:
+{SMT_CAPABILITY_WEAPON_OTHER}				<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_BODYGUARD}				Verbessert Leibwache des Generals
+{SMT_CAPABILITY_RECRUITS_MORALE_BONUS}		Kampfgeistbonus für hier ausgebildete Truppen:
+{SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS}	Erfahrungsbonus für hier ausgebildete Truppen:
+{SMT_CAPABILITY_HAPPINESS_BONUS}			Bonus öffentliche Ordnung durch Zufriedenheit:
+{SMT_CAPABILITY_LAW_BONUS}				Bonus öffentliche Ordnung durch Gesetz:
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		<< DIESER TEXT SOLLTE NICHT ANGEZEIGT WERDEN >>
+{SMT_CAPS_LOC_TRAINS}						Ermöglicht Ausbildung von:
+{SMT_CAPS_LOC_RECRUITS}						Ermöglicht Rekrutierung von:
+{SMT_CAPS_LOC_PROVIDES}						Ermöglicht:
+{SMT_ENEMY_AMBUSH_FAILED}					Der gegnerische Überraschungsangriff ist gescheitert, daher habt Ihr jetzt Zeit, Euch auf die Schlacht vorzubereiten.
+{SMT_ENEMY_AMBUSH_SUCCESS}					Ihr wurdet vollkommen überrascht und habt keine Zeit, Euch auf die Schlacht vorzubereiten.
+{SMT_YOUR_AMBUSH_FAILED}					Euer Hinterhalt ist gescheitert. Der Feind kann sich in Ruhe auf die Schlacht vorbereiten.
+{SMT_YOUR_AMBUSH_SUCCESS}					Der Feind ahnte nichts von Eurem Angriff und hat nun keine Zeit, sich auf die Schlacht vorzubereiten.
+{SMT_NO_UNITS_IN_NAVY}					Es sind keine Einheiten in diesem Flottenverband.
+{SMT_NO_UNITS_IN_ARMY}					Es sind keine Einheiten in dieser Armee.
+{SMT_NO_CHARACTERS_WITH_NAVY}				Es reisen keine Charaktere mit diesem Flottenverband.
+{SMT_NO_CHARACTERS_WITH_ARMY}				Es reisen keine Charaktere mit dieser Armee.
+{SMT_NO_UNITS_TRANSPORTED}				Es werden keine Einheiten mit diesem Flottenverband transportiert.
+{SMT_NO_UNITS_IN_GARRISON}				Hier sind keine Einheiten in einer Garnison.
+{SMT_NO_BUILDINGS_IN_SETTLEMENT}			Hier gibt es keine Bauten.
+{SMT_NO_VISITORS_IN_SETTLEMENT}			Die Siedlung hat keine Besucher.
+{SMT_NO_VISITORS_IN_FORT}				Dieses Fort hat keine Besucher.
+{SMT_STATE_ICON_UNIT_RECRUITS}			Rekrutierte Bewohner
+{SMT_STATE_ICON_GOVERNORS_INFLUENCE}		Einfluss des Statthalters
+{SMT_LAND_IMPORTS}					Importe (Landhandel)
+{SMT_RETAINERS}							Gefolge
+{SMT_RETAINERS_UNKNOWN}					Gefolge unbekannt
+{SMT_TRAITS_UKNOWN}					Merkmale unbekannt
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DIED}							Gestorben:
+{SMT_NO_BUILDING_IN_NEED_OF_REPAIR}			Kein Gebäude muss repariert werden.
+{SMT_NO_UNITS_NEED_RETRAINING}				Keine Einheit muss fortgebildet werden.
+{SMT_VICES}						Merkmale
+{SMT_SHOW_VNV_DETAILS}				Persönliche Merkmale des Charakters zeigen
+{SMT_SHOW_VISITORS_FORT}				Besucher-Charaktere dieses Forts anzeigen
+{SMT_END_SIEGE}						Belagerung abbrechen
+{SMT_DECLINE_MISSION}					Mission ablehnen
+{SMT_EXIT_CAMPAIGN}					Zurück zum Hauptmenü
+{SMT_SELECT_UNIT_TO_REPAIR}				Einheit zur Fortbildung wählen
+{SMT_SENATE_OFFICE_QUAESTOR_DESCRIPTION}		Das niedrigste der Senatsämter. Leitet in der Regel die Staatskasse und ist das erste nennenswerte Amt zum Beginn der eigenen politischen Laufbahn in Rom.
+{SMT_SENATE_OFFICE_AEDILE_DESCRIPTION}			Ein administratives Amt, dessen Inhaber die Oberaufsicht über die Straßen, Tempel und Quartiere einer Stadt hat und für die Cura Annonae, die Getreideversorgung, verantwortlich zeichnet.
+{SMT_SENATE_OFFICE_PRAETOR_DESCRIPTION}		Dieses Amt befasst sich größtenteils mit Recht und Gesetzen, vor allem dem Ius Civile (Zivilrecht, nicht Strafrecht) und Ius Gentium (Völkerrecht).
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}			Der Konsul genießt die uneingeschränkte Amtsgewalt und Ehre innerhalb der Republik. Er hat die Autorität über die Beamten, die Armee sowie die Gesetzgebung. Er ist - vom Titel einmal abgesehen - während seiner Amtszeit einem König gleich zu setzen 
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}			Ein wichtiges Amt, dass den Zensus erhebt und die Liste aller römischen Bürger und Senatoren führt. Er entscheidet letztlich darüber, wer Römer ist und wer nicht, beziehungsweise wer Senator ist und wer nicht.
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}	Das Oberhaupt der römischen Religion und aller religiösen Institutionen, inklusive der Vestalinnen. Er besitzt die absolute Kontrolle über die Doktrinen und in großem Maße auch über die Gesetzgebung des Senats und Volks von Rom.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_MISSION_APPEASE_FACTION_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Ihr müsst sie nicht länger beschwichtigen.
+{SMT_MISSION_ASSIST_FACTION_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Ihr müsst ihr nicht länger helfen.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_EXPIRY_DESTROYED}	Die Geächteten wurden vernichtet. Ihr müsst sie nicht weiter verfolgen.
+{SMT_MISSION_BREAK_ALLIANCE_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_MISSION_PEACE_TALKS_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_MISSION_CEASE_HOSTILITIES_EXPIRY_DESTROYED}	Unsere Freunde wurden vernichtet. Diese Mission ist nicht länger erforderlich.
+{SMT_MISSION_DECLARE_WAR_EXPIRY_DESTROYED}		Unsere Feinde wurden vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_MISSION_EXACT_TRIBUTE_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Ihr könnt keinen Tribut von ihr verlangen. Diese Mission ist nicht länger erforderlich.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY}			Diese Mission wurde abgebrochen.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY}			Diese Mission wurde abgebrochen.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY_DESTROYED}	Die Seite wurde vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_MISSION_MAKE_SUBMIT_EXPIRY_DESTROYED}		Die Seite wurde vernichtet. Diese Mission ist nicht länger von Bedeutung.
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Verbessert leichte Waffen:
+{SMT_CAPABILITY_WEAPON_BLADED}			Verbessert schwere Waffen:
+{SMT_ARMY_UPKEEP}						Armee-Unterhalt
+{SMT_STATE_ICON_ENTERTAINED}				Unterhaltung
+{SMT_ASSISTANCE_REQUESTED_AGAINST}				Hilfe erbeten gegen: 
+{SMT_ASSISTANCE_PROVIDED_AGAINST}				Hilfe geleistet gegen: 
+{SMT_GIVE}							Geben: 
+{SMT_PENALTY_CENSOR_IS_PLAYER_FACTION}			Ihr habt Freunde in einflussreichen Positionen. Es scheint, dass der Zensor Euer Freund ist. Eure Familie und Eure Freunde scheinen beispielhafte Bürger zu sein.
+{SMT_PENALTY_QUAESTOR_IS_PLAYER_FACTION}		Ihr habt Freunde in einflussreichen Positionen. Es scheint, dass der Quästor Euer Freund ist. Eure Finanzen scheinen alle im Lot zu sein.
+{SMT_CANNOT_SET_NAVAL_RALLY_POINT_WITH_NO_PORT}		Kann keinen Flotten-Sammelpunkt setzen, wenn die gewählte Siedlung über keine Hafengebäude verfügt.
+{SMT_DIED_IN_BATTLE_TITLE}					Tod in der Schlacht
+{SMT_DIED_IN_BATTLE_DESCRIPTION}				Dieser Mann ist in der Schlacht gefallen und schließt sich unseren illustren Ahnen im Jenseits an.
+{SMT_CAPITAL}					Hauptstadt:
+{SMT_SHOW_VISITORS}				Besuchende Agenten der Siedlung anzeigen
+{SMT_SHOW_TRAVELLING_CHARACTERS}		Mit der Armee reisende Agenten zeigen
+{SMT_SHOW_TRAVELLING_CHARACTERS_NAVY}	Mit dem Feindflottenverband reisende Agenten zeigen
+{SMT_RCLICK_SHOW_CHARACTERS}			Mit einem Rechtsklick auf die Registerkarte werden Eure Agenten aufgelistet.
+{SMT_CHARACTERS}					Agenten
+{SMT_WHICH_ALLY}					Verbündete Armee:
+{SMT_WHICH_ARMY_REQUESTED}			Hilfe wird erbeten von:
+{SMT_CAPTURED_SETTLEMENT}			Eroberte Siedlung:
+{SMT_DENARI_GAINED_FROM_LOOTING}		Durch Plünderung erlangte Denare:
+{SMT_POPULATION_GAINED_FROM_ENSLAVE}	Unter regierten Siedlungen zu verteilende Bevölkerung:
+{SMT_POPULATION_KILLED}				Zu massakrierende Bevölkerung:
+{SMT_CURRENTLY_BUILDING}			Momentan im Bau:
+{SMT_DAMAGE}					Schaden:
+{SMT_REPAIR_TIME}					Reparaturzeit:
+{SMT_REPAIR_COST}					Reparaturkosten:
+{SMT_AGE}						Alter:
+{SMT_ANCILLARIES}					Gefolge
+{SMT_RETAINERS}						Gefolge
+{SMT_RETAINERS_UNKNOWN}					Gefolge unbekannt
+{SMT_BREAK_SIEGE_CONFIRMATION}		Dieser Charakter führt momentan eine Belagerung durch. Durch sein Abziehen wird automatisch die Belagerung abgebrochen. Möchtet Ihr dies wirklich tun?
+{SMT_NO_MORE_OFFERS_ALLOWED}			Keine weiteren Angebote mehr möglich.
+{SMT_NO_MORE_DEMANDS_ALLOWED}			Keine weiteren Forderungen mehr möglich.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_UNITS}					Einheiten
+{SMT_SIEGE_EQUIPMENT}			Belagerungsausrüstung
+
+{SMT_BREAK_SIEGE_CONFIRMATION}		Diese Armee führt momentan eine Belagerung durch. Durch ihr Abziehen wird automatisch die Belagerung abgebrochen. Möchtet Ihr dies wirklich tun?
+
+{SMT_MISSION_MAKE_ALLIANCE_TITLE}					Bündnis schließen
+{SMT_MISSION_MAKE_ALLIANCE_PROPOSAL}					Der Senat bittet, dass Ihr einen Diplomaten zu dieser Seite entsendet und ein Bündnis schließt.
+{SMT_MISSION_MAKE_ALLIANCE_EXPIRY}					Diese Mission ist nicht mehr relevant und wurde abgebrochen.
+{SMT_MISSION_MAKE_ALLIANCE_EXPIRY_DESTROYED}				Der Senat wurde vernichtet. Ihr müsst nicht länger ein Bündnis mit ihm anstreben.
+{SMT_MISSION_MAKE_ALLIANCE_FAILURE}					Der Senat ist betrübt, dass Ihr seine Mission nicht habt erfüllen können.
+{SMT_MISSION_MAKE_ALLIANCE_SUCCESS}					Der Senat dankt Euch, dass Ihr erfolgreich ein Bündnis mit dieser Seite geschlossen habt.
+{SMT_MISSION_GIVE_CASH_TITLE}						Geld anbieten
+{SMT_MISSION_GIVE_CASH_PROPOSAL}					Unsere Freunde benötigen unsere finanzielle Unterstützung. Der Senat bittet, dass Ihr eine Einmalzahlung von mindestens einem Zehntel Eurer Jahreseinnahmen an diese Seite in die Wege leitet.
+{SMT_MISSION_GIVE_CASH_EXPIRY}						Diese Mission ist nicht mehr relevant und wurde abgebrochen.
+{SMT_MISSION_GIVE_CASH_EXPIRY_DESTROYED}				Diese Seite wurde vernichtet. Ihr müsst sie nicht länger finanziell unterstützen.
+{SMT_MISSION_GIVE_CASH_FAILURE}						Der Senat ist nicht sonderlich erfreut, dass Ihr in dieser Mission versagt habt.
+{SMT_MISSION_GIVE_CASH_FAILURE_CHEAPSKATE}				Ihr wurdet gebeten, dass Ihr mindestens ein Zehntel Eurer Jahreseinnahmen abgebt. Der Senat ist nicht erfreut, dass Ihr diese direkten Anweisungen missachtet habt.
+{SMT_MISSION_GIVE_CASH_SUCCESS}						Der Senat dankt für Eure Spende an unsere Freunde.
+{SMT_ASS_EXTERMINATE}							Der Einfluss dieser Seite schwindet, da der Krieg ihr den Geist ihres Volkes und das Leben ihrer Männer nimmt. Es ist die Meinung des Senats, dass diese Seite nichts als den Tod verdient hat! Lasst sie das Schwert spüren und löscht sie aus!
+{SMT_ASS_ENSLAVE}							Unser Krieg gegen dieses Volk zeigt, dass es - unter römischer Herrschaft - gute Sklaven abgeben wird. Spart daher nicht mit dem Einsatz des Schwerts! Versklavt ihre Siedlungen und lasst sie die Vorzüge römischer Zivilisation spüren.
+{SMT_ASS_MAKE_SUBMIT}							Diese Seite ist politisch geschwächt, verfügt aber noch über eine gewisse Militärmacht. Ein längerer Krieg könnte sich als sehr teuer wie unnötig erweisen: indem Ihr den Status eines Protektorats anbietet, kann auch dieses Volk in den Genuss der römischen Zivilisation kommen.
+{SMT_ASS_COVERT_OPS_ASS}						Dieses Volk sollte bis aufs Letzte geschwächt werden, bevor ein Krieg beginnt. Das Beseitigen seiner militärischen Kommandeure und Sabotieren der Verteidigungen und Militärgebäude besitzt eine gewisse Dringlichkeit. Wir sollten unsere Truppen daher noch nicht in einen Krieg entsenden, wenn es dafür nicht schon zu spät ist.
+{SMT_ASS_COVERT_OPS_INCITE}						Die Siedlungen dieses Volkes sind anfällig für Querdenker und Aufständische. Indem Ihr einen Spion in ihre Städte entsendet und eine Rebellion anzetteln lasst, wird unser Ziel der Besetzung deutlich vereinfacht und weniger teuer. Dieses Volk wird sich selbst von seinen bösen Mächten befreien und bekommt im Gegenzug die Vorzüge der römischen Zivilisation.
+{SMT_ASS_BLOCKADE}							Ihre Flotten sind schwach, ihre Häfen anfällig für eine Blockade! Unsere Schiffe sollten ihre Handelsrouten abschneiden und sie so auslaugen! Der Arme kann sich am Ende keine Armee mehr leisten, was unseren Eroberungszug mit deutlich weniger Verlusten vereinfachen sollte.
+{SMT_ASS_WORK_TOWARDS_PEACE}						Unsere Kämpfe gegen diese Seite verlaufen nicht zur Zufriedenheit. Wenn wir den Krieg weiter verfolgen, könnte dies unsere Position in anderen Provinzen schwächen. Der Senat denkt daher eher an politische Maßnahmen, ihren Aggressionen mit diplomatischen Mitteln zuvorzukommen. Später dann können wir den Krieg fortsetzen und gleichzeitig vom Überraschungsmoment profitieren.
+{SMT_ASS_ATTACK}							Dieses Volk können wir mit in das Imperium aufnehmen, indem wir ihre Städte besetzen und die gute römische Kultur statt ihrer niederen Wege etablieren. Indem wir ihnen unsere Götter bringen, unsere Gesetze und Verwaltung, werden ihre Städte zu Musterbeispielen unserer großen römischen Zivilisation.
+{SMT_ASS_MAKE_GIVE_CITY}						Dieses Volk ist geschwächt, so dass allein die Diplomatie schon Erfolg haben kann. Die Überredung kann da weiterhelfen, wo das Schwert nur ihren Widerwillen festigen würde. Wir sollten anbieten, unseren Schutz und unsere Regierung mit auf ihre Siedlungen auszuweiten. Die überlegene römische Zivilisation wird unumgänglich alle anderen übertreffen!
+{SMT_ASS_EXACT_TRIBUTE}							Diese Seite untersteht nun dem Macht Roms. Es sollte ein leichtes Unterfangen werden, einen Tribut von ihnen zu fordern und unsere Staatskasse zu füllen! Es ist nur gerecht, dass sie uns dafür entlohnen, dass wir ihre Fremdartigkeit tolerieren! 
+{SMT_ASS_TRESPASS}							Es wird Zeit, das Schwert zu ziehen und es dem Feind in die Eingeweide zu stechen! Sie werden unser Passieren nicht dulden und uns attackieren. Marschiert in ihr Land vor und zerrt sie hinter ihren feigen Mauern hervor!
+{SMT_ASS_MAKE_ATTACK}							Es muss allen klar sein, dass Rom im Krieg mit diesem Volk zu Unrecht verurteilt wird. Die Provokation ist ein notwendiges Hilfsmittel der Staatsführung, so dass 'zufällige' Vormärsche in ihr Land zusammen mit einer missachtenden und verächtlichen Diplomatie auf der Tagesordnung stehen sollten. Ihr Zorn wird für uns arbeiten.
+{SMT_ASS_BORDER_BUILDUP}						Ein Krieg steht unmittelbar bevor. Es wird Zeit, das Schwert zu ziehen und unsere Armeen an der Grenze zu formieren - bereit, es mit diesem Volk aufzunehmen. 
+{SMT_ASS_APPEASE}							Dieses Volk ist stark und hat sich unseres Respekts als würdig erwiesen. Ihre Feindseeligkeit ist nicht sonderlich förderlich für unsere innere Sicherheit, daher wird es Zeit für eine freundschaftlichere Beziehung. Vielleicht kann ein Tribut oder das Angebot von Handelsrechten oder Karteninformationen sie etwas beschwichtigen.
+{SMT_ASS_GET_MAP_INFO}							Wir müssen mehr über dieses Volk erfahren - wo seine Siedlungen liegen, seine Militärmacht, seine Armeen und Ziele. Es bedarf einer diplomatischen Mission, um diese Informationen zu gewinnen.
+{SMT_ASS_TRADE_AGREEMENT}						Wir sollten uns mit dieser Seite arrangieren. Der Handel ist der beste Anfang: sobald sie sich daran gewöhnt haben, sich mit zivilisierten Römern abzugeben, können wir uns einander noch näher kommen und die römische Ordnung in ihren Gebieten Einzug halten lassen.
+{SMT_ASS_IGNORANT}							Von dem bisschen, was wir über dieses Volk wissen, können wir nur sagen, dass sie uns nicht viel zu bieten haben. Da sich unser Imperium immer weiter ihm entgegen ausbreitet, wird sich diese Situation unzweifelhaft ändern. Für den Moment sind alle anderen Angelegenheiten von größerer Bedeutung.
+{SMT_ASS_COOPERATIVE}							Wir würden gut daran tun, diesem Volk gegen seinen Feind zu helfen. Indem wir eine freundschaftliche Beziehung etablieren, könnten sie sich eines Tages als wertvoll erweisen, unser Protektorat zu werden und dann sämtliche Profite der römischen Herrschaft nutzen zu können.
+{SMT_ASS_MAKE_ALLIANCE}							Lasst uns ein Bündnis mit diesem ehrenvollen Volk eingehen. Sie zeigen bereits Anzeichen der römischen Tapferkeit und ein würdevolles Benehmen und Auftreten. Es würde sehr anständig und weise sein, Schulter an Schulter mit ihnen im Kampf gegen andere Feinde zu stehen.
+{SMT_ASS_MAKE_PEACE_AT_ANY_COST}					Wir müssen die Ordnung wiederherstellen, um engeren Kontakt mit diesem Volk aufzunehmen. Wir müssen Frieden schließen und den weiteren Verfall unserer Beziehungen stoppen. Der Preis dieses Friedens ist nicht in Gold zu messen.
+{SMT_ASS_GIVE_CASH}							Unsere edlen, doch wankenden Verbündeten brauchen unsere finanzielle Unterstützung. Ihre dauerhaft gute Einstellung uns gegenüber dürfte uns durch ein Tributsangebot gewiss sein.
+{SMT_ASS_GIVE_SUPPORT}							Unsere edlen und tapferen Verbündeten benötigen unsere militärische Unterstützung. Ihre Feinde sind auch unsere Feinde, ihre Verteidigungen schützen auch Rom. Wir können ihnen helfen, indem wir unsere Armeen in ihr Land entsenden, um in den Kampf gegen unseren gemeinsamen Feind zu ziehen.
+{SMT_ASS_OUTLAW}							Diese einst edlen Römer haben Tugend, Ehre und Würde abgelegt. Sie sind eine Schande für unser Land. Sie dürfen nicht die Herzen und den Verstand der wahren Römer beflecken. Wir müssen sie vernichten. Jeglicher Beweis ihrer Existenz muss vernichtet werden, und haben wir das erst erreicht, soll ihr Name für immer verdammt sein!
+
+{SMT_STOIC_PHILOSOPHY_BODY}					Ariston von Chios beginnt seine Lehren des stoischen Lebens. Diese Philosophie leitet ihren Namen von der Vorhalle der athenischen Agora (Stoa poikile) ab. Hier trafen sich die Stoiker erstmals und legten ihre Überzeugung dar, dass Emotionen wie Neid oder Leidenschaft durch Fehleinschätzungen entstehen. Wer moralische und intellektuelle Perfektion erlangt hat, vermeidet derartige Gefühle.
+
+{SMT_ENEMY_AMBUSH_FAILED}					Der gegnerische Überraschungsangriff ist gescheitert, daher habt Ihr jetzt Zeit, Euch auf die Schlacht vorzubereiten.
+{SMT_YOUR_AMBUSH_FAILED}					Euer Hinterhalt ist gescheitert. Der Feind kann sich in Ruhe auf die Schlacht vorbereiten.
+
+{SMT_NO_BUILDINGS_IN_SETTLEMENT}			Hier gibt es keine Gebäude.
+
+{SMT_EARTHQUAKE_IN_IBERIA_TITLE}				Erdbeben in Spanien
+{SMT_EARTHQUAKE_IN_IBERIA_BODY}				Die spanische Stadt Saguntum wurde von einem gewaltigen Erdbeben erschüttert, das zweifellos Neptun dem Volk geschickt hat. Viele wurden getötet und der Tempel ist eingestürzt.
+
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Nichtangriffsversprechen
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Nichtangriffsgarantie
+
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE}			Diese Siedlung kann noch %d Runde(n) durchstehen.
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_RIGHT_CLICK_FOR_CHARACTER_INFO}		Ein Rechtsklick auf ein Generalsporträt oder eine Hauptmannsfahne blendet vollständige Charakterinformationen und eine Armeeübersicht ein.
+{SMT_ENABLE_AUTO_TRAIN}					Automatische Einheitenrekrutierung zulassen
+{SMT_SET_AS_CAPITAL}					Diese Siedlung zur Hauptstadt der Seite deklarieren
+
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}			Ein wichtiges Amt, das den Zensus erhebt und die Liste aller römischen Bürger und Senatoren führt. Ein Zensor entscheidet letztlich darüber, wer Römer ist und wer nicht, beziehungsweise wer Senator ist und wer nicht.
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}			Der Konsul genießt die uneingeschränkte Amtsgewalt und Ehre innerhalb der Republik. Er hat die Autorität über die Beamten, die Armee sowie die Gesetzgebung. Er ist - vom Titel einmal abgesehen - während seiner Amtszeit einem König gleich zu setzen.
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}	Das Oberhaupt der römischen Religion und aller religiösen Institutionen, inklusive der Vestalinnen. Er besitzt die absolute Kontrolle über die Doktrinen und in großem Maße auch über die Gesetzgebung des Senats und Volks von Rom.
+
+{SMT_REWARD_TWO_BEST_BUILDABLE_UNITS_DESCRIPTION}		Ihr werdet mit zwei Eurer besten möglichen Einheiten belohnt.
+{SMT_REWARD_ONE_BEST_BUILDABLE_UNIT_DESCRIPTION}		Ihr werdet mit einer Eurer besten möglichen Einheiten belohnt.
+{SMT_REWARD_ONE_BUILDABLE_UNIT_DESCRIPTION}			Ihr werdet mit einer Eurer möglichen Einheiten belohnt.
+{SMT_REWARD_CANNOT_BUILD_A_UNIT}				Ihr könnt keine Belohnung erhalten, da Ihr keine Einheiten rekrutieren könnt.
+
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}			Überlebt länger als die folgende(n) Seite(n):
+
+{SMT_NO_UNITS_NEED_RETRAINING}				Keine Einheit kann fortgebildet werden.
+
+{SMT_STATE_ICON_BUILDINGS_FUN}					Gebäude der Unterhaltung, des Spaßes, der Kultur und der Erhaltung der guten Ordnung
+{SMT_CAPABILITY_GATE_DEFENSES}			Kochendes Pech
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_CAPS_LOC_REQUIRES}						Benötigt:
+{SMT_ATTACKING_THIS_CHARACTER_WILL_BREAK_ALLIANCE}	Ihr seid momentan mit der Seite dieses Charakters verbündet. Wenn Ihr jetzt angreift, wird das Bündnis gebrochen und der Krieg erklärt. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_NAVY_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite dieser Flotte, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_ARMY_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite dieser Armee, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR}	Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite dieses Charakters, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_SETTLEMENT_DECLARATION_OF_WAR}	Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite, der diese Siedlung gehört, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_FORT_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite, der dieses Fort gehört, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_PORT_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Eurer Seite und der Seite, der dieser Hafen gehört, doch wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_CONFIRM_ATTACK_ON_NEUTRAL}				Neutrale Seite angreifen?
+{SMT_ARMY}								Armee
+{SMT_NAVY}								Flottenverband
+{SMT_AGENTS}							Agenten
+{SMT_FLEET}								Flotte
+{SMT_PRIVATE_DEALINGS}						Private Angelegenheiten
+{SMT_CURRENT_TREATIES}						Momentane Verträge
+{SMT_STATE_ICON_BUILDINGS_LAW}				Gesetz
+{SMT_FACTION_OVERVIEW}						Übersichten
+{SMT_SENATE}							Senat
+{SMT_FINANCIAL}							Finanzen
+{SMT_RADAR_ZOOM_IN}						Momentanen Ort vergrößern
+{SMT_RADAR_ZOOM_OUT}						Momentanen Ort verkleinern
+{SMT_RECRUITMENT}							Rekrutierung
+{SMT_REPAIR}							Reparatur
+{SMT_RETRAIN}							Fortbildung
+{SMT_STATE_ICON_FARMING_LEVEL}					Grundfarmstufe (variiert von Region zu Region)
+{SMT_STATE_ICON_FARMS_BUILT}					Gebaute Farmverbesserungen
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_ATTACKING_THIS_NAVY_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Euch und der Seite dieser Flotte. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_ARMY_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Euch und der Seite dieser Armee. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR}	Es bestehen keine Feindschaften zwischen Euch und der Seite dieses Charakters. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_SETTLEMENT_DECLARATION_OF_WAR}	Es bestehen keine Feindschaften zwischen Euch und den Besitzern dieser Siedlung. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_FORT_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Euch und den Besitzern dieses Forts. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_ATTACKING_THIS_PORT_DECLARATION_OF_WAR}		Es bestehen keine Feindschaften zwischen Euch und den Besitzern dieses Hafens. Wenn Ihr nun angreift, wird dies als Kriegserklärung verstanden. Möchtet Ihr dies wirklich?
+{SMT_SET_AS_CAPITAL}						Diese Siedlung zur Hauptstadt der Seite deklarieren
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DISBAND}					Einheit auflösen\nNicht-Söldnereinheiten können nur in der Heimatregion, Marine-Einheiten nur im Hafen aufgelöst werden. Generalseinheiten können nicht aufgelöst werden.
+{SMT_MISSION_BLOCKADE_SUCCESS}			Der Senat stellt fest, dass die Blockade des Hafens steht.
+{SMT_MISSION_ASSIST_FACTION_SUCCESS}		Der Senat stellt fest, dass Ihr seinen Rat befolgt habt und unsere Verbündeten in der Region verstärkt habt.
+{SMT_ASSAULT_NO_INFANTRY}			Angriff unmöglich! Belagerungsausrüstung kann nicht ohne Infanterie eingesetzt werden.
+{SMT_ASSAULT_NO_EQUIPMENT}			Angriff unmöglich! Die Befestigungen sind zu gut, um ohne eine Belagerungsausrüstung anzugreifen.
+{SMT_NO_POPULATION_TO_ENSLAVE}			Zu wenig Bevölkerung zum Versklaven
+{SMT_NO_POPULATION_TO_EXTERMINATE}		Zu wenig Bevölkerung zum Ausradieren
+{SMT_CURRENTLY_TRAINING}			Momentane Ausbildung:
+{SMT_TOTAL}					Gesamt
+{SMT_PROJECTED}					Gesamt geplant
+{SMT_STARTING_TREASURY}				Anfangsbestand
+{SMT_PROJECTED_END_TREASURY}			Gepl. Staatskassenb.
+{SMT_END_TREASURY}				Staatskasse gesamt
+{SMT_DIPLOMACY_TRIBUTES}			Diplomatie/Tribute
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DIPLOMACY_CHANGE_YEARLY_PAYMENT}		Tribut ändern
+{SMT_ATTACK_VS_TROOPS}				Angriff gegen Truppen
+{SMT_ATTACK_VS_BUILDINGS}			Angriff gegen Gebäude
+{SMT_MELEE_ATTACK}				Nahkampf-Angriff
+{SMT_MISSILE_ATTACK}				Fernkampf-Angriff
+{SMT_WEAPON_TYPE}				Waffenart
+{SMT_LIGHT}					Leicht
+{SMT_MISSILE}					Fernkampf
+{SMT_HEAVY}					Schwer
+{SMT_NO_UPGRADE}				Kann nicht verbessert werden
+{SMT_TOTAL_DEFENCE}				Defensive gesamt
+{SMT_ATTACK_CHARGE}				Ansturmbonus
+{SMT_EMPTY_OFFICES}				Freie Senatsämter:
+{SMT_STATE_ICON_PLAGUE}				Seuche		
+{SMT_SETTLEMENT_HAS_FOOD_FOR_X_YEARS}		Diese Siedlung hat genug Nahrung für %d Runden.
+{SMT_FORT_HAS_FOOD_FOR_X_YEARS}			Dieses Fort hat genug Nahrung für %d Runden.
+{SMT_SETTLEMENT_HAS_FOOD_FOR_1_YEAR}		Diese Siedlung hat genug Nahrung für eine Runde.
+{SMT_FORT_HAS_FOOD_FOR_1_YEAR}			Dieses Fort hat genug Nahrung für eine Runde.
+{SMT_SUBTERFUGE_COLON}				Talent:
+{SMT_DEFENCE}					Verteidigungsfähigkeit
+{SMT_REWARD_UNITS_AT_YOUR_CAPITAL}		Eure Einheiten-Belohnung befindet sich in Eurer Hauptstadt:\n
+{SMT_MISSION_PEACE_TALKS_PROPOSAL}		Der Senat bittet Euch, einen Diplomaten zu dieser Seite zu entsenden und zu versuchen, das Verhältnis zu ihr zu verbessern. Es wird kein besonderes Resultat erwartet - nur, dass Ihr den Diplomaten als ersten Schritt entsendet und er eine Vereinbarung schließt.
+{SMT_MISSION_PEACE_TALKS_FAILURE}		Der Senat stellt fest, dass Ihr keinen diplomatischen Kontakt zu dieser Seite herstellen konntet.
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE}	Eure beschämenden und widerwärtigen Praktiken werden das Gespräch der Klatschmäuler in ganz Rom sein.
+{SMT_CHARACTER_PLAGUED}				Dieser Charakter ist von der Seuche angesteckt.
+{SMT_NOTHING_TO_CONSTRUCT}			Momentan können keine Gebäude errichtet werden.
+{SMT_NOTHING_TO_TRAIN}				Momentan können keine Einheiten rekrutiert werden.
+{SMT_LOCATE_MISSION_TARGET}			Missionsziel anzeigen
+{SMT_REPAIRED}					Repariert
+{SMT_RETRAINED}					Fortgebildet
+{SMT_VARIES}					Variiert
+{SMT_GATES_OPEN_SETTLEMENT}			Eure Spione haben diese Siedlung infiltriert\nDie Tore werden bei einem Angriff offen stehen.
+{SMT_GATES_OPEN_FORT}				Eure Spione haben dieses Fort infiltriert\nDie Tore werden bei einem Angriff offen stehen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}	Werdet zum Herrscher Roms und haltet mindestens 50 Provinzen
+{SMT_CORRUPTION_AND_OTHER}			Korruption und Sonstiges
+{SMT_SELECT_FORT_OR_WATCHTOWER}		Fort oder Wachturm zum Bauen wählen
+{SMT_FAMILY_MEMBERS}				Familienmitglieder:
+{SMT_CAPITAL_TITLE}				Hauptstadt
+{SMT_GARRISON_COMMANDER}			Garnisonskommandant
+{SMT_LAND_IMPORTS}				Land-Importe
+{SMT_IMPORTS}					See-Importe
+{SMT_SEA_EXPORTS}					See-Exporte
+{SMT_BLOCKADED}					Blockiert
+{SMT_WITHIN_X_TURNS}				(innerhalb von %d Runden)
+{SMT_CHANCE_OF_SUCCESS_X_PERCENT}		Erfolgswahrscheinlichkeit: %d%%
+{SMT_DESTROY_BUILDING}				Gebäude einreißen und Teile der Kosten zurückführen.
+{SMT_TIME_TO_PROCESS_SIEGE_QUEUE}		Bauzeit für Liste: %d Runden
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_CHARACTER_BRIBED}			Der folgende Charakter schließt sich Eurer Seite an:
+{SMT_SETTLEMENT_BRIBED}			Die folgende Siedlung schließt sich Eurer Seite an:
+{SMT_VISITORS_BRIBED}			Die folgenden Besucher schließen sich Eurer Seite an:
+{SMT_TRAVELLERS_BRIBED}			Die folgenden Reisenden schließen sich Eurer Seite an:
+{SMT_ENTIRE_ARMY_BRIBED}		Die gesamte Armee schließt sich Eurer Seite an
+{SMT_ENTIRE_ARMY_DISBANDED}		Die gesamte Armee wird sich auflösen
+{SMT_UNITS_BRIBED}			Die folgende Einheitenzahl wird sich Eurer Seite anschließen:
+{SMT_UNITS_DISBANDED}			Die folgende Einheitenzahl wird sich auflösen:
+{SMT_TAX}					Steuer
+{SMT_AUTOMANAGE_TAXES_TOOLTIP}		Zulassen, dass die automatische Verwaltung auch den Steuersatz in allen Siedlungen anpasst
+{SMT_AUTOMATE_TAXES}			Nur die Steuern automatisch verwalten lassen
+{SMT_QUICKSAVE}				Schnellspeichern
+{SMT_LOCATE_BATTLE}			Schlachtposition anzeigen
+{SMT_ERUPTION_AT_ETNA_BODY}		Der Gott Vulcanus hat den Ätna ausbrechen lassen! Tausende sind unter der feurigen Lava ums Leben gekommen.
+{SMT_AUTOMANAGE_ALL_TOOLTIP}		Für jede Siedlung automatisch einen KI-Bauassistenten einsetzen
+{SMT_AUTOMATE_ALL}			Alles automatisch verwalten lassen
+{SMT_STATE_ICON_DEVASTATION}		Verwüstung
+{SMT_INAPPROPRIATE_UNITS_FOR_ASSAULT}	Angriff nicht möglich, da Ihr keine Einheiten besitzt, die Gebäude angreifen können.
+{SMT_EXCHANGE_COMMANDING_OFFICER}	Das ist das Schiff des ranghöchsten Admirals. Er übergibt das Kommando nicht an einen anderen.
+{SMT_EXCHANGE_IN_ZOC}			Diese Einheit befindet sich momentan in einer feindlichen Kontrollzone und kann daher diese Runde nicht mehr ziehen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_OPEN_DEMANDS}				Etwas Angemessenes im Austausch für unser Angebot
+{SMT_OPEN_OFFERS}					Nennt Euren Preis und Eure Forderungen
+{SMT_THIS_CHARACTER_IN_YOUR_FACTION}	Dieser Spion ist ein Mitglied Eurer Seite
+{SMT_CHANCE_OF_SUCCESS_X_PERCENT}		Erfolgswahrscheinlichkeit: %d%%
+
+¬15 provinces and outlive faction
+
+{SMT_SHORT_VICTORY_ROMANS_BRUTII}	Euer Sieg ist Eurer stolzen Bruti-Vorfahren würdig. Die abscheulichen Makedonier und parfümierten Griechen sind von uns gegangen; zurück bleiben nur noch ihre Ruinen! Herzlichen Glückwunsch, dass Ihr Eure Familie als wahre Römer zum Triumph geführt habt!
+{SMT_SHORT_VICTORY_ROMANS_JULII}		Euer Sieg ist eines wahren Römers würdig. Die Familie der Julier genießt es voller Freude, dass die barbarischen und haarigen Gallier vernichtet sind! Dies ist wahrlich ein Grund zum Feiern!
+{SMT_SHORT_VICTORY_ROMANS_SCIPII}	Euer Sieg ist ein wahrlich nobler! Eure Erzfeinde in Afrika - die Karthager und Numider - sind nur noch eine Fußnote der Geschichte, die von nun an über Euren ruhmreichen Triumph berichten wird!
+{SMT_SHORT_VICTORY_BRITONS}		Euer Sieg ist eine große Feier wert, mit viel Wein, Wein und nochmals Wein! Die üblen und nach Zwiebeln stinkenden Gallier wurden vernichtet und Euer Land kann sich mit vielen tapferen Kriegern schmücken! Genießt Euren Triumph!
+{SMT_SHORT_VICTORY_CARTHAGE}		Der Sieg schmeckt süß und ist wahrhaft groß! Die hinterhältigen und verlogenen Scipionen liegen in ihren Gräbern - keine Sekunde zu früh. Auch die barbarischen Spanier bereiten Euch nicht länger Sorgen. Kostet Euren Triumph aus!
+{SMT_SHORT_VICTORY_EGYPT}		Jeder Pharao wäre höchst erfreut, einen solchen Sieg feiern zu können. Die Gefahr durch die Seleukiden hat ein Ende und Ägypten ist groß und mächtig. Dies ist ein Tag der Freude: ein Tag des Sieges unter Eurer Führung!
+{SMT_SHORT_VICTORY_GAULS}		Die Familie der Julier und ihre lügenden Verbündeten im Senat von Rom wurden in die Knie gezwungen. Gallische Krieger regieren große Teile der Welt, was Eurer Umsicht und Führung zu verdanken ist. Feiert Euren Sieg!
+{SMT_SHORT_VICTORY_GERMANS}		Der Sieg beglückt die Germanen dank Eurer inspirierenden Führung! Die brutalen Dakier und die verrückten Reiter der Skythen sind alle tot oder versklavt. Die germanischen Krieger kontrollieren viele Länder!
+{SMT_SHORT_VICTORY_GREEK_CITIES}		Die Götter sind zufrieden mit Eurer Arbeit und der Sieg gehört Euch! Die Makedonier und Thraker wurden vom Staub verschluckt. Alle wahren und aufrichtigen Griechen feiern Euren Erfolg!
+{SMT_SHORT_VICTORY_PARTHIA}		Der Sieg ist Euer! Die Reiter von Parthien kontrollieren dank Eurer resoluten Führung viele Länder. Und was noch viel besser ist, die niederträchtigen Seleukiden und Armenier wurden versklavt oder ausgerottet!
+{SMT_SHORT_VICTORY_SELEUCID}		Heute kann das Seleukidenreich feiern - und dies dank Eurer ruhmreichen Führung! Doch was noch viel besser ist, die unnatürlichen Ägyter, die dem Tod huldigen, sind alle bei ihren Vorfahren - mögen sie ein geselliges Wiedersehen feiern!
+
+¬long game, 50 provinces and conquer Rome
+
+{SMT_LONG_VICTORY_ROMANS_BRUTII}	Rom steht nun sicher unter der Herrschaft der Bruti! Was versprochen wurde, wurde unter Eurer starken Führung gehalten. Die Faust eines Bruti hält nun die Rute in der Hand, die der Welt das Gesetz bringen wird! Dafür haben die Bruti seit Jahren gekämpft, und nun haben sie gesiegt!
+{SMT_LONG_VICTORY_ROMANS_JULII}		Dieser Moment ist zu genießen! Rom und das Reich - ja sogar die Welt - liegen Euch zu Füßen und das römische Volk liebt Euch! Sorgt Euch nicht länger um die alten Weiber im Senat. Eure Feinde sind schwach, verwirrt und vernichtend geschlagen. Dies ist Euer Sieg. Erfreut Euch an der Macht, die Ihr verdient habt!
+{SMT_LONG_VICTORY_ROMANS_SCIPII}	Das großartige Geschlecht der Scipionen wurde von den Göttern und Eurer inspirierten Führung gesegnet! Der Geschmack des Sieges ist ein guter. Alle Römer können nun ruhig schlafen, wohl wissend, dass wir das Reich beherrschen und sie vor allen Feinden beschützen. Die Armee der Römer - der Scipionen - kontrolliert jetzt ein Reich, das sich über die Welt erstreckt! Der Sieg gehört Euch!
+{SMT_LONG_VICTORY_BRITONS}		Ihr habt gesiegt! Die römische Welt ist vergangen und nun sind es unsere Krieger, die die Länder zwischen Sonnenauf- und Untergang beherrschen. Auf der ganzen Welt stimmen die Druiden Lobgesänge auf die alten Götter an! Kostet diesen Moment aus, erhebt Euren Siegeskelch und trinkt einen großen Schluck daraus!
+{SMT_LONG_VICTORY_CARTHAGE}		Die Welt gehört Euch, ebenso der Sieg! Keine andere Macht kann die Größe bedrohen, die Karthago unter Eurer inspirierten und gewinnbringenden Führung erreicht hat! Dieser Tag ist ein Tag zum Feiern, um sich die Welt so vorzustellen, wie sie unter der karthagischen Herrschaft werden wird!
+{SMT_LONG_VICTORY_EGYPT}		Der Sieg ist Euer! Eure Feinde sind im Schatten verschwunden oder vom Wüstenwind davongetragen worden. Die Pharaonen der Zukunft werden Euren Namen annehmen, um zu würdigen, wie Ihr die Ägypter zu solchem Ruhm führtet!
+{SMT_LONG_VICTORY_GAULS}		Der gallische Mut und Eure führende Hand haben den Sieg herbeigeführt! Feiert Eure Leistungen und blickt auf die Weiten des gallischen Reiches herab - ein Wunder der Welt in all seiner Glorie. Andere Völker können nur verzweifeln und vor Angst erzittern!
+{SMT_LONG_VICTORY_GERMANS}		Ihr habt das tapfere Volk der Germanen aus den dunklen Wäldern in die sonnenerhellten Gefilde des Sieges geführt! Der Sieg ist Euer und alle niederen Völker der Welt fürchten den Ansturm Eurer Armeen. Es ist ein Sieg - eines Barbarenvolkes! 
+{SMT_LONG_VICTORY_GREEK_CITIES}		Die Zivilisation wurde an alle Enden der Welt getragen! Die Griechen herrschen weise und gut über viele Lande - es ist ein Sieg! Besser noch: Es ist ein Sieg, den wir Eurer intelligenten und gewissenhaften Führung verdanken! Die Götter des Olymp haben Euch wahrlich mit wundersamen Führungsqualitäten gesegnet!
+{SMT_LONG_VICTORY_PARTHIA}		Parthien ist nun kein Königreich mehr, auf das andere mit Verachtung schauen. Eure überlegenen Fähigkeiten haben den parthischen Armeen zum Sieg verholfen und ein parthisches Banner ziert nun die Mauern vieler Städte. Die Welt ist nun das Spielzeug der Parther!
+{SMT_LONG_VICTORY_SELEUCID}		Das Seleukidenreich hat nun die größte Macht der Welt inne und wird von keiner Seite mehr bedroht! Eure Führung und Euer Geschick haben den Seleukiden zu diesem Sieg verholfen, und in allen Städten werden Statuen von Eurer Ehre künden! Selbst die Götter blicken voll des Neids auf Euch!
+
+¬defeat, by a major power
+
+{SMT_DEFEATED_BY_ROMANS_BRUTII}	Der Sieg ist Euch entronnen und die Bruti, diese bösartigen Römer, halten nun die Welt in ihrer eisernen Hand. Dadurch ist sie zu einem finsteren, schrecklichen Ort geworden!
+{SMT_DEFEATED_BY_ROMANS_JULII}		Der Sieg entglitt Euch und damit auch die Gelegenheit, die Welt Eurer Herrschaft zu unterwerfen. Die Julier, diese Freunde der römischen Meute, sind die neuen Herren. Das Römische Reich wurde für die Zukunft gesichert!
+{SMT_DEFEATED_BY_ROMANS_SCIPII}	Der Götter haben Eure Anstrengungen nicht unterstützt und damit habt Ihr die Möglichkeit zum Sieg verloren. Stattdessen waren anscheinend die römischen Scipionen bevorzugt - wie sie es schon immer behaupteten - und bestimmen von nun an das Schicksal der Welt!
+{SMT_DEFEATED_BY_BRITONS}		Die blau bemalten Britannier und ihre Druiden haben den Sieg an sich gerissen. Dieses Mal tragt Ihr den bitteren Nachgeschmack der Niederlage statt des süßen Siegesweins in Eurem Munde!
+{SMT_DEFEATED_BY_CARTHAGE}		Euch bleibt nichts als die Niederlage! Die Karthager und ihre Söldner haben heute gesiegt! Ihre grausamen, mordlüsternen Praktiken werden sich auf der Welt ausbreiten und alle werden vor Angst erbeben. 
+{SMT_DEFEATED_BY_EGYPT}		Der Pharao und seine sklavenhaften Anhänger haben Euch den Sieg entrissen. Dies ist ein dunkler Tag, an dem diese todverehrenden, leichenbesessenen Irrsinnigen zu derartiger Macht gelangen!
+{SMT_DEFEATED_BY_GAULS}		Der Sieg gehört nicht mehr länger Euch. Die hosentragenden und unmenschlich behaarten Gallier haben die Herrschaft an sich gerissen! Es ist tragisch, dass ein so ungewaschenes Volk einen so großen Teil der Welt in der Hand hat!
+{SMT_DEFEATED_BY_GERMANS}		Die Niederlage ist Euer einziger Lohn! Offensichtlich haben die Götter Euch den Rücken zugekehrt. Die Germanen - ein Volk von Wahnsinnigen aus den abgelegensten Wäldern - haben all ihre Feinde besiegt! Dies ist wahrlich ein schrecklicher Tag!
+{SMT_DEFEATED_BY_GREEK_CITIES}		Von allen Völkern haben ausgerechnet die Griechen den Sieg errungen! Es ist ein dunkler Tag, an dem übermäßig schöne, parfümierte Gecken, die sich selbst für zivilisiert halten, an Eurer Stelle den Sieg verkünden. Doch eine Niederlage muss nicht ewig währen ...
+{SMT_DEFEATED_BY_PARTHIA}		Die listigen, gerissenen Parther haben Euch den Sieg vor der ausgestreckten Hand fortgeschnappt. Es ist ein trauriger Tag, wenn ein pferdenärrisches Volk aus dem Osten den Sieg davonträgt, der Euch gebührt hätte!
+{SMT_DEFEATED_BY_SELEUCID}		Das Seleukidenreich hat triumphiert und für Euch ist der Sieg nun unerreichbar. Zwar sind all Eure Pläne gescheitert, doch werden die freien Völker der Welt sich damit zufrieden geben, unter dem grausamen Joch der Seleukiden zu stehen?
+
+¬defeat, by an unplayable faction
+
+{SMT_DEFEATED_BY_ROMANS_SENATE}	Der römische Senat hat triumphiert und in diesem Moment werden die Alten in Rom den Erfolg begießen! All Eure Mühen waren dank der Intrigen und hinterhältigen Taktiken Eurer Gegner vergebens. 
+{SMT_DEFEATED_BY_MACEDON}		Unter Alexander dem Großen hätten die Makedonier beinahe die Welt erobert. Nun haben sie immerhin genug getan, um wieder einmal zu Sieg und Ruhm zu gelangen. Alle anderen Völker - darunter das Eure - können nur eine Niederlage "feiern"! 
+{SMT_DEFEATED_BY_PONTUS}		Ihr wurdet besiegt! Im Osten ist eine neue Macht aufgestiegen, deren Generäle und Statthalter sich nun als Herren vieler Länder rühmen. Das pontische Volk hat wahrlich etwas zu feiern!
+{SMT_DEFEATED_BY_ARMENIA}		Im Osten ist eine neue Macht aufgestiegen. Die Armenier haben den Sieg davongetragen. Alle anderen Völker - das Eure eingeschlossen - werden sich schließlich diesem neuen Reich beugen müssen!
+{SMT_DEFEATED_BY_DACIA}		Die barbarischen Dakier haben gesiegt! Ist es zu ertragen, dass ein solches Volk sich nun für die größte Macht auf der Welt hält? Dies ist ein schrecklicher Tag für all diejenigen, durch deren Adern auch nur ein Tropfen zivilisierten Blutes strömt!
+{SMT_DEFEATED_BY_SCYTHIA}		Ihr wurdet besiegt! Aus ihren weiten Steppen kamen die Skythen angeritten, um den Sieg zu fordern! Kein anderes Volk wäre in der Lage, diesen Barbaren die Herrschaft streitig zu machen.
+{SMT_DEFEATED_BY_SPAIN}		Ihr wurdet besiegt! Alle Völker der Welt sind sich einig, dass es den barbarischen Spaniern zusteht, ihren Sieg zu verkünden und sich als die neuen Oberherren der Welt aufzuspielen!
+{SMT_DEFEATED_BY_THRACE}		Die barbarischen Thraker haben gesiegt! Ist es zu ertragen, dass ein solches Volk sich nun für die größte Macht auf der Welt hält? Dies ist ein schrecklicher Tag für all diejenigen, durch deren Adern auch nur ein Tropfen zivilisierten Blutes strömt!
+{SMT_DEFEATED_BY_NUMIDIA}		Ihr findet Euch im Angesicht der Niederlage wieder. Den gerissenen Numidern ist es gelungen, den Sieg und vermutlich auch die Weltherrschaft davonzutragen. Ihr Reich könnte sich eines Tages von Afrika bis in die entfernten Steppen erstrecken!
+{SMT_DEFEATED_BY_SLAVE}		Eine Meute von Sklaven, Rebellen und Nörglern hat den Sieg davongetragen. Nun stolzieren diese Leute, die nur des Straßenfegens würdig sind, umher, als seien sie die neuen Herrscher der Welt. Vielleicht sind sie das sogar tatsächlich ...
+
+{SMT_LAND_IMPORTS}		Landhandel (Importe und Exporte)
+{SMT_1_REGION_LEFT}		Nehmt noch 1 Region ein
+
+{SMT_MISSION_BLOCKADE_PROPOSAL}		Der Senat bittet Euch, eine Eurer Flotten zu entsenden, um diesen Hafen für eine Runde zu blockieren. Hierdurch wird der Druck auf diese Seite erhöht, indem Ihr ihre Einnahmen reduziert.
+{SMT_NEED_GOVERNOR_TO_MANAGE}		Bewegt ein Familienmitglied als Statthalter in die Siedlung, um sie automatisch verwalten zu können.
+
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT}			Dieses Fort sollte noch weitere %d Runden durchstehen können.
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT}		Im Falle einer Belagerung kann dieses Fort %d Runden durchhalten.
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT_1_TURN}		Dieses Fort sollte noch eine weitere Runde durchstehen können.
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT_1_TURN}		Im Falle einer Belagerung kann dieses Fort noch 1 Runde durchhalten.
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_1_TURN}			Diese Siedlung sollte noch eine weitere Runde durchstehen können.
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_1_TURN}		Im Falle einer Belagerung kann diese Siedlung noch 1 Runde durchhalten.
+{SMT_BLOCKADED}					(Blockiert)
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬Popular with the people >5, and then the Senate says...
+
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_0}		In den Augen des Senats besitzt Ihr weniger Wert als die Ratten in der Cloaca Maxima! Doch fürchtet er Eure Beliebtheit bei den Massen und das, wozu Ihr fähig seid. Ihr seid die größte Bedrohung der Republik und der römischen Freiheit.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_1}		Viele Stimmen im Senat beschuldigen Euch öffentlich der ausländischen und perversen Praktiken! Sie ergreifen jede Gelegenheit, um Euren Namen zu beschmutzen und Eure Niederlagen zu feiern. Das alles selbstverständlich im Interesse Roms. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_2}		Oft hat der Senat Euren Wert debattiert, ist jedoch zu keinem erfreulichen Ergebnis gelangt. Viele Senatoren wären erfreut, an Spielen zu Ehren Eures Begräbnisses teilzunehmen. Einige wären erfreut, für diese Spiele zu zahlen.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_3}		Die Senatoren wenden sich auf der Straße von Euch ab und verschließen ihre Türen vor Euch. Gern verleumden sie Euch öffentlich, erwecken Zweifel bezüglich Eurer Herkunft, Eurer Angewohnheiten und der Vaterschaft Eurer Kinder.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_4}		Jede Botschaft des Senats, in der er Eure Mühen für die Republik preist, stinkt nach Unaufrichtigkeit. Eure Beliebtheit bei den Massen bereitet vielen Senatoren Unbehagen, und einige bezweifeln öffentlich Eure Loyalität.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_5}		Eine Mehrheit im Senat erkennt Eure Größe an, ist jedoch um Eure Beweggründe besorgt. Noch hält sich die Feindseligkeit des Senats zumindest in der Öffentlichkeit in Grenzen, dort zeigt er sich erfreut über Eure Beliebtheit beim Volk. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_6}		Öffentlich preist der Senat Eure Taten, doch munkelt man, Ihr werdet von unrömischer Ambition und Gier nach Ruhm getrieben. Man traut Euch nicht und fürchtet, Ihr könntet beim Volk zu beliebt sein.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_7}		Die Senatoren loben eifrig Eure Mühen und laden Euch in höflichen Abständen zum Gelage ein, doch hinter ihrem Lächeln und Lob stecken Unaufrichtigkeit und eine gehörige Portion Furcht. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_8}		Der Senat bringt Euch Hochachtung entgegen, doch in der Ferne seid Ihr ihm am liebsten. Je weiter Ihr Euch vom Zentrum der Macht in Rom entfernt, desto mehr wird der Senat Euch schätzen! 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_9}		Öffentlich rufen Euch die Senatoren den wiedergeborenen Romulus, den neuen Vater der Republik. Insgeheim jedoch vermuten die Tapfersten unter ihnen, dass Ihr Euch zum Diktator Roms ernennen könntet, oder noch schlimmer!
+
+¬ Transition messages for popularity with Senate and people
+
+{SMT_SENATE_STANDING_RANKING_UP_TO_9}			Euer Ansehen beim Senat von Rom hat neue Höhen erreicht. Man könnte Euch nicht höher schätzen, selbst wenn Ihr Jupiter in Person wäret.
+{SMT_SENATE_STANDING_RANKING_UP_TO_6}			Die Meinung der römischen Senatoren über Eure Leistungen hat sich deutlich verbessert und nun ist man mit Euch ... die meiste Zeit ... beinahe ... zufrieden. 
+{SMT_SENATE_STANDING_RANKING_UP_TO_3}			Euer Ansehen beim römischen Senat ist gestiegen. Für den Anfang solltet Ihr es genießen, dass die Senatoren ihre Sklaven nicht mehr anweisen, mit Exkrementen auf Euch zu zielen!
+
+{SMT_SENATE_STANDING_RANKING_DOWN_TO_4}		Euer Ansehen beim römischen Senat schwindet dahin, was bei Euch Besorgnis erregen sollte.
+{SMT_SENATE_STANDING_RANKING_DOWN_TO_1}		Euer Ansehen beim Senat von Rom hat seinen Tiefpunkt erreicht. Die Wünsche des Senats zu erfüllen könnte Eure Lage bessern.
+
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_9}			Der Pöbel schreit Euren Namen von den Dächern und benennt seine Kinder nach Euch! Wenn die Massen wie jetzt auf Eurer Seite stehen, ist es doch denkbar, dass die oberste Macht noch greifbar sein könnte ...
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_6}			Die Massen kennen Euren Namen und sprechen zustimmend von Euren Erfolgen. Das ist ein mehr als gutes Zeichen und eine gute Ausgangslage, von der aus Ihr Eure Beliebtheit sichern könntet.
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_3}			Eure Beliebtheit beim Pöbel ist gestiegen. Es besteht also Hoffnung, dass man Euren Namen eines Tages mit Zustimmung rufen wird, anstatt damit kleinen Kindern Angst zu machen!
+
+{SMT_SENATE_POPULAR_SUPPORT_DOWN_TO_4}		Die Unterstützung, die das Volk auf den Straßen Roms Euch gab, schwindet dahin. Man kann nicht erwarten, den Senat herausfordern zu können, wenn man nicht wenigstens etwas Unterstützung vonseiten des Volkes genießt!
+{SMT_SENATE_POPULAR_SUPPORT_DOWN_TO_1}		Das gemeine Volk hasst Euch inbrünstig und es ist kaum eine Folge von Ereignissen vorstellbar, die diesen Zustand zu verändern vermag. Eine solche Ereignisfolge zu erfinden wäre mehr als eine Herausforderung!
+
+{SMT_SHOW_CHARACTER_INFO}				Informationen dieses Charakters ansehen
+
+{SMT_STATE_ICON_SQUALOUR}				Schmutz
+{SMT_STATE_ICON_WAGES}				Der Sold Eurer Generäle und Agenten wird im Verhältnis der Siedlungsgrößen aufgeteilt. Dies ist die hier gezahlte Summe.
+{SMT_STATE_ICON_UPKEEP_NEW}				Die Unterhaltskosten Eurer Streitkräfte werden im Verhältnis der Siedlungsgrößen aufgeteilt. Diese Summe wird gezahlt.
+
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}	Haltet %d Provinzen und besiegt oder überlebt die Folgende(n) Seite(n):	¬ allows for just one faction listed after message
+{SMT_BY}		Wer:
+{SMT_ON}		Wem:
+{SMT_ALLY}		Verbündet:
+{SMT_ENEMY}		Feind:
+
+{SMT_REWARD_THROW_GAMES_DESCRIPTION}	Spiele werden auf Kosten des Senats abgehalten.
+{SMT_GOVERNOR_POLICY_STRONGHOLD}		Wachstums- Baupolitik
+
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Nehmt an, oder wir greifen an
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Bitte greift nicht an
+{SMT_GATES_OPEN_SETTLEMENT}			Eure Spione haben diese Siedlung infiltriert.\nDie Tore werden bei einem Angriff mit einer Wahrscheinlichkeit von %d%% offen stehen.
+{SMT_GATES_OPEN_FORT}				Eure Spione haben dieses Fort infiltriert.\nDie Tore werden bei einem Angriff mit einer Wahrscheinlichkeit von %d%% offen stehen.
+{SMT_VICTORY_CONDITION_OUTLAST_SENATE}		Vernichtet oder überlebt den Senat
+
+{SMT_ALLOW_BUILDING_TOOLTIP}				Die KI alle Bauten in dieser Siedlung übernehmen lassen
+{SMT_ALLOW_TROOP_PRODUCTION_TOOLTIP}			Die KI sämtliche Ausbildungen in dieser Siedlung übernehmen lassen
+{SMT_AUTOMANAGE_ALL_TOOLTIP}				Die KI den Bau und die Ausbildung in allen Siedlungen übernehmen lassen
+{SMT_AUTOMANAGE_TAXES_TOOLTIP}				Die KI die Steuern in allen Siedlungen verwalten lassen
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_GATES_OPEN_SETTLEMENT_ACTUAL}			Eure Spione haben diese Siedlung infiltriert.\nDie Tore werden bei einem Angriff offen stehen.
+{SMT_GATES_OPEN_FORT_ACTUAL}				Eure Spione haben dieses Fort infiltriert.\nDie Tore werden bei einem Angriff offen stehen.
+
+{SMT_GATES_OPEN_SETTLEMENT}			Eure Spione haben diese Siedlung infiltriert. Es ist zu %d%% wahrscheinlich, dass die Tore bei einem Angriff offen stehen.
+{SMT_GATES_OPEN_FORT}				Eure Spione haben dieses Fort infiltriert. Es ist zu %d%% wahrscheinlich, dass die Tore bei einem Angriff offen stehen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DESTROY_BUILDING}		Gebäude zerstören und einen Teil der Kosten wiedergewinnen.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_PROPOSAL}	Diese Seite wurde geächtet. Der Senat will, dass Ihr sie angreift.
+{SMT_MISSION_BLOCKADE_SUCCESS}		Der Senat stellt fest, dass die gewünschte Blockade des Hafens steht.
+{SMT_DESERTED}			Desertiert
+{SMT_SELECTED_MERCENARIES}					Gewählte Söldner (Gesamtkosten: %d)
+{SMT_DIED_TRAGIC}			Tragisch verstorben:
+{SMT_DIED_BATTLE}			In der Schlacht gestorben:
+{SMT_DIED_ASSASSINATED}		Ermordet:
+{SMT_EXECUTED}			Hingerichtet:
+{SMT_DIED}				Friedlich eingeschlafen:
+{SMT_BORN}				Geboren:
+{SMT_DIED_PLAGUE}			An einer Seuche gestorben:
+{SMT_NEXT}				Danach:
+{SMT_1_YEAR_REMAINING}		(1 Jahr übrig)
+{SMT_X_YEARS_REMAINING}		(%d Jahre übrig)
+{SMT_DEFEAT_BODY}			Im Jahre 14 n. Chr. starb Augustus, der erste Kaiser Roms. Gemäß seines Testaments überließ er die Kontrolle der römischen Welt Tiberius - so, als wäre es ein ganz normales Erbgut. Dies markiert das Ende der Republik und die wahre Begründung des Imperiums. Ihr habt viel erreicht, doch könnt Ihr Euch nicht mit den Errungenschaften des mächtigen Augustus messen. Ihr könnt die Kampagne fortsetzen oder sie noch einmal spielen.
+{SMT_DEFEAT}			Siegbedingung gescheitert
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION}					Nach der Untersuchung Eurer Seite durch den Zensor hat %S Selbstmord begangen.
+{SMT_REGIONS_GAINED}						Kontrollierte Regionen:
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}	Werdet zum Herrscher Roms und kontrolliert mindestens 50 Provinzen
+{SMT_AI_REINFORCEMENT}		Lasst diese Armee von der KI steuern
+{SMT_REWARD_ONE_TRIARII_DESCRIPTION}	Ihr erhaltet eine Einheit Triarier
+{SMT_REWARD_TWO_TRIARII_DESCRIPTION}	Ihr erhaltet zwei Einheiten Triarier
+{SMT_DISBAND}					Einheit auflösen\nMarine-Einheiten können nur in einem eigenen Hafen aufgelöst werden.\nGeneralseinheiten können nicht aufgelöst werden.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_SHOW_FACTION_LISTS}	Listenschriftrolle zeigen
+{SMT_OCCUPY_SETTLEMENT}		Siedlung besetzen
+{SMT_RAZE_SETTLEMENT}		Siedlung ausrauben
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_1}	Haltet %d Regionen, inklusive:
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_2}	. Überlebt folgende Seiten:
+
+{SMT_ESPIONAGE_IN_CARTHAGE_TITLE}						Neues Testament formuliert
+{SMT_A_NEW_RELIGION_TITLE}						Das Martyrium der Sassaniden
+{SMT_ERUPTION_AT_ETNA_TITLE}				Das Martyrium des Heiligen Eusebius
+{SMT_PLAGUE_IN_MACEDONIA_TITLE}				Erstes Konzil von Konstantinopel
+{SMT_STOIC_PHILOSOPHY_TITLE}						Zerstörung des Serapeums
+{SMT_HAND_PUMP_INVENTED_TITLE}						Letzte Olympische Spiele
+{SMT_LIBRARIAN_AT_ALEXANDRIA_TITLE}							Konzil von Karthago
+{SMT_GREAT_LIBRARY_COMPLETED_TITLE}						Die Notitia Dignitatum
+{SMT_THROUGH_A_GLASS_CLEARLY_TITLE}									Die Vulgata
+{SMT_ARCHIMEDES_SCREW_TITLE}			Ketzerischer britischer Mönch verschwindet
+{SMT_GREEK_LOGIC_TITLE}	Patrick führt in Irland das Christentum ein
+{SMT_STAR_CATALOGUE_TITLE}							Konzil von Ephesus
+{SMT_PLAGUE_IN_ALEXANDRIA_TITLE}							Corpus Iuris neu gefasst
+{SMT_RITES_OF_BACCHUS_BANNED_TITLE}							Konzil von Chalkedon
+{SMT_EARTHQUAKE_IN_PONTUS_TITLE}									Primat des Papstes
+{SMT_CONCRETE_INVENTED_TITLE}								Erstes Erscheinen der Slawen
+{SMT_ERUPTION_AT_VESUVIUS_TITLE}					Heidnischer Philosoph ermordet
+
+{SMT_ESPIONAGE_IN_CARTHAGE_BODY}						Athanasius hat seine Zusammenstellung des Neuen Testaments vollendet und bringt einen Kanon von 27 Büchern heraus (die weggelassenen Bücher werden als die Apokryphen bekannt). Man flüstert, die Entscheidung darüber, was aufgenommen und was weggelassen wurde, hätte mehr mit den politischen Interessen der Kirchenführer als der wahren Doktrin zu tun.
+{SMT_A_NEW_RELIGION_BODY}							Bei einem Versuch, die Christen aus seinen armenischen Landen zu vertreiben, machte der sassanidische Herrscher viele Christen zu Märtyrern, darunter Josef von Persien und den 80-jährigen Bischof von Hnaita. Man geht davon aus, dass seine Aktionen darauf gerichtet waren, das römische Imperium und dessen Ohnmacht zu handeln zu verhöhnen. Die Männer wurden gefoltert und anschließend zu Tode geprügelt.
+{SMT_ERUPTION_AT_ETNA_BODY}				Eusebius, Bischof von Samosata in Syrien, wurde durch einen Dachziegel, der während einer kirchlichen Zeremonie nach ihm geworfen wurde, zum Märtyrer. Eusebius hatte sich 361 dem arianischen Kaiser Constantius widersetzt und sich geweigert, ihm die Aufzeichnungen der Synode von Antiochia zu übergeben, obwohl man ihm mit dem Verlust einer Hand drohte. Seine Entschlossenheit beeindruckte Constantius so sehr, dass er ihn unbeschadet gehen ließ.
+{SMT_PLAGUE_IN_MACEDONIA_BODY}				Die christliche Kirche hat in Konstantinopel ein Konzil anlässlich der Niederlage des Arianismus abgehalten, der häretischen Lehren des Arius, eines Mystikers aus dem dritten Jahrhundert. Es wurde die Zerstörung all seiner Bücher befohlen und 326 wurde der Arianismus zum Verbrechen erklärt, doch seine Lehre über das Wesen Christi fand viele Anhänger, darunter die Goten. Heute jedoch ist solch falsches Denken gründlich unterdrückt worden.
+{SMT_STOIC_PHILOSOPHY_BODY}							Bei einem Versuch, den heidnischen Einfluss in Alexandria zu beenden, hat der Bischof von Alexandria die Schätze aus den heidnischen Tempeln geraubt und in seinen Kirchen zur Schau stellen lassen. In den folgenden Wirren verbarrikadierten sich die Heiden im Serapeum, einem überaus beeindruckenden Tempel zu Ehren des heiligen Stiers Apis. Man gewährte ihnen freien Abzug, entschied sich jedoch, das Versprechen, den Tempel nicht zu beschädigen, zu ignorieren. Ein Christenmob konnte das Gebäude ungestraft Stein um Stein abreißen.
+{SMT_HAND_PUMP_INVENTED_BODY}						Die Olympischen Spiele, die seit mindestens tausend Jahren alle vier Jahre gehalten wurden, finden jetzt ein Ende, da der Kaiser die Veranstaltung zu einem heidnischen Fest erklärt hat.
+{SMT_LIBRARIAN_AT_ALEXANDRIA_BODY}							Ein kirchliches Konzil in der Stadt Karthago hat die Doktrin und den Ritus der christlichen Kirche erweitert. Nach sorgfältiger Diskussion kam man erstens zu dem Schluss, dass Gebete für die Toten eine Wirkung haben, wenn sie sicher den Himmel erreichen; zweitens, dass die tote Seele manche Sünden büßen kann, indem sie Zeit im Fegefeuer verbringt und dort ihr schlechtes Benehmen durch eine bestimmte Zeit der Qualen der Verdammnis abbezahlt.
+{SMT_GREAT_LIBRARY_COMPLETED_BODY}							Diese riesige Liste der Würdenträger, ihrer staatlichen Ämter sowie der Position und Zusammenstellung ihrer Streitkräfte ist endlich fertig. Die Notitia Dignitatum umfassen jede Stelle bei der Regierung in beiden Hälften des Reiches und geben deren jeweilige Autorität und Verantwortungsbereich wieder.
+{SMT_THROUGH_A_GLASS_CLEARLY_BODY}									Hieronymus hat seine Übersetzung des Alten und Neuen Testaments aus dem Hebräischen und Aramäischen ins Lateinische vollendet. Dieses gewaltige Werk - die versio vulgata oder Vulgata-Bibel - wird bald die katholische, oder universelle, Standardausgabe des Buches. Leider ist Hieronymus' Übersetzung aufgrund seiner schnellen Arbeitsweise bei einigen Details mit Makeln behaftet, was Fehler und Missverständnisse zur Folge hatte.
+{SMT_ARCHIMEDES_SCREW_BODY}				Pelagius, ein romano-britischer Mönch und Gelehrter - wurde möglicherweise wegen seiner häretischen Lehren ermordet. Sein Fehler war, gegen die Lehren Augustins zu argumentieren, und dabei Vorstellungen von Lebensweise und Sünde zu vertreten, die viel mit den heidnischen Ideen der Stoa gemeinsam hatten. Es war ihm außerdem bereits einmal gelungen, der Verurteilung als Ketzer zu entgehen, doch die gemeinsame Autorität von Augustinus und Hieronymus führte zu seiner Exkommunikation auf dem Konzil von Karthago. Kurz nach seiner Exkommunikation verschwand Pelagius. Ein Verbrechen wird nicht ausgeschlossen.
+{SMT_GREEK_LOGIC_BODY}		Patricius - oder Patrick - ist mit dem Evangelium Christi nach Irland zurückgekehrt. Dort war er bis zum Alter von 16 ein Sklave gewesen, dann entkam Maewyn Succat, studierte in verschiedenen Klöstern auf dem Festland und änderte seinen Namen in Patricius. Er kehrte als Ergebnis eines im Traum erhaltenen Befehls nach Irland zurück.
+{SMT_STAR_CATALOGUE_BODY}								In Epehesus ist ein kirchliches Konzil zusammengetreten und hat die Lehren des christlichen Gelehrten Nestorius als Ketzerei und Widerspruch gegen den wahren Glauben der Kirche verdammt. Nestorius hatte behauptet - etwas zu hartnäckig - Christus habe vollkommen voneinander getrennte menschliche und göttliche Eigenschaften besessen.
+{SMT_PLAGUE_IN_ALEXANDRIA_BODY}								Das gesamte römische Recht wurde auf ein gemeinsames Fundament gestellt, indem alle Gesetze, Statuten und Erlasse der letzten 1000 Jahre organisiert, kodifiziert und geordnet wurden. Die Gesetze wurden so geordnet, dass alte, außer Kraft getretene Gesetzen der zeitlichen Reihenfolge nach aufgeführt wurden, wodurch eine vernünftigere Interpretation des Gesetzes in beiden Hälften des Reichts möglich ist und sich alle Teile der römischen Welt als Teil eines größeren Ganzen fühlen.
+{SMT_RITES_OF_BACCHUS_BANNED_BODY}							Das Ökumenische Konzil ist in Chalkedon zusammengetreten und hat den Glauben der Kirche hinsichtlich der Person und des Wirkens Christi verfeinert. Es wurde beschlossen, dass nach Anhören aller Argumente, er 'wahrlich Mensch und wahrlich Gott' war. Das Konzil beschloss auch, den Status des Patriarchats von Konstantinopel zu erhöhen, das Pontus, Asien und Thrakien übergeordnet wurde.
+{SMT_EARTHQUAKE_IN_PONTUS_BODY}									Der Patriarch von Rom, der Papst, hat eine neue Doktrin erlassen, die ihm unangefochtene Autorität über die christliche Kirche gibt. Er argumentiert, seine Autorität wäre göttlich und stamme direkt von Gott, obwohl sie von Menschenhand ausgeübt würde. Außerhalb des unmittelbaren päpstlichen Hofes stieß dieser Zug auf vielfache Besorgnis.
+{SMT_CONCRETE_INVENTED_BODY}								Im hohen Norden hat sich eine neue Seite erhoben. Die Slawen sind Nomaden, die sich zu neuer Stärke vereint haben und jetzt nach Süden ziehen. Sie werden mit beinahe sicherer Wahrscheinlichkeit in den wärmeren Gefilden Europas leichte Beute suchen ... und alle, die zufällig jetzt dort wohnen, vertreiben ...
+{SMT_ERUPTION_AT_VESUVIUS_BODY}						Hypatia von Alexandria, die platonische Philosophin, Mathematikerin und Astronomin ist ermordet worden, da sie Heidin war, viel zu intelligent, und eine Frau. Ihre mutmaßliche Verwicklung in einen religiösen Streit zwischen der Kirche und den Regierungsbehörden in Alexandria genügte einer Gruppe Mönche, um sie zu Tode zu prügeln, ihre Leiche mit zerbrochenen Fliesen zu verstümmeln und sie zu verbrennen. Hypatias traurige Todesumstände kennzeichnen einen Umschwung innerhalb religiöser Anschauungen und religiöser Toleranz.
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_DOMINANT_RELIGION}		Dominante Religion:
+{SMT_BELIEFS}			Religiöse Konvertierungsstärke
+{SMT_CURRENT_COMMITMENT}	Momentane Glaubensstärke:
+{SMT_PREDICTED_COMMITMENT}	Zukünftige Glaubensstärke:
+{SMT_ABANDON_SETTLEMENT}	Siedlung verlassen und zur Horde werden
+{SMT_CANNOT_FIGHT_AT_NIGHT}	Diese Armee kann nicht in Nachtschlachten kämpfen
+{SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION}	 Für diesen Bau muss ein bestehendes religiöses Gebäude zerstört werden
+{SMT_SUPRESSES_RELIGIOUS_UNREST}	Unterdrückt religiöse Unruhen:
+{SMT_SUPRESSES_RELIGIOUS_CONVERSION}			Religiöse Konvertierung:
+{SMT_LIVING_FACTIONS}						"Lebende" Seiten
+{SMT_CANNOT_ABANDON_SETTLEMENT_UNDER_SIEGE}		Siedlung kann nur verlassen werden, wenn sie nicht belagert wird.
+{SMT_CANNOT_ABANDON_SETTLEMENT_NOT_LAST_SETTLEMENT}	Siedlung kann nur verlassen werden, wenn sie die Letzte ist.
+{SMT_CANNOT_ABANDON_SETTLEMENT_ALREADY_ABANDONED}	Euer Volk ist das ewige Weiterziehen Leid und möchte eine Zeit lang sesshaft bleiben.
+{SMT_CANNOT_ABANDON_SETTLEMENT_HORDE_UNITS}		Siedlung kann nicht verlassen werden, da die Armee nicht versammelt werden kann.
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_1}	Haltet %d Regionen, inklusive:
+{SMT_CURRENT_CONVERSTION_STRENGTH}		Momentane Konvertierungsstärke: %d
+{SMT_PREDICTED_CONVERSION_STRENGTH}		Zukünftige Konvertierungsstärke: %d
+{SMT_PASSENGERS_CANT_BE_MOVED}		Das ist das Schiff des kommandierenden Admirals. Er wird das Kommando nicht aufgeben, solange noch Passagiere an Bord sind, die nicht transferiert werden können.
+{SMT_CANNOT_OCCUPY_SACKED_SETTLEMENT}	Diese Siedlung wurde ausgeplündert und ist daher kein gutes Heim für Euer Volk.
+
+{SMT_DISBAND}						Einheit auflösen
+{SMT_DISBAND_IMPOSSIBLE_IN_BATTLE}			Einheiten können während einer Schlacht nicht aufgelöst werden.
+{SMT_DISBAND_IMPOSSIBLE_NAMED_GENERAL}		Die Generalseinheit kann nicht aufgelöst werden.
+{SMT_DISBAND_IMPOSSIBLE_WHILST_SIEGING}		Einheiten können während einer Belagerung nicht aufgelöst werden.
+{SMT_DISBAND_IMPOSSIBLE_DOCKED}			Schiffe können nicht aufgelöst werden, wenn sie nicht angedockt sind.
+{SMT_DISBAND_IMPOSSIBLE_NOT_ON_LAND}		Einheiten können nicht auf dem Wasser aufgelöst werden.
+{SMT_DISBAND_IMPOSSIBLE_WHILST_EXCHANGING}	Einheiten können nicht während eines Transfers aufgelöst werden.
+{SMT_BELIEF_BREAKDOWN}					Glaubensübersicht
+{SMT_MERCENARY_PAY_FROM_LOOTING}			An die Söldner durch Plünderung gezahlte Denare
+{SMT_CONVERSION_BUILDINGS}				Religiöse Gebäude
+{SMT_CONVERSION_CHARACTERS}				Charaktere in der Region
+{SMT_CONVERSION_REGIONS}				Benachbarte Regionen
+{SMT_CONVERSION_GAMES}					Spiele finden statt
+{SMT_BATTLE_TOO_LARGE_PERFORMANCE_WARNING}	Durch das Hinzufügen dieser Verstärkung überschreitet die Schlacht die empfohlenen Einstellungen bei der vorgefundenen Hardware, was zu einem verlangsamten Spielverlauf führen kann.
+{SMT_STATE_ICON_GOVERNOR_WRONG_RELIGION}		Religion des Statthalters unterscheidet sich von der offiziellen Region der Siedlung.
+{SMT_STATE_ICON_FACTION_LEADER_WRONG_RELIGION}	Religion des Anführers der Seite unterscheidet sich von der offiziellen Region der Siedlung.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:02:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_BI_DEFEAT_BODY}			Eurer Seite ist es nicht gelungen, den verdienten Ruhm zu erlangen, aber Ihr seid nicht der Einzige, der dieses Schicksal erleiden musste. Im Jahre 476 n. Chr. wurde der letzte römische Kaiser im Westen abgesetzt. Im Osten überlebte "Rom" als das griechisch-sprechende byzantinische Reich, bis auch dieses seinen Eindringlingen im Jahre 1453 zum Opfer fiel. Ihr könnt Eure Kampagne fortsetzen oder das Spiel noch einmal spielen.
+{SMT_DOMINANT_RELIGION}						Offizielle Religion:
+{SMT_OFFICIAL_RELIGION_FACTOR_RELIGIOUS_BUILDING}	Bestimmt durch Tempel/Schrein
+{SMT_OFFICIAL_RELIGION_FACTOR_GOVERNOR}			Bestimmt durch Statthalter
+{SMT_OFFICIAL_RELIGION_FACTOR_LEADER}			Bestimmt durch Anführer der Seite
+{SMT_OFFICIAL_RELIGION_FACTOR_WORLD}			Bestimmt durch dominante Religion der Welt
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:44:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			THERE SHOULD NOW BE NO MORE CHANGES! 
+¬*			SEE ROSS/LUCI/MIKE!
+¬*
+¬*			Only changes made after 05/08/2005 16:25:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬ Don't kill me for this Luci, the voices made me do it!
+
+{SMT_DOMINATION_VICTORY}  Euer Reich erstreckt sich von Sonnenauf- bis Sonnenuntergang, von eisigen Einöden bis hin zu heißen Wüsten! Ihr müsst es niemandem mehr beweisen, da Ihr jetzt der Meister von allem seid!

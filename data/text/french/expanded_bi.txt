@@ -1,0 +1,1494 @@
+¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
+¬ alemanni, empire_east, empire_west, empire_east_rebels, empire_west_rebels, franks, huns, sarmatians, sassanids, saxons, vandals, goths, 
+¬ white_huns, ostrogoths, romano_british, slavs, celts, slave
+
+¬ Faction Names
+{ROMANS_JULII}					Maison Julii
+{ROMANS_BRUTII}					Maison Brutii
+{ROMANS_SCIPII}					Maison Scipii
+{ROMANS_SENATE}					S.P.Q.R.
+{MACEDON}					Macédoine
+{EGYPT}					Egypte
+{SELEUCID}					Empire séleucide
+{CARTHAGE}					Carthage
+{PARTHIA}					Parthie
+{PONTUS}					Le Pont
+{GAULS}					Gaule
+{GERMANS}					Germanie
+{BRITONS}					Britannie
+{ARMENIA}					Arménie
+{DACIA}					Dacie
+{GREEK_CITIES}					Cités grecques
+{NUMIDIA}					Numidie
+{SCYTHIA}					Scythie
+{SPAIN}					Espagne
+{THRACE}							Thrace
+{SLAVE}							Rebelles
+{ALEMANNI}							Alamans
+{EMPIRE_EAST}						Romains (empire d'orient)
+{EMPIRE_WEST}						Romains (empire d'occident)
+{EMPIRE_EAST_REBELS}					Romains (rebelles de l'empire d'orient)
+{EMPIRE_WEST_REBELS}					Romains (rebelles de l'empire d'occident)
+{FRANKS}							Francs
+{HUNS}						Huns
+{SARMATIANS}						Sarmates
+{SASSANIDS}							Sassanides
+{SAXONS}							Saxons
+{VANDALS}							Vandales
+{GOTHS}							Goths
+{CELTS}							Celtes
+{WHITE_HUNS}						Huns blancs
+{OSTROGOTHS}						Ostrogoths
+{ROMANO_BRITISH}					Britto-romains
+{SLAVS}								Slaves
+{MOORS}							Maures
+{BERBERS}							Berbères
+
+¬Culture Names
+{ROMAN}					Romains
+{BARBARIAN}					Barbares
+{CARTHAGINIAN}				Carthaginois
+{GREEK}					Grecs
+{EGYPTIAN}					Egyptiens
+{EASTERN}					Orientaux
+{NOMAD}					Nomades
+{HUN}						Huns
+
+{EMT_ROMANS_JULII_SPY}					Espion romain (Julii)
+{EMT_ROMANS_JULII_ASSASSIN}					Assassin romain (Julii)
+{EMT_ROMANS_JULII_DIPLOMAT}					Diplomate romain (Julii)
+{EMT_ROMANS_JULII_ADMIRAL}					Flottille romaine (Julii)
+{EMT_ROMANS_JULII_GENERAL}					Armée romaine (Julii)
+{EMT_ROMANS_JULII_NAMED_CHARACTER}					Membre de la famille romain (Julii)
+{EMT_ROMANS_BRUTII_SPY}					Espion romain (Brutii)
+{EMT_ROMANS_BRUTII_ASSASSIN}					Assassin romain (Brutii)
+{EMT_ROMANS_BRUTII_DIPLOMAT}					Diplomate romain (Brutii)
+{EMT_ROMANS_BRUTII_ADMIRAL}					Flottille romaine (Brutii)
+{EMT_ROMANS_BRUTII_GENERAL}					Armée romaine (Brutii)
+{EMT_ROMANS_BRUTII_NAMED_CHARACTER}					Membre de la famille romain (Brutii)
+{EMT_ROMANS_SCIPII_SPY}					Espion romain (Scipii)
+{EMT_ROMANS_SCIPII_ASSASSIN}					Assassin romain (Scipii)
+{EMT_ROMANS_SCIPII_DIPLOMAT}					Diplomate romain (Scipii)
+{EMT_ROMANS_SCIPII_ADMIRAL}					Flottille romaine (Scipii)
+{EMT_ROMANS_SCIPII_GENERAL}					Armée romaine (Scipii)
+{EMT_ROMANS_SCIPII_NAMED_CHARACTER}					Membre de la famille romain (Scipii)
+{EMT_ROMANS_SENATE_SPY}					Espion romain (sénat)
+{EMT_ROMANS_SENATE_ASSASSIN}					Assassin romain (sénat)
+{EMT_ROMANS_SENATE_DIPLOMAT}					Diplomate romain (sénat)
+{EMT_ROMANS_SENATE_ADMIRAL}					Flottille romaine (sénat)
+{EMT_ROMANS_SENATE_GENERAL}					Armée romaine (sénat)
+{EMT_ROMANS_SENATE_NAMED_CHARACTER}					Membre de la famille romain (sénat)
+{EMT_MACEDON_SPY}					Espion macédonien
+{EMT_MACEDON_ASSASSIN}					Assassin macédonien
+{EMT_MACEDON_DIPLOMAT}					Diplomate macédonien
+{EMT_MACEDON_ADMIRAL}					Flottille macédonienne
+{EMT_MACEDON_GENERAL}					Armée macédonienne
+{EMT_MACEDON_NAMED_CHARACTER}					Membre de la famille macédonien
+{EMT_EGYPT_SPY}					Espion égyptien
+{EMT_EGYPT_ASSASSIN}					Assassin égyptien
+{EMT_EGYPT_DIPLOMAT}					Diplomate égyptien
+{EMT_EGYPT_ADMIRAL}					Flottille égyptienne
+{EMT_EGYPT_GENERAL}					Armée égyptienne
+{EMT_EGYPT_NAMED_CHARACTER}					Membre de la famille égyptien
+{EMT_SELEUCID_SPY}					Espion séleucide
+{EMT_SELEUCID_ASSASSIN}					Assassin séleucide
+{EMT_SELEUCID_DIPLOMAT}					Diplomate séleucide
+{EMT_SELEUCID_ADMIRAL}					Flottille séleucide
+{EMT_SELEUCID_GENERAL}					Armée séleucide
+{EMT_SELEUCID_NAMED_CHARACTER}					Membre de la famille séleucide
+{EMT_CARTHAGE_SPY}					Espion carthaginois
+{EMT_CARTHAGE_ASSASSIN}					Assassin carthaginois
+{EMT_CARTHAGE_DIPLOMAT}					Diplomate carthaginois
+{EMT_CARTHAGE_ADMIRAL}					Flottille carthaginoise
+{EMT_CARTHAGE_GENERAL}					Armée carthaginoise
+{EMT_CARTHAGE_NAMED_CHARACTER}					Membre de la famille carthaginois
+{EMT_PARTHIA_SPY}					Espion parthe
+{EMT_PARTHIA_ASSASSIN}					Assassin parthe
+{EMT_PARTHIA_DIPLOMAT}					Diplomate parthe
+{EMT_PARTHIA_ADMIRAL}					Flottille parthe
+{EMT_PARTHIA_GENERAL}					Armée parthe
+{EMT_PARTHIA_NAMED_CHARACTER}					Membre de la famille parthe
+{EMT_PONTUS_SPY}					Espion du Pont
+{EMT_PONTUS_ASSASSIN}					Assassin du Pont
+{EMT_PONTUS_DIPLOMAT}					Diplomate du Pont
+{EMT_PONTUS_ADMIRAL}					Flottille du Pont
+{EMT_PONTUS_GENERAL}					Armée du Pont
+{EMT_PONTUS_NAMED_CHARACTER}					Membre de la famille du Pont
+{EMT_GAULS_SPY}					Espion gaulois
+{EMT_GAULS_ASSASSIN}					Assassin gaulois
+{EMT_GAULS_DIPLOMAT}					Diplomate gaulois
+{EMT_GAULS_ADMIRAL}					Flottille gauloise
+{EMT_GAULS_GENERAL}					Armée gauloise
+{EMT_GAULS_NAMED_CHARACTER}					Membre de la famille gaulois
+{EMT_GERMANS_SPY}					Espion germanique
+{EMT_GERMANS_ASSASSIN}					Assassin germanique
+{EMT_GERMANS_DIPLOMAT}					Diplomate germanique
+{EMT_GERMANS_ADMIRAL}					Flottille germanique
+{EMT_GERMANS_GENERAL}					Armée germanique
+{EMT_GERMANS_NAMED_CHARACTER}					Membre de la famille germain
+{EMT_BRITONS_SPY}					Espion briton
+{EMT_BRITONS_ASSASSIN}					Assassin briton
+{EMT_BRITONS_DIPLOMAT}					Diplomate briton
+{EMT_BRITONS_ADMIRAL}					Flottille britonne
+{EMT_BRITONS_GENERAL}					Armée britonne
+{EMT_BRITONS_NAMED_CHARACTER}					Membre de la famille briton
+{EMT_ARMENIA_SPY}					Espion arménien
+{EMT_ARMENIA_ASSASSIN}					Assassin arménien
+{EMT_ARMENIA_DIPLOMAT}					Diplomate arménien
+{EMT_ARMENIA_ADMIRAL}					Flottille arménienne
+{EMT_ARMENIA_GENERAL}					Armée arménienne
+{EMT_ARMENIA_NAMED_CHARACTER}					Membre de la famille arménien
+{EMT_DACIA_SPY}					Espion dace
+{EMT_DACIA_ASSASSIN}					Assassin dace
+{EMT_DACIA_DIPLOMAT}					Diplomate dace
+{EMT_DACIA_ADMIRAL}					Flottille dace
+{EMT_DACIA_GENERAL}					Armée dace
+{EMT_DACIA_NAMED_CHARACTER}					Membre de la famille dace
+{EMT_GREEK_CITIES_SPY}					Espion grec
+{EMT_GREEK_CITIES_ASSASSIN}					Assassin grec
+{EMT_GREEK_CITIES_DIPLOMAT}					Diplomate grec
+{EMT_GREEK_CITIES_ADMIRAL}					Flottille grecque
+{EMT_GREEK_CITIES_GENERAL}					Armée grecque
+{EMT_GREEK_CITIES_NAMED_CHARACTER}					Membre de la famille grec
+{EMT_NUMIDIA_SPY}					Espion numide
+{EMT_NUMIDIA_ASSASSIN}					Assassin numide
+{EMT_NUMIDIA_DIPLOMAT}					Diplomate numide
+{EMT_NUMIDIA_ADMIRAL}					Flottille numide
+{EMT_NUMIDIA_GENERAL}					Armée numide
+{EMT_NUMIDIA_NAMED_CHARACTER}					Membre de la famille numide
+{EMT_SCYTHIA_SPY}					Espion scythe
+{EMT_SCYTHIA_ASSASSIN}					Assassin scythe
+{EMT_SCYTHIA_DIPLOMAT}					Diplomate scythe
+{EMT_SCYTHIA_ADMIRAL}					Flottille scythe
+{EMT_SCYTHIA_GENERAL}					Armée scythe
+{EMT_SCYTHIA_NAMED_CHARACTER}					Membre de la famille scythe
+{EMT_SPAIN_SPY}					Espion espagnol
+{EMT_SPAIN_ASSASSIN}					Assassin espagnol
+{EMT_SPAIN_DIPLOMAT}					Diplomate espagnol
+{EMT_SPAIN_ADMIRAL}					Flottille espagnole
+{EMT_SPAIN_GENERAL}					Armée espagnole
+{EMT_SPAIN_NAMED_CHARACTER}					Membre de la famille espagnol
+{EMT_THRACE_SPY}					Espion thrace
+{EMT_THRACE_ASSASSIN}					Assassin thrace
+{EMT_THRACE_DIPLOMAT}					Diplomate thrace
+{EMT_THRACE_ADMIRAL}					Flottille thrace
+{EMT_THRACE_GENERAL}					Armée thrace
+{EMT_THRACE_NAMED_CHARACTER}					Membre de la famille thrace
+
+{EMT_ALEMANNI_SPY}							Espion alaman
+{EMT_ALEMANNI_ASSASSIN}						Assassin alaman
+{EMT_ALEMANNI_DIPLOMAT}						Diplomate alaman
+{EMT_ALEMANNI_ADMIRAL}						Flottille alamane
+{EMT_ALEMANNI_GENERAL}						Armée alamane
+{EMT_ALEMANNI_NAMED_CHARACTER}				Membre de la famille alaman
+
+{EMT_EMPIRE_EAST_SPY}						Espion romain (empire d'orient)
+{EMT_EMPIRE_EAST_ASSASSIN}					Assassin romain (empire d'orient)
+{EMT_EMPIRE_EAST_DIPLOMAT}					Diplomate romain (empire d'orient)
+{EMT_EMPIRE_EAST_ADMIRAL}					Flottille romaine (empire d'orient)
+{EMT_EMPIRE_EAST_GENERAL}					Armée romaine (empire d'orient)
+{EMT_EMPIRE_EAST_NAMED_CHARACTER}			Membre de la famille romain (empire d'orient)
+
+{EMT_EMPIRE_WEST_SPY}						Espion romain (empire d'occident)
+{EMT_EMPIRE_WEST_ASSASSIN}					Assassin romain (empire d'occident)
+{EMT_EMPIRE_WEST_DIPLOMAT}					Diplomate romain (empire d'occident)
+{EMT_EMPIRE_WEST_ADMIRAL}					Flottille romaine (empire d'occident)
+{EMT_EMPIRE_WEST_GENERAL}					Armée romaine (empire d'occident)
+{EMT_EMPIRE_WEST_NAMED_CHARACTER}			Membre de la famille romain (empire d'occident)
+
+{EMT_EMPIRE_EAST_REBELS_SPY}						Espion romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_ASSASSIN}					Assassin romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_DIPLOMAT}					Diplomate romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_ADMIRAL}					Flottille romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_GENERAL}					Armée romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_NAMED_CHARACTER}			Membre de la famille romain (rebelles de l'empire d'orient)
+
+{EMT_EMPIRE_WEST_REBELS_SPY}						Espion romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_ASSASSIN}					Assassin romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_DIPLOMAT}					Diplomate romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_ADMIRAL}					Flottille romaine (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_GENERAL}					Armée romaine (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_NAMED_CHARACTER}			Membre de la famille romain (rebelles de l'empire d'occident)
+
+{EMT_FRANKS_SPY}							Espion franc
+{EMT_FRANKS_ASSASSIN}						Assassin franc
+{EMT_FRANKS_DIPLOMAT}						Diplomate franc
+{EMT_FRANKS_ADMIRAL}						Flottille franque
+{EMT_FRANKS_GENERAL}						Armée franque
+{EMT_FRANKS_NAMED_CHARACTER}				Membre de la famille franc
+
+{EMT_HUNS_SPY}						Espion hun
+{EMT_HUNS_ASSASSIN}					Assassin hun
+{EMT_HUNS_DIPLOMAT}					Diplomate hun
+{EMT_HUNS_ADMIRAL}					Flottille hunnique
+{EMT_HUNS_GENERAL}					Armée hunnique
+{EMT_HUNS_NAMED_CHARACTER}			Membre de la famille hun
+
+{EMT_SARMATIANS_SPY}						Espion sarmate
+{EMT_SARMATIANS_ASSASSIN}					Assassin sarmate
+{EMT_SARMATIANS_DIPLOMAT}					Diplomate sarmate
+{EMT_SARMATIANS_ADMIRAL}					Flottille sarmate
+{EMT_SARMATIANS_GENERAL}					Armée sarmate
+{EMT_SARMATIANS_NAMED_CHARACTER}			Membre de la famille sarmate
+
+{EMT_SASSANIDS_SPY}							Espion sassanide
+{EMT_SASSANIDS_ASSASSIN}					Assassin sassanide
+{EMT_SASSANIDS_DIPLOMAT}					Diplomate sassanide
+{EMT_SASSANIDS_ADMIRAL}						Flottille sassanide
+{EMT_SASSANIDS_GENERAL}						Armée sassanide
+{EMT_SASSANIDS_NAMED_CHARACTER}				Membre de la famille sassanide
+
+{EMT_SAXONS_SPY}							Espion saxon
+{EMT_SAXONS_ASSASSIN}						Assassin saxon
+{EMT_SAXONS_DIPLOMAT}						Diplomate saxon
+{EMT_SAXONS_ADMIRAL}						Flottille saxonne
+{EMT_SAXONS_GENERAL}						Armée saxonne
+{EMT_SAXONS_NAMED_CHARACTER}				Membre de la famille saxon
+
+{EMT_VANDALS_SPY}							Espion vandale
+{EMT_VANDALS_ASSASSIN}						Assassin vandale
+{EMT_VANDALS_DIPLOMAT}						Diplomate vandale
+{EMT_VANDALS_ADMIRAL}						Flottille vandale
+{EMT_VANDALS_GENERAL}						Armée vandale
+{EMT_VANDALS_NAMED_CHARACTER}				Membre de la famille vandale
+
+{EMT_GOTHS_SPY}							Espion goth
+{EMT_GOTHS_ASSASSIN}					Assassin goth
+{EMT_GOTHS_DIPLOMAT}					Diplomate goth
+{EMT_GOTHS_ADMIRAL}						Flottille goth
+{EMT_GOTHS_GENERAL}						Armée goth
+{EMT_GOTHS_NAMED_CHARACTER}				Membre de la famille goth
+
+{EMT_WHITE_HUNS_SPY}						Espion hun (Huns blancs)
+{EMT_WHITE_HUNS_ASSASSIN}					Assassin hun (Huns blancs)
+{EMT_WHITE_HUNS_DIPLOMAT}					Diplomate hun (Huns blancs)
+{EMT_WHITE_HUNS_ADMIRAL}					Flottille hunnique (Huns blancs)
+{EMT_WHITE_HUNS_GENERAL}					Armée hunnique (Huns blancs)
+{EMT_WHITE_HUNS_NAMED_CHARACTER}			Membre de la famille hun (Huns blancs)
+
+{EMT_OSTROGOTHS_SPY}						Espion ostrogoth
+{EMT_OSTROGOTHS_ASSASSIN}					Assassin ostrogoth
+{EMT_OSTROGOTHS_DIPLOMAT}					Diplomate ostrogoth
+{EMT_OSTROGOTHS_ADMIRAL}					Flottille ostrogoth
+{EMT_OSTROGOTHS_GENERAL}					Armée ostrogoth
+{EMT_OSTROGOTHS_NAMED_CHARACTER}			Membre de la famille ostrogoth
+
+{EMT_ROMANO_BRITISH_SPY}					Espion britto-romain
+{EMT_ROMANO_BRITISH_ASSASSIN}				Assassin britto-romain
+{EMT_ROMANO_BRITISH_DIPLOMAT}				Diplomate britto-romain
+{EMT_ROMANO_BRITISH_ADMIRAL}				Flottille britto-romaine
+{EMT_ROMANO_BRITISH_GENERAL}				Armée britto-romaine
+{EMT_ROMANO_BRITISH_NAMED_CHARACTER}		Membre de la famille britto-romain
+
+{EMT_SLAVS_SPY}							Espion slave
+{EMT_SLAVS_ASSASSIN}					Assassin slave
+{EMT_SLAVS_DIPLOMAT}					Diplomate slave
+{EMT_SLAVS_ADMIRAL}						Flottille slave
+{EMT_SLAVS_GENERAL}						Armée slave
+{EMT_SLAVS_NAMED_CHARACTER}				Membre de la famille slave
+
+{EMT_CELTS_SPY}							Espion celte
+{EMT_CELTS_ASSASSIN}					Assassin celte
+{EMT_CELTS_DIPLOMAT}					Diplomate celte
+{EMT_CELTS_ADMIRAL}						Flottille celte
+{EMT_CELTS_GENERAL}						Armée celte
+{EMT_CELTS_NAMED_CHARACTER}				Membre de la famille celte
+
+{EMT_BERBERS_SPY}							Espion berbère
+{EMT_BERBERS_ASSASSIN}						Assassin berbère
+{EMT_BERBERS_DIPLOMAT}						Diplomate berbère
+{EMT_BERBERS_ADMIRAL}						Flottille berbère
+{EMT_BERBERS_GENERAL}						Armée berbère
+{EMT_BERBERS_NAMED_CHARACTER}					Membre de la famille berbère
+
+{EMT_MOORS_SPY}							Espion maure
+{EMT_MOORS_ASSASSIN}						Assassin maure
+{EMT_MOORS_DIPLOMAT}						Diplomate maure
+{EMT_MOORS_ADMIRAL}						Flottille maure
+{EMT_MOORS_GENERAL}						Armée maure
+{EMT_MOORS_NAMED_CHARACTER}					Membre de la famille maure
+
+{EMT_SLAVE_SPY}						Espion rebelle
+{EMT_SLAVE_ASSASSIN}					Assassin rebelle
+{EMT_SLAVE_DIPLOMAT}					Diplomate rebelle
+{EMT_SLAVE_ADMIRAL}					Flottille rebelle
+{EMT_SLAVE_GENERAL}					Armée rebelle
+{EMT_SLAVE_NAMED_CHARACTER}					Membre de la famille rebelle
+
+{EMT_ROMANS_JULII_VILLAGE}					Village romain (Julii)
+{EMT_ROMANS_JULII_TOWN}					Bourg romain (Julii)
+{EMT_ROMANS_JULII_LARGE_TOWN}					Gros bourg romain (Julii)
+{EMT_ROMANS_JULII_CITY}					Ville romaine (Julii)
+{EMT_ROMANS_JULII_LARGE_CITY}					Grande ville romaine (Julii)
+{EMT_ROMANS_JULII_HUGE_CITY}					Métropole romaine (Julii)
+{EMT_ROMANS_BRUTII_VILLAGE}					Village romain (Brutii)
+{EMT_ROMANS_BRUTII_TOWN}					Bourg romain (Brutii)
+{EMT_ROMANS_BRUTII_LARGE_TOWN}					Gros bourg romain (Brutii)
+{EMT_ROMANS_BRUTII_CITY}					Ville romaine (Brutii)
+{EMT_ROMANS_BRUTII_LARGE_CITY}					Grande ville romaine (Brutii)
+{EMT_ROMANS_BRUTII_HUGE_CITY}					Métropole romaine (Brutii)
+{EMT_ROMANS_SCIPII_VILLAGE}					Village romain (Scipii)
+{EMT_ROMANS_SCIPII_TOWN}					Bourg romain (Scipii)
+{EMT_ROMANS_SCIPII_LARGE_TOWN}					Gros bourg romain (Scipii)
+{EMT_ROMANS_SCIPII_CITY}					Ville romaine (Scipii)
+{EMT_ROMANS_SCIPII_LARGE_CITY}					Grande ville romaine (Scipii)
+{EMT_ROMANS_SCIPII_HUGE_CITY}					Métropole romaine (Scipii)
+{EMT_ROMANS_SENATE_VILLAGE}					Village romain (sénat)
+{EMT_ROMANS_SENATE_TOWN}					Bourg romain (sénat)
+{EMT_ROMANS_SENATE_LARGE_TOWN}					Gros bourg romain (sénat)
+{EMT_ROMANS_SENATE_CITY}					Ville romaine (sénat)
+{EMT_ROMANS_SENATE_LARGE_CITY}					Grande ville romaine (sénat)
+{EMT_ROMANS_SENATE_HUGE_CITY}					Métropole romaine (sénat)
+{EMT_MACEDON_VILLAGE}					Village macédonien
+{EMT_MACEDON_TOWN}					Bourg macédonien
+{EMT_MACEDON_LARGE_TOWN}					Gros bourg macédonien
+{EMT_MACEDON_CITY}					Ville macédonienne
+{EMT_MACEDON_LARGE_CITY}					Grande ville macédonienne
+{EMT_MACEDON_HUGE_CITY}					Métropole macédonienne
+{EMT_EGYPT_VILLAGE}					Village égyptien
+{EMT_EGYPT_TOWN}					Bourg égyptien
+{EMT_EGYPT_LARGE_TOWN}					Gros bourg égyptien
+{EMT_EGYPT_CITY}					Ville égyptienne
+{EMT_EGYPT_LARGE_CITY}					Grande ville égyptienne
+{EMT_EGYPT_HUGE_CITY}					Métropole égyptienne
+{EMT_SELEUCID_VILLAGE}					Village séleucide
+{EMT_SELEUCID_TOWN}					Bourg séleucide
+{EMT_SELEUCID_LARGE_TOWN}					Gros bourg séleucide
+{EMT_SELEUCID_CITY}					Ville séleucide
+{EMT_SELEUCID_LARGE_CITY}					Grande ville séleucide
+{EMT_SELEUCID_HUGE_CITY}					Métropole séleucide
+{EMT_CARTHAGE_VILLAGE}					Village carthaginois
+{EMT_CARTHAGE_TOWN}					Bourg carthaginois
+{EMT_CARTHAGE_LARGE_TOWN}					Gros bourg carthaginois
+{EMT_CARTHAGE_CITY}					Ville carthaginoise
+{EMT_CARTHAGE_LARGE_CITY}					Grande ville carthaginoise
+{EMT_CARTHAGE_HUGE_CITY}					Métropole carthaginoise
+{EMT_PARTHIA_VILLAGE}					Village parthe
+{EMT_PARTHIA_TOWN}					Bourg parthe
+{EMT_PARTHIA_LARGE_TOWN}					Gros bourg parthe
+{EMT_PARTHIA_CITY}					Ville parthe
+{EMT_PARTHIA_LARGE_CITY}					Grande ville parthe
+{EMT_PARTHIA_HUGE_CITY}					Métropole parthe
+{EMT_PONTUS_VILLAGE}					Village du Pont
+{EMT_PONTUS_TOWN}					Bourg du Pont
+{EMT_PONTUS_LARGE_TOWN}					Gros bourg du Pont
+{EMT_PONTUS_CITY}					Ville du Pont
+{EMT_PONTUS_LARGE_CITY}					Grande ville du Pont
+{EMT_PONTUS_HUGE_CITY}					Métropole du Pont
+{EMT_GAULS_VILLAGE}					Village gaulois
+{EMT_GAULS_TOWN}					Bourg gaulois
+{EMT_GAULS_LARGE_TOWN}					Gros bourg gaulois
+{EMT_GAULS_CITY}					Ville gauloise
+{EMT_GAULS_LARGE_CITY}					Grande ville gauloise
+{EMT_GAULS_HUGE_CITY}					Métropole gauloise
+{EMT_GERMANS_VILLAGE}					Village germanique
+{EMT_GERMANS_TOWN}					Bourg germanique
+{EMT_GERMANS_LARGE_TOWN}					Gros bourg germanique
+{EMT_GERMANS_CITY}					Ville germanique
+{EMT_GERMANS_LARGE_CITY}					Grande ville germanique
+{EMT_GERMANS_HUGE_CITY}					Métropole germanique
+{EMT_BRITONS_VILLAGE}					Village briton
+{EMT_BRITONS_TOWN}					Bourg briton
+{EMT_BRITONS_LARGE_TOWN}					Gros bourg briton
+{EMT_BRITONS_CITY}					Ville britonne
+{EMT_BRITONS_LARGE_CITY}					Grande ville britonne
+{EMT_BRITONS_HUGE_CITY}					Métropole britonne
+{EMT_ARMENIA_VILLAGE}					Village arménien
+{EMT_ARMENIA_TOWN}					Bourg arménien
+{EMT_ARMENIA_LARGE_TOWN}					Gros bourg arménien
+{EMT_ARMENIA_CITY}					Ville arménienne
+{EMT_ARMENIA_LARGE_CITY}					Grande ville arménienne
+{EMT_ARMENIA_HUGE_CITY}					Métropole arménienne
+{EMT_DACIA_VILLAGE}					Village dace
+{EMT_DACIA_TOWN}					Bourg dace
+{EMT_DACIA_LARGE_TOWN}					Gros bourg dace
+{EMT_DACIA_CITY}					Ville dace
+{EMT_DACIA_LARGE_CITY}					Grande ville dace
+{EMT_DACIA_HUGE_CITY}					Métropole dace
+{EMT_GREEK_CITIES_VILLAGE}					Village grec
+{EMT_GREEK_CITIES_TOWN}					Bourg grec
+{EMT_GREEK_CITIES_LARGE_TOWN}					Gros bourg grec
+{EMT_GREEK_CITIES_CITY}					Ville grecque
+{EMT_GREEK_CITIES_LARGE_CITY}					Grande ville grecque
+{EMT_GREEK_CITIES_HUGE_CITY}					Métropole grecque
+{EMT_NUMIDIA_VILLAGE}					Village numide
+{EMT_NUMIDIA_TOWN}					Bourg numide
+{EMT_NUMIDIA_LARGE_TOWN}					Gros bourg numide
+{EMT_NUMIDIA_CITY}					Ville numide
+{EMT_NUMIDIA_LARGE_CITY}					Grande ville numide
+{EMT_NUMIDIA_HUGE_CITY}					Métropole numide
+{EMT_SCYTHIA_VILLAGE}					Village scythe
+{EMT_SCYTHIA_TOWN}					Bourg scythe
+{EMT_SCYTHIA_LARGE_TOWN}					Gros bourg scythe
+{EMT_SCYTHIA_CITY}					Ville scythe
+{EMT_SCYTHIA_LARGE_CITY}					Grande ville scythe
+{EMT_SCYTHIA_HUGE_CITY}					Métropole scythe
+{EMT_SPAIN_VILLAGE}					Village espagnol
+{EMT_SPAIN_TOWN}					Bourg espagnol
+{EMT_SPAIN_LARGE_TOWN}					Gros bourg espagnol
+{EMT_SPAIN_CITY}					Ville espagnole
+{EMT_SPAIN_LARGE_CITY}					Grande ville espagnole
+{EMT_SPAIN_HUGE_CITY}					Métropole espagnole
+{EMT_THRACE_VILLAGE}					Village thrace
+{EMT_THRACE_TOWN}					Bourg thrace
+{EMT_THRACE_LARGE_TOWN}					Gros bourg thrace
+{EMT_THRACE_CITY}					Ville thrace
+{EMT_THRACE_LARGE_CITY}					Grande ville thrace
+{EMT_THRACE_HUGE_CITY}					Métropole thrace
+{EMT_SLAVE_VILLAGE}					Village rebelle
+{EMT_SLAVE_TOWN}					Bourg rebelle
+{EMT_SLAVE_LARGE_TOWN}					Gros bourg rebelle
+{EMT_SLAVE_CITY}					Ville rebelle
+{EMT_SLAVE_LARGE_CITY}					Grande ville rebelle
+{EMT_SLAVE_HUGE_CITY}					Métropole rebelle
+{EMT_ALEMANNI_VILLAGE}		Village alaman
+{EMT_ALEMANNI_TOWN}			Bourg alaman
+{EMT_ALEMANNI_LARGE_TOWN}	Gros bourg alaman
+{EMT_ALEMANNI_CITY}			Ville alamane
+{EMT_ALEMANNI_LARGE_CITY}	Grande ville alamane
+{EMT_ALEMANNI_HUGE_CITY}	Métropole alamane
+{EMT_EMPIRE_EAST_VILLAGE}		Village romain (empire d'orient)
+{EMT_EMPIRE_EAST_TOWN}			Bourg romain (empire d'orient)
+{EMT_EMPIRE_EAST_LARGE_TOWN}	Gros bourg romain (empire d'orient)
+{EMT_EMPIRE_EAST_CITY}			Ville romaine (empire d'orient)
+{EMT_EMPIRE_EAST_LARGE_CITY}	Grande ville romaine (empire d'orient)
+{EMT_EMPIRE_EAST_HUGE_CITY}		Métropole romaine (empire d'orient)
+{EMT_EMPIRE_WEST_VILLAGE}		Village romain (empire d'occident)
+{EMT_EMPIRE_WEST_TOWN}			Bourg romain (empire d'occident)
+{EMT_EMPIRE_WEST_LARGE_TOWN}	Gros bourg romain (empire d'occident)
+{EMT_EMPIRE_WEST_CITY}			Ville romaine (empire d'occident)
+{EMT_EMPIRE_WEST_LARGE_CITY}	Grande ville romaine (empire d'occident)
+{EMT_EMPIRE_WEST_HUGE_CITY}		Métropole romaine (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_VILLAGE}		Village romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_TOWN}			Bourg romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_LARGE_TOWN}		Gros bourg romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_CITY}			Ville romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_LARGE_CITY}		Grande ville romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_EAST_REBELS_HUGE_CITY}		Métropole romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_VILLAGE}		Village romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_TOWN}			Bourg romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_LARGE_TOWN}		Gros bourg romain (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_CITY}			Ville romaine (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_LARGE_CITY}		Grande ville romaine (rebelles de l'empire d'occident)
+{EMT_EMPIRE_WEST_REBELS_HUGE_CITY}		Métropole romaine (rebelles de l'empire d'occident)
+{EMT_FRANKS_VILLAGE}		Village franc
+{EMT_FRANKS_TOWN}			Bourg franc
+{EMT_FRANKS_LARGE_TOWN}		Gros bourg franc
+{EMT_FRANKS_CITY}			Ville franque
+{EMT_FRANKS_LARGE_CITY}		Grande ville franque
+{EMT_FRANKS_HUGE_CITY}		Métropole franque
+{EMT_HUNS_VILLAGE}		Village hun
+{EMT_HUNS_TOWN}			Bourg hun
+{EMT_HUNS_LARGE_TOWN}		Gros bourg hun
+{EMT_HUNS_CITY}			Ville hunnique
+{EMT_HUNS_LARGE_CITY}		Grande ville hunnique
+{EMT_HUNS_HUGE_CITY}		Métropole hunnique
+{EMT_SARMATIANS_VILLAGE}			Village sarmate
+{EMT_SARMATIANS_TOWN}				Bourg sarmate
+{EMT_SARMATIANS_LARGE_TOWN}			Gros bourg sarmate
+{EMT_SARMATIANS_CITY}				Ville sarmate
+{EMT_SARMATIANS_LARGE_CITY}			Grande ville sarmate
+{EMT_SARMATIANS_HUGE_CITY}			Métropole sarmate
+{EMT_SASSANIDS_VILLAGE}			Village sassanide
+{EMT_SASSANIDS_TOWN}			Bourg sassanide
+{EMT_SASSANIDS_LARGE_TOWN}		Gros bourg sassanide
+{EMT_SASSANIDS_CITY}			Ville sassanide
+{EMT_SASSANIDS_LARGE_CITY}		Grande ville sassanide
+{EMT_SASSANIDS_HUGE_CITY}		Métropole sassanide
+{EMT_SAXONS_VILLAGE}			Village saxon
+{EMT_SAXONS_TOWN}				Bourg saxon
+{EMT_SAXONS_LARGE_TOWN}			Gros bourg saxon
+{EMT_SAXONS_CITY}				Ville saxonne
+{EMT_SAXONS_LARGE_CITY}			Grande ville saxonne
+{EMT_SAXONS_HUGE_CITY}			Métropole saxonne
+{EMT_VANDALS_VILLAGE}			Village vandale
+{EMT_VANDALS_TOWN}				Bourg vandale
+{EMT_VANDALS_LARGE_TOWN}		Gros bourg vandale
+{EMT_VANDALS_CITY}				Ville vandale
+{EMT_VANDALS_LARGE_CITY}		Grande ville vandale
+{EMT_VANDALS_HUGE_CITY}			Métropole vandale
+{EMT_GOTHS_VILLAGE}			Village goth
+{EMT_GOTHS_TOWN}			Bourg goth
+{EMT_GOTHS_LARGE_TOWN}		Gros bourg goth
+{EMT_GOTHS_CITY}			Ville goth
+{EMT_GOTHS_LARGE_CITY}		Grande ville goth
+{EMT_GOTHS_HUGE_CITY}		Métropole goth
+{EMT_WHITE_HUNS_VILLAGE}		Village hun (Huns blancs)
+{EMT_WHITE_HUNS_TOWN}			Bourg hun (Huns blancs)
+{EMT_WHITE_HUNS_LARGE_TOWN}		Gros bourg hun (Huns blancs)
+{EMT_WHITE_HUNS_CITY}			Ville hunnique (Huns blancs)
+{EMT_WHITE_HUNS_LARGE_CITY}		Grande ville hunnique (Huns blancs)
+{EMT_WHITE_HUNS_HUGE_CITY}		Métropole hunnique (Huns blancs)
+{EMT_OSTROGOTHS_VILLAGE}			Village ostrogoth
+{EMT_OSTROGOTHS_TOWN}				Bourg ostrogoth
+{EMT_OSTROGOTHS_LARGE_TOWN}			Gros bourg ostrogoth
+{EMT_OSTROGOTHS_CITY}				Ville ostrogoth
+{EMT_OSTROGOTHS_LARGE_CITY}			Grande ville ostrogoth
+{EMT_OSTROGOTHS_HUGE_CITY}			Métropole ostrogoth
+{EMT_ROMANO_BRITISH_VILLAGE}			Village britto-romain
+{EMT_ROMANO_BRITISH_TOWN}				Bourg britto-romain
+{EMT_ROMANO_BRITISH_LARGE_TOWN}			Gros bourg britto-romain
+{EMT_ROMANO_BRITISH_CITY}				Ville britto-romaine
+{EMT_ROMANO_BRITISH_LARGE_CITY}			Grande ville britto-romaine
+{EMT_ROMANO_BRITISH_HUGE_CITY}			Métropole britto-romaine
+{EMT_SLAVS_VILLAGE}			Village slave
+{EMT_SLAVS_TOWN}			Bourg slave
+{EMT_SLAVS_LARGE_TOWN}		Gros bourg slave
+{EMT_SLAVS_CITY}			Ville slave
+{EMT_SLAVS_LARGE_CITY}		Grande ville slave
+{EMT_SLAVS_HUGE_CITY}		Métropole slave
+{EMT_CELTS_VILLAGE}			Village celte
+{EMT_CELTS_TOWN}			Bourg celte
+{EMT_CELTS_LARGE_TOWN}		Gros bourg celte
+{EMT_CELTS_CITY}			Ville celte
+{EMT_CELTS_LARGE_CITY}		Grande ville celte
+{EMT_CELTS_HUGE_CITY}		Métropole celte
+
+{EMT_BERBERS_VILLAGE}			Village berbère
+{EMT_BERBERS_TOWN}			Bourg berbère
+{EMT_BERBERS_LARGE_TOWN}		Gros bourg berbère
+{EMT_BERBERS_CITY}			Ville berbère
+{EMT_BERBERS_LARGE_CITY}		Grande ville berbère
+{EMT_BERBERS_HUGE_CITY}		Métropole berbère
+
+{EMT_MOORS_VILLAGE}			Village maure
+{EMT_MOORS_TOWN}			Bourg maure
+{EMT_MOORS_LARGE_TOWN}		Gros bourg maure
+{EMT_MOORS_CITY}			Ville maure
+{EMT_MOORS_LARGE_CITY}		Grande ville maure
+{EMT_MOORS_HUGE_CITY}		Métropole maure
+
+{EMT_ROMANS_JULII_CAPITAL}					Capitale romaine (Julii)
+{EMT_ROMANS_BRUTII_CAPITAL}					Capitale romaine (Brutii)
+{EMT_ROMANS_SCIPII_CAPITAL}					Capitale romaine (Scipii)
+{EMT_ROMANS_SENATE_CAPITAL}					Capitale romaine (sénat)
+{EMT_MACEDON_CAPITAL}					Capitale macédonienne
+{EMT_EGYPT_CAPITAL}					Capitale égyptienne
+{EMT_SELEUCID_CAPITAL}					Capitale séleucide
+{EMT_CARTHAGE_CAPITAL}					Capitale carthaginoise
+{EMT_PARTHIA_CAPITAL}					Capitale parthe
+{EMT_PONTUS_CAPITAL}					Capitale du Pont
+{EMT_GAULS_CAPITAL}					Capitale gauloise
+{EMT_GERMANS_CAPITAL}					Capitale germanique
+{EMT_BRITONS_CAPITAL}					Capitale britonne
+{EMT_ARMENIA_CAPITAL}					Capitale arménienne
+{EMT_DACIA_CAPITAL}					Capitale dace
+{EMT_GREEK_CITIES_CAPITAL}					Capitale grecque
+{EMT_NUMIDIA_CAPITAL}					Capitale numide
+{EMT_SCYTHIA_CAPITAL}					Capitale scythe
+{EMT_SPAIN_CAPITAL}					Capitale espagnole
+{EMT_THRACE_CAPITAL}					Capitale thrace
+{EMT_ALEMANNI_CAPITAL}		Capitale alamane
+{EMT_EMPIRE_EAST_CAPITAL}		Capitale romaine (empire d'orient)
+{EMT_EMPIRE_WEST_CAPITAL}		Capitale romaine (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_CAPITAL}		Capitale romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_CAPITAL}		Capitale romaine (rebelles de l'empire d'occident)
+{EMT_FRANKS_CAPITAL}		Capitale franque
+{EMT_HUNS_CAPITAL}		Capitale hunnique
+{EMT_SARMATIANS_CAPITAL}			Capitale sarmate
+{EMT_SASSANIDS_CAPITAL}			Capitale sassanide
+{EMT_SAXONS_CAPITAL}			Capitale saxonne
+{EMT_VANDALS_CAPITAL}			Capitale vandale
+{EMT_GOTHS_CAPITAL}			Capitale goth
+{EMT_WHITE_HUNS_CAPITAL}		Capitale hunnique (Huns blancs)
+{EMT_OSTROGOTHS_CAPITAL}			Capitale ostrogoth
+{EMT_ROMANO_BRITISH_CAPITAL}			Capitale britto-romaine
+{EMT_SLAVS_CAPITAL}			Capitale slave
+{EMT_SLAVE_CAPITAL}					Capitale rebelle
+{EMT_CELTS_CAPITAL}				Capitale celte
+{EMT_BERBERS_CAPITAL}				Capitale berbère
+{EMT_MOORS_CAPITAL}				Capitale maure
+
+
+
+{EMT_ROMANS_JULII_FORT}					Fort romain (Julii)
+{EMT_ROMANS_BRUTII_FORT}					Fort romain (Brutii)
+{EMT_ROMANS_SCIPII_FORT}					Fort romain (Scipii)
+{EMT_ROMANS_SENATE_FORT}					Fort romain (sénat)
+{EMT_MACEDON_FORT}					Fort macédonien
+{EMT_EGYPT_FORT}					Fort égyptien
+{EMT_SELEUCID_FORT}					Fort séleucide
+{EMT_CARTHAGE_FORT}					Fort carthaginois
+{EMT_PARTHIA_FORT}					Fort parthe
+{EMT_PONTUS_FORT}					Fort du Pont
+{EMT_GAULS_FORT}					Fort gaulois
+{EMT_GERMANS_FORT}					Fort germanique
+{EMT_BRITONS_FORT}					Fort briton
+{EMT_ARMENIA_FORT}					Fort arménien
+{EMT_DACIA_FORT}					Fort dace
+{EMT_GREEK_CITIES_FORT}					Fort grec
+{EMT_NUMIDIA_FORT}					Fort numide
+{EMT_SCYTHIA_FORT}					Fort scythe
+{EMT_SPAIN_FORT}					Fort espagnol
+{EMT_THRACE_FORT}					Fort thrace
+{EMT_ALEMANNI_FORT}			Fort alaman
+{EMT_EMPIRE_EAST_FORT}			Fort romain (empire d'orient)
+{EMT_EMPIRE_WEST_FORT}			Fort romain (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_FORT}			Fort romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_FORT}			Fort romain (rebelles de l'empire d'occident)
+{EMT_FRANKS_FORT}			Fort franc
+{EMT_HUNS_FORT}			Fort hun
+{EMT_SARMATIANS_FORT}				Fort sarmate
+{EMT_SASSANIDS_FORT}			Fort sassanide
+{EMT_SAXONS_FORT}				Fort saxon
+{EMT_VANDALS_FORT}				Fort vandale
+{EMT_GOTHS_FORT}			Fort goth
+{EMT_WHITE_HUNS_FORT}			Fort hun (Huns blancs)
+{EMT_OSTROGOTHS_FORT}				Fort ostrogoth
+{EMT_ROMANO_BRITISH_FORT}				Fort britto-romain
+{EMT_SLAVS_FORT}			Fort slave
+{EMT_SLAVE_FORT}					Fort rebelle
+{EMT_CELTS_FORT}			Fort celte
+{EMT_BERBERS_FORT}		Fort berbère
+{EMT_MOORS_FORT}			Fort maure
+
+{EMT_ROMANS_JULII_PORT}					Port romain (Julii)
+{EMT_ROMANS_BRUTII_PORT}					Port romain (Brutii)
+{EMT_ROMANS_SCIPII_PORT}					Port romain (Scipii)
+{EMT_ROMANS_SENATE_PORT}					Port romain (sénat)
+{EMT_MACEDON_PORT}					Port macédonien
+{EMT_EGYPT_PORT}					Port égyptien
+{EMT_SELEUCID_PORT}					Port séleucide
+{EMT_CARTHAGE_PORT}					Port carthaginois
+{EMT_PARTHIA_PORT}					Port parthe
+{EMT_PONTUS_PORT}					Port du Pont
+{EMT_GAULS_PORT}					Port gaulois
+{EMT_GERMANS_PORT}					Port germanique
+{EMT_BRITONS_PORT}					Port briton
+{EMT_ARMENIA_PORT}					Port arménien
+{EMT_DACIA_PORT}					Port dace
+{EMT_GREEK_CITIES_PORT}					Port grec
+{EMT_NUMIDIA_PORT}					Port numide
+{EMT_SCYTHIA_PORT}					Port scythe
+{EMT_SPAIN_PORT}					Port espagnol
+{EMT_THRACE_PORT}					Port thrace
+{EMT_ALEMANNI_PORT}			Port alaman
+{EMT_EMPIRE_EAST_PORT}			Port romain (empire romain d'orient)
+{EMT_EMPIRE_WEST_PORT}			Port romain (empire romain d'occident)
+{EMT_EMPIRE_EAST_REBELS_PORT}			Port romain (rebelles de l'empire romain d'orient)
+{EMT_EMPIRE_WEST_REBELS_PORT}			Port romain (rebelles de l'empire romain d'occident)
+{EMT_FRANKS_PORT}			Port franc
+{EMT_HUNS_PORT}			Port hun
+{EMT_SARMATIANS_PORT}				Port sarmate
+{EMT_SASSANIDS_PORT}			Port sassanide
+{EMT_SAXONS_PORT}				Port saxon
+{EMT_VANDALS_PORT}				Port vandale
+{EMT_GOTHS_PORT}			Port goth
+{EMT_WHITE_HUNS_PORT}			Port hun (Huns blancs)
+{EMT_OSTROGOTHS_PORT}				Port ostrogoth
+{EMT_ROMANO_BRITISH_PORT}				Port britto-romain
+{EMT_SLAVS_PORT}			Port slave
+{EMT_SLAVE_PORT}					Port rebelle
+{EMT_CELTS_PORT}			Port celte
+{EMT_BERBERS_PORT}		Port berbère
+{EMT_MOORS_PORT}			Port maure
+
+{EMT_ROMANS_JULII_DOCK}					Quais romains (Julii)
+{EMT_ROMANS_BRUTII_DOCK}					Quais romains (Brutii)
+{EMT_ROMANS_SCIPII_DOCK}					Quais romains (Scipii)
+{EMT_ROMANS_SENATE_DOCK}					Quais romains (sénat)
+{EMT_MACEDON_DOCK}					Quais macédoniens
+{EMT_EGYPT_DOCK}					Quais égyptiens
+{EMT_SELEUCID_DOCK}					Quais séleucides
+{EMT_CARTHAGE_DOCK}					Quais carthaginois
+{EMT_PARTHIA_DOCK}					Quais parthes
+{EMT_PONTUS_DOCK}					Quais du Pont
+{EMT_GAULS_DOCK}					Quais gaulois
+{EMT_GERMANS_DOCK}					Quais germaniques
+{EMT_BRITONS_DOCK}					Quais britons
+{EMT_ARMENIA_DOCK}					Quais arméniens
+{EMT_DACIA_DOCK}					Quais daces
+{EMT_GREEK_CITIES_DOCK}					Quais grecs
+{EMT_NUMIDIA_DOCK}					Quais numides
+{EMT_SCYTHIA_DOCK}					Quais scythes
+{EMT_SPAIN_DOCK}					Quais espagnols
+{EMT_THRACE_DOCK}					Quais thraces
+{EMT_ALEMANNI_DOCK}				Quais alamans
+{EMT_EMPIRE_EAST_DOCK}				Quais romains (empire d'orient)
+{EMT_EMPIRE_WEST_DOCK}				Quais romains (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_DOCK}				Quais romains (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_DOCK}				Quais romains (rebelles de l'empire d'occident)
+{EMT_FRANKS_DOCK}					Quais francs
+{EMT_HUNS_DOCK}				Quais huns
+{EMT_SARMATIANS_DOCK}				Quais sarmates
+{EMT_SASSANIDS_DOCK}				Quais sassanides
+{EMT_SAXONS_DOCK}					Quais saxons
+{EMT_VANDALS_DOCK}					Quais vandales
+{EMT_GOTHS_DOCK}				Quais goths
+{EMT_WHITE_HUNS_DOCK}				Quais huns (Huns blancs)
+{EMT_OSTROGOTHS_DOCK}				Quais ostrogoths
+{EMT_ROMANO_BRITISH_DOCK}			Quais britto-romains
+{EMT_SLAVS_DOCK}					Quais slaves
+{EMT_SLAVE_DOCK}					Quais rebelles
+{EMT_CELTS_DOCK}					Quais celtes
+{EMT_BERBERS_DOCK}		Quais berbères
+{EMT_MOORS_DOCK}			Quais maures
+
+
+{EMT_ROMANS_JULII_FISHING_VILLAGE}					Village de pêcheurs romain (Julii)
+{EMT_ROMANS_BRUTII_FISHING_VILLAGE}					Village de pêcheurs romain (Brutii)
+{EMT_ROMANS_SCIPII_FISHING_VILLAGE}					Village de pêcheurs romain (Scipii)
+{EMT_ROMANS_SENATE_FISHING_VILLAGE}					Village de pêcheurs romain (sénat)
+{EMT_MACEDON_FISHING_VILLAGE}					Village de pêcheurs macédonien
+{EMT_EGYPT_FISHING_VILLAGE}					Village de pêcheurs égyptien
+{EMT_SELEUCID_FISHING_VILLAGE}					Village de pêcheurs séleucide
+{EMT_CARTHAGE_FISHING_VILLAGE}					Village de pêcheurs carthaginois
+{EMT_PARTHIA_FISHING_VILLAGE}					Village de pêcheurs parthe
+{EMT_PONTUS_FISHING_VILLAGE}					Village de pêcheurs du Pont
+{EMT_GAULS_FISHING_VILLAGE}					Village de pêcheurs gaulois
+{EMT_GERMANS_FISHING_VILLAGE}					Village de pêcheurs germanique
+{EMT_BRITONS_FISHING_VILLAGE}					Village de pêcheurs briton
+{EMT_ARMENIA_FISHING_VILLAGE}					Village de pêcheurs arménien
+{EMT_DACIA_FISHING_VILLAGE}					Village de pêcheurs dace
+{EMT_GREEK_CITIES_FISHING_VILLAGE}					Village de pêcheurs grec
+{EMT_NUMIDIA_FISHING_VILLAGE}					Village de pêcheurs numide
+{EMT_SCYTHIA_FISHING_VILLAGE}					Village de pêcheurs scythe
+{EMT_SPAIN_FISHING_VILLAGE}					Village de pêcheurs espagnol
+{EMT_THRACE_FISHING_VILLAGE}					Village de pêcheurs thrace
+{EMT_ALEMANNI_FISHING_VILLAGE}	Village de pêcheurs alaman
+{EMT_EMPIRE_EAST_FISHING_VILLAGE}	Village de pêcheurs romain (empire d'orient)
+{EMT_EMPIRE_WEST_FISHING_VILLAGE}	Village de pêcheurs romain (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_FISHING_VILLAGE}	Village de pêcheurs romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_FISHING_VILLAGE}	Village de pêcheurs romain (rebelles de l'empire d'occident)
+{EMT_FRANKS_FISHING_VILLAGE}	Village de pêcheurs franc
+{EMT_HUNS_FISHING_VILLAGE}	Village de pêcheurs hun
+{EMT_SARMATIANS_FISHING_VILLAGE}	Village de pêcheurs sarmate
+{EMT_SASSANIDS_FISHING_VILLAGE}	Village de pêcheurs sassanide
+{EMT_SAXONS_FISHING_VILLAGE}	Village de pêcheurs saxon
+{EMT_VANDALS_FISHING_VILLAGE}	Village de pêcheurs vandale
+{EMT_GOTHS_FISHING_VILLAGE}	Village de pêcheurs goth
+{EMT_WHITE_HUNS_FISHING_VILLAGE}	Village de pêcheurs hun (Huns blancs)
+{EMT_OSTROGOTHS_FISHING_VILLAGE}	Village de pêcheurs ostrogoth
+{EMT_ROMANO_BRITISH_FISHING_VILLAGE}	Village de pêcheurs britto-romain
+{EMT_SLAVS_FISHING_VILLAGE}			 Village de pêcheurs slave
+{EMT_SLAVE_FISHING_VILLAGE}					Village de pêcheurs rebelle
+{EMT_CELTS_FISHING_VILLAGE}			Village de pêcheurs celte
+{EMT_BERBERS_FISHING_VILLAGE}					Village de pêcheurs berbère
+{EMT_MOORS_FISHING_VILLAGE}			Village de pêcheurs maure
+
+{EMT_ROMANS_JULII_WATCHTOWER}					Tour de guet romaine (Julii)
+{EMT_ROMANS_BRUTII_WATCHTOWER}					Tour de guet romaine (Brutii)
+{EMT_ROMANS_SCIPII_WATCHTOWER}					Tour de guet romaine (Scipii)
+{EMT_ROMANS_SENATE_WATCHTOWER}					Tour de guet romaine (sénat)
+{EMT_MACEDON_WATCHTOWER}					Tour de guet macédonienne
+{EMT_EGYPT_WATCHTOWER}					Tour de guet égyptienne
+{EMT_SELEUCID_WATCHTOWER}					Tour de guet séleucide
+{EMT_CARTHAGE_WATCHTOWER}					Tour de guet carthaginoise
+{EMT_PARTHIA_WATCHTOWER}					Tour de guet parthe
+{EMT_PONTUS_WATCHTOWER}					Tour de guet du Pont
+{EMT_GAULS_WATCHTOWER}					Tour de guet gauloise
+{EMT_GERMANS_WATCHTOWER}					Tour de guet germanique
+{EMT_BRITONS_WATCHTOWER}					Tour de guet britonne
+{EMT_ARMENIA_WATCHTOWER}					Tour de guet arménienne
+{EMT_DACIA_WATCHTOWER}					Tour de guet dace
+{EMT_GREEK_CITIES_WATCHTOWER}					Tour de guet grecque
+{EMT_NUMIDIA_WATCHTOWER}					Tour de guet numide
+{EMT_SCYTHIA_WATCHTOWER}					Tour de guet scythe
+{EMT_SPAIN_WATCHTOWER}					Tour de guet espagnole
+{EMT_THRACE_WATCHTOWER}					Tour de guet thrace
+{EMT_ALEMANNI_WATCHTOWER}	Tour de guet alamane
+{EMT_EMPIRE_EAST_WATCHTOWER}	Tour de guet romaine (empire d'orient)
+{EMT_EMPIRE_WEST_WATCHTOWER}	Tour de guet romaine (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_WATCHTOWER}	Tour de guet romaine (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_WATCHTOWER}	Tour de guet romaine (rebelles de l'empire d'occident)
+{EMT_FRANKS_WATCHTOWER}		Tour de guet franque
+{EMT_HUNS_WATCHTOWER}		Tour de guet hunnique
+{EMT_SARMATIANS_WATCHTOWER}			Tour de guet sarmate
+{EMT_SASSANIDS_WATCHTOWER}		Tour de guet sassanide
+{EMT_SAXONS_WATCHTOWER}			Tour de guet saxonne
+{EMT_VANDALS_WATCHTOWER}		Tour de guet vandale
+{EMT_GOTHS_WATCHTOWER}		Tour de guet goth
+{EMT_WHITE_HUNS_WATCHTOWER}	Tour de guet hun (Huns blancs)
+{EMT_OSTROGOTHS_WATCHTOWER}			Tour de guet ostrogoth
+{EMT_ROMANO_BRITISH_WATCHTOWER}			Tour de guet britto-romaine
+{EMT_SLAVS_WATCHTOWER}		Tour de guet slave
+{EMT_SLAVE_WATCHTOWER}					Tour de guet rebelle
+{EMT_CELTS_WATCHTOWER}				Tour de guet celte
+{EMT_BERBERS_WATCHTOWER}			Tour de guet berbère
+{EMT_MOORS_WATCHTOWER}				Tour de guet maure
+
+
+{EMT_ROMANS_JULII_FACTION_LEADER}					Chef de faction romain (Julii)
+{EMT_ROMANS_BRUTII_FACTION_LEADER}					Chef de faction romain (Brutii)
+{EMT_ROMANS_SCIPII_FACTION_LEADER}					Chef de faction romain (Scipii)
+{EMT_ROMANS_SENATE_FACTION_LEADER}					Chef de faction romain (sénat)
+{EMT_MACEDON_FACTION_LEADER}					Chef de faction macédonien
+{EMT_EGYPT_FACTION_LEADER}					Chef de faction égyptien
+{EMT_SELEUCID_FACTION_LEADER}					Chef de faction séleucide
+{EMT_CARTHAGE_FACTION_LEADER}					Chef de faction carthaginois
+{EMT_PARTHIA_FACTION_LEADER}					Chef de faction parthe
+{EMT_PONTUS_FACTION_LEADER}					Chef de faction du Pont
+{EMT_GAULS_FACTION_LEADER}					Chef de faction gaulois
+{EMT_GERMANS_FACTION_LEADER}					Chef de faction germanique
+{EMT_BRITONS_FACTION_LEADER}					Chef de faction briton
+{EMT_ARMENIA_FACTION_LEADER}					Chef de faction arménien
+{EMT_DACIA_FACTION_LEADER}					Chef de faction dace
+{EMT_GREEK_CITIES_FACTION_LEADER}					Chef de faction grec
+{EMT_NUMIDIA_FACTION_LEADER}					Chef de faction numide
+{EMT_SCYTHIA_FACTION_LEADER}					Chef de faction scythe
+{EMT_SPAIN_FACTION_LEADER}					Chef de faction espagnol
+{EMT_THRACE_FACTION_LEADER}					Chef de faction thrace
+{EMT_ALEMANNI_FACTION_LEADER}		Chef de faction alaman
+{EMT_EMPIRE_EAST_FACTION_LEADER}	Chef de faction romain (empire d'orient)
+{EMT_EMPIRE_WEST_FACTION_LEADER}	Chef de faction romain (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_FACTION_LEADER}	Chef de faction romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_FACTION_LEADER}	Chef de faction romain (rebelles de l'empire d'occident)
+{EMT_FRANKS_FACTION_LEADER}			Chef de faction franc
+{EMT_HUNS_FACTION_LEADER}		Chef de faction hun
+{EMT_SARMATIANS_FACTION_LEADER}		Chef de faction sarmate
+{EMT_SASSANIDS_FACTION_LEADER}		Chef de faction sassanide
+{EMT_SAXONS_FACTION_LEADER}			Chef de faction saxon
+{EMT_VANDALS_FACTION_LEADER}		Chef de faction vandale
+{EMT_GOTHS_FACTION_LEADER}		Chef de faction goth
+{EMT_WHITE_HUNS_FACTION_LEADER}		Chef de faction hun (Huns blancs)
+{EMT_OSTROGOTHS_FACTION_LEADER}		Chef de faction ostrogoth
+{EMT_ROMANO_BRITISH_FACTION_LEADER}	Chef de faction britto-romain
+{EMT_SLAVS_FACTION_LEADER}			Chef de faction slave
+{EMT_SLAVE_FACTION_LEADER}					Chef de faction rebelle
+{EMT_CELTS_FACTION_LEADER}			Chef de faction celte
+{EMT_BERBERS_FACTION_LEADER}			Chef de faction berbère
+{EMT_MOORS_FACTION_LEADER}			Chef de faction maure
+
+{EMT_ROMANS_JULII_FACTION_HEIR}					Héritier de faction romain (Julii)
+{EMT_ROMANS_BRUTII_FACTION_HEIR}					Héritier de faction romain (Brutii)
+{EMT_ROMANS_SCIPII_FACTION_HEIR}					Héritier de faction romain (Scipii)
+{EMT_ROMANS_SENATE_FACTION_HEIR}					Héritier de faction romain (sénat)
+{EMT_MACEDON_FACTION_HEIR}					Héritier de faction macédonien
+{EMT_EGYPT_FACTION_HEIR}					Héritier de faction égyptien
+{EMT_SELEUCID_FACTION_HEIR}					Héritier de faction séleucide
+{EMT_CARTHAGE_FACTION_HEIR}					Héritier de faction carthaginois
+{EMT_PARTHIA_FACTION_HEIR}					Héritier de faction parthe
+{EMT_PONTUS_FACTION_HEIR}					Héritier de faction du Pont
+{EMT_GAULS_FACTION_HEIR}					Héritier de faction gaulois
+{EMT_GERMANS_FACTION_HEIR}					Héritier de faction germanique
+{EMT_BRITONS_FACTION_HEIR}					Héritier de faction briton
+{EMT_ARMENIA_FACTION_HEIR}					Héritier de faction arménien
+{EMT_DACIA_FACTION_HEIR}					Héritier de faction dace
+{EMT_GREEK_CITIES_FACTION_HEIR}					Héritier de faction grec
+{EMT_NUMIDIA_FACTION_HEIR}					Héritier de faction numide
+{EMT_SCYTHIA_FACTION_HEIR}					Héritier de faction scythe
+{EMT_SPAIN_FACTION_HEIR}					Héritier de faction espagnol
+{EMT_THRACE_FACTION_HEIR}					Héritier de faction thrace
+{EMT_ALEMANNI_FACTION_HEIR}			Héritier de faction alaman
+{EMT_EMPIRE_EAST_FACTION_HEIR}		Héritier de faction romain (empire d'orient)
+{EMT_EMPIRE_WEST_FACTION_HEIR}		Héritier de faction romain (empire d'occident)
+{EMT_EMPIRE_EAST_REBELS_FACTION_HEIR}		Héritier de faction romain (rebelles de l'empire d'orient)
+{EMT_EMPIRE_WEST_REBELS_FACTION_HEIR}		Héritier de faction romain (rebelles de l'empire d'occident)
+{EMT_FRANKS_FACTION_HEIR}			Héritier de faction franc
+{EMT_HUNS_FACTION_HEIR}		Héritier de faction hun
+{EMT_SARMATIANS_FACTION_HEIR}		Héritier de faction sarmate
+{EMT_SASSANIDS_FACTION_HEIR}		Héritier de faction sassanide
+{EMT_SAXONS_FACTION_HEIR}			Héritier de faction saxon
+{EMT_VANDALS_FACTION_HEIR}			Héritier de faction vandale
+{EMT_GOTHS_FACTION_HEIR}		Héritier de faction goth
+{EMT_WHITE_HUNS_FACTION_HEIR}		Héritier de faction hun (Huns blancs)
+{EMT_OSTROGOTHS_FACTION_HEIR}		Héritier de faction ostrogoth
+{EMT_ROMANO_BRITISH_FACTION_HEIR}	Héritier de faction britto-romain
+{EMT_SLAVS_FACTION_HEIR}			Héritier de faction slave
+{EMT_SLAVE_FACTION_HEIR}					Héritier de faction rebelle
+{EMT_CELTS_FACTION_HEIR}					Héritier de faction celte
+{EMT_BERBERS_FACTION_HEIR}					Héritier de faction berbère
+{EMT_MOORS_FACTION_HEIR}					Héritier de faction maure
+
+
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_JULII}					Vos forces attaquent une armée de la faction Julii
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_BRUTII}					Vos forces attaquent une armée de la faction Brutii
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_SCIPII}					Vos forces attaquent une armée de la faction Scipii
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANS_SENATE}					Vos forces attaquent une armée du sénat
+{EMT_YOUR_FORCES_ATTACK_ARMY_MACEDON}					Vos forces attaquent une armée de Macédoine
+{EMT_YOUR_FORCES_ATTACK_ARMY_EGYPT}					Vos forces attaquent une armée d’Egypte
+{EMT_YOUR_FORCES_ATTACK_ARMY_SELEUCID}					Vos forces attaquent une armée de l’Empire séleucide
+{EMT_YOUR_FORCES_ATTACK_ARMY_CARTHAGE}					Vos forces attaquent une armée de Carthage
+{EMT_YOUR_FORCES_ATTACK_ARMY_PARTHIA}					Vos forces attaquent une armée de Parthie
+{EMT_YOUR_FORCES_ATTACK_ARMY_PONTUS}					Vos forces attaquent une armée du Pont
+{EMT_YOUR_FORCES_ATTACK_ARMY_GAULS}					Vos forces attaquent une armée de Gaule
+{EMT_YOUR_FORCES_ATTACK_ARMY_GERMANS}					Vos forces attaquent une armée de Germanie
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRITONS}					Vos forces attaquent une armée de Britannie
+{EMT_YOUR_FORCES_ATTACK_ARMY_ARMENIA}					Vos forces attaquent une armée d’Arménie
+{EMT_YOUR_FORCES_ATTACK_ARMY_DACIA}					Vos forces attaquent une armée de Dacie
+{EMT_YOUR_FORCES_ATTACK_ARMY_GREEK_CITIES}					Vos forces attaquent une armée des cités grecques
+{EMT_YOUR_FORCES_ATTACK_ARMY_NUMIDIA}					Vos forces attaquent une armée de Numidie
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCYTHIA}					Vos forces attaquent une armée de Scythie
+{EMT_YOUR_FORCES_ATTACK_ARMY_SPAIN}					Vos forces attaquent une armée d’Espagne
+{EMT_YOUR_FORCES_ATTACK_ARMY_THRACE}					Vos forces attaquent une armée de Thrace
+{EMT_YOUR_FORCES_ATTACK_ARMY_ALEMANNI}						Vos forces attaquent une armée d'Alamans
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_EAST}					Vos forces attaquent une armée de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_WEST}					Vos forces attaquent une armée de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_EAST_REBELS}				Vos forces attaquent une armée de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACK_ARMY_EMPIRE_WEST_REBELS}				Vos forces attaquent une armée de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACK_ARMY_FRANKS}							Vos forces attaquent une armée de Francs
+{EMT_YOUR_FORCES_ATTACK_ARMY_HUNS}						Vos forces attaquent une armée de Huns
+{EMT_YOUR_FORCES_ATTACK_ARMY_SARMATIANS}						Vos forces attaquent une armée de Sarmates
+{EMT_YOUR_FORCES_ATTACK_ARMY_SASSANIDS}						Vos forces attaquent une armée de Sassanides
+{EMT_YOUR_FORCES_ATTACK_ARMY_SAXONS}							Vos forces attaquent une armée de Saxons
+{EMT_YOUR_FORCES_ATTACK_ARMY_VANDALS}						Vos forces attaquent une armée de Vandales
+{EMT_YOUR_FORCES_ATTACK_ARMY_GOTHS}						Vos forces attaquent une armée de Goths
+{EMT_YOUR_FORCES_ATTACK_ARMY_WHITE_HUNS}						Vos forces attaquent une armée de Huns blancs
+{EMT_YOUR_FORCES_ATTACK_ARMY_OSTROGOTHS}						Vos forces attaquent une armée d'Ostrogoths
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROMANO_BRITISH}					Vos forces attaquent une armée de Britto-romains
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVS}							Vos forces attaquent une armée de Slaves
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVE}						Vos forces attaquent une armée de rebelles
+{EMT_YOUR_FORCES_ATTACK_ARMY_CELTS}						Vos forces attaquent une armée de Celtes
+{EMT_YOUR_FORCES_ATTACK_ARMY_BERBERS}					Vos forces attaquent une armée de Berbères
+{EMT_YOUR_FORCES_ATTACK_ARMY_MOORS}						Vos forces attaquent une armée de Maures
+
+
+
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_JULII}					Vos forces attaquent une flottille de la faction Julii
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_BRUTII}					Vos forces attaquent une flottille de la faction Brutii
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_SCIPII}					Vos forces attaquent une flottille de la faction Scipii
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANS_SENATE}					Vos forces attaquent une flottille du sénat
+{EMT_YOUR_FORCES_ATTACK_NAVY_MACEDON}					Vos forces attaquent une flottille de Macédoine
+{EMT_YOUR_FORCES_ATTACK_NAVY_EGYPT}					Vos forces attaquent une flottille d’Egypte
+{EMT_YOUR_FORCES_ATTACK_NAVY_SELEUCID}					Vos forces attaquent une flottille de l’Empire séleucide
+{EMT_YOUR_FORCES_ATTACK_NAVY_CARTHAGE}					Vos forces attaquent une flottille de Carthage
+{EMT_YOUR_FORCES_ATTACK_NAVY_PARTHIA}					Vos forces attaquent une flottille de Parthie
+{EMT_YOUR_FORCES_ATTACK_NAVY_PONTUS}					Vos forces attaquent une flottille du Pont
+{EMT_YOUR_FORCES_ATTACK_NAVY_GAULS}					Vos forces attaquent une flottille de Gaule
+{EMT_YOUR_FORCES_ATTACK_NAVY_GERMANS}					Vos forces attaquent une flottille de Germanie
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRITONS}					Vos forces attaquent une flottille de Britannie
+{EMT_YOUR_FORCES_ATTACK_NAVY_ARMENIA}					Vos forces attaquent une flottille d’Arménie
+{EMT_YOUR_FORCES_ATTACK_NAVY_DACIA}					Vos forces attaquent une flottille de Dacie
+{EMT_YOUR_FORCES_ATTACK_NAVY_GREEK_CITIES}					Vos forces attaquent une flottille des cités grecques
+{EMT_YOUR_FORCES_ATTACK_NAVY_NUMIDIA}					Vos forces attaquent une flottille de Numidie
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCYTHIA}					Vos forces attaquent une flottille de Scythie
+{EMT_YOUR_FORCES_ATTACK_NAVY_SPAIN}					Vos forces attaquent une flottille d’Espagne
+{EMT_YOUR_FORCES_ATTACK_NAVY_THRACE}					Vos forces attaquent une flottille de Thrace
+{EMT_YOUR_FORCES_ATTACK_NAVY_ALEMANNI}				Vos forces attaquent une flottille d'Alamans
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_EAST}			Vos forces attaquent une flottille de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_WEST}			Vos forces attaquent une flottille de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_EAST_REBELS}			Vos forces attaquent une flottille de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACK_NAVY_EMPIRE_WEST_REBELS}			Vos forces attaquent une flottille de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACK_NAVY_FRANKS}				Vos forces attaquent une flottille de Francs
+{EMT_YOUR_FORCES_ATTACK_NAVY_HUNS}			Vos forces attaquent une flottille de Huns
+{EMT_YOUR_FORCES_ATTACK_NAVY_SARMATIANS}			Vos forces attaquent une flottille de Sarmates
+{EMT_YOUR_FORCES_ATTACK_NAVY_SASSANIDS}				Vos forces attaquent une flottille de Sassanides
+{EMT_YOUR_FORCES_ATTACK_NAVY_SAXONS}				Vos forces attaquent une flottille de Saxons
+{EMT_YOUR_FORCES_ATTACK_NAVY_VANDALS}				Vos forces attaquent une flottille de Vandales
+{EMT_YOUR_FORCES_ATTACK_NAVY_GOTHS}				Vos forces attaquent une flottille de Goths
+{EMT_YOUR_FORCES_ATTACK_NAVY_WHITE_HUNS}			Vos forces attaquent une flottille de Huns blancs
+{EMT_YOUR_FORCES_ATTACK_NAVY_OSTROGOTHS}			Vos forces attaquent une flottille d'Ostrogoths
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROMANO_BRITISH}		Vos forces attaquent une flottille de Britto-romains
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVS}					Vos forces attaquent une flottille de Slaves
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVE}					Vos forces attaquent une flottille de rebelles
+{EMT_YOUR_FORCES_ATTACK_NAVY_CELTS}					Vos forces attaquent une flottille de Celtes
+{EMT_YOUR_FORCES_ATTACK_NAVY_BERBERS}					Vos forces attaquent une flottille de Berbères
+{EMT_YOUR_FORCES_ATTACK_NAVY_MOORS}					Vos forces attaquent une flottille de Maures
+
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_JULII}					Vos forces attaquent par surprise une armée de la faction Julii
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_BRUTII}					Vos forces attaquent par surprise une armée de la faction Brutii
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_SCIPII}					Vos forces attaquent par surprise une armée de la faction Scipii
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANS_SENATE}					Vos forces attaquent par surprise une armée du sénat
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MACEDON}					Vos forces attaquent par surprise une armée de Macédoine
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EGYPT}					Vos forces attaquent par surprise une armée d’Egypte
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SELEUCID}					Vos forces attaquent par surprise une armée de l’Empire séleucide
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CARTHAGE}					Vos forces attaquent par surprise une armée de Carthage
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PARTHIA}					Vos forces attaquent par surprise une armée de Parthie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PONTUS}					Vos forces attaquent par surprise une armée du Pont
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GAULS}					Vos forces attaquent par surprise une armée de Gaule
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GERMANS}					Vos forces attaquent par surprise une armée de Germanie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRITONS}					Vos forces attaquent par surprise une armée de Britannie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ARMENIA}					Vos forces attaquent par surprise une armée d’Arménie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_DACIA}					Vos forces attaquent par surprise une armée de Dacie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GREEK_CITIES}					Vos forces attaquent par surprise une armée des cités grecques
+{EMT_YOUR_FORCES_AMBUSH_ARMY_NUMIDIA}					Vos forces attaquent par surprise une armée de Numidie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCYTHIA}					Vos forces attaquent par surprise une armée de Scythie
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SPAIN}					Vos forces attaquent par surprise une armée d’Espagne
+{EMT_YOUR_FORCES_AMBUSH_ARMY_THRACE}					Vos forces attaquent par surprise une armée de Thrace
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ALEMANNI}				Vos forces attaquent par surprise une armée d'Alamans
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_EAST}			Vos forces attaquent par surprise une armée de l’empire d'orient
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_WEST}			Vos forces attaquent par surprise une armée de l’empire d'occident
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_EAST_REBELS}			Vos forces attaquent par surprise une armée de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EMPIRE_WEST_REBELS}			Vos forces attaquent par surprise une armée de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_AMBUSH_ARMY_FRANKS}				Vos forces attaquent par surprise une armée de Francs
+{EMT_YOUR_FORCES_AMBUSH_ARMY_HUNS}			Vos forces attaquent par surprise une armée de Huns
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SARMATIANS}			Vos forces attaquent par surprise une armée de Sarmates
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SASSANIDS}				Vos forces attaquent par surprise une armée de Sassanides
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SAXONS}				Vos forces attaquent par surprise une armée de Saxons
+{EMT_YOUR_FORCES_AMBUSH_ARMY_VANDALS}				Vos forces attaquent par surprise une armée de Vandales
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GOTHS}				Vos forces attaquent par surprise une armée de Goths
+{EMT_YOUR_FORCES_AMBUSH_ARMY_WHITE_HUNS}			Vos forces attaquent par surprise une armée de Huns blancs
+{EMT_YOUR_FORCES_AMBUSH_ARMY_OSTROGOTHS}			Vos forces attaquent par surprise une armée d'Ostrogoths
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROMANO_BRITISH}		Vos forces attaquent par surprise une armée de Britto-romains
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVS}					Vos forces attaquent par surprise une armée de Slaves
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVE}					Vos forces attaquent par surprise une armée de rebelles
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CELTS}					Vos forces attaquent par surprise une armée de Celtes
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BERBERS}					Vos forces attaquent par surprise une armée de Berbères
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MOORS}					Vos forces attaquent par surprise une armée de Maures
+
+
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_JULII}					Vos forces sont attaquées par une armée de la faction Julii
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_BRUTII}					Vos forces sont attaquées par une armée de la faction Brutii
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_SCIPII}					Vos forces sont attaquées par une armée de la faction Scipii
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANS_SENATE}					Vos forces sont attaquées par une armée du sénat
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MACEDON}					Vos forces sont attaquées par une armée de Macédoine
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EGYPT}					Vos forces sont attaquées par une armée d’Egypte
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SELEUCID}					Vos forces sont attaquées par une armée de l’Empire séleucide
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CARTHAGE}					Vos forces sont attaquées par une armée de Carthage
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PARTHIA}					Vos forces sont attaquées par une armée de Parthie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PONTUS}					Vos forces sont attaquées par une armée du Pont
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GAULS}					Vos forces sont attaquées par une armée de Gaule
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GERMANS}					Vos forces sont attaquées par une armée de Germanie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRITONS}					Vos forces sont attaquées par une armée de Britannie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ARMENIA}					Vos forces sont attaquées par une armée d’Arménie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_DACIA}					Vos forces sont attaquées par une armée de Dacie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GREEK_CITIES}					Vos forces sont attaquées par une armée des cités grecques
+{EMT_YOUR_FORCES_ATTACKED_ARMY_NUMIDIA}					Vos forces sont attaquées par une armée de Numidie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCYTHIA}					Vos forces sont attaquées par une armée de Scythie
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SPAIN}					Vos forces sont attaquées par une armée d’Espagne
+{EMT_YOUR_FORCES_ATTACKED_ARMY_THRACE}					Vos forces sont attaquées par une armée de Thrace
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ALEMANNI}				Vos forces sont attaquées par une armée d'Alamans
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_EAST}				Vos forces sont attaquées par une armée de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_WEST}				Vos forces sont attaquées par une armée de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_EAST_REBELS}				Vos forces sont attaquées par une armée de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EMPIRE_WEST_REBELS}				Vos forces sont attaquées par une armée de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACKED_ARMY_FRANKS}					Vos forces sont attaquées par une armée de Francs
+{EMT_YOUR_FORCES_ATTACKED_ARMY_HUNS}				Vos forces sont attaquées par une armée de Huns
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SARMATIANS}				Vos forces sont attaquées par une armée de Sarmates
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SASSANIDS}				Vos forces sont attaquées par une armée de Sassanides
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SAXONS}					Vos forces sont attaquées par une armée de Saxons
+{EMT_YOUR_FORCES_ATTACKED_ARMY_VANDALS}					Vos forces sont attaquées par une armée de Vandales
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GOTHS}				Vos forces sont attaquées par une armée de Goths
+{EMT_YOUR_FORCES_ATTACKED_ARMY_WHITE_HUNS}				Vos forces sont attaquées par une armée de Huns blancs
+{EMT_YOUR_FORCES_ATTACKED_ARMY_OSTROGOTHS}				Vos forces sont attaquées par une armée d'Ostrogoths
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROMANO_BRITISH}			Vos forces sont attaquées par une armée de Britto-romains
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVS}					Vos forces sont attaquées par une armée de Slaves
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVE}					Vos forces sont attaquées par une armée de rebelles
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CELTS}					Vos forces sont attaquées par une armée de Celtes
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BERBERS}					Vos forces sont attaquées par une armée de Berbères
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MOORS}					Vos forces sont attaquées par une armée de Maures
+
+
+
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_JULII}					Vos forces sont attaquées par une flottille de la faction Julii
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_BRUTII}					Vos forces sont attaquées par une flottille de la faction Brutii
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_SCIPII}					Vos forces sont attaquées par une flottille de la faction Scipii
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANS_SENATE}					Vos forces sont attaquées par une flottille du sénat
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MACEDON}					Vos forces sont attaquées par une flottille de Macédoine
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EGYPT}					Vos forces sont attaquées par une flottille d’Egypte
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SELEUCID}					Vos forces sont attaquées par une flottille de l’Empire séleucide
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CARTHAGE}					Vos forces sont attaquées par une flottille de Carthage
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PARTHIA}					Vos forces sont attaquées par une flottille de Parthie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PONTUS}					Vos forces sont attaquées par une flottille du Pont
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GAULS}					Vos forces sont attaquées par une flottille de Gaule
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GERMANS}					Vos forces sont attaquées par une flottille de Germanie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRITONS}					Vos forces sont attaquées par une flottille de Britannie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ARMENIA}					Vos forces sont attaquées par une flottille d’Arménie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_DACIA}					Vos forces sont attaquées par une flottille de Dacie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GREEK_CITIES}					Vos forces sont attaquées par une flottille des cités grecques
+{EMT_YOUR_FORCES_ATTACKED_NAVY_NUMIDIA}					Vos forces sont attaquées par une flottille de Numidie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCYTHIA}					Vos forces sont attaquées par une flottille de Scythie
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SPAIN}					Vos forces sont attaquées par une flottille d’Espagne
+{EMT_YOUR_FORCES_ATTACKED_NAVY_THRACE}					Vos forces sont attaquées par une flottille de Thrace
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ALEMANNI}				Vos forces sont attaquées par une flottille d'Alamans
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_EAST}				Vos forces sont attaquées par une flottille de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_WEST}				Vos forces sont attaquées par une flottille de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_EAST_REBELS}				Vos forces sont attaquées par une flottille de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EMPIRE_WEST_REBELS}				Vos forces sont attaquées par une flottille de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_ATTACKED_NAVY_FRANKS}					Vos forces sont attaquées par une flottille de Francs
+{EMT_YOUR_FORCES_ATTACKED_NAVY_HUNS}				Vos forces sont attaquées par une flottille de Huns
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SARMATIANS}				Vos forces sont attaquées par une flottille de Sarmates
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SASSANIDS}				Vos forces sont attaquées par une flottille de Sassanides
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SAXONS}					Vos forces sont attaquées par une flottille de Saxons
+{EMT_YOUR_FORCES_ATTACKED_NAVY_VANDALS}					Vos forces sont attaquées par une flottille de Vandales
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GOTHS}				Vos forces sont attaquées par une flottille de Goths
+{EMT_YOUR_FORCES_ATTACKED_NAVY_WHITE_HUNS}				Vos forces sont attaquées par une flottille de Huns blancs
+{EMT_YOUR_FORCES_ATTACKED_NAVY_OSTROGOTHS}				Vos forces sont attaquées par une flottille d'Ostrogoths
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROMANO_BRITISH}			Vos forces sont attaquées par une flottille de Britto-romains
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVS}					Vos forces sont attaquées par une flottille de Slaves
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVE}					Vos forces sont attaquées par une flottille de rebelles
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CELTS}					Vos forces sont attaquées par une flottille de Celtes
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BERBERS}					Vos forces sont attaquées par une flottille de Berbères
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MOORS}					Vos forces sont attaquées par une flottille de Maures
+
+
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_JULII}					Vos forces sont attaquées par surprise par une armée de la faction Julii
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_BRUTII}					Vos forces sont attaquées par surprise par une armée de la faction Brutii
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_SCIPII}					Vos forces sont attaquées par surprise par une armée de la faction Scipii
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANS_SENATE}					Vos forces sont attaquées par surprise par une armée du sénat
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MACEDON}					Vos forces sont attaquées par surprise par une armée de Macédoine
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EGYPT}					Vos forces sont attaquées par surprise par une armée d’Egypte
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SELEUCID}					Vos forces sont attaquées par surprise par une armée de l’Empire séleucide
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CARTHAGE}					Vos forces sont attaquées par surprise par une armée de Carthage
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PARTHIA}					Vos forces sont attaquées par surprise par une armée de Parthie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PONTUS}					Vos forces sont attaquées par surprise par une armée du Pont
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GAULS}					Vos forces sont attaquées par surprise par une armée de Gaule
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GERMANS}					Vos forces sont attaquées par surprise par une armée de Germanie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRITONS}					Vos forces sont attaquées par surprise par une armée de Britannie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ARMENIA}					Vos forces sont attaquées par surprise par une armée d’Arménie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_DACIA}					Vos forces sont attaquées par surprise par une armée de Dacie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GREEK_CITIES}					Vos forces sont attaquées par surprise par une armée des cités grecques
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_NUMIDIA}					Vos forces sont attaquées par surprise par une armée de Numidie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCYTHIA}					Vos forces sont attaquées par surprise par une armée de Scythie
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SPAIN}					Vos forces sont attaquées par surprise par une armée d’Espagne
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_THRACE}					Vos forces sont attaquées par surprise par une armée de Thrace
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ALEMANNI}				Vos forces sont attaquées par surprise par une armée d'Alamans
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_EAST}				Vos forces sont attaquées par surprise par une armée de l’empire d'orient
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_WEST}				Vos forces sont attaquées par surprise par une armée de l’empire d'occident
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_EAST_REBELS}				Vos forces sont attaquées par surprise par une armée de rebelles de l’empire d'orient
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EMPIRE_WEST_REBELS}				Vos forces sont attaquées par surprise par une armée de rebelles de l’empire d'occident
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_FRANKS}					Vos forces sont attaquées par surprise par une armée de Francs
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_HUNS}				Vos forces sont attaquées par surprise par une armée de Huns
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SARMATIANS}				Vos forces sont attaquées par surprise par une armée de Sarmates
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SASSANIDS}				Vos forces sont attaquées par surprise par une armée de Sassanides
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SAXONS}					Vos forces sont attaquées par surprise par une armée de Saxons
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_VANDALS}					Vos forces sont attaquées par surprise par une armée de Vandales
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GOTHS}				Vos forces sont attaquées par surprise par une armée de Goths
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_WHITE_HUNS}				Vos forces sont attaquées par surprise par une armée de Huns blancs
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_OSTROGOTHS}				Vos forces sont attaquées par surprise par une armée d'Ostrogoths
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROMANO_BRITISH}			Vos forces sont attaquées par surprise par une armée de Britto-romains
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVS}					Vos forces sont attaquées par surprise par une armée de Slaves
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVE}					Vos forces sont attaquées par surprise par une armée de rebelles
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CELTS}					Vos forces sont attaquées par surprise par une armée de Celtes
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BERBERS}					Vos forces sont attaquées par surprise par une armée de Berbères
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MOORS}					Vos forces sont attaquées par surprise par une armée de Maures
+
+
+{EMT_VICTORY_ROMANS_JULII}		La maison Julii est victorieuse
+{EMT_VICTORY_ROMANS_BRUTII}		La maison Brutii est victorieuse
+{EMT_VICTORY_ROMANS_SCIPII}		La maison Scipii est victorieuse
+{EMT_VICTORY_ROMANS_SENATE}		Le sénat et le peuple de Rome sont victorieux
+{EMT_VICTORY_MACEDON}			Les Macédoniens sont victorieux
+{EMT_VICTORY_EGYPT}			Les Egyptiens sont victorieux
+{EMT_VICTORY_SELEUCID}			Les Séleucides sont victorieux
+{EMT_VICTORY_CARTHAGE}		Les Carthaginois sont victorieux
+{EMT_VICTORY_PARTHIA}			Les Parthes sont victorieux
+{EMT_VICTORY_PONTUS}			Le peuple du Pont est victorieux
+{EMT_VICTORY_GAULS}			Les Gaulois sont victorieux
+{EMT_VICTORY_GERMANS}			Les Germains sont victorieux
+{EMT_VICTORY_BRITONS}			Les Britons sont victorieux
+{EMT_VICTORY_ARMENIA}			Les Arméniens sont victorieux
+{EMT_VICTORY_DACIA}			Les Daces sont victorieux
+{EMT_VICTORY_GREEK_CITIES}		Les Grecs sont victorieux
+{EMT_VICTORY_NUMIDIA}			Les Numides sont victorieux
+{EMT_VICTORY_SCYTHIA}			Les Scythes sont victorieux
+{EMT_VICTORY_SPAIN}			Les Espagnols sont victorieux
+{EMT_VICTORY_THRACE}			Les Thraces sont victorieux
+{EMT_VICTORY_ALEMANNI}			Les Alamans sont victorieux
+{EMT_VICTORY_EMPIRE_EAST}		L'empire d'orient est victorieux
+{EMT_VICTORY_EMPIRE_WEST}		L'empire d'occident est victorieux
+{EMT_VICTORY_EMPIRE_EAST_REBELS}	Les rebelles de l'empire d'orient sont victorieux
+{EMT_VICTORY_EMPIRE_WEST_REBELS}	Les rebelles de l'empire d'occident sont victorieux
+{EMT_VICTORY_FRANKS}			Les Francs sont victorieux
+{EMT_VICTORY_HUNS}			Les Huns sont victorieux
+{EMT_VICTORY_SARMATIANS}		Les Sarmates sont victorieux
+{EMT_VICTORY_SASSANIDS}		Les Sassanides sont victorieux
+{EMT_VICTORY_SAXONS}			Les Saxons sont victorieux
+{EMT_VICTORY_VANDALS}			Les Vandales sont victorieux
+{EMT_VICTORY_GOTHS}			Les Goths sont victorieux
+{EMT_VICTORY_WHITE_HUNS}		Les Huns blancs sont victorieux
+{EMT_VICTORY_OSTROGOTHS}		Les Ostrogoths sont victorieux
+{EMT_VICTORY_ROMANO_BRITISH}		Les Britto-romains sont victorieux
+{EMT_VICTORY_SLAVS}			Les Slaves sont victorieux
+{EMT_VICTORY_SLAVE}			Les rebelles sont victorieux
+{EMT_VICTORY_BERBERS}			Les Berbères sont victorieux
+{EMT_VICTORY_MOORS}			Les Maures sont victorieux
+{EMT_VICTORY_CELTS}			Les Celtes sont victorieux
+
+{EMT_VICTORY_DESCR_ROMANS_BRUTII}		Rome est à présent sous la férule des Brutii ! Vous avez tenu toutes vos promesses. Les Brutii sont les maîtres de Rome, l'épée dans une main et les symboles de la loi dans l'autre ! Après des années de lutte acharnée, la victoire nous a enfin souri !
+{EMT_VICTORY_DESCR_ROMANS_JULII}		Le goût de la victoire est d'une douceur incomparable. Rome, l'Empire, le monde... vous en êtes maintenant le maître et le peuple de Rome vous adore ! Les ratiocinations du sénat n’ont pas prise sur vous. Vos ennemis sont faibles et désorganisés, comme tous les vaincus. Tous les attributs du pouvoir sont désormais vôtres... Profitez-en bien !
+{EMT_VICTORY_DESCR_ROMANS_SCIPII}		La noble famille des Scipii semble avoir été bénie des dieux ! La victoire est belle, et les Romains peuvent à présent dormir sereinement, confiants dans notre capacité à les protéger de tous nos ennemis. Les armées de Rome, ou plutôt celles des Scipii, règnent sur un empire qui s'étend d'un bout à l'autre du monde ! Victoire !
+{EMT_VICTORY_DESCR_BRITONS}			Victoire ! L'empire romain n'est plus, et nos terres s'étendent désormais d'Orient en Occident. Partout les druides célèbrent les dieux anciens ! Profitons de ce moment, levons nos chopes et buvons à pleine bouche !
+{EMT_VICTORY_DESCR_CARTHAGE}			Victoire ! Le monde vous appartient ! Grâce à vous, nulle autre puissance ne peut rivaliser avec la grandeur de Carthage ! Aujourd'hui est un jour de fête, un jour pour décider du sort du monde sous la férule des seigneurs carthaginois !
+{EMT_VICTORY_DESCR_EGYPT}			Victoire ! Vos ennemis ne sont plus qu'ombre et poussière, et les vents du désert ne portent plus que les échos de leur gloire passée. Votre nom sera repris par vos descendants en honneur de la gloire que votre règne a fait rejaillir sur le peuple égyptien !
+{EMT_VICTORY_DESCR_GAULS}			Sous votre commandement, les courageux Gaulois ont remporté la victoire ! L'heure est aux célébrations. La grandeur de l'empire gaulois dont vous êtes à présent le chef est sans rivale. Les autres peuples craignent votre puissance, et ce à juste titre !
+{EMT_VICTORY_DESCR_GERMANS}			Vous avez mené le brave peuple germain hors des forêts sombres vers les plaines ensoleillées de la victoire ! Vous tenez le monde entre vos mains, et les autres peuples tremblent devant la puissance de vos armées. Cette victoire est une revanche pour tous les peuples dits "barbares" ! 
+{EMT_VICTORY_DESCR_GREEK_CITIES}		Les bienfaits de la civilisation sont désormais universels ! Les Grecs gouvernent avec sagesse et considération sur leurs terres. Quelle victoire ! Une victoire due à votre règne intelligent et avisé ! Votre charisme rivalise avec celui des dieux de l'Olympe !
+{EMT_VICTORY_DESCR_PARTHIA}			La Parthie est désormais passée du statut de petit royaume dédaigné par les autres nations à celui de véritable empire. Vos talents de stratège ont mené la Parthie à la victoire, et votre bannière flotte aujourd'hui sur de nombreuses villes. Le monde est à présent le terrain de jeu de l'Empire parthe !
+{EMT_VICTORY_DESCR_SELEUCID}			La puissance des Séleucides est à nulle autre pareille et leur empire invincible ! Vos talents de stratège et de meneur d'hommes ont conduit les Séleucides à la victoire, et des statues à votre effigie sont érigées dans toutes les villes ! Les dieux eux-mêmes envient votre gloire !
+
+{EMT_VICTORY_DESCR_ALEMANNI}			Vous avez triomphé ! Des rivages de la mer jusqu'aux plus hautes cimes, le dialecte germanique s'est substitué au latin comme la langue du pouvoir. Vous avez façonné le monde à votre propre image. Désormais, les peuples inférieurs se prosternent aux pieds d'un Alaman !
+{EMT_VICTORY_DESCR_EMPIRE_EAST}		L'empire romain a renoué avec la gloire. Du littoral aux plus hautes montagnes, Dieu a donné la victoire à vos légions et contenu l'infâme menace barbare. Le fer, le courage et la vertu de Rome ont triomphé de l'adversité ! 
+{EMT_VICTORY_DESCR_EMPIRE_WEST}		L'empire romain triomphe ! Vous vous êtes montré digne de César lui-même, et vos légions, plus puissantes que jamais, garantissent dorénavant l'unité de votre peuple. Les barbares ont été repoussés ; une nouvelle ère s'ouvre à vous, maître du monde connu !
+{EMT_VICTORY_DESCR_EMPIRE_EAST_REBELS}	L'ordre établi est renversé : c'est l'heure de votre triomphe ! Sous votre direction éclairée, un nouvel empire romain naît des cendres de l'ancien et pose les jalons d'une ère de prospérité et de paix. 
+{EMT_VICTORY_DESCR_EMPIRE_WEST_REBELS}	Rome est tombée et de ses vestiges surgira une nouvelle Rome, plus somptueuse et dévouée à la gloire de Mars que jamais ! Des quatre coins de l'empire, tous saluent à sa juste mesure votre triomphe, qui sonne le renouveau de la majesté romaine et la naissance d'une nouvelle lignée de Césars !
+{EMT_VICTORY_DESCR_FRANKS}			Vous avez remporté une glorieuse victoire au nom de votre peuple ! Le monde se soumet à la domination légitime des Francs. Nul nomade pouilleux, nul Romain parfumé n'ose prendre parti contre vous, et encore moins les armes !
+{EMT_VICTORY_DESCR_HUNS}			Une épée, un bon cheval et les steppes à perte de vue... Que faut-il de plus à un véritable guerrier ? La victoire, voyons ! Aujourd'hui est un jour faste : vos ennemis ont mordu la poussière, leurs corps disloqués par les charges sauvages de vos cavaliers huns. C'est un jour à la gloire des nouveaux maîtres des steppes et du monde !
+{EMT_VICTORY_DESCR_SARMATIANS}		Une épée, un bon cheval et la compagnie de valeureux guerriers sarmates sont les meilleurs atouts dont on puisse rêver. Ne vous ont-ils pas mené à la victoire ? Vous avez triomphé. 
+{EMT_VICTORY_DESCR_SASSANIDS}			Assis sur le trône du paon, comme vous en avez gagné le droit, vous avez désormais tout loisir de savourer votre triomphe et contempler l'immensité de votre empire. Vos ennemis ont été asservis et vos sujets terrorisés contraints à la soumission. La victoire est à vous !
+{EMT_VICTORY_DESCR_SAXONS}			Vous triomphez ! La domination saxonne s'exerce sans partage, sur la terre comme sur la mer. Les bardes chanteront vos hauts faits pour les siècles à venir !
+{EMT_VICTORY_DESCR_VANDALS}			Félicitations ! Vous avez mené les Vandales, féroces et destructeurs, à la victoire finale. Désormais, les peuples conquis n'ont d'autre choix que de ramper à vos pieds, et implorer votre pitié !
+{EMT_VICTORY_DESCR_GOTHS}			Magnifique ! Sous votre commandement, les Goths ont fait plier les peuples inférieurs. Ni les Romains, jadis si puissants, ni les redoutables cavaliers des steppes orientales n'ont su l'empêcher. Savourez bien ce moment, et que jamais vous n'oubliiez le goût de la victoire !
+{EMT_VICTORY_DESCR_WHITE_HUNS}		Une épée, un bon cheval et les steppes à perte de vue... Que faut-il de plus à un véritable guerrier ? La victoire, voyons ! Aujourd'hui est un jour faste : vos ennemis ont mordu la poussière, leurs corps disloqués par les charges sauvages de vos Huns blancs. 
+{EMT_VICTORY_DESCR_OSTROGOTHS}		Magnifique ! Vous avez mené les Ostrogoths à la victoire finale sur tous les peuples inférieurs, y compris vos cousins de l'ouest, les Wisigoths ! Qui d'autre aurait pu en faire autant ? Le goût de la victoire est d'une douceur incomparable, savourez donc ce moment de triomphe !
+{EMT_VICTORY_DESCR_ROMANO_BRITISH}		Vous triomphez ! Vous avez durement ressenti le retrait des légions romaines de Britannie, mais un tel revers de fortune a renforcé votre détermination ! Vos efforts ont consacré le renouveau de Rome, et votre victoire !
+{EMT_VICTORY_DESCR_SLAVS}			Vous avez gagné ! Vous avez écrasé vos ennemis ; les Slaves règnent à présent en maîtres sur le monde et c'est à vous qu'ils le doivent. La patrie slave survivra aux siècles, voire à l'éternité !
+{EMT_VICTORY_DESCR_SLAVE}			La rébellion et l'insurrection ont porté leurs fruits ! Un rebelle, s'il est victorieux, accède à la dignité des rois. Vous laisserez l'empreinte de votre victoire dans les livres d'histoire : l'ordre ancien y sera jugé à l'aune de vos exploits immortels !
+{EMT_VICTORY_DESCR_BERBERS}			Vous avez triomphé ! Vos guerriers ont franchi les sables du désert jusqu'aux sombres forêts d'Europe, et brisé tous ceux qui se dressaient sur leur passage ! A présent, nul n'osera défier la puissance des armées berbères !
+{EMT_VICTORY_DESCR_MOORS}			Vous avez triomphé ! Vos guerriers ont franchi les sables du désert jusqu'aux sombres forêts d'Europe, et brisé tous ceux qui se dressaient sur leur passage ! A présent, nul n'osera défier la puissance des armées maures !
+{EMT_VICTORY_DESCR_CELTS}			Vous êtes victorieux ! Sous votre commandement inspiré, les Celtes ont arraché leurs terres ancestrales des mains de générations d'envahisseurs et d'intrus. Les cruels Romains eux-mêmes rendent désormais hommage à un seigneur celte !
+
+{EMT_DEFEATED_BY_ROMANS_BRUTII}		La victoire vous a échappé, et ce sont maintenant les cruels Brutii qui dirigent le monde d'une poigne de fer. Le règne des Brutii sera sombre et violent !
+{EMT_DEFEATED_BY_ROMANS_JULII}			La victoire vous a glissé entre les doigts, et avec elle votre chance de diriger le monde. Les Julii, amis de la plèbe, règnent à présent sur Rome. L'Empire romain leur appartient... et il sera difficile de le leur reprendre !
+{EMT_DEFEATED_BY_ROMANS_SCIPII}		Les dieux n'ont pas récompensé vos efforts et la victoire est désormais hors de portée. Les Scipii, en revanche, sont bien les favoris des dieux : ils règnent à présent sans partage sur Rome !
+{EMT_DEFEATED_BY_BRITONS}			Ces Britons peinturlurés et leurs druides aux mains rouges de sang ont triomphé. Pour vous qui avez savouré le vin de la victoire, les cendres de la défaite n'en sont que plus amères !
+{EMT_DEFEATED_BY_CARTHAGE}			Il faut se rendre à l'évidence : vous êtes vaincu ! Les Carthaginois et leurs mercenaires règnent désormais en maîtres ! Leurs immondes rites infanticides seront bientôt monnaie courante... Une ère de peur s'annonce. 
+{EMT_DEFEATED_BY_EGYPT}			Pharaon et ses esclaves vous ont arraché la victoire des mains. Ce jour est bien sombre... le monde est désormais sous la coupe d'une nation de fanatiques obsédés par la mort et d'adorateurs de cadavres !
+{EMT_DEFEATED_BY_GAULS}			La victoire est hors de portée. Les moustaches et les braies gauloises seront désormais la norme ! Le destin du monde entre les mains d'un peuple si répugnant... quelle ironie !
+{EMT_DEFEATED_BY_GERMANS}			Tant d’efforts pour être vaincu... Les dieux ont manifestement perdu tout intérêt pour vous. Les Germains, ces fous à demi sauvages, ont vaincu tous leurs adversaires ! Quel terrible jour !
+{EMT_DEFEATED_BY_GREEK_CITIES}			Est-ce possible ? Les Grecs sont victorieux ! Il est aberrant que ces bellâtres parfumés puissent prétendre à l’hégémonie. Mais bien que vaincus, nous n'abandonnerons pas le combat...
+{EMT_DEFEATED_BY_PARTHIA}			Les Parthes se sont emparés de la victoire alors même que vous pensiez la tenir entre vos mains. C'est une journée bien sombre... dire que le monde sera gouverné par un peuple dont la plus grande gloire est d'aimer les chevaux !
+{EMT_DEFEATED_BY_SELEUCID}			L'Empire séleucide a triomphé ; la victoire leur est désormais acquise. Tous vos plans se sont révélés vains... mais les peuples libres supporteront-ils longtemps le joug de l'oppresseur séleucide ?
+
+{EMT_DEFEATED_BY_ALEMANNI}			Vous avez été vaincu par les Alamans, peuple redoutable s'il en est. Seront-ils d'aussi efficaces dirigeants qu'ils furent de valeureux adversaires ?
+{EMT_DEFEATED_BY_EMPIRE_EAST}			L'empire d'orient vous a infligé une cinglante défaite. Ils se réclament de l'héritage de Rome, mais ne tiennent-ils pas davantage des Grecs et de leurs manières risibles ? Et dire qu'ils vous ont vaincu...
+{EMT_DEFEATED_BY_EMPIRE_WEST}			La victoire vous a tourné le dos. Force et courage, les deux mamelles des vertus romaines, ont sonné le glas de vos ambitions. La faiblesse de Rome, affichée durant des siècles, n'était à l'évidence que poudre aux yeux : vous avez sous-estimé leur puissance et ils en ont profité !
+{EMT_DEFEATED_BY_EMPIRE_EAST_REBELS}		Rome a triomphé. Mais les illustres César et Trajan désavoueraient cette Rome victorieuse : c'est une bande de vermines rebelles qui vous a vaincu ! Cette nouvelle Rome est une Rome à l'inspiration orientale, une Rome tombée sous la férule des Grecs rebelles et de leurs complices !
+{EMT_DEFEATED_BY_EMPIRE_WEST_REBELS}		L'ordre naturel du monde a été bouleversé et une clique de rebelles, truffée de criminels et de marginaux, vous a arraché la victoire. Cette nouvelle Rome s'est proclamée capitale du monde, mais ses maîtres légitimes gisent dans leur tombe !
+{EMT_DEFEATED_BY_FRANKS}			Vous avez été vaincu par les Francs. Nul ne se risquera plus à prendre les armes contre ces barbares et leurs haches, pas même les cavaliers des steppes ni les Romains à la puissance révolue !
+{EMT_DEFEATED_BY_HUNS}				Les seigneurs les plus sauvages et cruels paraissent bien tendres comparés aux Huns ! Vos armées ont été défaites par ces féroces créatures à demi humaines originaires des steppes lointaines. C'est la fin de tout ! Les ténèbres se sont abattues sur le monde !
+{EMT_DEFEATED_BY_SARMATIANS}			Les valeureux cavaliers sarmates sont venus à bout de vos armées. Ce furent d'honorables adversaires ; se révéleront-ils des conquérants magnanimes ? 
+{EMT_DEFEATED_BY_SASSANIDS}			La puissance du grand empire perse a scellé votre sort. Depuis leurs riches palais d'orient, les Sassanides tirent une légitime fierté de leurs conquêtes, tandis que votre peuple tremble sous la botte de leurs nouveaux maîtres...
+{EMT_DEFEATED_BY_SAXONS}			La violence des Saxons vous a submergé. Leurs bardes se répandront en chansons interminables dédiées à leur gloire... Une souffrance de plus infligée aux peuples soumis à leur tyrannie !
+{EMT_DEFEATED_BY_VANDALS}			Vous avez été balayé par les Vandales, un peuple à la violence si aveugle que leur nom est devenu synonyme de destruction gratuite. Avec de tels maîtres, votre peuple a tout à craindre de l'avenir !
+{EMT_DEFEATED_BY_GOTHS}			Réputés pour leur cruauté systématique, à la guerre comme en temps de paix, les infâmes Goths ont rabattu vos velléités de suprématie. Votre peuple n'a maintenant que ses yeux pour pleurer la perte de sa liberté...
+{EMT_DEFEATED_BY_WHITE_HUNS}			La sauvagerie et la cruauté seront le lot commun des peuples tombés sous le joug des Huns blancs ! Ils vous ont vaincu et c'est la fin de tout ! Le monde bascule dans l'obscurité ! Les gémissements des femmes retentissent alors que vous sombrez dans l'oubli...
+{EMT_DEFEATED_BY_OSTROGOTHS}			Vos armées ont été humiliées par les Ostrogoths, des adversaires aussi sournois que terribles. Votre peuple n'a maintenant que ses yeux pour pleurer la perte de sa liberté...
+{EMT_DEFEATED_BY_ROMANO_BRITISH}		Vous avez été vaincu par ces Britto-romains qui avaient refusé, avec l'obstination commune à tous les peuples de Britannie, de se résigner au départ des légions romaines. Aujourd'hui, la chance leur est donnée de rebâtir Rome à leur image !
+{EMT_DEFEATED_BY_SLAVS}			Les cruels Slaves vous ont mis à genoux. Vos terres ont été confisquées, vos gens s'épuisent dans les champs, et vos enfants grandiront sous la tyrannie slave !
+{EMT_DEFEATED_BY_SLAVE}			L'ordre naturel et légitime a été mis à mal ! Vous avez été renversé par une clique de rebelles, d'esclaves et d'autres pouilleux qui se font dorénavant appeler maîtres !
+{EMT_DEFEATED_BY_BERBERS}			Les Berbères vous ont vaincu ! Vos gens sont ravalés au rang de vulgaires serviteurs d'une bande de chameliers poussiéreux et de voleurs de chèvres. C'est un jour qui restera marqué par le désespoir et l'infamie ! 
+{EMT_DEFEATED_BY_MOORS}			Les Maures vous ont vaincu ! Vos gens sont ravalés au rang de vulgaires serviteurs d'une bande de chameliers poussiéreux et de voleurs de chèvres. C'est un jour qui restera marqué par le désespoir et l'infamie !
+{EMT_DEFEATED_BY_CELTS}			Vous avez été défait par les Celtes, cet ancien peuple qui a reconquis les territoires qu'ils estimaient leur appartenir de plein droit. Jadis, les Celtes étendaient ainsi leur empire sur la majeure partie de l'Europe. Aujourd'hui, ils ont renoué avec leur gloire passée, effaçant du même coup ce qui n'aura été qu'un intermède romain...
+
+{EMT_SHORT_VICTORY_ROMANS_BRUTII}		Quelle victoire ! Vos ancêtres Brutii peuvent être fiers de vous. Les immondes Macédoniens et les Grecs parfumés ne sont plus, et seules quelques ruines témoignent encore de leur gloire passée ! Félicitations ! Vous avez mené votre famille à la gloire comme un vrai Romain !
+{EMT_SHORT_VICTORY_ROMANS_JULII}		Votre victoire est digne d'un vrai Romain. Les Julii apprécient pleinement le spectacle de la déchéance des barbares gaulois, vaincus et réduits en esclavage ! Un tel triomphe mérite célébration !
+{EMT_SHORT_VICTORY_ROMANS_SCIPII}		Votre victoire est belle et noble ! Vos ennemis d'Afrique, les perfides Numidiens et les Carthaginois ne seront que des parenthèses dans les livres d'histoires qui chanteront vos louanges !
+{EMT_SHORT_VICTORY_BRITONS}			Votre victoire mérite célébration : commençons donc par boire un peu, avant de boire beaucoup ! Les Gaulois puants sont vaincus, et votre armée est plus forte que jamais ! Que la fête commence !
+{EMT_SHORT_VICTORY_CARTHAGE}			Comme la victoire est douce ! Les Scipii, ces menteurs, ces manipulateurs, sont morts et enterrés, et ces barbares d'Espagnols ne vous poseront plus de problèmes. Vous pouvez savourer votre triomphe.
+{EMT_SHORT_VICTORY_EGYPT}			Tout Pharaon serait heureux de remporter une telle victoire. La menace séleucide n'est plus, et le territoire égyptien est vaste comme jamais. C'est un jour glorieux : un jour de victoire sous votre règne !
+{EMT_SHORT_VICTORY_GAULS}			Les Julii et leurs alliés au sénat de Rome ont été renversés. Les guerriers gaulois règnent sur une grande partie du monde connu, un exploit dû à votre sens tactique et à votre charisme. Célébrons donc votre succès !
+{EMT_SHORT_VICTORY_GERMANS}			Grâce à vous, la victoire a souri aux Germains ! Les brutes daces et les cavaliers fanatiques de Scythie sont morts ou réduits en esclavage, et les Germains ont conquis de nouvelles terres !
+{EMT_SHORT_VICTORY_GREEK_CITIES}		Les dieux vous ont souri, et la victoire vous appartient ! Les Macédoniens et les Thraces ont mordu la poussière, et l'heure est à la fête pour les braves citoyens de Grèce !
+{EMT_SHORT_VICTORY_PARTHIA}			Victoire ! Les cavaliers parthes règnent sur un vaste territoire grâce à votre commandement déterminé. Mieux encore, les Séleucides et les Arméniens ont été exterminés ou réduits en esclavage !
+{EMT_SHORT_VICTORY_SELEUCID}			Aujourd'hui est un jour de fête pour l'Empire séleucide, grâce à vos qualités de meneur d'hommes ! Mieux encore, les Egyptiens, ces iniques adorateurs de la mort, ont rejoint leurs ancêtres... Grand bien leur fasse !
+
+
+{CHRISTIAN_LABEL}			Christianisme
+{CHRISTIAN_ORDER}			Le Christianisme apaise les esprits dans cette communauté
+{CHRISTIAN_UNREST}			Le Christianisme cause des troubles dans cette communauté
+{ZOROASTRIAN_LABEL}			Zoroastrisme
+{ZOROASTRIAN_ORDER}			Le zoroastrisme apaise les esprits dans cette communauté
+{ZOROASTRIAN_UNREST}			Le zoroastrisme cause des troubles dans cette communauté
+{PAGAN_LABEL}				Paganisme
+{PAGAN_ORDER}				Le paganisme apaise les esprits dans cette communauté
+{PAGAN_UNREST}				Le paganisme cause des troubles dans cette communauté
+
+¬ Faction Descriptions - Label should be the faction's labes in caps appended with _DESCR
+
+{ROMANS_JULII_DESCR}			Famille romaine Julii\nInfanterie légionnaire et troupes auxiliaires, cavalerie réduite
+{ROMANS_BRUTII_DESCR}			Famille romaine Brutii\nInfanterie légionnaire et troupes auxiliaires, cavalerie réduite
+{ROMANS_SCIPII_DESCR}			Famille romaine Scipii\nInfanterie légionnaire et troupes auxiliaires, cavalerie réduite
+{ROMANS_SENATE_DESCR}			Sénat et peuple de Rome\nInfanterie légionnaire et troupes auxiliaires, cavalerie réduite
+{MACEDON_DESCR}			Macédoniens\nHoplites et phalanges de piquiers longs ainsi qu’une cavalerie puissante
+{EGYPT_DESCR}				Egyptiens\nBons piquiers et archers à pied ainsi qu’une cavalerie rapide et des chars
+{SELEUCID_DESCR}			Séleucides\nSélection de phalanges puissantes, cavalerie lourde de cataphractes et éléphants
+{CARTHAGE_DESCR}			Carthaginois\nSélection polyvalente de tous les types de troupes, ainsi que des éléphants puissants !
+{PARTHIA_DESCR}			Parthes\nCavalerie, y compris archers montés et puissants cataphractes en armure ; infanterie faible
+{PONTUS_DESCR}				Peuple du Pont\nArmée polyvalente d’infanterie légère, phalanges, cavalerie lourde et chars
+{GAULS_DESCR}				Gaulois\nInfanterie de combat rapproché puissante, mais cavalerie très réduite
+{GERMANS_DESCR}			Germains\nHacheurs et infanterie spécialisée ainsi qu’une section réduite de cavalerie
+{BRITONS_DESCR}			Britons\nInfanterie de fanatiques barbares et chars rapides
+{ARMENIA_DESCR}			Arméniens\nArchers montés comprenant des archers cataphractes en armure, mais peu de troupes d’infanterie
+{DACIA_DESCR}				Daces\nInfanterie barbare de combat rapproché comprenant des faucheurs, mais cavalerie très réduite
+{GREEK_CITIES_DESCR}			Grecs\nNombreuses phalanges de hoplites (dont Spartes) et tireurs, mais choix limité en cavalerie
+{NUMIDIA_DESCR}			Numides\nInfanterie légère de désert et bonne cavalerie comprenant des experts chameliers
+{SCYTHIA_DESCR}			Scythes\nCavaliers et archers d’élite, mais infanterie de mêlée presque inexistante
+{SPAIN_DESCR}				Espagnols\nBon équilibre de barbares fanatiques et d’infanterie organisée avec quelques unités de cavalerie en soutien
+{THRACE_DESCR}				Thraces\nBonne sélection de phalanges de hoplites et de spécialistes barbares du combat rapproché, mais cavalerie réduite
+{SLAVE_DESCR}				Esclaves et rebelles\nGladiateurs et paysans bon marché (mais faibles)
+
+{ALEMANNI_DESCR}			Alamans\nBon équilibre de troupes de type barbare, sans compter les guerriers héroïques !
+{EMPIRE_EAST_DESCR}			Empire romain d'orient\nTroupes puissantes et bien équilibrées, peu d'unités médiocres
+{EMPIRE_WEST_DESCR}			Empire romain d'occident\nBon équilibre de troupes d'infanterie, mais cavalerie plutôt réduite
+{EMPIRE_EAST_REBELS_DESCR}		Rebelles de l'empire romain d'orient\nTroupes puissantes et bien équilibrées, peu d'unités médiocres
+{EMPIRE_WEST_REBELS_DESCR}		Rebelles de l'empire romain d'occident\nBon équilibre de troupes d'infanterie, mais cavalerie plutôt réduite
+{FRANKS_DESCR}				Tribus franques germaniques\nInfanterie et tireurs de bon niveau, mais sélection de cavaliers réduite
+{HUNS_DESCR}				Huns\nArchers et cavaliers hors pairs, mais infanterie de soutien réduite
+{SARMATIANS_DESCR}			Sarmates\nCavaliers et archers montés émérites, bonne infanterie de soutien
+{SASSANIDS_DESCR}			Empire sassanide\nTroupes parfaitement équilibrées, comprenant entre autres des cataphractes et des éléphants
+{SAXONS_DESCR}				Saxons\nInfanterie experte au combat rapproché, très faible palette de cavaliers
+{VANDALS_DESCR}			Vandales\nBon éventail d'unités de tous types, mais une faiblesse notable dans l'équipement de siège
+{GOTHS_DESCR}				Goths\nBon équilibre de cavaliers et d'unités d'infanterie, mais équipement de siège rudimentaire
+{CELTS_DESCR}				Celtes\nUne combinaison un brin archaïque, mais efficace, de troupes légères
+{WHITE_HUNS_DESCR}			Huns blancs\nArchers et cavaliers hors pairs, mais infanterie de soutien réduite
+{OSTROGOTHS_DESCR}			Ostrogoths\nBon équilibre de cavaliers et d'unités d'infanterie, mais équipement de siège rudimentaire
+{ROMANO_BRITISH_DESCR}		Britto-romains\nSélection réduite d'unités romaines, à laquelle s'ajoutent des troupes d'élite indigènes
+{SLAVS_DESCR}				Slaves\nBon éventail d'unités de tous types, mais une faiblesse notable dans l'équipement de siège
+{MOORS_DESCR}				Maures\nEventail réduit de guerriers du désert endurcis
+{BERBERS_DESCR}			Berbères\nEventail réduit de guerriers du désert endurcis
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{LOMBARDI}					Lombards
+{BURGUNDII}					Burgondes
+{ROXOLANI}					Roxolans
+
+{EMT_LOMBARDI_SPY}					Espion lombard
+{EMT_LOMBARDI_ASSASSIN}					Assassin lombard
+{EMT_LOMBARDI_DIPLOMAT}					Diplomate lombard
+{EMT_LOMBARDI_ADMIRAL}					Flottille lombarde
+{EMT_LOMBARDI_GENERAL}					Armée lombarde
+{EMT_LOMBARDI_NAMED_CHARACTER}					Membre de la famille lombard
+{EMT_BURGUNDII_SPY}					Espion burgonde
+{EMT_BURGUNDII_ASSASSIN}					Assassin burgonde
+{EMT_BURGUNDII_DIPLOMAT}					Diplomate burgonde
+{EMT_BURGUNDII_ADMIRAL}					Flottille burgonde
+{EMT_BURGUNDII_GENERAL}					Armée burgonde
+{EMT_BURGUNDII_NAMED_CHARACTER}					Membre de la famille burgonde
+{EMT_ROXOLANI_SPY}					Espion roxolan
+{EMT_ROXOLANI_ASSASSIN}					Assassin roxolan
+{EMT_ROXOLANI_DIPLOMAT}					Diplomate roxolan
+{EMT_ROXOLANI_ADMIRAL}					Flottille roxolane
+{EMT_ROXOLANI_GENERAL}					Armée roxolane
+{EMT_ROXOLANI_NAMED_CHARACTER}					Membre de la famille roxolan
+
+{LOMBARDI_DESCR}			Lombards\nBon équilibre de troupes de type barbare, sans compter les guerriers héroïques !
+{BURGUNDII_DESCR}			Burgondes\nBon équilibre de troupes de type barbare, sans compter les guerriers héroïques !
+{ROXOLANI_DESCR}			Roxolans\nCavaliers et archers montés émérites, bonne infanterie de soutien
+
+{EMT_VICTORY_DESCR_LOMBARDI}			Vous avez triomphé ! Des rivages de la mer jusqu'aux plus hautes cimes, le dialecte germanique s'est substitué au latin comme la langue du pouvoir. Vous avez façonné le monde à votre propre image. Désormais, les peuples inférieurs se prosternent aux pieds d'un Lombard !
+{EMT_VICTORY_DESCR_BURGUNDII}			Vous avez triomphé ! Des rivages de la mer jusqu'aux plus hautes cimes, le dialecte germanique s'est substitué au latin comme la langue du pouvoir. Vous avez façonné le monde à votre propre image. Désormais, les peuples inférieurs se prosternent aux pieds d'un Burgonde !
+{EMT_VICTORY_DESCR_ROXOLANI}		Une épée, un bon cheval et la compagnie de valeureux guerriers roxolans sont les meilleurs atouts dont on puisse rêver. Ne vous ont-ils pas mené à la victoire ? Vous avez triomphé. 
+
+{EMT_DEFEATED_BY_LOMBARDI}			Vous avez été vaincu par les Lombards, peuple redoutable s'il en est. Seront-ils d'aussi efficaces dirigeants qu'ils furent de valeureux adversaires ?
+{EMT_DEFEATED_BY_BURGUNDII}			Vous avez été vaincu par les Burgondes, peuple redoutable s'il en est. Seront-ils d'aussi efficaces dirigeants qu'ils furent de valeureux adversaires ?
+{EMT_DEFEATED_BY_ROXOLANI}			Les valeureux cavaliers roxolans sont venus à bout de vos armées. Ce furent d'honorables adversaires ; se révéleront-ils des conquérants magnanimes ? 
+
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_LOMBARDI}				Vos forces sont attaquées par surprise par une armée de Lombards
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BURGUNDII}				Vos forces sont attaquées par surprise par une armée de Burgondes
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ROXOLANI}				Vos forces sont attaquées par surprise par une armée de Roxolans
+
+{EMT_YOUR_FORCES_ATTACKED_NAVY_LOMBARDI}				Vos forces sont attaquées par une flottille de Lombards
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BURGUNDII}				Vos forces sont attaquées par une flottille de Burgondes
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ROXOLANI}				Vos forces sont attaquées par une flottille de Roxolans
+
+{EMT_YOUR_FORCES_AMBUSH_ARMY_LOMBARDI}				Vos forces attaquent par surprise une armée de Lombards
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BURGUNDII}				Vos forces attaquent par surprise une armée de Burgondes
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ROXOLANI}			Vos forces attaquent par surprise une armée de Roxolans
+
+{EMT_YOUR_FORCES_ATTACKED_ARMY_LOMBARDI}				Vos forces sont attaquées par une armée de Lombards
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BURGUNDII}				Vos forces sont attaquées par une armée de Burgondes
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ROXOLANI}				Vos forces sont attaquées par une armée de Roxolans
+
+{EMT_YOUR_FORCES_ATTACK_ARMY_LOMBARDI}						Vos forces attaquent une armée de Lombards
+{EMT_YOUR_FORCES_ATTACK_ARMY_BURGUNDII}						Vos forces attaquent une armée de Burgondes
+{EMT_YOUR_FORCES_ATTACK_ARMY_ROXOLANI}						Vos forces attaquent une armée de Roxolans
+
+{EMT_YOUR_FORCES_ATTACK_NAVY_LOMBARDI}				Vos forces attaquent une flottille de Lombards
+{EMT_YOUR_FORCES_ATTACK_NAVY_BURGUNDII}				Vos forces attaquent une flottille de Burgondes
+{EMT_YOUR_FORCES_ATTACK_NAVY_ROXOLANI}			Vos forces attaquent une flottille de Roxolans
+
+{EMT_LOMBARDI_FACTION_HEIR}			Héritier de faction lombard
+{EMT_BURGUNDII_FACTION_HEIR}			Héritier de faction burgonde
+{EMT_ROXOLANI_FACTION_HEIR}			Héritier de faction roxolan
+
+{EMT_LOMBARDI_FACTION_LEADER}		Chef de faction lombard
+{EMT_BURGUNDII_FACTION_LEADER}		Chef de faction burgonde
+{EMT_ROXOLANI_FACTION_LEADER}		Chef de faction roxolan
+
+{EMT_LOMBARDI_WATCHTOWER}				Tour de guet lombarde
+{EMT_BURGUNDII_WATCHTOWER}				Tour de guet burgonde
+{EMT_ROXOLANI_WATCHTOWER}				Tour de guet roxolane
+
+{EMT_LOMBARDI_FISHING_VILLAGE}			Village de pêcheurs lombard
+{EMT_BURGUNDII_FISHING_VILLAGE}			Village de pêcheurs burgonde
+{EMT_ROXOLANI_FISHING_VILLAGE}			Village de pêcheurs roxolan
+
+{EMT_LOMBARDI_DOCK}			Quais lombards
+{EMT_BURGUNDII_DOCK}			Quais burgondes
+{EMT_ROXOLANI_DOCK}			Quais roxolans
+
+{EMT_LOMBARDI_PORT}			Port lombard
+{EMT_BURGUNDII_PORT}			Port burgonde
+{EMT_ROXOLANI_PORT}			Port roxolan
+
+{EMT_LOMBARDI_FORT}			Fort lombard
+{EMT_BURGUNDII_FORT}			Fort burgonde
+{EMT_ROXOLANI_FORT}			Fort roxolan
+
+{EMT_LOMBARDI_CAPITAL}				Capitale lombarde
+{EMT_BURGUNDII_CAPITAL}				Capitale burgonde
+{EMT_ROXOLANI_CAPITAL}				Capitale roxolane
+
+{EMT_LOMBARDI_VILLAGE}			Village lombard
+{EMT_LOMBARDI_TOWN}			Bourg lombard
+{EMT_LOMBARDI_LARGE_TOWN}		Gros bourg lombard
+{EMT_LOMBARDI_CITY}			Ville lombarde
+{EMT_LOMBARDI_LARGE_CITY}		Grande ville lombarde
+{EMT_LOMBARDI_HUGE_CITY}		Métropole lombarde
+{EMT_BURGUNDII_VILLAGE}			Village burgonde
+{EMT_BURGUNDII_TOWN}			Bourg burgonde
+{EMT_BURGUNDII_LARGE_TOWN}		Gros bourg burgonde
+{EMT_BURGUNDII_CITY}			Ville burgonde
+{EMT_BURGUNDII_LARGE_CITY}		Grande ville burgonde
+{EMT_BURGUNDII_HUGE_CITY}		Métropole burgonde
+{EMT_ROXOLANI_VILLAGE}			Village roxolan
+{EMT_ROXOLANI_TOWN}			Bourg roxolan
+{EMT_ROXOLANI_LARGE_TOWN}		Gros bourg roxolan
+{EMT_ROXOLANI_CITY}			Ville roxolane
+{EMT_ROXOLANI_LARGE_CITY}		Grande ville roxolane
+{EMT_ROXOLANI_HUGE_CITY}		Métropole roxolane
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			Only changes made after 06/06/2005 17:00:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{VANDALS_DESCR}			Vandales\nBon éventail d'unités de tous types, mais une faiblesse notable dans l'équipement de siège
+{SLAVS_DESCR}				Slaves\nBon éventail d'unités de tous types, mais une faiblesse notable dans l'équipement de siège
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:55:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:43:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:23:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

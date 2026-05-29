@@ -1,0 +1,531 @@
+¬ Text file converted with loc_parser
+{TMT_SETTLEMENT_INCOME}					Introiti insediamento
+{TMT_LOYALTY_TOOLTIP_REVOLTING}					Fedeltà: rivolta
+{TMT_LOYALTY_TOOLTIP_RIOTING}					Fedeltà: tumulti
+{TMT_LOYALTY_TOOLTIP_DISILLUSIONED}					Fedeltà: rassegnazione
+{TMT_LOYALTY_TOOLTIP_CONTENT}					Fedeltà: soddisfazione
+{TMT_LOYALTY_TOOLTIP_HAPPY}					Fedeltà: felicità
+{TMT_GROWTH_TOOLTIP_GROWTH}					Popolazione: in crescita
+{TMT_GROWTH_TOOLTIP_STATIC}					Popolazione: crescita zero
+{TMT_GROWTH_TOOLTIP_DECLINING}					Popolazione: in calo
+{TMT_SETTLEMENT_STATUS_TRAINING}					Addestramento unità in corso
+{TMT_SETTLEMENT_STATUS_BUILDING}					Costruzione strutture in corso
+{TMT_LCLICK_FOR_BUILD_OPTIONS}					Clicca col sinistro per le opzioni di evoluzione della struttura
+{TMT_CONSTRUCTION_HELP}					Clicca col sinistro per accodare, col destro per avere informazioni
+{TMT_CONSTRUCTION_REMOVE_HELP}					Clicca col sinistro per togliere dalla coda
+{TMT_COST_OF_CONSTRUCTION}					Costo di costruzione della struttura
+{TMT_TIME_TO_CONSTRUCT}					Turni necessari alla costruzione della struttura
+{TMT_COST_OF_RECRUITMENT_UNIT}					Costo di reclutamento dell'unità
+{TMT_TIME_TO_RECRUIT}					Turni necessari all'addestramento
+{TMT_SEASON_SUMMER}					Estate
+{TMT_SEASON_WINTER}					Inverno
+{TMT_REMAINING_ACTION_POINTS}					Punti movimento\nLa barra blu rappresenta i punti rimasti\nLa sezione azzurra rappresenta l'effetto\nsui punti movimento al termine\ndell'azione corrente
+{TMT_ACCEPT_FIELD_CONSTRUCTION}					Costruisci l'elemento selezionato
+{TMT_CANCEL_FIELD_CONSTRUCTION}					Non comprare nulla
+{TMT_BUILD_FORT_OR_WATCHTOWER}					Erigi un forte o una torre di guardia
+{TMT_CANNOT_BUILD_FORT_OR_WATCHTOWER}					Impossibile erigere un forte o una torre di guardia qui
+{TMT_CANNOT_ATTACK_FROM_SIEGED_SETTLEMENT}			Solo la guarnigione assediata può attaccare le armate assedianti
+{TMT_SHOW_GENERAL_UNIT_DETAILS}					Mostra i dettagli dell'unità a protezione di questo personaggio
+{TMT_LCLICK_SELECT}					Clicca col sinistro per selezionare
+{TMT_RCLICK_INFO}					Clicca col destro per avere altre informazioni
+{TMT_LDBL_CLICK_INFO}					Clicca due volte per avere altre informazioni
+{TMT_CURSOR_ATTACK}					Clicca col destro per attaccare
+{TMT_CURSOR_MOVE}					Clicca col destro per raggiungere la posizione
+{TMT_CURSOR_SELECT}					Clicca col destro per selezionare
+{TMT_CURSOR_MOVE_MAP}					Scorri mappa
+{TMT_CURSOR_MOUSE_LOOK}					Sguardo mouse
+{TMT_CURSOR_CLICK_DOWN}					Clicca
+{TMT_CURSOR_EXCHANGE}					Clicca col destro per scambiare unità e personaggi 
+{TMT_CURSOR_DEFAULT_ACTION}					Clicca col destro per compiere la missione
+{TMT_CURSOR_NO_ACTION}					Nessuna azione possibile su questo obiettivo
+{TMT_CURSOR_ENTER_SETTLEMENT}				Clicca col destro per entrare nell'insediamento
+{TMT_CURSOR_DISEMBARK}					Clicca col destro per effettuare lo sbarco
+{TMT_CURSOR_SET_RALLY_POINT}					Clicca col destro per fissare i punti di raduno degli insediamenti
+{TMT_CURSOR_AUTO_MERGE}					Clicca col destro per unire automaticamente le unità 
+{TMT_NO_MULTITURN_MISSIONS}					Non si può attaccare o compiere missioni su più turni
+{TMT_NO_MULTITURN_EXCHANGES}					Non si può unire o scambiare unità su più turni
+{TMT_SIEGE_EQUIPMENT_NOT_REQUIRED}					La costruzione di questo strumento d'assedio non è necessaria
+{TMT_NO_DIPLOMACY_WITH_REBELS}					Non è possibile avere negoziati con i ribelli
+{TMT_SILVER_TOOLTIP}					Nel vicino insediamento si può costruire una miniera d'argento
+{TMT_GOLD_TOOLTIP}					Nel vicino insediamento si può costruire una miniera d'oro
+{TMT_IRON_TOOLTIP}					Ferro - una preziosa risorsa commerciale
+{TMT_GRAIN_TOOLTIP}					Grano - una preziosa risorsa\nAumenta la popolazione nel luogo d'esportazione
+{TMT_OLIVE_OIL_TOOLTIP}					Olio - una preziosa risorsa commerciale
+{TMT_WINE_TOOLTIP}					Vino - una preziosa risorsa commerciale
+{TMT_SLAVES_TOOLTIP}					Schiavi - una preziosa risorsa\nAumenta la popolazione nel luogo d'esportazione
+{TMT_GLASS_TOOLTIP}					Vetro - una preziosa risorsa commerciale
+{TMT_POTTERY_TOOLTIP}					Vasellame - una preziosa risorsa commerciale
+{TMT_TIMBER_TOOLTIP}					Legna - una preziosa risorsa commerciale
+{TMT_MARBLE_TOOLTIP}					Marmo - una preziosa risorsa commerciale
+{TMT_TEXTILES_TOOLTIP}					Stoffe - una preziosa risorsa commerciale
+{TMT_PURPLE_DYE_TOOLTIP}				Porpora - una preziosa risorsa commerciale
+{TMT_INCENSE_TOOLTIP}					Incenso - una preziosa risorsa commerciale
+{TMT_SILK_TOOLTIP}					Seta - una preziosa risorsa commerciale
+{TMT_WILD_ANIMALS_TOOLTIP}				Fiere - una preziosa risorsa commerciale
+{TMT_HIDES_TOOLTIP}					Cuoio - una preziosa risorsa commerciale
+{TMT_FURS_TOOLTIP}					Pellicce - una preziosa risorsa commerciale
+{TMT_TIN_TOOLTIP}					Stagno - una preziosa risorsa commerciale
+{TMT_COPPER_TOOLTIP}					Rame - una preziosa risorsa commerciale
+{TMT_LEAD_TOOLTIP}					Piombo - una preziosa risorsa commerciale
+{TMT_AMBER_TOOLTIP}					Ambra - una preziosa risorsa commerciale
+{TMT_PIGS_TOOLTIP}					Consente la creazione di unità di porci incendiari
+{TMT_DOGS_TOOLTIP}					Consente la creazione di unità di mastini
+{TMT_CAMELS_TOOLTIP}					Consente la creazione di unità su dromedario
+{TMT_ELEPHANTS_TOOLTIP}				Consente la creazione di unità di elefanti
+{TMT_ROADS_TOOLTIP}					Consente alle armate di estendere gli spostamenti e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+{TMT_PAVED_ROADS_TOOLTIP}					Consente alle armate di compiere spostamenti più rapidi e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+{TMT_HIGHWAYS_TOOLTIP}					Consente alle armate di percorrere lunghe distanze e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+{TMT_SEA_LANES_TOOLTIP}					Rotte commerciali tra insediamenti dotati di porto
+{TMT_FAMOUS_BATTLE_SITE_TOOLTIP}					Qui si è combattuta una famosa battaglia
+{TMT_INFLUENCE_LEVEL_0}					Un'oliva farcita ha più influenza di quest'uomo: potrebbe soffocare qualcuno di importante e cambiare la storia.
+{TMT_INFLUENCE_LEVEL_1}					Quest'uomo non ha praticamente alcuna influenza su cosa mangerà per cena, non parliamo poi di sua moglie o delle sorti del mondo.
+{TMT_INFLUENCE_LEVEL_2}					Le opinioni di quest'uomo hanno poco peso. È considerato né più né meno un incapace.
+{TMT_INFLUENCE_LEVEL_3}					Quest'uomo non è molto considerato. A volte esprime opinioni sensate, ma tali occasioni sono rare.
+{TMT_INFLUENCE_LEVEL_4 }					Il parere di quest'uomo ha un certo peso e la sua opinione è tenuta da conto in poche, limitate questioni.
+{TMT_INFLUENCE_LEVEL_5}					La parola di quest'uomo ha valore nei palazzi minori del mondo, benché la maggioranza di quelli importanti lo ignorino.
+{TMT_INFLUENCE_LEVEL_6}					Spesso i consigli di quest'uomo vengono ascoltati con rispetto, anche se non sempre risultano azzeccati.
+{TMT_INFLUENCE_LEVEL_7}					Le qualità di quest'uomo gli consentono di fungere da ago della bilancia in molte questioni.
+{TMT_INFLUENCE_LEVEL_8}				Quest'uomo ha un grande ascendente politico e la sua parola influenza le opinioni della maggior parte dei suoi sottoposti.
+{TMT_INFLUENCE_LEVEL_9}				Quando quest'uomo parla, tutti tacciono per ascoltare la sua parola. Le sue opinioni hanno per molti la forza della legge.
+{TMT_INFLUENCE_LEVEL_10}					Quando quest'uomo parla, le sue parole portano la saggezza degli dei agli astanti.
+{TMT_COMMAND_LEVEL_0}					"Carisma" è soltanto una parola per quest'uomo, come pure "ispirazione". Non possiede l'una né l'altra.
+{TMT_COMMAND_LEVEL_1}					L'attitudine al comando è, a dir poco, una vistosa mancanza nella personalità di quest'uomo.
+{TMT_COMMAND_LEVEL_2 }					Quest'uomo sa come impartire ordini, che però spesso risultano intempestivi e irrilevanti.
+{TMT_COMMAND_LEVEL_3 }					Quest'uomo ha scarse doti di comando, ma compensa tale mancanza con una voce stentorea e un certo talento per intimorire i sottoposti.
+{TMT_COMMAND_LEVEL_4 }					Quest'uomo ha le doti essenziali per comandare, benché a volte manchi di sicurezza.
+{TMT_COMMAND_LEVEL_5 }					Quest'uomo ha dimostrato una certa attitudine al comando, ma occasionalmente commette errori tattici.
+{TMT_COMMAND_LEVEL_6 }					Quest'uomo ispira fiducia ai suoi soldati sul campo. Talvolta la facciata mostra qualche crepa, ma non accade spesso.
+{TMT_COMMAND_LEVEL_7 }					La competenza di quest'uomo in fatto di strategia e tattica ispira fiducia a tutti coloro che lo seguono in battaglia.
+{TMT_COMMAND_LEVEL_8 }					Quest'uomo è una vera forza sul campo di battaglia. Il suo "occhio d'aquila" ispira chi lo segue.
+{TMT_COMMAND_LEVEL_9 }					Al suono della voce di quest'uomo persino le nubi in cielo mutano il loro percorso!
+{TMT_COMMAND_LEVEL_10}					Al suono della voce di quest'uomo persino le nuvole cambiano direzione nei cieli!
+{TMT_MANAGEMENT_LEVEL_0 }					Un'ostrica darebbe maggior prova di talento di quest'uomo nel gestire gli affari quotidiani di un impero.
+{TMT_MANAGEMENT_LEVEL_1}					A quest'uomo non andrebbe affidato nemmeno un deposito di alghe, per non parlare di cose importanti.
+{TMT_MANAGEMENT_LEVEL_2}					L'amministrazione non è il punto forte di quest'uomo. Può gestire questioni semplici, ma senza capacità.
+{TMT_MANAGEMENT_LEVEL_3}					Quest'uomo sopperisce con la determinazione alla mancanza di capacità amministrative.
+{TMT_MANAGEMENT_LEVEL_4 }					Lo scarso talento amministrativo di quest'uomo produce risultati adeguati ma non certo brillanti.
+{TMT_MANAGEMENT_LEVEL_5 }					Quest'uomo ha talento ma perde la testa se un evento inatteso sconvolge i suoi accurati progetti.
+{TMT_MANAGEMENT_LEVEL_6 }					Quest'uomo risolve sovente problemi amministrativi, ma alcune congiunture negative lo mandano in crisi.
+{TMT_MANAGEMENT_LEVEL_7 }					Quest'uomo è un efficace amministratore, perfettamente in grado di gestire situazioni di crisi inattese.
+{TMT_MANAGEMENT_LEVEL_8 }					Quest'uomo è un turbine di efficienza, capace di gestire a dovere le questioni burocratiche.
+{TMT_MANAGEMENT_LEVEL_9}					Quest'uomo plasma gli affari di stato a suo piacimento e riesce a raggiungere gli obiettivi prefissati malgrado gli imprevisti.
+{TMT_MANAGEMENT_LEVEL_10}					Quest'uomo plasma tutti gli affari del mondo a suo piacimento e i sottoposti gli obbediscono in tutto e per tutto.
+{TMT_SUBTERFUGE_LEVEL_0}					Quest'uomo è un innocente, precipitato in un mondo di volpi spietate.
+{TMT_SUBTERFUGE_LEVEL_1}					"Astuto" e "scaltro" sono le ultime parole da usare nel descrivere questo candido individuo.
+{TMT_SUBTERFUGE_LEVEL_2}					Il sotterfugio non fa parte dell'arsenale intellettuale di quest'uomo.
+{TMT_SUBTERFUGE_LEVEL_3}					Quest'uomo non è nato per la cospirazione, ma ha qualche sprazzo d'intuizione a riguardo.
+{TMT_SUBTERFUGE_LEVEL_4}					A volte quest'uomo riconosce il sotterfugio per ciò che è. Altre volte se ne serve personalmente.
+{TMT_SUBTERFUGE_LEVEL_5}					Il sotterfugio è uno strumento che quest'uomo sa usare, benché occasionalmente gli capiti di sbagliare.
+{TMT_SUBTERFUGE_LEVEL_6}					Quest'uomo può ordire trame e complotti con entusiasmo e, talvolta, con una certa abilità.
+{TMT_SUBTERFUGE_LEVEL_7}					Quest'uomo ha più astuzia di un sacco di volpi affamate.
+{TMT_SUBTERFUGE_LEVEL_8}					Quest'uomo ha una mente complessa e contorta, capace di ordire e comprendere le trame più astute.
+{TMT_SUBTERFUGE_LEVEL_9}					Le trame di quest'uomo sono capolavori di menzogna celati all'interno di ulteriori cospirazioni.
+{TMT_SUBTERFUGE_LEVEL_10}					Le macchinazioni di quest'uomo formano trame invisibili, mentre la sua mente acuta può svelare qualunque cospirazione nemica.
+{TMT_TOGGLE_AUTOMANAGEMENT}					Attiva la gestione automatica dell'insediamento
+{TMT_DECREASE_TAXATION}						Riduci la tassazione
+{TMT_INCREASE_TAXATION}						Aumenta la tassazione
+{TMT_CHANGE_GOVERNOR_POLICY}					Cambia politica di sviluppo
+{TMT_DECREASE_GAMES_FREQUENCY}				Riduci la frequenza di giochi e/o corse
+{TMT_INCREASE_GAMES_FREQUENCY}				Aumenta la frequenza di giochi e/o corse
+{TMT_CURRENTLY_SELECTED_CHARACTER}				Personaggio attualmente selezionato:
+{TMT_CURRENTLY_SELECTED_SETTLEMENT}				Insediamento attualmente selezionato:
+{TMT_CURRENTLY_SELECTED_FORT}					Forte attualmente selezionato
+{TMT_CURRENTLY_SELECTED_RALLY_POINT}			Punto di raduno attualmente selezionato
+{TMT_CURRENTLY_SELECTED_RALLY_POINTS}			Punti di raduno attualmente selezionati
+{TMT_LCLICK_ZOOM_TO_POS}					Clicca col pulsante sinistro per individuare l'elemento sulla mappa
+{TMT_SHOW_SELECTED_ITEM}					Questo spazio mostra l'elemento attualmente selezionato
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 29/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+{TMT_FIELD_CONSTRUCTION_TEST_NO_GENERAL}					Le armate senza generale non possono costruire forti o torri di guardia
+{TMT_FIELD_CONSTRUCTION_TEST_NOT_NAMED_CHARACTER}			Solo i generali possono commissionare forti e torri di guardia
+{TMT_FIELD_CONSTRUCTION_TEST_IN_SEA_REGION}				Impossibile costruire un forte o una torre di guardia in mare
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_IN_ENEMY_TERRITORY}			Impossibile costruire un forte in territorio nemico
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_INVALID_GAME_TILE}			Posizione non valida per un forte
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_NOT_ENOUGH_MONEY}			Non hai denaro sufficiente per costruire un forte
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_IN_ENEMY_TERRITORY}		Impossibile costruire una torre di guardia in territorio nemico
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_INVALID_GAME_TILE}		Posizione non valida per una torre di guardia
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_NOT_ENOUGH_MONEY}		Non hai denaro sufficiente per costruire una torre di guardia
+{TMT_NOT_ENOUGH_MONEY_FOR_FORT_OR_WATCHTOWER}				Non hai denaro sufficiente per costruire un forte o una torre di guardia
+{TMT_CANNOT_RECRUIT_UNITS_IN_BATTLE}					Non puoi reclutare unità o mercenari dopo aver ingaggiato battaglia
+{TMT_COMMAND_LEVEL_9 }					Al suono della voce di quest'uomo le armate marciano e potenti nazioni tremano!
+{TMT_ROADS_TOOLTIP}					Strada: consente alle armate di estendere gli spostamenti e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+{TMT_PAVED_ROADS_TOOLTIP}				Strada lastricata: consente alle armate di compiere spostamenti più rapidi e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+{TMT_HIGHWAYS_TOOLTIP}					Arteria consolare: consente alle armate di percorrere lunghe distanze e aumenta gli introiti commerciali\nL'intensità del traffico indica l'entità dei commerci
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_MANAGEMENT_LEVEL_1}					A quest'uomo non andrebbe affidato nemmeno un deposito di alghe, per non parlare di cose importanti.
+{TMT_NO_BODYGUARD_UNIT_TO_VIEW}				Non c'è unità di guardia da vedere per questo personaggio
+{TMT_NOT_ENOUGH_INFO_FOR_BODYGUARD}				Non hai informazioni sufficienti su questo personaggio per vedere la sua unità di guardia
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SETTLEMENT_STATUS_AUTOMANAGED}		Questo insediamento è gestito automaticamente
+{TMT_PIGS_TOOLTIP}				Suini: consentono l'addestramento di unità di porci incendiari
+{TMT_DOGS_TOOLTIP}				Cani: consentono l'addestramento di unità di mastini
+{TMT_CAMELS_TOOLTIP}				Dromedari: consentono l'addestramento di unità su dromedario
+{TMT_ELEPHANTS_TOOLTIP}				Elefanti: consentono l'addestramento di unità di elefanti
+{TMT_CANNOT_ATTACK_SIEGED_SETTLEMENT}	Impossibile assediare un insediamento assediato da una fazione non alleata
+{TMT_CANNOT_CONSTRUCT_WHILST_SIEGING}	Impossibile costruire forti o torri di guardia durante un assedio
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_SIEGING}	Impossibile costruire una torre di guardia durante un assedio
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_SIEGING}		Impossibile costruire un forte durante un assedio
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_NEGATIVE_COMMAND}			Il potere di comando di quest'uomo è tale da risultare praticamente inesistente.
+{TMT_NEGATIVE_INFLUENCE}		Quest'uomo non ha ascendente sulla propria famiglia, non parliamo poi di gente importante
+{TMT_NEGATIVE_MANAGEMENT}		Quest'uomo non riuscirebbe a organizzare una pisciata da un birraio
+{TMT_NEGATIVE_SUBTERFUGE}		Quest'uomo non riesce nemmeno a pronunciare "sotterfugio", figuriamoci capirne il senso
+
+{TMT_SLAVES_TOOLTIP}					Schiavi - una risorsa preziosa\nDistribuita in tutti gli insediamenti con governatore. La risorsa si esaurisce dopo 7 turni
+{TMT_GRAIN_TOOLTIP}					Grano - una risorsa preziosa\nAumenta la crescita demografica nell'insediamento locale
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SLAVES_TOOLTIP}					Schiavi - una risorsa preziosa\nDistribuita in tutti gli insediamenti con governatore. La risorsa si esaurisce dopo %d turni
+{TMT_SLAVES_TOOLTIP_SINGLE}				Schiavi - una risorsa preziosa\nDistribuita in tutti gli insediamenti con governatore. La risorsa si esaurisce dopo 1 turno
+{TMT_SHOW_GENERAL_UNIT_DETAILS_ARMY}		Mostra i dettagli dell'unità a guardia del generale di questa armata
+{TMT_CONSTRUCTION_HELP}					Clicca col sinistro per accodare
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_LCLICK_INFO}		Clicca col sinistro per avere ulteriori informazioni
+{TMT_COMMAND_LEVEL_3 }					A quest'uomo manca il carisma per comandare, ma sopperisce a tale mancanza con una voce stentorea e un discreto talento per intimorire i sottoposti.
+{TMT_COMMAND_LEVEL_4 }					Quest'uomo ha un certo talento per il comando, benché talvolta difetti in sicurezza.
+{TMT_CANNOT_MERGE_AGENT}	Il personaggio selezionato non può essere ricevuto in questo luogo
+{TMT_CANNOT_MERGE_AGENTS}	I personaggi selezionati non possono essere ricevuti in questo luogo
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_AUTO_MERGE_AGENTS}		Clicca col destro per unire automaticamente gli agenti
+{TMT_GOLD_MINE_TOOLTIP}		Miniera d'oro: una preziosa fonte di lucro
+{TMT_SILVER_MINE_TOOLTIP}	Miniera d'argento: una preziosa fonte di lucro
+{TMT_NO_WITHDRAW_NAVY}		Ritirata impossibile: le flotte non possono ritirarsi dalla battaglie
+{TMT_NO_WITHDRAW_AMBUSH}	Ritirata impossibile: l'imboscata nemica è riuscita
+{TMT_NO_WITHDRAW_SIEGE}		Ritirata impossibile: sei sotto assedio
+{TMT_NO_WITHDRAW_AP}		Ritirata impossibile: punti movimento esauriti
+{TMT_NO_WITHDRAW_RETREAT}	Ritirata impossibile: non hai dove ritirarti
+{TMT_ALREADY_CAPITAL}		Questo insediamento è già la capitale
+{TMT_NO_GENERAL_UNIT_TO_SHOW}			Nessuna unità di guardia personale da mostrare
+{TMT_DOCK_BLOCKADED}				Questo arsenale è soggetto a blocco navale
+{TMT_PORT_BLOCKADED}				Questo porto è soggetto a blocco navale
+{TMT_CANNOT_ATTACK_FROM_SIEGED_SETTLEMENT}	Sotto assedio è possibile attaccare solo l'armata assediante
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_CURSOR_AUTO_MERGE}		Clicca col destro per unire le unità 
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SETTLEMENT_AUTOMANAGED_BUILDING}		Impossibile aggiungere questa struttura giacché la costruzione è gestita automaticamente
+{TMT_SETTLEMENT_AUTOMANAGED_TRAINING}		Impossibile aggiungere questa unità giacché il reclutamento è gestito automaticamente
+{TMT_CANNOT_RECRUIT_MERCS_IN_BATTLE}		Impossibile reclutare mercenari una volta ingaggiato battaglia
+{TMT_CANNOT_CHANGE_TAX_LEVEL_AS_AUTOMANAGED}	Impossibile cambiare il livello di tassazione nell'insediamento giacché le tasse della fazione vengono gestite automaticamente. Per cambiarlo, accedi alla pergamena di riepilogo della fazione
+{TMT_CANNOT_DESTROY_THIS_BUILDING}			Questa struttura non può essere distrutta
+{TMT_RECOUP_AMOUNT}					%d denari verranno recuperati.
+{TMT_CANNOT_LEAVE_ZOC}					Impossibile spostarsi all'interno di una zona di controllo nemica
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_CAN_ONLY_SALLY_OUT_ONCE_PER_TURN}		Si può effettuare una sola sortita per turno
+{TMT_CANNOT_FLEE}						Questa armata non può fuggire dalla battaglia. Se perde, tutte le unità verranno annientate
+{TMT_LOYALTY_TOOLTIP_REVOLTING}			Fedeltà: potenziale rivolta
+{TMT_LOYALTY_TOOLTIP_RIOTING}				fedeltà: potenziali tumulti
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{TMT_LOYALTY_TITLE}	Lealtà
+{TMT_LOYALTY_LEVEL_0}	Per quest'uomo, la lealtà è una malattia che affligge i cani e i pazzi smidollati.
+{TMT_LOYALTY_LEVEL_1}	Per quest'uomo la lealtà è un atteggiamento utile per farsi adottare e una debolezza da sfruttare.
+{TMT_LOYALTY_LEVEL_2}	Quest'uomo proclama la propria lealtà agli amici e alla "causa", spesso un po' troppo ad alta voce.
+{TMT_LOYALTY_LEVEL_3}	Anche se quest'uomo a volte si comporta in modo ambiguo, pochi dubitano davvero della sua lealtà nei confronti del suo popolo.
+{TMT_LOYALTY_LEVEL_4}	Quest'uomo è notoriamente leale e affidabile, una persona da cui ci si aspetta che faccia solo il bene dei suoi amici.
+{TMT_LOYALTY_LEVEL_5}	La slealtà nei confronti di chiunque non è qualcosa che quest'uomo possa contemplare, tranne forse nei momenti più bui e disperati.
+{TMT_LOYALTY_LEVEL_6}	Lealtà. Una parola sulla quale costruire la propria vita. Ogni giorno.
+{TMT_LOYALTY_LEVEL_7}	Le cause degli amici e delle persone care sono sempre da sostenere, almeno secondo il punto di vista di quest'uomo.
+{TMT_LOYALTY_LEVEL_8}	Quest'uomo è considerato dai suoi commilitoni un esempio di lealtà, a prescindere da qualunque circostanza. 
+{TMT_LOYALTY_LEVEL_9}	La lealtà è l'essenza dell'animo di quest'uomo. Sarà fedele al suo popolo, fino alla morte. 
+{TMT_LOYALTY_LEVEL_10}	Il nome di quest'uomo è un sinonimo di lealtà. Egli è un esempio per tutti nell'incrollabile fede per la causa, gli amici e il suo popolo.
+{TMT_NEGATIVE_LOYALTY}	Quest'uomo venderebbe i suoi amici e la sua famiglia in un attimo se pensasse di poterci guadagnare qualcosa.
+{TMT_NEGATIVE_COMMAND}	Quest'uomo in realtà riesce a impedire ai suoi sottoposti di conseguire qualunque tipo di successo militare.
+{TMT_NEGATIVE_INFLUENCE}	Quando quest'uomo pronuncia la sua opinione, tutti sanno che il contrario deve essere vero.
+{TMT_NEGATIVE_MANAGEMENT}	Quest'uomo fa nascere il caos dall'ordine. Gli serve una lista di "cose da fare" quando visita le latrine, e anche così riesce a far qualcosa di sbagliato!
+{TMT_NEGATIVE_SUBTERFUGE}	L'infantile goffaggine di quest'uomo fa sembrare ogni suo interlocutore maestro del sotterfugio. 		
+{TMT_HORDE_OCCUPY_SETTLEMENT_TOOLTIP}	Fa' diventare questo insediamento e la regione circostante la nuova patria della tua gente. Le tue orde così si scioglieranno.		
+{TMT_HORDE_SACK_SETTLEMENT_TOOLTIP}	Saccheggia tutto quel che puoi da quest'insediamento, dai fuoco ai suoi edifici, poi continua a cercare una nuova patria per le tue orde.		
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++			
+¬*******************************************************************************************************			
+¬*******************************************************************************************************			
+¬*			
+¬*			EXPANSION PACK TEXT CHANGES BENEATH THIS LINE!!!
+¬*			
+¬*			
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*			
+¬*******************************************************************************************************			
+¬*******************************************************************************************************			
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++			
+
+{TMT_HORDE_SACK_SETTLEMENT_TOOLTIP}		Saccheggia tutto quel che puoi da quest'insediamento. Semina distruzione e continua a cercare una nuova terra per le tue orde.	
+{TMT_CANNOT_LEAD_NIGHT_BATTLE}		L'ufficiale in comando in questa battaglia non può condurre attacchi notturni	
+{TMT_CANNOT_DISEMBARK_HERE}			Non può sbarcare qui
+
+{TMT_CANNOT_FLEE_HORDE_PLAYER}		Quest'armata non può fuggire dalla battaglia. Se sarà sconfitta, l'insediamento andrà perduto e tutta la tua gente dovrà cercare un altro posto da chiamare patria.
+{TMT_CANNOT_FLEE_HORDE_NON_PLAYER}		Quest'armata non può fuggire dalla battaglia. Se sarà sconfitta, l'insediamento andrà perduto e tutto questo popolo dovrà cercare un altro posto da chiamare patria.
+{TMT_SIEGE_EQUIPMENT_NOT_POSSIBLE}					La costruzione di questi strumenti d'assedio è impossibile
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++					
+¬*******************************************************************************************************					
+¬*******************************************************************************************************					
+¬*					
+¬*			CHANGES BENEATH THIS LINE!!!		
+¬*					
+¬*					
+¬*			Only changes made after 07/06/2005 12:30:00		
+¬*					
+¬*******************************************************************************************************					
+¬*******************************************************************************************************					
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++					
+
+{TMT_LOYALTY_LEVEL_4}	Quest'uomo è notoriamente leale e affidabile, una persona da cui ci si aspetta che faccia solo il bene dei suoi amici.		
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:03:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

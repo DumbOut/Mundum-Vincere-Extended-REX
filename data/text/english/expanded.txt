@@ -1,0 +1,776 @@
+¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
+{EMT_ROMAN_JULII_SPY}					Roman (Julii) Spy
+{EMT_ROMAN_JULII_ASSASSIN}					Roman (Julii) Assassin
+{EMT_ROMAN_JULII_DIPLOMAT}					Roman (Julii) Diplomat
+{EMT_ROMAN_JULII_ADMIRAL}					Roman (Julii) Navy
+{EMT_ROMAN_JULII_GENERAL}					Roman (Julii) Army
+{EMT_ROMAN_JULII_NAMED_CHARACTER}					Roman (Julii) Family Member
+{EMT_ROMAN_BRUTII_SPY}					Roman (Brutii) Spy
+{EMT_ROMAN_BRUTII_ASSASSIN}					Roman (Brutii) Assassin
+{EMT_ROMAN_BRUTII_DIPLOMAT}					Roman (Brutii) Diplomat
+{EMT_ROMAN_BRUTII_ADMIRAL}					Roman (Brutii) Navy
+{EMT_ROMAN_BRUTII_GENERAL}					Roman (Brutii) Army
+{EMT_ROMAN_BRUTII_NAMED_CHARACTER}					Roman (Brutii) Family Member
+{EMT_ROMAN_SCIPII_SPY}					Roman (Scipii) Spy
+{EMT_ROMAN_SCIPII_ASSASSIN}					Roman (Scipii) Assassin
+{EMT_ROMAN_SCIPII_DIPLOMAT}					Roman (Scipii) Diplomat
+{EMT_ROMAN_SCIPII_ADMIRAL}					Roman (Scipii) Navy
+{EMT_ROMAN_SCIPII_GENERAL}					Roman (Scipii) Army
+{EMT_ROMAN_SCIPII_NAMED_CHARACTER}					Roman (Scipii) Family Member
+{EMT_ROMAN_SENATE_SPY}					Roman (Senate) Spy
+{EMT_ROMAN_SENATE_ASSASSIN}					Roman (Senate) Assassin
+{EMT_ROMAN_SENATE_DIPLOMAT}					Roman (Senate) Diplomat
+{EMT_ROMAN_SENATE_ADMIRAL}					Roman (Senate) Navy
+{EMT_ROMAN_SENATE_GENERAL}					Roman (Senate) Army
+{EMT_ROMAN_SENATE_NAMED_CHARACTER}					Roman (Senate) Family Member
+{EMT_MACEDON_SPY}					Macedonian Spy
+{EMT_MACEDON_ASSASSIN}					Macedonian Assassin
+{EMT_MACEDON_DIPLOMAT}					Macedonian Diplomat
+{EMT_MACEDON_ADMIRAL}					Macedonian Navy
+{EMT_MACEDON_GENERAL}					Macedonian Army
+{EMT_MACEDON_NAMED_CHARACTER}					Macedonian Family Member
+{EMT_EGYPT_SPY}					Egyptian Spy
+{EMT_EGYPT_ASSASSIN}					Egyptian Assassin
+{EMT_EGYPT_DIPLOMAT}					Egyptian Diplomat
+{EMT_EGYPT_ADMIRAL}					Egyptian Navy
+{EMT_EGYPT_GENERAL}					Egyptian Army
+{EMT_EGYPT_NAMED_CHARACTER}					Egyptian Family Member
+{EMT_SELEUCID_SPY}					Seleucid Spy
+{EMT_SELEUCID_ASSASSIN}					Seleucid Assassin
+{EMT_SELEUCID_DIPLOMAT}					Seleucid Diplomat
+{EMT_SELEUCID_ADMIRAL}					Seleucid Navy
+{EMT_SELEUCID_GENERAL}					Seleucid Army
+{EMT_SELEUCID_NAMED_CHARACTER}					Seleucid Family Member
+{EMT_CARTHAGE_SPY}					Carthaginian Spy
+{EMT_CARTHAGE_ASSASSIN}					Carthaginian Assassin
+{EMT_CARTHAGE_DIPLOMAT}					Carthaginian Diplomat
+{EMT_CARTHAGE_ADMIRAL}					Carthaginian Navy
+{EMT_CARTHAGE_GENERAL}					Carthaginian Army
+{EMT_CARTHAGE_NAMED_CHARACTER}					Carthaginian Family Member
+{EMT_PARTHIA_SPY}					Parthian Spy
+{EMT_PARTHIA_ASSASSIN}					Parthian Assassin
+{EMT_PARTHIA_DIPLOMAT}					Parthian Diplomat
+{EMT_PARTHIA_ADMIRAL}					Parthian Navy
+{EMT_PARTHIA_GENERAL}					Parthian Army
+{EMT_PARTHIA_NAMED_CHARACTER}					Parthian Family Member
+{EMT_PONTUS_SPY}					Pontic Spy
+{EMT_PONTUS_ASSASSIN}					Pontic Assassin
+{EMT_PONTUS_DIPLOMAT}					Pontic Diplomat
+{EMT_PONTUS_ADMIRAL}					Pontic Navy
+{EMT_PONTUS_GENERAL}					Pontic Army
+{EMT_PONTUS_NAMED_CHARACTER}					Pontic Family Member
+{EMT_GAULS_SPY}					Gallic Spy
+{EMT_GAULS_ASSASSIN}					Gallic Assassin
+{EMT_GAULS_DIPLOMAT}					Gallic Diplomat
+{EMT_GAULS_ADMIRAL}					Gallic Navy
+{EMT_GAULS_GENERAL}					Gallic Army
+{EMT_GAULS_NAMED_CHARACTER}					Gallic Family Member
+{EMT_GERMAN_SPY}					Germanic Spy
+{EMT_GERMAN_ASSASSIN}					Germanic Assassin
+{EMT_GERMAN_DIPLOMAT}					Germanic Diplomat
+{EMT_GERMAN_ADMIRAL}					Germanic Navy
+{EMT_GERMAN_GENERAL}					Germanic Army
+{EMT_GERMAN_NAMED_CHARACTER}					Germanic Family Member
+{EMT_BRITON_SPY}					Briton Spy
+{EMT_BRITON_ASSASSIN}					Briton Assassin
+{EMT_BRITON_DIPLOMAT}					Briton Diplomat
+{EMT_BRITON_ADMIRAL}					Briton Navy
+{EMT_BRITON_GENERAL}					Briton Army
+{EMT_BRITON_NAMED_CHARACTER}					Briton Family Member
+{EMT_ARMENIA_SPY}					Armenian Spy
+{EMT_ARMENIA_ASSASSIN}					Armenian Assassin
+{EMT_ARMENIA_DIPLOMAT}					Armenian Diplomat
+{EMT_ARMENIA_ADMIRAL}					Armenian Navy
+{EMT_ARMENIA_GENERAL}					Armenian Army
+{EMT_ARMENIA_NAMED_CHARACTER}					Armenian Family Member
+{EMT_DACIA_SPY}					Dacian Spy
+{EMT_DACIA_ASSASSIN}					Dacian Assassin
+{EMT_DACIA_DIPLOMAT}					Dacian Diplomat
+{EMT_DACIA_ADMIRAL}					Dacian Navy
+{EMT_DACIA_GENERAL}					Dacian Army
+{EMT_DACIA_NAMED_CHARACTER}					Dacian Family Member
+{EMT_GREEK_SPY}					Greek Spy
+{EMT_GREEK_ASSASSIN}					Greek Assassin
+{EMT_GREEK_DIPLOMAT}					Greek Diplomat
+{EMT_GREEK_ADMIRAL}					Greek Navy
+{EMT_GREEK_GENERAL}					Greek Army
+{EMT_GREEK_NAMED_CHARACTER}					Greek Family Member
+{EMT_NUMIDIA_SPY}					Numidian Spy
+{EMT_NUMIDIA_ASSASSIN}					Numidian Assassin
+{EMT_NUMIDIA_DIPLOMAT}					Numidian Diplomat
+{EMT_NUMIDIA_ADMIRAL}					Numidian Navy
+{EMT_NUMIDIA_GENERAL}					Numidian Army
+{EMT_NUMIDIA_NAMED_CHARACTER}					Numidian Family Member
+{EMT_SCYTHIA_SPY}					Scythian Spy
+{EMT_SCYTHIA_ASSASSIN}					Scythian Assassin
+{EMT_SCYTHIA_DIPLOMAT}					Scythian Diplomat
+{EMT_SCYTHIA_ADMIRAL}					Scythian Navy
+{EMT_SCYTHIA_GENERAL}					Scythian Army
+{EMT_SCYTHIA_NAMED_CHARACTER}					Scythian Family Member
+{EMT_SPAIN_SPY}					Spanish Spy
+{EMT_SPAIN_ASSASSIN}					Spanish Assassin
+{EMT_SPAIN_DIPLOMAT}					Spanish Diplomat
+{EMT_SPAIN_ADMIRAL}					Spanish Navy
+{EMT_SPAIN_GENERAL}					Spanish Army
+{EMT_SPAIN_NAMED_CHARACTER}					Spanish Family Member
+{EMT_THRACE_SPY}					Thracian Spy
+{EMT_THRACE_ASSASSIN}					Thracian Assassin
+{EMT_THRACE_DIPLOMAT}					Thracian Diplomat
+{EMT_THRACE_ADMIRAL}					Thracian Navy
+{EMT_THRACE_GENERAL}					Thracian Army
+{EMT_THRACE_NAMED_CHARACTER}					Thracian Family Member
+{EMT_SLAVE_SPY}					Rebel Spy
+{EMT_SLAVE_ASSASSIN}					Rebel Assassin
+{EMT_SLAVE_DIPLOMAT}					Rebel Diplomat
+{EMT_SLAVE_ADMIRAL}					Rebel Navy
+{EMT_SLAVE_GENERAL}					Rebel Army
+{EMT_SLAVE_NAMED_CHARACTER}					Rebel Family Member
+{EMT_ROMAN_JULII_VILLAGE}					Roman (Julii) Village
+{EMT_ROMAN_JULII_TOWN}					Roman (Julii) Town
+{EMT_ROMAN_JULII_LARGE_TOWN}					Roman (Julii) Large Town
+{EMT_ROMAN_JULII_CITY}					Roman (Julii) City
+{EMT_ROMAN_JULII_LARGE_CITY}					Roman (Julii) Large City
+{EMT_ROMAN_JULII_HUGE_CITY}					Roman (Julii) Huge City
+{EMT_ROMAN_BRUTII_VILLAGE}					Roman (Brutii) Village
+{EMT_ROMAN_BRUTII_TOWN}					Roman (Brutii) Town
+{EMT_ROMAN_BRUTII_LARGE_TOWN}					Roman (Brutii) Large Town
+{EMT_ROMAN_BRUTII_CITY}					Roman (Brutii) City
+{EMT_ROMAN_BRUTII_LARGE_CITY}					Roman (Brutii) Large City
+{EMT_ROMAN_BRUTII_HUGE_CITY}					Roman (Brutii) Huge City
+{EMT_ROMAN_SCIPII_VILLAGE}					Roman (Scipii) Village
+{EMT_ROMAN_SCIPII_TOWN}					Roman (Scipii) Town
+{EMT_ROMAN_SCIPII_LARGE_TOWN}					Roman (Scipii) Large Town
+{EMT_ROMAN_SCIPII_CITY}					Roman (Scipii) City
+{EMT_ROMAN_SCIPII_LARGE_CITY}					Roman (Scipii) Large City
+{EMT_ROMAN_SCIPII_HUGE_CITY}					Roman (Scipii) Huge City
+{EMT_ROMAN_SENATE_VILLAGE}					Roman (Senate) Village
+{EMT_ROMAN_SENATE_TOWN}					Roman (Senate) Town
+{EMT_ROMAN_SENATE_LARGE_TOWN}					Roman (Senate) Large Town
+{EMT_ROMAN_SENATE_CITY}					Roman (Senate) City
+{EMT_ROMAN_SENATE_LARGE_CITY}					Roman (Senate) Large City
+{EMT_ROMAN_SENATE_HUGE_CITY}					Roman (Senate) Huge City
+{EMT_MACEDON_VILLAGE}					Macedonian Village
+{EMT_MACEDON_TOWN}					Macedonian Town
+{EMT_MACEDON_LARGE_TOWN}					Macedonian Large Town
+{EMT_MACEDON_CITY}					Macedonian City
+{EMT_MACEDON_LARGE_CITY}					Macedonian Large City
+{EMT_MACEDON_HUGE_CITY}					Macedonian Huge City
+{EMT_EGYPT_VILLAGE}					Egyptian Village
+{EMT_EGYPT_TOWN}					Egyptian Town
+{EMT_EGYPT_LARGE_TOWN}					Egyptian Large Town
+{EMT_EGYPT_CITY}					Egyptian City
+{EMT_EGYPT_LARGE_CITY}					Egyptian Large City
+{EMT_EGYPT_HUGE_CITY}					Egyptian Huge City
+{EMT_SELEUCID_VILLAGE}					Seleucid Village
+{EMT_SELEUCID_TOWN}					Seleucid Town
+{EMT_SELEUCID_LARGE_TOWN}					Seleucid Large Town
+{EMT_SELEUCID_CITY}					Seleucid City
+{EMT_SELEUCID_LARGE_CITY}					Seleucid Large City
+{EMT_SELEUCID_HUGE_CITY}					Seleucid Huge City
+{EMT_CARTHAGE_VILLAGE}					Carthaginian Village
+{EMT_CARTHAGE_TOWN}					Carthaginian Town
+{EMT_CARTHAGE_LARGE_TOWN}					Carthaginian Large Town
+{EMT_CARTHAGE_CITY}					Carthaginian City
+{EMT_CARTHAGE_LARGE_CITY}					Carthaginian Large City
+{EMT_CARTHAGE_HUGE_CITY}					Carthaginian Huge City
+{EMT_PARTHIA_VILLAGE}					Parthian Village
+{EMT_PARTHIA_TOWN}					Parthian Town
+{EMT_PARTHIA_LARGE_TOWN}					Parthian Large Town
+{EMT_PARTHIA_CITY}					Parthian City
+{EMT_PARTHIA_LARGE_CITY}					Parthian Large City
+{EMT_PARTHIA_HUGE_CITY}					Parthian Huge City
+{EMT_PONTUS_VILLAGE}					Pontic Village
+{EMT_PONTUS_TOWN}					Pontic Town
+{EMT_PONTUS_LARGE_TOWN}					Pontic Large Town
+{EMT_PONTUS_CITY}					Pontic City
+{EMT_PONTUS_LARGE_CITY}					Pontic Large City
+{EMT_PONTUS_HUGE_CITY}					Pontic Huge City
+{EMT_GAULS_VILLAGE}					Gallic Village
+{EMT_GAULS_TOWN}					Gallic Town
+{EMT_GAULS_LARGE_TOWN}					Gallic Large Town
+{EMT_GAULS_CITY}					Gallic City
+{EMT_GAULS_LARGE_CITY}					Gallic Large City
+{EMT_GAULS_HUGE_CITY}					Gallic Huge City
+{EMT_GERMAN_VILLAGE}					Germanic Village
+{EMT_GERMAN_TOWN}					Germanic Town
+{EMT_GERMAN_LARGE_TOWN}					Germanic Large Town
+{EMT_GERMAN_CITY}					Germanic City
+{EMT_GERMAN_LARGE_CITY}					Germanic Large City
+{EMT_GERMAN_HUGE_CITY}					Germanic Huge City
+{EMT_BRITON_VILLAGE}					Briton Village
+{EMT_BRITON_TOWN}					Briton Town
+{EMT_BRITON_LARGE_TOWN}					Briton Large Town
+{EMT_BRITON_CITY}					Briton City
+{EMT_BRITON_LARGE_CITY}					Briton Large City
+{EMT_BRITON_HUGE_CITY}					Briton Huge City
+{EMT_ARMENIA_VILLAGE}					Armenian Village
+{EMT_ARMENIA_TOWN}					Armenian Town
+{EMT_ARMENIA_LARGE_TOWN}					Armenian Large Town
+{EMT_ARMENIA_CITY}					Armenian City
+{EMT_ARMENIA_LARGE_CITY}					Armenian Large City
+{EMT_ARMENIA_HUGE_CITY}					Armenian Huge City
+{EMT_DACIA_VILLAGE}					Dacian Village
+{EMT_DACIA_TOWN}					Dacian Town
+{EMT_DACIA_LARGE_TOWN}					Dacian Large Town
+{EMT_DACIA_CITY}					Dacian City
+{EMT_DACIA_LARGE_CITY}					Dacian Large City
+{EMT_DACIA_HUGE_CITY}					Dacian Huge City
+{EMT_GREEK_VILLAGE}					Greek Village
+{EMT_GREEK_TOWN}					Greek Town
+{EMT_GREEK_LARGE_TOWN}					Greek Large Town
+{EMT_GREEK_CITY}					Greek City
+{EMT_GREEK_LARGE_CITY}					Greek Large City
+{EMT_GREEK_HUGE_CITY}					Greek Huge City
+{EMT_NUMIDIA_VILLAGE}					Numidian Village
+{EMT_NUMIDIA_TOWN}					Numidian Town
+{EMT_NUMIDIA_LARGE_TOWN}					Numidian Large Town
+{EMT_NUMIDIA_CITY}					Numidian City
+{EMT_NUMIDIA_LARGE_CITY}					Numidian Large City
+{EMT_NUMIDIA_HUGE_CITY}					Numidian Huge City
+{EMT_SCYTHIA_VILLAGE}					Scythian Village
+{EMT_SCYTHIA_TOWN}					Scythian Town
+{EMT_SCYTHIA_LARGE_TOWN}					Scythian Large Town
+{EMT_SCYTHIA_CITY}					Scythian City
+{EMT_SCYTHIA_LARGE_CITY}					Scythian Large City
+{EMT_SCYTHIA_HUGE_CITY}					Scythian Huge City
+{EMT_SPAIN_VILLAGE}					Spanish Village
+{EMT_SPAIN_TOWN}					Spanish Town
+{EMT_SPAIN_LARGE_TOWN}					Spanish Large Town
+{EMT_SPAIN_CITY}					Spanish City
+{EMT_SPAIN_LARGE_CITY}					Spanish Large City
+{EMT_SPAIN_HUGE_CITY}					Spanish Huge City
+{EMT_THRACE_VILLAGE}					Thracian Village
+{EMT_THRACE_TOWN}					Thracian Town
+{EMT_THRACE_LARGE_TOWN}					Thracian Large Town
+{EMT_THRACE_CITY}					Thracian City
+{EMT_THRACE_LARGE_CITY}					Thracian Large City
+{EMT_THRACE_HUGE_CITY}					Thracian Huge City
+{EMT_SLAVE_VILLAGE}					Rebel Village
+{EMT_SLAVE_TOWN}					Rebel Town
+{EMT_SLAVE_LARGE_TOWN}					Rebel Large Town
+{EMT_SLAVE_CITY}					Rebel City
+{EMT_SLAVE_LARGE_CITY}					Rebel Large City
+{EMT_SLAVE_HUGE_CITY}					Rebel Huge City
+{EMT_ROMAN_JULII_CAPITAL}					Roman (Julii) Capital
+{EMT_ROMAN_BRUTII_CAPITAL}					Roman (Brutii) Capital
+{EMT_ROMAN_SCIPII_CAPITAL}					Roman (Scipii) Capital
+{EMT_ROMAN_SENATE_CAPITAL}					Roman (Senate) Capital
+{EMT_MACEDON_CAPITAL}					Macedonian Capital
+{EMT_EGYPT_CAPITAL}					Egyptian Capital
+{EMT_SELEUCID_CAPITAL}					Seleucid Capital
+{EMT_CARTHAGE_CAPITAL}					Carthaginian Capital
+{EMT_PARTHIA_CAPITAL}					Parthian Capital
+{EMT_PONTUS_CAPITAL}					Pontic Capital
+{EMT_GAULS_CAPITAL}					Gallic Capital
+{EMT_GERMAN_CAPITAL}					Germanic Capital
+{EMT_BRITON_CAPITAL}					Briton Capital
+{EMT_ARMENIA_CAPITAL}					Armenian Capital
+{EMT_DACIA_CAPITAL}					Dacian Capital
+{EMT_GREEK_CAPITAL}					Greek Capital
+{EMT_NUMIDIA_CAPITAL}					Numidian Capital
+{EMT_SCYTHIA_CAPITAL}					Scythian Capital
+{EMT_SPAIN_CAPITAL}					Spanish Capital
+{EMT_THRACE_CAPITAL}					Thracian Capital
+{EMT_SLAVE_CAPITAL}					Rebel Capital
+{EMT_ROMAN_JULII_FORT}					Roman (Julii) Fort
+{EMT_ROMAN_BRUTII_FORT}					Roman (Brutii) Fort
+{EMT_ROMAN_SCIPII_FORT}					Roman (Scipii) Fort
+{EMT_ROMAN_SENATE_FORT}					Roman (Senate) Fort
+{EMT_MACEDON_FORT}					Macedonian Fort
+{EMT_EGYPT_FORT}					Egyptian Fort
+{EMT_SELEUCID_FORT}					Seleucid Fort
+{EMT_CARTHAGE_FORT}					Carthaginian Fort
+{EMT_PARTHIA_FORT}					Parthian Fort
+{EMT_PONTUS_FORT}					Pontic Fort
+{EMT_GAULS_FORT}					Gallic Fort
+{EMT_GERMAN_FORT}					Germanic Fort
+{EMT_BRITON_FORT}					Briton Fort
+{EMT_ARMENIA_FORT}					Armenian Fort
+{EMT_DACIA_FORT}					Dacian Fort
+{EMT_GREEK_FORT}					Greek Fort
+{EMT_NUMIDIA_FORT}					Numidian Fort
+{EMT_SCYTHIA_FORT}					Scythian Fort
+{EMT_SPAIN_FORT}					Spanish Fort
+{EMT_THRACE_FORT}					Thracian Fort
+{EMT_SLAVE_FORT}					Rebel Fort
+{EMT_ROMAN_JULII_PORT}					Roman (Julii) Port
+{EMT_ROMAN_BRUTII_PORT}					Roman (Brutii) Port
+{EMT_ROMAN_SCIPII_PORT}					Roman (Scipii) Port
+{EMT_ROMAN_SENATE_PORT}					Roman (Senate) Port
+{EMT_MACEDON_PORT}					Macedonian Port
+{EMT_EGYPT_PORT}					Egyptian Port
+{EMT_SELEUCID_PORT}					Seleucid Port
+{EMT_CARTHAGE_PORT}					Carthaginian Port
+{EMT_PARTHIA_PORT}					Parthian Port
+{EMT_PONTUS_PORT}					Pontic Port
+{EMT_GAULS_PORT}					Gallic Port
+{EMT_GERMAN_PORT}					Germanic Port
+{EMT_BRITON_PORT}					Briton Port
+{EMT_ARMENIA_PORT}					Armenian Port
+{EMT_DACIA_PORT}					Dacian Port
+{EMT_GREEK_PORT}					Greek Port
+{EMT_NUMIDIA_PORT}					Numidian Port
+{EMT_SCYTHIA_PORT}					Scythian Port
+{EMT_SPAIN_PORT}					Spanish Port
+{EMT_THRACE_PORT}					Thracian Port
+{EMT_SLAVE_PORT}					Rebel Port
+{EMT_ROMAN_JULII_DOCK}					Roman (Julii) Docks
+{EMT_ROMAN_BRUTII_DOCK}					Roman (Brutii) Docks
+{EMT_ROMAN_SCIPII_DOCK}					Roman (Scipii) Docks
+{EMT_ROMAN_SENATE_DOCK}					Roman (Senate) Docks
+{EMT_MACEDON_DOCK}					Macedonian Docks
+{EMT_EGYPT_DOCK}					Egyptian Docks
+{EMT_SELEUCID_DOCK}					Seleucid Docks
+{EMT_CARTHAGE_DOCK}					Carthaginian Docks
+{EMT_PARTHIA_DOCK}					Parthian Docks
+{EMT_PONTUS_DOCK}					Pontic Docks
+{EMT_GAULS_DOCK}					Gallic Docks
+{EMT_GERMAN_DOCK}					Germanic Docks
+{EMT_BRITON_DOCK}					Briton Docks
+{EMT_ARMENIA_DOCK}					Armenian Docks
+{EMT_DACIA_DOCK}					Dacian Docks
+{EMT_GREEK_DOCK}					Greek Docks
+{EMT_NUMIDIA_DOCK}					Numidian Docks
+{EMT_SCYTHIA_DOCK}					Scythian Docks
+{EMT_SPAIN_DOCK}					Spanish Docks
+{EMT_THRACE_DOCK}					Thracian Docks
+{EMT_SLAVE_DOCK}					Rebel Docks
+{EMT_ROMAN_JULII_FISHING_VILLAGE}					Roman (Julii) Fishing Village
+{EMT_ROMAN_BRUTII_FISHING_VILLAGE}					Roman (Brutii) Fishing Village
+{EMT_ROMAN_SCIPII_FISHING_VILLAGE}					Roman (Scipii) Fishing Village
+{EMT_ROMAN_SENATE_FISHING_VILLAGE}					Roman (Senate) Fishing Village
+{EMT_MACEDON_FISHING_VILLAGE}					Macedonian Fishing Village
+{EMT_EGYPT_FISHING_VILLAGE}					Egyptian Fishing Village
+{EMT_SELEUCID_FISHING_VILLAGE}					Seleucid Fishing Village
+{EMT_CARTHAGE_FISHING_VILLAGE}					Carthaginian Fishing Village
+{EMT_PARTHIA_FISHING_VILLAGE}					Parthian Fishing Village
+{EMT_PONTUS_FISHING_VILLAGE}					Pontic Fishing Village
+{EMT_GAULS_FISHING_VILLAGE}					Gallic Fishing Village
+{EMT_GERMAN_FISHING_VILLAGE}					Germanic Fishing Village
+{EMT_BRITON_FISHING_VILLAGE}					Briton Fishing Village
+{EMT_ARMENIA_FISHING_VILLAGE}					Armenian Fishing Village
+{EMT_DACIA_FISHING_VILLAGE}					Dacian Fishing Village
+{EMT_GREEK_FISHING_VILLAGE}					Greek Fishing Village
+{EMT_NUMIDIA_FISHING_VILLAGE}					Numidian Fishing Village
+{EMT_SCYTHIA_FISHING_VILLAGE}					Scythian Fishing Village
+{EMT_SPAIN_FISHING_VILLAGE}					Spanish Fishing Village
+{EMT_THRACE_FISHING_VILLAGE}					Thracian Fishing Village
+{EMT_SLAVE_FISHING_VILLAGE}					Rebel Fishing Village
+{EMT_ROMAN_JULII_WATCHTOWER}					Roman (Julii) Watchtower
+{EMT_ROMAN_BRUTII_WATCHTOWER}					Roman (Brutii) Watchtower
+{EMT_ROMAN_SCIPII_WATCHTOWER}					Roman (Scipii) Watchtower
+{EMT_ROMAN_SENATE_WATCHTOWER}					Roman (Senate) Watchtower
+{EMT_MACEDON_WATCHTOWER}					Macedonian Watchtower
+{EMT_EGYPT_WATCHTOWER}					Egyptian Watchtower
+{EMT_SELEUCID_WATCHTOWER}					Seleucid Watchtower
+{EMT_CARTHAGE_WATCHTOWER}					Carthaginian Watchtower
+{EMT_PARTHIA_WATCHTOWER}					Parthian Watchtower
+{EMT_PONTUS_WATCHTOWER}					Pontic Watchtower
+{EMT_GAULS_WATCHTOWER}					Gallic Watchtower
+{EMT_GERMAN_WATCHTOWER}					Germanic Watchtower
+{EMT_BRITON_WATCHTOWER}					Briton Watchtower
+{EMT_ARMENIA_WATCHTOWER}					Armenian Watchtower
+{EMT_DACIA_WATCHTOWER}					Dacian Watchtower
+{EMT_GREEK_WATCHTOWER}					Greek Watchtower
+{EMT_NUMIDIA_WATCHTOWER}					Numidian Watchtower
+{EMT_SCYTHIA_WATCHTOWER}					Scythian Watchtower
+{EMT_SPAIN_WATCHTOWER}					Spanish Watchtower
+{EMT_THRACE_WATCHTOWER}					Thracian Watchtower
+{EMT_SLAVE_WATCHTOWER}					Rebel Watchtower
+{EMT_ROMAN_JULII_FACTION_LEADER}					Roman (Julii) Faction Leader
+{EMT_ROMAN_BRUTII_FACTION_LEADER}					Roman (Brutii) Faction Leader
+{EMT_ROMAN_SCIPII_FACTION_LEADER}					Roman (Scipii) Faction Leader
+{EMT_ROMAN_SENATE_FACTION_LEADER}					Roman (Senate) Faction Leader
+{EMT_MACEDON_FACTION_LEADER}					Macedonian Faction Leader
+{EMT_EGYPT_FACTION_LEADER}					Egyptian Faction Leader
+{EMT_SELEUCID_FACTION_LEADER}					Seleucid Faction Leader
+{EMT_CARTHAGE_FACTION_LEADER}					Carthaginian Faction Leader
+{EMT_PARTHIA_FACTION_LEADER}					Parthian Faction Leader
+{EMT_PONTUS_FACTION_LEADER}					Pontic Faction Leader
+{EMT_GAULS_FACTION_LEADER}					Gallic Faction Leader
+{EMT_GERMAN_FACTION_LEADER}					Germanic Faction Leader
+{EMT_BRITON_FACTION_LEADER}					Briton Faction Leader
+{EMT_ARMENIA_FACTION_LEADER}					Armenian Faction Leader
+{EMT_DACIA_FACTION_LEADER}					Dacian Faction Leader
+{EMT_GREEK_FACTION_LEADER}					Greek Faction Leader
+{EMT_NUMIDIA_FACTION_LEADER}					Numidian Faction Leader
+{EMT_SCYTHIA_FACTION_LEADER}					Scythian Faction Leader
+{EMT_SPAIN_FACTION_LEADER}					Spanish Faction Leader
+{EMT_THRACE_FACTION_LEADER}					Thracian Faction Leader
+{EMT_SLAVE_FACTION_LEADER}					Rebel Faction Leader
+{EMT_ROMAN_JULII_FACTION_HEIR}					Roman (Julii) Faction Heir
+{EMT_ROMAN_BRUTII_FACTION_HEIR}					Roman (Brutii) Faction Heir
+{EMT_ROMAN_SCIPII_FACTION_HEIR}					Roman (Scipii) Faction Heir
+{EMT_ROMAN_SENATE_FACTION_HEIR}					Roman (Senate) Faction Heir
+{EMT_MACEDON_FACTION_HEIR}					Macedonian Faction Heir
+{EMT_EGYPT_FACTION_HEIR}					Egyptian Faction Heir
+{EMT_SELEUCID_FACTION_HEIR}					Seleucid Faction Heir
+{EMT_CARTHAGE_FACTION_HEIR}					Carthaginian Faction Heir
+{EMT_PARTHIA_FACTION_HEIR}					Parthian Faction Heir
+{EMT_PONTUS_FACTION_HEIR}					Pontic Faction Heir
+{EMT_GAULS_FACTION_HEIR}					Gallic Faction Heir
+{EMT_GERMAN_FACTION_HEIR}					Germanic Faction Heir
+{EMT_BRITON_FACTION_HEIR}					Briton Faction Heir
+{EMT_ARMENIA_FACTION_HEIR}					Armenian Faction Heir
+{EMT_DACIA_FACTION_HEIR}					Dacian Faction Heir
+{EMT_GREEK_FACTION_HEIR}					Greek Faction Heir
+{EMT_NUMIDIA_FACTION_HEIR}					Numidian Faction Heir
+{EMT_SCYTHIA_FACTION_HEIR}					Scythian Faction Heir
+{EMT_SPAIN_FACTION_HEIR}					Spanish Faction Heir
+{EMT_THRACE_FACTION_HEIR}					Thracian Faction Heir
+{EMT_SLAVE_FACTION_HEIR}					Rebel Faction Heir
+{EMT_YOUR_FORCES_ATTACK_ARMY_JULII}					Your forces attack an army of the Julii faction
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRUTII}					Your forces attack an army of the Brutii faction
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCIPII}					Your forces attack an army of the Scipii faction
+{EMT_YOUR_FORCES_ATTACK_ARMY_SENATE}					Your forces attack an army of the Senate
+{EMT_YOUR_FORCES_ATTACK_ARMY_MACEDON}					Your forces attack an army of Macedon
+{EMT_YOUR_FORCES_ATTACK_ARMY_EGYPT}					Your forces attack an army of Egypt
+{EMT_YOUR_FORCES_ATTACK_ARMY_SELEUCID}					Your forces attack an army of the Seleucid Empire
+{EMT_YOUR_FORCES_ATTACK_ARMY_CARTHAGE}					Your forces attack an army of Carthage
+{EMT_YOUR_FORCES_ATTACK_ARMY_PARTHIA}					Your forces attack an army of Parthia
+{EMT_YOUR_FORCES_ATTACK_ARMY_PONTUS}					Your forces attack an army of Pontus
+{EMT_YOUR_FORCES_ATTACK_ARMY_GAUL}					Your forces attack an army of Gaul
+{EMT_YOUR_FORCES_ATTACK_ARMY_GERMAN}					Your forces attack an army of Germania
+{EMT_YOUR_FORCES_ATTACK_ARMY_BRITON}					Your forces attack an army of Britannia
+{EMT_YOUR_FORCES_ATTACK_ARMY_ARMENIA}					Your forces attack an army of Armenia
+{EMT_YOUR_FORCES_ATTACK_ARMY_DACIA}					Your forces attack an army of Dacia
+{EMT_YOUR_FORCES_ATTACK_ARMY_GREEK}					Your forces attack an army of the Greek Cities
+{EMT_YOUR_FORCES_ATTACK_ARMY_NUMIDIA}					Your forces attack an army of Numidia
+{EMT_YOUR_FORCES_ATTACK_ARMY_SCYTHIA}					Your forces attack an army of Scythia
+{EMT_YOUR_FORCES_ATTACK_ARMY_SPAIN}					Your forces attack an army of Spain
+{EMT_YOUR_FORCES_ATTACK_ARMY_THRACE}					Your forces attack an army of Thrace
+{EMT_YOUR_FORCES_ATTACK_ARMY_SLAVE}					Your forces attack an army of Rebels
+{EMT_YOUR_FORCES_ATTACK_NAVY_JULII}					Your forces attack a navy of the Julii faction
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRUTII}					Your forces attack a navy of the Brutii faction
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCIPII}					Your forces attack a navy of the Scipii faction
+{EMT_YOUR_FORCES_ATTACK_NAVY_SENATE}					Your forces attack a navy of the Senate
+{EMT_YOUR_FORCES_ATTACK_NAVY_MACEDON}					Your forces attack a navy of Macedon
+{EMT_YOUR_FORCES_ATTACK_NAVY_EGYPT}					Your forces attack a navy of Egypt
+{EMT_YOUR_FORCES_ATTACK_NAVY_SELEUCID}					Your forces attack a navy of the Seleucid Empire
+{EMT_YOUR_FORCES_ATTACK_NAVY_CARTHAGE}					Your forces attack a navy of Carthage
+{EMT_YOUR_FORCES_ATTACK_NAVY_PARTHIA}					Your forces attack a navy of Parthia
+{EMT_YOUR_FORCES_ATTACK_NAVY_PONTUS}					Your forces attack a navy of Pontus
+{EMT_YOUR_FORCES_ATTACK_NAVY_GAUL}					Your forces attack a navy of Gaul
+{EMT_YOUR_FORCES_ATTACK_NAVY_GERMAN}					Your forces attack a navy of Germania
+{EMT_YOUR_FORCES_ATTACK_NAVY_BRITON}					Your forces attack a navy of Britannia
+{EMT_YOUR_FORCES_ATTACK_NAVY_ARMENIA}					Your forces attack a navy of Armenia
+{EMT_YOUR_FORCES_ATTACK_NAVY_DACIA}					Your forces attack a navy of Dacia
+{EMT_YOUR_FORCES_ATTACK_NAVY_GREEK}					Your forces attack a navy of the Greek Cities
+{EMT_YOUR_FORCES_ATTACK_NAVY_NUMIDIA}					Your forces attack a navy of Numidia
+{EMT_YOUR_FORCES_ATTACK_NAVY_SCYTHIA}					Your forces attack a navy of Scythia
+{EMT_YOUR_FORCES_ATTACK_NAVY_SPAIN}					Your forces attack a navy of Spain
+{EMT_YOUR_FORCES_ATTACK_NAVY_THRACE}					Your forces attack a navy of Thrace
+{EMT_YOUR_FORCES_ATTACK_NAVY_SLAVE}					Your forces attack a navy of Rebels
+{EMT_YOUR_FORCES_AMBUSH_ARMY_JULII}					Your forces ambush an army of the Julii faction
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRUTII}					Your forces ambush an army of the Brutii faction
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCIPII}					Your forces ambush an army of the Scipii faction
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SENATE}					Your forces ambush an army of the Senate
+{EMT_YOUR_FORCES_AMBUSH_ARMY_MACEDON}					Your forces ambush an army of Macedon
+{EMT_YOUR_FORCES_AMBUSH_ARMY_EGYPT}					Your forces ambush an army of Egypt
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SELEUCID}					Your forces ambush an army of the Seleucid Empire
+{EMT_YOUR_FORCES_AMBUSH_ARMY_CARTHAGE}					Your forces ambush an army of Carthage
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PARTHIA}					Your forces ambush an army of Parthia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_PONTUS}					Your forces ambush an army of Pontus
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GAUL}					Your forces ambush an army of Gaul
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GERMAN}					Your forces ambush an army of Germania
+{EMT_YOUR_FORCES_AMBUSH_ARMY_BRITON}					Your forces ambush an army of Britannia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_ARMENIA}					Your forces ambush an army of Armenia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_DACIA}					Your forces ambush an army of Dacia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_GREEK}					Your forces ambush an army of the Greek Cities
+{EMT_YOUR_FORCES_AMBUSH_ARMY_NUMIDIA}					Your forces ambush an army of Numidia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SCYTHIA}					Your forces ambush an army of Scythia
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SPAIN}					Your forces ambush an army of Spain
+{EMT_YOUR_FORCES_AMBUSH_ARMY_THRACE}					Your forces ambush an army of Thrace
+{EMT_YOUR_FORCES_AMBUSH_ARMY_SLAVE}					Your forces ambush an army of Rebels
+{EMT_YOUR_FORCES_ATTACKED_ARMY_JULII}					Your forces are attacked by an army of the Julii faction
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRUTII}					Your forces are attacked by an army of the Brutii faction
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCIPII}					Your forces are attacked by an army of the Scipii faction
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SENATE}					Your forces are attacked by an army of the Senate
+{EMT_YOUR_FORCES_ATTACKED_ARMY_MACEDON}					Your forces are attacked by an army of Macedon
+{EMT_YOUR_FORCES_ATTACKED_ARMY_EGYPT}					Your forces are attacked by an army of Egypt
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SELEUCID}					Your forces are attacked by an army of the Seleucid Empire
+{EMT_YOUR_FORCES_ATTACKED_ARMY_CARTHAGE}					Your forces are attacked by an army of Carthage
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PARTHIA}					Your forces are attacked by an army of Parthia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_PONTUS}					Your forces are attacked by an army of Pontus
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GAUL}					Your forces are attacked by an army of Gaul
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GERMAN}					Your forces are attacked by an army of Germania
+{EMT_YOUR_FORCES_ATTACKED_ARMY_BRITON}					Your forces are attacked by an army of Britannia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_ARMENIA}					Your forces are attacked by an army of Armenia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_DACIA}					Your forces are attacked by an army of Dacia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_GREEK}					Your forces are attacked by an army of the Greek Cities
+{EMT_YOUR_FORCES_ATTACKED_ARMY_NUMIDIA}					Your forces are attacked by an army of Numidia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SCYTHIA}					Your forces are attacked by an army of Scythia
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SPAIN}					Your forces are attacked by an army of Spain
+{EMT_YOUR_FORCES_ATTACKED_ARMY_THRACE}					Your forces are attacked by an army of Thrace
+{EMT_YOUR_FORCES_ATTACKED_ARMY_SLAVE}					Your forces are attacked by an army of Rebels
+{EMT_YOUR_FORCES_ATTACKED_NAVY_JULII}					Your forces are attacked by a navy of the Julii faction
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRUTII}					Your forces are attacked by a navy of the Brutii faction
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCIPII}					Your forces are attacked by a navy of the Scipii faction
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SENATE}					Your forces are attacked by a navy of the Senate
+{EMT_YOUR_FORCES_ATTACKED_NAVY_MACEDON}					Your forces are attacked by a navy of Macedon
+{EMT_YOUR_FORCES_ATTACKED_NAVY_EGYPT}					Your forces are attacked by a navy of Egypt
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SELEUCID}					Your forces are attacked by a navy of the Seleucid Empire
+{EMT_YOUR_FORCES_ATTACKED_NAVY_CARTHAGE}					Your forces are attacked by a navy of Carthage
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PARTHIA}					Your forces are attacked by a navy of Parthia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_PONTUS}					Your forces are attacked by a navy of Pontus
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GAUL}					Your forces are attacked by a navy of Gaul
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GERMAN}					Your forces are attacked by a navy of Germania
+{EMT_YOUR_FORCES_ATTACKED_NAVY_BRITON}					Your forces are attacked by a navy of Britannia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_ARMENIA}					Your forces are attacked by a navy of Armenia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_DACIA}					Your forces are attacked by a navy of Dacia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_GREEK}					Your forces are attacked by a navy of the Greek Cities
+{EMT_YOUR_FORCES_ATTACKED_NAVY_NUMIDIA}					Your forces are attacked by a navy of Numidia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SCYTHIA}					Your forces are attacked by a navy of Scythia
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SPAIN}					Your forces are attacked by a navy of Spain
+{EMT_YOUR_FORCES_ATTACKED_NAVY_THRACE}					Your forces are attacked by a navy of Thrace
+{EMT_YOUR_FORCES_ATTACKED_NAVY_SLAVE}					Your forces are attacked by a navy of Rebels
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_JULII}					Your forces are ambushed by an army of the Julii faction
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRUTII}					Your forces are ambushed by an army of the Brutii faction
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCIPII}					Your forces are ambushed by an army of the Scipii faction
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SENATE}					Your forces are ambushed by an army of the Senate
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_MACEDON}					Your forces are ambushed by an army of Macedon
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_EGYPT}					Your forces are ambushed by an army of Egypt
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SELEUCID}					Your forces are ambushed by an army of the Seleucid Empire
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_CARTHAGE}					Your forces are ambushed by an army of Carthage
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PARTHIA}					Your forces are ambushed by an army of Parthia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_PONTUS}					Your forces are ambushed by an army of Pontus
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GAUL}					Your forces are ambushed by an army of Gaul
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GERMAN}					Your forces are ambushed by an army of Germania
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_BRITON}					Your forces are ambushed by an army of Britannia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_ARMENIA}					Your forces are ambushed by an army of Armenia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_DACIA}					Your forces are ambushed by an army of Dacia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_GREEK}					Your forces are ambushed by an army of the Greek Cities
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_NUMIDIA}					Your forces are ambushed by an army of Numidia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SCYTHIA}					Your forces are ambushed by an army of Scythia
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SPAIN}					Your forces are ambushed by an army of Spain
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_THRACE}					Your forces are ambushed by an army of Thrace
+{EMT_YOUR_FORCES_AMBUSHED_ARMY_SLAVE}					Your forces are ambushed by an army of Rebels
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{EMT_VICTORY_JULII}		The House of Julii are Victorious
+{EMT_VICTORY_BRUTII}		The House of Brutii are Victorious
+{EMT_VICTORY_SCIPII}		The House of Scipii are Victorious
+{EMT_VICTORY_SENATE}		The Senate and People of Rome are Victorious
+{EMT_VICTORY_MACEDON}		The Macedonians Victorious
+{EMT_VICTORY_EGYPT}		The Egyptians are Victorious
+{EMT_VICTORY_SELEUCID}		The Seleucids are Victorious
+{EMT_VICTORY_CARTHAGE}		The Carthaginians are Victorious
+{EMT_VICTORY_PARTHIA}		The Parthians are Victorious
+{EMT_VICTORY_PONTUS}		The Pontic are Victorious
+{EMT_VICTORY_GAUL}		The Gauls are Victorious
+{EMT_VICTORY_GERMAN}		The German are Victorious
+{EMT_VICTORY_BRITON}		The Britons are Victorious
+{EMT_VICTORY_ARMENIA}		The Armenians are Victorious
+{EMT_VICTORY_DACIA}		The Dacians are Victorious
+{EMT_VICTORY_GREEK}		The Greek are Victorious
+{EMT_VICTORY_NUMIDIA}		The Numidians are Victorious
+{EMT_VICTORY_SCYTHIA}		The Scythians are Victorious
+{EMT_VICTORY_SPAIN}		The Spanish are Victorious
+{EMT_VICTORY_THRACE}		The Thracians are Victorious
+{EMT_VICTORY_SLAVE}		The Rebels are Victorious
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

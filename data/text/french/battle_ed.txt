@@ -1,0 +1,510 @@
+¬ Text file converted with loc_parser
+{BET_CREATE_NEW_ARMY}					Modifier informations sur l’armée
+{BET_SELECT_FACTION}					Choisir une faction
+{BET_IS_ATTACKER}						En attaque ?
+{BET_IS_REINFORCEMENT}					En renfort ?
+{BET_TIME_TO_REINFORCE}					Arrive dans %d heures
+{BET_ONE_HOUR_TO_REINFORCE}				Arrive dans 1 heure
+{BET_CREATE_NEW_UNIT}					Modifier informations sur l’unité
+{BET_UNIT_SIZE}							Taille de l’unité
+{BET_EXPERIENCE}						Expérience
+{BET_PRI_WPN_LVL}						Evolutions des armes
+{BET_ARMOUR_LVL}						Evolutions des armures
+{BET_CAN_WITHDRAW}						Peut se replier
+{BET_SUPPORTING_ARMIES}					Nb d’armées de soutien
+{BET_GENERAL}							Général
+{BET_NAME}								Nom
+{BET_AGE}								Age
+{BET_CREATE_DEPLOYMENT}					Créer des zones de déploiement\nVous devez choisir une armée pour créer des zones de déploiement\nChoisissez au minimum trois points pour définir une zone\nVous pouvez déplacer les marqueurs lorsque le curseur est en surbrillance\nMaintenez la touche Maj. enfoncée et déplacez un marqueur en surbrillance pour déplacer toute la zone.
+{BET_EDIT_HEIGHTS}						Modifier relief du terrain
+{BET_EDIT_TEXTURES}						Modifier textures du terrain
+{BET_UPDATE_TREES}						Actualiser la disposition des arbres\nAjoutez ou enlevez des arbres avec l'outil de texture du terrain\npuis cliquez ici pour actualiser.
+{BET_EDIT_SETTLEMENT}					Ajouter un plan de communauté et des bâtiments\nVous ne pouvez placer qu'une communauté principale par carte\nRepositionnez une communauté existante dans le mode Eléments.
+{BET_PLACE_LANDSCAPE_FEATURES}			Placer/déplacer des modèles\nPlacez un modèle lorsque celui-ci est vert\nFaites pivoter le modèle en maintenant les deux boutons de la souris appuyés\nEffacez un modèle avec un clic droit\nUn modèle positionné peut être déplacé en le sélectionnant et en le faisant glisser à l'endroit souhaité.
+{BET_EDIT_ARMIES}						Créer armée
+{BET_EDIT_UNITS}						Créer/modifier des unités\nVous devez sélectionner une armée ou unité pour ajouter des unités\nAjoutez des unités à une zone de déploiement\nMaintenez le bouton gauche de la souris appuyé et déplacez la souris vers la gauche ou la droite pour changer l’orientation de l'unité et la largeur de formation.
+{BET_START_TIME}						Heure de départ
+{BET_EDIT_UNIT_SCRIPT}					Modifier script d’IA de l’unité
+{BET_DELETE_FACTION_CONFIRMATION}		Si vous effacez une faction, vous perdrez tous les personnages, armées, zones de déploiement et unités associés. Etes-vous sûr de vouloir effectuer cette opération ?
+{BET_DELETE_ARMY_CONFIRMATION}			Si vous effacez une armée, vous perdrez tous les personnages, unités et zones de déploiement associés. Etes-vous sûr de vouloir effectuer cette opération ?
+{BET_DELETE_UNIT_CONFIRMATION}			Si vous effacez une unité, vous perdrez toutes les données associées. Etes-vous sûr de vouloir effectuer cette opération ?
+{BET_DELETE_CHARACTER_CONFIRMATION}		Si vous effacez un personnage, vous perdrez toutes les données d’unités/armées associées. Etes-vous sûr de vouloir effectuer cette opération ?
+{BET_DELETE_SETTLEMENT_CONFIRMATION}	Etes-vous sûr de vouloir effacer cette communauté ?
+{BET_CONFIRM_DELETE}					Confirmer l’effacement
+{BET_SET_VICTORY_CONDITIONS}			Définir les conditions de victoire
+{BET_CONDITIONS}						Conditions
+{BET_BATTLE_DURATION}					Définir la limite de temps (heures) :
+{BET_ADD_CONDITION}						Ajouter une nouvelle condition
+{BET_DELETE_CONDITION}				Effacer une condition
+{BET_ILLEGAL_DEPLOYMENT_AREA}			La zone de déploiement créée avec ces points n’est pas valide. Sélectionnez Annuler pour modifier les points ou Accepter pour effacer toute la zone. 
+{BET_ERROR}								Erreur
+{BET_MODEL_TYPE_GENERAL}				Terrains généraux
+{BET_MODEL_TYPE_RIVERS}					Cours d’eau
+{BET_MODEL_TYPE_AMBIENT_SETTLEMENT}		Eléments d’ambiance pour communautés
+{BET_MODEL_TYPE_SPECIAL}				Eléments spéciaux
+{BET_EDIT_BATTLE_DETAILS}				Modifier informations sur la bataille
+{BET_IS_NIGHT_BATTLE}					Bataille nocturne ?
+{BET_IS_AMBUSH}							Embuscade ?
+{BET_ENTER_DESCRIPTION}					Entrer une description de la bataille
+{BET_EDIT_CHARACTER}					Modifier personnage
+{BET_SELECT_CHARACTER_TYPE}				Type de personnage
+{BET_EDIT_CHARACTER_RECORD}				Modifier profil du personnage
+{BET_IS_MALE}							Homme ?
+{BET_CREATE_CHARACTER}					Créer un nouveau personnage
+{BET_CREATE_SETTLEMENT}					Créer une nouvelle communauté
+{BET_MOVE_ITEM}							Déplacer un objet
+{BET_EDIT_FAMILY}						Modifier l’arbre généalogique\nVous devez choisir une faction pour modifier la généalogie.
+{BET_EDIT_CLIMATES}						Modifier carte climatique
+{BET_EDIT_GROUND_TYPES}					Modifier types de terrain
+{BET_CREATE_CHARACTER_RECORD}			Créer un profil de femme ou d’enfant
+{BET_ADD_CHILD}							Ajouter comme enfant
+{BET_ADD_SPOUSE}						Ajouter comme épouse
+{BET_REMOVE_RELATIVE}					Briser la relation
+{BET_EDIT_RESOURCE}						Modifier ressources, forts et tours de guet
+{BET_EDIT_RIVERS}						Modifier topographie
+{BET_EDIT_TRADE_ROUTES}					Modifier routes commerciales
+{BET_SELECT_RESOURCE}					Sélectionner une ressource et un niveau
+{BET_ADD_UNITS}							Ajouter des unités à l’armée
+{BET_REMOVE_UNITS}						Supprimer l’unité sélectionnée
+{BET_GARRISONED}						En garnison
+{BET_CREATE_ALLIANCES}					Créer des alliances
+{BET_SELECT_ALLIANCE}					Choisir une alliance
+{BET_DELETE_ALLIANCE}					Supprimer une alliance
+{BET_CAN_WAIT}							Attente possible\nLes armées de cette alliance peuvent différer la bataille en début de partie.
+{BET_CAN_DEPLOY}						Déploiement possible\nLes armées de cette alliance peuvent déployer des unités pendant la phase de déploiement.
+{BET_CAN_VIEW}							Visualisation possible\nLes armées de cette alliance peuvent visualiser le champ de bataille avant la phase de déploiement.
+{BET_SELECT_HOME_FACTION}				Choisir faction locale
+{BET_WEATHER_SEED}						Source météo
+{BET_GENERATE_RANDOM_SEED}				Nouvelle source
+{BET_WALL_SIZE_NORMAL}					Normal
+{BET_WALL_SIZE_LARGE}					Grand
+{BET_WALL_SIZE_HUGE}					Enorme
+{BET_WALL_LEVEL}						Niveau de mur
+{BET_TOWERS_NORMAL}						Tour de guet
+{BET_TOWERS_ARROW}						Tour d’archerie
+{BET_TOWERS_BALLISTA}					Tour baliste
+{BET_TOWER_LEVEL}						Niveau de tour
+{BET_GATES_0}							Bois
+{BET_GATES_1}							Bois dur
+{BET_GATES_2}							Blindée
+{BET_GATE_LEVEL}						Niveau de porte
+{BET_GATE_DEFENCES_NONE}				Aucune
+{BET_GATE_DEFENCES_SAND}				Sable brûlant
+{BET_GATE_DEFENCES_OIL}					Huile bouillante
+{BET_GATE_DEFENCES_LEVEL}				Défense de porte
+{BET_NOT_ENOUGH_FACTIONS}				Une bataille nécessite au minimum deux factions.
+{BET_FACTION_MUST_HAVE_1_ARMY}			La faction doit avoir au moins une armée.
+{BET_ARMY_HAS_NO_UNITS}					Une armée ne contient pas d’unité.
+{BET_ARMY_HAS_NO_GENERALS_UNIT}			Cette armée doit comporter une unité capable d’accueillir le général (voir description des Généraux dans la liste des unités).
+{BET_FACTION_NOT_IN_ALLIANCE}			Cette faction doit faire partie d’une alliance. Toute modification de l'IA des unités sera perdue.
+{BET_UNIT_OUTSIDE_DEPLOYMENT_AREA}		Cette unité n’est pas dans une zone de déploiement.
+{BET_NO_HOME_FACTION_SET}				Vous devez spécifier la faction locale dans la boîte de dialogue Conditions de victoire.
+{BET_NEED_TWO_ALLIANCES}				Une bataille requiert au minimum deux alliances. Spécifiez-les dans la boîte de dialogue Conditions de victoire.
+{BET_ALLIANCE_WITH_NO_CONDITIONS}		Chaque alliance doit avoir au moins une condition de victoire.
+{BET_DURATION_SET_TO_ZERO}				La durée de la bataille est actuellement de 0 heure.
+{BET_ERROR_REPORT_END}					Le script de bataille peut être généré, mais vous risquez d’avoir des erreurs de chargement ou autres effets indésirables.\nIl est préférable d'éliminer toutes les erreurs.
+{BET_SANITY_REPORT}						Rapport d’erreurs
+{BET_REGIONS_TOOL}						Modifier régions
+{BET_EDIT_ROADS}						Modifier route
+{BET_EDIT_FACTION}						Modifier faction
+{BET_STARTING_DENARI}					Deniers de départ
+{BET_RESOURCES}					Ressources
+{BET_WATCHTOWERS}					Tour de guet
+{BET_STARTING_FORMATION}					Sélectionner formation initiale
+{BET_STONE_ROAD}					Route pavée
+{BET_DIRT_ROAD}					Chemin de terre
+{BET_SELECT_BRUSH}					Brosses disponibles
+{BET_SELECT_TEXTURE}					Textures disponibles
+{BET_CREATE_CHARACTER_TOOLTIP}					Cliquez sur une case pour placer un nouveau personnage.\nDouble-cliquez sur un personnage existant pour modifier ses informations.
+{BET_EDIT_REGIONS_TOOLTIP}					Faites un clic droit sur une case pour prélever une couleur à reproduire.\nAppliquez la couleur avec le bouton gauche de la souris.\nLa brosse vous permet de peindre des zones plus larges.
+{BET_ADD_ARMY_TOOLTIP}					Cliquez sur un général existant,\nun personnage nommé ou une communauté pour ajouter/enlever des unités à l’armée.
+{BET_ADD_SETTLEMENT_TOOLTIP}					Faites un clic gauche sur une communauté pour en créer une nouvelle.\nDouble-cliquez sur une communauté existante pour modifier ses informations.\nL'outil Déplacer vous permet de repositionner une communauté.\nL'outil Modifier régions vous permet de modifier les positions par défaut des communautés.
+{BET_CREATE_NEW_REGION}					Créer nouvelle région
+{BET_REGION_NAME}					Nom de la région :
+{BET_SETTLEMENT_NAME}					Nom de la communauté :
+{BET_NEED_TO_SELECT_A_NAME}					Vous devez choisir un nom avant de continuer.
+{BET_INVALID_CHARACTER_TYPE_FOR_POS}					Vous ne pouvez pas créer un personnage du type choisi à cette position.
+{BET_NEED_TO_SELECT_CHARACTER_TYPE}					Pour créer un personnage, vous devez choisir un type.
+{BET_NEED_TO_SELECT_FACTION_CHARACTER}					Pour créer un personnage, vous devez choisir une faction.
+{BET_NEED_TO_SELECT_FACTION_SETTLEMENT}					Pour créer une communauté, vous devez choisir une faction.
+{BET_NEED_TO_SELECT_PLAN}					Pour créer une communauté, vous devez choisir un plan.
+{BET_NEED_TO_SELECT_SIZE}					Pour créer une communauté, vous devez choisir une taille.
+{BET_RECALCULATE_REGIONS}					Recalculer les frontières des régions.
+{BET_SEA_REGION_COLOUR_ERROR}					Cette couleur est réservée aux régions aquatiques et ne peut être utilisée pour une région terrestre.
+{BET_LAND_REGION_COLOUR_ERROR}					Cette couleur n’est pas réservée aux régions aquatiques et ne peut être utilisée pour créer une région aquatique.
+{BET_SETTLEMENT_COLOUR_ERROR}					Cette couleur est réservée aux positions par défaut des communautés sur la carte des régions et ne peut être utilisée comme couleur de région
+{BET_PORT_COLOUR_ERROR}					Cette couleur est réservée aux positions par défaut des ports sur la carte des régions et ne peut être utilisée comme couleur de région.
+{BET_CREATE_CHARACTER_MODE_HELP}					Faites un clic gauche sur la carte pour créer un nouveau personnage. Double-cliquez sur un personnage existant pour modifier à nouveau ses informations. Le premier membre de la famille que vous positionnerez sera le chef de faction.
+{BET_ADD_UNIT_MODE_HELP}					Faites un clic gauche sur un général ou amiral pour ajouter des unités à son armée. Cliquez sur une communauté pour ajouter des unités à sa garnison.
+{BET_ADD_SETTTLEMENT_MODE_HELP}					La carte indique les emplacements possibles des communautés et ports. Cliquez sur un emplacement pour y créer une communauté. Vous pouvez repositionner les emplacements des communautés avec l’outil Déplacer ou en mode Modifier régions.
+{BET_ADD_RESOURCE_MODE_HELP}					Sélectionnez une ressource et son niveau, une tour de guet ou un fort dans la boîte de dialogue et placez cet objet sur la carte en faisant un clic gauche.
+{BET_MOVE_MODE_HELP}					Faites un clic gauche sur un objet pour le déplacer, puis cliquez à nouveau pour le placer sur sa nouvelle position.
+{BET_FAMILY_TREE_DISABLED_HELP}					Choisissez une faction possédant un chef dans la liste qui s’affiche. (Créez un chef de faction en créant un membre de la famille en mode Créer un personnage.)
+{BET_FAMILY_TREE_MODE_HELP}					Pour lier plusieurs familles, sélectionnez un nom dans la liste et une case de l’arbre généalogique puis choisissez Ajouter comme épouse ou Ajouter comme enfant.
+{BET_EDIT_REGIONS_MODE_HELP}					Pour peindre une région, choisissez une couleur dans la palette ou faites un clic droit sur une région existante pour prélever sa couleur. Si vous sélectionnez une couleur de région non utilisée, vous créerez une nouvelle région dès que vous sélectionnerez une case. Vous ne pouvez pas appliquer une couleur de région terrestre à une région aquatique et vice-versa. Si vous supprimez la dernière case d’une région, vous effacez la région. Cliquez sur Recalculer les frontières des régions pour recalculer les régions côtières.
+{BET_EDIT_REGION_MODE_PLACE_SETTLEMENT_HELP}					Lorsque vous créez une nouvelle région, vous devez définir l’emplacement d’une communauté.
+{BET_EDIT_REGION_MODE_PLACE_PORT_HELP}					Lorsque vous créez une nouvelle région ayant accès à la mer, vous devez définir l’emplacement d’un port sur la côte.
+{BET_EDIT_CLIMATE_MODE_HELP}					Sélectionnez un type de climat dans la liste ou faites un clic droit sur une case pour prélever son climat.
+{BET_EDIT_GROUND_TYPE_MODE_HELP}					Sélectionnez un type de terrain dans la liste ou faites un clic droit sur une case pour prélever son type de terrain. Les zones au-dessous du niveau de la mer doivent être de type aquatique.
+{BET_EDIT_RIVERS_MODE_HELP}					Sélectionnez un élément du terrain dans la liste et appliquez-le sur le sol avec le bouton gauche de la souris. Si la case ne change pas de couleur, c’est que ce placement n’est pas valide pour ce type d’élément. Supprimez un élément en faisant un clic droit. Pour supprimer un cours d’eau, vous devez procéder dans le sens inverse de son placement.
+{BET_EDIT_TRADE_ROUTES_MODE_HELP}					Cet élément n’est pas encore totalement fonctionnel !
+{BET_EDIT_HEIGHTS_MODE_HELP}					Maintenez le bouton gauche de la souris enfoncé et déplacez le curseur vers le haut ou le bas pour régler le relief. Maintenez la touche Maj. et le bouton gauche de la souris enfoncés pour niveler le terrain depuis l’emplacement sélectionné.
+{BET_TRIUMPH_VALUE}					Valeur triomphale :
+{BET_DEPLOYMENT_AREA_HELP}					Cliquez en bas pour placer des coins. Les zones de déploiement doivent comporter au moins 3 points. Effacez les coins en faisant un clic droit lorsque le curseur est en surbrillance. Déplacez les coins en faisant un clic gauche lorsque le curseur est en surbrillance. Pour créer une nouvelle zone, quittez ce mode puis revenez.
+{BET_EDIT_TEXTURES_HELP}					Choisissez une texture et une brosse dans la liste. Appliquez la texture choisie avec le bouton gauche de la souris. Ajoutez ou supprimez de la végétation en appliquant la texture de terrain correspondante. Cliquez sur Actualiser la disposition des arbres pour visualiser les changements de la végétation.
+{BET_PLACE_SETTLEMENT_HELP}					Sélectionnez les informations d’une communauté dans la liste. Glissez-déposez avec le bouton gauche de la souris pour positionner la communauté. Relâchez le bouton gauche lorsque le modèle est dans une position valide (couleur verte). Si vous faites un clic droit en maintenant le bouton gauche appuyé, vous changerez l’orientation de la communauté. Déplacez une communauté en mode Placer modèle. Supprimez une communauté en la sélectionnant dans la liste des factions et en appuyant sur Suppr.
+{BET_PLACE_MODEL_HELP}					Choisissez un modèle dans la liste. Placez le modèle en faisant un clic gauche. Relâchez le bouton gauche de la souris lorsque le modèle est dans une position valide (couleur verte). Si vous faites un clic droit tout en maintenant le bouton gauche appuyé, vous changerez l’orientation de la communauté. Faites un clic droit sur un modèle existant pour l’effacer.
+{BET_ADD_UNITS_HELP}					Sélectionnez une unité dans la liste. Une unité comportant une étoile peut accueillir un général. Chaque armée doit comporter au moins un général. Faites un clic gauche sur une zone de déploiement existante pour déployer les unités et ajustez la largeur des rangs en maintenant le bouton gauche enfoncé et en déplaçant la souris. Pour déplacer une unité existante, glissez-déposez son drapeau à la position souhaitée. Vous pouvez changer l’orientation et la largeur de formation d’une unité en glissant-déposant son drapeau en maintenant les deux boutons de la souris enfoncés.
+{BET_EDIT_ROAD_HELP}					Sélectionnez un type de route dans la liste puis faites un clic gauche pour placer les cases.
+{BET_ERROR_UNIT_OVERFLOW}					Une armée peut contenir un maximum de 20 unités
+{BET_ERROR_UNIT_IN_ALIEN_AREA}					Impossible d’ajouter une unité dans cette zone de déploiement : les unités d’une autre armée sont déjà déployées ici.
+{BET_ERROR_INVALID_DEPLOYMENT}					Cette unité est déployée dans une position non valide et n’a pu être déplacée dans une position valide. Veuillez la déplacer manuellement afin qu’elle ne sorte pas de la zone de déploiement et ne recouvre pas un élément du terrain.
+{BET_ERROR_UNIT_CHANGE_ARMY}					L’unité déplacée a changé d’armée (voire de faction) car sa nouvelle zone de déploiement appartient à une autre armée.
+{BET_ERROR_UNITS_LEFT_IN_DEPLOYMENT_AREA}					Impossible d'effacer cette zone de déploiement car une zone requiert plus de 3 points lorsqu'elle comporte des unités.
+{BET_SELECT_AN_ARMY_HELP}					Sélectionnez une armée dans la liste des factions pour finaliser la condition de victoire.
+{BET_SELECT_A_SETTLEMENT_HELP}					Sélectionnez une communauté dans la liste des factions pour finaliser la condition de victoire.
+{BET_SELECT_LOCATION_HELP}					Sélectionnez un point sur la carte en cliquant sur le sol pour finaliser la condition de victoire.
+{BET_INVALID_VICTORY_CONDITION}					Impossible de continuer : condition de victoire invalide.
+{BET_EDIT_ALLIANCES}					Modifier alliances
+{BET_ALLIED}					Allié
+{BET_AT_WAR}					En guerre
+{BET_NEUTRAL}					Neutre
+{BET_ADD_ALLY}					Définir la faction sélectionnée comme alliée à cette faction.
+{BET_ADD_ENEMY}					Définir la faction sélectionnée comme ennemie de cette faction.
+{BET_REMOVE_ALLY}					Effacer la faction sélectionnée de la liste d’alliés de cette faction.
+{BET_REMOVE_ENEMY}					Effacer la faction sélectionnée de la liste d’ennemis de cette faction.
+{BET_EDIT_TRAITS}					Modifier traits de caractère
+{BET_TRAIT_LEVEL}					Niveau des traits de caractère
+{BET_ADD_TRAIT}					Ajouter trait de caractère sélectionné
+{BET_REMOVE_TRAIT}					Supprimer trait de caractère sélectionné
+{BET_EXISTING_TRAITS}					Traits de caractère existants
+{BET_ADD_FACTION_TO_ALLIANCE}					Ajouter la faction de cette colonne à cette alliance.
+{BET_RECALCULATING_REGIONS}					Actualisation des frontières des régions en cours. Veuillez patienter.
+{BET_IS_PLAYABLE}					Jouable ?
+{BET_NAMED_CHARACTER_WITH_NO_ARMY}					Ce personnage a un nom mais aucune armée. Ceci n’est pas permis.
+{BET_STRAT_ERROR_REPORT_END}					Le script de campagne peut être généré, mais vous risquez d’avoir des erreurs de chargement ou autres effets indésirables.\nIl est préférable d'éliminer toutes les erreurs.
+{BET_ADD_RESOURCE}					Ajouter la ressource sélectionnée à cette région.
+{BET_REMOVE_RESOURCE}					Supprimer de cette région la ressource sélectionnée dans la liste.
+{BET_RIVER_SOURCE}					Source
+{BET_RIVER}					Cours d’eau
+{BET_CLIFF}					Falaise
+{BET_VOLCANO}					Volcan
+{BET_FORD}					Gué
+{BET_RECALCULATING_FEATURES}					Actualisation des éléments du terrain en cours.
+{BET_RECALCULATING_MOUNTAINS}					Actualisation de l’emplacement des montagnes en cours.
+{BET_SAVING_GAME}					Sauvegarde en cours.
+{BET_MUST_BE_1_ATTACKER}					Il doit y avoir au moins 1 alliance en attaque. Définissez l’alliance en attaque dans la boîte de dialogue Modifier alliance.
+{BET_MUST_BE_1_DEFENDER}					Il doit y avoir au moins 1 alliance en défense. Définissez l’alliance en défense dans la boîte de dialogue Modifier alliance.
+{BET_PLAYABLE}					Jouable
+{BET_NONPLAYABLE}					Non jouable
+{BET_UNLOCKABLE}					Déverrouillable
+{BET_DUPLICATE_CHARACTER_NAME}					Deux personnages (ou plus) ont le même nom.
+{BET_REGION}					Région
+{BET_SETTLEMENT_PLACEMENT_INVALID}					La communauté de cette région est placée sur une case non valide.
+{BET_PORT_PLACEMENT_INVALID}					Le port de cette région est placé sur une case non valide.
+{BET_NO_DEFAULT_FACTION}					Aucune faction n’a été affectée à cette région.
+{BET_NO_REBEL_FACTION}					Aucune faction rebelle n’a été affectée à cette région.
+{BET_TO_FEW_TILES_IN_REGION}					Cette région comporte moins de 5 cases.
+{BET_TWO_REGIONS_SAME_COLOUR}					Cette région a le même code couleur qu’une autre région.
+{BET_NO_SETTLEMENT_POS_SET}					La position du site de cette région n’a pas été définie.
+{BET_NO_PORT_POS_SET}					Cette région comporte des cases côtières mais aucun port n’a été placé.
+{BET_INVALID_PLACEMENT_IN_SEA}			Placement non valide : cette case est une case aquatique
+{BET_INVALID_PLACEMENT_IN_DENSE_FOREST}		Placement non valide : cette case est une forêt dense
+{BET_INVALID_PLACEMENT_FLOODED}			Placement non valide : cette case est un terrain inondé
+{BET_INVALID_PLACEMENT_TOO_MOUNTAINOUS}		Placement non valide : cette case est trop escarpée
+{BET_INVALID_PLACEMENT_ON_CLIFF}			Placement non valide : cette case est une falaise
+{BET_INVALID_PLACEMENT_ON_INTERNAL_BORDER}	Placement non valide : cette case est une frontière interne
+{BET_INVALID_PLACEMENT_ON_EXISTING_LANDMARK}	Placement non valide : cette case comporte une merveille
+{BET_INVALID_PLACEMENT_ON_WALL}			Placement non valide : cette case comporte un mur
+{BET_INVALID_PLACEMENT_IN_RIVER}			Placement invalide : cette case est un cours d’eau
+{BET_INVALID_PLACEMENT_ON_ENEMY_CHARACTER}	Placement non valide : cette case est bloquée par un autre objet
+{BET_INVALID_PLACEMENT_WRONG_REGION}		Placement non valide : impossible de changer de région
+{BET_INVALID_PLACEMENT_NON_COASTAL}			Placement non valide : cette case n’est pas côtière
+{BET_EDIT_FORT}						Modifier informations sur le fort
+{BET_FORTIFICATION_LEVEL}				Niveau de fortification
+{BET_GATE_STRENGTH}					Résistance des portes
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_EDIT_HEIGHTS_MODE_HELP}				Maintenez le bouton gauche de la souris enfoncé et déplacez le curseur vers le haut ou le bas pour régler le relief.  Maintenez la touche Maj. et le bouton gauche de la souris enfoncés pour niveler le terrain depuis l’emplacement sélectionné.  Maintenez la touche Ctrl et le bouton gauche de la souris enfoncés pour adoucir le relief.
+{BET_SELECT_ROAD_TYPE}					Sélectionner type de route
+{BET_SELECT_UNIT}						Sélectionner unité
+{BET_SELECT_SETTLEMENT_PLAN}				Sélectionner plan de communauté
+{BET_SELECT_MODEL}					Sélectionner modèle
+{BET_SELECT_SUBFACTION}					Sélectionner la faction d’origine de l’esclave
+{BET_INVALID_PLACEMENT_ON_EXISTING_VOLCANO}	Placement non valide : cette case comporte un volcan
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_AMBIENT_SETTLEMENT}		Ambiance communauté ?
+{BET_MULTIPLAYER}				Carte multijoueur ?
+{BET_SINGLEPLAYER}			Carte Un joueur ?
+{BET_WALL_CULTURE}			Type de faction dirigeant
+{BET_NUM_SAP_POINTS}			Nbre points de sape
+{BET_TIME_TO_REINFORCE}			Rejoint dans %d minutes (temps réel)
+{BET_ONE_MIN_TO_REINFORCE}		Rejoint dans 1 minute (temps réel)
+{BET_ERROR_DELETING_SETTLEMENT_WRONG_MODE}	Impossible d’effacer les communautés dans ce mode. Pour effacer une communauté, sélectionnez-la dans la liste de factions et appuyez sur la touche Suppr.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BET_BELIEF}			Croyance
+{BET_RE_EMERGENT}			Peut réapparaître ?
+{BET_DEAD_UNTIL_RESURRECTED}	Morte jusqu'à réapparition ?
+{BET_SUPERFACTION}		Contrôle plusieurs factions ?
+{BET_TWO_ARMIES_ON_SAME_TILE}	Il y a deux armées (ou plus) placées sur la même case
+{BET_LEGION_NAME}			Nom de la légion
+{BET_WORLD_MAP_POS}		Position sur la carte du monde :
+{BET_SETTLEMENT_OWNER_NOT_AT_HOME}	Une communauté non passive a été ajoutée et la faction qui en a le contrôle ne dispose pas d'armées sur le champ de bataille
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:46:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:40:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:22:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

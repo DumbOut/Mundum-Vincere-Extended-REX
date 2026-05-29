@@ -1,0 +1,787 @@
+¬ Text file converted with loc_parser
+{DRT_ROMAN_PROTECTORATE}				Akzeptiert das Ende Eurer Unabhängigkeit und werdet zum Protektorat; die Armeen Roms werden Euch beschützen.
+{DRT_ROMAN_ALLIANCE}				Ein Bündnis zwischen uns würde unsere Feinde in Furcht erbeben lassen.
+{DRT_ROMAN_CEASEFIRE}				Es wird Zeit, dem unnötigen Blutvergießen ein Ende zu setzen.
+{DRT_ROMAN_NULLIFY_ALLIANCE}			Es wird Zeit, unser Bündnis zu lösen, so dass jeder von uns allein seinen Weg zum Ruhm gehen kann!
+{DRT_ROMAN_TRADE}					Der Handel brächte unser beider Völker viel Reichtum ein.
+{DRT_ROMAN_ACCESS}				Wenn die Armeen Roms durch Eure Lande marschieren dürften, wäre uns dies beim Besiegen unserer Feinde eine große Hilfe.
+{DRT_ROMAN_ATTACK}				Eure Hilfe im Kampf gegen unsere Feinde käme uns sehr gelegen.
+{DRT_ROMAN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_ROMAN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_ROMAN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_ROMAN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_ROMAN_ACCEPT_GIFT}				Eine Anerkennung unseres Wertes ist stets willkommen. Habt Dank.
+{DRT_ROMAN_ACCEPT_BRIBE}				Gold vermag stets, Missverständnisse auszuräumen, ehe Freundschaft geschlossen wird. Habt Dank.
+{DRT_ROMAN_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis ist ebenso liebenswürdig wie vernünftig.
+{DRT_ROMAN_ACKNOWLEDGE_REJECTION}			Eure Weigerung ist liebenswürdig, doch zeugt sie kaum von Vernunft.
+{DRT_ROMAN_ACKNOWLEDGE_DECLARATION}		Ihr lasst uns kaum eine - oder besser gar keine - Wahl.
+{DRT_ROMAN_REJECT_NOT_INTERESTED}			Banale Debatten sind nur reine Zeitverschwendung.
+{DRT_ROMAN_REJECT_TOO_MANY_COUNTERS}		Wir haben lange sinnlos debattiert und sind doch zu keinem Entschluss gekommen. Diese Verhandlung muss enden.
+{DRT_ROMAN_REJECT_BRIBE}				Unsere Ehre und Freundschaft sind nicht billig zu haben, auch nicht mit Eurem Gold.
+{DRT_ROMAN_DECLINE_PROTECTORATE}			Freiheit ist uns kostbar, wir geben sie nicht leichtfertig auf. Wir werden nicht Eure Sklaven werden - und wenn Ihr die Aufforderung in noch so schöne Worte kleidet.
+{DRT_ROMAN_DECLINE_ALLIANCE}			Ein Bündnis entspricht zurzeit nicht unserem besten Interesse.
+{DRT_ROMAN_DECLINE_CEASEFIRE}			Wir sehen noch keinen Grund, die Kämpfe zwischen unseren Völkern einzustellen.
+{DRT_ROMAN_DECLINE_NULLIFY}			Wir sehen keinen vernünftigen Grund, das Bündnis unserer Völker aufzuheben.
+{DRT_ROMAN_DECLINE_ACCESS}			Ihr mögt einen Grund sehen, Eure Truppen durch unser Land zu senden, wir jedoch nicht. Die Erlaubnis bleibt Euch zunächst vorenthalten.
+{DRT_ROMAN_DECLINE_REGION}			Unsere Väter opferten ihr Leben, um dies Land zu sichern. Wir opfern unseres, um es zu behalten. Es ist nicht unsere Art, Leuten wie Euch dieses Land einfach abzutreten!
+{DRT_ROMAN_DECLINE_ATTACK}			Diese Leute anzugreifen liegt nicht in unserem besten Interesse, daher können wir leider Eurer Bitte nicht nachkommen.
+{DRT_ROMAN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_ROMAN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_ROMAN_DECLINE_OFFER}				Wir erwarten weder solch einen Vorschlag, noch nehmen wir ihn an.
+{DRT_ROMAN_DECLINE_DEMAND}			Und gäbt Ihr uns Eure Töchter als Vestalinnen oder Eure Frauen als Metzen, wir würden uns Eurem Willen nicht beugen.
+{DRT_ROMAN_DECLINE_YEARLY_PAYMENT}		Auch gegen Euer Gold können wir unser Land nicht aufgeben.
+{DRT_ROMAN_DECLINE_PAYMENT_TOO_HIGH}			Bei allem Respekt können wir den Vorschlag nicht annehmen, damit man uns nicht als Diebe betrachtet!
+{DRT_ROMAN_DECLINE_PAYMENT_TOO_LOW}			Bei allem Respekt können wir Euren Vorschlag nicht annehmen. Wir sind gesprächsbereit, doch prostituieren wir uns nicht für derart wenig.
+{DRT_ROMAN_ACCEPT_PROPOSITION}			Wir nehmen Euren wohlwollenden und gutmütigen Vorschlag an.
+{DRT_ROMAN_ACCEPT_COUNTER}			Eure Antwort auf unser Anliegen ist annehmbar.
+{DRT_ROMAN_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_ROMAN_COUNTER_OFFER}				Wir machen folgenden Vorschlag ...
+{DRT_ROMAN_COUNTER_DEMAND}			Wir schlagen Folgendes vor ...
+{DRT_ROMAN_COUNTER_INFO}				Wir sind sicher, dass Ihr diese Informationen für nützlich befindet ...
+{DRT_ROMAN_COUNTER_PROPOSITION}			Wir haben Euren Vorschlag bedacht und sind der Ansicht, dass folgender unserem Interesse eher gerecht würde ...
+{DRT_ROMAN_COUNTER_BRIBE}				Unseren guten Willen könntet Ihr Euch sichern, wenn Ihr eine goldene Gabe hättet ...
+{DRT_ROMAN_RECIPIENT_WELCOME_ALLIED}		Willkommen, Freund Roms! Worüber wollt Ihr reden?
+{DRT_ROMAN_RECIPIENT_WELCOME_NEUTRAL}		Ave! Was habt Ihr uns vorzuschlagen?
+{DRT_ROMAN_RECIPIENT_WELCOME_AT_WAR}		Macht schnell! Der Krieg lässt uns wenig Zeit für Höflichkeit gegenüber Euresgleichen!
+{DRT_ROMAN_FINISHED}				Diese Verhandlung muss enden. Jupiter Optimus Maximus segne unser nächstes Treffen, auf dass es ebenso nützlich verlaufe!
+{DRT_BARBARIAN_PROTECTORATE}			Akzeptiert das Ende Eurer Unabhängigkeit. Unter unserem Schutz werdet Ihr lang und in Frieden leben.
+{DRT_BARBARIAN_ALLIANCE}				Ein Bündnis zwischen uns würde unsere Feinde in Schrecken erbeben lassen.
+{DRT_BARBARIAN_CEASEFIRE}				Es wird Zeit, dem Blutvergießen ein Ende zu setzen.
+{DRT_BARBARIAN_NULLIFY_ALLIANCE}			Es wird Zeit, dass wir die Ehrlichkeit beenden. Vergessen wir Worte wie 'Bündnis' und gehen wir getrennte Wege.
+{DRT_BARBARIAN_TRADE}				Der gemeinsame Handel brächte unseren Völkern viel Reichtum ein.
+{DRT_BARBARIAN_ACCESS}				Es wäre eine große Hilfe, wenn wir unsere Feinde auf Eurem Land verfolgen dürften.
+{DRT_BARBARIAN_ATTACK}				Eure Hilfe gegen unsere Feinde wäre hervorragend, und unser Dank wäre Euch gewiss.
+{DRT_BARBARIAN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_BARBARIAN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_BARBARIAN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_BARBARIAN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_BARBARIAN_ACCEPT_GIFT}			Geschenke segnen den Schenkenden. Habt Dank.
+{DRT_BARBARIAN_ACCEPT_BRIBE}			Gold löst jedes Missverständnis zwischen denen, die Freunde werden wollen. Vielen Dank.
+{DRT_BARBARIAN_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis zeugt von Charakterstärke und Weisheit.
+{DRT_BARBARIAN_ACKNOWLEDGE_REJECTION}		Eure Weigerung ist schlecht durchdacht. Ein weniger verständnisvolles Volk wäre womöglich beleidigt.
+{DRT_BARBARIAN_ACKNOWLEDGE_DECLARATION}		Ihr lasst uns keine Wahl.
+{DRT_BARBARIAN_REJECT_NOT_INTERESTED}		Es ist Zeitverschwendung, leere Worte mit Euch zu wechseln.
+{DRT_BARBARIAN_REJECT_TOO_MANY_COUNTERS}		Wir haben Euch die Güte erwiesen, Euren Quatsch anzuhören, doch wurde nichts Hörenswertes gesagt. Das Schwatzen ist nun vorbei.
+{DRT_BARBARIAN_REJECT_BRIBE}			Wir sind nicht einfältig. Unsere Ehre und Freundschaft sind keine Handelswaren auf dem Marktplatz. Nicht einmal für Euer Gold.
+{DRT_BARBARIAN_DECLINE_PROTECTORATE}		Freiheit ist ein Schatz, den man nicht leichtfertig verschenkt. Ihr braucht uns nicht als Diener und Sklaven. Eure schönen Worte können Eure Absichten nicht verbergen.
+{DRT_BARBARIAN_DECLINE_ALLIANCE}			Ein Bündnis wäre nicht gut. Wir haben gesprochen und werden unsere Meinung nicht ändern.
+{DRT_BARBARIAN_DECLINE_CEASEFIRE}			Den Kampf beenden! Ein guter Scherz! Wir sehen keinen Grund, den Kampf zwischen unseren Völkern zu diesem Zeitpunkt zu beenden. Einige von Euch leben noch!
+{DRT_BARBARIAN_DECLINE_NULLIFY}			Wir sind nicht Eurer Meinung. Wir sehen keinen Grund, der für das Ende unseres Bündnisses spräche.
+{DRT_BARBARIAN_DECLINE_ACCESS}			Ihr mögt einen Grund sehen, Eure Truppen durch unser Land zu senden, wir jedoch nicht. Wir sind keine Einfaltspinsel - wir lehnen ab.
+{DRT_BARBARIAN_DECLINE_REGION}			Hier liegen die Gräber und Gruften unserer Ahnen. Dieses Land tränkten wir mit unserem Blut. Wir können Euch unser Erbgut nicht abtreten!
+{DRT_BARBARIAN_DECLINE_ATTACK}			Wir sehen für uns keinen Vorteil eines Angriffs auf dieses Volk, daher müssen wir leider ablehnen.
+{DRT_BARBARIAN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_BARBARIAN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_BARBARIAN_DECLINE_OFFER}			Dieses Angebot haben wir weder erwartet noch gewollt, daher müssen wir ablehnen.
+{DRT_BARBARIAN_DECLINE_DEMAND}			Selbst wenn Ihr Eure Innereien den höchsten Göttern opfern würdet, würden wir nicht auf solche Forderungen eingehen.
+{DRT_BARBARIAN_DECLINE_YEARLY_PAYMENT}		Wir können unser Land nicht aufgeben, auch nicht für solche Geschenke.
+{DRT_BARBARIAN_DECLINE_PAYMENT_TOO_HIGH}		Euer Angebot ist großzügig, sehr großzügig - und aus diesem Grunde müssen wir es ablehnen. Man soll uns nicht Diebe nennen!
+{DRT_BARBARIAN_DECLINE_PAYMENT_TOO_LOW}		Ihr müsst uns für einfache Narren halten, die nicht rechnen können. Derart armselige Bedingungen akzeptieren wir nicht.
+{DRT_BARBARIAN_ACCEPT_PROPOSITION}		Wir nehmen Euer gut gemeintes und großzügiges Angebot an.
+{DRT_BARBARIAN_ACCEPT_COUNTER}			Eure Antwort ist annehmbar.
+{DRT_BARBARIAN_ACCEPT_DECLARATION}			Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_BARBARIAN_COUNTER_OFFER}			Wir bieten an ...
+{DRT_BARBARIAN_COUNTER_DEMAND}			Wir schlagen Folgendes vor ...
+{DRT_BARBARIAN_COUNTER_INFO}			Wir hoffen, Ihr werdet dies nützlich finden ...
+{DRT_BARBARIAN_COUNTER_PROPOSITION}		Wir haben es beredet und finden dies besser ...
+{DRT_BARBARIAN_COUNTER_BRIBE}			Unsere Freundschaft könnte durch einen angemessenen Tribut - sagen wir ein 'Geschenk' - aus Gold gesichert werden ...
+{DRT_BARBARIAN_RECIPIENT_WELCOME_ALLIED}		Willkommen, Freund! Wie können wir Euch helfen?
+{DRT_BARBARIAN_RECIPIENT_WELCOME_NEUTRAL}		Seid gegrüßt! Was wolltet Ihr uns heute bieten?
+{DRT_BARBARIAN_RECIPIENT_WELCOME_AT_WAR}		Beeilt Euch. Wir haben heute Besseres zu tun, als Eurem erbärmlichen Gejammer zu lauschen!
+{DRT_BARBARIAN_FINISHED}				Dieses Gespräch ist beendet. Möge das nächste ebenso nützlich sein ...
+{DRT_CARTHAGE_PROTECTORATE}			Es wird Zeit, dass Ihr das Ende Eurer Unabhängigkeit akzeptiert und als Protektorat den Schutz unserer Armeen und die Bequemlichkeit unseres Wohlstands genießt.
+{DRT_CARTHAGE_ALLIANCE}				Ein Bündnis zwischen uns würde unsere Feinde beunruhigen, und das wäre gut.
+{DRT_CARTHAGE_CEASEFIRE}				Es ist Zeit, diesen profitlosen Krieg zu beenden.
+{DRT_CARTHAGE_NULLIFY_ALLIANCE}			Es ist Zeit, unser profitloses Bündnis zu beenden ...
+{DRT_CARTHAGE_TRADE}				Der Handel zwischen unseren Völkern würde viel Reichtum bringen, und der führt zu Größe.
+{DRT_CARTHAGE_ACCESS}				Durch Eure Lande marschieren zu dürfen wäre eine große Hilfe bei unseren Mühen gegen viele Feinde.
+{DRT_CARTHAGE_ATTACK}				Eure Hilfe im Kampf gegen unsere Feinde käme uns sehr gelegen.
+{DRT_CARTHAGE_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_CARTHAGE_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_CARTHAGE_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_CARTHAGE_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_CARTHAGE_ACCEPT_GIFT}			Ein Geschenk ist stets willkommen und wirft ein gutes Licht auf den Schenkenden. Habt Dank für diese Nettigkeit.
+{DRT_CARTHAGE_ACCEPT_BRIBE}			Gold erleichtert die Last einer jeden Freundschaft. Unser Dank kennt kaum Grenzen.
+{DRT_CARTHAGE_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis ist für alle von Vorteil und beweist, dass bei Eurem Volk die Weisheit noch am Leben ist.
+{DRT_CARTHAGE_ACKNOWLEDGE_REJECTION}		Eure Weigerung ist liebenswürdig, doch nicht unbedingt gut durchdacht.
+{DRT_CARTHAGE_ACKNOWLEDGE_DECLARATION}		Ihr lasst uns keine Wahl, als Eure Entscheidung hinzunehmen.
+{DRT_CARTHAGE_REJECT_NOT_INTERESTED}		Plattitüden und leer Worte wie Eure sind nur sinnloser Zeitvertreib.
+{DRT_CARTHAGE_REJECT_TOO_MANY_COUNTERS}		Unsere Ohren sind Eurer endlosen Worte müde. Nichts Sinnvolles wurde gesagt. Guten Tag.
+{DRT_CARTHAGE_REJECT_BRIBE}			Unsere Ehre, Loyalität und Freundschaft sind keine billigen Waren, die man für eine Handvoll Münzen erwirbt.
+{DRT_CARTHAGE_DECLINE_PROTECTORATE}		Freiheit ist uns kostbar, wir geben sie nicht leichtfertig auf. Wir werden nicht Eure Sklaven werden - und wenn Ihr die Aufforderung in noch so schöne Worte kleidet.
+{DRT_CARTHAGE_DECLINE_ALLIANCE}			Ein Bündnis entspricht zurzeit nicht unserem besten Interesse.
+{DRT_CARTHAGE_DECLINE_CEASEFIRE}			Wir sehen keinen Grund, den Kampf zwischen unseren Völkern zu diesem Zeitpunkt zu beenden.
+{DRT_CARTHAGE_DECLINE_NULLIFY}			Wir sehen keinen Grund, das Bündnis zwischen uns aufzulösen.
+{DRT_CARTHAGE_DECLINE_ACCESS}			Wir verstehen nicht die Notwendigkeit, Eure Truppen durch unser Land zu führen. Es darf nicht geschehen.
+{DRT_CARTHAGE_DECLINE_REGION}			Dieser Boden ist unser, wir haben ihn mit dem Blut vieler guter und nobler Männer gekauft. Wir werden Euch nicht die Herrschaft abtreten.
+{DRT_CARTHAGE_DECLINE_ATTACK}			Diese Leute anzugreifen wäre weder lohnend noch weise für uns, daher müssen wir ablehnen.
+{DRT_CARTHAGE_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_CARTHAGE_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_CARTHAGE_DECLINE_OFFER}			Dieses Angebot haben wir nicht erwartet. Wir lehnen es ab.
+{DRT_CARTHAGE_DECLINE_DEMAND}			Wir können dem nicht zustimmen, und wenn Ihr Eure Kinder und deren Kinder unseren Göttern opfern würdet.
+{DRT_CARTHAGE_DECLINE_YEARLY_PAYMENT}		Wir können trotz der Schätze, die Ihr uns bietet, unser Land nicht aufgeben.
+{DRT_CARTHAGE_DECLINE_PAYMENT_TOO_HIGH}		Ein wahrer Händler bietet einen fairen Wert: bietet er zu viel, steigert dies den Verdacht. Wir müssen das Angebot ablehnen.
+{DRT_CARTHAGE_DECLINE_PAYMENT_TOO_LOW}		Ein weiser Händler kennt den Wert dessen, was er verlangt. Eure Wertschätzung ist billig, nicht weise, und wir lehnen das Angebot ab.
+{DRT_CARTHAGE_ACCEPT_PROPOSITION}			Wir nehmen Euer großmütiges Angebot an.
+{DRT_CARTHAGE_ACCEPT_COUNTER}			Eure Reaktion auf unseren großzügigen Vorschlag ist uns willkommen.
+{DRT_CARTHAGE_ACCEPT_DECLARATION}			Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_CARTHAGE_COUNTER_OFFER}			Wir machen folgenden Vorschlag ...
+{DRT_CARTHAGE_COUNTER_DEMAND}			Wir schlagen Folgendes vor ...
+{DRT_CARTHAGE_COUNTER_INFO}			Wir sind sicher, dass Ihr diese Informationen für nützlich befindet ...
+{DRT_CARTHAGE_COUNTER_PROPOSITION}		Nachdem wir Euer Angebot überdacht haben, halten wir Folgendes für alle für angemessener ...
+{DRT_CARTHAGE_COUNTER_BRIBE}			Durch ein angemessenes Goldgeschenk wäre Euch unsere Freundschaft gewiss ...
+{DRT_CARTHAGE_RECIPIENT_WELCOME_ALLIED}		Willkommen, Freunde und Verbündeter! Wie können wir Euch helfen?
+{DRT_CARTHAGE_RECIPIENT_WELCOME_NEUTRAL}		Seid gegrüßt! Was habt Ihr uns vorzuschlagen?
+{DRT_CARTHAGE_RECIPIENT_WELCOME_AT_WAR}		Macht schnell, denn weder ist unsere Geduld endlos, noch unsere Freundlichkeit stets gewiss!
+{DRT_CARTHAGE_FINISHED}				Die Verhandlung ist beendet. Möge die nächste ebenso saftige Früchte tragen ...
+{DRT_GREEK_PROTECTORATE}				Akzeptiert das Ende Eurer illusorischen Unabhängigkeit. Euer Schicksal sieht vor, dass Ihr zu unserem Protektorat werdet.
+{DRT_GREEK_ALLIANCE}				Ein Bündnis zwischen uns wäre ein Grund für eine Feier zu Ehren der Siegesgöttin!
+{DRT_GREEK_CEASEFIRE}				Es wird Zeit, dem Blutvergießen ein Ende zu setzen.
+{DRT_GREEK_NULLIFY_ALLIANCE}			Allem ist eine Zeit zum Leben und eine Zeit zum Sterben bestimmt. Für unser Bündnis kommt nun die Zeit zu sterben. Lasst uns respektvoll getrennte Wege gehen.
+{DRT_GREEK_TRADE}					Der Handel würde unseren Völkern Reichtum bringen.
+{DRT_GREEK_ACCESS}				Es wäre ein Beweis wahrer Freundschaft, wenn wir Euer Land durchqueren dürften, um unsere Feinde anzugreifen.
+{DRT_GREEK_ATTACK}				Eure Hilfe im Kampf gegen unsere Feinde käme uns sehr gelegen.
+{DRT_GREEK_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_GREEK_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_GREEK_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_GREEK_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_GREEK_ACCEPT_GIFT}				Ein Geschenk ist - sobald man es richtig geschätzt und bewertet hat - stets willkommen. Habt vielen Dank.
+{DRT_GREEK_ACCEPT_BRIBE}				Gold pflastert den Weg zur gegenseitigen Freundschaft. Habt Dank.
+{DRT_GREEK_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis ist liebenswürdig, weise und rational.
+{DRT_GREEK_ACKNOWLEDGE_REJECTION}			Eure Weigerung ist liebenswürdig, doch schlecht durchdacht.
+{DRT_GREEK_ACKNOWLEDGE_DECLARATION}		Ihr lasst uns keine Wahl.
+{DRT_GREEK_REJECT_NOT_INTERESTED}			Eure Worte sind so leer wie Eure Spitzfindigkeit und falsche Philosophie. Wir sind nicht geneigt, Euch weiter zuzuhören.
+{DRT_GREEK_REJECT_TOO_MANY_COUNTERS}		Wir wollen keinen Unsinn mehr hören. Ihr redet und redet und redet, doch sagt Ihr so gut wie gar nichts.
+{DRT_GREEK_REJECT_BRIBE}				Unsere Ehre und Freundschaft kann man nicht kaufen. Verhandlungen sind eine Sache, Beleidigungen eine ganz andere.
+{DRT_GREEK_DECLINE_PROTECTORATE}			Unsere Freiheit ist uns wichtig, wir geben sie nicht leichtfertig her. Wir sehen keinen Grund, Eure Untertanen und Sklaven zu werden - wie sehr Ihr es auch rationalisiert.
+{DRT_GREEK_DECLINE_ALLIANCE}			Ein Bündnis brächte uns derzeit keinen Vorteil.
+{DRT_GREEK_DECLINE_CEASEFIRE}			Den Krieg beenden? Vielleicht, irgendwann einmal. Aber wir sehen keinen Grund, den Kampf jetzt schon zu beenden.
+{DRT_GREEK_DECLINE_NULLIFY}			Wir sehen keinen rationalen Grund, das Bündnis jetzt zu beenden.
+{DRT_GREEK_DECLINE_ACCESS}			Für Euch macht es Sinn, Eure Truppen durch unser Land zu schicken, doch es ist unnötig. Bei allem Respekt müssen wir Euch die Erlaubnis vorenthalten.
+{DRT_GREEK_DECLINE_REGION}			Unserer Väter Blut bewässerte diesen Boden. Unser Volk hat diese Felder bebaut. Wir können Euch nicht einfach einen Teil des Landes überlassen!
+{DRT_GREEK_DECLINE_ATTACK}			Diese Leute anzugreifen liegt nicht in unserem Interesse, daher müssen wir Eure Bitte leider ablehnen.
+{DRT_GREEK_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_GREEK_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_GREEK_DECLINE_OFFER}				Dieser Vorschlag war nicht von uns erwünscht. Wir weigern uns, dem zuzustimmen.
+{DRT_GREEK_DECLINE_DEMAND}			Hättet Ihr Orakel und Zeichen, die Eure Argumente stützen, wir würden uns doch nicht Euren Forderungen beugen.
+{DRT_GREEK_DECLINE_YEARLY_PAYMENT}		Wir können unser Land nicht aufgeben, nicht einmal - oder erst recht nicht - für Gold.
+{DRT_GREEK_DECLINE_PAYMENT_TOO_HIGH}			Ihr bietet zu viel, und im guten Glauben können wir das nicht annehmen.
+{DRT_GREEK_DECLINE_PAYMENT_TOO_LOW}			Euer Angebot ist weder fair noch vernünftig. Wir können so eine Armseligkeit nicht annehmen.
+{DRT_GREEK_ACCEPT_PROPOSITION}			Wir nehmen Euer Angebot an, denn es ist großzügig und gerecht.
+{DRT_GREEK_ACCEPT_COUNTER}			Eure Antwort auf unseren Vorschlag ist rational und klar gedacht. Habt Dank.
+{DRT_GREEK_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_GREEK_COUNTER_OFFER}				Wir schlagen Folgendes vor ...
+{DRT_GREEK_COUNTER_DEMAND}			Wir bitten um Folgendes ...
+{DRT_GREEK_COUNTER_INFO}				Wir sind sicher, dass Ihr diese Informationen für nützlich befindet ...
+{DRT_GREEK_COUNTER_PROPOSITION}			Wir haben Euren Vorschlag beredet und halten Folgendes für vorteilhaft ...
+{DRT_GREEK_COUNTER_BRIBE}				Wer wahre Freundschaft beweisen will, könnte ein angemessenes Geschenk aus Gold anbieten ...
+{DRT_GREEK_RECIPIENT_WELCOME_ALLIED}		Willkommen, nobler Verbündeter! Wie können wir Euch helfen?
+{DRT_GREEK_RECIPIENT_WELCOME_NEUTRAL}		Seid gegrüßt! Was habt Ihr uns vorzuschlagen?
+{DRT_GREEK_RECIPIENT_WELCOME_AT_WAR}		Seid gegrüßt, ehrbarer Feind! Was wollt Ihr vor Eurem frühen Hinscheiden mit uns besprechen?
+{DRT_GREEK_FINISHED}				Diese Verhandlung muss enden. Möge unsere nächste Begegnung ebenso nützlich sein ...
+{DRT_EGYPT_PROTECTORATE}				Der Pharao - möge er gesund und stark bleiben - spricht: 'Alle Eure Gebiete mögen uns gehören!' Werdet zum Protektorat unter der gütigen Herrschaft des Pharao.
+{DRT_EGYPT_ALLIANCE}				Bei einem Bündnis würden die Feinde des Pharao in Furcht erbeben. Das wäre hervorragend.
+{DRT_EGYPT_CEASEFIRE}				Der Pharao findet, dass die Zeit gekommen ist, das Blutvergießen zu beenden, das unsere Beziehung trübt.
+{DRT_EGYPT_NULLIFY_ALLIANCE}			Der Pharao - möge er gesund und stark bleiben - findet, dass das Bündnis mit Euch ein Ende nehmen sollte.
+{DRT_EGYPT_TRADE}					Der Pharao ist der Ansicht, dass der Handel mit Euch seinen Dienern und Kindern viel Reichtum bringen würde.
+{DRT_EGYPT_ACCESS}				Der Pharao findet, zu fragen, ehe er von seinem gottgegebenen Recht Gebrauch macht, seine Truppen durch Euer Land zu schicken, vermeide Verwirrung und schmeichle Eurem Ego.
+{DRT_EGYPT_ATTACK}				Eure demütige Hilfe im Kampf gegen die Feinde des großen Pharao wäre sehr willkommen.
+{DRT_EGYPT_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_EGYPT_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EGYPT_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_EGYPT_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_EGYPT_ACCEPT_GIFT}				Ein Geschenk segnet den Schenkenden. Möge der Dank des Pharao Eure Seelen erwärmen.
+{DRT_EGYPT_ACCEPT_BRIBE}				Gold ist oft eine Hilfe, wenn man Missverständnisse zwischen potentiellen Feinden vermeiden will.
+{DRT_EGYPT_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis ist ebenso liebenswürdig wie weise.
+{DRT_EGYPT_ACKNOWLEDGE_REJECTION}			Eure Weigerung ist nicht liebenswürdig und wird unseren noblen Pharao sicher beleidigen.
+{DRT_EGYPT_ACKNOWLEDGE_DECLARATION}		Ihr lasst dem Pharao keine Wahl.
+{DRT_EGYPT_REJECT_NOT_INTERESTED}			Mit Euresgleichen leere Worte zu wechseln stellt eine sinnlose Ablenkung vom wichtigen Staatsgeschäft dar.
+{DRT_EGYPT_REJECT_TOO_MANY_COUNTERS}		Viele Worte wurden gesagt und fortgeweht wie vom Wüstenwind. Sie waren der Aufmerksamkeit des Pharao unwürdig, die Verhandlung ist zu Ende.
+{DRT_EGYPT_REJECT_BRIBE}				Die Ehre und Freundschaft des Pharao sind nicht käuflich, besonders nicht gegen so eine lächerliche Goldsumme.
+{DRT_EGYPT_DECLINE_PROTECTORATE}			Die Herrschaft des Pharao ist von hohem Wert und wird nicht leichtfertig aufgegeben. Er sieht keinen Grund, Euer Diener zu werden - mit welch schönen Worten Ihr dies auch schmücken mögt.
+{DRT_EGYPT_DECLINE_ALLIANCE}			Ein Bündnis steht derzeit nicht im Interesse des Pharao.
+{DRT_EGYPT_DECLINE_CEASEFIRE}			Der weise und kampflustige Pharao sieht noch keinen Grund, den Kampf zu beenden.
+{DRT_EGYPT_DECLINE_NULLIFY}			Der weise und treue Pharao sieht keinen Grund, sich selbst und seine Freunde zu entehren, indem er den Fortbestand der Freundschaft leugnet.
+{DRT_EGYPT_DECLINE_ACCESS}			Ihr seht vielleicht einen Grund, Eure Truppen durch das Land des Pharao marschieren zu lassen, er hingegen nicht. Ihr habt keine Erlaubnis.
+{DRT_EGYPT_DECLINE_REGION}			Alles Gute ist hier; alles, was unsere Ahnen sich erarbeitet haben. Der Pharao kann nicht guten Gewissens ein Land aufgeben, dass er stellvertretend für die Götter verwaltet.
+{DRT_EGYPT_DECLINE_ATTACK}			Welchen Vorteil sollte der friedfertige, gütige Pharao aus diesem Angriff ziehen? Euer Vorschlag ist unannehmbar.
+{DRT_EGYPT_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_EGYPT_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_EGYPT_DECLINE_OFFER}				Derartige Vorschläge erwartet der Pharao von keinem Bittsteller, daher lehnen wir ab.
+{DRT_EGYPT_DECLINE_DEMAND}			Selbst wenn Ihr zum Ruhm des Pharao bereit wäret, Eure Kinder als Sklaven zu opfern, würde er sich Eurem Willen nicht beugen.
+{DRT_EGYPT_DECLINE_YEARLY_PAYMENT}		Wir können unser Land nicht einmal gegen eine angemessene Goldsumme aufgeben.
+{DRT_EGYPT_DECLINE_PAYMENT_TOO_HIGH}			Der Pharao - möge er gesund und stark bleiben - fragt sich, ob ihr das Vorgehen bei Verhandlungen nicht kennt. Euer Angebot ist derart hoch, dass wir es nicht annehmen können.
+{DRT_EGYPT_DECLINE_PAYMENT_TOO_LOW}			Der Pharao - Leben, Weisheit und Ruhm seien mit ihm - betrachtet Euer Angebot als zu wertlos, um darüber nachzudenken.
+{DRT_EGYPT_ACCEPT_PROPOSITION}			Der großherzige Pharao lächelt zufrieden über Euer wohlbedachtes Angebot.
+{DRT_EGYPT_ACCEPT_COUNTER}			Eure Antwort auf des Pharaos Vorschlag ist annehmbar, wenn auch etwas verspätet ...
+{DRT_EGYPT_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_EGYPT_COUNTER_OFFER}				Im Namen des Pharao machen wir diesen Vorschlag ...
+{DRT_EGYPT_COUNTER_DEMAND}			Im Namen des Pharao schlagen wir folgenden Kompromiss vor ...
+{DRT_EGYPT_COUNTER_INFO}				Im Namen des Pharao glauben wir, dass Euch diese Informationen nützlich sein werden ...
+{DRT_EGYPT_COUNTER_PROPOSITION}			Nach reifer Überlegung ist der mächtige Pharao der Meinung, dass dies eher seinem Interesse entspricht ...
+{DRT_EGYPT_COUNTER_BRIBE}				Die Freundschaft des Pharao könnte durch einen angemessenen Tribut aus Gold gefestigt werden. Wobei, eigentlich klingt 'Geschenk' doch viel besser. Ja, ein Geschenk ...
+{DRT_EGYPT_RECIPIENT_WELCOME_ALLIED}		Willkommen, Freund des großen Pharao! Welche Hilfe benötigt Ihr?
+{DRT_EGYPT_RECIPIENT_WELCOME_NEUTRAL}		Der noble und prachtvolle Pharao sendet Euch einen Gruß. Was habt Ihr ihm demütigst vorzuschlagen?
+{DRT_EGYPT_RECIPIENT_WELCOME_AT_WAR}		Habt Eile, denn die Diener des Pharao haben viele Staatsgeschäfte zu erledigen, die wichtiger sind als Ihr.
+{DRT_EGYPT_FINISHED}				Diese Verhandlung muss nun enden. Möge das nächste Treffen ebenso nützlich sein ...
+{DRT_EASTERN_PROTECTORATE}			Akzeptiert die Realität Eurer Lage und die Tatsache, dass Ihr in dieser gefährlichen Welt Schutz braucht. Es ist Zeit, dass Ihr zu unserem Protektorat werdet.
+{DRT_EASTERN_ALLIANCE}				Tatsächlich würde ein Bündnis zwischen uns die Herzen unserer Feinde mit Schrecken erfüllen.
+{DRT_EASTERN_CEASEFIRE}				Es ist Zeit, dass das Blutvergießen endet. Lasst uns den Streit beilegen.
+{DRT_EASTERN_NULLIFY_ALLIANCE}			Die Zeit ist gekommen, da wir unser Bündnis überdenken und friedlich aber endgültig beenden sollten.
+{DRT_EASTERN_TRADE}				Der Handel zwischen Freunden ist aufgrund des Reichtums, den er herbeiführt, stets willkommen.
+{DRT_EASTERN_ACCESS}				Wir erbitten das Recht, unsere Armee durch Euer Gebiet zu schicken, so dass wir unsere Feinde aus einer unerwarteten Richtung niederschlagen können.
+{DRT_EASTERN_ATTACK}				Eure Hilfe gegen unsere Feinde wüssten wir zu schätzen, sie würde den Respekt noch steigern, den Ihr bei unserem Volk genießt.
+{DRT_EASTERN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_EASTERN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EASTERN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_EASTERN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_EASTERN_ACCEPT_GIFT}				Ein Geschenk, und sei es noch so klein, segnet den Schenkenden. Habt vielen Dank.
+{DRT_EASTERN_ACCEPT_BRIBE}			Gold ist der sicherste Weg, um Spannungen abzubauen, die eine Freundschaft früh sterben lassen können. Habt vielen Dank.
+{DRT_EASTERN_ACKNOWLEDGE_ACCEPTANCE}		Euer Einverständnis ist besonnen und gütig.
+{DRT_EASTERN_ACKNOWLEDGE_REJECTION}		Eure Weigerung ist unbesonnen, doch erfolgte sie auf liebenswürdige Art.
+{DRT_EASTERN_ACKNOWLEDGE_DECLARATION}		Ihr lasst uns keine Wahl.
+{DRT_EASTERN_REJECT_NOT_INTERESTED}		Der Austausch leerer Worte ist wie Lärm des Windes, keine Verhandlung.
+{DRT_EASTERN_REJECT_TOO_MANY_COUNTERS}		Das Gespräch setzte sich immer weiter fort, doch wurde nichts geklärt. Diese Verhandlung ist nun vorüber, und wir sind sehr erleichtert, dass das Thema erledigt ist.
+{DRT_EASTERN_REJECT_BRIBE}			Ehre und Freundschaft sind keine Handelswaren, die man für einen Sack voll Gold erwirbt. Zwei - nein, drei oder vier - Säcke wären ein höflicherer Anfang ...
+{DRT_EASTERN_DECLINE_PROTECTORATE}		Wir treten unsere Unabhängigkeit niemandem ab. Warum sollten wir zu Sklaven werden? Aufgrund von ein paar schönen Worten? Wohl kaum!
+{DRT_EASTERN_DECLINE_ALLIANCE}			Wir denken, dass ein Bündnis nicht in unserem besten Interesse läge.
+{DRT_EASTERN_DECLINE_CEASEFIRE}			Wir sehen wenig Grund, um den Kampf schon zu beenden. Vielleicht später, wenn Ihr den Wert des Friedens besser kennt ...
+{DRT_EASTERN_DECLINE_NULLIFY}			Wir sehen kaum Grund, eine so profitable und günstige Beziehung zu beenden. Unser Bündnis ist ein Schutzwall gegen eifersüchtige Rivalen!
+{DRT_EASTERN_DECLINE_ACCESS}			Obwohl Ihr einen Grund seht, Eure Armeen durch unsere Lande spazieren zu lassen, sehen wir keinen. Wir müssen Euer Gesuch ablehnen.
+{DRT_EASTERN_DECLINE_REGION}			Unsere Toten liegen hier begraben. Unsere Städte übersäen das Land. Unsere Bauern beackern den Boden. Wir sehen keinen guten Grund, warum wir auch nur ein kleines Stück unseres Eigentums aufgeben sollten!
+{DRT_EASTERN_DECLINE_ATTACK}			Diese Leute anzugreifen können wir nicht leichtfertig beschließen, daher müssen wir es vorerst ablehnen, Eurem Wunsch zu entsprechen.
+{DRT_EASTERN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_EASTERN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_EASTERN_DECLINE_OFFER}			Dieser Vorschlag ist unangemessen. Wir lehnen das Angebot ab.
+{DRT_EASTERN_DECLINE_DEMAND}			Wir werden uns Euren Forderungen nicht beugen. Die Gerechtigkeit eines Eroberers ist keine, und dies wäre der erste Schritt dazu.
+{DRT_EASTERN_DECLINE_YEARLY_PAYMENT}		Wir können unser Land nicht aufgeben, nicht einmal für Gold. Auch nicht für so viel Gold.
+{DRT_EASTERN_DECLINE_PAYMENT_TOO_HIGH}		Auf Eure törichte Großzügigkeit fallen wir nicht herein. Was wollt ihr bezwecken? Wir lehnen das Angebot ab!
+{DRT_EASTERN_DECLINE_PAYMENT_TOO_LOW}			Euer schon beleidigender Geiz würde selbst einem Kind auffallen. Warum macht ihr kein erst zu nehmendes Angebot? Wir lehnen dieses hier ab.
+{DRT_EASTERN_ACCEPT_PROPOSITION}			Wir nehmen Euer Angebot an. Mögen beide Seiten von der Abmachung profitieren.
+{DRT_EASTERN_ACCEPT_COUNTER}			Eure Antwort ist annehmbar. Mögen beide Seiten von der Abmachung profitieren.
+{DRT_EASTERN_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_EASTERN_COUNTER_OFFER}			Wir machen folgendes Angebot ...
+{DRT_EASTERN_COUNTER_DEMAND}			Wir verlangen Folgendes ...
+{DRT_EASTERN_COUNTER_INFO}			Wir sind sicher, dass Ihr diese Informationen für nützlich befindet ...
+{DRT_EASTERN_COUNTER_PROPOSITION}			Wir haben Euer letztes Angebot bedacht und denken, diese Vereinbarung wäre gerechter ...
+{DRT_EASTERN_COUNTER_BRIBE}			Freundschaft kann mit Gold gefördert werden, wenn man es in angemessener Menge anbietet ...
+{DRT_EASTERN_RECIPIENT_WELCOME_ALLIED}		Seid willkommen, nobler und großzügiger Verbündeter! Was benötigt Ihr für Hilfe?
+{DRT_EASTERN_RECIPIENT_WELCOME_NEUTRAL}		Seid gegrüßt, Ehrwürdiger! Was wünscht Ihr uns vorzuschlagen?
+{DRT_EASTERN_RECIPIENT_WELCOME_AT_WAR}		Was? Nun kommt schon, sagt es. Wir haben keine Zeit für zögerliche lange Vorschläge ...
+{DRT_EASTERN_FINISHED}				Dieses Gespräch ist vorbei. Möge das nächste Treffen ebenso gewinnbringend sein ...
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{DRT_BARBARIAN_PROTECTORATE}				Akzeptiert das Ende Eurer Unabhängigkeit. Unter unserem Schutz werdet Ihr lang und in Frieden leben.
+{DRT_ROMAN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_ROMAN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_ROMAN_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_BARBARIAN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_BARBARIAN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_BARBARIAN_ACCEPT_DECLARATION}			Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_CARTHAGE_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_CARTHAGE_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_CARTHAGE_ACCEPT_DECLARATION}			Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_GREEK_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_GREEK_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_GREEK_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_GREEK_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_GREEK_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_GREEK_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_GREEK_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_EGYPT_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_EGYPT_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_EGYPT_ACCEPT_DECLARATION}				Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+{DRT_EASTERN_DECLINE_THREAT}				Eure leeren Drohungen kümmern uns wenig. Wir lassen es darauf ankommen.
+{DRT_EASTERN_DECLINE_GIFT}				Eure Motive bei diesem Geschenk bleiben ein Geheimnis. Wir können es nicht annehmen.
+{DRT_EASTERN_ACCEPT_DECLARATION}			Wir nehmen Euren Vorschlag an, aber er muss uns nicht gefallen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{DRT_ROMAN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_ROMAN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_ROMAN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_ROMAN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_BARBARIAN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_BARBARIAN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_BARBARIAN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_BARBARIAN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_CARTHAGE_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_CARTHAGE_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_CARTHAGE_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_CARTHAGE_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_EGYPT_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_EGYPT_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EGYPT_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_EGYPT_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+{DRT_EASTERN_THREAT}					Wir versprechen, Euch für einen angemessenen Preis nicht anzugreifen.
+{DRT_EASTERN_BRIBE}					Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EASTERN_GIFT}					Bitte nehmt dieses Geschenk als Beweis unserer Aufrichtigkeit an.
+{DRT_EASTERN_INFO}					Wenn wir unser beider Wissen der Welt vereinen, profitieren beide Seiten davon.
+
+{DRT_ROMAN_ACCEPT_DECLARATION}				Wenn wir auch die Vorzüge Eures Angebots nicht sehen, so müssen wir es doch annehmen.
+{DRT_EASTERN_ACCEPT_DECLARATION}			Wir müssen dieses beleidigende Angebot annehmen, da wir im Herzen doch Realisten sind.
+{DRT_EGYPT_ACCEPT_DECLARATION}				Wollt Ihr den Pharao mit diesem Angebot beleidigen? Zum Wohle seiner Leute wird er über Eure Grobheit hinwegsehen und es akzeptieren.
+{DRT_BARBARIAN_ACCEPT_DECLARATION}			Wir müssen Euer Angebot annehmen, wenn uns dies auch innerlich schmerzt.
+{DRT_GREEK_ACCEPT_DECLARATION}				Wir müssen dieses beleidigende Angebot annehmen, da wir im Herzen doch Realisten sind.
+{DRT_CARTHAGE_ACCEPT_DECLARATION}			Wenn uns dieses Angebot auch nur wenig nützt, so müssen wir es doch annehmen.
+
+{DRT_EGYPT_PROTECTORATE}				Der Pharao - möge er gesund und stark bleiben - spricht: 'Alle Eure Gebiete mögen uns gehören!' Werdet zum Protektorat unter der gütigen Herrschaft des Pharao.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{DRT_ROMAN_DISHONEST_REGION_OFFER}	Euer Angebot, uns Land zu geben, ist großzügig. Aber wir glauben, dass wir es nicht lange besitzen würden, ehe Eure Armeen wieder eindringen, daher lehnen wir ab. 
+{DRT_ROMAN_DISHONEST_ACCESS_OFFER}	Was man gibt, kann man auch schnell wieder zurücknehmen! Wir müssen Euer Zugangsangebot ablehnen, da Ihr es einfach zurückziehen und unsere Armeen abschneiden könntet. 
+{DRT_ROMAN_DISHONEST_ACCESS_DEMAND}	Wir sind keine Narren. Gäben wir Euch das Recht, hier zu marschieren, würdet Ihr nicht Eure Feinde angreifen. Unser Land würden Euren Ambitionen zum Opfer fallen!
+{DRT_ROMAN_DISHONEST_ATTACK_OFFER}	Wir wünschen nicht, dass Ihr unsere Rivalen angreift. Wir glauben nicht, dass Eure Soldaten das Schlachtfeld je erreichen würden. Noch weniger glauben wir, dass Eure Versprechen von Dauer sind.
+{DRT_ROMAN_DISHONEST_ATTACK_THREAT}	Ihr sprecht von Frieden, doch Eure Taten waren nicht immer die Taten friedfertiger Männer. Wir können Eurem Versprechen, uns nicht anzugreifen, kein Vertrauen schenken, und lehnen ab.
+{DRT_ROMAN_DISHONEST_TRIBUTE_OFFER}	Wir wollen Euer Gold nicht. Wir glauben nicht, dass wir je das Geld zu Gesicht bekämen, dass Ihr uns so unbedacht versprecht. 
+{DRT_BARBARIAN_DISHONEST_REGION_OFFER}	Ihr bietet uns Land, doch wir glauben nicht, dass es sehr lange das unsere bliebe! Noch vor der nächsten Ernte würden Eure Armeen es uns wieder abringen. Wir lehnen Euer Angebot ab!
+{DRT_BARBARIAN_DISHONEST_ACCESS_OFFER}	Eure Worte sind wertlos! Mit einem Atemzug gebt Ihr uns das Recht, auf Eurem Gebiet zu marschieren, mit dem nächsten leugnet Ihr, diese Worte gesprochen zu haben. Vielleicht sucht Ihr einen Vorwand für den Krieg ...
+{DRT_BARBARIAN_DISHONEST_ACCESS_DEMAND}	Nur ein leichtgläubiger Narr würde Euch das Recht geben, eine Armee über unser Land zu führen. Wir sind keine leichtgläubigen Narren. Ihr dürft nicht passieren!
+{DRT_BARBARIAN_DISHONEST_ATTACK_OFFER}	Euer Wort ist nichts wert. Ihr sagt, dass Ihr unsere Feinde angreifen werdet, doch nur ein Narr ohne Verstand würde Euch zuhören und diese Worte glauben ...
+{DRT_BARBARIAN_DISHONEST_ATTACK_THREAT}	Eure Worte sind wohlklingend und wären uns willkommen, spräche sie ein ehrlicher Krieger aus. Doch Ihr habt schon zu oft das eine gesagt und das andere getan. Wir müssen Euer Versprechen ablehnen.
+{DRT_BARBARIAN_DISHONEST_TRIBUTE_OFFER}	Wir wollen Euer Gold nicht. Es trägt die Makel der Lüge und falschen Freundschaft und ist das Geschenk eines gemeinen Lügners an einen Narren - und wir sind keine Narren! 
+{DRT_CARTHAGE_DISHONEST_REGION_OFFER}	Wir können das Land nicht von Euch annehmen. Die Gefahr ist zu groß und es brächte uns keinen Gewinn. Nehmen wir Euer Angebot an, so werden Eure Soldaten es Euch später zurückholen!
+{DRT_CARTHAGE_DISHONEST_ACCESS_OFFER}	Wir würden nicht davon profitieren, wenn Eure Armeen durch unser Land marschieren. Ihr würdet nachher doch nur Eure Meinung ändern. Wir lehnen das Angebot ab.
+{DRT_CARTHAGE_DISHONEST_ACCESS_DEMAND}	Wir können Euch nicht das Recht geben, über unser Land zu marschieren. Ihr mögt fürwahr ehrliche Absichten verfolgen, doch die Vergangenheit spricht gegen Euch ...
+{DRT_CARTHAGE_DISHONEST_ATTACK_OFFER}	Euer Angebot, unsere Feinde anzugreifen, mag ehrlich gemeint sein, doch das glauben wir nicht. Wir lehnen es ab, da es für uns nicht gewinnbringend und kaum glaubwürdig ist.
+{DRT_CARTHAGE_DISHONEST_ATTACK_THREAT}	Zu oft habt Ihr in der Vergangenheit Frieden versprochen und dann das Schwert gezückt, um die Angelegenheit zu klären. Vielleicht wäre es gut zu glauben, dass Ihr nicht angreift, doch wir lehnen Euer Angebot ab.
+{DRT_CARTHAGE_DISHONEST_TRIBUTE_OFFER}	Eure Worte versprechen uns Gold, doch der Glanz Eures Goldes blendet uns nicht so sehr, dass wir das Schwert in Eurer Hand nicht sehen. Zu unserer Sicherheit müssen wir Euren Tribut ablehnen.
+{DRT_GREEK_DISHONEST_REGION_OFFER}	Euer Angebot, uns Land zu geben, klingt ehrlich. Doch Euer bisheriges Verhalten lässt uns vermuten, dass Ihr bereits eine Armee habt, mit der Ihr es zurücknehmen werdet! Wir lehnen Euer Angebot ab.
+{DRT_GREEK_DISHONEST_ACCESS_OFFER}	Wir haben nicht die Absicht, mit Eurer Erlaubnis in Euer Land einzudringen. Eure Worte versprechen viel, doch Eure Taten erzählen eine andere Geschichte.
+{DRT_GREEK_DISHONEST_ACCESS_DEMAND}	Ihr verlangt das Recht, durch unser Land zu marschieren, doch nur ein sabbernder Schwachkopf würde dem zustimmen. Zu oft schon habt Ihr Euch gegen Eure Freunde gestellt, Versprechen gebrochen und gelogen!
+{DRT_GREEK_DISHONEST_ATTACK_OFFER}	Wir können Euch nicht glauben, da Ihr in der Vergangenheit zu oft die Unwahrheit gesprochen habt. Wir lehnen Euer Angebot, unsere Rivalen anzugreifen, ab. 
+{DRT_GREEK_DISHONEST_ATTACK_THREAT}	Ihr macht schöne Worte, wenn Ihr versprecht, dass Ihr uns nicht angreift. Wäret Ihr ehrlich, so würden wir dies glauben. Doch aus Eurem Munde klingen diese Worte leer. Wir müssen das Angebot ablehnen.
+{DRT_GREEK_DISHONEST_TRIBUTE_OFFER}	Euer Gold ist wahrlich eine prächtige Gabe, doch ist ein Geschenk nur so gut wie der, der es überreicht. Daher ist ein Tribut aus Eurer Hand wertlos und unehrenhaft. Wir lehnen ihn ab.
+{DRT_EGYPT_DISHONEST_REGION_OFFER}	Der Pharao lehnt Euer Angebot ab, neue Länder seiner Herrschaft zu unterstellen. Was Euresgleichen wegwirft ist unwürdig! Nebenbei glaubt er, dass Ihr unehrenhaft Euer Geschenk zurückholen würdet!
+{DRT_EGYPT_DISHONEST_ACCESS_OFFER}	Der Pharao ist nicht daran interessiert, seine Armeen durch Eure Lande zu führen. Schließlich könntet Ihr Eure Meinung ändern und seine Diener angreifen, wenn sie fern der Heimat sind!
+{DRT_EGYPT_DISHONEST_ACCESS_DEMAND}	Der Pharao wünscht nicht, dass Eure Armeen sein Land verpesten, und lehnt Eure Bitte ab. Schließlich kann man nicht darauf vertrauen, dass Ihr vorbeiziehen würdet, ohne anzugreifen!
+{DRT_EGYPT_DISHONEST_ATTACK_OFFER}	Der Pharao hat Eure Hilfe nicht nötig, um Rivalen und Feinde anzugreifen. Ihr mögt viel versprechen, doch die Vergangenheit hat gezeigt, dass Ihr wenig erreicht!
+{DRT_EGYPT_DISHONEST_ATTACK_THREAT}	Der Pharao ist kein Narr. Weshalb versucht Ihr, ihn mit einem falschen Frieden zu täuschen? Euer Wort ist bekanntermaßen wertlos wie Wüstenstaub, daher muss er Eure leeren Versprechen ablehnen.
+{DRT_EGYPT_DISHONEST_TRIBUTE_OFFER}	Der Pharao hat Euer Gold nicht nötig. Der Tribut eines Unwürdigen ist ebenso unwürdig vor seinem Angesicht. Der Pharao weist Euer Angebot zurück.
+{DRT_EASTERN_DISHONEST_REGION_OFFER}	Euer Ruf eilt Euch voraus! Wir müssen Euer Angebot ablehnen, uns Land zu geben, das zu unserem werden soll. Wir glauben, dass es das nur wäre, bis Ihr die Zeit findet, dorthin zu marschieren!
+{DRT_EASTERN_DISHONEST_ACCESS_OFFER}	Wir haben nicht die Absicht, in Euer Land zu marschieren! Eure Worte sagen eins, doch Eure Taten erzählen eine andere Geschichte. Nur ein Narr steckt seine Hand in das Maul des Löwen!
+{DRT_EASTERN_DISHONEST_ACCESS_DEMAND}	Ehrlich währt oft am längsten: Wir glauben, dass Euch Zugang zu unserem Land zu gewähren gleichbedeutend wäre mit der Bitte, erobert zu werden! Wir müssen Euer Gesuch ablehnen.
+{DRT_EASTERN_DISHONEST_ATTACK_OFFER}	Euer Angebot, unsere Rivalen anzugreifen, ist uns willkommen, doch wir zweifeln an der Ehrlichkeit Eurer Absichten. Wir weigern uns, in Eure Pläne und Intrigen verwickelt zu werden. 
+{DRT_EASTERN_DISHONEST_ATTACK_THREAT}	Wir lassen uns durch Eure Worte nicht zum Narren halten. Wir lehnen Euer plötzliches Angebot des Friedens und der Eintracht ab. Eure Taten sprachen in der Vergangenheit stets von Krieg und Blut, Unehre und Tod.
+{DRT_EASTERN_DISHONEST_TRIBUTE_OFFER}	Euer Gold ist uns nicht willkommen, denn wir glauben nicht, dass ein Tribut von Euch ehrlich gemeint ist - oder dass er jemals unsere Schatzkammern erreicht!
+
+{DRT_ROMAN_THREAT}				Der römische Zorn kann abgewendet werden sofern Ihr genügend Respekt zeigt - und der Preis Eure Mittel nicht übersteigt ...
+{DRT_ROMAN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_ROMAN_GIFT}				Bitte nehmt dieses Geschenk als Beweis unserer Bewunderung Eurer Tugend und Eures Mutes an. 
+{DRT_ROMAN_INFO}				Wenn wir unser Wissen der Welt vereinen, profitieren alle davon.
+
+{DRT_BARBARIAN_THREAT}				Gold vermag stets, unsere Schwerter abzuwehren. Kann der Preis des Friedens und Eures Lebens zu hoch bemessen werden?
+{DRT_BARBARIAN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_BARBARIAN_GIFT}				Nehmt dieses Geschenk im Geiste der Bruderschaft zwischen Kriegern an! Lasst uns nie wieder unsere Schwerter voreinander entblößen! 
+{DRT_BARBARIAN_INFO}				Geteilte Weisheit ist gewonnene Weisheit, drum lasst uns unser Wissen der Welt vereinen, um davon zu profitieren!
+
+{DRT_CARTHAGE_THREAT}				Gold ist stets dem Blut vorzuziehen. Für einen Preis werden unsere Armeen nicht gegen Euch in den Kampf ziehen. 
+{DRT_CARTHAGE_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_CARTHAGE_GIFT}				Nehmt dieses Geschenk an. Es ist mehr als ein Zeichen unseres guten Willens, es ist eine Investition in unsere zukünftige Freundschaft!
+{DRT_CARTHAGE_INFO}				Wenn wir unser Wissen der Welt vereinen, profitieren wir beide davon.
+
+{DRT_EGYPT_THREAT}				Der Zorn des mächtigen Pharao kann nicht billig abgewendet werden! Seine starken Armeen werden nicht angreifen, wenn Ihr den richtigen Preis zahlt.
+{DRT_EGYPT_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EGYPT_GIFT}				Der Pharao ist erfreut, selbst unwürdigen Sterblichen wie Euch Geschenke als Zeichen seines guten Willens zu machen. 
+{DRT_EGYPT_INFO}				Das Wissen des Pharaos kennt keine Grenzen, doch es mit Euren armseligen Kenntnissen der Welt zu vereinen wäre für uns alle von Vorteil.
+
+{DRT_EASTERN_THREAT}				Eure Schatzkammern könnten genug Gold enthalten, um unsere Armeen aufzuhalten. Bedenkt gut den Wert Eurer Leben und der Freiheit ...
+{DRT_EASTERN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EASTERN_GIFT}				Ein Geschenk ist für den Schenkenden ein Segen. Nehmt in diesem Sinne diese bescheidene Gabe von uns an ...
+{DRT_EASTERN_INFO}				Geteilte Weisheit ist gewonnene Weisheit, drum lasst uns unser Wissen der Welt vereinen, um davon zu profitieren!
+
+{DRT_GREEK_THREAT}				Griechische Ehre ist nicht käuflich. Doch griechischer Schwerter können für einen Preis in ihre Scheiden zurückwandern ... für einen guten Preis.
+{DRT_GREEK_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_GREEK_GIFT}				Die Geschenke der Griechen ehren die Empfänger. Nehmt diese Gaben im Geiste der Bruderschaft an!
+{DRT_GREEK_INFO}				Geteilte Weisheit ist doppelte Weisheit, drum lasst uns alle durch das Teilen unseres Wissen profitieren!
+
+
+{DRT_ROMAN_ACCEPT_DECLARATION}			Obwohl es Eurem Angebot an Wert, Ehre und Tugend mangelt, müssen wir es annehmen.
+{DRT_EASTERN_ACCEPT_DECLARATION}		Wir müssen dieses beleidigende Angebot annehmen, da wir keine Wahl haben. Erwartet aber nicht, dass wir lächeln und feiern.
+{DRT_EGYPT_ACCEPT_DECLARATION}			Der Pharao sieht über die Beleidigung seiner Ehre hinweg und nimmt dieses grobe, beleidigende Angebot an, wenn auch nur zum Wohle seines Volkes.
+{DRT_BARBARIAN_ACCEPT_DECLARATION}		Manchmal muss ein starker Krieger die Zähne zusammenbeißen und das Unannehmbare annehmen. Wir nehmen Euer Angebot an - vorläufig.
+{DRT_GREEK_ACCEPT_DECLARATION}			Euer Angebot würde einen Heloten beleidigen, doch wir müssen es annehmen. Wir werden den Göttern dafür keinen Dank aussprechen.
+{DRT_CARTHAGE_ACCEPT_DECLARATION}		Euer Angebot nutzt wenig und gefällt noch weniger. Dennoch müssen wir es annehmen. 
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{DRT_EASTERN_THREAT}	Eure Truhen könnten genug Gold enthalten, um unsere Armeen aufzuhalten. Bedenkt gut den Wert Eurer Leben und der Freiheit ...
+
+{DRT_ROMAN_DECLINE_OFFER}	Wir können dieses Angebot nicht aufwiegen. Wir müssen es ablehnen. 
+{DRT_BARBARIAN_DECLINE_OFFER}	Wir haben im Gegenzug nichts anzubieten, daher müssen wir ablehnen.
+{DRT_CARTHAGE_DECLINE_OFFER}	Wir können auf dieses Angebot nicht reagieren und müssen daher ablehnen.
+{DRT_GREEK_DECLINE_OFFER}	Wir müssen ablehnen, da wir im Gegenzug nichts anzubieten haben.
+{DRT_EGYPT_DECLINE_OFFER}	Dieses Angebot übersteigt unsere Mittel, wir müssen leider ablehnen.
+{DRT_EASTERN_DECLINE_OFFER}	Wir können nichts Ebenbürtiges anbieten und müssen daher ablehnen.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{DRT_ROMAN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_BARBARIAN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_CARTHAGE_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EGYPT_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_EASTERN_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+{DRT_GREEK_BRIBE}				Ein Mann wie Ihr könnte sich als sehr wertvoll erweisen. Wie wertvoll, das entscheidet allein Ihr.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+¬ Typo corrected	
+{DRT_BARBARIAN_NULLIFY_ALLIANCE}		Es wird Zeit, dass wir die Ehrlichkeit beenden. Vergessen wir Worte wie 'Bündnis' und gehen wir getrennte Wege.
+
+¬ Hun and Nomad variants	
+
+{DRT_HUN_ACCEPT_BRIBE}				Gold ebnet immer den Weg des Verständnisses zwischen denen, die Freunde werden könnten. Vielen Dank.
+{DRT_HUN_ACCEPT_COUNTER}			Eure Antwort ist akzeptabel.
+{DRT_HUN_ACCEPT_DECLARATION}			Manchmal muss sich der starke Krieger auf die Zunge beißen und das Unakzeptable akzeptieren. Wir stimmen Eurem Vorschlag für den Moment zu ...
+{DRT_HUN_ACCEPT_GIFT}				Ein Geschenk ist ein Maßstab für den Schenkenden. Unseren Dank. 
+{DRT_HUN_ACCEPT_PROPOSITION}			Wir akzeptieren Euer gut gemeintes und generöses Angebot.
+{DRT_HUN_ACCESS}				Das Recht, unsere Gegner durch Eure Länder zu verfolgen, würde uns außerordentlich helfen.
+{DRT_HUN_ACKNOWLEDGE_ACCEPTANCE}		Eure Annahme zeugt von Weisheit.
+{DRT_HUN_ACKNOWLEDGE_DECLARATION}		Ihr habt uns keine Wahl gelassen.
+{DRT_HUN_ACKNOWLEDGE_REJECTION}		Eure Ablehnung ist schlecht durchdacht und könnte als Beleidigung aufgefasst werden. 
+{DRT_HUN_ALLIANCE}				Ein Bündnis zwischen uns könnte all unsere Gegner zum Zittern bringen. 
+{DRT_HUN_ATTACK}				Eure Hilfe gegen unsere Feinde würde unseren guten Willen bedingen.
+{DRT_HUN_BRIBE}				Ein Mann wie Ihr würde sich als wertvoller Bündnispartner herausstellen; wie wertvoll genau liegt jedoch an Euch selbst.
+{DRT_HUN_CEASEFIRE}				Es ist an der Zeit, das Blutvergießen zu beenden. 
+{DRT_HUN_COUNTER_BRIBE}			Unsere Freundschaft könnte durch einen angebracht großen Tribut gesichert werden - vielleicht wäre 'Geschenk' das bessere Wort - in Form von Gold ...
+{DRT_HUN_COUNTER_DEMAND}			Wir schlagen Folgendes vor ...
+{DRT_HUN_COUNTER_INFO}				Wir hoffen, Ihr findet dies nützlich ...
+{DRT_HUN_COUNTER_OFFER}			Wir bieten an ...
+{DRT_HUN_COUNTER_PROPOSITION}			Nachdem wir Euren Vorschlag überdacht haben, sehen wir dies als angebrachter an ...
+{DRT_HUN_DECLINE_ACCESS}			Ihr mögt das Bedürfnis haben, Eure Krieger durch unser Land zu schicken, wir jedoch es nicht. Wir müssen es ablehnen, für den Fall, dass andere denken, wir seien einfältig.
+{DRT_HUN_DECLINE_ALLIANCE}			Ein Bündnis wäre keine gute Sache. Wir haben gesprochen und wir werden unsere Meinung nicht ändern. 
+{DRT_HUN_DECLINE_ATTACK}			Wir können nicht einsehen, wie ein Angriff auf diese Leute uns helfen würde. Wir müssen Eure Bitte ablehnen. 
+{DRT_HUN_DECLINE_CEASEFIRE}			Den Kampf beenden! Dies ist ein guter Scherz! Wir sehen keinen Bedarf, den Kampf zu beenden. Einige von Euch leben noch!
+{DRT_HUN_DECLINE_DEMAND}			Auch wenn Ihr Eure Eingeweide auf den Altären unserer höchsten Götter anbötet, Eure Forderungen kämen für uns nicht in Betracht. 
+{DRT_HUN_DECLINE_GIFT}				Eure Motive für dieses Geschenk bleiben ein Mysterium. Wir können es nicht akzeptieren.
+{DRT_HUN_DECLINE_NULLIFY}			Wir sind nicht einverstanden. Wir können keine Entschuldigung sehen, die das Ende unseres Bündnisses bedeuten würde.
+{DRT_HUN_DECLINE_OFFER}			Wir haben nichts im Gegenzug anzubieten und müssen Euren Vorschlag ablehnen. 
+{DRT_HUN_DECLINE_PAYMENT_TOO_HIGH}		Euer Angebot ist großzügig, sehr großzügig - und aus dem Grund müssen wir Euch abweisen. Das schärfste Schwert kann hinter einem Haufen Gold versteckt sein ...
+{DRT_HUN_DECLINE_PAYMENT_TOO_LOW}		Ihr müsst uns als einfältige Idioten ansehen, die nicht rechnen können. Wir können solch armselige Bedingungen nicht akzeptieren.
+{DRT_HUN_DECLINE_PROTECTORATE}		Freiheit ist eine schöne Sache, die man nicht so einfach über Bord wirft. Ihr braucht uns nicht als Diener und Sklaven. Eure schönen Worte sind nicht mehr als Staub im Wind.
+{DRT_HUN_DECLINE_REGION}			Unser Blut ist über diesem Land vergossen worden. Unsere Toten liegen hier begraben. Wir haben dieses Land mit Leben erkauft. Wir können Euch keinen Teil unseres Geburtsrechts überlassen! 
+{DRT_HUN_DECLINE_THREAT}			Eure leeren Drohungen machen uns keine Angst. Wir werden unsere Möglichkeiten ausschöpfen.
+{DRT_HUN_DECLINE_YEARLY_PAYMENT}		Wir können unsere Ländereien nicht aufgeben, noch nicht einmal für solche Schmuckstücke.
+{DRT_HUN_DISHONEST_ACCESS_DEMAND}		Nur vertrauensselige Idioten würden Euch das Recht garantieren, Armeen durch ihre Ländereien zu schicken. Wir sind keine vertrauensseligen Idioten. Ihr dürft nicht passieren!
+{DRT_HUN_DISHONEST_ACCESS_OFFER}		Eure Worte sind wertlos! In einem Atemzug gebt Ihr uns das Recht, durch Eure Länder zu passieren, im nächsten streitet Ihr ab, dass solche Worte gesprochen wurden. Vielleicht sucht Ihr nur einen Vorwand für den Krieg ...
+{DRT_HUN_DISHONEST_ATTACK_OFFER}		Euren Worten kann man nicht vertrauen. Ihr sagt, dass Ihr unsere Gegner angreifen werdet, doch nur ein dummer Idiot würde zuhören und so etwas glauben ...
+{DRT_HUN_DISHONEST_ATTACK_THREAT}		Eure Worte wären von ehrlichen Kriegern willkommen - zu oft habt Ihr jedoch die eine Sache gesagt und die andere Sache getan. Wir müssen Euer Versprechen ablehnen.
+{DRT_HUN_DISHONEST_REGION_OFFER}		Ihr bietet uns Land an, aber wir glauben nicht, dass es uns lange gehören würde! Bevor die Fohlen geboren sind, werden Eure Armeen es zurückgeholt haben. Wir lehnen Euer Angebot ab!
+{DRT_HUN_DISHONEST_TRIBUTE_OFFER}		Wir werden Euer Gold nicht nehmen. Es ist mit Lügen und falscher Freundschaft beschmutzt, einem Geschenk, das von schlimmen Lügnern nur Idioten gemacht werden kann - und wir sind keine Idioten! 
+{DRT_HUN_FINISHED}				Dieses Gespräch ist vorbei. Möge das nächste Treffen ebenso gewinnbringend sein ...
+{DRT_HUN_GIFT}					Nehmt dieses Geschenk im Sinne der Bruderschaft der Krieger an! Lasst uns niemals Schwerter gegeneinander ziehen! 
+{DRT_HUN_INFO}					Geteilte Weisheit ist erlangte Weisheit, teilen wir also das, was wir über die Welt wissen!
+{DRT_HUN_NULLIFY_ALLIANCE}			Es ist an der Zeit, ehrlich und direkt zu sein. Legen wir die Worte der Freundschaft wie "Bündnis" ab und gehen unsere getrennten Wege. 
+{DRT_HUN_PROTECTORATE}			Akzeptiert, dass Eure Zeit der Freiheit nun abgelaufen ist. Ihr werdet lange leben und unter unserem Protektorat stehen. 
+{DRT_HUN_RECIPIENT_WELCOME_ALLIED}		Willkommen, mein Freund! Wie können wir Euch helfen?
+{DRT_HUN_RECIPIENT_WELCOME_AT_WAR}		Seid schnell. Es gibt bessere Dinge zu tun, als Eurem pathetischen Gejaule zuzuhören! 
+{DRT_HUN_RECIPIENT_WELCOME_NEUTRAL}		Seid gegrüßt! Was wollt Ihr uns heute anbieten?
+{DRT_HUN_REJECT_BRIBE}				Wir sind nicht einfältig. Unsere Ehre und Freundschaft sind keine billigen Güter, die auf einem Markt zu kaufen sind. Nein, noch nicht einmal für Euer Gold. 
+{DRT_HUN_REJECT_NOT_INTERESTED}		Leere Worte mit Euch auszutauschen ist die Verschwendung kostbarer Zeit. 
+{DRT_HUN_REJECT_TOO_MANY_COUNTERS}		Wir haben Euch die Ehre erwiesen, uns Euren Quatsch anzuhören, und dennoch wurde nichts gesagt, was des Zuhörens wert gewesen wäre. Die Zeit der Laberei ist nun vorbei.
+{DRT_HUN_THREAT}				Unsere Schwerter können immer mit Gold abgewendet werden. Kann Euer Frieden und Euer Leben zu hoch geschätzt werden?
+{DRT_HUN_TRADE}				Handel zwischen unseren Völkern würde uns allen großen Reichtum bringen.
+{DRT_NOMAD_ACCEPT_BRIBE}			Gold ebnet immer den Weg des Verständnisses zwischen denen, die Freunde werden könnten. Vielen Dank.
+{DRT_NOMAD_ACCEPT_COUNTER}			Eure Antwort ist akzeptabel.
+{DRT_NOMAD_ACCEPT_DECLARATION}		Manchmal muss sich der starke Krieger auf die Zunge beißen und das Unakzeptable akzeptieren. Wir stimmen Eurem Vorschlag für den Moment zu ...
+{DRT_NOMAD_ACCEPT_GIFT}			Ein Geschenk ist ein Maßstab für den Schenkenden. Unseren Dank. 
+{DRT_NOMAD_ACCEPT_PROPOSITION}		Wir akzeptieren Euer gut gemeintes und generöses Angebot.
+{DRT_NOMAD_ACCESS}				Das Recht, unsere Gegner durch Eure Länder zu verfolgen, würde uns außerordentlich helfen.
+{DRT_NOMAD_ACKNOWLEDGE_ACCEPTANCE}		Eure Annahme zeugt von Weisheit.
+{DRT_NOMAD_ACKNOWLEDGE_DECLARATION}		Ihr habt uns keine Wahl gelassen.
+{DRT_NOMAD_ACKNOWLEDGE_REJECTION}		Eure Ablehnung ist schlecht durchdacht und könnte als Beleidigung aufgefasst werden. 
+{DRT_NOMAD_ALLIANCE}				Ein Bündnis zwischen uns könnte all unsere Gegner zum Zittern bringen. 
+{DRT_NOMAD_ATTACK}				Eure Hilfe gegen unsere Feinde würde unseren guten Willen bedingen.
+{DRT_NOMAD_BRIBE}				Ein Mann wie Ihr würde sich als wertvoller Bündnispartner herausstellen; wie wertvoll genau liegt jedoch an Euch selbst.
+{DRT_NOMAD_CEASEFIRE}				Es ist an der Zeit, das Blutvergießen zu beenden. 
+{DRT_NOMAD_COUNTER_BRIBE}			Unsere Freundschaft könnte durch einen angebracht großen Tribut gesichert werden - vielleicht wäre 'Geschenk' das bessere Wort - in Form von Gold ...
+{DRT_NOMAD_COUNTER_DEMAND}			Wir schlagen Folgendes vor ...
+{DRT_NOMAD_COUNTER_INFO}			Wir hoffen, Ihr findet dies nützlich ...
+{DRT_NOMAD_COUNTER_OFFER}			Wir bieten an ...
+{DRT_NOMAD_COUNTER_PROPOSITION}		Nachdem wir Euren Vorschlag überdacht haben, sehen wir dies als angebrachter an ...
+{DRT_NOMAD_DECLINE_ACCESS}			Ihr mögt das Bedürfnis haben, Eure Krieger durch unser Land zu schicken, wir jedoch es nicht. Wir müssen es ablehnen, für den Fall, dass andere denken, wir seien einfältig.
+{DRT_NOMAD_DECLINE_ALLIANCE}			Ein Bündnis wäre keine gute Sache. Wir haben gesprochen und wir werden unsere Meinung nicht ändern. 
+{DRT_NOMAD_DECLINE_ATTACK}			Wir können nicht einsehen, wie ein Angriff auf diese Leute uns helfen würde. Wir müssen Eure Bitte ablehnen. 
+{DRT_NOMAD_DECLINE_CEASEFIRE}			Den Kampf beenden! Dies ist ein guter Scherz! Wir sehen keinen Bedarf, den Kampf zu beenden. Einige von Euch leben noch!
+{DRT_NOMAD_DECLINE_DEMAND}			Auch wenn Ihr Eure Eingeweide auf den Altären unserer höchsten Götter anbötet, Eure Forderungen kämen für uns nicht in Betracht. 
+{DRT_NOMAD_DECLINE_GIFT}			Eure Motive für dieses Geschenk bleiben ein Mysterium. Wir können es nicht akzeptieren.
+{DRT_NOMAD_DECLINE_NULLIFY}			Wir sind nicht einverstanden. Wir können keine Entschuldigung sehen, die das Ende unseres Bündnisses bedeuten würde.
+{DRT_NOMAD_DECLINE_OFFER}			Wir haben nichts im Gegenzug anzubieten und müssen Euren Vorschlag ablehnen. 
+{DRT_NOMAD_DECLINE_PAYMENT_TOO_HIGH}		Euer Angebot ist großzügig, sehr großzügig - und aus dem Grund müssen wir Euch abweisen. Das schärfste Schwert kann hinter einem Haufen Gold versteckt sein ...
+{DRT_NOMAD_DECLINE_PAYMENT_TOO_LOW}		Ihr müsst uns als einfältige Idioten ansehen, die nicht rechnen können. Wir können solch armselige Bedingungen nicht akzeptieren.
+{DRT_NOMAD_DECLINE_PROTECTORATE}		Freiheit ist eine schöne Sache, die man nicht so einfach über Bord wirft. Ihr braucht uns nicht als Diener und Sklaven. Eure schönen Worte sind nicht mehr als Staub im Wind.
+{DRT_NOMAD_DECLINE_REGION}			Unser Blut ist über diesem Land vergossen worden. Unsere Toten liegen hier begraben. Wir haben dieses Land mit Leben erkauft. Wir können Euch keinen Teil unseres Geburtsrechts überlassen! 
+{DRT_NOMAD_DECLINE_THREAT}			Eure leeren Drohungen machen uns keine Angst. Wir werden unsere Möglichkeiten ausschöpfen.
+{DRT_NOMAD_DECLINE_YEARLY_PAYMENT}		Wir können unsere Ländereien nicht aufgeben, noch nicht einmal für solche Schmuckstücke.
+{DRT_NOMAD_DISHONEST_ACCESS_DEMAND}		Nur vertrauensselige Idioten würden Euch das Recht garantieren, Armeen durch ihre Ländereien zu schicken. Wir sind keine vertrauensseligen Idioten. Ihr dürft nicht passieren!
+{DRT_NOMAD_DISHONEST_ACCESS_OFFER}		Eure Worte sind wertlos! In einem Atemzug gebt Ihr uns das Recht, durch Eure Länder zu passieren, im nächsten streitet Ihr ab, dass solche Worte gesprochen wurden. Vielleicht sucht Ihr nur einen Vorwand für den Krieg ...
+{DRT_NOMAD_DISHONEST_ATTACK_OFFER}		Euren Worten kann man nicht vertrauen. Ihr sagt, dass Ihr unsere Gegner angreifen werdet, doch nur ein dummer Idiot würde zuhören und so etwas glauben ...
+{DRT_NOMAD_DISHONEST_ATTACK_THREAT}		Eure Worte wären von ehrlichen Kriegern willkommen - zu oft habt Ihr jedoch die eine Sache gesagt und die andere Sache getan. Wir müssen Euer Versprechen ablehnen.
+{DRT_NOMAD_DISHONEST_REGION_OFFER}		Ihr bietet uns Land an, aber wir glauben nicht, dass es uns lange gehören würde! Bevor die Fohlen geboren sind, werden Eure Armeen es zurückgeholt haben. Wir lehnen Euer Angebot ab!
+{DRT_NOMAD_DISHONEST_TRIBUTE_OFFER}		Wir werden Euer Gold nicht nehmen. Es ist mit Lügen und falscher Freundschaft beschmutzt, einem Geschenk, das von schlimmen Lügnern nur Idioten gemacht werden kann - und wir sind keine Idioten! 
+{DRT_NOMAD_FINISHED}				Dieses Gespräch ist vorbei. Möge das nächste Treffen ebenso gewinnbringend sein ...
+{DRT_NOMAD_GIFT}				Nehmt dieses Geschenk im Sinne der Bruderschaft der Krieger an! Lasst uns niemals Schwerter gegeneinander ziehen! 
+{DRT_NOMAD_INFO}				Geteilte Weisheit ist erlangte Weisheit, teilen wir also das, was wir über die Welt wissen!
+{DRT_NOMAD_NULLIFY_ALLIANCE}			Es ist an der Zeit, ehrlich und direkt zu sein. Legen wir die Worte der Freundschaft wie "Bündnis" ab und gehen unsere getrennten Wege. 
+{DRT_NOMAD_PROTECTORATE}			Akzeptiert, dass Eure Zeit der Freiheit nun abgelaufen ist. Ihr werdet lange leben und unter unserem Protektorat stehen. 
+{DRT_NOMAD_RECIPIENT_WELCOME_ALLIED}		Willkommen, mein Freund! Wie können wir Euch helfen?
+{DRT_NOMAD_RECIPIENT_WELCOME_AT_WAR}		Seid schnell. Es gibt bessere Dinge zu tun, als Eurem pathetischen Gejaule zuzuhören! 
+{DRT_NOMAD_RECIPIENT_WELCOME_NEUTRAL}	Seid gegrüßt! Was wollt Ihr uns heute anbieten?
+{DRT_NOMAD_REJECT_BRIBE}			Wir sind nicht einfältig. Unsere Ehre und Freundschaft sind keine billigen Güter, die auf einem Markt zu kaufen sind. Nein, noch nicht einmal für Euer Gold. 
+{DRT_NOMAD_REJECT_NOT_INTERESTED}		Leere Worte mit Euch auszutauschen ist die Verschwendung kostbarer Zeit. 
+{DRT_NOMAD_REJECT_TOO_MANY_COUNTERS}	Wir haben Euch die Ehre erwiesen, uns Euren Quatsch anzuhören, und dennoch wurde nichts gesagt, was des Zuhörens wert gewesen wäre. Die Zeit der Laberei ist nun vorbei.
+{DRT_NOMAD_THREAT}				Unsere Schwerter können immer mit Gold abgewendet werden. Kann Euer Frieden und Euer Leben zu hoch geschätzt werden?
+{DRT_NOMAD_TRADE}				Handel zwischen unseren Völkern würde uns allen großen Reichtum bringen.
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:50:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:41:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:23:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,606 @@
+¬ Strings that only appear in battle
+{BMT_TURTLE}										Capacité spéciale : formation en tortue
+{BMT_PHALANX}										Capacité spéciale : formation en phalange
+{BMT_TOGGLE_SKIRMISH_ON}								Activer le mode Embuscade
+{BMT_TOGGLE_FIRE_ON}									Activer le mode Feu à volonté
+{BMT_TOGGLE_SKIRMISH_OFF}								Désactiver le mode Embuscade
+{BMT_TOGGLE_FIRE_OFF}									Désactiver le mode Feu à volonté
+{BMT_TOGGLE_DEFEND_ON}								Activer le mode Garde
+{BMT_TOGGLE_DEFEND_OFF}								Désactiver le mode Garde
+{BMT_TOGGLE_FORMATION_TIGHT}							Unité en formation resserrée
+{BMT_TOGGLE_FORMATION_LOOSE}							Unité en formation dispersée
+{BMT_TOGGLE_SPECIAL_FORMATION_ON}						Unité en formation spéciale (tortue, phalange, etc.)
+{BMT_TOGGLE_SPECIAL_FORMATION_OFF}					Unité en formation normale
+{BMT_RADAR_ZOOM_IN}									Zoom sur l’emplacement actuel
+{BMT_RADAR_ZOOM_OUT}									Zoom arrière depuis l’emplacement actuel
+{BMT_SHOW_GROUP_FORMATIONS}							Afficher les boutons de formation de groupe
+{BMT_HIDE_GROUP_FORMATIONS}							Masquer les boutons de formation de groupe
+{BMT_HALT}											Annuler les ordres actuels
+{BMT_WALK}											Marcher
+{BMT_RUN}												Courir
+{BMT_WITHDRAW}										Se replier
+{BMT_PAUSE}											Interrompre la partie
+{BMT_NEW_PLAY}										Reprendre la partie en vitesse simple
+{BMT_DOUBLE}											Doubler la vitesse de la partie
+{BMT_TRIPLE}											Tripler la vitesse de la partie
+{BMT_RADAR}											Radar :
+{BMT_GROUP}											Grouper les unités sélectionnées
+{BMT_UNGROUP}											Annuler le groupement
+{BMT_FAT_FRESH}										Frais et dispos
+{BMT_FAT_WARMED_UP}									Echauffés
+{BMT_FAT_WINDED}										Essoufflés
+{BMT_FAT_TIRED}										Fatigués
+{BMT_FAT_MOST_TIRED}									Epuisés
+{BMT_FAT_EXHAUSTED}									Morts de fatigue
+{BMT_MOR_BESERK}										Fous furieux
+{BMT_MOR_IMPETUOUS}									Impétueux
+{BMT_MOR_HIGH}										Impatients
+{BMT_MOR_FIRM}										Calmes
+{BMT_MOR_SHAKEN}										Hébétés
+{BMT_MOR_WAVERING}									Défaillants
+{BMT_MOR_ROUTING}										Brisés
+{BMT_END_DEPLOYMENT}									ENGAGER COMBAT
+{BMT_WAIT}											ATTENDRE 
+{BMT_START_DEPLOYMENT}									COMMENCER DEPLOIEMENT
+{BMT_CHAT_SUPPORT}									A l’aide
+{BMT_CHAT_RETREAT}									Battez en retraite
+{BMT_CHAT_ADVANCE}									Avancez
+{BMT_CHAT_ATTACK}										Attaquez
+{BMT_CHAT_HELP}										Proposer de l’aide
+{BMT_CHAT_SUPPORT_FLANK}								Couvrez mon flanc
+{BMT_CHAT_SUPPORT_ATTACK}								Couvrez ma prochaine attaque
+{BMT_CHAT_SUPPORT_ADVANCE}								Couvrez mon avancée
+{BMT_CHAT_RETREAT_FLANK}								Reculez pour couvrir mon flanc
+{BMT_CHAT_RETREAT_GENERAL}								Tirez-vous d’ici
+{BMT_CHAT_ADVANCE_LINE}									Avancez le long de la ligne de bataille
+{BMT_CHAT_ADVANCE_KEEP_UP}								Allez au même pas que mes troupes
+{BMT_CHAT_ATTACK_ALL}									Attaquez à vue
+{BMT_CHAT_RETREAT_TO_POS}								Reculez jusqu’à la position indiquée
+{BMT_CHAT_ADVANCE_TO_POS}								Avancez jusqu’à la position indiquée
+{BMT_CHAT_ATTACK_POS}									Attaquez les unités à la position indiquée
+{BMT_CHAT_USER}										Personnalisé
+{BMT_CHAT_CANCEL}										Annuler
+{BMT_CHAT_HELP_BODY}									Je viens vous aider. Dites-moi ce que je dois faire.
+{BMT_SPECIFY_POSITION}									Spécifiez une position en cliquant à l'endroit voulu avec le bouton "Ordre" de la souris.
+{BMT_SIEGE_EQUIPMENT}									Engins de siège
+{BMT_DEPLOY_SIEGE}									Pour déployer un engin, déposez son icône sur le portrait d'une unité. 
+{BMT_ACT_IDLE}										Immobiles
+{BMT_ACT_HIDING}										Camouflés
+{BMT_ACT_READY}										Prêts
+{BMT_ACT_REFORMING}									Retour en formation
+{BMT_ACT_MOVING}										En marche
+{BMT_ACT_FIRING}										Tirent des projectiles
+{BMT_ACT_RELOADING}									Rechargent
+{BMT_ACT_CHARGING}									Chargent
+{BMT_ACT_FIGHTING}									Combattent
+{BMT_ACT_RUNNING_AMOK}								Incontrôlables
+{BMT_ACT_ROUTING}										En déroute
+{BMT_ACT_FIGHTING_BACKS_TO_THE_WALLS}					Se battent à mort
+{BMT_ACT_PURSUING}									En chasse
+{BMT_ACT_DEAD}										Morts
+{BMT_ACT_LEFT}										Hors combat
+{BMT_ACT_ENTERING_BATTLE}								Prêts à rejoindre le combat
+{BMT_ACT_TAUNTING}									Goguenards
+{BMT_COM_WIN_BIG}										Victoire facile
+{BMT_COM_WIN}											Victoire
+{BMT_COM_WIN_SLIGHT}									Victoire difficile
+{BMT_COM_EVEN}										Statu quo
+{BMT_COM_LOSE_SLIGHT}									Légère défaite
+{BMT_COM_LOSE}										Défaite
+{BMT_COM_LOSE_BIG}									Lourde défaite
+{BMT_DAMAGE}											Dégâts :
+{BMT_HOLD_FOR_X_MINUTES}								Tenez la position pendant %f minutes.
+{BMT_CAPTURE_LOCATION}									Prenez la position
+{BMT_CAPTURE_SETTLEMENT}								Prenez la communauté
+{BMT_CAPTURE_CAMP}									Prenez la caravane d’équipements
+{BMT_DESTROY_CHARACTER}									Eliminez le personnage
+{BMT_DESTROY_ENEMY}									Détruisez l'ennemi ou mettez-le en déroute
+{BMT_BALANCE_OF_STRENGTH}								Equilibre des forces (pourcentage)
+{BMT_DESTROY_ENEMY_STRENGTH}								Réduisez les forces ennemies
+{BMT_SUCCEEDED}										Victoire
+{BMT_FAILED}											Défaite
+{BMT_IMPOSSIBLE}										Impossible
+{BMT_CONDITIONS}										Objectifs de bataille
+{BMT_CONDITIONS_ALL}									Objectifs de bataille (tous requis)
+{BMT_CONDITIONS_ANY}									Objectifs de bataille (au moins un)
+{BMT_STATE_RUNNING}									Courent
+{BMT_STATE_WALKING}									Marchent
+{BMT_STATE_UNDER_MISSILE_ATTACK}						Sous le tir ennemi
+{BMT_STATE_PANIC}										Pris de panique
+{BMT_STATE_HIDING}									Camouflés
+{BMT_STATE_ATTACKING}									Attaquent
+{BMT_STATE_ATTACK_MISSILE}							Attaquent en tirant
+{BMT_STATE_LADDERS}									Portent des échelles
+{BMT_STATE_RAMS}										Portent des bélier
+{BMT_STATE_SAPPERS}									Sapeurs
+{BMT_STATE_TOWERS}									Affectés à la tour de siège
+{BMT_ENCOURAGED_ARMY_SUPPORTED}						Encouragés par les armées voisines de la campagne
+{BMT_ENCOURAGED_ARMY_NO_RETREAT}						La victoire ou la mort car il n’y a pas de retraite possible dans cette campagne
+{BMT_ENCOURAGED_GENERAL_PRESENT}						Heureux que le général soit avec eux
+{BMT_ENCOURAGED_GENERAL_NEARBY}						Galvanisés par les encouragements du général
+{BMT_ENCOURAGED_COMMAND_UNIT_NEARBY}					Heureux d’être proches d’une unité de commandement
+{BMT_ENCOURAGED_FLANKS_SECURE}						Confiants de la solidité des flancs
+{BMT_ENCOURAGED_FORTIFICATION}						Heureux d’être proches de fortifications alliées
+{BMT_ENCOURAGED_ON_THE_HILL}							En sécurité sur la colline
+{BMT_ENCOURAGED_ENEMY_ROUTING}						Heureux de voir l'ennemi en déroute
+{BMT_ENCOURAGED_TRYING_TO_RALLY}						Tentent de se réorganiser
+{BMT_ENCOURAGED_HIDING}								Contents d’être cachés
+{BMT_ENCOURAGED_BLOODLUST}							Incontrôlables et assoiffés de sang
+{BMT_ENCOURAGED_BERSERK}								Totalement fous furieux et assoiffés de sang
+{BMT_CONCERNED_ARMY_DESTRUCTION}						Désemparés d’avoir perdu la bataille
+{BMT_CONCERNED_GENERAL_JUST_DIED}						Pris de panique à la mort du général
+{BMT_CONCERNED_FLANKS_EXPOSED}						Craignent que les flancs soient exposés
+{BMT_CONCERNED_FATIGUE}								Mécontents car épuisés
+{BMT_CONCERNED_CASUALTIES}							Malheureux d’avoir essuyé des pertes
+{BMT_CONCERNED_ATTACKED_BY_FIRE}						Pris de panique sous l’attaque incendiaire
+{BMT_CONCERNED_ATTACKED_BY_ARTILLERY}					Pris de panique sous les tirs d’artillerie
+{BMT_CONCERNED_FIGHTING_CAVALRY}						Craignent de combattre une unité de cavalerie
+{BMT_CONCERNED_FRIENDS_ROUTING}						Malheureux de voir leurs alliés en déroute
+{BMT_CONCERNED_ENEMY_NUMBERS}							Affolés par le nombre d’ennemis
+{BMT_CONCERNED_SURPRISED}								Surpris par l’apparition de l’ennemi
+{BMT_CONCERNED_PANIC}									Abandonnent le combat sous le coup de la panique
+{BMT_CONCERNED_FEAR_PIGS}								Terrifiés par les cochons
+{BMT_CONCERNED_FEAR_DOGS}								Terrifiés par les chiens
+{BMT_CONCERNED_FEAR_ELEPHANTS}						Terrifiés par les éléphants
+{BMT_CONCERNED_FEAR_CHARIOTS}							Terrifiés par les chars
+{BMT_CONCERNED_FEAR_ENEMY_UNIT}						Intimidés par les ennemis à proximité
+{BMT_DESTROY_OR_ROUT_ENEMY}							Détruisez l'ennemi ou mettez-le en déroute
+{BMT_ACHIEVE_BALANCE_OF_STRENGTH_OF_X_PERCENT}		Obtenez un équilibre des forces de %d%%
+{BMT_DESTROY_ENEMY_STRENGTH_X_PERCENT}				Détruisez %d%% des forces ennemies
+{BMT_WITH_MIN_X_ALLIES}								Avec au moins %d soldats alliés
+{BMT_WITH_MAX_X_ENEMY}								Et au plus %d soldats ennemis
+{BMT_LOCATION}										Position
+{BMT_DROP_SIEGE_EQUIPMENT}							Déposer les engins de siège
+{BMT_AUTODEPLOY_SIEGE}								Déployer automatiquement les engins de siège
+{BMT_PAUSED}											PAUSE
+{BMT_WAITING_TO_DEPLOY}								Patienter jusqu’à ce que tous les joueurs commencent le déploiement.
+{BMT_WAITING_TO_END_DEPLOYMENT}						Patienter jusqu’à ce que tous les joueurs terminent le déploiement.
+{BMT_WAITING_TO_END_BATTLE}							Patienter jusqu’à ce que tous les joueurs terminent la bataille.
+{BMT_SELECT_NEXT_ARMY}								Faire défiler la liste des armées vers l’avant
+{BMT_SELECT_PREV_ARMY}								Faire défiler la liste des armées vers l’arrière
+{BMT_PERCENTAGE_ALLIES_KILLED}						Pourcentage d’alliés tués
+{BMT_PERCENTAGE_ENEMIES_KILLED}						Pourcentage d'ennemis tués
+{BMT_EXIT_BATTLE}										Quitter la bataille
+{BMT_RETURN_TO_CAMPAIGN}								Revenir à la carte de campagne
+{BMT_LINK_UNITS}									Activer le chaînage d’unités
+{BMT_UNLINK_UNITS}									Désactiver le chaînage d’unités
+{BMT_ENABLE_AI_GROUPING}								Mettre le groupe sous contrôle de l’IA
+{BMT_DISABLE_AI_GROUPING}								Annuler le contrôle de l’IA sur le groupe
+{BMT_BATTLE_RESOLUTION_AUTO_RESOLVE_QUITTER_LOSES}	Si vous arrêtez maintenant, vous perdrez cette bataille.
+{BMT_BATTLE_RESOLUTION_SUCCESSFUL_SALLY_OUT}			Votre assaut a été couronné de succès. Vous pouvez quitter la bataille
+{BMT_BATTLE_RESOLUTION_SUCCESSFUL_WITHDRAW}			Vous avez réussi à vous retirer de la bataille. Vous pouvez quitter la bataille
+{BMT_BATTLE_RESOLUTION_QUIT_PROLOGUE}					Si vous arrêtez maintenant, vous quitterez le didacticiel. Etes-vous sûr de vouloir sortir ?
+{BMT_CONDITIONS_COMPLETE}								Victoire
+{BMT_CONDITIONS_COMPLETE_CONTINUE}					Vous avez atteint les objectifs de cette bataille ! Voulez-vous continuer et pourchasser vos ennemis comme du vulgaire gibier ?
+{BMT_SAVE_REPLAY}										Sauvegarder une vidéo de la bataille
+{BMT_FLAMING_AMMO_SPECIAL}							Capacité spéciale : Tirs incendiaires
+{BMT_WARCRY_SPECIAL}									Capacité spéciale : Cri de guerre
+{BMT_CHANT_SPECIAL}									Capacité spéciale : Psalmodie druidique
+{BMT_CURSE_SPECIAL}									Capacité spéciale : Hurlements de femmes
+{BMT_BERSERK_SPECIAL}									Capacité spéciale : Attaque furieuse
+{BMT_RALLY_SPECIAL}									Capacité spéciale : Rallier les troupes
+{BMT_WEDGE_SPECIAL}								Capacité spéciale : Formation en triangle
+{BMT_KILL_ELEPHANTS_SPECIAL}							Capacité spéciale : Eléphanticide
+{BMT_MOVE_AND_SHOOT_SPECIAL}							Capacité spéciale : Les archers montés tirent à volonté
+{BMT_CANTABRIAN_CIRCLE_SPECIAL}						Capacité spéciale : Cercle cantabrique\nLes archers montés encerclent l’ennemi
+{BMT_SHIELD_WALL_SPECIAL}								Capacité spéciale : Mur de boucliers
+{BMT_STEALTH_SPECIAL}									Capacité spéciale : Furtivité\nLes unités camouflées se déplacent
+{BMT_FEIGNED_ROUT_SPECIAL}							Capacité spéciale : Déroute feinte
+{BMT_NO_SPECIAL_ABILITY}								Capacité spéciale : Aucune
+{BMT_ALL_ALLIES}									Tous les alliés
+{BMT_ALL_ENEMIES}									Tous les ennemis
+{BMT_CONTINUE_BATTLE_AFTER_VICTORY}						Continuer la bataille						
+{BMT_QUIT_BATTLE_AFTER_VICTORY}						Terminer la bataille
+{BMT_GROUP_FORMATION_1}				Formation de groupes d’unités : les unités forment une ligne
+{BMT_GROUP_FORMATION_2}				Formation de groupes d’unités : les unités forment une ligne, l’infanterie lourde au centre, l’infanterie légère sur les flancs et la cavalerie sur les ailes
+{BMT_GROUP_FORMATION_3}				Formation de groupes d’unités : les unités sont placées sur deux lignes
+{BMT_GROUP_FORMATION_4}				Formation de groupes d’unités : les unités sont placées sur deux lignes, l’infanterie devant, les tireurs et le général derrière elles et la cavalerie sur les ailes
+{BMT_GROUP_FORMATION_5}				Formation de groupes d’unités : les unités sont placées sur trois lignes, les tireurs à l’avant, l’infanterie derrière eux et la cavalerie à l’arrière
+{BMT_GROUP_FORMATION_6}				Formation de groupes d’unités : les unités sont placées sur trois lignes, l’infanterie devant, les tireurs derrière eux, la cavalerie à l’arrière
+{BMT_GROUP_FORMATION_7}				Formation de groupes d’unités : les unités sont placées sur trois lignes, la cavalerie à l’avant, les tireurs derrière elle et l’infanterie à l'arrière
+{BMT_GROUP_FORMATION_8}				Formation de groupes d’unités : les unités forment une colonne d’une unité de largeur, la cavalerie à l’avant et l’infanterie derrière
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_CHAT_ALL_PLAYERS}		Tous les joueurs
+{BMT_NETWORK_INFO_PROBLEMS}	Problèmes de réseau
+{BMT_NETWORK_INFO_RETRY}	Réessayer
+{BMT_ABANDON_GAME}		Abandonner partie
+{BMT_GROUP_FORMATION_1}		Une seule ligne : les unités sont placées en ligne
+{BMT_GROUP_FORMATION_2}		Sélection sur une seule ligne : les unités forment une ligne, l’infanterie lourde au centre, l’infanterie légère sur les flancs et la cavalerie sur les ailes
+{BMT_GROUP_FORMATION_3}				Double ligne : les unités sont placées sur deux lignes
+{BMT_GROUP_FORMATION_4}				Sélection sur double ligne : Les unités forment deux lignes, les unités de combat rapproché à l’avant, les tireurs et le général derrière elles et la cavalerie sur les ailes
+{BMT_GROUP_FORMATION_5}				Sur 3 lignes, tireurs devant : Les unités forment trois lignes, les tireurs à l’avant, les unités de combat rapproché derrière eux, la cavalerie à l’arrière
+{BMT_GROUP_FORMATION_6}				Sur 3 lignes, fantassins devant : Les unités forment trois lignes, les unités de combat rapproché à l’avant, les tireurs derrière eux, la cavalerie (hors archers montés) à l’arrière
+{BMT_GROUP_FORMATION_7}				Sur 3 lignes, cavalerie devant : Les unités forment trois lignes, la cavalerie à l’avant, les tireurs derrière elle et les unités de combat rapproché à l'arrière
+{BMT_GROUP_FORMATION_8}				Colonne : Les unités forment une colonne d’une unité de largeur, la cavalerie à l’avant et l’infanterie derrière
+{BMT_CANTABRIAN_CIRCLE_SPECIAL}						Capacité spéciale : cercle cantabrique\nLes tireurs à cheval encerclent l’ennemi
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_UNIT_HEAVY_INFANTRY}		Infanterie lourde
+{BMT_UNIT_LIGHT_INFANTRY}		Infanterie légère
+{BMT_UNIT_SKIRMISHER_INFANTRY}	Tirailleurs
+{BMT_UNIT_SPEARMEN}			Piquiers
+{BMT_UNIT_MISSILE}			Tireurs
+{BMT_UNIT_HEAVY_CAVALRY}		Cavalerie lourde
+{BMT_UNIT_LIGHT_CAVALRY}		Cavalerie légère
+{BMT_UNIT_SKIRMISHER_CAVALRY}		Tirailleurs montés
+{BMT_UNIT_MISSILE_CAVALRY}		Tireurs montés
+{BMT_UNIT_HEAVY_SIEGE}			Artillerie lourde
+{BMT_UNIT_LIGHT_SIEGE}			Artillerie légère
+{BMT_UNIT_SIEGE}				Artillerie
+{BMT_UNIT_HEAVY_SPECIAL}		Lourde
+{BMT_UNIT_LIGHT_SPECIAL}		Légère
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_TOGGLE_SPECIAL_FORMATION_OFF}		Désactiver la capacité spéciale de l’unité
+{BMT_TIME_REMAINING_HOURS}			Temps restant : %d heures
+{BMT_TIME_REMAINING_MINS}			Temps restant : %d minutes
+{BMT_NEW_PLAY}					Vitesse de jeu normale
+{BMT_DESTROY_CHARACTER}				Eliminer le personnage :
+{BMT_WAIT}						ATTENDRE :
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_CANTABRIAN_CIRCLE_SPECIAL}	 	Capacité spéciale : Cercle cantabrique\nTireurs montés en cercle face à l'ennemi.
+{BMT_COM_WIN_BIG}			La victoire est assurée. Seul un incapable pourrait perdre cette bataille.
+{BMT_COM_WIN}				La victoire nous tend les bras.
+{BMT_COM_WIN_SLIGHT}			La victoire est envisageable.
+{BMT_COM_EVEN}				Les deux armées sont de force égale.
+{BMT_COM_LOSE_SLIGHT}			La défaite est une possibilité à envisager.
+{BMT_COM_LOSE}				La défaite semble certaine.
+{BMT_COM_LOSE_BIG}			Ce jour verra notre défaite. Seul un génie militaire pourrait remporter cette bataille.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_GROUP_FORMATION_2}		Sélection sur une seule ligne : les unités forment une ligne, les tireurs au centre, les infanteries légère et lourde sur les flancs et la cavalerie sur les ailes
+{BMT_STATE_AI_LINKED}		IA chaînées
+{BMT_STATE_RUNNING_AMOK}	Panique
+{BMT_STATE_FIGHTING_TO_DEATH}	Se battent à mort
+{BMT_STATE_WITHDRAWING}		Repli
+{BMT_END_DEPLOYMENT_SALLY}	FIN DU DEPLOIEMENT ET DEBUT DU COMBAT
+{BMT_NETWORK_PLAYERS_JOINING}	En attente des joueurs suivants :
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_ACT_CELEBRATING}	Se réjouissent
+{BMT_NO_TIME_LIMIT}	Temps de bataille illimité
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_TURTLE_OFF}						Désactiver capacité spéciale : retirer de la formation en tortue
+{BMT_PHALANX_OFF}						Désactiver capacité spéciale : retirer de la formation en phalange
+{BMT_FLAMING_AMMO_SPECIAL_OFF}			Désactiver capacité spéciale : tirer des munitions normales
+{BMT_WARCRY_SPECIAL_OFF}				Désactiver capacité spéciale : arrêter le cri de guerre
+{BMT_CHANT_SPECIAL_OFF}					Désactiver capacité spéciale : arrêter la psalmodie druidique
+{BMT_CURSE_SPECIAL_OFF}					Désactiver capacité spéciale : arrêter les hurlements
+{BMT_BERSERK_SPECIAL_OFF}				Désactiver capacité spéciale : arrêter l’attaque furieuse
+{BMT_WEDGE_SPECIAL_OFF}					Désactiver capacité spéciale : retirer de la formation en triangle
+{BMT_CANTABRIAN_CIRCLE_SPECIAL_OFF}			Désactiver capacité spéciale : arrêter le cercle cantabrique
+{BMT_MOVE_AND_SHOOT_SPECIAL_OFF}			Désactiver capacité spéciale : arrêter le tir à volonté des archers montés
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_1_HOUR_REMAINING}			1 heure restante
+{BMT_1_MIN_REMAINING}			1 minute restante
+{BMT_AI_CONTROLLED}			Renforts IA
+{BMT_CHOOSE_ANOTHER_TARGET_WALL}		Une brèche a été ouverte dans ce mur
+{BMT_CHOOSE_ANOTHER_TARGET_TOWER}		Cette tour a été complètement détruite
+{BMT_CHOOSE_ANOTHER_TARGET_GATE}		Les portes ont été complètement détruites
+{BMT_CHOOSE_ANOTHER_TARGET_BUILDING}	Ce bâtiment a été complètement détruit
+{BMT_CHOOSE_ANOTHER_TARGET_GATEHOUSE}	Le corps-de-garde a été complètement détruit
+{BMT_ENGINE_DESTROYED}				Cet engin a été détruit
+{BMT_THIS_UNIT_SELECTION_CANNOT_EQUIP}	L’unité sélectionnée ne peut pas s’équiper de cet article
+{BMT_THESE_UNITS_CANNOT_EQUIP}		Les unités sélectionnées ne peuvent pas s’équiper de cet article
+{BMT_THIS_UNIT_CANNOT_ATTACK_WALLS}		L’unité sélectionnée ne peut pas attaquer les  murs
+{BMT_THESE_UNITS_CANNOT_ATTACK_WALLS}	Les unités sélectionnées ne peuvent pas attaquer les murs
+{BMT_THIS_UNIT_HAS_LEFT_THE_BATTLE}		Cette unité a quitté la bataille
+{BMT_CANNOT_REACH_THIS_POSITION}		Les unités sélectionnées ne peuvent pas atteindre cette position
+{BMT_CANNOT_REACH_THIS_POSITION_SINGLE}	L’unité sélectionnée ne peut pas atteindre cette position
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_REPLAY_FINISHED}		Fin de la vidéo
+{BMT_PAUSE}				Activer/désactiver pause
+{BMT_THIS_UNIT_CANNOT_ATTACK_TOWERS}	L’unité sélectionnée ne peut pas attaquer les tours
+{BMT_THESE_UNITS_CANNOT_ATTACK_TOWERS}	Les unités sélectionnées ne peuvent pas attaquer les tours
+{BMT_THIS_UNIT_CANNOT_ATTACK_GATES}		L’unité sélectionnée ne peut pas attaquer les portes
+{BMT_THESE_UNITS_CANNOT_ATTACK_GATES}	Les unités sélectionnées ne peuvent pas attaquer les portes
+{BMT_THIS_UNIT_CANNOT_ATTACK_BUILDINGS}	L’unité sélectionnée ne peut pas attaquer les bâtiments
+{BMT_THESE_UNITS_CANNOT_ATTACK_BUILDINGS}	Les unités sélectionnées ne peuvent pas attaquer les bâtiments
+{BMT_CHAT_RETREAT_GENERAL}			Ordonnez le repli général !
+{BMT_FIGHT_AGAIN}					Recommencer cette bataille ?
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_ENABLE_AI_GROUPING}					Mettre le groupe sous contrôle de l’IA
+{BMT_CANNOT_MOVE_MULTIPLE_UNITS_ON_WALLS}			Vous ne pouvez pas déplacer plusieurs unités sur les murs
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_RETURN_OUTSIDE_PLAYABLE_AREA}		Cette position se trouve en-dehors du champ de bataille
+{BMT_RETURN_OUTSIDE_DEPLOYMENT_AREA}	Impossible de déployer cette unité hors de la zone définie
+{BMT_RETURN_SIEGE_ENGINES_IN_FOREST}	Impossible de déplacer un engin de siège dans une zone boisée
+{BMT_RETURN_SIEGE_ENGINES_IN_SETTLEMENTS}	Impossible de déplacer un engin de siège se trouvant à l'intérieur d'une communauté
+{BMT_RETURN_UNITS_ON_SIEGE_TOWER}		Impossible de déplacer les unités sélectionnées dans une tour de siège
+{BMT_RETURN_UNIT_ON_SIEGE_TOWER}		Impossible de déplacer l'unité sélectionnée dans une tour de siège
+{BMT_RETURN_OBSTRUCTION}			Chemin bloqué. Impossible de se déplacer ici
+{BMT_THIS_UNIT_IS_YET_TO_JOIN_BATTLE}	Cette unité n'est pas encore arrivée sur le champ de bataille
+{BMT_PLAZA_PREVIOUS_BANNER_TOOLTIP}		Gardez le contrôle de la place centrale jusqu'à la fin du compte à rebours pour vous emparer de cette communauté
+{BMT_PLAZA_CURRENT_BANNER_TOOLTIP}		Gardez le contrôle de la place centrale jusqu'à la fin du compte à rebours pour vous emparer de cette communauté
+{BMT_ZOOM_TO_UNIT}				Localiser cette unité
+{BMT_WITH_MIN_1_ALLY}				Avec au moins 1 soldat allié
+{BMT_WITH_MAX_1_ENEMY}				Et au plus 1 soldat ennemi
+{BMT_WITH_MAX_0_ENEMY}				Et aucun soldat ennemi
+{BMT_WARCRY_SPECIAL_OFF}			Capacité spéciale : cri de guerre activée
+{BMT_RALLY_SPECIAL_OFF}				Capacité spéciale : tente de rallier les troupes
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_GROUP_FORMATION_2}		Sélection sur une seule ligne : les unités forment une ligne, l’infanterie lourde au centre, l’infanterie légère sur les flancs et la cavalerie sur les ailes
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BMT_CANNOT_MOVE_MULTIPLE_UNITS_ON_BRIDGES}	Impossible de déplacer plusieurs unités sur des ponts
+{BMT_CANNOT_MOVE_ONTO_SIEGE_TOWERS}			Impossible de se déplacer directement sur les tours de siège
+{BMT_CANNOT_MOVE_ON_WATER}				Impossible de se déplacer sur l’eau
+{BMT_FIELD_CURRENT_BANNER_TOOLTIP}			Le défenseur remporte la bataille lorsque le compteur atteint zéro
+{BMT_NETWORK_STALL_DIALOG_TITLE}			Problèmes de connexion possibles
+{BMT_NETWORK_DROP_DROP_PLAYER}			Exclure ce joueur ?
+{BMT_QUIT_FROM_NETWORK_DROP}				Quitter la partie ?
+
+{BMT_THIS_UNIT_SELECTION_CANNOT_EQUIP}	L’unité sélectionnée ne peut pas s’équiper de cet objet
+{BMT_THESE_UNITS_CANNOT_EQUIP}		Les unités sélectionnées ne peuvent pas s’équiper de cet objet
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BMT_SCHILTROM}		Capacité spéciale : formation Schiltron
+{BMT_SCHILTROM_OFF}		Désactiver capacité spéciale : retirer de la formation Schiltron
+{BMT_SHIELD_WALL_SPECIAL_OFF}	Désactiver capacité spéciale : retirer de la formation Mur de boucliers
+{BMT_ACT_BERSERK}		Fous furieux
+{BMT_MOR_BESERK}		Heroïsme
+{BMT_STATE_BERSERK}		Folie furieuse
+
+{BMT_CHANT_SPECIAL}		Capacité spéciale : Incantation
+{BMT_CHANT_SPECIAL_OFF}	Capacité spéciale : cesser l'incantation
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BMT_STATE_SWIMMING}		Nage
+{BMT_DISABLE_AI_GROUPING}	Annuler le contrôle de l’IA sur le groupe
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BMT_CONCERNED_GENERAL_JUST_FLED}	Les hommes sont inquiets : le général vient de fuir le champ de bataille
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:40:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:22:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

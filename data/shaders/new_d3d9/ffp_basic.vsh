@@ -1,0 +1,19 @@
+
+vs_1_1
+dcl_position0 v0
+dcl_normal0 v3
+dcl_texcoord0 v4
+mov r4, v0 ; position
+mov r5, v3 ; normal
+mov r7, c[0].zzzz
+
+dp4 r6.x, r4, c[2 + 0]
+dp4 r6.y, r4, c[2 + 1]
+dp4 r6.z, r4, c[2 + 2]
+dp4 r6.w, r4, c[2 + 3]
+
+mov oPos, r6
+#line 7 "ffp_basic.vsh"
+mov oD0, c[0].y
+mov oD1, c[0].zzzz
+mov oFog, c[0].z

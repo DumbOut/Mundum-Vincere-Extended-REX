@@ -1,0 +1,1862 @@
+¬ Text file converted with loc_parser
+{SMT_CULTURE_ROMAN}				Римские
+{SMT_CULTURE_BARBARIAN}			Варварские
+{SMT_CULTURE_CARTHAGE}				Карфагенский
+{SMT_CULTURE_GREEK}				Греческие
+{SMT_CULTURE_EGYPT}				Египетские
+{SMT_CULTURE_EASTERN}				Восточные
+{SMT_END_TURN}					Конец хода
+{SMT_SABOTAGE}					Саботаж
+{SMT_ASSASSINATE}				Убийство
+{SMT_SETTLEMENTS}				Поселения
+{SMT_CAPITAL}					Столица
+{SMT_ALLIES}					Союзники
+{SMT_ENEMIES}					Враги
+{SMT_SUSPICIOUS}				Подозрительный
+{SMT_NEUTRAL}					Нейтральные отношения
+{SMT_HOSTILE}					Враждебные
+{SMT_AT_WAR}					В состоянии войны
+{SMT_NIGHT_ATTACK}				Предпринять ночную атаку
+{SMT_TRADE_RIGHTS}				Торговые привилегии
+{SMT_SIEGE}					Ведение осады
+{SMT_ASSAULT}					Штурм
+{SMT_END_SIEGE}					Прорыв осады
+{SMT_AGE}					Возраст
+{SMT_LOYALTY}					Лояльность
+{SMT_GOVERNOR}					Правитель
+{SMT_GARRISON}					Гарнизон
+{SMT_RECRUITMENT_COST}				Стоимость найма:
+{SMT_RECRUITMENT_TIME}				Время для найма:
+{SMT_RETRAIN_TIME}				Время для переобучения:
+{SMT_RETRAIN_COST}				Стоимость переобучения:
+{SMT_FIGHT_BATTLE}				Сражаться на карте сражений
+{SMT_WITHDRAW}				Отступить из боя
+{SMT_AUTORESOLVE}				Автоматически решить исход битвы
+{SMT_DISBAND}					Распустить соединение\nНаземные соединения можно распустить только в родном районе, морские соединения -- только в порту\nПолководцев распустить нельзя.
+{SMT_DOCTOR_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_QUARTERMASTER_DESCR}			THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_PRIEST_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_SCOUT_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_ENGINEER_DESCR}				THIS TOOLTIP TEXT SHOULD NEVER APPEAR ON SCREEN! DO NOT TRANSLATE!
+{SMT_SPY_DESCR}				Шпионы собирают информацию о фракциях соперников. Их можно использовать также для сбора данных о вражеских городах, армиях и персонажах. Чем больше времени шпион проводит на одном месте, тем больше информации он собирает. Кроме того, шпионы могут провоцировать волнения во вражеских поселениях. Если ваш шпион окажется во вражеском городе, который вы осаждаете, он даже может открыть ворота вашим войскам!
+{SMT_ASSASSIN_DESCR}				Иногда один-единственный кинжал может действовать эффективнее сотен мечей - если вонзается в сердце нужного человека. Существование наемных убийц подтверждает тезис о том, что в политике и войнах главные роли играют отдельные личности, поскольку убийцы всегда атакуют лидеров и наиболее значительных членов фракций. Шансы убийцы на успех зависят от уровня его собственных навыков, положения его цели и, возможно, от капельки везения.
+{SMT_DIPLOMAT_DESCR}				Дипломат -- это человек, обученный искусству подхалимажа, лести, убеждения а иногда даже запугивания членов фракции соперников. Это он заключает сделки, подписывает мирные договоры и требует, чтобы противник сдался. Дипломаты служат глазами и ушами своих фракций в тех местах, где работают.
+{SMT_ADMIRAL_DESCR}				Адмирал -- это командующий флотом. Его качества и навыки помогают во время морских сражений, и увеличивают безопасность флота. Всеми флотами постоянно командуют адмиралы.
+{SMT_ARMY_UPKEEP}				Содержание армии:
+{SMT_LOYALTY_REVOLTING}			Мятеж
+{SMT_LOYALTY_RIOTING}				Недовольство
+{SMT_LOYALTY_DISILLUSIONED}			Разочарование
+{SMT_LOYALTY_CONTENT}				Удовлетворенность
+{SMT_LOYALTY_HAPPY}				Счастье
+{SMT_FORTIFICATION_NONE}			Нет укреплений
+{SMT_FORTIFICATION_0}				Деревянная
+{SMT_FORTIFICATION_1}				Большие деревянные
+{SMT_FORTIFICATION_2}				Каменные
+{SMT_FORTIFICATION_3}				Большие каменные
+{SMT_FORTIFICATION_4}				Грандиозные
+{SMT_MISSION_INFILTRATE}			Задание: внедрение
+{SMT_MISSION_DIPLOMACY}			Задание: дипломатия
+{SMT_MISSION_BRIBE}				Задание: подкуп
+{SMT_MISSION_SPYING}				Задание: шпионаж
+{SMT_MISSION_ASSASSINATE}			Задание: убийство
+{SMT_MISSION_SABOTAGE}				Задание: саботаж
+{SMT_NAME}					Имя
+{SMT_FORT}					Форт
+{SMT_FACTION}					Фракция
+{SMT_PORT}					Порт
+{SMT_POPULATION}				Население
+{SMT_FATIGUE}					Уровень усталости
+{SMT_EXPERIENCE}				Опыт
+{SMT_MILD}					легкая
+{SMT_MASSIVE}					сильная
+{SMT_CATASTROPHIC}				катастрофическая
+{SMT_SMALL}					маленький
+{SMT_MEDIUM}					средний
+{SMT_LARGE}					большой
+{SMT_HUGE}					огромный
+{SMT_CURRENTLY_BUILDING}			Текущее здание
+{SMT_HEALTHY}					Здоровый
+{SMT_TIRED}					Усталые
+{SMT_ILL}					Больной
+{SMT_DYING}					Умирающий
+{SMT_ARMY_DETAILS}				Сведения об армии
+{SMT_ENEMY_ARMY_DETAILS}			Сведения о вражеской армии
+{SMT_ALLIED_ARMY_DETAILS}			Сведения о союзной армии
+{SMT_NEUTRAL_ARMY_DETAILS}			Сведения о нейтральной армии
+{SMT_NAVY_DETAILS}				Сведения о флоте
+{SMT_ENEMY_NAVY_DETAILS}			Сведения о вражеском флоте
+{SMT_ALLIED_NAVY_DETAILS}			Сведения о союзном флоте
+{SMT_NEUTRAL_NAVY_DETAILS}			Сведения о нейтральном флоте
+{SMT_SETTLEMENT_DETAILS}			Сведения о поселении
+{SMT_ENEMY_SETTLEMENT_DETAILS}		Сведения о вражеском поселении
+{SMT_NEUTRAL_SETTLEMENT_DETAILS}		Сведения о нейтральном поселении
+{SMT_ALLIED_SETTLEMENT_DETAILS}		Сведения о союзном поселении
+{SMT_FORT_DETAILS}				Сведения о форте
+{SMT_ENEMY_FORT_DETAILS}			Сведения о вражеском форте
+{SMT_ALLIED_FORT_DETAILS}			Сведения о союзном форте
+{SMT_NEUTRAL_FORT_DETAILS}			Сведения о нейтральном форте
+{SMT_SET_HEIR}					Установить будущего лидера фракции
+{SMT_PREV_CITY}					Выделить предыдущий город
+{SMT_NEXT_CITY}				Выделить следующий город
+{SMT_NEXT_CHARACTER}				Выделить следующий персонаж
+{SMT_PREV_CHARACTER}				Выделить предыдущий персонаж
+{SMT_NEXT_UNIT}				Выделить следующее соединение
+{SMT_PREV_UNIT}					Выделить предыдущее соединение
+{SMT_PREV_FORT}				Выделить предыдущий форт
+{SMT_NEXT_FORT}				Выделить следующий форт
+{SMT_FOOD_SUPPLIES}				Запас пищи
+{SMT_STATE_REVOLTING}				Крестьяне в этом поселении восстали
+{SMT_STATE_NOT_REVOLTING}			В этом поселении не наблюдается никаких признаков волнений
+{SMT_STATE_UNDER_SIEGE}			Это поселение находится в осаде
+{SMT_STATE_NOT_UNDER_SIEGE}			Это поселение не находится в осаде
+{SMT_STATE_HOLDING_GAMES}			В этом поселении проводятся игры
+{SMT_STATE_NOT_HOLDING_GAMES}			В этом поселении игры не проводятся
+{SMT_STATE_PLAGUE}				Мор  бушует в этом поселении
+{SMT_STATE_NOT_PLAGUED}			В этом поселении не наблюдается никаких признаков мора
+{SMT_FERTILE_LOW}				Низкая плодородность
+{SMT_FERTILE_MEDIUM}				Средняя плодородность
+{SMT_FERTILE_HIGH}				Высокая плодородность
+{SMT_WILDERNESS}				Дикая местность
+{SMT_MOUNTAINS_HIGH}				Высокогорье
+{SMT_MOUNTAINS_LOW}				Возвышенность
+{SMT_HILLS}					Холмы
+{SMT_FOREST_DENSE}				Густой лес
+{SMT_FOREST_SPARSE}				Лесистая местность
+{SMT_SWAMP}					Болото
+{SMT_OCEAN}					Океан
+{SMT_SEA_DEEP}					Глубокое море
+{SMT_SEA_SHALLOW}				Мелководье
+{SMT_BEACH}					Побережье
+{SMT_FAMINE_THREAT_OK}				Нет
+{SMT_FAMINE_THREAT_HUNGRY}			Голодные
+{SMT_FAMINE_THREAT_FAMINE_1}			Голод
+{SMT_FAMINE_THREAT_FAMINE_2}			Голод
+{SMT_FAMINE_THREAT_FAMINE_3}			Ужасный голод
+{SMT_FAMINE_THREAT}				Угроза голода
+{SMT_HARVEST_LEVEL}				Уровень урожая
+{SMT_FARMING_LEVEL}				Уровень сельского хозяйства
+{SMT_TAX_LEVEL_LOW}				Низкие налоги
+{SMT_TAX_LEVEL_NORMAL}				Нормальные налоги
+{SMT_TAX_LEVEL_HIGH}				Высокие налоги
+{SMT_TAX_LEVEL_VERY_HIGH}			Очень высокие налоги
+{SMT_GOVERNOR_POLICY_BALANCED}		Сбалансированная стратегия строительства
+{SMT_GOVERNOR_POLICY_FINANCIAL}		Финансовая стратегия строительства
+{SMT_GOVERNOR_POLICY_MILITARY}			Военная стратегия строительства
+{SMT_GOVERNOR_POLICY_STRONGHOLD}		Оборонительная стратегия строительства
+{SMT_GOVERNOR_POLICY_CULTURAL}			Культурная стратегия строительства
+{SMT_NO_GOVERNOR}				Нет правителя
+{SMT_SHOW_GARRISON}				Показать отряды в гарнизоне
+{SMT_SHOW_UNITS}				Показать отряды в армии
+{SMT_SHOW_UNITS_NAVY}				Показать отряды флота
+{SMT_SHOW_BUILDINGS}				Показать строения в поселении
+{SMT_SHOW_VISITORS}				Показать персонажей, находящихся в поселении
+{SMT_SHOW_TRAVELLING_CHARACTERS}		Показать персонажей, путешествующих с армией
+{SMT_SHOW_TRAVELLING_CHARACTERS_NAVY}	Показать персонажей, путешествующих с флотом
+{SMT_SHOW_PASSENGERS}				Показать соединения, путешествующие на выделенном корабле
+{SMT_RCLICK_SHOW_SETTLEMENTS}			Щелкните правой кнопкой мыши по закладке, чтобы просмотреть список ваших поселений
+{SMT_RCLICK_SHOW_CHARACTERS}			Щелкните правой кнопкой мыши по закладке, чтобы просмотреть список ваших персонажей
+{SMT_RCLICK_SHOW_ARMIES}			Щелкните правой кнопкой мыши по закладке, чтобы просмотреть список ваших войск
+{SMT_LOYALTY_DECREASING}			Лояльность к правителю снижается\nЛюдей нужно подбодрить
+{SMT_LOYALTY_INCREASING}			Лояльность крепнет\nПродолжайте в том же духе
+{SMT_MISSION_BREAK_ALLIANCE_TITLE}		Разорвать союз
+{SMT_MISSION_BREAK_ALLIANCE_PROPOSAL}		Сенат настаивает, чтобы вы разорвали союз с этой фракцией, поскольку они враги Рима
+{SMT_MISSION_BREAK_ALLIANCE_EXPIRY}		Сенат отменил задание разорвать союз с этой фракцией, поскольку они больше не враги Рима
+{SMT_MISSION_BREAK_ALLIANCE_FAILURE}		Сенат разгневан тем, что вы еще не разорвали союз с этой фракцией
+{SMT_MISSION_BREAK_ALLIANCE_SUCCESS}		Сенат отмечает, что вы разорвали союз с этой фракцией
+{SMT_MISSION_CAPTURE_REBEL_CITY_TITLE}		Захватить восставшее поселение
+{SMT_MISSION_CAPTURE_REBEL_CITY_PROPOSAL}	Сенат не потерпит восстаний, так что захватите это поселение и установите власть Рима
+{SMT_MISSION_CAPTURE_REBEL_CITY_EXPIRY}	Это поселение было снова захвачено, так что больше не предпринимайте попыток захватить его
+{SMT_MISSION_CAPTURE_REBEL_CITY_FAILURE}	Сенат недоволен тем, что вам не удалось захватить это поселение
+{SMT_MISSION_CAPTURE_REBEL_CITY_SUCCESS}	Сенат доволен тем, что вам удалось захватить это поселение
+{SMT_MISSION_DESTROY_REBEL_CITY_TITLE}		Уничтожить восставшее поселение
+{SMT_MISSION_DESTROY_REBEL_CITY_PROPOSAL}	Избавьте империю от этого восставшего поселения! Уничтожьте его, и пусть это послужит примером для всех подданных Рима
+{SMT_MISSION_DESTROY_REBEL_CITY_EXPIRY}	Сенат больше не нуждается в том, чтобы вы разрушали это поселение
+{SMT_MISSION_DESTROY_REBEL_CITY_FAILURE}	Сенат недоволен тем, что вам не удалось разрушить это поселение
+{SMT_MISSION_DESTROY_REBEL_CITY_SUCCESS}	Сенат доволен тем, что вам удалось разрушить это поселение
+{SMT_MISSION_GIVE_BACK_CITY_TITLE}		Возврат поселения
+{SMT_MISSION_GIVE_BACK_CITY_PROPOSAL}		Сенат просит вас вернуть это поселение
+{SMT_MISSION_GIVE_BACK_CITY_EXPIRY}		Сенат больше не нуждается в том, чтобы вы возвращали это поселение
+{SMT_MISSION_GIVE_BACK_CITY_FAILURE}		Сенат отмечает, что вам не удалось вернуть это поселение
+{SMT_MISSION_GIVE_BACK_CITY_SUCCESS}		Сенат отмечает, что вы успешно вернули это поселение
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_TITLE}	Атаковать объявленную вне закона фракцию
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_PROPOSAL}	Эта фракция объявлена вне закона. Сенат просит вас атаковать ее
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_EXPIRY}	Сенат больше не нуждается в том, чтобы вы атаковали эту фракцию, поскольку мир восстановлен
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_FAILURE}	Сенат отмечает, что вы не атаковали эту фракцию
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_SUCCESS}	Сенат доволен тем, что вам удалось атаковать эту фракцию
+{SMT_MISSION_CEASE_HOSTILITIES_TITLE}		Прекращение вражды
+{SMT_MISSION_CEASE_HOSTILITIES_PROPOSAL}	Сенат просит вас прекратить враждебные действия в отношении этой фракции
+{SMT_MISSION_CEASE_HOSTILITIES_EXPIRY}		Сенат больше не нуждается в том, чтобы вы прекращали враждебные действия в отношении этой фракции
+{SMT_MISSION_CEASE_HOSTILITIES_FAILURE}		Сенат недоволен тем, что вы продолжаете совершать враждебные действия в отношении этой фракции
+{SMT_MISSION_CEASE_HOSTILITIES_SUCCESS}	Сенат доволен тем, что вы прекратили враждебные действия в отношении этой фракции
+{SMT_MISSION_DECLARE_WAR_TITLE}		Объявление войны
+{SMT_MISSION_DECLARE_WAR_PROPOSAL}		Эта фракция является врагом Рима, и поэтому Сенат требует, чтобы вы объявили ей войну
+{SMT_MISSION_DECLARE_WAR_EXPIRY}		Сенат больше не нуждается в том, чтобы вы объявляли войну этой фракции
+{SMT_MISSION_DECLARE_WAR_DECLINED}		Сенат возмущен тем, что вы не начали войну с нашим врагом
+{SMT_MISSION_DECLARE_WAR_FAILURE}		Сенат возмущен тем, что вы прекратили военные действия
+{SMT_MISSION_DECLARE_WAR_SUCCESS}		Сенат благодарен вам за ваш вклад в военные действия против этой фракции
+{SMT_MISSION_HELP_PLAYER_TITLE}			Помощь Сенату
+{SMT_MISSION_HELP_PLAYER_PROPOSAL}		Сенат восхищен вашей работой на благо империи и с благодарностью просит вас принять это вознаграждение
+{SMT_MISSION_ASSASSINATION_TITLE}		Убийство
+{SMT_MISSION_ASSASSINATION_PROPOSAL}		Сенат чувствует, что мир без этого человека станет гораздо лучше, так что убейте его
+{SMT_MISSION_ASSASSINATION_EXPIRY_NOW_AN_ALLY}	Убийство больше не требуется, поскольку этот человек стал другом Рима
+{SMT_MISSION_ASSASSINATION_EXPIRY_OTHER_MEANS}	Убийство больше не требуется, поскольку этот человек умер сам по себе
+{SMT_MISSION_ASSASSINATION_EXPIRY_HIDING}	Убийство больше не требуется, поскольку этот человек скрылся и прячется
+{SMT_MISSION_ASSASSINATION_EXPIRY_IN_BATTLE}	Задание об убийстве отменяется, поскольку сенату нужно тихое убийство, а не громкая смерть на поле боя
+{SMT_MISSION_ASSASSINATION_SUCCESS}		Сенат доволен успешным покушением на этого человека
+{SMT_MISSION_ASSASSINATION_FAILURE}		Сенат недоволен тем, что вам не удалось убить этого человека
+{SMT_MISSION_TAKE_CITY_TITLE}			Взятие поселения
+{SMT_MISSION_TAKE_CITY_PROPOSAL}		Сенат просит вас взять это поселение во славу Империи
+{SMT_MISSION_TAKE_CITY_EXPIRY}			Сенат больше не нуждается в том, чтобы вы брали это поселение
+{SMT_MISSION_TAKE_CITY_FAILURE}			Сенат недоволен тем, что вам не удалось взять это поселение
+{SMT_MISSION_TAKE_CITY_SUCCESS}		Сенат доволен тем, что вам удалось взять это поселение
+{SMT_MISSION_RECAPTURE_EAGLE_TITLE}		Возвращение Орла легиона
+{SMT_MISSION_RECAPTURE_EAGLE_PROPOSAL}	Сенат надеется, что вы возьмете это поселение и вернете Орла вашего легиона, чтобы очистить запятнанную честь Рима
+{SMT_MISSION_RECAPTURE_EAGLE_EXPIRY}		Это поселение было взято, и ваш Орел утрачен
+{SMT_MISSION_RECAPTURE_EAGLE_FAILURE}		Сенат крайне недоволен тем, что вам не удалось вернуть Орла вашего легиона
+{SMT_MISSION_RECAPTURE_EAGLE_SUCCESS}		Сенат с удовлетворением отмечает, что вы вернули Орла вашего легиона
+{SMT_MISSION_SEND_EMISSARY_TITLE}		Эмиссар
+{SMT_MISSION_SEND_EMISSARY_PROPOSAL}		Сенат просит вас направить эмиссара в эту фракцию
+{SMT_MISSION_SEND_EMISSARY_FAILURE}		Сенат отмечает, что вашим дипломатам не удалось установить контакт с этой фракцией
+{SMT_MISSION_SEND_EMISSARY_SUCCESS}		Сенат отмечает, что вашим дипломатам удалось установить контакт с этой фракцией
+{SMT_MISSION_DEMAND_SUICIDE_TITLE}		Требование самоубийства
+{SMT_MISSION_DEMAND_SUICIDE_PROPOSAL}		Ради блага Империи, Сенат требует, чтобы лидер вашей фракции покончил жизнь самоубийством
+{SMT_MISSION_DEMAND_SUICIDE_DECLINED}		Сенат недоволен вашим отказом заставить лидера своей фракции совершить самоубийство
+{SMT_MISSION_DEMAND_SUICIDE_SUCCESS}		Сенат удовлетворен самоубийством лидера вашей фракции
+{SMT_SENATE_FAILURE}				Если вы потерпите неудачу:
+{SMT_SENATE_FINE_AWARDED}			Вы будете наказаны за свои убогие действия.
+{SMT_PENALTY_OUTLAW_DESCRIPTION}		Вы будете объявлены вне закона.
+{SMT_PENALTY_OUTLAW}				Сенат объявляет войну вашей фракции. Отныне вы вне закона.
+{SMT_PENALTY_CENSOR_INVESTIGATES_FAMILY_DESCRIPTION}	Цензор допросит вашу семью
+{SMT_PENALTY_CENSOR_INVESTIGATES_FAMILY}		После допроса вашей семьи цензором, член вашей семьи совершил самоубийство. Сенат приносит свои искренние соболезнования в связи с вашей потерей
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_CORRUPTION_DESCRIPTION}	Квестор допросит членов вашей фракции на предмет выявления коррупции
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_CORRUPTION}			После допроса членов вашей фракции квестером на предмет выявления коррупции, на вас наложен штраф в размере %d динариев
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION_DESCRIPTION}			Цензор допросит членов вашей фракции
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION}					После допроса членов вашей фракции цензором, %S совершает самоубийство
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_FINANCIAL_IRREGULARITIES_DESCRIPTION}	Квестор допросит членов вашей фракции по поводу финансовых нарушений
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_FINANCIAL_IRREGULARITIES}		После допроса членов вашей фракции квестором по поводу финансовых нарушений, на вас наложен штраф в размере %d динариев
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_ACCOUNTING_IRREGULARITIES_DESCRIPTION}		Квестор допросит членов вашей фракции по поводу бухгалтерских нарушений
+{SMT_PENALTY_QUAESTOR_INVESTIGATES_FOR_ACCOUNTING_IRREGULARITIES}			После допроса членов вашей фракции квестором по поводу бухгалтерских нарушений, на вас наложен штраф в размере %d динариев
+{SMT_PENALTY_SENATE_DISPLEASURE_DESCRIPTION}			Вы навлечете на себя недовольство Сената
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE_DESCRIPTION}		Ваша тайна будет раскрыта
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE}			Ваша тайна раскрыта
+{SMT_PENALTY_OFFICES_WITHELD_DESCRIPTION}			Члены вашей фракции четыре года не будут избираться на сенатские должности
+{SMT_PENALTY_OFFICES_WITHELD}					Вряд ли в ближайшее время Сенат будет привлекать членов вашей фракции к работе
+{SMT_SENATE_SUCCESS}						Если вы преуспеете:
+{SMT_SENATE_BOUNTY_AWARDED}					Вы получите денежное вознаграждение за свои усилия.
+{SMT_REWARD_MAJOR_EXOTIC_UNIT_DESCRIPTION}			Вы получите в награду старшее иностранное соединение
+{SMT_REWARD_TWO_MINOR_EXOTIC_UNITS_DESCRIPTION}		Вы получите в награду два младших иностранных соединения
+{SMT_REWARD_TWO_BEST_BUILDABLE_UNITS_DESCRIPTION}		Вы получите в награду два лучших соединения из доступных вам
+{SMT_REWARD_ONE_BEST_BUILDABLE_UNIT_DESCRIPTION}		Вы получите в награду одно из ваших лучших соединений из доступных вам
+{SMT_REWARD_ONE_MINOR_EXOTIC_UNIT_DESCRIPTION}		Вы получите в награду одно младшее иностранное соединение
+{SMT_REWARD_ONE_BUILDABLE_UNIT_DESCRIPTION}			Вы получите в награду одно из ваших соединений из доступных вам
+{SMT_REWARD_CANNOT_BUILD_A_UNIT}				Вы не можете получить награду, поскольку не можете строить соединения
+{SMT_REWARD_UNIT_AT_YOUR_CAPITAL}				Призовое соединение находится в вашей столице:\n
+{SMT_REWARD_SENATE_GRATITUDE_DESCRIPTION}			Вы заслужите благодарность Сената
+{SMT_REWARD_SENATE_GRATITUDE}					Сенат видит ваши труды на благо Рима и очень благодарен вам
+{SMT_REWARD_THROW_GAMES_DESCRIPTION}				За счет Сената в вашей столице будут проведены игры
+{SMT_REWARD_MAJOR_REWARD_DESCRIPTION}			Вы будете хорошо вознаграждены
+{SMT_REWARD_MODERATE_REWARD_DESCRIPTION}			Вы будете щедро вознаграждены
+{SMT_REWARD_MINOR_REWARD_DESCRIPTION}				Вы будете вознаграждены
+{SMT_REWARD_MONEY}						Вы получите в подарок %d динариев
+{SMT_REWARD_PROMISE_OF_APPOINTMENT_DESCRIPTION}		У вас будет приоритет при назначении магистратов
+{SMT_REWARD_PROMISE_OF_APPOINTMENT}				Сенат обратит особое внимание на вашу фракцию при назначении магистратов
+{SMT_SENATE_ATTITUDE}						Сенат хорошо расположен к вам
+{SMT_SENATE_OFFICE_QUAESTOR_TITLE}				Квестор
+{SMT_SENATE_OFFICE_QUAESTOR_DESCRIPTION}			Младший чиновник
+{SMT_SENATE_OFFICE_AEDILE_TITLE}				Эдил
+{SMT_SENATE_OFFICE_AEDILE_DESCRIPTION}				Ответственный за проведение игр
+{SMT_SENATE_OFFICE_PRAETOR_TITLE}				Претор
+{SMT_SENATE_OFFICE_PRAETOR_DESCRIPTION}			Командующий преторианской стражей
+{SMT_SENATE_OFFICE_CONSUL_TITLE}				Консул
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}				Высокопоставленный политик Сената
+{SMT_SENATE_OFFICE_CENSOR_TITLE}				Цензор
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}				Хранитель общественной нравственности
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_TITLE}			Верховный Понтифик
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}		Высший религиозный лидер
+{SMT_REMOVE_RALLY_POINT}					Убрать пункт сбора для этого поселения\nВновь набранные соединения будут оставаться в гарнизоне
+{SMT_SET_RALLY_POINT}						Показать пункты сбора
+{SMT_1_TURN}							1 ход
+{SMT_X_TURNS}							%d ходов
+{SMT_SELECT_UNIT_TO_RECRUIT}					Выделить соединение для найма
+{SMT_SELECT_UNIT_TO_RETRAIN}					Выделить соединение для переобучения
+{SMT_SET_TO_RECRUIT_MODE}					Показать доступные для найма соединения
+{SMT_SET_TO_RETRAIN_MODE}					Показать соединения в гарнизоне, которые нужно переобучить и заново снарядить
+{SMT_MERGE_SELECTED_UNITS}					Перенести выделенные объекты с левой панели на правую панель
+{SMT_X_PERCENT_COMPLETE}					%d процентов завершено
+{SMT_DIPLOMACY_OFFER_ALLIANCE}					Союз
+{SMT_DIPLOMACY_OFFER_CANCEL_ALLIANCE}				Отменить союз
+{SMT_DIPLOMACY_OFFER_CEASEFIRE}				Прекращение огня
+{SMT_DIPLOMACY_OFFER_MILITARY_ACCESS}				Право прохода армии
+{SMT_DIPLOMACY_OFFER_CANCEL_MILITARY_ACCESS}			Отмена права прохода армии
+{SMT_DIPLOMACY_OFFER_TRADE_RIGHTS}				Торговые привилегии
+{SMT_DIPLOMACY_OFFER_CANCEL_TRADE_RIGHTS}			Отмена торговых привилегий
+{SMT_DIPLOMACY_OFFER_ATTACK_FACTION}				Атаковать фракцию
+{SMT_DIPLOMACY_OFFER_CEDE_REGION}				Отдать регион
+{SMT_DIPLOMACY_OFFER_SINGLE_PAYMENT}				Сделать одиночную выплату
+{SMT_DIPLOMACY_OFFER_YEARLY_PAYMENT}				Постоянная дань
+{SMT_DIPLOMACY_OFFER_CANCEL_YEARLY_PAYMENT}			Отмена постоянной дани
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Угрожать атакой
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Не для атаки
+{SMT_DIPLOMACY_OFFER_MAP_INFORMATION}				Информация по карте
+{SMT_DIPLOMACY_OFFER_BRIBE}					Подкуп
+{SMT_DIPLOMACY_OFFER_PROTECTORATE}				Стать протекторатом
+{SMT_MAKE_OFFER}						Сделать предложение
+{SMT_MAKE_DEMAND}						Потребовать
+{SMT_YOUR_DEMANDS}						Ваши требования
+{SMT_YOUR_OFFERS}						Ваши предложения
+{SMT_THEIR_OFFERS}						Их предложения
+{SMT_THEIR_DEMANDS}						Их требования
+{SMT_GIVE_X_DENARI}						Дайте нам %d динариев
+{SMT_WE_WILL_GIVE_X_DENARI}					Мы отдадим %d динариев
+{SMT_GIVE_YEARLY_TRIBUTE_OF_X_DENARI}				Платить дань в размере %d динариев за ход
+{SMT_OFFER_YEARLY_TRIBUTE_OF_X_DENARI}				Мы будем платить дань по %d динариев за ход
+{SMT_CANCEL_YEARLY_TRIBUTE_OF_X_DENARI}			Отменить дань в размере %d динариев
+{SMT_DIP_ACCEPT_OFFER}						Принять текущее предложение
+{SMT_DIP_DECLINE_OFFER}						Отклонить текущее предложение
+{SMT_DIP_COUNTER_OFFER}					Сделать контрпредложение
+{SMT_DIP_NEW_OFFER}						Сделать новое предложение
+{SMT_DIP_INIT_OFFER}						Сделать предложение\nНе выдвигать предложений и требований, чтобы выяснить, что возьмет или предложит противная сторона
+{SMT_DIP_MAKE_GIFT}						Предложить предметы в подарок\nТолько определенные предметы можно предлагать в подарок
+{SMT_DIP_INFORM}						Сообщить противникам об отмене всех ранее достигнутых соглашений
+{SMT_TRIBUTE_PAYED}						Дань выплачена:
+{SMT_TRIBUTE_RECIEVED}						Дань получена:
+{SMT_MILITARY_ACCESS_RECEIVED}					Получено право прохода армии
+{SMT_MILITARY_ACCESS_GIVEN}					Предоставлено право прохода армии
+{SMT_TRADE_RIGHTS_GRANTED}					Дарованы торговые привилегии
+{SMT_ABILITIES_AT_A_GLANCE}					Обзор качеств
+{SMT_DESCRIPTION}						Описание
+{SMT_UPGRADES}							Совершенствования
+{SMT_X_MEN}							%d людей
+{SMT_YOUR_ARMY_HAS_X_BUILD_POINTS}				У вашей армии %d пунктов строительства
+{SMT_SELECT_SIEGE_EQUIPMENT}					Выберите снаряжение для строительства
+{SMT_BUILT}							Построен
+{SMT_ZOOM_TO_SETTLEMENT}					Определить место поселения
+{SMT_ZOOM_TO_UNIT}						Определить место армии, к которой относится отряд
+{SMT_ZOOM_TO_CHARACTER}					Определить место персонажа
+{SMT_OPEN_CONSTRUCTION_WINDOW}				Открыть окно строительства для выделенных поселений
+{SMT_NOTHING_TO_CONSTRUCT}					В выделенном поселении невозможно ничего построить
+{SMT_OPEN_TRAINING_WINDOW}					Открыть список обучения соединений для выделенного поселения
+{SMT_NOTHING_TO_TRAIN}						В выделенном поселении невозможно нанять ни одно соединение
+{SMT_CURRENTLY_TRAINING}					В настоящее время обучается
+{SMT_OPEN_OPTIONS_WINDOW}					Установить настройки игры
+{SMT_OPEN_SENATE_WINDOW}					Открыть экран информации о Сенате
+{SMT_OPEN_FINANCE_WINDOW}					Открыть окно финансов
+{SMT_OPEN_DIPLOMACY_WINDOW}					Открыть окно дипломатии
+{SMT_FACTION_BUTTON_TOOLTIP}					Открыть окно сводки по фракции\nИспользуйте правую кнопку мыши для размещения столицы фракции
+{SMT_SELECTED_ITEM_TOOLTIP}					Текущие выделенные объекты\nЩелкните один раз, чтобы перейти к объекту
+{SMT_BUILD_QUEUE_CONFLICT}					Это здание уже находится в очереди на строительство в данном поселении
+{SMT_BUILD_QUEUE_FULL}						Невозможно добавить этот объект, поскольку очередь на строительство заполнена
+{SMT_BUILD_QUEUE_INSUFFICIENT_FUNDS}				Невозможно добавить это здание, так как у вас недостаточно средств
+{SMT_TRAINING_INSUFFICIENT_POPULACE}				Нельзя добавить этот объект, поскольку в поселении недостаточно людей для найма
+{SMT_TRAINING_INSUFFICIENT_FUNDS}				Невозможно добавить этот объект к очереди на обучение, поскольку у вас недостаточно средств
+{SMT_TRAINING_QUEUE_FULL}					Невозможно добавить этот объект, поскольку очередь на обучение заполнена
+{SMT_DIPLOMACY_SUMMARY}					Дипломатическая сводка
+{SMT_WE_HAVE_MILITARY_ACCESS}					У нас есть право прохода армии
+{SMT_THEY_HAVE_MILITARY_ACCESS}				У них есть право прохода армии
+{SMT_PAYING_YOU_TRIBUTE_X_PER_TURN}				Вам выплачивается %d динариев дани за ход
+{SMT_PAYING_THEM_TRIBUTE_X_PER_TURN}				Им выплачивается %d динариев дани за ход
+{SMT_ASSISTANCE_REQUESTED_AGAINST}				Запрос на помощь в борьбе с
+{SMT_ASSISTANCE_PROVIDED_AGAINST}				Предоставлена помощь для борьбы с
+{SMT_CONFIRM_OFFER}						Утвердить подробности предложения
+{SMT_CANCEL_OFFER}						Отменить подробности предложения
+{SMT_OFFER_MONEY_TITLE}					Предложить деньги
+{SMT_DEMAND_MONEY_TITLE}					Потребовать деньги
+{SMT_AMOUNT_OF_DENARI}					Сумма
+{SMT_OFFER_TRIBUTE_TITLE}					Предложить дань
+{SMT_DEMAND_TRIBUTE}						Потребовать дань
+{SMT_NUMBER_OF_YEARS}						Кол-во ходов
+{SMT_OR_UNTIL_FURTHER_NOTICE}					Или до извещения
+{SMT_UNTIL_FURTHER_NOTICE}					До извещения
+{SMT_DEMAND_ATTACK_ON_FACTION}				Потребовать атаки на фракцию
+{SMT_OFFER_ATTACK_ON_FACTION}					Предложить атаку на фракцию
+{SMT_WITHIN}							В течение 
+{SMT_YEARS}							Ходы
+{SMT_GIVE}							Дать
+{SMT_DEMAND_SETTLEMENT_TITLE}					Потребовать поселения
+{SMT_OFFER_SETTLEMENT_TITLE}					Предложить поселения
+{SMT_CITY}							Город
+{SMT_CHARACTERS}						Персонажи
+{SMT_STATUS}							Состояние
+{SMT_CHARACTER_PERFORMED_TURNS_ACTION}			Выделенный персонаж имеет задание на этот ход
+{SMT_TARGET_TILE_IS_IMPASSABLE}					Цель неверна для данного типа персонажа
+{SMT_CANNOT_LEAVE_SIEGED_FORT}				Никто не может покинуть форт во время осады, кроме как для того, чтобы атаковать осаждающих
+{SMT_CANNOT_LEAVE_SIEGED_SETTLEMENT}				Никто не может покинуть поселение во время осады, кроме как для того, чтобы атаковать осаждающих
+{SMT_CANNOT_LEAVE_ENEMIES_ZOC}				Невозможно покинуть зону контроля врага
+{SMT_CHARACTER_DETAILS}					Сведения о персонаже
+{SMT_ENEMY_CHARACTER_DETAILS}					Сведения о вражеском персонаже
+{SMT_NEUTRAL_CHARACTER_DETAILS}				Сведения о нейтральном персонаже
+{SMT_ALLIED_CHARACTER_DETAILS}					Сведения о союзном персонаже
+{SMT_VICES}							Пороки
+{SMT_FACTION_SUMMARY}						Сводка по фракции
+{SMT_FACTION_LEADER}						Лидер фракции:
+{SMT_HEIRS}							Наследники:
+{SMT_REGIONS_GAINED}						Регионов освоено:
+{SMT_BATTLES_WON}						Сражений выиграно:
+{SMT_BATTLES_LOST}						Сражений проиграно:
+{SMT_SHOW_FAMILY_TREE}					Показать генеалогическое древо
+{SMT_SHOW_EVENT_LOG}						Показать журнал событий
+{SMT_FINANCIAL_SUMMARY}					Сводка по финансам
+{SMT_INCOME}							Доход
+{SMT_EXPENDITURE}						Расходы
+{SMT_FARMING}							Сельское хозяйство
+{SMT_RESOURCES}						Ресурсы
+{SMT_TRADE}							Торговля
+{SMT_TAXES}							Налоги
+{SMT_WAGES}							Заработная плата
+{SMT_PROJECTED_INCOME}						Прогнозируемый общий доход
+{SMT_PROJECTED_EXPENDITURE}					Прогнозируемые общие расходы
+{SMT_PROJECTED_PROFIT}						Прогнозируемая прибыль
+{SMT_TOTAL_INCOME}						Общий доход
+{SMT_TOTAL_EXPENDITURE}					Общие расходы
+{SMT_TOTAL_PROFIT}						Прибыль
+{SMT_ARMY_RECRUIT}						Найм
+{SMT_CONSTRUCTION}						Строительство
+{SMT_DIPLOMACY}						Дипломатия
+{SMT_TRIBUTE}							Дань
+{SMT_OTHER}							Другое
+{SMT_SENATE_TRANSACTIONS}					Протоколы Сената
+{SMT_EVENT_LOG}						Журнал событий
+{SMT_OFFICE}							Магистрат
+{SMT_CHARACTER}						Персонаж
+{SMT_SENATE_OFFICIALS}						Чиновники Сената
+{SMT_SENATE_MISSIONS}						Задания Сената
+{SMT_SHOW_SENATE_OFFICES}					Показать список магистратов Сената
+{SMT_TIME_REMAINING}						Времени осталось
+{SMT_TARGETS}							Цели
+{SMT_TARGET}							Цель
+{SMT_REWARD}							Вознаграждение
+{SMT_PENALTY}							Взыскание
+{SMT_SETTLEMENT}						Поселение
+{SMT_TRADE_DETAILS}						Сведения о торговле
+{SMT_SHOW_TRADE_SUMMARY}					Показать свиток торговых сводок для этого поселения
+{SMT_RESOURCE_GOLD}						Золото
+{SMT_RESOURCE_SILVER}						Серебро
+{SMT_RESOURCE_IRON}						Железо
+{SMT_RESOURCE_POTTERY}						Гончарные изделия
+{SMT_RESOURCE_FURS}						Меха
+{SMT_RESOURCE_GRAIN}						Зерно
+{SMT_RESOURCE_TIMBER}						Лес
+{SMT_RESOURCE_ELEPHANT}					Слоны
+{SMT_RESOURCE_CAMEL}						Верблюды
+{SMT_RESOURCE_DOG}						Собаки
+{SMT_RESOURCE_PIG}						Свиньи
+{SMT_RESOURCE_OLIVE_OIL}					Оливковое масло
+{SMT_RESOURCE_WINE}						Вино
+{SMT_RESOURCE_SLAVES}						Рабы
+{SMT_RESOURCE_GLASS}						Стекло
+{SMT_RESOURCE_MARBLE}						Мрамор
+{SMT_RESOURCE_TEXTILES}					Ткани
+{SMT_RESOURCE_PURPLE_DYE}					Пурпурная краска
+{SMT_RESOURCE_INCENSE}						Фимиам
+{SMT_RESOURCE_SILK}						Шелк
+{SMT_RESOURCE_WILD_ANIMALS}					Дикие животные
+{SMT_RESOURCE_HIDES}						Шкуры
+{SMT_RESOURCE_TIN}						Олово
+{SMT_RESOURCE_COPPER}						Медь
+{SMT_RESOURCE_LEAD}						Свинец
+{SMT_RESOURCE_AMBER}						Янтарь
+{SMT_HARVEST_POOR}						Плохой урожай
+{SMT_HARVEST_NORMAL}						Средний урожай
+{SMT_HARVEST_GOOD}						Хороший урожай
+{SMT_HARVEST_EXCELLENT}					Отличный урожай
+{SMT_MINING_INCOME}						Доходы от рудников
+{SMT_FARM_INCOME}						Доходы от сельского хозяйства
+{SMT_FIND_SELECTED_CHARACTER}					Определить место выделенного персонажа на карте
+{SMT_FAMILY_TREE_TITLE}						Генеалогическое древо
+{SMT_OWNED_BY}							Принадлежит:
+{SMT_WEAPON_ARMOUR_PIERCING}					Использует оружие, пробивающее доспехи
+{SMT_WEAPON_BODY_PIERCING}					Использует оружие, пронзающее тело
+{SMT_WEAPON_PRECURSOR}					Использует метательное оружие
+{SMT_WEAPON_AREA}						У оружия большая зона поражения
+{SMT_UNIT_IS_GENERAL}						Соединение способно выполнять командные функции
+{SMT_UNIT_IS_COMMAND}						Соединение командования
+{SMT_UNIT_CAN_CONCEAL}						Может прятаться
+{SMT_UNIT_IS_HARDY}						Стойкое
+{SMT_UNIT_IS_VERY_HARDY}					Очень стойкое
+{SMT_UNIT_IS_HEAVY}						Это тяжелое соединение
+{SMT_CAN_DO_TESTUDO}						Может строиться черепахой
+{SMT_CAN_DO_PHALANX}						Может формировать фалангу
+{SMT_GOOD_ON_SCRUB}						Хорошо использовать в низком кустарнике
+{SMT_GOOD_ON_SAND}						Хорошо использовать в пустыне
+{SMT_GOOD_ON_FOREST}						Хорошо использовать в лесу
+{SMT_GOOD_ON_SNOW}						Хорошо использовать на покрытой снегом территории
+{SMT_BAD_ON_SCRUB}						Плохо действует в кустарнике
+{SMT_BAD_ON_SAND}						Плохо действует в пустыне
+{SMT_BAD_ON_FOREST}						Плохо действует в лесу
+{SMT_BAD_ON_SNOW}						Плохо действует на покрытой снегом территории
+{SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_TITLE}		Обнаружен агент
+{SMT_UNCOVERED_HIDDEN_AGENT_IN_SETTLEMENT_DESCRIPTION}	Мы обнаружили опаснейшего и вероломного шпиона в этом поселении. Неужели нашим соперникам незнакомо слово честь?
+{SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_TITLE}		Агент раскрыт
+{SMT_HIDDEN_AGENT_IN_SETTLEMENT_COMPROMISED_DESCRIPTION}	Власти этого поселения раскрыли нашего агента. Надо позаботиться о том, чтобы он замолчал навсегда. 
+{SMT_APPOINT_TO_GOVERNOR_TITLE}				Назначен правитель
+{SMT_APPOINT_TO_GOVERNOR_DESCRIPTION}				Этот человек назначен новым правителем
+{SMT_SETTLEMENT_BESIEGE_TITLE}					Поселение в осаде
+{SMT_SETTLEMENT_BESIEGE_DESCRIPTION}				Это поселение сейчас в осаде, и из-за этого его жители очень страдают. 
+{SMT_SETTLEMENT_REVOLT_TITLE}					Поселение восстало
+{SMT_SETTLEMENT_REVOLT_DESCRIPTION}				Жители этого поселения восстали, показав всю глубину своей лживости и неблагодарности.
+{SMT_SETTLEMENT_LOST_TITLE}					Поселение потеряно
+{SMT_SETTLEMENT_LOST_DESCRIPTION}				Мы больше не контролируем это поселение, и это серьезный удар по нашему престижу и по финансам.
+{SMT_SETTLEMENT_GAINED_TITLE}					Поселение под контролем
+{SMT_SETTLEMENT_GAINED_DESCRIPTION}				Мы установили контроль над этим поселением, и это благоприятно повлияло на наш престиж и финансовое положение!
+{SMT_NAVY_BLOCKADED_TITLE}					Блокада
+{SMT_NAVY_BLOCKADED_DESCRIPTION}				В результате этой блокады страдает морская торговля.
+{SMT_BIRTH_TITLE}						Прибавление в семействе
+{SMT_BIRTH_DESCRIPTION}						У членов нашей фракции родился новый ребенок. В скором времени он повзрослеет и вступит в наши ряды.
+{SMT_ADOPTION_TITLE}						Принятие в семью
+{SMT_ADOPTION_DESCRIPTION}					Этот человек был принят в нашу семью и своими подвигами прославит наше имя.
+{SMT_COMING_OF_AGE_TITLE}					Достижение зрелости
+{SMT_COMING_OF_AGE_DESCRIPTION}				Этот человек достиг зрелости и готов принять свою долю ответственности за управление.
+{SMT_MARRIAGE_TITLE}						Женитьба
+{SMT_MARRIAGE_DESCRIPTION}					Этот человек женился, заложив основу для будущего укрепления нашей семьи.
+{SMT_NATURAL_DEATH_TITLE}					Естественная смерть
+{SMT_NATURAL_DEATH_DESCRIPTION}				Этот человек умер естественной смертью и присоединился к нашим предкам в загробном мире. 
+{SMT_NEW_FACTION_LEADER_TITLE}					Новый лидер фракции
+{SMT_NEW_FACTION_LEADER_DESCRIPTION}				Избран новый лидер фракции, который уже приступил к работе. 
+{SMT_NEW_FACTION_HEIR_TITLE}					Новый наследник фракции
+{SMT_NEW_FACTION_HEIR_DESCRIPTION}				Стало известно, кто станет следующим лидером фракции, однако мы надеемся, что он еще не скоро приступит к работе.
+{SMT_FACTION_DEFEATED_TITLE}					Фракция побеждена
+{SMT_FACTION_DEFEATED_DESCRIPTION}				Эта фракция была побеждена и больше не будет нас беспокоить. 
+{SMT_UNKNOWN}							Неизвестно
+{SMT_UNKNOWN_UNIT}						Неизвестный тип отряда
+{SMT_UNKNOWN_BUILDING}						Неизвестный тип сооружения
+{SMT_ARMY_BREAKDOWN}						Схема армии
+{SMT_SHOW_ARMY_DETAILS}					Просмотр сведений об армии
+{SMT_SHOW_VNV_DETAILS}					Показать пороки и добродетели персонажа
+{SMT_TRAITS_UKNOWN}						Особенности неизвестны
+{SMT_STATUS_UNKNOWN}						Состояние неизвестно
+{SMT_SPOTTED_BY}						Наблюдатель:
+{SMT_WATCHTOWER}						Сторожевая башня
+{SMT_EXCHANGE_COMMANDING_OFFICER}				Невозможно перевести командующего армией
+{SMT_EXCHANGE_NO_MOVEMENT_POINTS}				Недостаточно пунктов движения для перевода.
+{SMT_EXCHANGE_NO_NAVY_PRESENT}				Нельзя перевести корабль в наземную армию.
+{SMT_EXCHANGE_SELECTED}					Используйте клавишу слияния или просто перетяните карточку на другую панель.
+{SMT_EXCHANGE_UNSELECTED}					Выделите карточку, чтобы перевести ее на другую панель.
+{SMT_EXCHANGE_NO_SELECTION}					Выделите карточки для перевода, используйте закладки для просмотра различных категорий.
+{SMT_EXCHANGE_MERGE_OK}					Используйте клавишу слияния, чтобы перевести выделенные карточки с одной панели на другую.
+{SMT_EXCHANGE_CAPACITY_EXCEEDED}				Выделенные карточки невозможно перевести, поскольку для них не хватает места. Выделите карточки на обеих панелях, чтобы совершить обмен.
+{SMT_SHOW_MISSION_TARGET}					Показать положение цели
+{SMT_RALLY_POINTS}						Пункты сбора
+{SMT_RALLY_POINT}						Пункт сбора
+{SMT_CANNOT_MERGE_THIS_UNIT_SELECTION}			Выделенную подборку соединений нельзя перевести в противоположное окно
+{SMT_CANNOT_MERGE_THIS_CHARACTER_SELECTION}			Выделенную подборку персонажей нельзя перевести в противоположное окно
+{SMT_ZOOM_DOWN_TO_CITY}					Просмотр поселения на карте сражений
+{SMT_DESTROY_BUILDING}						Уничтожить строение
+{SMT_RETAINERS}							Подкрепления
+{SMT_RETAINERS_UNKNOWN}					Подкрепления неизвестны
+{SMT_SUCCESS_RATE}						Оценка успеха
+{SMT_SHOW_CHARACTER_TARGETS}					Показать потенциальные цели среди персонажей
+{SMT_SHOW_BUILDING_TARGETS}					Показать потенциальные цели среди строений
+{SMT_ACCEPT_MISSION}						Принять задание
+{SMT_BUILDING}							Здание
+{SMT_MILITARY_FORCES}						Войска
+{SMT_NUM_SOLDIERS}						Солдаты
+{SMT_ATTACK}							Атаковать
+{SMT_ATTACK_CHARGE}						Командование
+{SMT_ARMOUR}							Доспехи
+{SMT_DEFENCE}							Оборона
+{SMT_SHIELD}							Щит
+{SMT_HP}							Здоровье
+{SMT_CREATION_COST}						Стоимость найма
+{SMT_ARMY_STRENGTH_RATIO}					Коэффициент силы армии
+{SMT_NAVY_STRENGTH_RATIO}					Коэффициент силы флота
+{SMT_PROTECTOR}						Покровитель
+{SMT_PROTECTORATES}						Покровительство
+{SMT_YOU_ARE_PROTECTOR}					Вы покровительствуете этой фракции
+{SMT_ENABLE_AUTO_TRAIN}					Разрешить автоматическое обучение соединения
+{SMT_ENABLE_AUTO_CONSTRUCT}					Разрешить автоматическое строительство зданий
+{SMT_AUTOMATE_ALL}						Автоматизировать все производство
+{SMT_AI_SPEND_POLICY}						Политика трат определяется искусственным интеллектом
+{SMT_SAVE}							Сохранить
+{SMT_SPEND}							Тратить
+{SMT_CONSTRUCTION_OPTIONS}					Настройки строительства
+{SMT_CONSTRUCTION_QUEUE}					Очередь на строительство
+{SMT_LAND_EXPORTS}						Наземный экспорт
+{SMT_SEA_EXPORTS}						Морской экспорт
+{SMT_IMPORTS}							Импорт
+{SMT_TRADE_INCOME}						Доход от торговли
+{SMT_RECRUITMENT_QUEUE}					Очередь на найм
+{SMT_DEFENSES}							Оборонительные сооружения
+{SMT_SIEGE_DETAILS}						Сведения об осаде
+{SMT_SETTLEMENT_HAS_FOOD_FOR_X_YEARS}			Этому поселению хватит еды по меньшей мере на %d лет
+{SMT_FORT_HAS_FOOD_FOR_X_YEARS}				Этому форту хватит еды по меньшей мере на %d лет
+{SMT_SETTLEMENT_HAS_FOOD_FOR_1_YEAR}				Этому поселению хватит еды по меньшей мере на год
+{SMT_FORT_HAS_FOOD_FOR_1_YEAR}				Этому форту хватит еды по меньшей мере на год
+{SMT_SETTLEMENT_HAS_NO_FOOD}					У этого поселения осталось очень мало еды
+{SMT_FORT_HAS__NO_FOOD}					У этого форта осталось очень мало еды
+{SMT_AUTOMANAGE_ALL_TOOLTIP}					Автоматически установить компьютерного помощника по строительству для каждого поселения
+{SMT_ALLOW_BUILDING_TOOLTIP}					Позволить помощнику по строительству строить здания
+{SMT_ALLOW_TROOP_PRODUCTION_TOOLTIP}				Позволить помощнику по строительству нанимать войска
+{SMT_SPEND_SLIDER_TOOLTIP}					Установить сумму денег, которую могут тратить помощники по строительству
+{SMT_BUILDING_ADVICE}						Попросить советника порекомендовать, какое здание теперь строить
+{SMT_RECRUITMENT_ADVICE}					Попросить советника порекомендовать, какое соединение теперь нанимать
+{SMT_DAMAGE}							Урон
+{SMT_INVALID_RALLY_POINT_POSITION}				Это место не годится для пункта сбора
+{SMT_CANNOT_PERFORM_MISSIONS_WITH_MULTIPLE_CHARACTERS}	Невозможно выполнение заданий, когда выделено несколько персонажей
+{SMT_OPEN_MERCENARY_RECRUITMENT}				Открыть свиток найма наемников для выделенной армии
+{SMT_AVAILABLE_MERCENARIES}					Соединения наемников, доступные для найма
+{SMT_HIRE_ALL_QUEUED_UNITS}					Нанять все соединения, находящиеся в очереди
+{SMT_NO_ROOM_FOR_MERCENARIES}					Нельзя нанять больше наемников, потому что в получающей армии нет больше места
+{SMT_NO_MERCENARIES_AVAILABLE}					В этом регионе больше нет наемников, доступных для найма
+{SMT_CANNOT_AFFORD_THIS_MERCENARY}				У вас недостаточно денег, чтобы нанять этих наемников
+{SMT_ONLY_FAMILY_CAN_RECRUIT_MERCENARIES}			Только члены семьи могут нанимать наемников
+{SMT_ASSISTANCE_REQUESTED}					Запрошена помощь
+{SMT_WHICH_ALLY}						Союзная армия
+{SMT_WHICH_ARMY_REQUESTED}					Запрос на помощь от
+{SMT_ACCEPT_ASSISTANCE_REQUEST}				Ваши союзники просят оказать им помощь в сражении. Если вы ответите согласием, наша армия будет поддерживать их на поле боя. Вы согласны оказать им помощь?
+{SMT_ATTACKING_THIS_SETTLEMENT_WILL_BREAK_ALLIANCE}		В данный момент вы состоите в союзе с фракцией, которая владеет этим поселением.  Если вы атакуете его, союз будет разорван и начнется война. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_FORT_WILL_BREAK_ALLIANCE}			В данный момент вы состоите в союзе с фракцией, которая владеет этим фортом. Если вы атакуете его, союз будет разорван и начнется война. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_PORT_WILL_BREAK_ALLIANCE}			В данный момент вы состоите в союзе с фракцией, которая владеет этим портом. Если вы атакуете его, союз будет разорван и начнется война. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_ARMY_WILL_BREAK_ALLIANCE}			В данный момент вы состоите в союзе с фракцией, чью армию вы собираетесь атаковать. Если вы атакуете ее, союз будет разорван и начнется война. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_NAVY_WILL_BREAK_ALLIANCE}			В данный момент вы состоите в союзе с фракцией, которой принадлежит этот флот. Если вы атакуете его, союз будет разорван и начнется война. Вы уверены, что хотите продолжить?
+{SMT_CANNOT_ATTACK_ALLY}					Пока что вы не можете атаковать Рим. Вы еще недостаточно популярны для захвата власти. 
+{SMT_CONFIRM_ATTACK_ON_ALLY}					Атаковать союзника?
+{SMT_YOUR_FORCES}						Ваши войска
+{SMT_ENEMY_FORCES}						Вражеские войска
+{SMT_AI_REINFORCEMENT}						Этой армией будет управлять искусственный интеллект
+{SMT_REINFORCEMENTS}						Подкрепления:
+{SMT_BATTLE_DEPLOYMENT}					Развертывание сражения
+{SMT_YOUR_ARMY_SALLIES_FORTH}					Вы делаете вылазку навстречу врагу
+{SMT_ENEMY_SALLIES_FORTH}					Ваш враг делает вылазку и атакует
+{SMT_RIGHT_CLICK_FOR_CHARACTER_INFO}				Щелкните по портрету правой кнопкой, чтобы просмотреть полную информацию о персонаже и схему армии
+{SMT_FIELD_CONSTRUCTION}					Полевые сооружения
+{SMT_PROVINCE}							Провинция:
+{SMT_WATCHTOWER_DESCRIPTION}					Сторожевые башни увеличивают область обзора вражеской территории
+{SMT_FORT_DESCRIPTION}						Форты обеспечивают временную защиту армиям на марше, а также могут быть использованы для обороны стратегических позиций 
+{SMT_CANNOT_TRANSFER_GENERALS_UNIT}				Это соединение является личной охраной полководца и не может быть переведено
+{SMT_FAMOUS_BATTLE_SITE}					Место знаменитого сражения
+{SMT_BATTLE_YEAR}						Год
+{SMT_VICTOR}							Победитель
+{SMT_LOSER}							Проигравший
+{SMT_GAMES_FREQUENCY_YEARLY}					Ежегодные игры
+{SMT_GAMES_FREQUENCY_MONTHLY}				Ежемесячные игры
+{SMT_GAMES_FREQUENCY_DAILY}					Ежедневные игры
+{SMT_RACES_FREQUENCY_YEARLY}					Ежегодные гонки
+{SMT_RACES_FREQUENCY_MONTHLY}					Ежемесячные гонки
+{SMT_RACES_FREQUENCY_DAILY}					Ежедневные гонки
+{SMT_GAMES_AND_RACES_FREQUENCY_YEARLY}			Ежегодные игры и гонки
+{SMT_GAMES_AND_RACES_FREQUENCY_MONTHLY}			Ежемесячные игры и гонки
+{SMT_GAMES_AND_RACES_FREQUENCY_DAILY}				Ежедневные игры и гонки
+{SMT_SHOW_SETTLEMENT_STATS}					Показать подробную информацию о поселении
+{SMT_AUTOMANAGE}						Автоматическое управление
+{SMT_SETTLEMENT_STATISTICS}					Сведения о поселении
+{SMT_PUBLIC_ORDER}						Общественный порядок
+{SMT_POPULATION_GROWTH}					Рост населения
+{SMT_SET_POLICIES}						Выбор политики
+{SMT_POPULATION_REQUIRED}					Население для перехода на следующий уровень:
+{SMT_CONSTRUCTION_TIME}					Время строительства
+{SMT_CONSTRUCTION_COST}					Стоимость строительства
+{SMT_ANCILLARIES}						Вспомогательные
+{SMT_TRAITS}							Характеристики
+{SMT_RECRUITMENT_OPTIONS}					Настройки найма
+{SMT_MEN_IN_GARRISON}						Людей в гарнизоне
+{SMT_MEN_IN_ARMY}						Людей в армии
+{SMT_SELECTED_MERCENARIES}					Выделенные наемники
+{SMT_SHOW_FACTION_RANKINGS}					Показать свиток расстановки фракций
+{SMT_FACTION_RANKINGS}						Расстановка фракций
+{SMT_RANKING_SCORE}						Общий баланс
+{SMT_RANKING_MILITARY}						Военная сила
+{SMT_RANKING_PRODUCTION}					Производство
+{SMT_RANKING_REGIONS}						Территории
+{SMT_RANKING_FINANCIAL}						Финансы
+{SMT_RANKING_POPULATION}					Население
+{SMT_FACTION_FILTER}						Фильтр фракций
+{SMT_OWN_FACTION}						Своя фракция
+{SMT_ALL_FACTIONS}						Все фракции
+{SMT_TOP_5_FACTIONS}						Лучшие 5 фракций
+{SMT_CUSTOM_SELECTION}					Подборка пользователя
+{SMT_FILTER_NEIGHBOURS}						Соседние фракции
+{SMT_TURNS}							Ходы
+{SMT_VICTORY}							ПОБЕДА!
+{SMT_DEFEAT}							ПОРАЖЕНИЕ!
+{SMT_VICTORY_BODY}						Вы выиграли эту игру! Весь ваш народ празднует эту победу! Хотите продолжить и завоевать еще большую славу?
+{SMT_DEFEAT_BODY}						Вам не удалось добиться победы, будете ли вы продолжать участвовать в игре?
+{SMT_DEFEAT_GAME_OVER}					Ваша фракция прекратила свое существование. Другие впишут свои имена в книгу истории и присвоят себе ваши достижения! Может быть в следующий раз вам больше повезет!
+{SMT_CONTINUE_CAMPAIGN}					Продолжить  игру?
+{SMT_EXIT_CAMPAIGN}						Выйти
+{SMT_CAPTURED_SETTLEMENT}					Захваченное поселение
+{SMT_DENARI_GAINED_FROM_LOOTING}				Доходы от грабежа
+{SMT_POPULATION_GAINED_FROM_ENSLAVE}				Население, которое следует распределить между вашими поселениями
+{SMT_POPULATION_KILLED}						Население, которое следует перебить
+{SMT_LOOT_SETTLEMENT}						Занять поселение
+{SMT_ENSLAVE_POPULACE}						Обратить всех в рабство
+{SMT_EXTERMINATE}						Уничтожить жителей
+{SMT_SETTLEMENT_LOOT_BODY_STRING}				Это поселение пало перед мощью вашей армии. Вы победили, и судьба поселения сейчас в ваших руках!
+{SMT_BUILDINGS_NEEDING_REPAIR}					Здания, нуждающиеся в ремонте
+{SMT_SHOW_NEW_BUILDINGS}					Показать доступные для строительства здания
+{SMT_SHOW_REPAIRABLE_BUILDINGS}				Показать здания, нуждающиеся в ремонте
+{SMT_REPAIR_TIME}						Время ремонта
+{SMT_REPAIR_COST}						Стоимость ремонта
+{SMT_BUILD_POINTS}						Пункты строительства:
+{SMT_ALWAYS_SHOW_ADVANCED_STATS}				Всегда показывать сведения о поселении
+{SMT_ADVANCED_STATS}						Сведения о поселении
+{SMT_SHOW_TECH_TREE}						Показать окно просмотра строительства
+{SMT_BUILDING_BROWSER}						Окно просмотра строительства
+{SMT_STATE_ICON_FARMING_LEVEL}					Уровень сельского хозяйства
+{SMT_STATE_ICON_FARMS_BUILT}					Ферм построено
+{SMT_STATE_ICON_FOOD_IMPORTS}					Импорт пищи
+{SMT_STATE_ICON_HEALTH}					Здоровье
+{SMT_STATE_ICON_BUILDINGS}					Здания
+{SMT_STATE_ICON_TAX_RATE_BONUS}				Увеличение налоговой ставки
+{SMT_STATE_ICON_UNIT_DISBANDS}					Соединений распущено
+{SMT_STATE_ICON_SLAVERY}					Рабство
+{SMT_STATE_ICON_SQUALOUR}					Бедность
+{SMT_STATE_ICON_DISASTERS}					Бедствия
+{SMT_STATE_ICON_UNIT_RECRUITS}					Соединений нанято
+{SMT_STATE_ICON_TAX_RATE_PENALTY}				Уменьшение налоговой ставки
+{SMT_STATE_ICON_GARRISON}					Гарнизон
+{SMT_STATE_ICON_BUILDINGS_LAW}					Здания сферы закона и порядка
+{SMT_STATE_ICON_BUILDINGS_FUN}					Здание сферы развлечений
+{SMT_STATE_ICON_GOVERNORS_INFLUENCE}				Влияние правителя
+{SMT_STATE_ICON_TAX_BONUS}					Улучшение налогов
+{SMT_STATE_ICON_TRIUMPH}					Триумф
+{SMT_STATE_ICON_WONDER}					Чудо
+{SMT_STATE_ICON_BOOM}						Увеличение рождаемости
+{SMT_STATE_ICON_DISTANCE_TO_CAPITAL}				Расстояние до столицы
+{SMT_STATE_ICON_CULTURE_PENALTY}				Ухудшение культуры
+{SMT_STATE_ICON_NO_GOVERNANCE}				Нет правительства
+{SMT_STATE_ICON_TAX_PENALTY}					Увеличение налогов
+{SMT_STATE_ICON_TURMOIL}					Волнения
+{SMT_STATE_ICON_UNDERPOPULATION}				Нехватка населения
+{SMT_STATE_ICON_BESIEGED}					В осаде
+{SMT_STATE_ICON_BLOCKADED}					В блокаде
+{SMT_STATE_ICON_RECESSION}					Спад
+{SMT_STATE_ICON_ENTERTAINED}					Высокий уровень развлечений
+{SMT_STATE_ICON_FARMS}						Крестьянские хозяйства
+{SMT_STATE_ICON_TAXES}						Налоги
+{SMT_STATE_ICON_RESOURCES}					Ресурсы
+{SMT_STATE_ICON_TRADE}						Торговля
+{SMT_STATE_ICON_DIPLOMATIC_INCOME}				Доходы от дипломатии
+{SMT_STATE_ICON_DEMOLITION}					Снос
+{SMT_STATE_ICON_LOOTING}					Мародерство
+{SMT_STATE_ICON_ADMIN}						Управление
+{SMT_STATE_ICON_WAGES}					Заработная плата
+{SMT_STATE_ICON_UPKEEP}					Обслуживание
+{SMT_STATE_ICON_CONSTRUCTION}					Строительство
+{SMT_STATE_ICON_RECRUITMENT}					Найм
+{SMT_STATE_ICON_DIPLOMATIC_OUTGOINGS}				Расходы на дипломатию
+{SMT_STATE_ICON_CORRUPTION}					Коррупция
+{SMT_TECH_TREE_THREAD_ALREADY_BUILT}				Это уже построено
+{SMT_TECH_TREE_THREAD_AVAILABLE_TO_BUILD}			Этот объект доступен для строительства
+{SMT_TECH_TREE_THREAD_NOT_AVAILABLE_TO_BUILD}			Пока этот объект построить невозможно
+{SMT_ESPIONAGE_IN_CARTHAGE_TITLE}				Шпионаж в Карфагене
+{SMT_A_NEW_RELIGION_TITLE}					Новая религия
+{SMT_ERUPTION_AT_ETNA_TITLE}					Извержение Этны
+{SMT_PLAGUE_IN_MACEDONIA_TITLE}				Мор в Македонии
+{SMT_STOIC_PHILOSOPHY_TITLE}					Философия стоиков
+{SMT_HAND_PUMP_INVENTED_TITLE}					Изобретение ручного насоса
+{SMT_LIBRARIAN_AT_ALEXANDRIA_TITLE}				Библиотекарь в Александрии
+{SMT_GREAT_LIBRARY_COMPLETED_TITLE}				Великая Библиотека построена
+{SMT_THROUGH_A_GLASS_CLEARLY_TITLE}				Через стекло
+{SMT_ARCHIMEDES_SCREW_TITLE}					Винт Архимеда
+{SMT_GREEK_LOGIC_TITLE}						Греческая логика
+{SMT_STAR_CATALOGUE_TITLE}					Каталог звезд
+{SMT_PLAGUE_IN_ALEXANDRIA_TITLE}				Мор в Александрии
+{SMT_RITES_OF_BACCHUS_BANNED_TITLE}				Запрет на поклонение Бахусу
+{SMT_EARTHQUAKE_IN_PONTUS_TITLE}				Землетрясение в Понте
+{SMT_CONCRETE_INVENTED_TITLE}					Изобретение бетона
+{SMT_ERUPTION_AT_VESUVIUS_TITLE}				Извержение Везувия
+{SMT_PHILOSOPHY_IS_FOPPISH_TITLE}				Философия -- для хлыщей!
+{SMT_ASTRONOMY_ADVANCES_TITLE}				Развитие астрономии
+{SMT_LEX_AEBUTIA_TITLE}						Lex Aebutia
+{SMT_ROMAN_STOICISM_TITLE}					Римский стоицизм
+{SMT_LEX_PAPIRA_TITLE}						Lex Papira
+{SMT_PLAGUE_IN_ITALY_TITLE}					Мор в Италии
+{SMT_VESTAL_VIRGIN_STRUCK_DOWN_TITLE}				Убийство весталок
+{SMT_A_NEW_MAN__GAIUS_MARIUS_TITLE}				Новый человек: Гай Марий
+{SMT_DE_RERUM_NATURA_TITLE}					De Rerum Natura
+{SMT_PLAGUE_IN_ASIA_MINOR_TITLE}				Мор в Малой Азии
+{SMT_LEX_POMPEIA_TITLE}						Lex Pompeia
+{SMT_DE_MATERIA_MEDICA_TITLE}					De Materia Medica
+{SMT_JULIAN_CALENDAR_TITLE}					Юлианский календарь
+{SMT_EARTHQUAKE_IN_IBERIA_TITLE}				Землетрясение в Иберии
+{SMT_THE_AENEID_TITLE}						Энеида
+{SMT_LEX_ADULTERIIS_COERCENDIS_TITLE}				Lex Adulteriis Coercendis
+{SMT_TROUBLE_IN_JUDEA_TITLE}					Волнения в Иудее
+{SMT_LEX_FUFIA_CANINIA_TITLE}					Lex Fufia Caninia
+{SMT_ESPIONAGE_IN_CARTHAGE_BODY}				Римляне отрицают, что посылали шпионов в Карфаген, чтобы выкрасть секрет очень ценной пурпурной краски. Они отмечают, что нежелание Карфагена делиться своими знаниями с остальными народами вынуждает развивать шпионскую сеть. Карфагеняне схватили двух несчастных, которые признались сразу после первых пыток. Оба казнены.
+{SMT_A_NEW_RELIGION_BODY}					Царь маурьев Ашока послал миссионера в эллинистические государства, возвещавшего о новом 'просветлении' его величества благодаря учению 'Будды'. Миссионер должен распространить это знание среди тех, кто продолжает жить в неведении. Многие жители Греции ломают головы над тем, что бы это значило...
+{SMT_ERUPTION_AT_ETNA_BODY}					Бог Вулкан уничтожил греческий город Наксос, заставив извергаться гору Этна! Тысячи человек погибли под потоками кипящей лавы.
+{SMT_PLAGUE_IN_MACEDONIA_BODY}				Страшный мор в Македонии распространяется в сторону Греции. Почти наверняка он вызван кельтами и другими варварами.
+{SMT_STOIC_PHILOSOPHY_BODY}					Аристон Хиосский начал проповедовать стоицизм. Эта философия получила свое название от Пестрого портика Афинской агоры (по-гречески -- stoa poikile). Именно там собирались и провозглашали свои идеи стоики: дурные чувства, наподобие зависти или гнева возникают из-за ложных суждений. Человек, достигший нравственного и интеллектуального совершенства, не будет подвержен таким чувствам.
+{SMT_HAND_PUMP_INVENTED_BODY}					Архимед изобрел первый в мире водяной насос, который позволяет быстро и легко поднимать воду туда, куда нужно.
+{SMT_LIBRARIAN_AT_ALEXANDRIA_BODY}				Эратосфен стал главным библиотекарем в Александрии. Он образованный ученый и талантливый географ. Среди прочих достижений, он точно рассчитает длину окружности Земли и предложит использовать широту и долготу для определения географических координат.
+{SMT_GREAT_LIBRARY_COMPLETED_BODY}				Наконец-то завершено строительство Великой Александрийской Библиотеки, в которой будет храниться 800 000 книг. Это будет воистину главная сокровищница знаний в мире, где вместе с трудами Платона, Гомера, Сократа и Аристотеля будут храниться книги величайших мудрецов Вавилона, Египта и Иудеи.
+{SMT_THROUGH_A_GLASS_CLEARLY_BODY}				Египтяне долгие годы изготавливали цветное стекло, а карфагеняне изобрели способ делать прозрачное стекло! Новые прозрачные кубки уже распространились по миру среди тех, кто обладает настоящим вкусом и проницательностью.
+{SMT_ARCHIMEDES_SCREW_BODY}					Архимед изобрел хитрое устройство для подъема воды, использовав винт, движущийся внутри трубы. Это устройство позволит подавать воду в шахты и орошать поля.
+{SMT_GREEK_LOGIC_BODY}						Учения Платона и Аристотеля синтезированы в новую философскую систему под названием 'логика'. Эта философская система основана на принципе необходимости доказательств в спорах. Инструмент рационального мышления, логика позволит философам вести дискуссии и тщательно проверять свои идеи с помощью нового революционного учения.
+{SMT_STAR_CATALOGUE_BODY}					Эратосфен закончил составление своего каталога, в который он включил 675 звезд и изящным способом, основанным на измерении длины тени в разных городах на одном меридиане, очень точно рассчитал размеры Земли.
+{SMT_PLAGUE_IN_ALEXANDRIA_BODY}				Проклятье Сета поразило Александрию, количество умерших огромно. Египтяне возвращаются к вере в древних богов, надеясь, что Исида защитит их от мора -- этого не удалось сделать греческим богам, завезенным в Египет династией Птолемеев!
+{SMT_RITES_OF_BACCHUS_BANNED_BODY}				Римский Сенат решил, что пьяные оргии во время Вакханалий зашли слишком далеко. Разврат и безнравственность шокировали патрициев и побудили их действовать. Теперь участие в празднованиях в честь Бахуса приведет к изгнанию и лишению римского гражданства.
+{SMT_EARTHQUAKE_IN_PONTUS_BODY}				Понт не может оправиться от сильнейших землетрясений - явного знака немилости Посейдона. Число погибших огромно.
+{SMT_CONCRETE_INVENTED_BODY}					Портик Эмилия на берегу Тибра -- первое здание, построенное из бетона. Этот 'жидкий камень' -- смесь строительного камня, извести, вулканического пепла и воды, был залит в деревянные опалубки. Некоторые сенаторы заявляют, что этот материал не такой безопасный как мрамор, и пытаются запретить его использование. В некотором отношении римский рецепт производства бетона даже лучше того, что стал широко использоваться примерно через 2000 лет.
+{SMT_ERUPTION_AT_VESUVIUS_BODY}				Город Геркуланум был погребен под пеплом Везувия, а огромные приливные волны нанесли большой ущерб городу Мессина. Это явные признаки гнева Плутона и Нептуна.
+{SMT_PHILOSOPHY_IS_FOPPISH_BODY}				Рим изгоняет греческих философов после принятия закона Фанния. Он запрещает изнеженную и отвратительную греческую науку 'философию',  как противную обычаям и нравам предков, чьи учения не требуют таких многочисленных размышлений.
+{SMT_ASTRONOMY_ADVANCES_BODY}				Гиппарх из Никеи рассчитал длину солнечного года, занес в каталог 1080 звезд и открыл прецессию равноденствий. Многое из этого сделано благодаря его замечательному изобретению -- астролябии, которую также можно использовать в навигации.
+{SMT_LEX_AEBUTIA_BODY}						Этот законодательный акт формально преобразует основанную на традициях юридическую практику в стройную систему. До этого времени римские законы применялись по разному для каждого отдельного случая.
+{SMT_ROMAN_STOICISM_BODY}					Посещение Рима знаменитым греческим стоиком Панецием произвело сильное впечатление на римскую элиту. Его идеи заинтересовали многих, во многом потому, что стоицизм во многом соответствует естественному и правильному римскому образу жизни.
+{SMT_LEX_PAPIRA_BODY}						Чтобы предотвратить коррупцию и злоупотребления, этот закон обязывает проводить в Сенате тайное голосование.
+{SMT_PLAGUE_IN_ITALY_BODY}					По всей Италии тысячи человек пали жертвами нового мора, занесенного грязными варварами. Римский Сенат приказал закрыть все города на сорок дней, чтобы очистить воздух, везде будут зажжены костры, а в храмах будут совершены необходимые жертвоприношения.
+{SMT_VESTAL_VIRGIN_STRUCK_DOWN_BODY}				В Риме суеверия овладели умами и сердцами простых граждан -- плебса, после того, как молния убила юную дочь всадника. Судебное расследование определило, что три весталки нарушили обет целомудрия, после чего они были приговорены к смерти. Оракул Кибелы возвестил, что для того, чтобы умиротворить богов, по паре греков и галлов надо заживо похоронить. Кажется, все это сработало.
+{SMT_A_NEW_MAN__GAIUS_MARIUS_BODY}				Гай Марий предложил серию законов, позволяющих пролетариату вступать в реорганизованную им римскую армию. За долгие годы военной службы каждый солдат получит землю во владение для получения дохода. Реформа была проведена через народное собрание без одобрения Сената. Разумеется, такой популярный -- и популистский - закон в конце концов окажет Марию дурную услугу!\n\nТипы войск, доступные для набора, теперь отражают структуру этой новой профессиональной армии. Чтобы посмотреть подробности, смотрите свиток найма.
+{SMT_DE_RERUM_NATURA_BODY}					До сих пор Тит Лукреций Кар был больше известен как поэт и философ, но в книге De Rerum Natura или 'О природе вещей' он проявил себя как настоящий эпикуреец. Он также провозгласил, что материя состоит из мельчайших частиц, называемых 'атомами'.
+{SMT_PLAGUE_IN_ASIA_MINOR_BODY}				Мор обрушился на города Малой Азии, погубив тысячи жизней. Благоразумные жители греческих, итальянских и египетских городов уже закрыли городские ворота и порты для путешественников и кораблей из этой области.
+{SMT_LEX_POMPEIA_BODY}						Этот новый закон дает права некоторым чужеземцам, позволяя им вступать в брак и торговать с гражданами Рима. Он даже дает им шанс на получение римского гражданства!
+{SMT_DE_MATERIA_MEDICA_BODY}					Педаний Диоскорид из Киликии опубликовал свой великий труд, в котором описываются все известные ему растения с целительными свойствами. Также он перечислил все ядовитые растения вместе с противоядиями, сделав эту книгу самым важным медицинским манускриптом нашего времени.
+{SMT_JULIAN_CALENDAR_BODY}					После долгих тщательных раздумий в римских владениях введен новый календарь. Старый календарь не успевал за сменой времен года. Новый календарь восстанавливает правильный ход времени и сохраняет гармонию между лунным и солнечным годом, добавляя дополнительный день каждые четыре года.
+{SMT_EARTHQUAKE_IN_IBERIA_BODY}				Иберийский город Сагунт разрушен страшным землетрясением, которое, несомненно, служит знаком гнева Нептуна. Погибло много людей, был разрушен храм.
+{SMT_THE_AENEID_BODY}						Вергилий завершил свое эпическое переложение римской истории в стиле Гомера. Эта прекрасная работа была по достоинству оценена римлянам за свою поэтическую точность.
+{SMT_LEX_ADULTERIIS_COERCENDIS_BODY}				Римский Сенат принял новый закон, провозглашающий супружескую неверность общественным преступлением. Закон предусматривает смертный приговор или, в некоторых случаях, изгнание из Рима для любовников.
+{SMT_TROUBLE_IN_JUDEA_BODY}					Правитель Иудеи, очевидно, сошел с ума. Он приказал убить всех новорожденных младенцев в своих землях. Его чудовищный приказ был оглашен после визита трех зороастрийских философов, который стал причиной многих бессонных ночей правителя.
+{SMT_LEX_FUFIA_CANINIA_BODY}					Римский Сенат издал закон, который должен разобраться с проблемой рабов, освобожденных по воле их ныне умерших владельцев. Массовое освобождение рабов более не разрешается, и завещатель может теперь освободить только небольшую часть рабов.
+{SMT_THE_SENATE}						Сенат
+{SMT_SENATE_POLICY}						Политика Сената
+{SMT_SENATE_FLOOR}						Зал заседаний Сената
+{SMT_SENATE_NO_MISSIONS}					В данный момент у вас нет заданий Сената
+{SMT_SENATE_THE_SENATE}					Сенат
+{SMT_SENATE_THE_PEOPLE}					Народ
+{SMT_SENATE_STANDING}						Текущее состояние
+{SMT_SENATE_POLICY_AT_WAR_STANCE_AT_WAR}			Сенат доволен тем, что ваша политика по отношению к этому народу полностью совпадает с политикой Сената. Это враги Рима, и они должны погибнуть под железной стопой римских легионов. 
+{SMT_SENATE_POLICY_HARASS_STANCE_AT_WAR}			После долгих размышлений, Сенат решил, что к этому народу следует относится холодно и враждебно. Пока что мы не станем объявлять им войну, но Сенат определенно не видит смысла в действиях по отношению к этому народу, которые можно расценить как честные и справедливые. 
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_AT_WAR}			Сенат, после должного обсуждения, счел, что ваши воинственные настроения в отношении этого народа противоречат интересам Республики. Мы считаем, что в идеале между истинными римлянами и этим народом должен поддерживаться формальный мир. Теплых, дружеских отношений мы от вас не требуем. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_AT_WAR}			Сенат заявляет, что война с этим народом не в интересах Рима. Очень желательно немедленно прекратить военные действия и возобновить дружеские отношения.
+{SMT_SENATE_POLICY_ASSIST_STANCE_AT_WAR}			Война, что в ней хорошего? Абсолютно ничего, так решил Сенат. Сенаторы очень недовольны и заявляют, что война, начатая вами против этого народа, прямо противоречит важнейшим интересам Рима. Мы требуем немедленного прекращения военных действий. 
+{SMT_SENATE_POLICY_AT_WAR_STANCE_NEUTRAL}			Сенат и граждане Рима едины в своем мнении, что эта фракция является злостным врагом Рима. Одним своим существованием они марают честь Рима, так что следует немедленно начать войну с ними. 
+{SMT_SENATE_POLICY_HARASS_STANCE_NEUTRAL}			Сенат, после соответствующего размышления, решил, что этот народ нельзя более считать другом Рима. Их право на территорию, свободу и независимость следует подвергать сомнению при любой возможности. 
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_NEUTRAL}			После непродолжительного обсуждения, Сенат решил, что его абсолютно не волнует судьба этого народа. В данных обстоятельствах ваш нейтралитет как нельзя более устраивает Сенат, но в настоящее время Сенаторов это вообще не беспокоит. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_NEUTRAL}			Сенаторы с удовлетворением отмечают, что вы не собираетесь начинать войну с этим народом. Однако они напоминают вам, что, в интересах Сената и граждан Рима неплохо было бы установить дружеские дипломатические отношения с ним. 
+{SMT_SENATE_POLICY_ASSIST_STANCE_NEUTRAL}			Сенат и граждане Рима считают, что в интересах Республики будет улучшить ваши отношения с этим народом. Хотя, в общем и целом, ваши текущие отношения вполне устраивают Сенат, нет таких связей, которые нельзя было бы улучшить. 
+{SMT_SENATE_POLICY_AT_WAR_STANCE_ALLIED}			Сенат твердо убежден в том, что эти люди -- враги Рима. И нести им следует меч, а не оливковую ветвь. Договариваться с ними -- значит в равной мере навлекать несчастья на Республику и оскорблять Сенат. Мир с этим народом совершенно неприемлем. 
+{SMT_SENATE_POLICY_HARASS_STANCE_ALLIED}			Сенат и граждане Рима считают, что к этому народу следует относиться с презрением, а не как к равным. Их право на территориальную неприкосновенность, независимость, и возможность жить отдельно от Рима следует яростно отрицать. Для отношений с этим народом больше подходит слово 'требования', а не 'дипломатия'.
+{SMT_SENATE_POLICY_NEUTRAL_STANCE_ALLIED}			Сенат считает, что тесные дипломатические связи с этим народам не отвечают интересам Рима, если рассматривать их в свете многочисленных обязательств Республики. Союзы -- это всегда хорошо, но не всегда доступно. 
+{SMT_SENATE_POLICY_FRIENDLY_STANCE_ALLIED}			Сенат обратил внимание на ваши дружеские отношения с этим народом и рекомендует продолжать ту же политику. Вы можете быть уверены в том, что ваши мирные инициативы полностью соответствуют интересам Рима. 
+{SMT_SENATE_POLICY_ASSIST_STANCE_ALLIED}			Сенат и граждане Рима очень довольны и считают, что союз, заключенный вами, соответствует проводимой ими политике. Эти люди наши друзья и достойны всяческой помощи. 
+{SMT_SENATE_STANDING_RANKING_0}				Вы никому в Сенате не нравитесь. Если вас будут подозревать в каком-то преступлении или в предательстве, все легко этому поверят. Хуже того, все убеждены, что вы наверняка замешаны в чем-то ужасном, только пока что вам удается это скрывать. 
+{SMT_SENATE_STANDING_RANKING_1}				Члены Сената отказываются узнавать вас на улицах. Жены сенаторов притворяются, что не догадываются о вашем существовании. Рабы сенаторов переходят на другую сторону улицы, чтобы не сталкиваться с вами. Вы не популярны и не любимы. 
+{SMT_SENATE_STANDING_RANKING_2}				Многие сенаторы открыто прославляют ваших предков, и часто выражают желание, чтобы вы присоединились к ним, да поскорее. 
+{SMT_SENATE_STANDING_RANKING_3}				Ваша репутация такова, что сенаторам неловко появляться в обществе вместе с вами. Однако они с удовольствием наслаждаются вашим обществом и вином в уединении. 
+{SMT_SENATE_STANDING_RANKING_4}				Когда Сенат вспоминает о вас, ваши достижения оцениваются вполне объективно. Ваша популярность или отсутствие таковой никак не влияет на благородных сенаторов. 
+{SMT_SENATE_STANDING_RANKING_5}				Небольшая группа членов Сената признает ваше величие, но большинство остальных относится к вам равнодушно. К счастью, в последнее время вы редко вызываете открытую враждебность сенаторов. 
+{SMT_SENATE_STANDING_RANKING_6}				Большинство членов Сената хорошего мнения о вас, но некоторые сенаторы не уверены, вызваны ли ваши действия желанием достичь личной славы или вы думаете только о благе Рима. 
+{SMT_SENATE_STANDING_RANKING_7}				Несколько сомневающихся и, скажем прямо, не вполне здоровых сенаторов, которые боятся популярности других людей, считают вас своей главной проблемой. Они завидуют вашему обаянию и вашим достижениям. 
+{SMT_SENATE_STANDING_RANKING_8}				Сенат очень высоко ценит вас. Ведутся споры о том, считать ли вас Отцом Республики или просто передать вам ключи от жилищ весталок! 
+{SMT_SENATE_STANDING_RANKING_9}				Сенат считает вас новым Ромулом, истинным спасителем Республики и главным защитником Рима. Ваше имя стало синонимом добродетели, достоинства и приверженности римским обычаям. 
+{SMT_SENATE_POPULAR_SUPPORT_0}				Вы так непопулярны, что плебеи даже не трудятся оскорблять вас, когда вы проходите мимо. Тухлая рыба, и та внушает им большую любовь и уважение. 
+{SMT_SENATE_POPULAR_SUPPORT_1}				Плебеи ненавидят вас. Более того, они ненавидят всех ваших друзей. И их друзей. А также их домашних животных, рабов и прихлебателей. Вот до какой степени вы непопулярны. 
+{SMT_SENATE_POPULAR_SUPPORT_2}				Ваша популярность в низших слоях общества оставляет желать лучшего. Когда плебеи выкрикивают приветствия в ваш адрес, они обычно добавляют 'Катись отсюда'. 
+{SMT_SENATE_POPULAR_SUPPORT_3}				Нельзя сказать, что особенно популярны среди плебеев, но, по крайней мере, они не оскорбляют вас и не бросаются камнями. По большей части они просто не замечают вас. 
+{SMT_SENATE_POPULAR_SUPPORT_4}				Ваше положение среди плебеев могло бы быть лучше, но могло бы быть и хуже. Вы достаточно знамениты, чтобы вас узнавали, но недостаточно знамениты, чтобы вас любили. 
+{SMT_SENATE_POPULAR_SUPPORT_5}				Ваше положение среди плебеев можно считать вполне удовлетворительным. Вас считают хорошим римлянином, хотя вы и не особенно популярны. 
+{SMT_SENATE_POPULAR_SUPPORT_6}				Вы популярны среди низших классов. Вас считают хорошим человеком и, что еще важнее, хорошим римлянином. 
+{SMT_SENATE_POPULAR_SUPPORT_7}				Плебеи хорошо относятся к вам: скажем прямо, даже очень хорошо. Вас считают единственным бастионом, способным противостоять диктаторской власти Сената, и славным защитником Рима.
+{SMT_SENATE_POPULAR_SUPPORT_8}				Вы крайне популярны среди плебеев, и каждый раз, когда вы въезжаете в Рим, вас чествуют, как героя. А в том количестве вина, которое люди предлагают купить вам, вы могли бы плавать на триреме.
+{SMT_SENATE_POPULAR_SUPPORT_9}				Плебеи считают вас новым Ромулом! Даже ваши враги никогда не сомневаются в ваших достоинствах на публике. Они боятся разозлить толпу. 
+{SMT_TURNS_UNTIL_SURRENDER}					В осаде. Ходы до сдачи:
+{SMT_NO_ASSASSINATION_TARGETS}				Нет подходящих целей для наемного убийства
+{SMT_NO_SABOTAGE_TARGETS}					Нет зданий для саботажа
+{SMT_MISSION_TARGET}						Выделить цель задания
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE}			Это поселение сможет продержаться еще %d ходов
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE}			В случае осады это поселение сможет продержаться %d ходов
+{SMT_GARRISON_BREAKDOWN}					Схема гарнизона
+{SMT_NAVY_BREAKDOWN}						Схема флота
+{SMT_INFANTRY}							Пехота
+{SMT_CAVALRY}							Кавалерия
+{SMT_ARTILLERY}							Артиллерия
+{SMT_SHIPS}							Корабли
+{SMT_ARMY_FULL}						Эта армия не может поддерживать большее количество соединений
+{SMT_NAVY_FULL}						Этот флот не может поддерживать большее количество соединений
+{SMT_NO_GARRISON_COMMANDER}					Нет командующего гарнизона
+{SMT_SAILORS}							Матросы
+{SMT_ENTERTAINMENT_TRANSACTIONS}				Развлечения
+{SMT_CAPABILITY_POPULATION_GROWTH_BONUS}		Модификатор роста населения
+{SMT_CAPABILITY_POPULATION_LOYALTY_BONUS}		Модификатор лояльности населения
+{SMT_CAPABILITY_POPULATION_HEALTH_BONUS}		Модификатор здоровья населения
+{SMT_CAPABILITY_TRADE_BASE_INCOME_BONUS}		Модификатор дохода от торговли
+{SMT_CAPABILITY_TRADE_LEVEL_BONUS}			Модификатор уровня торговли
+{SMT_CAPABILITY_TRADE_FLEET}				Торговый флот
+{SMT_CAPABILITY_TAXABLE_INCOME_BONUS}		Модификатор дохода, облагаемого налогом
+{SMT_CAPABILITY_MINE_RESOURCE}			Горное дело
+{SMT_CAPABILITY_FARMING_LEVEL}			Сельское хозяйство
+{SMT_CAPABILITY_ROAD_LEVEL}				Дороги
+{SMT_CAPABILITY_GATE_STRENGTH}			Сила ворот
+{SMT_CAPABILITY_GATE_DEFENSES}			Защита ворот
+{SMT_CAPABILITY_TOWER_LEVEL}				Башенные укрепления
+{SMT_CAPABILITY_ARMOUR}					Доспехи
+{SMT_CAPABILITY_STAGE_GAMES}				Арена игр
+{SMT_CAPABILITY_STAGE_RACES}				Арена гонок
+{SMT_CAPABILITY_POPULATION_FIRE_RISK_BONUS}	Модификатор риска пожара
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Простое оружие
+{SMT_CAPABILITY_WEAPON_MISSILE}			Стрелковое оружие
+{SMT_CAPABILITY_WEAPON_BLADED}			Клинковое оружие
+{SMT_CAPABILITY_WEAPON_SIEGE}				Осадное оружие
+{SMT_CAPABILITY_WEAPON_OTHER}				Особое оружие
+{SMT_CAPABILITY_BODYGUARD}				Телохранитель			
+{SMT_CAPABILITY_RECRUITS_MORALE_BONUS}		Модификатор боевого духа новобранцев
+{SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS}	Модификатор опыта новобранцев
+{SMT_CAPABILITY_HAPPINESS_BONUS}			Модификатор довольства
+{SMT_CAPABILITY_LAW_BONUS}				Модификатор законности
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	Сокращение стоимости военных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	Сокращение стоимости религиозных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	Сокращение стоимости оборонительных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		Сокращение стоимости гражданских сооружений
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	Сокращение времени строительства военных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	Сокращение времени строительства религиозных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	Сокращение времени строительства оборонительных сооружений
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		Сокращение времени строительства гражданских сооружений
+{SMT_CAPS_LOC_TRAINS_EXPERIENCE}				Опыт
+{SMT_CAPS_LOC_TRAINS}						Обучение
+{SMT_CAPS_LOC_TRAINS_BONUS}					Улучшение обучения
+{SMT_CAPS_LOC_RECRUITS_LEVEL}				Уровень
+{SMT_CAPS_LOC_RECRUITS}						Найм
+{SMT_CAPS_LOC_RECRUITS_BONUS}					Улучшение найма
+{SMT_CAPS_LOC_PROVIDES}						Снабжает
+{SMT_CAPS_LOC_PROVIDES_BONUS}					Улучшение снабжения
+{SMT_CAPS_LOC_REQUIRES}						Требуется
+{SMT_CAPS_LOC_CONDITION_NOT}						нет
+{SMT_CAPS_LOC_CONDITION_AND}						и
+{SMT_CAPS_LOC_CONDITION_OR}							или
+{SMT_CAPS_LOC_CONDITION_BUILDING_PRESENT_MIN_LEVEL}	или выше
+{SMT_CAPS_LOC_CONDITION_CAPABILITY_VALUE}			или выше
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 30/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+{SMT_MISSION_BUILD_ARMY_TITLE}						Укрепление региона
+{SMT_MISSION_BUILD_ARMY_PROPOSAL}					Сенат чувствует, что в этом регионе не хватает людей, поэтому он уязвим. Они просят вас увеличить свою армию там хотя бы на 4 соединения в течение 18 месяцев.
+{SMT_MISSION_BUILD_ARMY_EXPIRY}						Потеря этого региона -- серьезный удар для Рима. Если бы вы действовали быстрее, этого бы не произошло.
+{SMT_MISSION_BUILD_ARMY_FAILURE}					Сенат считает ваше пренебрежение его советами крайне опасным. Если из-за своего легкомыслия вы потеряете этот регион, вас ждут неприятные последствия.
+{SMT_MISSION_BUILD_ARMY_SUCCESS}					Сенат отмечает, что вы последовали его совету и направили подкрепление  в этот регион. Будем надеяться, что теперь угроза миновала.
+{SMT_MISSION_ASSIST_FACTION_TITLE}					Поддержка союзников
+{SMT_MISSION_ASSIST_FACTION_PROPOSAL}					Сенат просит вас направить армию по меньшей мере из 4 соединений в этот регион и передать контроль над ней союзным войскам.
+{SMT_MISSION_ASSIST_FACTION_EXPIRY}					Потеря этого региона -- серьезный удар для Рима. Если бы вы действовали быстрее, этого бы не произошло.
+{SMT_MISSION_ASSIST_FACTION_FAILURE}					Сенат считает ваше пренебрежение его советами крайне опасным. Если из-за своего легкомыслия вы потеряете этот регион, вас ждут неприятные последствия.
+{SMT_MISSION_ASSIST_FACTION_SUCCESS}					Сенат отмечает, что вы последовали его совету и направили подкрепление нашим союзникам в этом регионе. Пожалуйста, оставьте им свою армию как минимум на 2 года.
+{SMT_MISSION_LEAVE_REGION_TITLE}					Оставить регион
+{SMT_MISSION_LEAVE_REGION_PROPOSAL}					Сенат требует вывести эту армию. Она находится на землях друзей Рима. Если вы хотите просто пройти через их территорию, вам следует сперва заключить договор о мире и военной помощи. Если же вы собирались атаковать их, вы должны немедленно изменить свои планы.
+{SMT_MISSION_LEAVE_REGION_EXPIRY}					Ваше грубое пренебрежение мнением Сената крайне возмутительно и опасно. Рим нуждается в том, чтобы великие дома поддерживали его политику. Если каждый из домов начнет вести внешнюю политику по собственному разумению, начнется хаос.
+{SMT_MISSION_LEAVE_REGION_FAILURE}					Сенат считает ваше пренебрежение его советом крайне опасным. Это была не такая уж серьезная просьба и ваш отказ выполнить ее приведет к серьезным последствиям.
+{SMT_MISSION_LEAVE_REGION_SUCCESS}					Сенат отмечает, что вы последовали его совету и удалили армию-нарушителя. Пожалуйста, не забывайте заключать договоры о военной помощи перед тем, как проводить свои армии через территорию дружественных держав.
+{SMT_MISSION_EXACT_TRIBUTE_TITLE}					Потребовать дань
+{SMT_MISSION_EXACT_TRIBUTE_PROPOSAL}					Сенат чувствует, что этой фракции следует напомнить о превосходстве Рима. Нужно, чтобы вы направили туда дипломата с требованием выплатить регулярную дань. Вы получите вознаграждение в зависимости от размеров полученной вами дани.
+{SMT_MISSION_EXACT_TRIBUTE_EXPIRY}					Похоже, что в свете последних событий Сенат больше не нуждается в том, чтобы ставить этих людей на место и требовать у них дань. Задание отменяется.
+{SMT_MISSION_EXACT_TRIBUTE_FAILURE}					Сенат отмечает, что вам не удалось получить дань у этого народа, и считает вас ответственным за эту неудачу, вне зависимости от  того, была ли она вызвана непримиримостью данного народа или вашими неправильными действиями.
+{SMT_MISSION_EXACT_TRIBUTE_SUCCESS}					Сенат доволен тем, что вам удалось вытребовать дань у этой фракции. Это соответствует планам Рима.
+{SMT_MISSION_MAKE_SUBMIT_TITLE}						Потребовать сдачи
+{SMT_MISSION_MAKE_SUBMIT_PROPOSAL}					Сенат чувствует, что эта фракция достаточно ослабела, и, возможно, ее удастся заставить сдаться. Направьте туда дипломата и потребуйте, чтобы они признали протекторат Рима.
+{SMT_MISSION_MAKE_SUBMIT_EXPIRY}					Сенат отмечает, что в свете последних событий уже не требуется заставлять эту фракцию сдаваться и признавать протекторат. Задание отменяется.
+{SMT_MISSION_MAKE_SUBMIT_FAILURE}					Сенат отмечает, что вам не удалось добиться сдачи. Возможно, нам удастся добиться нужного результата, если усилия дипломатов будут подкреплены военным давлением.
+{SMT_MISSION_MAKE_SUBMIT_SUCCESS}					Сенат поздравляет вас с тем, что вам удалось убедить этих людей признать протекторат Рима. Теперь мы можем не тратить на них свое время и войска, а поступление новой дани поможет строительству Империи.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_TITLE}				Переговоры о возвращении Орла
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_PROPOSAL}				Сенат хочет направить дипломата, чтобы договориться о возвращении Орла легиона, который находится в руках этой фракции. Потеря штандарта позорит утративший его легион, а у нас очень мало шансов вернуть Орла с помощью военной силы.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_EXPIRY}				Похоже, что возвращение утраченного Орла нам больше не требуется. Задание отменяется.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_FAILURE}				Сенат отмечает, что вам не удалось договориться о возвращении потерянного Орла. Что ж, тем чернее пятно позора, которое легло на ваш дом после утраты Орла.
+{SMT_MISSION_NEGOTIATE_EAGLE_RETURN_SUCCESS}				Сенат отмечает, что вам удалось договориться о возвращении утраченного Орла. Таким образом вам удалось слегка поправить репутацию своего дома, пострадавшую от утраты штандарта. Постарайтесь не потерять еще одного.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_TITLE}				Переговоры о передаче поселения
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_PROPOSAL}				Сенат чувствует, что существует шанс уговорить нынешних владельцев этого поселения передать его нам в обмен на другое, менее ценное для нас поселение. Направьте к ним дипломата и постарайтесь убедить их согласиться на этот обмен.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_EXPIRY}				Похоже, что нам больше не нужны переговоры о передаче этого поселения. Задание отменяется.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_FAILURE}				Сенат отмечает, что вам не удалось договориться о передаче нам этого поселения. Возможно, военные преуспеют там, где потерпели поражение дипломаты.
+{SMT_MISSION_NEGOTIATE_SETTLEMENT_SUCCESS}				Поздравляем с успешным выполнением вашей дипломатической миссии. Сенат надеется, что цена, заплаченная за обладание этим поселением, не окажется слишком высокой.
+{SMT_MISSION_GET_MAP_INFO_TITLE}					Получение информации о карте
+{SMT_MISSION_GET_MAP_INFO_PROPOSAL}					Сенат просит вас направить дипломата в эту фракцию и договориться о передаче информации о неизвестных нам землях, чтобы расширить познания Рима об окружающем мире.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY}					Задание отменено, поскольку указанная фракция была уничтожена.
+{SMT_MISSION_GET_MAP_INFO_FAILURE}					Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_GET_MAP_INFO_SUCCESS}					Сенат благодарит вас за информацию, о получении которой мы вас просили.
+{SMT_MISSION_GET_TRADING_RIGHTS_TITLE}					Заключение торгового соглашения
+{SMT_MISSION_GET_TRADING_RIGHTS_PROPOSAL}				Сенат просит вас направить дипломата в эту фракцию и заключить соглашение о торговых привилегиях для Рима.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY}					Задание отменено, поскольку указанная фракция была уничтожена.
+{SMT_MISSION_GET_TRADING_RIGHTS_FAILURE}				Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_GET_TRADING_RIGHTS_SUCCESS}				Сенат благодарит вас за успешное заключение торгового соглашения, о котором мы вас просили.
+{SMT_MISSION_APPEASE_FACTION_TITLE}					Умиротворение фракции
+{SMT_MISSION_APPEASE_FACTION_PROPOSAL}					Сенат просит вас направить дипломата в эту фракцию и убедить ее не атаковать. Разумно будет предложить им какое-нибудь вознаграждение. Нужно срочно принять меры.
+{SMT_MISSION_APPEASE_FACTION_EXPIRY}					Выполнение этого задания больше не требуется. Задание отменено.
+{SMT_MISSION_APPEASE_FACTION_FAILURE}					Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_APPEASE_FACTION_SUCCESS}					Сенат благодарит вас за успешное достижение соглашения, о котором мы просили.
+{SMT_MISSION_PROVOKE_ATTACK_TITLE}					Спровоцировать атаку
+{SMT_MISSION_PROVOKE_ATTACK_PROPOSAL}					Сенат просит вас направить дипломата в эту фракцию и посмотреть, нельзя ли спровоцировать их атаковать нас. Рим хочет начать войну с ними, но не желает выглядеть агрессором.
+{SMT_MISSION_PROVOKE_ATTACK_EXPIRY}					Выполнение этого задания больше не требуется. Задание отменено.
+{SMT_MISSION_PROVOKE_ATTACK_FAILURE}					Сенат отмечает, что вам не удалось вызвать агрессию этой фракции, но благодарит вас за ваши усилия.
+{SMT_MISSION_PROVOKE_ATTACK_SUCCESS}					Сенат благодарит вас за то, что вам удалось спровоцировать военные действия.
+{SMT_MISSION_PEACE_TALKS_TITLE}						Мирные переговоры
+{SMT_MISSION_PEACE_TALKS_PROPOSAL}					Сенат просит вас направить дипломата в эту фракцию и попытаться улучшить отношения с ней. Неважно, какого именно результата вы достигнете - хватит и того, что вы просто направите к ним дипломата.
+{SMT_MISSION_PEACE_TALKS_EXPIRY}					Выполнение этого задания больше не требуется. Задание отменено.
+{SMT_MISSION_PEACE_TALKS_FAILURE}					Сенат отмечает, что вам не удалось установить дипломатические связи с этой фракцией.
+{SMT_MISSION_PEACE_TALKS_SUCCESS}					Сенат благодарит вас за ваши усилия по улучшению отношений с этой фракцией.
+{SMT_MISSION_BLOCKADE_TITLE}						Блокада порта
+{SMT_MISSION_BLOCKADE_PROPOSAL}						Сенат просит вас направить одну из ваших флотилий, чтобы блокировать этот порт. Таким образом мы усилим давление на эту фракцию, поскольку сократим их доходы.
+{SMT_MISSION_BLOCKADE_EXPIRY}						Блокада порта больше не требуется. Задание отменяется.
+{SMT_MISSION_BLOCKADE_FAILURE}						Сенат отмечает что вам не удалось блокировать этот порт, как мы просили. Это усилит вражеское сопротивление Риму.
+{SMT_MISSION_BLOCKADE_SUCCESS}						Сенат отмечает, что вы установили блокаду, о которой мы вас просили. Пожалуйста, оставьте флотилию там по меньшей мере на 2 года.
+{SMT_MISSION_INCITE_UNREST_TITLE}					Провоцирование волнений
+{SMT_MISSION_INCITE_UNREST_PROPOSAL}					Сенат усматривает возможность создать проблемы для врагов Рима, вызвав волнения в этом поселении. Направьте туда шпиона и постарайтесь вызвать восстание.
+{SMT_MISSION_INCITE_UNREST_EXPIRY}					В свете последних событий восстание в этом поселении больше не требуется. Задание отменяется.
+{SMT_MISSION_INCITE_UNREST_FAILURE}					Сенат ждал запланированного восстания в этом поселении, а оно не произошло. Мы рассматриваем это, как ваше упущение.
+{SMT_MISSION_INCITE_UNREST_SUCCESS}					Очень хорошо, что в этом поселении началось восстание. Ваше участие в этом деле делает вам честь.
+{SMT_MISSION_EXTERMINATE_CITY_TITLE}					Уничтожение поселения
+{SMT_MISSION_EXTERMINATE_CITY_PROPOSAL}					Сенат просит вас занять это поселение и уничтожить население.
+{SMT_MISSION_EXTERMINATE_CITY_EXPIRY}					Сенат больше не нуждается в том, чтобы вы брали это поселение.
+{SMT_MISSION_EXTERMINATE_CITY_FAILURE}					Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_EXTERMINATE_CITY_SUCCESS}					Сенат доволен тем, что вы успешно справились с этим заданием.
+{SMT_MISSION_ENSLAVE_CITY_TITLE}					Порабощение поселения
+{SMT_MISSION_ENSLAVE_CITY_PROPOSAL}					Сенат просит вас занять это поселение и обратить население в рабство.
+{SMT_MISSION_ENSLAVE_CITY_EXPIRY}					Сенат больше не нуждается в том, чтобы вы брали это поселение.
+{SMT_MISSION_ENSLAVE_CITY_FAILURE}					Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_ENSLAVE_CITY_SUCCESS}					Сенат доволен тем, что вы успешно справились с этим заданием.
+{SMT_STATE_ICON_RESOURCES}						Горное дело
+{SMT_AUTOMANAGE_SETTLEMENT}						Автоматически управлять этим поселением
+{SMT_CANNOT_RECRUIT_WHILST_IN_BATTLE}				Невозможно нанимать войска во время битвы
+{SMT_VICTORY_CONDITION_IMPERATOR_TITLE}				Император:
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}				Стать полновластным правителем Рима
+{SMT_VICTORY_CONDITION_LAND_OWNER_TITLE}				Господство:
+{SMT_VICTORY_CONDITION_LAND_OWNER_DESCR}				Захватить еще %d регионов
+{SMT_VICTORY_CONDITION_TYCOON_TITLE}				Финансовый магнат:
+{SMT_VICTORY_CONDITION_TYCOON_DESCR}				Постройте финансовую империю, чтобы за ход получать %d динариев
+{SMT_VICTORY_CONDITION_TIME_LIMIT_TITLE}				На время:
+{SMT_VICTORY_CONDITION_TIME_LIMIT_DESCR}				Стать самой мощной фракцией за %d ходов
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_TITLE}			Выживание:
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}			Пережить следующие фракции:
+{SMT_CAMPAIGN_VICTORY_CONDITIONS}					Условия победы
+{SMT_CAMPAIGN_VICTORY_CONDITIONS_COMPLETE}			Выполнены
+
+{SMT_CAPABILITY_POPULATION_GROWTH_BONUS}		Изменение роста населения:
+{SMT_CAPABILITY_POPULATION_LOYALTY_BONUS}		Улучшение общественного порядка:
+{SMT_CAPABILITY_POPULATION_HEALTH_BONUS}		Улучшение общественного здоровья:
+{SMT_CAPABILITY_TRADE_BASE_INCOME_BONUS}		Увеличение количества товаров
+{SMT_CAPABILITY_TRADE_LEVEL_BONUS}			Рост торговли
+{SMT_CAPABILITY_TRADE_FLEET}				Доступные торговые флотилии:
+{SMT_CAPABILITY_TAXABLE_INCOME_BONUS}		Улучшение налоговых поступлений:
+{SMT_CAPABILITY_MINE_RESOURCE}			Доход от горного дела:
+{SMT_CAPABILITY_FARMING_LEVEL}			Улучшенное производство пищи
+{SMT_CAPABILITY_ROAD_LEVEL}				Улучшенные дороги и торговля
+{SMT_CAPABILITY_GATE_STRENGTH}			Улучшенная сила ворот
+{SMT_CAPABILITY_GATE_DEFENSES}			Дополнительные укрепления ворот
+{SMT_CAPABILITY_TOWER_LEVEL}				Дополнительные укрепления стен
+{SMT_CAPABILITY_ARMOUR}					Совершенствование доспехов: 
+{SMT_CAPABILITY_STAGE_GAMES}				Позволяет проводить гладиаторские игры
+{SMT_CAPABILITY_STAGE_RACES}				Позволяет проводить гонки
+{SMT_CAPABILITY_POPULATION_FIRE_RISK_BONUS}	Сокращает риск пожара
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Совершенствует оружие ближнего боя:
+{SMT_CAPABILITY_WEAPON_MISSILE}			Совершенствует стрелковое оружие:
+{SMT_CAPABILITY_WEAPON_BLADED}			Совершенствует клинковое оружие:
+{SMT_CAPABILITY_WEAPON_SIEGE}				Совершенствует осадное оружие:
+{SMT_CAPABILITY_WEAPON_OTHER}				<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_BODYGUARD}				Улучшенные телохранители полководца
+{SMT_CAPABILITY_RECRUITS_MORALE_BONUS}		Улучшение боевого духа войск, обучавшихся здесь:
+{SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS}	Улучшение опыта войск, обучавшихся здесь:
+{SMT_CAPABILITY_HAPPINESS_BONUS}			Улучшение порядка, вызванное счастьем народа:
+{SMT_CAPABILITY_LAW_BONUS}				Улучшение общественного порядка вызванное законностью:
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPS_LOC_TRAINS}						Разрешает обучение:
+{SMT_CAPS_LOC_RECRUITS}						Разрешает найм:
+{SMT_CAPS_LOC_PROVIDES}						Обеспечивает
+{SMT_ENEMY_AMBUSH_FAILED}					Их попытка застать вас врасплох не удалась, так что у вас есть время подготовиться к битве
+{SMT_ENEMY_AMBUSH_SUCCESS}					Вас застали врасплох, и у вас не будет времени подготовиться к атаке
+{SMT_YOUR_AMBUSH_FAILED}					Засада не удалась, и у врагов будет время, чтобы подготовиться к битве
+{SMT_YOUR_AMBUSH_SUCCESS}					Враги ничего не знали об атаке, и у них нет времени готовиться к ней
+{SMT_NO_UNITS_IN_NAVY}					В этом флоте нет соединений 
+{SMT_NO_UNITS_IN_ARMY}					В этой армии нет соединений
+{SMT_NO_CHARACTERS_WITH_NAVY}				С этим флотом не путешествуют персонажи
+{SMT_NO_CHARACTERS_WITH_ARMY}				С этой армией не путешествуют персонажи
+{SMT_NO_UNITS_TRANSPORTED}				Этот флот не перевозит соединений
+{SMT_NO_UNITS_IN_GARRISON}				В гарнизоне нет соединений
+{SMT_NO_BUILDINGS_IN_SETTLEMENT}			Здесь нет зданий
+{SMT_NO_VISITORS_IN_SETTLEMENT}			В этом поселении нет гостей
+{SMT_NO_VISITORS_IN_FORT}				В этом форте нет гостей
+{SMT_STATE_ICON_UNIT_RECRUITS}			Население прошло призыв
+{SMT_STATE_ICON_GOVERNORS_INFLUENCE}		Влияние правителя
+{SMT_LAND_IMPORTS}					Импорт (Наземная торговля)
+{SMT_RETAINERS}							Вспомогательные
+{SMT_RETAINERS_UNKNOWN}					Помощники неизвестны
+{SMT_TRAITS_UKNOWN}					Особенности неизвестны
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DIED}							Смерть:
+{SMT_NO_BUILDING_IN_NEED_OF_REPAIR}			Нет зданий, нуждающихся в ремонте
+{SMT_NO_UNITS_NEED_RETRAINING}				Нет соединений, нуждающихся в переобучении.
+{SMT_VICES}						Характеристики
+{SMT_SHOW_VNV_DETAILS}				Показать личные особенности персонажа
+{SMT_SHOW_VISITORS_FORT}				Показать персонажей, посещающих этот форт
+{SMT_END_SIEGE}						Снять осаду
+{SMT_DECLINE_MISSION}					Отклонить задание
+{SMT_EXIT_CAMPAIGN}					Вернуться в главное меню
+{SMT_SELECT_UNIT_TO_REPAIR}				Выделить соединение для переобучения
+{SMT_SENATE_OFFICE_QUAESTOR_DESCRIPTION}		Низшая должность -- этот магистрат ведает казной и дает самые первые задания людям, мечтающим о политической карьере в Риме.
+{SMT_SENATE_OFFICE_AEDILE_DESCRIPTION}			Административный чиновник, надзирающий за улицами, храмами и жилыми кварталами города и за доставкой cura annonae -- стратегического запаса зерна.
+{SMT_SENATE_OFFICE_PRAETOR_DESCRIPTION}		Магистрат, в чьи обязанности входит поддержание закона и порядка, и в частности ius civile (гражданские, а не уголовные преступления) и ius gentium (законы, имеющие отношение к иностранцам). 
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}			Занимающий самую почетную и влиятельную должность в Республике, консул управляет магистратами, армией, законотворческой деятельностью. Находясь на службе он -- царь во всем, кроме названия. 
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}			Важный магистрат, контролирующий соблюдение ценза и хранящий списки римских граждан и сенаторов. Это означает, что именно цензор может определить, кто является римлянином, а кто нет, кто является сенатором, а кто нет. 
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}	Верховный жрец государственной религии Рима, контролирующий все религиозные институты, включая целомудренных весталок. Его полномочия выходят за пределы юрисдикции Сената и граждан Рима.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_MISSION_APPEASE_FACTION_EXPIRY_DESTROYED}		Фракция была уничтожена.  Вам не нужно больше пытаться умиротворить их.
+{SMT_MISSION_ASSIST_FACTION_EXPIRY_DESTROYED}		Фракция была уничтожена. Вам не нужно больше пытаться помочь им.
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_EXPIRY_DESTROYED}	Преступники были уничтожены.  Вам не нужно больше преследовать их.
+{SMT_MISSION_BREAK_ALLIANCE_EXPIRY_DESTROYED}		Фракция была уничтожена.  Выполнение задания уже не нужно.
+{SMT_MISSION_PEACE_TALKS_EXPIRY_DESTROYED}		Фракция была уничтожена.  Выполнение задания уже не нужно.
+{SMT_MISSION_CEASE_HOSTILITIES_EXPIRY_DESTROYED}	Наши друзья были уничтожены.  Выполнение задания больше не требуется.
+{SMT_MISSION_DECLARE_WAR_EXPIRY_DESTROYED}		Наши враги были уничтожены.  Выполнение задания уже не нужно.
+{SMT_MISSION_EXACT_TRIBUTE_EXPIRY_DESTROYED}		Фракция была уничтожена.  Вы не можете получить от них дань.  Выполнение задания больше не требуется.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY}			Это задание было отменено.
+{SMT_MISSION_GET_MAP_INFO_EXPIRY_DESTROYED}		Фракция была уничтожена.  Выполнение задания больше не требуется.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY}			Это задание было отменено.
+{SMT_MISSION_GET_TRADING_RIGHTS_EXPIRY_DESTROYED}	Фракция была уничтожена.  Выполнение задания больше не требуется.
+{SMT_MISSION_MAKE_SUBMIT_EXPIRY_DESTROYED}		Фракция была уничтожена.  Выполнение задания больше не требуется.
+{SMT_CAPABILITY_WEAPON_SIMPLE}			Совершенствует легкое оружие:
+{SMT_CAPABILITY_WEAPON_BLADED}			Совершенствует тяжелое оружие:
+{SMT_ARMY_UPKEEP}						Содержание армии
+{SMT_STATE_ICON_ENTERTAINED}				Развлечения
+{SMT_ASSISTANCE_REQUESTED_AGAINST}				Запрошена помощь против: 
+{SMT_ASSISTANCE_PROVIDED_AGAINST}				Предоставлена помощь против: 
+{SMT_GIVE}							Отдать: 
+{SMT_PENALTY_CENSOR_IS_PLAYER_FACTION}			У вас есть друзья в высших сферах.  Похоже, что и цензор ваш друг.  Члены вашей семьи и друзья -- просто образцовые граждане.
+{SMT_PENALTY_QUAESTOR_IS_PLAYER_FACTION}		У вас есть друзья в высших сферах.  Похоже, что и квестор ваш друг.  Ваши финансы в полном порядке.
+{SMT_CANNOT_SET_NAVAL_RALLY_POINT_WITH_NO_PORT}	Невозможно установить пункт сбора в море, поскольку в выделенном поселении нет порта
+{SMT_DIED_IN_BATTLE_TITLE}					Смерть в бою
+{SMT_DIED_IN_BATTLE_DESCRIPTION}				Этот человек погиб в бою и присоединился к нашим благородным предкам в загробном мире.
+{SMT_CAPITAL}					Столица:
+{SMT_SHOW_VISITORS}				Показать агентов, находящихся в поселении
+{SMT_SHOW_TRAVELLING_CHARACTERS}		Показать агентов, путешествующих с армией
+{SMT_SHOW_TRAVELLING_CHARACTERS_NAVY}	Показать агентов, путешествующих с флотом
+{SMT_RCLICK_SHOW_CHARACTERS}			Щелкните правой кнопкой мыши по закладке, чтобы просмотреть список ваших агентов
+{SMT_CHARACTERS}					Агенты
+{SMT_WHICH_ALLY}					Союзная армия:
+{SMT_WHICH_ARMY_REQUESTED}			Запрос на помощь от:
+{SMT_CAPTURED_SETTLEMENT}			Захваченное поселение:
+{SMT_DENARI_GAINED_FROM_LOOTING}		Награбленные динарии:
+{SMT_POPULATION_GAINED_FROM_ENSLAVE}	Население, которое следует распределить между другими поселениями:
+{SMT_POPULATION_KILLED}				Население, которое должно быть уничтожено:
+{SMT_CURRENTLY_BUILDING}			Выделенное здание:
+{SMT_DAMAGE}					Урон:
+{SMT_REPAIR_TIME}					Время ремонта:
+{SMT_REPAIR_COST}					Стоимость ремонта:
+{SMT_AGE}						Возраст:
+{SMT_ANCILLARIES}					Свита
+{SMT_RETAINERS}						Свита
+{SMT_RETAINERS_UNKNOWN}					Свита неизвестна
+{SMT_BREAK_SIEGE_CONFIRMATION}		Этот персонаж в настоящее время ведет осаду. Если вы отзовете его, осада автоматически будет снята.  Вы уверены, что хотите сделать это?
+{SMT_NO_MORE_OFFERS_ALLOWED}			Больше предложений делать нельзя
+{SMT_NO_MORE_DEMANDS_ALLOWED}			Больше требований выдвигать нельзя
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_UNITS}					Соединения
+{SMT_SIEGE_EQUIPMENT}			Осадное снаряжение
+
+{SMT_BREAK_SIEGE_CONFIRMATION}		Эта армия в настоящее время ведет осаду. Если вы отзовете ее, осада автоматически будет снята.  Вы уверены, что хотите сделать это?
+
+{SMT_MISSION_MAKE_ALLIANCE_TITLE}					Заключение союза
+{SMT_MISSION_MAKE_ALLIANCE_PROPOSAL}					Сенат просит вас направить дипломата в эту фракцию и заключить с ними союз.
+{SMT_MISSION_MAKE_ALLIANCE_EXPIRY}					Выполнение этого задания больше не требуется. Задание отменено.
+{SMT_MISSION_MAKE_ALLIANCE_EXPIRY_DESTROYED}				Фракция была уничтожена.  Вы можете больше не пытаться заключить с ними союз.
+{SMT_MISSION_MAKE_ALLIANCE_FAILURE}					Сенат разочарован тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_MAKE_ALLIANCE_SUCCESS}					Сенат благодарит вас за успешное заключение союза с этой фракцией.
+{SMT_MISSION_GIVE_CASH_TITLE}						Дать денег
+{SMT_MISSION_GIVE_CASH_PROPOSAL}					Наши друзья нуждаются в финансовой поддержке. Сенат просит вас единовременно передать хотя бы одну десятую часть вашего годового дохода в эту фракцию.
+{SMT_MISSION_GIVE_CASH_EXPIRY}						Выполнение этого задания больше не требуется. Задание отменено.
+{SMT_MISSION_GIVE_CASH_EXPIRY_DESTROYED}				Фракция была уничтожена.  Больше не нужно снабжать их деньгами.
+{SMT_MISSION_GIVE_CASH_FAILURE}						Сенат недоволен тем, что вам не удалось выполнить это задание.
+{SMT_MISSION_GIVE_CASH_FAILURE_CHEAPSKATE}				Вас просили передать этой фракции хотя бы одну десятую часть вашего годового дохода. Сенат недоволен тем, что вы так и не смогли выполнить эту инструкцию.
+{SMT_MISSION_GIVE_CASH_SUCCESS}						Сенат благодарит вас за пожертвование в пользу наших друзей.
+{SMT_ASS_EXTERMINATE}							Эта фракция теряет силы по мере того, как война подтачивает боевой дух этого народа и уничтожает его армии. По мнению сената, эта фракция не заслуживает ничего, кроме смерти! Предайте их огню и мечу и сотрите с лица земли эту презренную расу!
+{SMT_ASS_ENSLAVE}							Война с этим народом показала, что, под соответствующим контролем Рима, из них можно сделать вполне адекватных рабов. Не жалейте ни меча, ни розги! В рабство их, и пусть узнают, что такое римская цивилизация.
+{SMT_ASS_MAKE_SUBMIT}							Эта фракция политически слаба, но все еще обладает некоторой военной мощью. Война может дорого обойтись нам, к тому же в ней нет особой необходимости: если мы предложим им признать наш протекторат, эти люди наверняка согласятся оценить все достоинства римской цивилизации.
+{SMT_ASS_COVERT_OPS_ASS}						Этот народ необходимо ослабить, может быть даже обескровить еще до начала войны. Надо срочно заняться уничтожением их военного командования, и саботировать строительство укреплений и военных сооружений. Мы не можем отправлять свои войска на войну, которая еще не началась.
+{SMT_ASS_COVERT_OPS_INCITE}						Поселения этого народа легко поддаются влиянию самых разных проповедников и бунтовщиков. Если мы направим туда шпионов, чтобы спровоцировать восстание, нам будет гораздо проще достичь своей цели и оккупировать их. Этот народ сам освободится от своих недостойных правителей и оценит все преимущества римской цивилизации.
+{SMT_ASS_BLOCKADE}							Их флот слаб, порты можно блокировать! Наши корабли должны перерезать их торговые пути и лишить их средств! В конце концов, нищие не могут содержать армию, и в результате завоевание будет проще, а наши потери будут меньше.
+{SMT_ASS_WORK_TOWARDS_PEACE}						Наши войны с этой фракцией проходят не особенно успешно. Если война будет тянуться и дальше, мы начнем терять свои позиции и в других провинциях. Сенат считает, что мы должны попытаться прекратить их агрессию дипломатическими способами. Позже мы можем продолжить войну, но только когда на нашей стороне будет фактор внезапности.
+{SMT_ASS_ATTACK}							Дружная семья Империи может принять в свое лоно этот народ и внедрить на место их странных, противоестественных обычаев добрую римскую культуру. Когда они примут наших богов, наши законы и наше справедливое управление, их города станут великолепными образчиками римской цивилизации.
+{SMT_ASS_MAKE_GIVE_CITY}						Этот народ сильно ослаблен, так что мы можем добиться нужных результатов с помощью одной дипломатии. Убеждение может сработать там, где меч бы только ожесточил их. Мы предложим им взять их поселения под свою защиту и начать мудрое управление ими. Римская цивилизация быстро вытеснит туземные обычаи!
+{SMT_ASS_EXACT_TRIBUTE}							Эта фракция уже признала мощь Рима. Будет очень просто потребовать с них дань, которая наполнит наши сундуки! Пусть они платят за терпимость, которую мы проявляем к их противоестественным обычаям! 
+{SMT_ASS_TRESPASS}							Настало время выхватить меч и вонзить его в самое сердце врага! Они будут возмущены нашим появлением, так что нас будет ждать кровавый бой. Ступайте на их земли, и вытащите их из-за стен, за которыми они трусливо прячутся! 
+{SMT_ASS_MAKE_ATTACK}							Всем должно быть ясно, что в войне с этими людьми Рим -- потерпевшая сторона. Провокация -- необходимый инструмент искусства управления государством, так что нам потребуются 'случайные' атаки на их территорию, а также неуважительное и наглое поведение дипломатов. Пусть их ярость работает на нас. 
+{SMT_ASS_BORDER_BUILDUP}						Война уже совсем близка. Настало время взяться за меч и подвести войска к границе, чтобы быстро разобраться с этим народом. 
+{SMT_ASS_APPEASE}							Этот народ силен и достоин нашего уважения. Их враждебность угрожает нашей безопасности, так что сейчас самое время установить с ними более теплые отношения. Возможно, их пыл остудит небольшое подношение, торговые привилегии или информация о землях.
+{SMT_ASS_GET_MAP_INFO}							Мы должны больше узнать об этом народе - где находятся их поселения, какова их боевая мощь, большая ли у них армия и каковы их ближайшие цели. Чтобы собрать всю эту информацию, надо послать туда дипломата.
+{SMT_ASS_TRADE_AGREEMENT}						Мы должны прийти к какому-нибудь соглашению с этой фракцией. Лучше всего начать с торговли: когда они привыкнут иметь дело с цивилизованными римлянами, мы можем начать укреплять наши связи и познакомить их с римским порядком.
+{SMT_ASS_IGNORANT}							Пока что мы очень немного знаем об этом народе и, судя по нашей информации, им практически нечего предложить нам. Когда границы нашей империи приблизятся к ним, это положение, без сомнения, изменится. А пока что у нас есть более важные дела.
+{SMT_ASS_COOPERATIVE}							Мы поступим правильно, если поможем этим людям справиться с врагами. Если наши дружеские связи будут крепнуть, в один прекрасный день они могут признать наш протекторат и насладиться всеми преимуществами жизни под управлением Рима.
+{SMT_ASS_MAKE_ALLIANCE}							Давайте заключим союз с этим благородным народом. В их манерах и поведении и так уже бывают проблески истинно римских добродетелей. Так что будет весьма разумно стоять плечом к плечу с ними при столкновениях со всеми общими врагами.
+{SMT_ASS_MAKE_PEACE_AT_ANY_COST}					Мы должны восстановить дружеские связи с этим народом. Надо заключить мир, и предотвратить дальнейшее ухудшение наших отношений. Какой ценой нам достанется этот мир -- значения не имеет. 
+{SMT_ASS_GIVE_CASH}							Нашим благородным союзникам необходима финансовая поддержка. Мы сделаем им небольшое подношение в знак того, что мы помним о нашей долгой и крепкой дружбе.
+{SMT_ASS_GIVE_SUPPORT}							Наши храбрые и благородные союзники нуждаются в нашей военной поддержке. Их враги -- это и наши враги, их укрепления защищают и Рим тоже. Мы поможем им, направив армии в их земли, чтобы помочь справиться с жестоким врагом. 
+{SMT_ASS_OUTLAW}							Эти некогда благородные римляне забыли, что такое честь и достоинство. Они чужие на нашей земле. Нельзя позволять им оказывать разлагающее влияние на сердца и души добропорядочных римлян. Их необходимо немедленно уничтожить. Все записи о них следует уничтожить, а их имена будут прокляты навсегда!
+
+{SMT_STOIC_PHILOSOPHY_BODY}					Аристон Хиосский начал проповедовать стоицизм. Эта философия получила свое название от Пестрого портика Афинской агоры (по-гречески -- stoa poikile). Именно там собирались и провозглашали свои идеи стоики: дурные чувства, наподобие зависти или гнева возникают из-за ложных суждений. Человек, достигший нравственного и интеллектуального совершенства, не будет подвержен таким чувствам 
+
+{SMT_ENEMY_AMBUSH_FAILED}					Их попытка застать вас врасплох не удалась, у вас будет время подготовиться к битве
+{SMT_YOUR_AMBUSH_FAILED}					Засада не удалась, у врага будет время подготовиться к битве
+
+{SMT_NO_BUILDINGS_IN_SETTLEMENT}			Здесь зданий нет
+
+{SMT_EARTHQUAKE_IN_IBERIA_TITLE}				Землетрясение в Испании
+{SMT_EARTHQUAKE_IN_IBERIA_BODY}				Испанский город Сагунт потрясло ужасное землетрясение, несомненно вызванное гневом Нептуна. Погибло много людей погибло, разрушен храм.
+
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Обещание не атаковать
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Обязательство не атаковать
+
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE}			Это поселение может продержаться еще %d ход(ов)
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_RIGHT_CLICK_FOR_CHARACTER_INFO}		Щелкните правой кнопкой по портрету полководца или знамени капитана, чтобы получить информацию о персонаже и схему армии
+{SMT_ENABLE_AUTO_TRAIN}					Разрешить автоматический найм соединения
+{SMT_SET_AS_CAPITAL}					Сделать это поселение столицей фракции
+
+{SMT_SENATE_OFFICE_CENSOR_DESCRIPTION}			Важный магистрат, контролирующий соблюдение ценза и хранящий списки римских граждан и сенаторов, это означает, что именно цензор может определить, кто является римлянином, а кто нет, кто является сенатором, а кто нет. 
+{SMT_SENATE_OFFICE_CONSUL_DESCRIPTION}			Занимающий самую почетную и влиятельную должность в Республике, консул управляет магистратами, армией, законотворческой деятельностью. Находясь на службе он -- царь во всем, кроме названия. 
+{SMT_SENATE_OFFICE_PONTIFEX_MAXIMUS_DESCRIPTION}	Верховный жрец государственной религии Рима, контролирующий все религиозные институты, включая дев-весталок. Он полностью контролирует все вопросы, связанные с верой, и его полномочия выходят за пределы юрисдикции Сената и граждан Рима.
+
+{SMT_REWARD_TWO_BEST_BUILDABLE_UNITS_DESCRIPTION}		Вы получите в награду два лучших соединения из тех, что вы можете нанять
+{SMT_REWARD_ONE_BEST_BUILDABLE_UNIT_DESCRIPTION}		Вы получите в награду одно лучшее соединение из тех, что вы можете нанять
+{SMT_REWARD_ONE_BUILDABLE_UNIT_DESCRIPTION}			Вы получите в награду одно соединение из тех, что вы можете нанять
+{SMT_REWARD_CANNOT_BUILD_A_UNIT}				Вы не можете получить награду, поскольку не можете нанимать соединения
+
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}			Просуществовать дольше следующей фракции (или фракций):	¬ allows for just one faction listed after message
+
+{SMT_NO_UNITS_NEED_RETRAINING}				Нет соединений, доступных для переобучения.
+
+{SMT_STATE_ICON_BUILDINGS_FUN}					Здания сферы развлечений, культуры и поддержания порядка
+{SMT_CAPABILITY_GATE_DEFENSES}			Кипящее масло
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_CAPS_LOC_REQUIRES}						Требуется:
+{SMT_ATTACKING_THIS_CHARACTER_WILL_BREAK_ALLIANCE}	В настоящее время вы находитесь в союзе с фракцией этого персонажа. Если вы сейчас атакуете его, союз будет разорван и объявлена война. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_NAVY_DECLARATION_OF_WAR}		Между вашей фракцией и фракцией этой флотилии сейчас нет вражды, однако, если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_ARMY_DECLARATION_OF_WAR}		Между вашей фракцией и фракцией этой армии сейчас нет вражды, однако, если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR}	Между вашей фракцией и фракцией этого персонажа сейчас нет вражды, однако, если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_SETTLEMENT_DECLARATION_OF_WAR}	Между вашей фракцией и фракцией, которая владеет этим поселением, сейчас нет вражды, однако, если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_FORT_DECLARATION_OF_WAR}		Между вашей фракцией и фракцией, которая владеет этим фортом, сейчас нет вражды, однако, если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_PORT_DECLARATION_OF_WAR}		Между вашей фракцией и фракцией, которая владеет этим портом, сейчас нет вражды, однако если сейчас вы атакуете, это будет рассматриваться, как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_CONFIRM_ATTACK_ON_NEUTRAL}				Атаковать нейтральную фракцию?
+{SMT_ARMY}								Армия
+{SMT_NAVY}								Флот
+{SMT_AGENTS}							Агенты
+{SMT_FLEET}								Флотилия
+{SMT_PRIVATE_DEALINGS}						Частные сделки
+{SMT_CURRENT_TREATIES}						Текущие договоры
+{SMT_STATE_ICON_BUILDINGS_LAW}				Закон
+{SMT_FACTION_OVERVIEW}						Обзор
+{SMT_SENATE}							Сенат
+{SMT_FINANCIAL}							Финансы
+{SMT_RADAR_ZOOM_IN}						Приблизить текущий участок
+{SMT_RADAR_ZOOM_OUT}						Отдалить текущий участок
+{SMT_RECRUITMENT}							Найм
+{SMT_REPAIR}							Ремонт
+{SMT_RETRAIN}							Переобучение
+{SMT_STATE_ICON_FARMING_LEVEL}					Базовый уровень земледелия (зависит от региона)
+{SMT_STATE_ICON_FARMS_BUILT}					Усовершенствования земледелия
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_ATTACKING_THIS_NAVY_DECLARATION_OF_WAR}		В настоящее время между вами и фракцией, владеющей этим флотом, нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_ARMY_DECLARATION_OF_WAR}		В настоящее время между вами и фракцией, владеющей этой армией, нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_CHARACTER_DECLARATION_OF_WAR}	В настоящее время между вами и фракцией этого персонажа нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_SETTLEMENT_DECLARATION_OF_WAR}	В настоящее время между вами и владельцами этого поселения нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_FORT_DECLARATION_OF_WAR}		В настоящее время между вами и жителями этого форта нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_ATTACKING_THIS_PORT_DECLARATION_OF_WAR}		В настоящее время между вами и владельцами этого форта нет вражды. Если сейчас вы атакуете, это будет рассматриваться как объявление войны. Вы уверены, что хотите продолжить?
+{SMT_SET_AS_CAPITAL}						Выбрать это поселение столицей фракции
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DISBAND}					Распустить отряд\nНаземные отряды можно распустить только в родном районе, морские -- только в порту. Полководцев распустить нельзя.
+{SMT_MISSION_BLOCKADE_SUCCESS}		Сенат отмечает, что блокада, о которой мы просили, установлена.
+{SMT_MISSION_ASSIST_FACTION_SUCCESS}					Сенат отмечает, что вы последовали его совету и направили подкрепление нашим союзникам в этом регионе.
+{SMT_ASSAULT_NO_INFANTRY}			Штурм невозможен! Нельзя использовать осадное снаряжение без пехоты
+{SMT_ASSAULT_NO_EQUIPMENT}			Штурм невозможен! Эти укрепления слишком надежны, чтобы можно было штурмовать их без осадного оборудования
+{SMT_NO_POPULATION_TO_ENSLAVE}		Недостаточно населения для порабощения
+{SMT_NO_POPULATION_TO_EXTERMINATE}		Недостаточно населения для уничтожения
+{SMT_CURRENTLY_TRAINING}			В настоящее время обучаются:
+{SMT_TOTAL}						Всего
+{SMT_PROJECTED}					Намечено всего
+{SMT_STARTING_TREASURY}				Стартовый капитал
+{SMT_PROJECTED_END_TREASURY}			Проектируемый общий капитал
+{SMT_END_TREASURY}				Общий капитал
+{SMT_DIPLOMACY_TRIBUTES}			Дипломатия/Дань
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DIPLOMACY_CHANGE_YEARLY_PAYMENT}	Изменить дань
+{SMT_ATTACK_VS_TROOPS}				Атака на войска
+{SMT_ATTACK_VS_BUILDINGS}			Атака на здания
+{SMT_MELEE_ATTACK}				Ближний бой
+{SMT_MISSILE_ATTACK}				Стрелковая атака
+{SMT_WEAPON_TYPE}				Тип оружия
+{SMT_LIGHT}					Легкое
+{SMT_MISSILE}					Стрелковое
+{SMT_HEAVY}					Тяжелое
+{SMT_NO_UPGRADE}				Нельзя усовершенствовать
+{SMT_TOTAL_DEFENCE}				Общая защита
+{SMT_ATTACK_CHARGE}				Улучшение при штурме
+{SMT_EMPTY_OFFICES}				Незанятые должности Сената:
+{SMT_STATE_ICON_PLAGUE}				Мор		
+{SMT_SETTLEMENT_HAS_FOOD_FOR_X_YEARS}		В этом поселении хватит еды на %d ходов
+{SMT_FORT_HAS_FOOD_FOR_X_YEARS}			В этом форте хватит еды на %d ходов
+{SMT_SETTLEMENT_HAS_FOOD_FOR_1_YEAR}		В этом поселении хватит еды на 1 ход
+{SMT_FORT_HAS_FOOD_FOR_1_YEAR}			В этом форте хватит еды на 1 ход
+{SMT_SUBTERFUGE_COLON}				Хитрость:
+{SMT_DEFENCE}					Навык защиты
+{SMT_REWARD_UNITS_AT_YOUR_CAPITAL}		Отряды, полученные вами в награду, находятся в вашей столице:\n
+{SMT_MISSION_PEACE_TALKS_PROPOSAL}		Сенат просит вас направить дипломата в эту фракцию и попытаться улучшить отношения с ней. Неважно, какого именно результата вы достигнете -- для первого шага достаточно направить дипломата и достичь соглашения по предложению.
+{SMT_MISSION_PEACE_TALKS_FAILURE}		Сенат отмечает, что вам не удалось установить дипломатические связи с этой фракцией.
+{SMT_PENALTY_SECRET_INFORMATION_EXPOSURE}	Ваше постыдное и отвратительное поведение стало притчей во языцех среди сплетников Рима.
+{SMT_CHARACTER_PLAGUED}				Этот персонаж -- переносчик чумы
+{SMT_NOTHING_TO_CONSTRUCT}			В настоящее время строительство зданий невозможно
+{SMT_NOTHING_TO_TRAIN}				В настоящее время наем отрядов невозможен
+{SMT_LOCATE_MISSION_TARGET}			Найти цель задания
+{SMT_REPAIRED}					Отремонтировано
+{SMT_RETRAINED}					Переобучены
+{SMT_VARIES}					Различная
+{SMT_GATES_OPEN_SETTLEMENT}			Ваши шпионы внедрились в это поселение\nКогда вы будете атаковать, они откроют ворота
+{SMT_GATES_OPEN_FORT}				Ваши шпионы внедрились в этот форт\nКогда вы будете атаковать, они откроют ворота
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}	Станьте верховным правителем Рима и удерживайте по меньшей мере 50 провинций
+{SMT_CORRUPTION_AND_OTHER}			Коррупция и другое
+{SMT_SELECT_FORT_OR_WATCHTOWER}		Выберите форт или сторожевую башню для постройки
+{SMT_FAMILY_MEMBERS}				Члены семьи:
+{SMT_CAPITAL_TITLE}				Столица
+{SMT_GARRISON_COMMANDER}			Командир гарнизона
+{SMT_LAND_IMPORTS}				Импорт по суше
+{SMT_IMPORTS}					Импорт по морю
+{SMT_SEA_EXPORTS}					Морской экспорт
+{SMT_BLOCKADED}					В блокаде
+{SMT_WITHIN_X_TURNS}				(В течение %d ходов)
+{SMT_CHANCE_OF_SUCCESS_X_PERCENT}		Шансы на успех %d%% успеха
+{SMT_DESTROY_BUILDING}				Разрушить здание и вернуть часть его стоимости в казну
+{SMT_TIME_TO_PROCESS_SIEGE_QUEUE}		Время для строительства объектов из очереди: %d ходов
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_CHARACTER_BRIBED}			Следующий персонаж присоединится к вашей фракции:
+{SMT_SETTLEMENT_BRIBED}			Следующее поселение присоединится к вашей фракции:
+{SMT_VISITORS_BRIBED}			Следующие посетители присоединятся к вашей фракции:
+{SMT_TRAVELLERS_BRIBED}			Следующие путешественники присоединятся к вашей фракции:
+{SMT_ENTIRE_ARMY_BRIBED}		Целая армия присоединится к вашей фракции
+{SMT_ENTIRE_ARMY_DISBANDED}		Целая армия будет распущена и вернется на поля
+{SMT_UNITS_BRIBED}			Следующее число отрядов присоединится к вашей фракции:
+{SMT_UNITS_DISBANDED}			Следующее число отрядов будет распущено:
+{SMT_TAX}					Налог
+{SMT_AUTOMANAGE_TAXES_TOOLTIP}	Разрешить помощнику по строительству определять налоговую ставку во всех поселениях
+{SMT_AUTOMATE_TAXES}			Только автоматическое управление налогами
+{SMT_QUICKSAVE}				Quicksave
+{SMT_LOCATE_BATTLE}			Показать позицию битвы
+{SMT_ERUPTION_AT_ETNA_BODY}		Бог Вулкан вызвал извержение Этны! Тысячи людей погибли под потоками кипящей лавы.
+{SMT_AUTOMANAGE_ALL_TOOLTIP}		Автоматически установить компьютерного помощника по строительству для каждого поселения
+{SMT_AUTOMATE_ALL}			Автоматическое управление всем
+{SMT_STATE_ICON_DEVASTATION}		Опустошения
+{SMT_INAPPROPRIATE_UNITS_FOR_ASSAULT}	Штурм невозможен, поскольку у вас нет отрядов, способных атаковать здания
+{SMT_EXCHANGE_COMMANDING_OFFICER}	На этом корабле уже есть флотоводец. Он не может перейти под командование к другому адмиралу.
+{SMT_EXCHANGE_IN_ZOC}			Это соединение в настоящее время находится в зоне контроля врага, и в течение этого хода больше не может двигаться.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_OPEN_DEMANDS}				Что-нибудь подходящее в обмен на наше предложение
+{SMT_OPEN_OFFERS}					Назовите вашу цену в ответ на наши разумные требования
+{SMT_THIS_CHARACTER_IN_YOUR_FACTION}	Этот шпион является членом вашей фракции
+{SMT_CHANCE_OF_SUCCESS_X_PERCENT}		Шансы на успех: %d%%
+
+¬15 provinces and outlive faction
+
+{SMT_SHORT_VICTORY_ROMANS_BRUTII}	Знаменитые предки Брутов гордятся вашей победой. Грязные македоняне и надушенные греки ушли, оставив за собой лишь руины! Поздравляем вас с этим триумфом римского духа!
+{SMT_SHORT_VICTORY_ROMANS_JULII}		Ваша победа достойна истинного римлянина. Дом Юлиев может радоваться, глядя на волосатых галльских варваров - в изгнании, в цепях, в отчаянии! Это триумф, радуйтесь же ему!
+{SMT_SHORT_VICTORY_ROMANS_SCIPII}	Вы одержали достойнейшую и благороднейшую победу! Ваши вероломные враги в Африке - Карфаген и Нумидия - удостоятся лишь сносок в исторических книгах, в которых будет описываться ваш триумф!
+{SMT_SHORT_VICTORY_BRITONS}		Ваша победа достойна скромного праздника, на котором вы будете пить, пить и еще раз пить! Грязных, провонявших луком галлов больше нет, ваши земли защищают храбрые воины! Отмечайте свой триумф!
+{SMT_SHORT_VICTORY_CARTHAGE}		Это сладчайшая и достойнейшая из побед! Злобные и лживые Сципионы покоятся в могилах - и нельзя сказать, что они ушли преждевременно - и испанские варвары тоже больше не будут тревожить вас. Это триумф, который стоит отметить!
+{SMT_SHORT_VICTORY_EGYPT}		Любой фараон был бы счастлив отпраздновать такую победу. Селевкидам пришел конец, а земли Египта обширны и обильны. Сегодня день радости: день победы под вашим руководством!
+{SMT_SHORT_VICTORY_GAULS}		Дом Юлиев и их лживые союзники в Римском Сенате повержены. Галльские воины правят миром, и это стало возможным только благодаря вашему руководству. Празднуйте свой успех!
+{SMT_SHORT_VICTORY_GERMANS}		Благодаря вашему чуткому руководству победа пришла к германцам! Жестокие даки и безумные конники из Скифии мертвы или проданы в рабство, германским воинам подчиняются многочисленные земли!
+{SMT_SHORT_VICTORY_GREEK_CITIES}		Боги улыбаются вам и даруют вам победу! Македоняне и фракийцы повержены в прах, и все истинные греки празднуют ваш триумф!
+{SMT_SHORT_VICTORY_PARTHIA}		Победа! Благодаря вашей решительности парфянская конница правит огромной территорией. Более того, злобные Селевкиды и армяне изгнаны со своих земель и проданы в рабство!
+{SMT_SHORT_VICTORY_SELEUCID}		Сегодня благодаря вашему чуткому руководству империя Селевкидов может праздновать победу! Что еще лучше, извращенцы-египтяне, поклоняющиеся смерти, отправились к своим предкам - пусть порадуются!
+
+¬long game, 50 provinces and conquer Rome
+
+{SMT_LONG_VICTORY_ROMANS_BRUTII}	Рим будет процветать под властью Брутов! Вы оправдали самые высокие ожидания. Меч сжат в крепком кулаке Брутов! В другой руке Брутов палка, при помощи которой они будут править всем миром! Именно за это Бруты боролись долгие годы, и они наконец добились своего!
+{SMT_LONG_VICTORY_ROMANS_JULII}		Этот момент стоит посмаковать! Рим и Империя - в сущности, весь мир - лежат у ваших ног, а граждане Рима любят вас! Старые бабы из Сената больше не будут беспокоить вас. Ваши враги слабы, испуганы и разбиты. Победа ваша - наслаждайтесь честно заслуженными браздами правления!
+{SMT_LONG_VICTORY_ROMANS_SCIPII}	Великий дом Сципионов благословлен богами и вашим великолепным руководством! Победа сладка, и все римляне могут спать спокойно, зная, что мы правим Империей и защищаем ее от всех врагов. Римские армии - армии Сципионов - контролируют империю, которая охватила полмира! Победа ваша!
+{SMT_LONG_VICTORY_BRITONS}		Победа за вами! Римскому миру пришел конец, наши воины правят землями, простирающимися от заката до рассвета. По всему миру друиды возносят хвалу древним богам! Это момент, который мы будем смаковать, момент, когда пришла пора поднять бокал за победу и осушить его до дна!
+{SMT_LONG_VICTORY_CARTHAGE}		Мир принадлежит вам, победа за вами! Ничто больше не угрожает величию, которого Карфаген достиг под вашим чутким и решительным руководством! Это праздничный день, день, когда мы поразмыслим, каким станет мир в руках у своих новых карфагенских властителей!
+{SMT_LONG_VICTORY_EGYPT}		Победа за вами! Все ваши враги превратились в тени, развеяны в прах ветрами пустынь. Много веков спустя фараоны будут принимать ваше имя в подтверждение ваших заслуг перед Египтом. Это вы помогли ему достичь величия!
+{SMT_LONG_VICTORY_GAULS}		Галльская храбрость - и ваше храброе руководство - завоевали победу! Отпразднуйте победу и взгляните с гордостью на галльскую империю - настоящее чудо света. Другим народам остается лишь скорбеть и трепетать перед вашей мощью!!
+{SMT_LONG_VICTORY_GERMANS}		Вы вывели храбрых германцев из темных лесов на залитые солнцем поля побед! Мир принадлежит вам, и все низшие народы в страхе склоняются перед вашей армией. Это великая победа - для варварского народа! 
+{SMT_LONG_VICTORY_GREEK_CITIES}		Мы донесли цивилизацию до всего мира! Греки мудро и справедливо правят обширными землями, и это победа! И еще лучше, эта победа одержана под вашим чутким и мудрым руководством! Поистине олимпийские боги наделили вас удивительным даром командования!
+{SMT_LONG_VICTORY_PARTHIA}		Парфия теперь империя, а не какое-то презираемое соседями царство. Ваше военное искусство принесло блестящие победы парфянской армии, парфянское знамя развевается над стенами многих городов и деревень. Отныне мир -- игрушка в руках парфян!
+{SMT_LONG_VICTORY_SELEUCID}		Империя Селевкидов теперь -- могущественнейшая сила в мире, которой не страшна больше ни одна внешняя угроза! Благодаря вашим потрясающим качествам истинного командира Селевкиды добились победы, и теперь во всех деревнях и городах будут воздвигнуты статуи в вашу честь! Сами боги с ревностью поглядывают на вас!
+
+¬defeat, by a major power
+
+{SMT_DEFEATED_BY_ROMANS_BRUTII}	Победа была уже у вас в руках, но в последний момент ее вырвали у вас Бруты, жестокие римляне, которые сжали мир в своем железном кулаке. В результате мир стал ужасным, мрачным местом!
+{SMT_DEFEATED_BY_ROMANS_JULII}		Победа ускользнула от вас, и теперь вы не сможете править миром. Дом Юлиев, лучшие друзья римской черни, заправляют теперь всем. Римская империя сохранится на века!
+{SMT_DEFEATED_BY_ROMANS_SCIPII}	На сей раз боги не улыбнулись вам, и победа ускользнула от вас. Более того, любимцами богов оказались римляне Сципионы - а ведь они всегда этим бахвалились! - и теперь именно они решают судьбы мира!
+{SMT_DEFEATED_BY_BRITONS}		Выкрашенные синькой британцы и их друиды с окровавленными руками вырвали у вас победу. На этот раз вам досталась лишь горечь поражения, а не сладкое вино успеха!
+{SMT_DEFEATED_BY_CARTHAGE}		Поражение -- вот все, на что вы смогли претендовать! Сегодня победу празднуют карфагеняне и их подлые наемники! Теперь они распространят по всему миру свой гнусный обычай убивать младенцев, и все узнают, что такое настоящий страх. 
+{SMT_DEFEATED_BY_EGYPT}		Фараон и его лизоблюды вырвали у вас победу. Какой же мрачный сегодня день: теперь миром будут править эти некрофилы, поклоняющиеся смерти!
+{SMT_DEFEATED_BY_GAULS}		Больше вы не сможете мечтать о победе. Ее вырвали у вас отвратительные усатые галлы в штанах! Куда катится мир, если позволяет немытым выскочкам править собой!
+{SMT_DEFEATED_BY_GERMANS}		Поражение - вот ваша награда! Боги повернулись к вам спиной. Германцы - да кто они вообще такие, просто дикари из темного леса! - одержали победу над всеми своими врагами! Будь проклят этот день!
+{SMT_DEFEATED_BY_GREEK_CITIES}		Это же надо, чтобы из всех народов победа досталась грекам! Будь проклят этот день: теперь миром будут править надушенные хлыщи, считающие себя светочами культуры. Но с другой стороны, кто сказал, что поражение окончательно?..
+{SMT_DEFEATED_BY_PARTHIA}		Жестокие, коварные парфяне вырвали победу из ваших рук. Какой печальный день - на вашей земле празднуют победу эти грязные любители лошадей с немытого Востока!
+{SMT_DEFEATED_BY_SELEUCID}		Империя Селевкидов добилась триумфа, победа досталась им. Вашим честолюбивым планам не суждено было сбыться, но неужели все свободные люди мира склонятся под пятой жестоких Селевкидов?
+
+¬defeat, by an unplayable faction
+
+{SMT_DEFEATED_BY_ROMANS_SENATE}	Римский Сенат одержал победу, и теперь старые перечницы в Риме празднуют свой успех! Вам так и не удалось ничего добиться, и все из-за их коварных планов и подлостей. 
+{SMT_DEFEATED_BY_MACEDON}		При Александре Великом македоняне чуть не завоевали мир. Теперь им снова удалось добиться победы и величия. Все остальные народы -- и вы среди них -- могут "наслаждаться" своим поражением! 
+{SMT_DEFEATED_BY_PONTUS}		Вы побеждены! Новая сила поднялась на Востоке, и теперь их полководцы и правители по праву называют себя властителями мира. Народ Понта празднует победу!
+{SMT_DEFEATED_BY_ARMENIA}		Новая сила поднялась на Востоке. Армяне одержали заслуженную победу. Все остальные народы -- включая ваш собственный -- должны пасть на колени при виде этой новой Империи!
+{SMT_DEFEATED_BY_DACIA}		Победу вырвали варвары даки! И эти немытые людишки теперь станут властителями мира! Это черный день для всех цивилизованных народов!
+{SMT_DEFEATED_BY_SCYTHIA}		Вы побеждены! Из диких степей появились скифские всадники и вырвали победу из ваших рук! Ни один другой народ не может поднять голос против степных варваров...
+{SMT_DEFEATED_BY_SPAIN}		Вы побеждены! Весь мир согласен, что варвары-испанцы по праву добились победы и теперь могут считать себя властителями мира!
+{SMT_DEFEATED_BY_THRACE}		Победу вырвали у вас варвары-фракийцы! И эти немытые людишки теперь станут властителями мира! Это черный день для всех цивилизованных народов!
+{SMT_DEFEATED_BY_NUMIDIA}		Ваша участь -- быть побежденным. Хитрые нумидийцы сумели одержать победу и теперь правят почти всем миром. Их империя простирается от Африки до далеких степей!
+{SMT_DEFEATED_BY_SLAVE}		Кучка оборванцев, рабов и беглых преступников вырвала у вас победу! Эти мерзавцы, у которых едва хватает ума подметать улицы, теперь ведут себя так, словно они хозяева мира. Что ж, может, так оно и есть...
+
+{SMT_LAND_IMPORTS}		Торговля по суше (импорт и экспорт)
+{SMT_1_REGION_LEFT}		Захватить еще 1 регион
+
+{SMT_MISSION_BLOCKADE_PROPOSAL}		Сенат просит вас направить одну из ваших флотилий, чтобы блокировать этот порт на один ход. Таким образом мы усилим давление на эту фракцию, поскольку сократим их доходы.
+{SMT_NEED_GOVERNOR_TO_MANAGE}		Чтобы вывести это поселение из режима автоматического управления, введите в него члена семьи в качестве правителя
+
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT}			Этот форт сможет продержаться еще %d ходов
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT}		В случае осады этот форт сможет продержаться еще %d ходов
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_FORT_1_TURN}		Этот форт сможет протянуть еще один ход
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_FORT_1_TURN}	В случае осады этот форт сможет продержаться еще 1 ход
+{SMT_SIEGE_DURATION_WHILST_UNDER_SIEGE_1_TURN}			Это поселение протянет еще один ход
+{SMT_SIEGE_DURATION_WHILST_NOT_UNDER_SIEGE_1_TURN}		В случае осады это поселение сможет продержаться еще 1 ход
+{SMT_BLOCKADED}					(В блокаде)
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬Popular with the people >5, and then the Senate says...
+
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_0}		Сенат считает, что вы достойны уважения не больше, чем крысы, живущие в Большой Клоаке! В то же время сенаторы боятся вашей популярности среди черни. Вас считают величайшей угрозой для Республики и римской свободы.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_1}		В Сенате вас часто обвиняют в извращенной любви ко всему иностранному! Они пользуются любой возможностью, чтобы очернить ваше имя, и радуются вашим неудачам. И все это в интересах Рима, разумеется. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_2}		В Сенате часто обсуждают ваши достоинства, но не могут прийти к единому заключению. Многие Сенаторы с удовольствием бы пришли на Игры в память о вас. Некоторые готовы даже оплатить такие игры.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_3}		Сенаторы отворачиваются от вас на улице и захлопывают перед вами двери. Им нравится порочить вас на публике, обсуждая ваше происхождение, ваши личные привычки и то, кто на самом деле является отцом ваших детей.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_4}		В каждом послании, в котором Сенат прославляет ваши подвиги во благо Республики, сквозит неискренность. Ваша популярность среди черни не нравится большинству сенаторов, а некоторые открыто сомневаются в вашей лояльности.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_5}		Большинство сенаторов признают ваше величие, но озабочены вашими намерениями. Вы не чувствуете открытой враждебности, но определенные недобрые чувства к вам есть всегда, из-за вашей популярности среди простого народа. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_6}		На людях сенаторы славят ваши подвиги, но большинство ворчит, что ваши амбиции и жажда славы слишком велики для истинного римлянина. Они совершенно не доверяют вам и боятся вашей популярности у черни.
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_7}		Сенаторы пока что не особенно доверяют вам. Они приглашают вас к себе обедать, но их похвалы отдают неискренностью, и в них слышится немалая доля страха. 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_8}		Сенат высоко ценит вас, а расстояние еще увеличивает ваше очарование. И чем дальше вы от центра власти в Риме, тем больше Сенат восхищается вами! 
+{SMT_SENATE_STANDING_RANKING_TOO_POPULAR_9}		На публике сенаторы говорят о вас, как о новом воплощении Ромула и отце Республики. Однако в частных беседах самые храбрые из них выражают опасение, что вы собираетесь стать диктатором Рима, а может быть, и чем-то худшим!
+
+¬ Transition messages for popularity with Senate and people
+
+{SMT_SENATE_STANDING_RANKING_UP_TO_9}			В глазах Сената ваше положение не могло бы быть более высоким. Будь вы даже самим Юпитером, к вам бы не могли относиться лучше.
+{SMT_SENATE_STANDING_RANKING_UP_TO_6}			Мнение сенаторов о ваших достижениях значительно улучшилось, и сейчас они к вам благосклонны... большинство из них... большую часть времени. 
+{SMT_SENATE_STANDING_RANKING_UP_TO_3}			Ваше положение в глазах сенаторов значительно укрепилось. Для начала неплохо и то, что они больше не приказывают своим рабам швыряться навозом в ваших полководцев!
+
+{SMT_SENATE_STANDING_RANKING_DOWN_TO_4}		Ваше положение среди сенаторов Рима пошатнулось, и это повод для беспокойства.
+{SMT_SENATE_STANDING_RANKING_DOWN_TO_1}		Ваше положение в глазах римских сенаторов не внушает оптимизма. Может быть, они начнут лучше относиться к вам, если вы будете выполнять их пожелания.
+
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_9}			Чернь выкрикивает ваше имя с крыш и называет в вашу честь детей! Толпа на вашей стороне, так что, может быть, абсолютная власть не так уж и далека от вас...
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_6}			Теперь чернь знает ваше имя и с одобрением говорит о ваших успехах. Это весьма обнадеживающий знак и хорошая основа для укрепления вашей популярности.
+{SMT_SENATE_POPULAR_SUPPORT_UP_TO_3}			Ваша популярность среди черни повысилась. Появилась даже какая-то надежда, что люди начнут произносить ваше имя с одобрением, а не только для того, чтобы пугать им детей!
+
+{SMT_SENATE_POPULAR_SUPPORT_DOWN_TO_4}		То, как к вам относятся простые люди на улицах Рима, не внушает оптимизма. Никто не сможет бросить вызов Сенату без поддержки простого народа!
+{SMT_SENATE_POPULAR_SUPPORT_DOWN_TO_1}		Простые люди страстно ненавидят вас, и уже трудно представить, что должно произойти, чтобы вас любили еще меньше. Добиться такого уровня непопулярности очень и очень непросто!
+
+{SMT_SHOW_CHARACTER_INFO}				Показать свиток информации об этом персонаже
+
+{SMT_STATE_ICON_SQUALOUR}				Нищета
+{SMT_STATE_ICON_WAGES}				Жалованье ваших полководцев и агентов распределяется по всем поселениям в зависимости от размера, и эта сумма выплачивается отсюда.
+{SMT_STATE_ICON_UPKEEP_NEW}				Общие расходы на содержание вашей армии распределяются по всем поселениям в зависимости от размера. Эта сумма выплачивается отсюда.
+
+{SMT_VICTORY_CONDITION_OUTLIVE_FACTIONS_DESCR}	Удерживать %d провинций, а также уничтожить или пережить следующую фракцию (или фракции):	¬ allows for just one faction listed after message
+{SMT_BY}		Кем:
+{SMT_ON}		Кому:
+{SMT_ALLY}		Союзник:
+{SMT_ENEMY}		Враг:
+
+{SMT_REWARD_THROW_GAMES_DESCRIPTION}	За счет Сената будут проведены игры в вашу честь
+{SMT_GOVERNOR_POLICY_STRONGHOLD}		Политика роста
+
+{SMT_DIPLOMACY_OFFER_THREAT_OF_ATTACK}			Согласитесь, или мы атакуем
+{SMT_DIPLOMACY_OFFER_DEMAND_NO_ATTACK}			Пожалуйста, не атакуйте
+{SMT_GATES_OPEN_SETTLEMENT}			Ваши шпионы внедрились в это поселение\nСуществует %d%% шанс, что им удастся открыть ворота, если вы атакуете
+{SMT_GATES_OPEN_FORT}				Ваши шпионы внедрились в этот форт\nСуществует %d%% шанс, что им удастся открыть ворота, если вы атакуете
+{SMT_VICTORY_CONDITION_OUTLAST_SENATE}		Уничтожить или пережить Сенат
+
+{SMT_ALLOW_BUILDING_TOOLTIP}				Передать ИИ управление всем строительством в данном поселении
+{SMT_ALLOW_TROOP_PRODUCTION_TOOLTIP}			Передать ИИ управление наймом в данном поселении
+{SMT_AUTOMANAGE_ALL_TOOLTIP}				Передать ИИ управление строительством и наймом во всех поселениях
+{SMT_AUTOMANAGE_TAXES_TOOLTIP}				Передать ИИ управление налогообложением во всех поселениях
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_GATES_OPEN_SETTLEMENT_ACTUAL}			Ваши шпионы внедрились в это поселение\nКогда вы будете атаковать, они откроют ворота
+{SMT_GATES_OPEN_FORT_ACTUAL}				Ваши шпионы внедрились в этот форт\nКогда вы будете атаковать, они откроют ворота
+
+{SMT_GATES_OPEN_SETTLEMENT}			Ваши шпионы внедрились в это поселение.  Существует %d%% шанс, что им удастся открыть ворота, если вы атакуете.
+{SMT_GATES_OPEN_FORT}				Ваши шпионы внедрились в этот форт.  Существует %d%% шанс, что им удастся открыть ворота, если вы атакуете.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{SMT_DESTROY_BUILDING}		Разрушить здание и вернуть часть его стоимости в казну
+{SMT_MISSION_ATTACK_OUTLAW_FACTION_PROPOSAL}	Эта фракция объявлена вне закона. Сенат просит вас атаковать ее
+{SMT_MISSION_BLOCKADE_SUCCESS}		Сенат отмечает, что блокада, о которой мы просили, установлена.
+{SMT_DESERTED}			Покинут
+{SMT_SELECTED_MERCENARIES}					Выбранные наемники (Общая стоимость: %d)
+{SMT_DIED_TRAGIC}			Трагически погиб:
+{SMT_DIED_BATTLE}			Погиб в бою:
+{SMT_DIED_ASSASSINATED}		Пал жертвой наемного убийцы:
+{SMT_EXECUTED}			Казнен:
+{SMT_DIED}				Мирно скончался:
+{SMT_BORN}				Родился:
+{SMT_DIED_PLAGUE}			Умер от чумы:
+{SMT_NEXT}				Дальше:
+{SMT_1_YEAR_REMAINING}		(остался 1 год)
+{SMT_X_YEARS_REMAINING}		(осталось %d лет)
+{SMT_DEFEAT_BODY}			В 14 году н.э. умер Октавиан Август, первый император Рима. В своем завещании он передал Тиберию власть над Римом, как будто это просто другой вид имущества. Это ознаменовало конец Республики и основание империи. Вы добились многого, но вам все же не удалось сравниться с великим Августом. Вы можете продолжить эту кампанию или начать игру заново.
+{SMT_DEFEAT}			Условия победы не выполнены
+{SMT_PENALTY_CENSOR_INVESTIGATES_FACTION}					После допроса членов вашей фракции цензором, %S совершает самоубийство
+{SMT_REGIONS_GAINED}						Регионов под контролем:
+{SMT_VICTORY_CONDITION_IMPERATOR_DESCR}	Стать верховным властителем Рима и контролировать не менее 50 провинций
+{SMT_AI_REINFORCEMENT}		Перевести эту армию под контроль ИИ
+{SMT_REWARD_ONE_TRIARII_DESCRIPTION}	Вы получите в награду отряд триариев
+{SMT_REWARD_TWO_TRIARII_DESCRIPTION}	Вы получите в награду два отряда триариев
+{SMT_DISBAND}					Распустить отряд\nМорские отряды могут быть распущены только в родном порту\nРаспустить генералов нельзя.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_SHOW_FACTION_LISTS}	Показать свиток списков
+{SMT_OCCUPY_SETTLEMENT}		Занять поселение
+{SMT_RAZE_SETTLEMENT}		Разграбить поселение
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_1}	Удержать %d регионов, включая:
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_2}	. Пережить фракции:
+
+{SMT_ESPIONAGE_IN_CARTHAGE_TITLE}				Создан Новый Завет
+{SMT_A_NEW_RELIGION_TITLE}					Мученики Сасанидов
+{SMT_ERUPTION_AT_ETNA_TITLE}					Мученичество святого Евсевия
+{SMT_PLAGUE_IN_MACEDONIA_TITLE}				Первый (Никейский) Вселенский Собор
+{SMT_STOIC_PHILOSOPHY_TITLE}					Уничтожен Серапеум
+{SMT_HAND_PUMP_INVENTED_TITLE}					Последние Олимпийские Игры
+{SMT_LIBRARIAN_AT_ALEXANDRIA_TITLE}				Карфагенский собор
+{SMT_GREAT_LIBRARY_COMPLETED_TITLE}				Составлен Notitia Dignitarum
+{SMT_THROUGH_A_GLASS_CLEARLY_TITLE}				Библия переведена на латынь
+{SMT_ARCHIMEDES_SCREW_TITLE}					Исчезновение ересиарха Пелагия
+{SMT_GREEK_LOGIC_TITLE}						Патрик приносит христианство в Ирландию
+{SMT_STAR_CATALOGUE_TITLE}					Собор в Эфесе
+{SMT_PLAGUE_IN_ALEXANDRIA_TITLE}				Кодекс Законов пересмотрен
+{SMT_RITES_OF_BACCHUS_BANNED_TITLE}				Собор в Каледоне
+{SMT_EARTHQUAKE_IN_PONTUS_TITLE}				Примат Папы
+{SMT_CONCRETE_INVENTED_TITLE}					Появление славян
+{SMT_ERUPTION_AT_VESUVIUS_TITLE}				Убийство языческого философа
+
+{SMT_ESPIONAGE_IN_CARTHAGE_BODY}				Афанасий Александрийский завершил составление Нового Завета, представив канон из двадцати семи книг (остальные книги стали называть апокрифами). Ходят слухи, что Афанасий отбирал книги для включения в Завет, сообразуясь в первую очередь с политическими интересами Церкви, а не с истинной верой.
+{SMT_A_NEW_RELIGION_BODY}					Пытаясь остановить распространение христианства в Армении, сасанидский правитель Шапур замучил многих христиан, включая Иосифа Персидского и восьмидесятилетнего епископа Хнаита. Полагают, что своими действиями он пытался бросить вызов Римской Империи, которая была не в силах помешать ему. Христиан пытали, а потом забили до смерти.
+{SMT_ERUPTION_AT_ETNA_BODY}					Евсевий, епископ Самосаты в Сирии, принял мученическую смерть от куска черепицы, которым бросили в него во время христианской церемонии. Евсевий в 361 году бросил вызов императору Констанцию, приверженцу арианства, отказавшись передать ему документы Антиохийского Синода, несмотря на угрозу отсечения руки. Его решимость так потрясла Констанция, что он отпустил Евсевия целым и невредимым.
+{SMT_PLAGUE_IN_MACEDONIA_BODY}				Иерархи христианской церкви собрались на собор в Константинополе, чтобы поставить точку в борьбе с арианством, еретическим учением жившего в III веке мистика Ария. Еще в 326 году арианство было объявлено преступлением, а все книги Ария уничтожены, однако идеи арианства о природе Христа были восприняты многими народами, в том числе и готами. Сейчас это лжеучение наконец-то подавлено совсем.
+{SMT_STOIC_PHILOSOPHY_BODY}					Чтобы противостоять языческому влиянию в Александрии, епископ Александрийский разграбил языческие храмы и распорядился выставить награбленные сокровища в христианских церквях. В ответ на это вспыхнули волнения, и язычники забаррикадировались внутри Серапеума -- величественного храма, воздвигнутого в честь священного быка Аписа. Им разрешили уйти, но обещание оставить храм невредимым не было выполнено -- власти не вмешивались, когда толпа христиан разрушила здание до основания.
+{SMT_HAND_PUMP_INVENTED_BODY}					История Олимпийских игр, которые проводились каждые четыре года в течение тысячи лет с лишним, подошла к концу, поскольку император объявил их языческим празднеством.
+{SMT_LIBRARIAN_AT_ALEXANDRIA_BODY}				Церковный собор в Карфагене расширил догматы христианской церкви. После долгих споров иерархи постановили, что молящиеся за усопшего могут быть уверены: их молитвы будут услышаны небесами; кроме того, была принята концепция чистилища, где душа умершего может искупить некоторые не столь значительные грехи, в течение определенного времени претерпевая муки за дурные поступки.
+{SMT_GREAT_LIBRARY_COMPLETED_BODY}				Составлен длинный перечень всех римских государственных и военных должностей. В Notitia Dignitatum упоминаются все государственные посты в обеих частях империи с указанием их полномочий и служебных обязанностей.
+{SMT_THROUGH_A_GLASS_CLEARLY_BODY}				Иероним завершил перевод Ветхого и Нового Завета с арамейского и греческого языков на латынь. Этот труд получил название versio vulgata (Вульгата) и вскоре стал каноническим вариантом Библии, принятой католической церковью. К сожалению, Иероним очень торопился и сделал в переводе немало ошибок, которые впоследствии вылились в недоразумения и искажения.
+{SMT_ARCHIMEDES_SCREW_BODY}					Пелагий, романо-британский монах и ученый, возможно, убит из-за своих еретических суждений. Он имел неосторожность оспорить точку зрения Августина, высказывая мысли о бытии и грехе, сходные с языческим учением стоиков. Однажды ему удалось обвинения в ереси, но на Карфагенском соборе Августина и Иероним добились его отлучения от церкви. Вскоре после отлучения он исчез. Дело явно нечисто...
+{SMT_GREEK_LOGIC_BODY}						Патриций (или Патрик) вернулся в Ирландию -- с проповедью христианства. Будущий святой, христианин с рождения, в 16 лет был угнан в рабство, попал в Ирландию, затем бежал, учился в монастырях в разных странах Европы, после чего изменил имя на Патриций. Однажды во сне ему было видение ангела, который приказал ему вернуться в Ирландию и нести христианство местным жителям.
+{SMT_STAR_CATALOGUE_BODY}					Эфесский церковный собор объявил еретическим и противным истинной вере учение Нестория, архиепископа Константинопольского, который отрицал -- вероятно, чересчур громко -- ипостасное единство во Христе, полагая, что в нем внешним образом соединились два различных Лица: божественное и человеческое.
+{SMT_PLAGUE_IN_ALEXANDRIA_BODY}				Система римского права получила надежную опору: все законы, акты и указы за тысячу лет систематизированы, кодифицированы и упорядочены. Все законы расположены в хронологическом порядке, и теперь можно быстро узнать, какие древние законы уже устарели. Таким образом, законы в обеих частях Империи будут толковаться более единообразно и разумно, и все жители Римской Империи почувствуют себя частью единого целого.
+{SMT_RITES_OF_BACCHUS_BANNED_BODY}				Четвертый (Халкидонский) Вселенский собор окончательно оформил церковный догмат об ипостасном единстве Христа. Иерархи голосованием постановили, что у Христа одна сущность, но две природы -- божественная и человеческая -- то есть он есть и истинный Бог, и истинный человек. Собор также решил повысить статус Константинопольской патриархии, распространив ее духовную власть на Азию, Понт и Фракию.
+{SMT_EARTHQUAKE_IN_PONTUS_BODY}				Римский патриарх -- Папа -- провозгласил новый догмат, согласно которому он является главой всей христианской церкви. Он утверждает, что его власть -- от Бога, хотя и принадлежит человеку. Многие люди, не входящие в ближайшее окружение Папы, выражают сомнения по поводу этого утверждения и озабочены его последствиями.
+{SMT_CONCRETE_INVENTED_BODY}					На далеком Севере появилась новая фракция. Племя славян объединилось и теперь медленно движется на юг. Им наверняка понравится теплый климат Европы, и они захотят поселиться там... да, а попутно выгонят тех, кто живет в этих местах сейчас...
+{SMT_ERUPTION_AT_VESUVIUS_BODY}				Гипатия Александрийская, философ-платоник, математик и астроном, была убита -- за то, что: во-первых, язычница, во-вторых, слишком умная, а в-третьих -- женщина. Ее (неподтвержденного!) участия в религиозном диспуте между церковными иерархами и городскими властями Александрии оказалось достаточным, чтобы группа монахов забила ее камнями, изувечила тело и сожгла. Печальная гибель Гипатии -- знак резких перемен в позиции церкви и развития религиозной нетерпимости.
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_DOMINANT_RELIGION}		Господствующая религия:
+{SMT_BELIEFS}			Интенсивность религиозного обращения
+{SMT_CURRENT_COMMITMENT}	Текущая сила веры:
+{SMT_PREDICTED_COMMITMENT}	Ожидаемая сила веры:
+{SMT_ABANDON_SETTLEMENT}	Покинуть это поселение и стать ордой
+{SMT_CANNOT_FIGHT_AT_NIGHT}	Эта армия не может участвовать в ночных боях
+{SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION}	 Строительство этого объекта требует уничтожения существующих религиозных сооружений
+{SMT_SUPRESSES_RELIGIOUS_UNREST}	Подавляет религиозные волнения:
+{SMT_SUPRESSES_RELIGIOUS_CONVERSION}			Религиозное обращение:
+{SMT_LIVING_FACTIONS}						"Живые" фракции
+{SMT_CANNOT_ABANDON_SETTLEMENT_UNDER_SIEGE}		Поселение можно покинуть, только если оно не в осаде
+{SMT_CANNOT_ABANDON_SETTLEMENT_NOT_LAST_SETTLEMENT}	Поселение можно покинуть, только если это ваше последнее поселение
+{SMT_CANNOT_ABANDON_SETTLEMENT_ALREADY_ABANDONED}	Ваши люди устали от постоянных переездов и хотят хоть немного пожить оседлой жизнью
+{SMT_CANNOT_ABANDON_SETTLEMENT_HORDE_UNITS}		Невозможно покинуть это поселение, поскольку армии вашей орды невозможно собрать
+{SMT_VICTORY_CONDITION_HOLD_REGIONS_DESCR_1}	Удержать %d поселений, включая:
+{SMT_CURRENT_CONVERSTION_STRENGTH}		Текущая интенсивность обращения: %d
+{SMT_PREDICTED_CONVERSION_STRENGTH}		Ожидаемая интенсивность обращения: %d
+{SMT_PASSENGERS_CANT_BE_MOVED}		Это корабль адмирала. Он не оставит командования, пока на борту остаются пассажиры, которых невозможно никуда перевести.
+{SMT_CANNOT_OCCUPY_SACKED_SETTLEMENT}	Это поселение было разграблено и не будет хорошим домом для вашего народа.
+
+{SMT_DISBAND}						Распустить отряд
+{SMT_DISBAND_IMPOSSIBLE_IN_BATTLE}			Нельзя распускать отряды во время сражения
+{SMT_DISBAND_IMPOSSIBLE_NAMED_GENERAL}		Нельзя распускать генералов
+{SMT_DISBAND_IMPOSSIBLE_WHILST_SIEGING}		Нельзя распускать отряды во время осады
+{SMT_DISBAND_IMPOSSIBLE_DOCKED}			Нельзя распускать корабли вне портов
+{SMT_DISBAND_IMPOSSIBLE_NOT_ON_LAND}		Нельзя распускать отряды в открытом море
+{SMT_DISBAND_IMPOSSIBLE_WHILST_EXCHANGING}	Нельзя распускать отряды, пока идет переход
+{SMT_BELIEF_BREAKDOWN}					Вера в поселении
+{SMT_MERCENARY_PAY_FROM_LOOTING}			Динарии, выплаченные наемникам из награбленного
+{SMT_CONVERSION_BUILDINGS}				Религиозные сооружения
+{SMT_CONVERSION_CHARACTERS}				Персонажи в регионе
+{SMT_CONVERSION_REGIONS}				Соседние регионы
+{SMT_CONVERSION_GAMES}					Проведены игры
+{SMT_BATTLE_TOO_LARGE_PERFORMANCE_WARNING}	После прибытия подкреплений масштабы сражения превысят рекомендуемые параметры вашей системы, что может отрицательно сказаться на быстродействии.
+{SMT_STATE_ICON_GOVERNOR_WRONG_RELIGION}		Вера наместника отличается от официальной религии поселения
+{SMT_STATE_ICON_FACTION_LEADER_WRONG_RELIGION}	Вера лидера фракции отличается от официальной религии поселения
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:02:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{SMT_BI_DEFEAT_BODY}			Вашей фракции не удалось достичь заслуженной славы, но она в этом не одинока. В 476 году нашей эры последний римский император на Западе был свергнут. На востоке "Рим" уцелел -- превратившись в Византийскую империю, где самым распространенным языком был греческий. Она просуществовала до 1453 года, когда османы захватили ее столицу, Константинополь. Вы можете продолжить эту кампанию или начать игру заново.
+{SMT_DOMINANT_RELIGION}						Официальная религия:
+{SMT_OFFICIAL_RELIGION_FACTOR_RELIGIOUS_BUILDING}	Устанавливается храмом/святилищем
+{SMT_OFFICIAL_RELIGION_FACTOR_GOVERNOR}			Устанавливается наместником
+{SMT_OFFICIAL_RELIGION_FACTOR_LEADER}			Устанавливается лидером фракции
+{SMT_OFFICIAL_RELIGION_FACTOR_WORLD}			Устанавливается по господствующей мировой религии
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:44:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			THERE SHOULD NOW BE NO MORE CHANGES! 
+¬*			SEE ROSS/LUCI/MIKE!
+¬*
+¬*			Only changes made after 05/08/2005 16:25:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬ Don't kill me for this Luci, the voices made me do it!
+
+{SMT_DOMINATION_VICTORY}  Ваша империя простирается ныне от восхода до заката, от ледяных пустошей до жарких пустынь! Вам больше нечего доказывать, теперь вы -- Повелитель Мира!

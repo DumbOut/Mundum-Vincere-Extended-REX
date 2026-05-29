@@ -1,0 +1,707 @@
+¬ Text file converted with loc_parser
+{ST_JULII}					Дом Юлиев
+{ST_BRUTII}					Дом Брутов
+{ST_SCIPII}					Дом Сципионов
+{ST_SENATE}					Сенат и граждане Рима
+{ST_MACEDON}					Македония
+{ST_EGYPT}					Египет
+{ST_SELEUCID}					Империя Селевкидов
+{ST_CARTHAGE}					Карфаген
+{ST_PARTHIA}					Парфия
+{ST_PONTUS}					Понт
+{ST_GAULS}					Галлия
+{ST_GERMANS}					Германия
+{ST_BRITONS}					Британия
+{ST_ARMENIA}					Армения
+{ST_DACIA}					Дакия
+{ST_GREEK_CITIES}					Греческие города
+{ST_NUMIDIA}					Нумидия
+{ST_SCYTHIA}					Скифия
+{ST_SPAIN}					Испания
+{ST_THRACE}					Фракия
+{ST_SLAVES}					Повстанцы
+{ST_YES}					Да
+{ST_NO}					Нет
+{ST_ACCEPT}					Принять
+{ST_DECLINE}					Отклонить
+{ST_CONTINUE}					Продолжить
+{ST_FACTION}					Фракция
+{ST_DEFEAT_CLOSE}					НЕЗНАЧИТЕЛЬНОЕ ПОРАЖЕНИЕ
+{ST_DEFEAT_AVERAGE}					ОБЫЧНОЕ ПОРАЖЕНИЕ
+{ST_DEFEAT_CLEAR}					ОЧЕВИДНОЕ ПОРАЖЕНИЕ
+{ST_DEFEAT_CRUSHING}					СОКРУШИТЕЛЬНОЕ ПОРАЖЕНИЕ
+{ST_VICTORY_DRAW}					НИЧЬЯ
+{ST_VICTORY_CLOSE}					НЕЗНАЧИТЕЛЬНАЯ ПОБЕДА
+{ST_VICTORY_AVERAGE}					ОБЫЧНАЯ ПОБЕДА
+{ST_VICTORY_CLEAR}					БЕЗОГОВОРОЧНАЯ ПОБЕДА
+{ST_VICTORY_CRUSHING}					ГЕРОИЧЕСКАЯ ПОБЕДА
+{ST_BATTLE_NO_RESULT}					НЕЯСНЫЙ ИСХОД
+{ST_COHORT}					Когорта
+{ST_UNIT_TYPE}					Тип соединения
+{ST_EXPERIENCE}					Опыт
+{ST_CASUALTIES}					Потери
+{ST_GAINED}					Свои
+{ST_INFLICTED}					Вражеские
+{ST_SUSTAINED}					Безвозвратные
+{ST_HEALED}					Излечимые
+{ST_MEN_REMAINING}					Людей осталось
+{ST_SHIP}					Корабль
+{ST_SHIPS}					Корабли
+{ST_TYPE}					Тип
+{ST_HULL}					Корпус
+{ST_DAMAGE}					Урон
+{ST_LIGHT}					легкий
+{ST_MEDIUM}					средний
+{ST_HEAVY}					тяжелый
+{ST_SUNK}					Потоплено
+{ST_SOUND_OPTIONS}					Настройки звука
+{ST_MUTE}					Приглушить
+{ST_SOUND_MAIN_VOL}					Основные
+{ST_SOUND_SFX_VOL}					Особые эффекты
+{ST_SOUND_MUSIC_VOL}					Музыка
+{ST_SOUND_SPEECH_VOL}					Речь
+{ST_SOUND_SUBTITLES}					Субтитры
+{ST_SOUND_ENGLISH}					Английский
+{ST_GFX_OPTIONS}					Настройки графики
+{ST_GFX_UNIT_DETAIL}					Детализация соединений
+{ST_GFX_BUILDING_DETAIL}					Детализация сооружений
+{ST_GFX_ANTIALIASING}					Сглаживание
+{ST_GFX_WIDESCREEN}					Широкий экран
+{ST_GFX_SMOKE}					Дым
+{ST_GFX_USE_TNL}					Использование аппаратной трансформации и освещения
+{ST_GFX_DUST}					Пыль
+{ST_GFX_REFLECTIONS}					Отражения
+{ST_GFX_SHADOW_DETAIL}					Детализация теней
+{ST_SUPER_LOW}					Крайне низкая
+{ST_LOW}					Низкая
+{ST_NORMAL}					Обычная
+{ST_HIGH}					Высокая
+{ST_SUPER_HIGH}					Крайне высокая
+{ST_SCREENMODE}					Режим экрана
+{ST_LOAD_SUCCESS}					Загрузка игры прошла успешно
+{ST_LOAD_FAILED}					Не удалось загрузить игру
+{ST_SAVE_SUCCESS}					Игра успешно сохранена
+{ST_SAVE_FAILED}					Не удалось сохранить игру
+{ST_END_GAME}					Выйти из игры
+{ST_LOAD}					Загрузить игру
+{ST_SAVE}					Сохранить игру
+{ST_RETURN_TO_GAME}					Вернуться к игре
+{ST_EXIT_MENU}					Выйти из меню
+{ST_CONFIRM_QUIT}					Действительно хотите выйти?
+{ST_STATE_FACTION_LEADER}					Лидер фракции
+{ST_STATE_WAS_FACTION_LEADER}					Бывший лидер фракции
+{ST_STATE_FACTION_HEIR}					Будущий лидер фракции
+{ST_STATE_IN_SETTLEMENT}					Посещение поселения
+{ST_STATE_ON_SHIP}					Путешествие на корабле
+{ST_STATE_WITH_ARMY}					Путешествие с армией
+{ST_STATE_SIEGING}					Осада
+{ST_STATE_AMBUSHING}					Засада
+{ST_STATE_CAMPED}					В лагере
+{ST_STATE_ENTRENCHED}					В окопах
+{ST_STATE_HEALTH_RISK}					Нездоров
+{ST_STATE_IS_HOSTAGE}					Удерживает заложников
+{ST_STATE_HIDING}					Прячутся
+{ST_STATE_ENEMY_TERRITORY}					На вражеской территории
+{ST_STATE_DIPLOMACY}					Ведение переговоров
+{ST_KEYBOARD_SHORTCUTS}					Ярлыки клавиатуры
+{ST_TIME_TO_REINFORCE_X_HOURS}					Прибудет на место сражения через %d часов
+{ST_ONE_HOUR_TO_REINFORCE}					Прибудет на место сражения через 1 час
+{ST_OR}					или
+{ST_AND}					и
+{ST_COMMAND}					Командование
+{ST_INFLUENCE}					Влияние
+{ST_MANAGEMENT}					Управление
+{ST_SUBTERFUGE}					Хитрость
+{ST_DOCTOR}					Лекарь
+{ST_QUARTERMASTER}					Интендант
+{ST_PRIEST}					Жрец
+{ST_SCOUT}					Разведчик
+{ST_ENGINEER}					Инженер
+{ST_DOCTORS}					Врачи
+{ST_QUARTERMASTERS}					Квартирмейстеры
+{ST_SCOUTS}					Разведчики
+{ST_ENGINEERS}					Инженеры
+{ST_PRIESTS}					Жрецы
+{ST_TOWERS}					Башни
+{ST_LADDERS}					Лестницы
+{ST_RAMS}					Тараны
+{ST_SAPPING}					Подкоп
+{ST_SIEGE_TOWER}					Осадная башня
+{ST_LADDER}					Лестница
+{ST_RAM}					Таран
+{ST_SAP_POINT}					Подкоп
+{ST_NAMED_CHARACTER}					Член семьи
+{ST_SPY}					Тайный агент
+{ST_ASSASSIN}					Убийца
+{ST_DIPLOMAT}					Дипломат
+{ST_ADMIRAL}					Адмирал
+{ST_GENERAL}					Капитан
+{ST_ANCILLARY}					Вспомогательные соединения
+{ST_SIEGE_ENGINES}					Осадные машины
+{ST_UNITS}					Соединения
+{ST_CULTURE_ROMAN}					Римские
+{ST_CULTURE_BARBARIAN}					Варварские
+{ST_CULTURE_CARTHAGE}					Карфагенские
+{ST_CULTURE_GREEK}					Греческие
+{ST_CULTURE_EGYPT}					Египетские
+{ST_CULTURE_EASTERN}					Восточные
+{ST_EDIT_SETTLEMENT}					Редактировать поселение
+{ST_SELECT_SETTLEMENT_LEVEL}					Уровень
+{ST_FORTIFICATION_LEVEL}					Уровень укреплений
+{ST_TAX}					Уровень налогов
+{ST_POPULATION}					Население
+{ST_FOUNDATION_YEAR}					Год основания
+{ST_SELECT_FACTION}					Выбрать фракцию
+{ST_VILLAGE}					Деревня
+{ST_TOWN}					Городище
+{ST_LARGE_TOWN}					Кр. городище
+{ST_CITY}					Город
+{ST_LARGE_CITY}					Бол. город
+{ST_HUGE_CITY}					Вел. город
+{ST_FORT}					Форт
+{ST_SLOT}					Ячейка
+{ST_SELECT_SLOT}					Выберите сооружения для ячеек поселения
+{ST_NAME}					Имя
+{ST_GRASS_SHORT}					Низкая трава
+{ST_GRASS_LONG}					Высокая трава
+{ST_SAND}					Песок
+{ST_ROCK}					Камни
+{ST_FOREST_DENSE}					Густой лес
+{ST_SCRUB_DENSE}					Густой кустарник
+{ST_SWAMPY}					Болото
+{ST_MUD}					Грязь
+{ST_MUD_ROAD}					Грязная дорога
+{ST_STONE_ROAD}					Каменная дорога
+{ST_WATER}					Вода
+{ST_ICE}					Лед
+{ST_SNOW}					Снег
+{ST_ROAD_LEVEL}					Уровень дорог
+{ST_ROAD_DIRT}					Грунтовая дорога
+{ST_ROAD_STONE}					Каменная дорога
+{ST_ROAD_STONE_HIGHWAY}					Широкая каменная дорога
+{ST_X_DENARI}					%d дин.
+{ST_X_BC}					%d до н.э.
+{ST_X_AD}					%d н.э.
+{ST_WINTER}					Зима
+{ST_SPRING}					Весна
+{ST_SUMMER}					Лето
+{ST_AUTUMN}					Осень
+{ST_ZOOM_TO_EVENT_POSITION}					Укажите место события
+{ST_BATTLE_RESULT}					Результаты битв
+{ST_MEN_DEPLOYED}					Армия
+{ST_KILLS}					Убитые
+{ST_YOUR_ARMY}					Ваша армия
+{ST_ENEMY_ARMY}					Вражеская армия
+{ST_YOUR_ARMIES}					Ваши армии
+{ST_ENEMY_ARMIES}					Вражеские армии
+{ST_TEAM}						Команда
+{ST_RANK}						Ранг
+{ST_SHOW_DETAILS}					Показать экран боевой статистики
+{ST_SAVE_REPLAY}					Сохранить повтор сражения
+{ST_PLAYER}					Игрок
+{ST_ATTACKER}					Атакующий
+{ST_DEFENDER}					Обороняющийся
+{ST_ALLIES}					Союзники
+{ST_ENEMY}					Враги
+{ST_BATTLE_STATISTICS}					БОЕВАЯ СТАТИСТИКА
+{ST_MEN}					Люди
+{ST_DELETE}					Стереть
+{ST_SORT_BY_NAME}					Сортировать по имени
+{ST_SORT_BY_DATE}					Сортировать по дате
+{ST_AA2x2}					2x2
+{ST_AA3x3}					3x3
+{ST_AA4x4}					4x4
+{ST_ACCEPT_CHANGES}					Принять изменения
+{ST_MOB}					Толпа
+{ST_SQUARE}					Каре
+{ST_COLUMN}					Колонна
+{ST_WEDGE}					Клин
+{ST_SQUARE_HOLLOW}					Полое каре
+{ST_TESTUDO}					Черепаха
+{ST_PHALANX}					Фаланга
+{ST_WALL}					Стена
+{ST_OVERWRITE_EXPLANATION}					Этот файл уже существует и будет переписан.  Продолжить?
+{ST_EDITOR_QUIT_WARNING}					Со времени последнего сохранения вы произвели изменения.  Если вы продолжите, они будут утеряны!
+{ST_EXPAND_SCROLL}					Увеличить список до полного размера
+{ST_COLLAPSE_SCROLL}					Свернуть свиток
+{ST_EXIT_EDITOR}					Выйти из редактора
+{ST_ADVISOR_MESSAGE}					Сообщение советника
+{ST_DONT_SHOW_TIP}					Больше не показывать эту подсказку
+{ST_OK}					Да
+{ST_MORE}					Еще...
+{ST_BACK}					...Назад
+{ST_QUESTION_MARK}					?
+{ST_REBEL_FACTION}					Фракция восставших
+{ST_ZOOM_TO_ADVICE}					Показать, где находится этот объект
+{ST_SHOW_SCROLL_HELP}						Показать помощь для этого свитка
+{ST_NONE}	Нет
+{ST_CTRL}	Ctrl
+{ST_SHIFT}	Shift
+{ST_ALT}	Alt
+{ST_ANY}	Любая клавиша
+{ST_THE_SEA}	Море
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_SHOW_FURTHER_DETAILS}		Показать подробную информацию
+{ST_DIRT}					Грунт
+{ST_ADVISOR_BUTTON_DISMISS}		Отклонить совет [ESC]
+{ST_ADVISOR_BUTTON_SHOW_ME}		Покажите мне, как
+{ST_ADVISOR_BUTTON_TOGGLE_BUBBLE}	Переключатель видимости текста советника
+{ST_ADVISOR_BUTTON_ZOOM_TO}		Показать, где произошло событие
+{ST_VICTORY}				Победа
+{ST_DEFEAT}					Поражение
+{ST_SCREENMODE}				Разрешение
+{ST_SHOW_BATTLE_RESULT}			Показать результаты сражения
+{ST_GAME_OPTIONS}				Настройки игры
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_SHOW_RTM}				Показать видеофрагмент
+{ST_RESET_ADVICE}				ВОССТАНОВИТЬ СОВЕТНИКА
+{ST_VIDEO_DETAIL_NONE}			Нет
+{ST_VIDEO_DETAIL_LOW}			Низкая
+{ST_VIDEO_DETAIL_MEDIUM}		Средний
+{ST_VIDEO_DETAIL_HIGH}			Высокая
+{ST_GAME_OPTIONS_REVOLTS}		Восстания
+{ST_GAME_OPTIONS_BARBARIANS}		Нашествие варваров
+{ST_GAME_OPTIONS_DISASTERS}		Бедствия
+{ST_GAME_OPTIONS_RANDOM_HARVEST}	Случайный урожай
+{ST_GAME_OPTIONS_CHARACTER_AGING}	Старение персонажей
+{ST_FACTION_SELECT_ARCADE_BATTLES}	Аркадные сражения
+{ST_GAME_OPTIONS_TIME_LIMIT}		Без лимита времени в сражениях кампаний
+{ST_GAME_OPTIONS_TITLE}			Установки игры
+{ST_FACTION_SELECT_ADVISOR_LEVEL}	Уровень советов
+{ST_GAME_OPTIONS_CAMPAIGN_SETTINGS}	Установки кампаний
+{ST_GAME_OPTIONS_REALISM}		Установки реализма
+{ST_GAME_OPTIONS_RESTRICT}		Ограничение камеры
+{ST_GAME_OPTIONS_DEFAULT_CAMERA}	Камера TotalWar
+{ST_GAME_OPTIONS_GENERAL_CAMERA}	Общая камера
+{ST_GAME_OPTIONS_RTS_CAMERA}		Камера в реальном времени
+{ST_GAME_OPTIONS_CAMERA_MODE}		Режим камеры
+{ST_GAME_OPTIONS_ROTATE_CAMERA}	Скорость вращения камеры
+{ST_GAME_OPTIONS_MOVE_CAMERA}		Скорость движения камеры
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_RESET_ADVICE}				Восстановить советника
+{ST_SCORED_VICTORY}			Лучший результат по очкам
+{ST_GFX_OPTIONS}				Настройки видео
+{ST_AA2x2}					Низкая
+{ST_AA3x3}					Средний
+{ST_AA4x4}					Высокая
+{ST_SOUND_OPTIONS}			Настройки аудио
+{ST_ANCILLARY}					Свита
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_ADVISOR_BUTTON_ENABLE_TEXT_DISABLE_VOICE}		Речь и текст советника\nПереключите, чтобы приглушить речь советника
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_AND_TEXT}			Только речь советника\n Переключите, чтобы показывать текст советника
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT}		Только текст советника\nПереключите, чтобы не показывать текст советника
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_X_DENARI}					%d дин.
+{ST_WOODEN_GATE}					Деревянные ворота
+{ST_REINFORCED_GATE}				Укрепленные ворота
+{ST_IRON_GATE}					Металлические ворота
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_LOW}			Самый низкий
+{ST_NORMAL}			Низкая
+{ST_HIGH}			Средний
+{ST_SUPER_HIGH}		Высокая
+{ST_UTRA_HIGH}		Самый высокий
+{ST_AUTOSAVE}		Autosave
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_CATAPULT}		Онагр
+{ST_CATAPULTS}		Онагры
+{ST_BALLISTA}		Баллиста
+{ST_BALLISTAS}		Баллиста
+{ST_SCORPION}		Скорпион
+{ST_SCORPIONS}		Скорпионы
+{ST_GFX_SHADOW_DETAIL}	Высокое качество теней
+{ST_GFX_SMOKE}		Дым/Пыль
+{ST_GFX_REFLECTIONS}	Отражения/Блики
+{ST_MUTE}			Приглушить музыку
+{ST_MUTE_SOUND}		Приглушить звуковые эффекты
+{ST_GFX_VEGETATION}	Растительность/Трава
+{ST_GFX_DESYNC_MEN}	ДЕСИНХРОНИЗАЦИЯ АНИМАЦИИ
+{ST_SOUND_PROVIDER}	Источник звука
+{ST_JANUARY}		Январь
+{ST_FEBRUARY}		Февраль
+{ST_MARCH}			Март
+{ST_APRIL}			Апрель
+{ST_MAY}			Май
+{ST_JUNE}			Июнь
+{ST_JULY}			Июль
+{ST_AUGUST}			Август
+{ST_SEPTEMBER}		Сентябрь
+{ST_OCTOBER}		Октябрь
+{ST_NOVEMBER}		Ноябрь
+{ST_DECEMBER}		Декабрь
+{ST_MONDAY}			Понедельник
+{ST_TUESDAY}		Вторник
+{ST_WEDNESDAY}		Среда
+{ST_THURSDAY}		Четверг
+{ST_FRIDAY}			Пятница
+{ST_SATURDAY}		Суббота
+{ST_SUNDAY}			Воскресенье
+{ST_AM_UPPER}		Д.П.
+{ST_AM_LOWER}		Д.П.
+{ST_PM_UPPER}		П.П.
+{ST_PM_LOWER}		П.П.
+{ST_FILE_SAVE_RESULT_FAIL}		Неустановленная ошибка записи
+{ST_FILE_SAVE_RESULT_FAIL_NO_CREATE}	Невозможно создать на диске файл сохранения
+{ST_FILE_SAVE_RESULT_FAIL_NO_HEADER}	Невозможно создание заголовка сохраненной игры
+{ST_FILE_SAVE_RESULT_FAIL_NO_SPACE}	Жесткий диск заполнен
+{UA_CANT_HIDE}				Невозможно спрятаться
+{UA_HIDE_LONG_GRASS}			Могут прятаться в высокой траве
+{UA_EXPERT_HIDING_IN_WOODS}		Прекрасно прячутся в лесах
+{UA_HIDE_ANYWHERE}			Могут спрятаться везде
+{UA_TESTUDO}				Умеют строиться "черепахой"
+{UA_PHALANX}				Умеют строиться фалангой
+{UA_WARCRY}				Боевой клич улучшает атаку
+{UA_CHANT}				Песнопения вдохновляют ближайшие войска
+{UA_SCREECH}				Визг пугает врага
+{UA_FLAMING_AMMO}			Могут использовать горящие снаряды
+{UA_CANTABRIAN_CIRCLE}			Могут строиться в кантабрийский круг
+{UA_WEDGE}				Могут строиться клином
+{UA_RALLY}				Могут собирать ближайшие войска
+{UA_EAGLE}				Орел вдохновляет ближайшие войска
+{UA_GOOD_IN_DESERTS}			Улучшение при битве в пустыне
+{UA_GOOD_IN_WOODS}			Улучшение при битве в лесу
+{UA_GOOD_IN_WOODS_AND_SNOW}		Улучшение при битве в лесу или на снегу
+{UA_GOOD_IN_SNOW}			Улучшение при битве на снегу
+{UA_AREA_ATTACK}			Атака по площадям
+{UA_BODY_PIERCING_ATTACK}		Снаряды могут наносить урон нескольким людям
+{UA_SPECIAL_ATTACK}			Особая атака
+{UA_ARMOUR_PIERCING_ATTACK}		Эффективно против доспехов
+{UA_LONG_MISSILE_RANGE}			Дальнобойное стрелковое оружие
+{UA_VERY_LONG_MISSILE_RANGE}		Очень дальнобойное стрелковое оружие
+{UA_PRECURSOR_WEAPONS}			Метательные копья бросаются до начала атаки
+{UA_FRIGHTENS_ELEPHANTS}			Пугают слонов
+{UA_FRIGHTENS_ENEMY}			Пугают ближайших врагов
+{UA_FRIGHTENS_ENEMY_FOOT}		Пугают ближайших вражеских пехотинцев
+{UA_CAMELS_SCARE_HORSES}		Пугают лошадей
+{UA_HARDY}				Отличная выносливость
+{UA_VERY_HARDY}				Очень хорошая выносливость
+{UA_MAY_CHARGE_WITHOUT_ORDERS}		Могут атаковать без приказа
+{UA_POOR_MORALE}			Низкий боевой дух
+{UA_GOOD_MORALE}			Высокий боевой дух
+{UA_EXCELLENT_MORALE}			Очень высокий боевой дух
+{UA_ANIMALS_MAY_RUN_AMOK}		Животные могут впасть в панику
+{UA_VULNERABLE_TO_MISSILE}		Уязвимы для стрелкового оружия
+{UA_WELL_ARMOURED}			Хорошие доспехи
+{UA_VERY_WELL_ARMOURED}		Очень хорошие доспехи
+{UA_POWERFULL_CHARGE}			Мощный штурм
+{UA_BONUS_FIGHTING_CAVALRY}		Улучшение при сражении с кавалерией
+{UA_LONG_PIKES}				Очень длинные копья
+{UA_INACCURATE_AGAINST_SOLDIERS}		Неточно действует против войск
+{UA_MOVES_QUICKLY}			Быстро двигаются
+{UA_INEFFECTIVE_AGAINST_WALLS_AND_BUILDINGS} Неэффективно против зданий и укреплений
+{UA_CAN_SAP}				Могут устраивать подкопы
+{ST_RIGHT_ALT}				Alt Gr
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{UA_BONUS_FIGHTING_ELEPHANTS_AND_CAVALRY}	Улучшение против слонов и колесниц
+{GERR_REINSTALL_DX}			Rome: Total War не удалось найти DirectX 9, необходимый для запуска игры.\nПожалуйста, переустановите DirectX.
+{GERR_ANOTHER_INSTANCE}			Уже работает еще одна копия Rome: Total War. Данная копия будет закрыта.
+{GERR_GENERIC}				Rome: Total War столкнулась с непредвиденной ошибкой и будет закрыта.
+{ST_CANCEL_CHANGES}			Отменить изменения
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_BDL_NOT_SPECIFIED}		Автоматически
+{ST_GFX_VEGETATION}		Трава
+{ST_GFX_VEGETATION_DETAIL}	ДЕТАЛИЗАЦИЯ РАСТИТЕЛЬНОСТИ
+{ST_LOAD_SUCCESS}					Загрузка удалась
+{ST_LOAD_FAILED}					Загрузка не удалась
+{ST_SAVE_SUCCESS}					Сохранение удалось
+{ST_SAVE_FAILED}					Сохранение не удалось
+{ST_SHIPS_SUNK}			Кораблей потоплено
+{ST_SHIPS_DEPLOYED}		Кораблей в начале боя
+{ST_SHIPS_REMAINING}		Кораблей осталось
+{ST_ADVISOR_BUTTON_DISMISS}	Убрать совет
+{ST_REPLAY}				Повтор
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_CHANGE_TO}						Изменить на:
+{ST_CANNOT_CHANGE_VIDEO_WHEN_NOT_PAUSED}		Невозможно изменение настроек видео во время сетевой игры, если игра не находится в режиме паузы
+{ST_SCREEN_RES_CHANGE_TIME_LEFT}			Секунд до перезагрузки дисплея:
+{ST_CONFIRM_SCREEN_RES}					Этот режим дисплея вас устраивает?
+{ST_YOUR_ALLY}						Союзная армия
+{ST_YOUR_ALLIES}						Союзные армии
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_GFX_SFX_DETAIL}			ДЕТАЛИЗАЦИЯ ЭФФЕКТОВ
+{ST_GRASS_DETAIL}				ДЕТАЛИЗАЦИЯ ТРАВЫ
+{ST_TERRAIN_DETAIL}			Детализация местности
+{ST_GFX_USE_SHADOWS}			ТЕНИ
+{ST_MICROMANAGE_ALL_SETTLEMENTS}	Никогда не управлять поселениями автоматически
+{ST_CAMPAIGN_AI_FOLLOW}			Следить за ходами компьютера
+{ST_CAMPAIGN_AI_SKIP}			Пропускать ходы компьютера
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{ST_MICROMANAGE_ALL_SETTLEMENTS}	УПРАВЛЯТЬ ВСЕМИ ПОСЕЛЕНИЯМИ
+{ST_SOUND_PROVIDER_ERROR}		Невозможно активизировать источник звука, возможно, отсутствует аппаратная поддержка
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+{ST_GFX_USE_SHADERS} 	ПОДПРОГРАММА СОЗДАНИЯ ЭФФЕКТОВ ДЛЯ СОЕДИНЕНИЙ
+{ST_GFX_REFLECTIONS}	Глоссарий карт
+{ST_CONCEDE}		Признать поражение
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{ST_SCHILTROM}	Строй "Еж"
+{ST_SHIELD_WALL}	Стена щитов
+{ST_SAVE_REPLAY_SHORT}	Сохранить повтор
+{UA_CAN_SWIM}		Могут плавать
+{UA_CAN_HORDE}		Орда
+{UA_CAN_GO_BERSERK}	Могут становиться берсерками
+{UA_CAN_SCHILTROM}	Могут строиться ежом
+{UA_CAN_SHIELD_WALL}	Могут строиться в стену щитов
+{UA_PRECURSOR_WEAPONS}	Использует стрелковое оружие до атаки
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:02:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{ST_ADVISOR_BUTTON_ENABLE_VOICE_DISABLE_TEXT_PROLOGUE}		Речь и текст советника\nПереключите для отключения текста
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:44:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{ST_RECRUITED_GENERAL}	Военачальник
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			THERE SHOULD NOW BE NO MORE CHANGES! 
+¬*			SEE ROSS/LUCI/MIKE!
+¬*
+¬*			Only changes made after 05/08/2005 16:25:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

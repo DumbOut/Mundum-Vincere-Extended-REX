@@ -1,0 +1,524 @@
+¬ Text file converted with loc_parser
+{BET_CREATE_NEW_ARMY}					Edit army details
+{BET_SELECT_FACTION}					Select faction
+{BET_IS_ATTACKER}						Is attacking?
+{BET_IS_REINFORCEMENT}					Is reinforcement?
+{BET_TIME_TO_REINFORCE}					Joins in %d hours
+{BET_ONE_HOUR_TO_REINFORCE}				Joins in 1 hour
+{BET_CREATE_NEW_UNIT}					Edit unit details
+{BET_UNIT_SIZE}							Unit size
+{BET_EXPERIENCE}						Experience
+{BET_PRI_WPN_LVL}						Weapon upgrades
+{BET_ARMOUR_LVL}						Armour upgrades
+{BET_CAN_WITHDRAW}						Can withdraw
+{BET_SUPPORTING_ARMIES}					Num supporting armies
+{BET_GENERAL}							General
+{BET_NAME}								Name
+{BET_AGE}								Age
+{BET_CREATE_DEPLOYMENT}					Create deployment areas\nan army must be selected to create deployment areas\nselect a minimum of three points for an area\nmarkers can be moved when the cursor is highlighted\nhold shift and move a highlighted marker to move the entire area
+{BET_EDIT_HEIGHTS}						Edit landscape heights
+{BET_EDIT_TEXTURES}						Edit landscape textures
+{BET_UPDATE_TREES}						Update tree outlines\nadd and remove trees with the landscape texture tool\nthen click here to update 
+{BET_EDIT_SETTLEMENT}					Add settlement plan and buildings\nonly one major settlement can be placed per map\nmove placed settlements in 'features' mode
+{BET_PLACE_LANDSCAPE_FEATURES}			Place and move feature models\nplace model when template is green\nrotate placement with both buttons down\ndelete models with right mouse button\nplaced models can be moved by reselecting them and dragging to a new position
+{BET_EDIT_ARMIES}						Create army
+{BET_EDIT_UNITS}						Create/edit units\nan army or unit must be selected to be able to add units\nadd units to a deployment area\nclick down and move mouse left or right to change unit facing and formation width
+{BET_START_TIME}						Start time
+{BET_EDIT_UNIT_SCRIPT}					Edit unit ai script
+{BET_DELETE_FACTION_CONFIRMATION}		Deleting a faction will result in the loss of all associated armies, characters, deployment areas and units. Are you sure you want to perform this operation?
+{BET_DELETE_ARMY_CONFIRMATION}			Deleting an army will result in the loss of all associated characters, units and deployment areas. Are you sure you want to perform this operation?
+{BET_DELETE_UNIT_CONFIRMATION}			Deleting a unit will result in the loss of all associated data. Are you sure you want to perform this operation?
+{BET_DELETE_CHARACTER_CONFIRMATION}		Deleting a character will result in the loss of all associated unit/army data. Are you sure you want to perform this operation?
+{BET_DELETE_SETTLEMENT_CONFIRMATION}	Are you sure you want to delete this settlement?
+{BET_CONFIRM_DELETE}					Confirm delete
+{BET_SET_VICTORY_CONDITIONS}			Set victory conditions
+{BET_CONDITIONS}						Conditions
+{BET_BATTLE_DURATION}					Set time limit (hours):
+{BET_ADD_CONDITION}						Add new condition
+{BET_DELETE_CONDITION}				Delete condition
+{BET_ILLEGAL_DEPLOYMENT_AREA}			The deployment area created with these points is invalid.  select cancel to re-edit the points, or accept to clear the whole area.
+{BET_ERROR}								Error
+{BET_MODEL_TYPE_GENERAL}				General landscape pieces
+{BET_MODEL_TYPE_RIVERS}					River pieces
+{BET_MODEL_TYPE_AMBIENT_SETTLEMENT}		Ambient settlement pieces
+{BET_MODEL_TYPE_SPECIAL}				Special pieces
+{BET_EDIT_BATTLE_DETAILS}				Edit battle details
+{BET_IS_NIGHT_BATTLE}					Night battle?
+{BET_IS_AMBUSH}							Ambush?
+{BET_ENTER_DESCRIPTION}					Enter battle description
+{BET_EDIT_CHARACTER}					Edit character
+{BET_SELECT_CHARACTER_TYPE}				Character type
+{BET_EDIT_CHARACTER_RECORD}				Edit character record
+{BET_IS_MALE}							Is male?
+{BET_CREATE_CHARACTER}					Create new character
+{BET_CREATE_SETTLEMENT}					Create new settlement
+{BET_MOVE_ITEM}							Move item
+{BET_EDIT_FAMILY}						Edit family tree\na faction must be selected to edit family tree
+{BET_EDIT_CLIMATES}						Edit climate map
+{BET_EDIT_GROUND_TYPES}					Edit ground types
+{BET_CREATE_CHARACTER_RECORD}			Create female or child character record
+{BET_ADD_CHILD}							Add as child
+{BET_ADD_SPOUSE}						Add as spouse
+{BET_REMOVE_RELATIVE}					Break relationship
+{BET_EDIT_RESOURCE}						Edit resources, forts and watchtowers
+{BET_EDIT_RIVERS}						Edit landscape features
+{BET_EDIT_TRADE_ROUTES}					Edit trade routes
+{BET_SELECT_RESOURCE}					Select resource and level
+{BET_ADD_UNITS}							Add units to army
+{BET_REMOVE_UNITS}						Remove selected unit
+{BET_GARRISONED}						Garrisoned
+{BET_CREATE_ALLIANCES}					Create alliances
+{BET_SELECT_ALLIANCE}					Select alliance
+{BET_DELETE_ALLIANCE}					Delete alliance
+{BET_CAN_WAIT}							Can wait\narmies from this alliance can delay battle at start
+{BET_CAN_DEPLOY}						Can deploy\narmies from this alliance can deploy units during deployment phase
+{BET_CAN_VIEW}							Can view\narmies from this alliance can view battlefield before deployment phase
+{BET_SELECT_HOME_FACTION}				Select home faction
+{BET_WEATHER_SEED}						Weather seed
+{BET_GENERATE_RANDOM_SEED}				Generate new seed
+{BET_WALL_SIZE_NORMAL}					Normal
+{BET_WALL_SIZE_LARGE}					Large
+{BET_WALL_SIZE_HUGE}					Huge
+{BET_WALL_LEVEL}						Wall level
+{BET_TOWERS_NORMAL}						Watchtowers
+{BET_TOWERS_ARROW}						Arrow towers
+{BET_TOWERS_BALLISTA}					Ballista towers
+{BET_TOWER_LEVEL}						Tower level
+{BET_GATES_0}							Wooden
+{BET_GATES_1}							Strong wood
+{BET_GATES_2}							Iron bound
+{BET_GATE_LEVEL}						Gate level
+{BET_GATE_DEFENCES_NONE}				None
+{BET_GATE_DEFENCES_SAND}				Scorching sand
+{BET_GATE_DEFENCES_OIL}					Boiling oil
+{BET_GATE_DEFENCES_LEVEL}				Gate defences
+{BET_NOT_ENOUGH_FACTIONS}				There needs to be at least two factions per battle
+{BET_FACTION_MUST_HAVE_1_ARMY}			Faction must have at least one army
+{BET_ARMY_HAS_NO_UNITS}					An army has no units in it
+{BET_ARMY_HAS_NO_GENERALS_UNIT}			This army must have a unit capable of supporting the general (look for 'generals unit' type descriptions in unit list)
+{BET_FACTION_NOT_IN_ALLIANCE}			This faction is not in an alliance and needs to be.  any unit scripting will be lost
+{BET_UNIT_OUTSIDE_DEPLOYMENT_AREA}		This unit is not in a deployment area
+{BET_NO_HOME_FACTION_SET}				The home faction needs to be set (set the home faction in the victory conditions dialog)
+{BET_NEED_TWO_ALLIANCES}				There must be at least two alliances per battle.  set these in the victory conditions dialog
+{BET_ALLIANCE_WITH_NO_CONDITIONS}		Each alliance must have at least one victory condition.
+{BET_DURATION_SET_TO_ZERO}				The duration of the battle is currently set to 0 hours
+{BET_ERROR_REPORT_END}					The battle script can still be generated, but the battle may not load correctly, or there may be undesired effects.\nit is best to get rid of all errors
+{BET_SANITY_REPORT}						Sanity report
+{BET_REGIONS_TOOL}						Edit regions
+{BET_EDIT_ROADS}						Edit road
+{BET_EDIT_FACTION}						Edit faction
+{BET_STARTING_DENARI}					Starting denari
+{BET_RESOURCES}					Resources
+{BET_WATCHTOWERS}					Watchtowers
+{BET_STARTING_FORMATION}					Select Initial Formation
+{BET_STONE_ROAD}					Stone Road
+{BET_DIRT_ROAD}					Dirt Road
+{BET_SELECT_BRUSH}					Available Brushes
+{BET_SELECT_TEXTURE}					Available Textures
+{BET_CREATE_CHARACTER_TOOLTIP}					Click on tile to place a new character\nDouble click on an existing character to edit their details
+{BET_EDIT_REGIONS_TOOLTIP}					Right click on tile to pick up region colour to paint with\nPaint colour with left mouse button\nSelect a brush to paint larger areas
+{BET_ADD_ARMY_TOOLTIP}					Left click on an existing general,\nnamed character, or setttlement to add (or remove) units to its army
+{BET_ADD_SETTLEMENT_TOOLTIP}					Left click on a settlement position to create a new settlement\nDouble click on an existing settlement to edit it's details\nExisting settlements can be moved using the move tool\nDefault settlement positions can be moved using the region editing tool
+{BET_CREATE_NEW_REGION}					Create New Region
+{BET_REGION_NAME}					Region Name:
+{BET_SETTLEMENT_NAME}					Settlement Name:
+{BET_NEED_TO_SELECT_A_NAME}					Must select a name before being able to continue
+{BET_INVALID_CHARACTER_TYPE_FOR_POS}					A character of the selected type cannot be created at the chosen position
+{BET_NEED_TO_SELECT_CHARACTER_TYPE}					Must select a character type to be able to create character
+{BET_NEED_TO_SELECT_FACTION_CHARACTER}					Must select a faction to be able to create character
+{BET_NEED_TO_SELECT_FACTION_SETTLEMENT}					Must select a faction to be able to create settlement
+{BET_NEED_TO_SELECT_PLAN}					Must select a settlement plan to be able to create settlement
+{BET_NEED_TO_SELECT_SIZE}					Must select a settlement size to be able to create settlement
+{BET_RECALCULATE_REGIONS}					Recalculate region frontiers
+{BET_SEA_REGION_COLOUR_ERROR}					This colour has been reserved to denote sea regions, and cannot therefore be used as a land region colour
+{BET_LAND_REGION_COLOUR_ERROR}					This colour isn't a reserverd see region colour, therefore it cannot be used to create sea regions
+{BET_SETTLEMENT_COLOUR_ERROR}					This colour has been reserved to denote default settlement positions on the regions map, and cannot therefore be used as a region colour
+{BET_PORT_COLOUR_ERROR}					This colour has been reserved to denote default port positions on the regions map, and cannot therefore be used as a region colour
+{BET_CREATE_CHARACTER_MODE_HELP}					Left click on the map to create a new character.  Double click on an existing character to re-edit character details.  The first family member to be placed will be the faction leader
+{BET_ADD_UNIT_MODE_HELP}					Left click on a general or admiral character to add units to its army.  Click on a settlement to add units to add units to it's garrison
+{BET_ADD_SETTTLEMENT_MODE_HELP}					The map shows possible sites of settlements and ports.  Click on a settlement site to create a settlement at this position.  Settlement positions can be moved using the move tool, or in region editing mode
+{BET_ADD_RESOURCE_MODE_HELP}					Select a resource (& resource level), watchtower or fort from the dialog and place on the map with the left mouse button
+{BET_MOVE_MODE_HELP}					Left click a piece to pick it up then click again to drop in it's new position
+{BET_FAMILY_TREE_DISABLED_HELP}					Select a faction with a faction leader from the list at the side.  (Create a faction leader by creating a family member using the add character mode)
+{BET_FAMILY_TREE_MODE_HELP}					To connect families, select a name from the list and an item in the family tree, then select 'add as spouse' or 'add as child'
+{BET_EDIT_REGIONS_MODE_HELP}					To paint a region colour, select a colour from the palette chooser, or right click on an existing region to pick up its colour.  Selecting a non existant region colour will create a new region at the first tile selected.  You cannot paint sea with a land region colour, or paint land with a sea region colour.  Removing the last tile from a region will delete that region.  Click on 'recalculate frontiers' to recalculate coastal regions
+{BET_EDIT_REGION_MODE_PLACE_SETTLEMENT_HELP}					Every new region requires a settlement site to be placed
+{BET_EDIT_REGION_MODE_PLACE_PORT_HELP}					New regions with coastal tiles require to a port site to be placed on the coast
+{BET_EDIT_CLIMATE_MODE_HELP}					Select a climate type from the list, or right click on a tile to pick up climate to paint with
+{BET_EDIT_GROUND_TYPE_MODE_HELP}					Select a ground type from the list, or right click on a tile to pick up ground type to paint with.  Areas below sea level, must be painted with a sea ground type
+{BET_EDIT_RIVERS_MODE_HELP}					Select a landscape feature from the list and paint onto the ground with left mouse button.  If the tile doesn't change colour then placement is invalid for that feature type.  Remove a feature with the right mouse button. Rivers have to be removed in reverse order of the way they were placed.
+{BET_EDIT_TRADE_ROUTES_MODE_HELP}					This feature isn't fully implimented yet!!!
+{BET_EDIT_HEIGHTS_MODE_HELP}					Hold left down and drag cursor up or down to adjust height.  Hold shift and left mouse button to set heights to be same as place where mouse is clicked down
+{BET_TRIUMPH_VALUE}					Triumph Value:
+{BET_DEPLOYMENT_AREA_HELP}					Click down to place corner markers.  Deployment areas must have at least 3 points. Delete corner points by right clicking when cursor is highlighted.  Move corner point by left clicking when cursor is hightlighted.  Exit mode and re-enter to create a new area.
+{BET_EDIT_TEXTURES_HELP}					Select a texture and brush from the list.  Paint selected texture with the left mouse button.  Add and remove vegetation by painting with an appropriate ground texture.  Click on update tree outlines' to see results of changes to vegetation.
+{BET_PLACE_SETTLEMENT_HELP}					Select settlement details from list.  Use left mouse and drag to position settlement.  Release left button when template is in valid position (highlighted green).  Right clicking whilst holding left mouse down will change settlements orientation.  Move existing settlement in 'place model' mode.  Remove settlement by selecting settlement from faction list and pressing delete.
+{BET_PLACE_MODEL_HELP}					Select a model from the list.  Use left mouse to place model.  Release left button when template is in valid position (highlighted green).  Clicking with right mouse button whilst left button is held will change orientation of model.  Right click on existing model to delete it.
+{BET_ADD_UNITS_HELP}					Select a unit from list. Units marked with a star are suitable for a general.  There must be at least one 'generals unit' per army.  Left click in an existing deployment area to deploy unit, and drag out it's formation width.  Move an existing unit by clicking on the unit flag and dragging to new position. Unit formation width and facing can be changed by clicking and dragging unit flag with left and right buttons held down.
+{BET_EDIT_ROAD_HELP}					Select a road type from list and place tile with left mouse button.
+{BET_ERROR_UNIT_OVERFLOW}					An army can only have a maximum of 20 units
+{BET_ERROR_UNIT_IN_ALIEN_AREA}					Cannot add a unit to this deployment area as units from another army are already deployed here
+{BET_ERROR_INVALID_DEPLOYMENT}					This unit is deployed in an invalid position and it hasn't been possible to move it to a valid one.  Please move it by hand so that it doesn't extend outside it's deployment area or overlap a landscape feature.
+{BET_ERROR_UNIT_CHANGE_ARMY}					The unit moved has changed armies (and possibly faction) as the deployment area it was moved to belongs to another army.
+{BET_ERROR_UNITS_LEFT_IN_DEPLOYMENT_AREA}					Cannot delete this deployment area point as an area needs more than 3 points whilst units remain in it.
+{BET_SELECT_AN_ARMY_HELP}					Select an army from the factions list to finalise the victory condition
+{BET_SELECT_A_SETTLEMENT_HELP}					Select a settlement from the factions list to finalise the victory condition
+{BET_SELECT_LOCATION_HELP}					Select a point on the map by clicking on the ground to finalise the victory condition
+{BET_INVALID_VICTORY_CONDITION}					Unable to continue due to invalid victory condition
+{BET_EDIT_ALLIANCES}					Edit Alliances
+{BET_ALLIED}					Allied
+{BET_AT_WAR}					At War
+{BET_NEUTRAL}					Neutral
+{BET_ADD_ALLY}					Add selected faction as an ally to this faction
+{BET_ADD_ENEMY}					Add selected faction as an enemy of this faction
+{BET_REMOVE_ALLY}					Remove selected faction from this factions allies
+{BET_REMOVE_ENEMY}					Remove selected faction from this factions allies enemies
+{BET_EDIT_TRAITS}					Edit Character Traits
+{BET_TRAIT_LEVEL}					Trait Level
+{BET_ADD_TRAIT}					Add selected trait
+{BET_REMOVE_TRAIT}					Remove selected trait
+{BET_EXISTING_TRAITS}					Existing Traits
+{BET_ADD_FACTION_TO_ALLIANCE}					Add the faction in this column to this alliance
+{BET_RECALCULATING_REGIONS}					Recalculating region frontiers. Please wait.
+{BET_IS_PLAYABLE}					Is Playable?
+{BET_NAMED_CHARACTER_WITH_NO_ARMY}					This character is a named character with no army.  This isn't allowed.
+{BET_STRAT_ERROR_REPORT_END}					The campaign script can still be generated, but the campaign may not load correctly, or there may be undesired effects.\nIt is best to get rid of all errors.
+{BET_ADD_RESOURCE}					Add selected resource to region
+{BET_REMOVE_RESOURCE}					Remove resource selected in list from region
+{BET_RIVER_SOURCE}					River Source
+{BET_RIVER}					River
+{BET_CLIFF}					Cliff
+{BET_VOLCANO}					Volcano
+{BET_FORD}					Ford
+{BET_RECALCULATING_FEATURES}					Recalculating landscape features
+{BET_RECALCULATING_MOUNTAINS}					Recalculating mountain placement
+{BET_SAVING_GAME}					Saving Game
+{BET_MUST_BE_1_ATTACKER}					There must be at least 1 attacking alliance.  Set the attacking alliance in the 'edit alliance' dialog box
+{BET_MUST_BE_1_DEFENDER}					There must be at least 1 defending alliance.  Set the defending alliance in the 'edit alliance' dialog box
+{BET_PLAYABLE}					Playable
+{BET_NONPLAYABLE}					Non Playable
+{BET_UNLOCKABLE}					Unlockable
+{BET_DUPLICATE_CHARACTER_NAME}					Two (or more) characters have the same name
+{BET_REGION}					Region
+{BET_SETTLEMENT_PLACEMENT_INVALID}					The settlement for this region is placed on an invalid tile
+{BET_PORT_PLACEMENT_INVALID}					The port for this region is placed on an invalid tile
+{BET_NO_DEFAULT_FACTION}					No faction has been set for this region
+{BET_NO_REBEL_FACTION}					No rebel facion has been set for this region
+{BET_TO_FEW_TILES_IN_REGION}					This region has fewer than 5 tiles in it
+{BET_TWO_REGIONS_SAME_COLOUR}					This region has the same colour identifier as another region
+{BET_NO_SETTLEMENT_POS_SET}					No position has been set for the settlement in this region
+{BET_NO_PORT_POS_SET}					This region has coastal tiles, yet no port position has been set
+{BET_INVALID_PLACEMENT_IN_SEA}			Invalid Placement: This tile is marked as being a sea tile
+{BET_INVALID_PLACEMENT_IN_DENSE_FOREST}		Invalid Placement: This tile is marked as dense forest
+{BET_INVALID_PLACEMENT_FLOODED}			Invalid Placement: This tile is marked as being flooded
+{BET_INVALID_PLACEMENT_TOO_MOUNTAINOUS}		Invalid Placement: This tile is marked as being too mountainous
+{BET_INVALID_PLACEMENT_ON_CLIFF}			Invalid Placement: This tile is marked as being a cliff
+{BET_INVALID_PLACEMENT_ON_INTERNAL_BORDER}	Invalid Placement: This tile is marked as being an internal border
+{BET_INVALID_PLACEMENT_ON_EXISTING_LANDMARK}	Invalid Placement: This tile is marked as having a landmark on it
+{BET_INVALID_PLACEMENT_ON_WALL}			Invalid Placement: This tile is marked as being a wall
+{BET_INVALID_PLACEMENT_IN_RIVER}			Invalid Placement: This tile is marked as being a river
+{BET_INVALID_PLACEMENT_ON_ENEMY_CHARACTER}	Invalid Placement: This tile is blocked by another game object
+{BET_INVALID_PLACEMENT_WRONG_REGION}		Invalid Placement: Cannot change regions
+{BET_INVALID_PLACEMENT_NON_COASTAL}			Invalid Placement: This tile is non coastal
+{BET_EDIT_FORT}						Edit Fort Details
+{BET_FORTIFICATION_LEVEL}				Fortification Level
+{BET_GATE_STRENGTH}					Gate Strength
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 22/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_EDIT_HEIGHTS_MODE_HELP}				Hold left down and drag cursor up or down to adjust height.  Hold shift and left mouse button to set heights to be same as place where mouse is clicked down.  Hold ctrl and left mouse to smooth heights.
+{BET_SELECT_ROAD_TYPE}					Select Road Type
+{BET_SELECT_UNIT}						Select Unit
+{BET_SELECT_SETTLEMENT_PLAN}				Select Settlement Plan
+{BET_SELECT_MODEL}					Select Model
+{BET_SELECT_SUBFACTION}					Select slave's original faction
+{BET_INVALID_PLACEMENT_ON_EXISTING_VOLCANO}	Invalid Placement: This tile is marked as having a volcano on it
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{BET_AMBIENT_SETTLEMENT}		Ambient Settlement?
+{BET_MULTIPLAYER}				Multiplayer map?
+{BET_SINGLEPLAYER}			Singleplayer map?
+{BET_WALL_CULTURE}			Wall builder faction type
+{BET_NUM_SAP_POINTS}			Num sap points
+{BET_TIME_TO_REINFORCE}			Joins in %d minutes (realtime)
+{BET_ONE_MIN_TO_REINFORCE}		Joins in 1 minute (realtime)
+{BET_ERROR_DELETING_SETTLEMENT_WRONG_MODE}	Cannot delete settlements in this mode.  To delete a settlement, select it from the faction list and hit the DELETE key.
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{BET_BELIEF}			Belief
+{BET_RE_EMERGENT}			Re-emergent?
+{BET_DEAD_UNTIL_RESURRECTED}	Dead until resurrected?
+{BET_SUPERFACTION}		Has superfaction?
+{BET_TWO_ARMIES_ON_SAME_TILE}	There are two (or more) armies specified on the same tile
+{BET_LEGION_NAME}			Legion Name
+{BET_WORLD_MAP_POS}		World map position:
+{BET_SETTLEMENT_OWNER_NOT_AT_HOME}	A non-ambient settlement has been included and it's owning faction has no armies on the battlefield
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 11:46:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:40:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:22:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			THERE SHOULD NOW BE NO MORE CHANGES! 
+¬*			SEE ROSS/LUCI/MIKE!
+¬*
+¬*			Only changes made after 05/08/2005 16:25:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

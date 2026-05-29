@@ -1,0 +1,519 @@
+¬ Text file converted with loc_parser
+{TMT_SETTLEMENT_INCOME}					Revenu de la communauté
+{TMT_LOYALTY_TOOLTIP_REVOLTING}					Loyauté : révolté
+{TMT_LOYALTY_TOOLTIP_RIOTING}					Loyauté : émeutier
+{TMT_LOYALTY_TOOLTIP_DISILLUSIONED}					Loyauté : désabusé
+{TMT_LOYALTY_TOOLTIP_CONTENT}					Loyauté : satisfait
+{TMT_LOYALTY_TOOLTIP_HAPPY}					Loyauté : heureux
+{TMT_GROWTH_TOOLTIP_GROWTH}					Population : en croissance
+{TMT_GROWTH_TOOLTIP_STATIC}					Population : pas de croissance
+{TMT_GROWTH_TOOLTIP_DECLINING}					Population : en diminution
+{TMT_SETTLEMENT_STATUS_TRAINING}					Unités en cours de formation
+{TMT_SETTLEMENT_STATUS_BUILDING}					Bâtiments en cours de construction
+{TMT_LCLICK_FOR_BUILD_OPTIONS}					Faire un clic gauche pour voir les possibilités d’évolution de ce bâtiment
+{TMT_CONSTRUCTION_HELP}					Faire un clic gauche pour ajouter à la file d’attente, faire un clic droit pour obtenir des informations
+{TMT_CONSTRUCTION_REMOVE_HELP}					Faire un clic gauche pour retirer de la file d’attente
+{TMT_COST_OF_CONSTRUCTION}					Coût de construction
+{TMT_TIME_TO_CONSTRUCT}					Nombre de tours nécessaires pour la construction
+{TMT_COST_OF_RECRUITMENT_UNIT}					Coût de recrutement de l’unité
+{TMT_TIME_TO_RECRUIT}					Nombre de tours nécessaires pour la formation
+{TMT_SEASON_SUMMER}					Eté
+{TMT_SEASON_WINTER}					Hiver
+{TMT_REMAINING_ACTION_POINTS}					Points de mouvement\nLa barre bleu foncé représente les points restants\nLa section bleu clair représente les effets\nsur les points de mouvement après que l’action en cours\nait été effectuée
+{TMT_ACCEPT_FIELD_CONSTRUCTION}					Construire l’objet sélectionné
+{TMT_CANCEL_FIELD_CONSTRUCTION}					Ne rien construire
+{TMT_BUILD_FORT_OR_WATCHTOWER}					Construire un fort ou une tour de guet
+{TMT_CANNOT_BUILD_FORT_OR_WATCHTOWER}					Impossible de construire un fort ou une tour de guet à cet emplacement
+{TMT_CANNOT_ATTACK_FROM_SIEGED_SETTLEMENT}					Les armées en siège ne peuvent être attaquées que depuis une garnison assiégée
+{TMT_SHOW_GENERAL_UNIT_DETAILS}					Voir les détails de cette unité de gardes du corps
+{TMT_LCLICK_SELECT}					Faire un clic gauche pour sélectionner
+{TMT_RCLICK_INFO}					Faire un clic droit pour obtenir des informations supplémentaires
+{TMT_LDBL_CLICK_INFO}					Faire un double-clic gauche pour obtenir des informations supplémentaires
+{TMT_CURSOR_ATTACK}					Faire un clic droit pour attaquer
+{TMT_CURSOR_MOVE}					Faire un clic droit pour aller vers la position
+{TMT_CURSOR_SELECT}					Faire un clic droit pour sélectionner
+{TMT_CURSOR_MOVE_MAP}					Faire défiler la carte
+{TMT_CURSOR_MOUSE_LOOK}					Vue souris
+{TMT_CURSOR_CLICK_DOWN}					Cliquer vers le bas
+{TMT_CURSOR_EXCHANGE}					Faire un clic droit pour échanger des unités et des personnages
+{TMT_CURSOR_DEFAULT_ACTION}					Faire un clic droit pour effectuer la mission
+{TMT_CURSOR_NO_ACTION}					Aucune action possible sur cette cible
+{TMT_CURSOR_ENTER_SETTLEMENT}					Faire un clic droit pour entrer dans la communauté
+{TMT_CURSOR_DISEMBARK}					Faire un clic droit pour débarquer
+{TMT_CURSOR_SET_RALLY_POINT}					Faire un clic droit pour définir le point de ralliement de la communauté
+{TMT_CURSOR_AUTO_MERGE}					Faites un clic droit pour fusionner automatiquement les unités
+{TMT_NO_MULTITURN_MISSIONS}					Impossible d’attaquer ou d’effectuer des missions pendant plusieurs tours
+{TMT_NO_MULTITURN_EXCHANGES}					Impossible de fusionner ou d’échanger des unités pendant plusieurs tours
+{TMT_SIEGE_EQUIPMENT_NOT_REQUIRED}					La construction de cet engin de siège n’est pas requise
+{TMT_NO_DIPLOMACY_WITH_REBELS}					La diplomatie ne fonctionne pas avec les rebelles
+{TMT_SILVER_TOOLTIP}					Des mines d’argent peuvent être construites dans la communauté voisine
+{TMT_GOLD_TOOLTIP}					Des mines d’or peuvent être construites dans la communauté voisine
+{TMT_IRON_TOOLTIP}					Fer : une précieuse ressource commerciale
+{TMT_GRAIN_TOOLTIP}					Récolte : une précieuse ressource\nAugmente la croissance démographique du lieu d’exportation
+{TMT_OLIVE_OIL_TOOLTIP}					Huile d’olive : une précieuse ressource commerciale
+{TMT_WINE_TOOLTIP}					Vin : une précieuse ressource commerciale
+{TMT_SLAVES_TOOLTIP}					Esclaves : une précieuse ressource\nAugmente la croissance démographique du lieu d’exportation
+{TMT_GLASS_TOOLTIP}					Verre : une précieuse ressource commerciale
+{TMT_POTTERY_TOOLTIP}					Poterie : une précieuse ressource commerciale
+{TMT_TIMBER_TOOLTIP}					Bois : une précieuse ressource commerciale
+{TMT_MARBLE_TOOLTIP}					Marbre : une précieuse ressource commerciale
+{TMT_TEXTILES_TOOLTIP}					Tissu : une précieuse ressource commerciale
+{TMT_PURPLE_DYE_TOOLTIP}					Teinture violette : une précieuse ressource commerciale
+{TMT_INCENSE_TOOLTIP}					Encens : une précieuse ressource commerciale
+{TMT_SILK_TOOLTIP}					Soie : une précieuse ressource commerciale
+{TMT_WILD_ANIMALS_TOOLTIP}					Animaux sauvages : une précieuse ressource commerciale
+{TMT_HIDES_TOOLTIP}					Peaux : une précieuse ressource commerciale
+{TMT_FURS_TOOLTIP}					Fourrures : une précieuse ressource commerciale
+{TMT_TIN_TOOLTIP}					Etain : une précieuse ressource commerciale
+{TMT_COPPER_TOOLTIP}					Cuivre : une précieuse ressource commerciale
+{TMT_LEAD_TOOLTIP}					Plomb : une précieuse ressource commerciale
+{TMT_AMBER_TOOLTIP}					Ambre : une précieuse ressource commerciale
+{TMT_PIGS_TOOLTIP}					Permet la formation des unités de cochons incendiaires
+{TMT_DOGS_TOOLTIP}					Permet la formation des unités de chiens de combat
+{TMT_CAMELS_TOOLTIP}					Permet la formation des unités de chameliers
+{TMT_ELEPHANTS_TOOLTIP}					Permet la formation des unités d’éléphants
+{TMT_ROADS_TOOLTIP}					Permet aux armées de marcher plus loin\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+{TMT_PAVED_ROADS_TOOLTIP}					Permet aux armées de marcher plus rapidement\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+{TMT_HIGHWAYS_TOOLTIP}					Permet aux armées de parcourir de longues distances\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+{TMT_SEA_LANES_TOOLTIP}					Route commerciale reliant des communautés dotées de ports
+{TMT_FAMOUS_BATTLE_SITE_TOOLTIP}					Une célèbre bataille s’est déroulée ici
+{TMT_INFLUENCE_LEVEL_0}					Une olive farcie a plus d’influence que cet homme car un éminent personnage pourrait s’étouffer avec et cela changerait le cours de l’histoire.
+{TMT_INFLUENCE_LEVEL_1}					Cet homme n’a pas son mot à dire sur le menu du soir à la maison, alors ne parlons pas de son opinion sur la vie ou l’avenir de l’humanité.
+{TMT_INFLUENCE_LEVEL_2}					Les opinions de cet homme ne pèsent pas lourd. Il est tout simplement considéré comme une nullité.
+{TMT_INFLUENCE_LEVEL_3}					Cet homme n’est guère important. Il lui arrive de dire des choses intelligentes, mais les occasions sont rares.
+{TMT_INFLUENCE_LEVEL_4 }					Il arrive à cet homme de donner des conseils avisés et son avis est sollicité sur certains sujets bien spécifiques.
+{TMT_INFLUENCE_LEVEL_5}					Les paroles de cet homme trouvent des échos dans les palais les moins influents, mais les véritables puissants l’ignorent complètement.
+{TMT_INFLUENCE_LEVEL_6}					Les conseils de cet homme sont souvent écoutés avec attention, même s’il n’a pas toujours le dessus.
+{TMT_INFLUENCE_LEVEL_7}					Les qualités de cet homme lui permettent de faire pencher la balance dans de nombreux raisonnements.
+{TMT_INFLUENCE_LEVEL_8}					Cet homme est investi d’un considérable pouvoir politique et ses paroles influent sur les opinions de la plupart des hommes de moindre importance.
+{TMT_INFLUENCE_LEVEL_9}					Lorsque cet homme parle, tout le monde s’arrête pour l’écouter. Pour beaucoup, même ses opinions ont la force de la loi.
+{TMT_INFLUENCE_LEVEL_10}					Lorsque cet homme parle, ses mots portent la sagesse des dieux à son auditoire.
+{TMT_COMMAND_LEVEL_0}					Pour cet homme, "commandement" est juste un très long mot, tout comme "inspiration". D’ailleurs, il ne possède aucun des deux.
+{TMT_COMMAND_LEVEL_1}					Chez cet homme, la capacité à commander est, au mieux, un véritable abîme.
+{TMT_COMMAND_LEVEL_2 }					Cet homme sait vociférer des ordres mais encore faut-il savoir donner le bon ordre au bon moment.
+{TMT_COMMAND_LEVEL_3 }					Cet homme est plutôt faible en commandement, ce qu’il compense avec une bonne grosse voix et un certain talent pour instiller la peur.
+{TMT_COMMAND_LEVEL_4 }					Cet homme est normalement doué pour commander bien qu’il lui arrive de manquer de confiance en lui.
+{TMT_COMMAND_LEVEL_5 }					Cet homme a un certain talent pour commander en cours de bataille mais il lui arrive de commettre des erreurs tactiques.
+{TMT_COMMAND_LEVEL_6 }					Sur le champ de bataille, cet homme inspire confiance à ses soldats. Parfois la façade se fissure, mais c’est assez rare.
+{TMT_COMMAND_LEVEL_7 }					Les solides connaissances stratégiques et tactiques de cet homme inspirent confiance à ceux qui le suivent dans la bataille.
+{TMT_COMMAND_LEVEL_8 }					Sur le champ de bataille, cet homme est une véritable tour de force. Il a le regard aiguisé tel un aigle.
+{TMT_COMMAND_LEVEL_9 }					Lorsque la voix de cet homme retentit, les armées se mettent en marche et les plus grandes nations tremblent !
+{TMT_COMMAND_LEVEL_10}					Lorsque la voix de cet homme retentit même les nuages modifient leur vol dans le ciel !
+{TMT_MANAGEMENT_LEVEL_0 }					Une huître à peine formée semblerait plus apte à gérer les affaires quotidiennes d’un empire.
+{TMT_MANAGEMENT_LEVEL_1}					On ne peut pas faire confiance à cet homme pour s’occuper des buccins, alors ne parlons même pas de choses importantes.
+{TMT_MANAGEMENT_LEVEL_2}					L’administration n’est pas le fort de cet homme. Il peut gérer des tâches simples mais sans véritable talent.
+{TMT_MANAGEMENT_LEVEL_3}					Cet homme compense son manque de talent administratif par une certaine détermination.
+{TMT_MANAGEMENT_LEVEL_4 }					Le talent administratif limité de cet homme produit les effets escomptés mais ils sont loin d’être flamboyants.
+{TMT_MANAGEMENT_LEVEL_5 }					Cet homme a du talent mais il s’énerve lorsque ses projets soigneusement planifiés sont bouleversés par un événement inattendu.
+{TMT_MANAGEMENT_LEVEL_6 }					La plupart du temps, cet homme arrive à résoudre des problèmes administratifs, mais certaines crises le désarment complètement.
+{TMT_MANAGEMENT_LEVEL_7 }					Cet homme est un administrateur efficace, capable de gérer les crises inattendues.
+{TMT_MANAGEMENT_LEVEL_8 }					Cet homme est une véritable tornade d’efficacité, il sait éviter tous les problèmes qui peuvent survenir.
+{TMT_MANAGEMENT_LEVEL_9}					Cet homme modèle les affaires de l’état selon sa volonté et aucun défi ne peut l’empêcher d’arriver à ses fins.
+{TMT_MANAGEMENT_LEVEL_10}					Cet homme modèle toutes les affaires du monde selon ses propres plans et les hommes plus faibles obéissent au moindre de ses ordres.
+{TMT_SUBTERFUGE_LEVEL_0}					Cet homme est un innocent, laissé à la dérive dans un monde de sournois.
+{TMT_SUBTERFUGE_LEVEL_1}					Rusé et fourbe sont les derniers mots que l’on pourrait utiliser pour décrire cet être naïf et transparent.
+{TMT_SUBTERFUGE_LEVEL_2}					Le subterfuge n’est pas le genre d’arme que l’on trouve dans l’armurerie intellectuelle de cet homme.
+{TMT_SUBTERFUGE_LEVEL_3}					Cet homme est un conspirateur-né mais il lui arrive de faire preuve d’intuition.
+{TMT_SUBTERFUGE_LEVEL_4}					Parfois cet homme reconnaît le subterfuge pour ce qu’il est. Parfois il lui arrive même d’y avoir recours.
+{TMT_SUBTERFUGE_LEVEL_5}					Le subterfuge est un outil que cet homme peut utiliser même s’il lui arrive de commettre des erreurs.
+{TMT_SUBTERFUGE_LEVEL_6}					Cet homme peut comploter et conspirer avec enthousiasme et quelquefois même avec talent.
+{TMT_SUBTERFUGE_LEVEL_7}					Cet homme est plus fourbe qu’un sac de belettes enragées.
+{TMT_SUBTERFUGE_LEVEL_8}					L’esprit de cet homme est tortueux de complexité et capable d’imaginer ou de pénétrer la plus fourbe des conspirations.
+{TMT_SUBTERFUGE_LEVEL_9}					Les conspirations de cet homme sont toutes de véritables chefs-d’oeuvre de feintes, imbriquées les unes dans les autres et dissimulées derrière d’autres complots.
+{TMT_SUBTERFUGE_LEVEL_10}					Les complots qu’ourdit cet homme sont des toiles invisibles, et son esprit affûté sait déjouer n’importe quelle conspiration étrangère.
+{TMT_TOGGLE_AUTOMANAGEMENT}					Afficher la gestion automatique de cette communauté
+{TMT_DECREASE_TAXATION}						Diminuer les impôts
+{TMT_INCREASE_TAXATION}						Augmenter les impôts
+{TMT_CHANGE_GOVERNOR_POLICY}					Changer la politique du gouverneur
+{TMT_DECREASE_GAMES_FREQUENCY}				Diminuer la fréquence des Jeux et/ou des courses
+{TMT_INCREASE_GAMES_FREQUENCY}				Augmenter la fréquence des Jeux et/ou des courses
+{TMT_CURRENTLY_SELECTED_CHARACTER}				Personnage sélectionné :
+{TMT_CURRENTLY_SELECTED_SETTLEMENT}				Communauté sélectionnée :
+{TMT_CURRENTLY_SELECTED_FORT}					Fort sélectionné :
+{TMT_CURRENTLY_SELECTED_RALLY_POINT}			Point de ralliement sélectionné :
+{TMT_CURRENTLY_SELECTED_RALLY_POINTS}			Points de ralliement sélectionnés :
+{TMT_LCLICK_ZOOM_TO_POS}					Faire un clic gauche pour localiser un objet sur la carte
+{TMT_SHOW_SELECTED_ITEM}					Cette zone indique l’objet actuellement sélectionné
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 29/03/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+{TMT_FIELD_CONSTRUCTION_TEST_NO_GENERAL}					Les armées sans généraux ne peuvent pas construire de forts ou de tours de guet
+{TMT_FIELD_CONSTRUCTION_TEST_NOT_NAMED_CHARACTER}			Seuls les généraux peuvent faire construire des forts et des tours de guet
+{TMT_FIELD_CONSTRUCTION_TEST_IN_SEA_REGION}				Impossible de construire un fort ou une tour de guet dans la mer
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_IN_ENEMY_TERRITORY}			Impossible de construire un fort en territoire ennemi
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_INVALID_GAME_TILE}			Position non valide pour un fort
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_NOT_ENOUGH_MONEY}			Vous n’avez pas assez d’argent pour construire un fort
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_IN_ENEMY_TERRITORY}		Impossible de construire une tour de guet en territoire ennemi
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_INVALID_GAME_TILE}		Position non valide pour une tour de guet
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_NOT_ENOUGH_MONEY}		Vous n’avez pas assez d’argent pour construire une tour de guet
+{TMT_NOT_ENOUGH_MONEY_FOR_FORT_OR_WATCHTOWER}				Vous n’avez pas assez d’argent pour construire un fort ou une tour de guet
+{TMT_CANNOT_RECRUIT_UNITS_IN_BATTLE}					Vous ne pouvez plus recruter d’unités ou de mercenaires une fois que la bataille est engagée
+{TMT_COMMAND_LEVEL_9 }					Au son de la voix de cet homme, les armées se mettent en marche et les puissantes nations tremblent !
+{TMT_ROADS_TOOLTIP}					Route : permet aux armées de marcher plus loin\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+{TMT_PAVED_ROADS_TOOLTIP}				Route pavée : permet aux armées de se déplacer rapidement\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+{TMT_HIGHWAYS_TOOLTIP}					Voie : permet aux armées de parcourir de longues distances\nAugmente également les revenus commerciaux\nL’importance du trafic indique l’importance des échanges commerciaux
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 21/04/2004 17:30:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_MANAGEMENT_LEVEL_1}					Je ne confierais pas mon chien à cet homme, alors ne parlons même pas de choses plus importantes.
+{TMT_NO_BODYGUARD_UNIT_TO_VIEW}				Pas de garde du corps pour ce personnage.
+{TMT_NOT_ENOUGH_INFO_FOR_BODYGUARD}				Pas assez d’informations sur ce personnage pour voir son garde du corps.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 13/05/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SETTLEMENT_STATUS_AUTOMANAGED}		Cette communauté est autogérée
+{TMT_PIGS_TOOLTIP}				Cochons : permet la formation des unités de cochons incendiaires
+{TMT_DOGS_TOOLTIP}				Chiens : permet la formation des unités de chiens de combat
+{TMT_CAMELS_TOOLTIP}				Chameaux : permet la formation des unités de chameliers
+{TMT_ELEPHANTS_TOOLTIP}				Eléphants : permet la formation des unités d’éléphants
+{TMT_CANNOT_ATTACK_SIEGED_SETTLEMENT}	Impossible d’assiéger une communauté déjà assiégée par une faction non alliée
+{TMT_CANNOT_CONSTRUCT_WHILST_SIEGING}	Impossible de construire un fort ou une tour de guet pendant un siège
+{TMT_FIELD_CONSTRUCTION_TEST_WATCHTOWER_SIEGING}	Impossible de construire une tour de guet pendant un siège
+{TMT_FIELD_CONSTRUCTION_TEST_FORT_SIEGING}		Impossible de construire un fort pendant un siège
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 03/06/2004 16:48:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_NEGATIVE_COMMAND}			Cette personne ne possède aucun don pour le commandement.
+{TMT_NEGATIVE_INFLUENCE}		Cet homme n'exerce aucune influence sur sa famille ou sur une personne importante.
+{TMT_NEGATIVE_MANAGEMENT}		Cet homme ne saurait même pas organiser une orgie dans une brasserie.
+{TMT_NEGATIVE_SUBTERFUGE}		Subterfuge ? Si au moins il savait l'écrire... il pourrait peut-être en comprendre le sens.
+
+{TMT_SLAVES_TOOLTIP}					Les esclaves sont une ressource précieuse\nRépartie dans l'ensemble des communautés possédant un gouverneur. La ressource est épuisée après 7 tours.
+{TMT_GRAIN_TOOLTIP}					Les céréales sont une ressource précieuse\nElles augmentent la croissance démographique d'une communauté donnée.
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬***** Changes made after 17/06/2004 13:01:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SLAVES_TOOLTIP}					Esclaves : une ressource précieuse\nRépartis sur toutes les communautés dotées de gouverneurs. Ressource épuisée après %d tours
+{TMT_SLAVES_TOOLTIP_SINGLE}				Esclaves : une ressource précieuse\nRépartis sur toutes les communautés dotées de gouverneurs. Ressource épuisée après 1 tour supplémentaire
+{TMT_SHOW_GENERAL_UNIT_DETAILS_ARMY}		Afficher les informations sur cette unité de gardes du corps pour le général de cette armée
+{TMT_CONSTRUCTION_HELP}					Faites un clic gauche pour ajouter à la liste d’attente
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*		This particular divider does not denote a changes round.
+¬*	This is when the files were locked to be sent for Russian and Polish translation.
+¬*
+¬*
+¬***** Changes made after 01/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 07/07/2004 17:15:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 15/07/2004 17:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_LCLICK_INFO}		Faites un clic gauche pour obtenir des informations supplémentaires
+{TMT_COMMAND_LEVEL_3 }					Cet homme n’a pas la carrure d’un vrai commandant, ce qu’il compense avec une bonne grosse voix et un certain talent pour instiller la peur.
+{TMT_COMMAND_LEVEL_4 }					Cet homme est normalement doué pour commander bien qu’il lui arrive de manquer de confiance en lui.
+{TMT_CANNOT_MERGE_AGENT}	Le personnage sélectionné ne peut être reçu à cet endroit
+{TMT_CANNOT_MERGE_AGENTS}	Les personnages sélectionnés ne peuvent être déposés à cet endroit
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 22/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_AUTO_MERGE_AGENTS}		Faites un clic droit pour fusionner automatiquement les agents
+{TMT_GOLD_MINE_TOOLTIP}		Mine d’or : Une précieuse source de revenus
+{TMT_SILVER_MINE_TOOLTIP}	Mine d’argent : Une précieuse source de revenus
+{TMT_NO_WITHDRAW_NAVY}		Repli impossible : les flotilles ne peuvent pas se retirer des batailles
+{TMT_NO_WITHDRAW_AMBUSH}	Repli impossible : vous êtes victime d'une embuscade
+{TMT_NO_WITHDRAW_SIEGE}		Repli impossible : vous êtes assiégé
+{TMT_NO_WITHDRAW_AP}		Repli impossible : aucun point de mouvement restant
+{TMT_NO_WITHDRAW_RETREAT}	Repli impossible : aucune solution de repli
+{TMT_ALREADY_CAPITAL}		Cette communauté est déjà la capitale
+{TMT_NO_GENERAL_UNIT_TO_SHOW}			Aucune unité de garde rapprochée
+{TMT_DOCK_BLOCKADED}				Ce port subit actuellement un blocus
+{TMT_PORT_BLOCKADED}				Ce port subit actuellement un blocus
+{TMT_CANNOT_ATTACK_FROM_SIEGED_SETTLEMENT}	Une armée assiégée ne peut attaquer que l’armée qui l’assiège
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 29/07/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_CURSOR_AUTO_MERGE}		Faites un clic droit pour fusionner les unités
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 05/08/2004 12:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 12/08/2004 09:53:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 19/08/2004 16:05:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_SETTLEMENT_AUTOMANAGED_BUILDING}		Impossible d’ajouter ce bâtiment : la construction est autogérée
+{TMT_SETTLEMENT_AUTOMANAGED_TRAINING}		Impossible d’ajouter ce bâtiment : le recrutement est autogéré
+{TMT_CANNOT_RECRUIT_MERCS_IN_BATTLE}		Vous ne pouvez pas recruter des mercenaires après le début d’un combat
+{TMT_CANNOT_CHANGE_TAX_LEVEL_AS_AUTOMANAGED}	Impossible de modifier le niveau d’imposition : les impôts de la faction sont autogérés.  Rendez-vous dans le tableau de résumé de faction pour effectuer des modifications
+{TMT_CANNOT_DESTROY_THIS_BUILDING}			Ce bâtiment ne peut pas être détruit
+{TMT_RECOUP_AMOUNT}					Vous allez récupérer %d deniers.
+{TMT_CANNOT_LEAVE_ZOC}					Vous ne pouvez pas vous déplacer dans une zone contrôlée par l’ennemi
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 01/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+
+¬****************************************************************************************
+¬****************************************************************************************
+¬*
+¬*			THIS FILE GONE FOR LOCALISATION!!!
+¬*		ALL CHANGES & ADDITIONS MADE POST THE DATE SPECIFIED 
+¬*			BELOW MUST GO UNDERNEATH THIS DIVIDER!!!
+¬*
+¬*
+¬***** Changes made after 03/09/2004 09:00:00
+¬*
+¬****************************************************************************************
+¬****************************************************************************************
+
+{TMT_CAN_ONLY_SALLY_OUT_ONCE_PER_TURN}		Ne peut faire une sortie qu’une fois par tour
+{TMT_CANNOT_FLEE}						Cette armée ne peut pas fuir la bataille.  Si elle perd, toutes les unités seront détruites.
+{TMT_LOYALTY_TOOLTIP_REVOLTING}			Loyauté : Potentiel de révolte
+{TMT_LOYALTY_TOOLTIP_RIOTING}				Loyauté : Potentiel d’émeute
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT BEGINS HERE!!!
+¬*		ALL TEXT BELOW THIS LINE SHOULD BE EXPANSION ADDITIONS/CHANGES ONLY!!!
+¬*
+¬*¬***** Changes made after 05/01/2005 15:18:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{TMT_LOYALTY_TITLE}	Loyauté
+{TMT_LOYALTY_LEVEL_0}	Pour cet homme, la loyauté est une maladie qui ne touche que les chiens et les faibles d'esprit.
+{TMT_LOYALTY_LEVEL_1}	Pour cet homme, la loyauté n'est qu'une façade, un instrument pour parvenir à ses fins.
+{TMT_LOYALTY_LEVEL_2}	Cet homme proclame sa loyauté à ses amis et à la "cause"… un peu trop ostensiblement pour être crédible.
+{TMT_LOYALTY_LEVEL_3}	Bien que certains de ses actes apparaissent suspects, la loyauté de cet homme envers son peuple ne souffre guère de discussion.
+{TMT_LOYALTY_LEVEL_4}	Cet homme est connu pour sa loyauté et sa fiabilité. Ses amis savent qu'ils peuvent compter sur lui.
+{TMT_LOYALTY_LEVEL_5}	La déloyauté n'est pas dans la nature de cet homme, sauf peut-être dans un moment d'égarement...
+{TMT_LOYALTY_LEVEL_6}	La loyauté, encore et toujours. La droiture n'est pas un vain mot chez cet homme.
+{TMT_LOYALTY_LEVEL_7}	Les amis et les êtres chers sont des causes qui valent toujours la peine d'être défendues... C'est du moins l'avis de cet homme.
+{TMT_LOYALTY_LEVEL_8}	Cet homme est d'une loyauté à toute épreuve envers ses frères d'armes, quoi qu'il advienne. 
+{TMT_LOYALTY_LEVEL_9}	Cet homme ne vit que pour servir. Il défendra son peuple jusque dans la mort. 
+{TMT_LOYALTY_LEVEL_10}	Le nom de cet homme est synonyme de loyauté. Son indéfectible dévouement à sa cause, à ses amis et à son peuple est un modèle pour tous.
+{TMT_NEGATIVE_LOYALTY}	Cet homme vendrait père et mère sans hésiter s'il pouvait en tirer quelque profit.
+{TMT_NEGATIVE_COMMAND}	Cet homme réussit l'exploit de priver ses subordonnés de toute chance de victoire militaire.
+{TMT_NEGATIVE_INFLUENCE}	Lorsque cet homme donne son avis, chacun s'accorde à penser que l'inverse doit être vrai.
+{TMT_NEGATIVE_MANAGEMENT}	Cet homme réussit à semer le chaos là où régnait l'ordre. Pour lui, utiliser correctement les latrines relève déjà de l'exploit !
+{TMT_NEGATIVE_SUBTERFUGE}	Comparé à cet individu, le plus empoté des hommes passe pour un phénomène de ruse et d'habileté. 
+{TMT_HORDE_OCCUPY_SETTLEMENT_TOOLTIP}	Emparez-vous de cette communauté et de la région alentour au nom de votre peuple. Vos hordes se disperseront alors.
+{TMT_HORDE_SACK_SETTLEMENT_TOOLTIP}		Pillez et détruisez cette communauté autant que faire se peut, puis remettez-vous en quête d'une nouvelle patrie pour vos hordes.
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			EXPANSION PACK TEXT CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 18/04/2005 12:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{TMT_HORDE_SACK_SETTLEMENT_TOOLTIP}		Volez tout ce que vous pouvez dans cette communauté.  Une fois la ville dévastée, continuez votre quête d'une terre d'adoption pour vos hordes.
+{TMT_CANNOT_LEAD_NIGHT_BATTLE}		L'officier en charge de cette bataille ne peut mener une attaque nocturne
+{TMT_CANNOT_DISEMBARK_HERE}			Impossible de débarquer ici
+{TMT_CANNOT_FLEE_HORDE_PLAYER}		Cette armée ne peut pas fuir la bataille.  Si elle perd le combat, la communauté sera perdue et votre peuple tout entier devra se trouver une autre terre d’accueil
+{TMT_CANNOT_FLEE_HORDE_NON_PLAYER}		Cette armée ne peut pas fuir la bataille.  Si elle perd le combat, la communauté sera perdue et le peuple de cette nation devra se trouver une nouvelle terre d’accueil
+{TMT_SIEGE_EQUIPMENT_NOT_POSSIBLE}					La construction de cet engin de siège est impossible
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 07/06/2005 12:30:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+{TMT_LOYALTY_LEVEL_4}	Cet homme est connu pour sa loyauté et sa fiabilité. Ses amis savent qu'ils peuvent compter sur lui.
+
+
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 27/06/2005 12:03:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 08/07/2005 17:45:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬*
+¬*			CHANGES BENEATH THIS LINE!!!
+¬*		
+¬*
+¬*			Only changes made after 20/07/2005 12:26:00
+¬*
+¬*******************************************************************************************************
+¬*******************************************************************************************************
+¬+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

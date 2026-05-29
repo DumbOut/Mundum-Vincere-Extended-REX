@@ -1,0 +1,13 @@
+;; This file contains descriptions used for the fonts in the game.
+;; The fonts currently recognised by the game are: tnr, tnr_med, tnr_sml, verdana, verdana_med, verdana_sml
+;;
+;; Format: font <name> <file> <size> [kerned] [key=value ...]
+;; Size = ppem (pixels per em at 72 DPI). Tweak until it looks right or something.
+;; Optional metric overrides: lineheight, ascender, descender, spacing, boundingheight
+
+font	tnr			times.ttf		22	kerned
+font	tnr_med			times.ttf		16	kerned
+font	tnr_sml			times.ttf		14	kerned
+font	verdana			verdana.ttf		18	kerned
+font	verdana_med		verdana.ttf		14	kerned
+font	verdana_sml		verdana.ttf		10	kerned

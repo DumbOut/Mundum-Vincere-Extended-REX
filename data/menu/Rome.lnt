@@ -4265,8 +4265,8 @@
       <Parameters>
         <x>448</x>
         <y>319</y>
-        <width>256</width>
-        <height>257</height>
+        <width>128</width>
+        <height>129</height>
       </Parameters>
       <object_id>empty_art</object_id>
     </UI piece>
@@ -5109,101 +5109,15 @@
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
-	 <UI piece>CFP_symbol48_21
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+    <UI piece>symbol48_21
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>919</x>
-        <y>430</y>
+        <x>932</x>
+        <y>568</y>
         <width>59</width>
         <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
       </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_22
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>861</x>
-        <y>430</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_23
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>803</x>
-        <y>430</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_24
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>745</x>
-        <y>430</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_25
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>745</x>
-        <y>486</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_26
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>803</x>
-        <y>486</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_27
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>861</x>
-        <y>486</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-	<UI piece>CFP_symbol48_28
-      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
-      <Parameters>
-        <x>919</x>
-        <y>486</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
+      <object_id>empty_toggle_button</object_id>
     </UI piece>
   </lpage>
   <lpage>provincial_campaign
@@ -6547,7 +6461,7 @@
         <y>229</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
@@ -6558,7 +6472,7 @@
         <y>229</y>
         <width>217</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_ARCADE_BATTLES
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -12522,7 +12436,7 @@
         <y>324</y>
         <width>218</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_VICTORY_CONDITIONS
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -12547,7 +12461,7 @@
         <y>324</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
@@ -16047,7 +15961,7 @@
         <y>142</y>
         <width>230</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_ARCADE_BATTLES
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -16061,7 +15975,7 @@
         <y>142</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
@@ -17489,7 +17403,7 @@
         <y>324</y>
         <width>216</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_VICTORY_CONDITIONS
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -17504,7 +17418,7 @@
         <y>324</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
       <edit_group_id>dropdown2</edit_group_id>
@@ -17753,7 +17667,7 @@
         <y>189</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
@@ -17764,7 +17678,7 @@
         <y>189</y>
         <width>217</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_ARCADE_BATTLES
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -18342,7 +18256,7 @@
         <y>324</y>
         <width>218</width>
         <height>32</height>
-        <UI text>UI_FACTION_SELECT_VICTORY_CONDITIONS
+        <UI text>UI_FACTION_SELECT_SHARED_DEPLOYMENT
           <font_id>arial_split_CAF</font_id>
           <align>left</align>
         </UI text>
@@ -18367,7 +18281,7 @@
         <y>324</y>
         <width>32</width>
         <height>32</height>
-        <tool_tip_id>UI_FACTION_SELECT_ARCADE_BATTLES_INFO</tool_tip_id>
+        <tool_tip_id>UI_FACTION_SELECT_SHARED_DEPLOYMENT_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
