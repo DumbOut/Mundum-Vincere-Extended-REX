@@ -7,7 +7,7 @@ secondary_colour			red 0, green 0, blue 0
 loading_logo				loading_screen/symbols/symbol128_julii.tga
 standard_index				0
 logo_index					FACTION_LOGO_JULII
-small_logo_index			SMALL_FACTION_LOGO_JULII
+small_logo_index			FACTION_LOGO_JULII
 triumph_value				5
 intro_movie					fmv/intros/julii_intro_final.wmv
 victory_movie				fmv/victory/julii_outro_320x240.wmv
@@ -27,7 +27,7 @@ secondary_colour			red 255, green 250, blue 200
 loading_logo				loading_screen/symbols/symbol128_brutii.tga
 standard_index				1
 logo_index					FACTION_LOGO_BRUTII
-small_logo_index			SMALL_FACTION_LOGO_BRUTII
+small_logo_index			FACTION_LOGO_BRUTII
 triumph_value				5
 intro_movie					fmv/intros/brutii_intro_final.wmv
 victory_movie				fmv/victory/brutii_outro_320x240.wmv
@@ -47,7 +47,7 @@ secondary_colour			red 240, green 220, blue 180
 loading_logo				loading_screen/symbols/symbol128_scipii.tga
 standard_index				2
 logo_index					FACTION_LOGO_SCIPII
-small_logo_index			SMALL_FACTION_LOGO_SCIPII
+small_logo_index			FACTION_LOGO_SCIPII
 triumph_value				5
 intro_movie					fmv/intros/scipii_intro_final.wmv
 victory_movie				fmv/victory/scipii_outro_320x240.wmv
@@ -67,7 +67,7 @@ secondary_colour			red 255, green 255, blue 255
 loading_logo				loading_screen/symbols/symbol128_senate.tga
 standard_index				3
 logo_index					FACTION_LOGO_SENATE
-small_logo_index			SMALL_FACTION_LOGO_SENATE
+small_logo_index			FACTION_LOGO_SENATE
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/scipii_outro_320x240.wmv+
@@ -87,7 +87,7 @@ secondary_colour			red 255, green 75, blue 0
 loading_logo				loading_screen/symbols/symbol128_macedon.tga
 standard_index				4
 logo_index					FACTION_LOGO_MACEDON
-small_logo_index			SMALL_FACTION_LOGO_MACEDON
+small_logo_index			FACTION_LOGO_MACEDON
 triumph_value				5
 intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv
@@ -107,7 +107,7 @@ secondary_colour			red 0, green 0, blue 0
 loading_logo				loading_screen/symbols/symbol128_egypt.tga
 standard_index				5
 logo_index					FACTION_LOGO_EGYPT
-small_logo_index			SMALL_FACTION_LOGO_EGYPT
+small_logo_index			FACTION_LOGO_EGYPT
 triumph_value				5
 intro_movie					fmv/intros/egyptian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv
@@ -127,7 +127,7 @@ secondary_colour			red 255, green 255, blue 255
 loading_logo				loading_screen/symbols/symbol128_seleucid.tga
 standard_index				6
 logo_index					FACTION_LOGO_SELEUCID
-small_logo_index			SMALL_FACTION_LOGO_SELEUCID
+small_logo_index			FACTION_LOGO_SELEUCID
 triumph_value				5
 intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv
@@ -147,7 +147,7 @@ secondary_colour			red 85, green 100, blue 200
 loading_logo				loading_screen/symbols/symbol128_carthage.tga
 standard_index				7
 logo_index					FACTION_LOGO_CARTHAGE
-small_logo_index			SMALL_FACTION_LOGO_CARTHAGE
+small_logo_index			FACTION_LOGO_CARTHAGE
 triumph_value				5
 intro_movie					fmv/intros/carthage_intro_640x480_bars.wmv
 victory_movie				fmv/victory/carthage_outro_320x240.wmv
@@ -167,7 +167,7 @@ secondary_colour			red 0, green 0, blue 0
 loading_logo				loading_screen/symbols/symbol128_parthia.tga
 standard_index				8
 logo_index					FACTION_LOGO_PARTHIA
-small_logo_index			SMALL_FACTION_LOGO_PARTHIA
+small_logo_index			FACTION_LOGO_PARTHIA
 triumph_value				5
 intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
 victory_movie				fmv/victory/eastern_outro_320x240.wmv
@@ -187,7 +187,7 @@ secondary_colour			red 165, green 20, blue 20
 loading_logo				loading_screen/symbols/symbol128_pontus.tga
 standard_index				9
 logo_index					FACTION_LOGO_PONTUS
-small_logo_index			SMALL_FACTION_LOGO_PONTUS
+small_logo_index			FACTION_LOGO_PONTUS
 triumph_value				5
 intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
 victory_movie				fmv/victory/eastern_outro_320x240.wmv
@@ -207,7 +207,7 @@ secondary_colour			red 165, green 20, blue 20
 loading_logo				loading_screen/symbols/symbol128_gauls.tga
 standard_index				10
 logo_index					FACTION_LOGO_GAULS
-small_logo_index			SMALL_FACTION_LOGO_GAULS
+small_logo_index			FACTION_LOGO_GAULS
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -227,7 +227,7 @@ secondary_colour			red 255, green 255, blue 255
 loading_logo				loading_screen/symbols/symbol128_germania.tga
 standard_index				11
 logo_index					FACTION_LOGO_GERMANIA
-small_logo_index			SMALL_FACTION_LOGO_GERMANIA
+small_logo_index			FACTION_LOGO_GERMANIA
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -246,7 +246,7 @@ secondary_colour			red 215, green 235, blue 250
 loading_logo				loading_screen/symbols/symbol128_britons.tga
 standard_index				12
 logo_index					FACTION_LOGO_BRITONS
-small_logo_index			SMALL_FACTION_LOGO_BRITONS
+small_logo_index			FACTION_LOGO_BRITONS
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -266,7 +266,7 @@ secondary_colour			red 150, green 215, blue 255
 loading_logo				loading_screen/symbols/symbol128_armenia.tga
 standard_index				13
 logo_index					FACTION_LOGO_ARMENIA
-small_logo_index			SMALL_FACTION_LOGO_ARMENIA
+small_logo_index			FACTION_LOGO_ARMENIA
 triumph_value				5
 intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
 victory_movie				fmv/victory/eastern_outro_320x240.wmv
@@ -286,7 +286,7 @@ secondary_colour			red 0, green 0, blue 0
 loading_logo				loading_screen/symbols/symbol128_dacia.tga
 standard_index				14
 logo_index					FACTION_LOGO_DACIA
-small_logo_index			SMALL_FACTION_LOGO_DACIA
+small_logo_index			FACTION_LOGO_DACIA
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -306,7 +306,7 @@ secondary_colour			red 165, green 20, blue 20
 loading_logo				loading_screen/symbols/symbol128_greek_cities.tga
 standard_index				15
 logo_index					FACTION_LOGO_GREEK_CITIES
-small_logo_index			SMALL_FACTION_LOGO_GREEK_CITIES
+small_logo_index			FACTION_LOGO_GREEK_CITIES
 triumph_value				5
 intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv
@@ -326,7 +326,7 @@ secondary_colour			red 225, green 215, blue 200
 loading_logo				loading_screen/symbols/symbol128_numidia.tga
 standard_index				16
 logo_index					FACTION_LOGO_NUMIDIA
-small_logo_index			SMALL_FACTION_LOGO_NUMIDIA
+small_logo_index			FACTION_LOGO_NUMIDIA
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/carthage_outro_320x240.wmv
@@ -346,7 +346,7 @@ secondary_colour			red 255, green 255, blue 139
 loading_logo				loading_screen/symbols/symbol128_scythia.tga
 standard_index				17
 logo_index					FACTION_LOGO_SCYTHIA
-small_logo_index			SMALL_FACTION_LOGO_SCYTHIA
+small_logo_index			FACTION_LOGO_SCYTHIA
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -366,7 +366,7 @@ secondary_colour			red 240, green 230, blue 190
 loading_logo				loading_screen/symbols/symbol128_spain.tga
 standard_index				18
 logo_index					FACTION_LOGO_SPAIN
-small_logo_index			SMALL_FACTION_LOGO_SPAIN
+small_logo_index			FACTION_LOGO_SPAIN
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -386,7 +386,7 @@ secondary_colour			red 0, green 0, blue 0
 loading_logo				loading_screen/symbols/symbol128_thrace.tga
 standard_index				19
 logo_index					FACTION_LOGO_THRACE
-small_logo_index			SMALL_FACTION_LOGO_THRACE
+small_logo_index			FACTION_LOGO_THRACE
 triumph_value				5
 intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv
@@ -408,7 +408,7 @@ secondary_colour			red 255, green 255, blue 255
 loading_logo				loading_screen/symbols/symbol128_sciria_01.tga
 standard_index				32
 logo_index					FACTION_LOGO_SCIRIA_01
-small_logo_index			SMALL_FACTION_LOGO_SCIRIA_01
+small_logo_index			FACTION_LOGO_SCIRIA_01
 triumph_value				5
 intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
@@ -429,7 +429,7 @@ secondary_colour			red 78, green 144, blue 174
 loading_logo				loading_screen/symbols/symbol128_slave.tga
 standard_index				33
 logo_index					FACTION_LOGO_MAURYANS
-small_logo_index			SMALL_FACTION_LOGO_MAURYANS
+small_logo_index			FACTION_LOGO_MAURYANS
 triumph_value				5
 intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
 victory_movie				fmv/victory/eastern_outro_320x240.wmv
@@ -450,7 +450,7 @@ secondary_colour			red 90, green 75, blue 40
 loading_logo				loading_screen/symbols/symbol128_slaves.tga
 standard_index				20
 logo_index					FACTION_LOGO_SLAVES
-small_logo_index			SMALL_FACTION_LOGO_SLAVES
+small_logo_index			FACTION_LOGO_SLAVES
 triumph_value				5
 intro_movie					fmv/intros/julii_intro_final.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv

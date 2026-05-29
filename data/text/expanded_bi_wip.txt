@@ -1,4 +1,372 @@
-¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
+;{CALEDONIANS_01}						Caledonians
+;{EMT_CALEDONIANS_01_SPY}				Caledonian Spy
+;{EMT_CALEDONIANS_01_ASSASSIN}				Caledonian Assassin
+;{EMT_CALEDONIANS_01_DIPLOMAT}				Caledonian Diplomat
+;{EMT_CALEDONIANS_01_ADMIRAL}				Caledonian Navy
+;{EMT_CALEDONIANS_01_GENERAL}				Caledonian Army
+;{EMT_CALEDONIANS_01_NAMED_CHARACTER}			Caledonian Family Member
+;{EMT_CALEDONIANS_01_MERCHANT}				Caledonian Merchant
+;{EMT_CALEDONIANS_01_VILLAGE}				Caledonian Village
+;{EMT_CALEDONIANS_01_TOWN}				Caledonian Town
+;{EMT_CALEDONIANS_01_LARGE_TOWN}			Caledonian Large Town
+;{EMT_CALEDONIANS_01_CITY}				Caledonian City
+;{EMT_CALEDONIANS_01_LARGE_CITY}			Caledonian Large City
+;{EMT_CALEDONIANS_01_HUGE_CITY}			Caledonian Huge City
+;{EMT_CALEDONIANS_01_CAPITAL}				Caledonian Capital
+;{EMT_CALEDONIANS_01_FORT}				Caledonian Fort
+;{EMT_CALEDONIANS_01_PORT}				Caledonian Port
+;{EMT_CALEDONIANS_01_DOCK}				Caledonian Docks
+;{EMT_CALEDONIANS_01_FISHING_VILLAGE}			Caledonian Fishing Village
+;{EMT_CALEDONIANS_01_FACTION_LEADER}			Caledonian Faction Leader
+;{EMT_CALEDONIANS_01_FACTION_HEIR}			Caledonian Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_CALEDONIANS_01}		Your forces attack an army of Caledonians
+;{EMT_YOUR_FORCES_ATTACK_NAVY_CALEDONIANS_01}		Your forces attack a navy of Caledonians
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_CALEDONIANS_01}		Your forces ambush an army of Caledonians
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_CALEDONIANS_01}	    Your forces are attacked by an army of Caledonians
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_CALEDONIANS_01}	    Your forces are attacked by a navy of Caledonians
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_CALEDONIANS_01}	    Your forces are ambushed by an army of Caledonians
+
+;{EMT_VICTORY_CALEDONIANS_01}				The Caledonians are victorious
+
+;{EMT_VICTORY_DESCR_CALEDONIANS_01}		*Insert caledonian victory text here*
+;{EMT_DEFEATED_BY_CALEDONIANS_01}		*Insert defeated by caledonians text here*
+;{EMT_SHORT_VICTORY_CALEDONIANS_01}		*Insert caledonian short victory text here*
+
+;{CALEDONIANS_01_DESCR}			Caledonians\n!Insert faction strengths here!
+
+;{VOLUNTII_01}						Voluntii
+;{EMT_VOLUNTII_01_SPY}				Voluntii Spy
+;{EMT_VOLUNTII_01_ASSASSIN}				Voluntii Assassin
+;{EMT_VOLUNTII_01_DIPLOMAT}				Voluntii Diplomat
+;{EMT_VOLUNTII_01_ADMIRAL}				Voluntii Navy
+;{EMT_VOLUNTII_01_GENERAL}				Voluntii Army
+;{EMT_VOLUNTII_01_NAMED_CHARACTER}			Voluntii Family Member
+;{EMT_VOLUNTII_01_MERCHANT}				Voluntii Merchant
+;{EMT_VOLUNTII_01_VILLAGE}				Voluntian Village
+;{EMT_VOLUNTII_01_TOWN}				Voluntian Town
+;{EMT_VOLUNTII_01_LARGE_TOWN}			Voluntian Large Town
+;{EMT_VOLUNTII_01_CITY}				Voluntian City
+;{EMT_VOLUNTII_01_LARGE_CITY}			Voluntian Large City
+;{EMT_VOLUNTII_01_HUGE_CITY}			Voluntian Huge City
+;{EMT_VOLUNTII_01_CAPITAL}				Voluntian Capital
+;{EMT_VOLUNTII_01_FORT}				Voluntian Fort
+;{EMT_VOLUNTII_01_PORT}				Voluntian Port
+;{EMT_VOLUNTII_01_DOCK}				Voluntian Docks
+;{EMT_VOLUNTII_01_FISHING_VILLAGE}			Voluntian Fishing Village
+;{EMT_VOLUNTII_01_FACTION_LEADER}			Voluntii Faction Leader
+;{EMT_VOLUNTII_01_FACTION_HEIR}			Voluntii Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_VOLUNTII_01}		Your forces attack an army of Voluntii
+;{EMT_YOUR_FORCES_ATTACK_NAVY_VOLUNTII_01}		Your forces attack a navy of Voluntii
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_VOLUNTII_01}		Your forces ambush an army of Voluntii
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_VOLUNTII_01}	Your forces are attacked by an army of Voluntii
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_VOLUNTII_01}	Your forces are attacked by a navy of Voluntii
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_VOLUNTII_01}	Your forces are ambushed by an army of Voluntii
+
+;{EMT_VICTORY_VOLUNTII_01}				The Voluntii are victorious
+
+;{EMT_VICTORY_DESCR_VOLUNTII_01}		*Insert voluntii victory text here*
+;{EMT_DEFEATED_BY_VOLUNTII_01}		*Insert defeated by voluntii text here*
+;{EMT_SHORT_VICTORY_VOLUNTII_01}		*Insert voluntii short victory text here*
+
+;{VOLUNTII_01_DESCR}			Voluntii\n!Insert faction strengths here!
+
+;{CORIONDI_01}						Coriondi
+;{EMT_CORIONDI_01_SPY}				Coriondi Spy
+;{EMT_CORIONDI_01_ASSASSIN}				Coriondi Assassin
+;{EMT_CORIONDI_01_DIPLOMAT}				Coriondi Diplomat
+;{EMT_CORIONDI_01_ADMIRAL}				Coriondi Navy
+;{EMT_CORIONDI_01_GENERAL}				Coriondi Army
+;{EMT_CORIONDI_01_NAMED_CHARACTER}			Coriondi Family Member
+;{EMT_CORIONDI_01_MERCHANT}				Coriondi Merchant
+;{EMT_CORIONDI_01_VILLAGE}				Coriondian Village
+;{EMT_CORIONDI_01_TOWN}				Coriondian Town
+;{EMT_CORIONDI_01_LARGE_TOWN}			Coriondian Large Town
+;{EMT_CORIONDI_01_CITY}				Coriondian City
+;{EMT_CORIONDI_01_LARGE_CITY}			Coriondian Large City
+;{EMT_CORIONDI_01_HUGE_CITY}			Coriondian Huge City
+;{EMT_CORIONDI_01_CAPITAL}				Coriondian Capital
+;{EMT_CORIONDI_01_FORT}				Coriondian Fort
+;{EMT_CORIONDI_01_PORT}				Coriondian Port
+;{EMT_CORIONDI_01_DOCK}				Coriondian Docks
+;{EMT_CORIONDI_01_FISHING_VILLAGE}			Coriondian Fishing Village
+;{EMT_CORIONDI_01_FACTION_LEADER}			Coriondi Faction Leader
+;{EMT_CORIONDI_01_FACTION_HEIR}			Coriondi Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_CORIONDI_01}		Your forces attack an army of Coriondi
+;{EMT_YOUR_FORCES_ATTACK_NAVY_CORIONDI_01}		Your forces attack a navy of Coriondi
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_CORIONDI_01}		Your forces ambush an army of Coriondi
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_CORIONDI_01}	Your forces are attacked by an army of Coriondi
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_CORIONDI_01}	Your forces are attacked by a navy of Coriondi
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_CORIONDI_01}	Your forces are ambushed by an army of Coriondi
+
+;{EMT_VICTORY_CORIONDI_01}				The Coriondi are victorious
+
+;{EMT_VICTORY_DESCR_CORIONDI_01}		*Insert coriondi victory text here*
+;{EMT_DEFEATED_BY_CORIONDI_01}		*Insert defeated by coriondi text here*
+;{EMT_SHORT_VICTORY_CORIONDI_01}		*Insert coriondi short victory text here*
+
+;{CORIONDI_01_DESCR}			Coriondi\n!Insert faction strengths here!
+
+;{NOK_CULTURE_01}						Nok Culture
+;{EMT_NOK_CULTURE_01_SPY}				Nok Spy
+;{EMT_NOK_CULTURE_01_ASSASSIN}				Nok Assassin
+;{EMT_NOK_CULTURE_01_DIPLOMAT}				Nok Diplomat
+;{EMT_NOK_CULTURE_01_ADMIRAL}				Nok Navy
+;{EMT_NOK_CULTURE_01_GENERAL}				Nok Army
+;{EMT_NOK_CULTURE_01_NAMED_CHARACTER}			Nok Family Member
+;{EMT_NOK_CULTURE_01_MERCHANT}				Nok Merchant
+;{EMT_NOK_CULTURE_01_VILLAGE}				Nok Village
+;{EMT_NOK_CULTURE_01_TOWN}				Nok Town
+;{EMT_NOK_CULTURE_01_LARGE_TOWN}			Nok Large Town
+;{EMT_NOK_CULTURE_01_CITY}				Nok City
+;{EMT_NOK_CULTURE_01_LARGE_CITY}			Nok Large City
+;{EMT_NOK_CULTURE_01_HUGE_CITY}			Nok Huge City
+;{EMT_NOK_CULTURE_01_CAPITAL}				Nok Capital
+;{EMT_NOK_CULTURE_01_FORT}				Nok Fort
+;{EMT_NOK_CULTURE_01_PORT}				Nok Port
+;{EMT_NOK_CULTURE_01_DOCK}				Nok Docks
+;{EMT_NOK_CULTURE_01_FISHING_VILLAGE}			Nok Fishing Village
+;{EMT_NOK_CULTURE_01_FACTION_LEADER}			Nok Faction Leader
+;{EMT_NOK_CULTURE_01_FACTION_HEIR}			Nok Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_NOK_CULTURE_01}		Your forces attack an army of the Nok Culture
+;{EMT_YOUR_FORCES_ATTACK_NAVY_NOK_CULTURE_01}		Your forces attack a navy of the Nok Culture
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_NOK_CULTURE_01}		Your forces ambush an army of the Nok Culture
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_NOK_CULTURE_01}     Your forces are attacked by an army of the Nok Culture
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_NOK_CULTURE_01}	    Your forces are attacked by a navy of the Nok Culture
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_NOK_CULTURE_01}	    Your forces are ambushed by an army of the Nok Culture
+
+;{EMT_VICTORY_NOK_CULTURE_01}				The Nok are victorious
+
+;{EMT_VICTORY_DESCR_NOK_CULTURE_01}		*Insert nok culture victory text here*
+;{EMT_DEFEATED_BY_NOK_CULTURE_01}		*Insert defeated by nok culture text here*
+;{EMT_SHORT_VICTORY_NOK_CULTURE_01}		*Insert nok culture short victory text here*
+
+;{NOK_CULTURE_01_DESCR}			Nok Culture\n!Insert faction strengths here!
+
+;{AREVACI_01}						Arevaci
+;{EMT_AREVACI_01_SPY}				Arevaci Spy
+;{EMT_AREVACI_01_ASSASSIN}				Arevaci Assassin
+;{EMT_AREVACI_01_DIPLOMAT}				Arevaci Diplomat
+;{EMT_AREVACI_01_ADMIRAL}				Arevaci Navy
+;{EMT_AREVACI_01_GENERAL}				Arevaci Army
+;{EMT_AREVACI_01_NAMED_CHARACTER}			Arevaci Family Member
+;{EMT_AREVACI_01_MERCHANT}				Arevaci Merchant
+;{EMT_AREVACI_01_VILLAGE}				Arevacian Village
+;{EMT_AREVACI_01_TOWN}				Arevacian Town
+;{EMT_AREVACI_01_LARGE_TOWN}			Arevacian Large Town
+;{EMT_AREVACI_01_CITY}				Arevacian City
+;{EMT_AREVACI_01_LARGE_CITY}			Arevacian Large City
+;{EMT_AREVACI_01_HUGE_CITY}			Arevacian Huge City
+;{EMT_AREVACI_01_CAPITAL}				Arevacian Capital
+;{EMT_AREVACI_01_FORT}				Arevacian Fort
+;{EMT_AREVACI_01_PORT}				Arevacian Port
+;{EMT_AREVACI_01_DOCK}				Arevacian Docks
+;{EMT_AREVACI_01_FISHING_VILLAGE}			Arevacian Fishing Village
+;{EMT_AREVACI_01_FACTION_LEADER}			Arevaci Faction Leader
+;{EMT_AREVACI_01_FACTION_HEIR}			Arevaci Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_AREVACI_01}		Your forces attack an army of Arevaci
+;{EMT_YOUR_FORCES_ATTACK_NAVY_AREVACI_01}		Your forces attack a navy of Arevaci
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_AREVACI_01}		Your forces ambush an army of Arevaci
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_AREVACI_01}	    Your forces are attacked by an army of Arevaci
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_AREVACI_01}	    Your forces are attacked by a navy of Arevaci
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_AREVACI_01}	    Your forces are ambushed by an army of Arevaci
+
+;{EMT_VICTORY_AREVACI_01}				The Arevaci are victorious
+
+;{EMT_VICTORY_DESCR_AREVACI_01}		*Insert arevaci victory text here*
+;{EMT_DEFEATED_BY_AREVACI_01}		*Insert defeated by arevaci text here*
+;{EMT_SHORT_VICTORY_AREVACI_01}		*Insert arevaci short victory text here*
+
+;{AREVACI_01_DESCR}			Arevaci\n!Insert faction strengths here!
+
+;{ZHOU_01}						Zhou
+;{EMT_ZHOU_01_SPY}				Zhou Spy
+;{EMT_ZHOU_01_ASSASSIN}				Zhou Assassin
+;{EMT_ZHOU_01_DIPLOMAT}				Zhou Diplomat
+;{EMT_ZHOU_01_ADMIRAL}				Zhou Navy
+;{EMT_ZHOU_01_GENERAL}				Zhou Army
+;{EMT_ZHOU_01_NAMED_CHARACTER}			Zhou Family Member
+;{EMT_ZHOU_01_MERCHANT}				Zhou Merchant
+;{EMT_ZHOU_01_VILLAGE}				Zhou Village
+;{EMT_ZHOU_01_TOWN}				Zhou Town
+;{EMT_ZHOU_01_LARGE_TOWN}			Zhou Large Town
+;{EMT_ZHOU_01_CITY}				Zhou City
+;{EMT_ZHOU_01_LARGE_CITY}			Zhou Large City
+;{EMT_ZHOU_01_HUGE_CITY}			Zhou Huge City
+;{EMT_ZHOU_01_CAPITAL}				Zhou Capital
+;{EMT_ZHOU_01_FORT}				Zhou Fort
+;{EMT_ZHOU_01_PORT}				Zhou Port
+;{EMT_ZHOU_01_DOCK}				Zhou Docks
+;{EMT_ZHOU_01_FISHING_VILLAGE}			Zhou Fishing Village
+;{EMT_ZHOU_01_FACTION_LEADER}			Zhou Faction Leader
+;{EMT_ZHOU_01_FACTION_HEIR}			Zhou Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_ZHOU_01}		Your forces attack an army of Zhou
+;{EMT_YOUR_FORCES_ATTACK_NAVY_ZHOU_01}		Your forces attack a navy of Zhou
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_ZHOU_01}		Your forces ambush an army of Zhou
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_ZHOU_01}	    Your forces are attacked by an army of Zhou
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_ZHOU_01}	    Your forces are attacked by a navy of Zhou
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_ZHOU_01}	    Your forces are ambushed by an army of Zhou
+
+;{EMT_VICTORY_ZHOU_01}				The Zhou are victorious
+
+;{EMT_VICTORY_DESCR_ZHOU_01}		*Insert zhou victory text here*
+;{EMT_DEFEATED_BY_ZHOU_01}		*Insert defeated by zhou text here*
+;{EMT_SHORT_VICTORY_ZHOU_01}		*Insert zhou short victory text here*
+
+;{ZHOU_01_DESCR}			Zhou\n!Insert faction strengths here!
+
+;{QIN_01}						Qin
+;{EMT_QIN_01_SPY}				Qin Spy
+;{EMT_QIN_01_ASSASSIN}				Qin Assassin
+;{EMT_QIN_01_DIPLOMAT}				Qin Diplomat
+;{EMT_QIN_01_ADMIRAL}				Qin Navy
+;{EMT_QIN_01_GENERAL}				Qin Army
+;{EMT_QIN_01_NAMED_CHARACTER}			Qin Family Member
+;{EMT_QIN_01_MERCHANT}				Qin Merchant
+;{EMT_QIN_01_VILLAGE}				Qin Village
+;{EMT_QIN_01_TOWN}				Qin Town
+;{EMT_QIN_01_LARGE_TOWN}			Qin Large Town
+;{EMT_QIN_01_CITY}				Qin City
+;{EMT_QIN_01_LARGE_CITY}			Qin Large City
+;{EMT_QIN_01_HUGE_CITY}			Qin Huge City
+;{EMT_QIN_01_CAPITAL}				Qin Capital
+;{EMT_QIN_01_FORT}				Qin Fort
+;{EMT_QIN_01_PORT}				Qin Port
+;{EMT_QIN_01_DOCK}				Qin Docks
+;{EMT_QIN_01_FISHING_VILLAGE}			Qin Fishing Village
+;{EMT_QIN_01_FACTION_LEADER}			Qin Faction Leader
+;{EMT_QIN_01_FACTION_HEIR}			Qin Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_QIN_01}		Your forces attack an army of Qin
+;{EMT_YOUR_FORCES_ATTACK_NAVY_QIN_01}		Your forces attack a navy of Qin
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_QIN_01}		Your forces ambush an army of Qin
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_QIN_01}	    Your forces are attacked by an army of Qin
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_QIN_01}	    Your forces are attacked by a navy of Qin
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_QIN_01}	    Your forces are ambushed by an army of Qin
+
+;{EMT_VICTORY_QIN_01}				The Qin are victorious
+
+;{EMT_VICTORY_DESCR_QIN_01}		*Insert qin victory text here*
+;{EMT_DEFEATED_BY_QIN_01}		*Insert defeated by qin text here*
+;{EMT_SHORT_VICTORY_QIN_01}		*Insert qin short victory text here*
+
+;{QIN_01_DESCR}			Qin\n!Insert faction strengths here!
+
+;{ILLYRIA_01}						Illyria
+;{EMT_ILLYRIA_01_SPY}				Illyrian Spy
+;{EMT_ILLYRIA_01_ASSASSIN}				Illyrian Assassin
+;{EMT_ILLYRIA_01_DIPLOMAT}				Illyrian Diplomat
+;{EMT_ILLYRIA_01_ADMIRAL}				Illyrian Navy
+;{EMT_ILLYRIA_01_GENERAL}				Illyrian Army
+;{EMT_ILLYRIA_01_NAMED_CHARACTER}			Illyrian Family Member
+;{EMT_ILLYRIA_01_MERCHANT}				Illyrian Merchant
+;{EMT_ILLYRIA_01_VILLAGE}				Illyrian Village
+;{EMT_ILLYRIA_01_TOWN}				Illyrian Town
+;{EMT_ILLYRIA_01_LARGE_TOWN}			Illyrian Large Town
+;{EMT_ILLYRIA_01_CITY}				Illyrian City
+;{EMT_ILLYRIA_01_LARGE_CITY}			Illyrian Large City
+;{EMT_ILLYRIA_01_HUGE_CITY}			Illyrian Huge City
+;{EMT_ILLYRIA_01_CAPITAL}				Illyrian Capital
+;{EMT_ILLYRIA_01_FORT}				Illyrian Fort
+;{EMT_ILLYRIA_01_PORT}				Illyrian Port
+;{EMT_ILLYRIA_01_DOCK}				Illyrian Docks
+;{EMT_ILLYRIA_01_FISHING_VILLAGE}			Illyrian Fishing Village
+;{EMT_ILLYRIA_01_FACTION_LEADER}			Illyrian Faction Leader
+;{EMT_ILLYRIA_01_FACTION_HEIR}			Illyrian Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_ILLYRIA_01}		Your forces attack an army of Illyria
+;{EMT_YOUR_FORCES_ATTACK_NAVY_ILLYRIA_01}		Your forces attack a navy of Illyria
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_ILLYRIA_01}		Your forces ambush an army of Illyria
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_ILLYRIA_01}	    Your forces are attacked by an army of Illyria
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_ILLYRIA_01}	    Your forces are attacked by a navy of Illyria
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_ILLYRIA_01}	    Your forces are ambushed by an army of Illyria
+
+;{EMT_VICTORY_ILLYRIA_01}				The Illyrians are victorious
+
+;{EMT_VICTORY_DESCR_ILLYRIA_01}		*Insert illyria victory text here*
+;{EMT_DEFEATED_BY_ILLYRIA_01}		*Insert defeated by illyria text here*
+;{EMT_SHORT_VICTORY_ILLYRIA_01}		*Insert illyria short victory text here*
+
+;{ILLYRIA_01_DESCR}			Illyria\n!Insert faction strengths here!
+
+;{MASSILIA_01}						Massilia
+;{EMT_MASSILIA_01_SPY}				Massilian Spy
+;{EMT_MASSILIA_01_ASSASSIN}				Massilian Assassin
+;{EMT_MASSILIA_01_DIPLOMAT}				Massilian Diplomat
+;{EMT_MASSILIA_01_ADMIRAL}				Massilian Navy
+;{EMT_MASSILIA_01_GENERAL}				Massilian Army
+;{EMT_MASSILIA_01_NAMED_CHARACTER}			Massilian Family Member
+;{EMT_MASSILIA_01_MERCHANT}				Massilian Merchant
+;{EMT_MASSILIA_01_VILLAGE}				Massilian Village
+;{EMT_MASSILIA_01_TOWN}				Massilian Town
+;{EMT_MASSILIA_01_LARGE_TOWN}			Massilian Large Town
+;{EMT_MASSILIA_01_CITY}				Massilian City
+;{EMT_MASSILIA_01_LARGE_CITY}			Massilian Large City
+;{EMT_MASSILIA_01_HUGE_CITY}			Massilian Huge City
+;{EMT_MASSILIA_01_CAPITAL}				Massilian Capital
+;{EMT_MASSILIA_01_FORT}				Massilian Fort
+;{EMT_MASSILIA_01_PORT}				Massilian Port
+;{EMT_MASSILIA_01_DOCK}				Massilian Docks
+;{EMT_MASSILIA_01_FISHING_VILLAGE}			Massilian Fishing Village
+;{EMT_MASSILIA_01_FACTION_LEADER}			Massilian Faction Leader
+;{EMT_MASSILIA_01_FACTION_HEIR}			Massilian Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_MASSILIA_01}		Your forces attack an army of Massilia
+;{EMT_YOUR_FORCES_ATTACK_NAVY_MASSILIA_01}		Your forces attack a navy of Massilia
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_MASSILIA_01}		Your forces ambush an army of Massilia
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_MASSILIA_01}	    Your forces are attacked by an army of Massilia
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_MASSILIA_01}	    Your forces are attacked by a navy of Massilia
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_MASSILIA_01}	    Your forces are ambushed by an army of Massilia
+
+;{EMT_VICTORY_MASSILIA_01}				The Massilians are victorious
+
+;{EMT_VICTORY_DESCR_MASSILIA_01}		*Insert massilia victory text here*
+;{EMT_DEFEATED_BY_MASSILIA_01}		*Insert defeated by massilia text here*
+;{EMT_SHORT_VICTORY_MASSILIA_01}		*Insert massilia short victory text here*
+
+;{MASSILIA_01_DESCR}			Massilia\n!Insert faction strengths here!
+
+;{AESTII_01}						Aestii
+;{EMT_AESTII_01_SPY}				Aestii Spy
+;{EMT_AESTII_01_ASSASSIN}				Aestii Assassin
+;{EMT_AESTII_01_DIPLOMAT}				Aestii Diplomat
+;{EMT_AESTII_01_ADMIRAL}				Aestii Navy
+;{EMT_AESTII_01_GENERAL}				Aestii Army
+;{EMT_AESTII_01_NAMED_CHARACTER}			Aestii Family Member
+;{EMT_AESTII_01_MERCHANT}				Aestii Merchant
+;{EMT_AESTII_01_VILLAGE}				Aestian Village
+;{EMT_AESTII_01_TOWN}				Aestian Town
+;{EMT_AESTII_01_LARGE_TOWN}			Aestian Large Town
+;{EMT_AESTII_01_CITY}				Aestian City
+;{EMT_AESTII_01_LARGE_CITY}			Aestian Large City
+;{EMT_AESTII_01_HUGE_CITY}			Aestian Huge City
+;{EMT_AESTII_01_CAPITAL}				Aestian Capital
+;{EMT_AESTII_01_FORT}				Aestian Fort
+;{EMT_AESTII_01_PORT}				Aestian Port
+;{EMT_AESTII_01_DOCK}				Aestian Docks
+;{EMT_AESTII_01_FISHING_VILLAGE}			Aestian Fishing Village
+;{EMT_AESTII_01_FACTION_LEADER}			Aestii Faction Leader
+;{EMT_AESTII_01_FACTION_HEIR}			Aestii Faction Heir
+
+;{EMT_YOUR_FORCES_ATTACK_ARMY_AESTII_01}		Your forces attack an army of Aestii
+;{EMT_YOUR_FORCES_ATTACK_NAVY_AESTII_01}		Your forces attack a navy of Aestii
+;{EMT_YOUR_FORCES_AMBUSH_ARMY_AESTII_01}		Your forces ambush an army of Aestii
+;{EMT_YOUR_FORCES_ATTACKED_ARMY_AESTII_01}	    Your forces are attacked by an army of Aestii
+;{EMT_YOUR_FORCES_ATTACKED_NAVY_AESTII_01}	    Your forces are attacked by a navy of Aestii
+;{EMT_YOUR_FORCES_AMBUSHED_ARMY_AESTII_01}	    Your forces are ambushed by an army of Aestii
+
+;{EMT_VICTORY_AESTII_01}				The Aestii are victorious
+
+;{EMT_VICTORY_DESCR_AESTII_01}		*Insert aestii victory text here*
+;{EMT_DEFEATED_BY_AESTII_01}		*Insert defeated by aestii text here*
+;{EMT_SHORT_VICTORY_AESTII_01}		*Insert aestii short victory text here*
+
+;{AESTII_01_DESCR}			Aestii\n!Insert faction strengths here!¬Strings that use a base enumeration and add to it with a faction index to attain the proper string
 ¬ alemanni, empire_east, empire_west, empire_east_rebels, empire_west_rebels, franks, huns, sarmatians, sassanids, saxons, vandals, goths, 
 ¬ white_huns, ostrogoths, romano_british, slavs, celts, slave
 
