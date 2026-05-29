@@ -5040,7 +5040,7 @@ settlement
 	region Sybene_Aethiopis_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -14543,6 +14543,20 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator greek_cities
+	building
+	{
+		type core_building governors_house
+	}
+}
+settlement
+{
+	level town
+	region Dioskourea_R
+
+	year_founded 0
+	population 450
+	plan_set default_set
+	faction_creator egypt
 	building
 	{
 		type core_building governors_house
@@ -40612,7 +40626,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
 ;	Axum
-character,	sub_faction egypt, Shabaka, named character, age 40, , x 509, y 186
+character,	sub_faction egypt, Isetnofet, general, age 20, , x 448, y 205
 
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
@@ -40621,6 +40635,17 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+
+;	Dioskourea
+character,	sub_faction egypt, Isetnofet, general, age 20, , x 652, y 186
+
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 
 ;	Adulis
