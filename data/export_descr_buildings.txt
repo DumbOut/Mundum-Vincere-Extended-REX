@@ -4066,3 +4066,95 @@ building temple_of_argeadai
     {
     }
 }
+building temple_of_nikaea_massilia
+{
+    levels temple_of_nikaea_massilia_shrine temple_of_nikaea_massilia_temple temple_of_nikaea_massilia_large_temple temple_of_nikaea_massilia_awesome_temple temple_of_nikaea_massilia_pantheon 
+    {
+        temple_of_nikaea_massilia_shrine requires factions { massilia_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 2
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_nikaea_massilia_temple
+            }
+        }
+        temple_of_nikaea_massilia_temple requires factions { massilia_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 3
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_nikaea_massilia_large_temple
+            }
+        }
+        temple_of_nikaea_massilia_large_temple requires factions { massilia_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                recruits_exp_bonus bonus 1
+                weapon_missile bonus 1
+                law_bonus bonus 3
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_nikaea_massilia_awesome_temple
+            }
+        }
+        temple_of_nikaea_massilia_awesome_temple requires factions { massilia_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 5
+                recruits_exp_bonus bonus 3
+                weapon_missile bonus 2
+                law_bonus bonus 3
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_nikaea_massilia_pantheon
+            }
+        }
+        temple_of_nikaea_massilia_pantheon requires factions { massilia_01, } 
+        {
+            capability
+            {
+                recruits_exp_bonus bonus 4
+                taxable_income_bonus bonus 4
+                happiness_bonus bonus 5
+                law_bonus bonus 4
+                weapon_missile bonus 3
+                trade_base_income_bonus bonus 3
+                farming_level bonus 4
+            }
+            construction  6 
+            cost  7010 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}

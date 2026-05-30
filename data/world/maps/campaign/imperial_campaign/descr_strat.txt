@@ -14323,7 +14323,7 @@ settlement
     region Heraclea_Caecabarea_R
 
     year_founded 0
-    population 1000
+    population 900
     plan_set default_set
     faction_creator massilia_01
 	building
@@ -14333,6 +14333,20 @@ settlement
 	building
 	{
 		type defenses stone_wall
+	}
+}
+settlement
+{
+    level town
+    region Nicaea_Monoicus_R
+
+    year_founded 0
+    population 500
+    plan_set default_set
+    faction_creator massilia_01
+	building
+	{
+		type core_building governors_house
 	}
 }
 
@@ -14347,7 +14361,6 @@ unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
@@ -14357,7 +14370,16 @@ traits GoodCommander 1, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+
+;	Nicaea Monoicus
+character	Epimenes Aulouporid, named character, age 37, , x 164, y 499
+traits GoodCommander 4
+army
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -14369,6 +14391,7 @@ character_record		Atreus Aulouporid, 	male, command 5, influence 3, management 2
 
 relative 	Comanus Aulouporid, 	Clymene,		Dymnos Aulouporid,	Meriones Aulouporid,	Basilides Aulouporid,	Demophon Aulouporid,	Atreus Aulouporid,	end
 relative 	Deinias Aulouporid,		end
+relative 	Epimenes Aulouporid,		end
 
 ;faction	aestii_01, balanced smith
 ;denari	5000
