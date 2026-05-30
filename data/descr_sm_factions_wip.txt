@@ -701,16 +701,16 @@ can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction						aliens_01
-culture						greek
-symbol						models_strat/symbol_aliens_01.CAS
-rebel_symbol				models_strat/symbol_greek_rebel.CAS
-primary_colour				red 0, green 255, blue 0
-secondary_colour			red 244, green 244, blue 244
-loading_logo				loading_screen/symbols/symbol128_aliens_01.tga
+faction						seth_01
+culture						egyptian
+symbol						models_strat/symbol_seth_01.CAS
+rebel_symbol				models_strat/symbol_egypt_rebel.CAS
+primary_colour				red 224, green 168, blue 0
+secondary_colour			red 209, green 28, blue 0
+loading_logo				loading_screen/symbols/symbol128_seth_01.tga
 standard_index				19
-logo_index					FACTION_LOGO_ALIENS_01
-small_logo_index			SMALL_FACTION_LOGO_ALIENS_01
+logo_index					FACTION_LOGO_SETH_01
+small_logo_index			SMALL_FACTION_LOGO_SETH_01
 triumph_value				5
 intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
 victory_movie				fmv/victory/greek_outro_320x240.wmv

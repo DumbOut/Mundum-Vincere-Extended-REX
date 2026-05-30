@@ -39,7 +39,7 @@ nonplayable
 ;	aedui_01
 ;	allobroges_01
 ;	bituriges_01
-;	aliens_01
+;	seth_01
 	romans_senate
 	slave
 end
@@ -14413,19 +14413,19 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x , y 
 
-;faction aliens_01, balanced_smith
+;faction seth_01, balanced_smith
 ;denari 200000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
 ;{
 ;	level large_town
-;	region BlastRadius_R
+;	region Domain_Of_Seth_R
 
 ;	year_founded 0
 ;	population 2100
 ;	plan_set default_set
-;	faction_creator aliens_01
+;	faction_creator seth_01
 ;	building
 ;	{
 ;		type core_building governors_villa

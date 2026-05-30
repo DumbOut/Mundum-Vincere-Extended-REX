@@ -4592,3 +4592,14 @@ model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_med
 model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type		qin_crossbowman
+skeleton		fs_archer, fs_swordsman
+indiv_range	40
+texture		qin_01,	mve_rex/data/models_unit/textures/Qin_Crossbowman_qin.TGA
+texture		slave,	mve_rex/data/models_unit/textures/Qin_Crossbowman_slave.TGA	
+model_flexi				mve_rex/data/models_unit/Qin_Crossbowman.cas, 15
+model_flexi				mve_rex/data/models_unit/Qin_Crossbowman100.cas, 30
+model_flexi				mve_rex/data/models_unit/Qin_Crossbowman200.cas, 40
+model_flexi				mve_rex/data/models_unit/Qin_Crossbowman300.cas, max
+model_tri	400, 0.5f, 0.5f, 0.5f
