@@ -621,26 +621,6 @@ can_sap						yes
 prefers_naval_invasions		yes
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction						massilia_01
-culture						greek
-symbol						models_strat/symbol_massilia_01.CAS
-rebel_symbol				models_strat/symbol_greek_rebel.CAS
-primary_colour				red 0, green 25, blue 59
-secondary_colour			red 131, green 71, blue 0
-loading_logo				loading_screen/symbols/symbol128_massilia_01.tga
-standard_index				41
-logo_index					FACTION_LOGO_MASSILIA_01
-small_logo_index			SMALL_FACTION_LOGO_MASSILIA_01
-triumph_value				5
-intro_movie					fmv/intros/greek_intro_640x480_bars.wmv
-victory_movie				fmv/victory/greek_outro_320x240.wmv
-defeat_movie				fmv/lose/greeks_eliminated.wmv
-death_movie					fmv/death/death_greek_grass_320x240.wmv
-custom_battle_availability	yes
-can_sap						yes
-prefers_naval_invasions		yes
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;
 faction						aestii_01
 culture						barbarian
 symbol						models_strat/symbol_aestii_01.CAS
@@ -660,7 +640,7 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;
+
 faction						aedui_01
 culture						barbarian
 symbol						models_strat/symbol_aedui_01.CAS
@@ -680,7 +660,7 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;
+
 faction						allobroges_01
 culture						barbarian
 symbol						models_strat/symbol_allobroges_01.CAS
@@ -700,7 +680,7 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;
+
 faction						bituriges_01
 culture						barbarian
 symbol						models_strat/symbol_bituriges_01.CAS
