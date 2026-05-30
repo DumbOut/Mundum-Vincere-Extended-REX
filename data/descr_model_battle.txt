@@ -916,6 +916,7 @@ texture				greek_cities, data/models_unit/textures/officer_greek_general_greece.
 texture				seleucid, data/models_unit/textures/officer_greek_general_seleucid.tga
 texture				macedon, data/models_unit/textures/officer_greek_general_macedon.tga
 texture				thrace, data/models_unit/textures/officer_greek_general_thrace.tga
+texture				massilia_01, mve_rex/data/models_unit/textures/officer_greek_general_massilia_01.tga
 model_flexi			data/models_unit/officer_greek_general_high.cas, 15
 model_flexi			data/models_unit/officer_greek_general_med.cas, 30
 model_flexi			data/models_unit/officer_greek_general_low.cas, 40
@@ -930,14 +931,15 @@ skeleton_elephant	fs_forest_elephant_rider
 skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
-texture				greek_cities, data/models_unit/textures/officer_greek_lesser_general_greece.tga
-texture				seleucid, data/models_unit/textures/officer_greek_lesser_general_seleucid.tga
-texture				macedon, data/models_unit/textures/officer_greek_lesser_general_macedon.tga
-texture				thrace, data/models_unit/textures/officer_greek_lesser_general_thrace.tga
-model_flexi			data/models_unit/officer_greek_lesser_general_high.cas, 15
-model_flexi			data/models_unit/officer_greek_lesser_general_med.cas, 30
-model_flexi			data/models_unit/officer_greek_lesser_general_low.cas, 40
-model_flexi			data/models_unit/officer_greek_lesser_general_lowest.cas, max
+texture				greek_cities, data/models_unit/textures/officer_greek_general_greece.tga
+texture				seleucid, data/models_unit/textures/officer_greek_general_seleucid.tga
+texture				macedon, data/models_unit/textures/officer_greek_general_macedon.tga
+texture				thrace, data/models_unit/textures/officer_greek_general_thrace.tga
+texture				massilia_01, mve_rex/data/models_unit/textures/officer_greek_general_massilia_01.tga
+model_flexi			data/models_unit/officer_greek_general_high.cas, 15
+model_flexi			data/models_unit/officer_greek_general_med.cas, 30
+model_flexi			data/models_unit/officer_greek_general_low.cas, 40
+model_flexi			data/models_unit/officer_greek_general_lowest.cas, max
 model_sprite		60.0, data/sprites/greek_lesser_general_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5
 
@@ -2549,7 +2551,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_militia_hoplite_seleuc
 texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
-texture				massilia_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
+texture				massilia_01, mve_rex/data/models_unit/textures/unit_greek_militia_hoplite_massilia_01.tga
 model_flexi			data/models_unit/unit_greek_hoplite_militia_high.cas, 15
 model_flexi			data/models_unit/unit_greek_hoplite_militia_med.cas, 30
 model_flexi			data/models_unit/unit_greek_hoplite_militia_low.cas, 40
