@@ -4580,3 +4580,15 @@ model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantr
 model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type                        subsaharan_spearmen
+
+skeleton                    fs_s1_semi_fast_javelinman, fs_semi_fast_spearman
+indiv_range			40
+texture                     nok_culture_01, mve_rex/data/models_unit/textures/unit_subsaharan_spearmen.tga
+texture                     slave, mve_rex/data/models_unit/textures/unit_subsaharan_spearmen.tga
+model_flexi                 mve_rex/data/models_unit/unit_subsaharan_spearmen_high.cas, 15
+model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_med.cas, 30
+model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_low.cas, 40
+model_flexi                 mve_rex/data/characters/unit_subsaharan_spearmen_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
