@@ -194,67 +194,9 @@ strat_model		mauryan_general
 battle_model	mauryan_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;                    faction			caledonians_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	celt_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			voluntii_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	celt_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			coriondi_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	celt_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			nok_culture_01
-;            dictionary		2
-;            strat_model		sm_egypt_general
-;            battle_model	egyptian_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			arevaci_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	celt_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			zhou_01
-;            dictionary		15
-;            strat_model		sm_eastern_general
-;            battle_model	east_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			qin_01
-;            dictionary		15
-;            strat_model		sm_eastern_general
-;            battle_model	east_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			illyria_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	celt_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			massilia_01
-;            dictionary		2
-;            strat_model		sm_greek_general
-;            battle_model	greek_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			aestii_01
-;            dictionary		2
-;            strat_model		sm_barb_general
-;            battle_model	german_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 type			general
 
 actions	moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, exchange
@@ -428,77 +370,8 @@ strat_model		mauryan_lesser_general
 battle_model	mauryan_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			caledonians_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	celt_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			voluntii_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	celt_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			coriondi_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	celt_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			nok_culture_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_egypt_lesser_general
-;            battle_model	egyptian_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			arevaci_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	celt_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			zhou_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_eastern_lesser_general
-;            battle_model	east_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			qin_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_eastern_lesser_general
-;            battle_model	east_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			illyria_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	celt_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			massilia_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_greek_lesser_general
-;            battle_model	greek_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
-;            faction			aestii_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_barb_lesser_general
-;            battle_model	german_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 
 type			spy
 

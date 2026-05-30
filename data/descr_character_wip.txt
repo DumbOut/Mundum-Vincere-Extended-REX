@@ -236,12 +236,6 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			massilia_01
-;            dictionary		2
-;            strat_model		sm_greek_general
-;            battle_model	greek_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
 ;            faction			aestii_01
 ;            dictionary		2
 ;            strat_model		sm_barb_general
@@ -252,6 +246,24 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            dictionary		2
 ;            strat_model		sm_barb_general
 ;            battle_model	celt_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			allobroges_01
+;            dictionary		2
+;            strat_model		sm_barb_general
+;            battle_model	celt_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			bituriges_01
+;            dictionary		2
+;            strat_model		sm_barb_general
+;            battle_model	celt_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			seth_01
+;            dictionary		2
+;            strat_model		sm_egypt_general
+;            battle_model	egyptian_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -477,18 +489,39 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;            battle_model	celt_lesser_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-;            faction			massilia_01
-;            dictionary		2
-;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
-;            strat_model		sm_greek_lesser_general
-;            battle_model	greek_lesser_general
-;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
-
 ;            faction			aestii_01
 ;            dictionary		2
 ;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
 ;            strat_model		sm_barb_lesser_general
 ;            battle_model	german_lesser_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			aedui_01
+;            dictionary		2
+;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
+;            strat_model		sm_barb_lesser_general
+;            battle_model	celt_lesser_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			allobroges_01
+;            dictionary		2
+;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
+;            strat_model		sm_barb_lesser_general
+;            battle_model	celt_lesser_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			bituriges_01
+;            dictionary		2
+;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
+;            strat_model		sm_barb_lesser_general
+;            battle_model	celt_lesser_general
+;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;            faction			seth_01
+;            dictionary		2
+;            strat_card		data/ui/barbarian/agents/card_general_celt.tga
+;            strat_model		sm_egypt_lesser_general
+;            battle_model	egyptian_lesser_general
 ;            battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -613,6 +646,66 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+;faction			caledonians_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			voluntii_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			coriondi_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			nok_culture_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			arevaci_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			zhou_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			qin_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			illyria_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			aestii_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			aedui_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			allobroges_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
+;faction			bituriges_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_spy.tga
+;strat_model		spy
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
@@ -735,6 +828,66 @@ faction			mauryans
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
+
+;faction			caledonians_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			voluntii_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			coriondi_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			nok_culture_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			arevaci_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			zhou_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			qin_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			illyria_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			aestii_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			aedui_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			allobroges_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
+
+;faction			bituriges_01
+;dictionary		2
+;strat_card		data/ui/roman/agents/card_assassin.tga
+;strat_model		assassin
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -859,6 +1012,66 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+;faction			caledonians_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			voluntii_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			coriondi_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			nok_culture_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			arevaci_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			zhou_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			qin_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			illyria_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			aestii_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			aedui_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			allobroges_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
+;faction			bituriges_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+;strat_model		diplomat
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 type			admiral
@@ -981,4 +1194,62 @@ dictionary		2
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
 
+;faction			caledonians_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
 
+;faction			voluntii_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			coriondi_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			nok_culture_01
+;dictionary		2
+;strat_card		data/ui/egyptian/agents/temp_admiral.tga
+;strat_model		egypt_admiral
+
+;faction			arevaci_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			zhou_01
+;dictionary		2
+;strat_card		data/ui/eastern/agents/temp_admiral.tga
+;strat_model		parthia_admiral
+
+;faction			qin_01
+;dictionary		2
+;strat_card		data/ui/eastern/agents/temp_admiral.tga
+;strat_model		parthia_admiral
+
+;faction			illyria_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			aestii_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		german_admiral
+
+;faction			aedui_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			allobroges_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral
+
+;faction			bituriges_01
+;dictionary		2
+;strat_card		data/ui/barbarian/agents/temp_admiral.tga
+;strat_model		gaul_admiral

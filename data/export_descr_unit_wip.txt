@@ -9023,6 +9023,31 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 100, 50, 50, 400
-ownership        nok_culture_01
+ownership        nok_culture_01, slave
 ;; Basic Nubian Spearmen copypaste without phalanx
 ;; For Nok Culture etc
+
+;;CHINESE UNITS - KIND FELLOW MODDERS PLEASE PUT NON-CHINESE ENTRIES ABOVE HERE FOR ORGANIZATION PRETTY PLEASE!!!
+type             qin_crossbowman
+dictionary       qin_crossbowman
+category         infantry
+class            missile
+voice_type       Light_1
+soldier          Qin_Crossbowman, 40, 0, 1
+attributes       sea_faring, hide_improved_forest, can_swim
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      1, 0
+stat_pri         9, 3, crossbow, 90, 20, missile, archery, piercing, none, 70 ,1.1
+stat_pri_attr    ap
+stat_sec         5, 2, no, 0, 0, melee, simple, piercing, sword, 40 ,1
+stat_sec_attr    no
+stat_pri_armour  6, 4, 0, leather
+stat_sec_armour  0, 2, flesh
+stat_heat        2
+stat_ground      2, -6, 3, -6
+stat_mental      8, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  18
+stat_food        60, 300
+stat_cost        2, 2370, 230, 40, 60, 550
+ownership        qin, slave
