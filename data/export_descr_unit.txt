@@ -3962,7 +3962,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 170, 50, 70, 440
-ownership        greek_cities, slave
+ownership        greek_cities, massilia_01, slave
 
 type             greek hoplite elite
 dictionary       greek_hoplite_elite      ; Armoured Hoplites
@@ -3987,7 +3987,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 210, 70, 100, 640
-ownership        greek_cities
+ownership        greek_cities, massilia_01
 
 type             greek hoplite spartan
 dictionary       greek_hoplite_spartan      ; Spartan Hoplites
@@ -4314,7 +4314,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 690, 130, 70, 110, 690
-ownership        greek_cities, seleucid, macedon, slave
+ownership        greek_cities, seleucid, macedon, slave, massilia_01
 
 type             greek general's guard cavalry
 dictionary       greek_generals_guard_cavalry      ; General's Armoured Bodyguard
@@ -5653,7 +5653,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 130, 40, 60, 380
-ownership        slave, macedon, thrace
+ownership        slave, macedon, thrace, massilia_01
 
 type             merc samnite
 dictionary       merc_samnite      ; Samnite Mercenaries
@@ -8271,7 +8271,7 @@ stat_charge_dist 2
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 730, 140, 70, 120, 730
-ownership        slave, greek_cities, egypt, seleucid
+ownership        slave, greek_cities, egypt, seleucid, massilia_01
 
 type             barb infantry german
 dictionary       barb_infantry_german

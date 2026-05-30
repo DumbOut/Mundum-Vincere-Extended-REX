@@ -331,6 +331,7 @@ texture				scythia, data/models_unit/textures/mount_horse_light_scythia.tga
 texture				seleucid, data/models_unit/textures/mount_horse_light_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_light_senate.tga
 texture				slave, data/models_unit/textures/mount_horse_light_rebel.tga
+texture				massilia_01, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				spain, data/models_unit/textures/mount_horse_light_spain.tga
 texture				thrace, data/models_unit/textures/horse_light_thrace.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
@@ -389,6 +390,7 @@ texture				scythia, data/models_unit/textures/horse_medium_scythia.tga
 texture				seleucid, data/models_unit/textures/horse_medium_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_medium_senate.tga
 texture				slave, data/models_unit/textures/horse_medium_rebel.tga
+texture				massilia_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				spain, data/models_unit/textures/horse_medium_spain.tga
 texture				thrace, data/models_unit/textures/horse_medium_thrace.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
@@ -448,6 +450,7 @@ texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
 texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
+texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
 model_flexi			data/models_unit/mount_horse_light_300.CAS, 30
@@ -505,6 +508,7 @@ texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
 texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
+texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
 model_flexi			data/models_unit/mount_horse_light_300.CAS, 30
@@ -2479,6 +2483,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_peasant_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peasant_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peasant_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_peasant_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_roman_peasant_med.cas, 30
 model_flexi			data/models_unit/unit_roman_peasant_low.cas, 40
@@ -2524,6 +2529,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_medium_cavalry_seleuci
 texture				greek_cities, data/models_unit/textures/unit_greek_medium_cavalry_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_medium_cavalry_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
 model_flexi			data/models_unit/unit_greek_medium_cavalry_high.cas, 15
 model_flexi			data/models_unit/unit_greek_medium_cavalry_med.cas, 30
 model_flexi			data/models_unit/unit_greek_medium_cavalry_low.cas, 40
@@ -2543,6 +2549,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_militia_hoplite_seleuc
 texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
 model_flexi			data/models_unit/unit_greek_hoplite_militia_high.cas, 15
 model_flexi			data/models_unit/unit_greek_hoplite_militia_med.cas, 30
 model_flexi			data/models_unit/unit_greek_hoplite_militia_low.cas, 40
@@ -2558,6 +2565,7 @@ type				greek_hoplite
 skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
 texture				slave, data/models_unit/textures/unit_greek_hoplite_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_hoplite_greek.tga
 model_flexi			data/models_unit/unit_greek_hoplite_high.cas, 15
 model_flexi			data/models_unit/unit_greek_hoplite_med.cas, 30
@@ -2586,6 +2594,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_peasant_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peasant_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peasant_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_peasant_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_roman_peasant_med.cas, 30
 model_flexi			data/models_unit/unit_roman_peasant_low.cas, 40
@@ -2621,6 +2630,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_peltast_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peltast_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peltast_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_peltast_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 model_flexi			data/models_unit/unit_greek_peltast_high.cas, 15
 model_flexi			data/models_unit/unit_greek_peltast_med.cas, 30
 model_flexi			data/models_unit/unit_greek_peltast_low.cas, 40
@@ -2639,6 +2649,7 @@ texture				seleucid, data/models_unit/textures/unit_greek_peltast_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peltast_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peltast_thrace.tga
 texture				slave, data/models_unit/textures/unit_greek_peltast_slave.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 model_flexi			data/models_unit/unit_greek_peltast_high.cas, 15
 model_flexi			data/models_unit/unit_greek_peltast_med.cas, 30
 model_flexi			data/models_unit/unit_greek_peltast_low.cas, 40

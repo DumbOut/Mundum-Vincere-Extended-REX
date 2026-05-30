@@ -26,6 +26,7 @@ unlockable
 end
 nonplayable
 	mauryans
+	massilia_01
 ;	caledonians_01
 ;	voluntii_01
 ;	coriondi_01
@@ -34,7 +35,6 @@ nonplayable
 ;	zhou_01
 ;	qin_01
 ;	illyria_01
-;	massilia_01
 ;	aestii_01
 	romans_senate
 	slave
@@ -45,7 +45,7 @@ end_date	1041 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 15
+brigand_spawn_value 20
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11718,29 +11718,6 @@ settlement
 settlement
 {
 	level large_town
-	region Transalpine_Gaul
-
-	year_founded 0
-	population 2200
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level large_town
 	region Aetolia
 
 	year_founded 0
@@ -12796,16 +12773,6 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Sinope
 character	Antigonos, general, age 33, , x 433, y 499
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
-
-;	Massilia
-character	Antigonos, general, age 33, , x 151, y 496
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -13959,7 +13926,7 @@ settlement
 	region Saharsa_R
 
 	year_founded 0
-	population 900
+	population 800
 	plan_set default_set
 	faction_creator mauryans
 	building
@@ -13991,7 +13958,7 @@ settlement
 	}
 }
 ;	Pertalis
-character	Bindusara Maurya, named character, faction leader, age 51, , x 990, y 383
+character	Bindusara Maurya, named character, age 51, , x 990, y 383
 traits GoodCommander 2, GoodAdministrator 2
 army
 unit		Indian General		exp 1 armour 0 weapon_lvl 0
@@ -14045,7 +14012,6 @@ traits GoodCommander 1, GoodAdministrator 1
 army
 unit		Indian General		exp 1 armour 0 weapon_lvl 0
 unit		Indian Light Cavalry			exp 0 armour 0 weapon_lvl 0
-unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Javelin Men			exp 0 armour 0 weapon_lvl 0
 
@@ -14327,34 +14293,55 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 252, y 529
 
-;faction	massilia_01, balanced smith
-;denari	6000
+faction	massilia_01, balanced smith
+denari	1350
+settlement
+{
+    level city
+    region Transalpine_Gaul
 
-; relative settlement and character entries for rebels are NOT removed yet.
-;settlement
-;{
-;    level city
-;    region Transalpine_Gaul
-;
-;    year_founded 0
-;    population 2100
-;    plan_set default_set
-;    faction_creator massilia_01
-;    building
-;    {
-;        type core_building governors_villa
-;    }
-;	building
-;	{
-;		type defenses stone_wall
-;	}
-;	building
-;	{
-;		type port_buildings port
-;	}
-;}
+    year_founded 0
+    population 2200
+    plan_set default_set
+    faction_creator massilia_01
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 152, y 495
+;	Massilia
+character	Comanus Aulouporid, named character, age 42, , x 151, y 496
+traits GoodCommander 4, GoodAdministrator 2
+army
+unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+
+character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Meriones Aulouporid, 	male, command 4, influence 0, management 2, subterfuge 0, age 14, alive, never_a_leader
+character_record		Basilides Aulouporid, 	male, command 5, influence 3, management 2, subterfuge 0, age 13, alive, never_a_leader
+character_record		Demophon Aulouporid, 	male, command 5, influence 3, management 2, subterfuge 0, age 12, alive, never_a_leader
+character_record		Atreus Aulouporid, 	male, command 5, influence 3, management 2, subterfuge 0, age 11, alive, never_a_leader
+
+
+relative 	Comanus Aulouporid, 	Clymene,		Dymnos Aulouporid,	Meriones Aulouporid,	Basilides Aulouporid,	Demophon Aulouporid,	Atreus Aulouporid,	end
 
 ;faction	aestii_01, balanced smith
 ;denari	5000
@@ -14386,7 +14373,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, faction leader, age 42, , x 288, y 680
 
 faction	slave, balanced_smith
-denari	-25962500
+denari	-45962500
 settlement
 {
 	level town
@@ -50019,9 +50006,9 @@ core_attitudes	mauryans,		600		slave
 ;core_attitudes	arevaci_01,		600		slave
 ;core_attitudes	zhou_01,		600		slave
 ;core_attitudes	illyria_01,		600		slave
-;core_attitudes	massilia_01,		600		slave
+core_attitudes	massilia_01,		600		slave
 ;core_attitudes	aestii_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, massilia_01, aestii_01
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -50060,8 +50047,8 @@ faction_relationships	mauryans,			600		slave
 ;faction_relationships	arevaci_01,		600		slave
 ;faction_relationships	zhou_01,		600		slave
 ;faction_relationships	illyria_01,		600		slave
-;faction_relationships	massilia_01,		600		slave
+faction_relationships	massilia_01,		600		slave
 ;faction_relationships	aestii_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, massilia_01, aestii_01
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
