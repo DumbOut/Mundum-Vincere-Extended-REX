@@ -92,13 +92,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 127
+max_age_before_death 160
 
 ; Age the random old-age death check begins (default 60)
-old_age 60
+old_age 80
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 120
+max_age 160
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -128,10 +128,10 @@ min_adoption_age 16
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 50
+max_age_for_conception 60
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 12
+max_num_ancillaries 18
 
 ; Max children a character can have (default 4)
 max_num_children 150
