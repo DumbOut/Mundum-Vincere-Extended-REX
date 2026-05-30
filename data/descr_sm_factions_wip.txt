@@ -699,3 +699,24 @@ death_movie					fmv/death/death_gaul_snow_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+faction						bituriges_01
+culture						barbarian
+symbol						models_strat/symbol_bituriges_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 200, green 149, blue 75
+secondary_colour			red 74, green 136, blue 88
+loading_logo				loading_screen/symbols/symbol128_bituriges_01.tga
+standard_index				45
+logo_index					FACTION_LOGO_BITURIGES_01
+small_logo_index			SMALL_FACTION_LOGO_BITURIGES_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/gauls_eliminated.wmv
+death_movie					fmv/death/death_gaul_snow_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+
