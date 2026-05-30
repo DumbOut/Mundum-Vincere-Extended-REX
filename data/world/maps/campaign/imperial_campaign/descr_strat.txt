@@ -14294,7 +14294,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, faction leader, age 42, , x 252, y 529
 
 faction	massilia_01, balanced smith
-denari	1550
+denari	1950
 settlement
 {
     level city
@@ -14323,7 +14323,7 @@ settlement
     region Heraclea_Caecabarea_R
 
     year_founded 0
-    population 900
+    population 800
     plan_set default_set
     faction_creator massilia_01
 	building
@@ -14358,10 +14358,6 @@ unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
 ;	Heraclea Caecabarea
@@ -14423,7 +14419,7 @@ relative 	Epimenes Aulouporid,		end
 ;character FirstName LastName, named character, faction leader, age 42, , x 288, y 680
 
 faction	slave, balanced_smith
-denari	-45962500
+denari	-71962500
 settlement
 {
 	level town
