@@ -659,3 +659,43 @@ death_movie					fmv/death/death_german_snow_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+faction						aedui_01
+culture						barbarian
+symbol						models_strat/symbol_aedui_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 166, green 36, blue 22
+secondary_colour			red 219, green 145, blue 36
+loading_logo				loading_screen/symbols/symbol128__01.tga
+standard_index				43
+logo_index					FACTION_LOGO_AEDUI_01
+small_logo_index			SMALL_FACTION_LOGO_AEDUI_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/gauls_eliminated.wmv
+death_movie					fmv/death/death_gaul_snow_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+faction						allobroges_01
+culture						barbarian
+symbol						models_strat/symbol_allobroges_01.CAS
+rebel_symbol				models_strat/symbol_barb_rebel.CAS
+primary_colour				red 119, green 181, blue 89
+secondary_colour			red 116, green 55, blue 52
+loading_logo				loading_screen/symbols/symbol128_allobroges_01.tga
+standard_index				44
+logo_index					FACTION_LOGO_ALLOBROGES_01
+small_logo_index			SMALL_FACTION_LOGO_ALLOBROGES_01
+triumph_value				5
+intro_movie					fmv/intros/barbarian_intro_640x480_bars.wmv
+victory_movie				fmv/victory/barbarian_outro_320x240.wmv
+defeat_movie				fmv/lose/gauls_eliminated.wmv
+death_movie					fmv/death/death_gaul_snow_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
