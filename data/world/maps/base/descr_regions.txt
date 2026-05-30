@@ -1402,13 +1402,21 @@ Bovianum_R
 ; *********************************************************
 ; *********************************************************
 ; 11. Alps
-; Number of Provinces: 21
+; Number of Provinces: 22
 
 Transalpine_Gaul
 	Massilia
 	massilia_01
-	Vocontii
+	Ionians
 	117 198 13
+	none
+	5
+	9
+Heraclea_Caecabarea_R
+	Heraclea_Caecabarea
+	massilia_01
+	Ionians
+	62 88 127
 	none
 	5
 	9

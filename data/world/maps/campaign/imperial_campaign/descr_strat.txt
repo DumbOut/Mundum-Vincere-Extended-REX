@@ -14294,7 +14294,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, faction leader, age 42, , x 252, y 529
 
 faction	massilia_01, balanced smith
-denari	1350
+denari	1550
 settlement
 {
     level city
@@ -14317,9 +14317,27 @@ settlement
 		type port_buildings port
 	}
 }
+settlement
+{
+    level large_town
+    region Heraclea_Caecabarea_R
+
+    year_founded 0
+    population 1000
+    plan_set default_set
+    faction_creator massilia_01
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+}
 
 ;	Massilia
-character	Comanus Aulouporid, named character, age 42, , x 151, y 496
+character	Comanus Aulouporid, named character, age 40, , x 151, y 496
 traits GoodCommander 4, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
@@ -14333,7 +14351,15 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
-character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+;	Heraclea Caecabarea
+character	Deinias Aulouporid, named character, age 38, , x 162, y 496
+traits GoodCommander 1, GoodAdministrator 2
+army
+unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+
+character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 character_record		Meriones Aulouporid, 	male, command 4, influence 0, management 2, subterfuge 0, age 14, alive, never_a_leader
 character_record		Basilides Aulouporid, 	male, command 5, influence 3, management 2, subterfuge 0, age 13, alive, never_a_leader
@@ -14342,6 +14368,7 @@ character_record		Atreus Aulouporid, 	male, command 5, influence 3, management 2
 
 
 relative 	Comanus Aulouporid, 	Clymene,		Dymnos Aulouporid,	Meriones Aulouporid,	Basilides Aulouporid,	Demophon Aulouporid,	Atreus Aulouporid,	end
+relative 	Deinias Aulouporid,		end
 
 ;faction	aestii_01, balanced smith
 ;denari	5000
