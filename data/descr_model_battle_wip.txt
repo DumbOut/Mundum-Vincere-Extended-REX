@@ -4607,7 +4607,7 @@ model_tri	400, 0.5f, 0.5f, 0.5f
 type				gallic_hoplite
 skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
-texture				massilia, data/models_unit/textures/unit_greek_gallic_hoplite_massilia_01.tga
+texture				massilia_01, data/models_unit/textures/unit_greek_gallic_hoplite_massilia_01.tga
 texture				slave, data/models_unit/textures/unit_greek_gallic_hoplite_slave_01.tga
 model_flexi			data/models_unit/UNIT_GREEK_GALLIC_HOPLITE_HIGH.cas, 15
 model_flexi			data/models_unit/UNIT_GREEK_GALLIC_HOPLITE_MED.cas, 30
