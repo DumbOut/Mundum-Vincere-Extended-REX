@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faction Forge — RTW DDS Mask & Recolor Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+:root{
+  --bg:#13110d; --bg2:#1b1813; --panel:#211d16; --panel2:#2a251c;
+  --line:#3a3225; --line2:#4c4130;
+  --ink:#e9e0cf; --ink-dim:#a99c81; --ink-faint:#73684f;
+  --bronze:#c89b4a; --bronze-bright:#e8c074; --bronze-deep:#8a6322;
+  --blood:#8c2f24; --blood-bright:#c2503f;
+  --verd:#5e7a5a; --steel:#7f8b96;
+  --good:#7faf6b; --bad:#c2503f;
+  --shadow:0 8px 28px rgba(0,0,0,.55);
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{
+  background:
+    radial-gradient(1200px 700px at 78% -10%, rgba(200,155,74,.10), transparent 60%),
+    radial-gradient(900px 600px at -5% 110%, rgba(140,47,36,.10), transparent 55%),
+    var(--bg);
+  color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:13px; overflow:hidden;
+}
+body::before{ /* grain */
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.04; z-index:9999;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.app{display:flex;flex-direction:column;height:100vh}
+
+/* ---------- TOP BAR ---------- */
+header{
+  display:flex;align-items:center;gap:18px;padding:10px 16px;
+  border-bottom:1px solid var(--line);
+  background:linear-gradient(180deg,var(--panel2),var(--panel));
+  box-shadow:0 2px 0 #000a;
+  z-index:10;
+}
+.brand{display:flex;align-items:center;gap:12px;min-width:max-content}
+.crest{width:34px;height:34px;border-radius:3px;display:grid;place-items:center;
+  background:linear-gradient(160deg,var(--bronze-bright),var(--bronze-deep));
+  color:#241a09;font-family:"Cinzel";font-weight:900;font-size:19px;
+  box-shadow:inset 0 1px 2px #fff7,0 2px 6px #0008}
+.brand h1{font-family:"Cinzel";font-weight:900;font-size:17px;letter-spacing:.5px;margin:0;line-height:1}
+.brand .sub{font-family:"IBM Plex Mono";font-size:9.5px;letter-spacing:2.5px;color:var(--bronze);text-transform:uppercase;margin-top:3px}
+.topbtns{display:flex;gap:7px;flex-wrap:wrap;margin-left:auto;align-items:center}
+.filename{font-family:"IBM Plex Mono";font-size:11px;color:var(--ink-dim);
+  background:#0d0b08;border:1px solid var(--line);border-radius:4px;padding:5px 10px;max-width:280px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+button,.btn{font-family:"IBM Plex Sans";font-size:12px;cursor:pointer;color:var(--ink);
+  background:linear-gradient(180deg,var(--panel2),#1d1912);border:1px solid var(--line2);
+  border-radius:5px;padding:7px 12px;transition:.12s;display:inline-flex;align-items:center;gap:6px;line-height:1}
+button:hover,.btn:hover{border-color:var(--bronze);color:var(--bronze-bright);transform:translateY(-1px)}
+button:active{transform:translateY(0)}
+button:disabled{opacity:.4;cursor:not-allowed;transform:none;border-color:var(--line2);color:var(--ink-dim)}
+.btn.primary{background:linear-gradient(180deg,var(--bronze-bright),var(--bronze-deep));color:#1a1305;border-color:#5e430f;font-weight:600}
+.btn.primary:hover{color:#1a1305;filter:brightness(1.08)}
+.btn.danger:hover{border-color:var(--bad);color:var(--blood-bright)}
+.btn.sm{padding:4px 8px;font-size:11px}
+.btn.tiny{padding:3px 6px;font-size:10px}
+
+/* ---------- MAIN GRID ---------- */
+.main{display:grid;grid-template-columns:288px 1fr 320px;flex:1;min-height:0}
+.col{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.col.left{border-right:1px solid var(--line);background:var(--bg2)}
+.col.right{border-left:1px solid var(--line);background:var(--bg2)}
+.scroll{overflow-y:auto;padding:12px;flex:1}
+.scroll::-webkit-scrollbar{width:10px}
+.scroll::-webkit-scrollbar-thumb{background:var(--line2);border-radius:6px;border:2px solid var(--bg2)}
+.scroll::-webkit-scrollbar-track{background:transparent}
+
+.section-h{font-family:"Cinzel";font-weight:700;font-size:12.5px;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--bronze);margin:2px 0 10px;display:flex;align-items:center;gap:8px}
+.section-h::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line2),transparent)}
+.section-h.again{margin-top:22px}
+
+/* ---------- CHANNELS ---------- */
+.chan{background:var(--panel);border:1px solid var(--line);border-radius:7px;margin-bottom:8px;overflow:hidden;transition:.12s}
+.chan.active{border-color:var(--bronze);box-shadow:0 0 0 1px var(--bronze-deep),var(--shadow)}
+.chan-head{display:flex;align-items:center;gap:9px;padding:8px 9px;cursor:pointer}
+.chan-head:hover{background:#ffffff06}
+.swatch{width:26px;height:26px;border-radius:5px;border:1px solid #0008;flex:none;
+  box-shadow:inset 0 1px 2px #fff5,inset 0 -3px 6px #0006;position:relative;cursor:pointer}
+.swatch input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.chan-name{font-weight:600;font-size:12.5px;flex:1;line-height:1.15}
+.chan-name small{display:block;font-family:"IBM Plex Mono";font-size:9px;color:var(--ink-faint);letter-spacing:.5px;text-transform:uppercase;font-weight:400}
+.chan-pix{font-family:"IBM Plex Mono";font-size:10px;color:var(--ink-faint)}
+.chan-eye{width:22px;height:22px;display:grid;place-items:center;border-radius:4px;font-size:13px;opacity:.55}
+.chan-eye:hover{opacity:1;background:#ffffff10}
+.chan-body{padding:0 9px 9px;display:none;flex-direction:column;gap:7px}
+.chan.open .chan-body{display:flex}
+.row{display:flex;align-items:center;gap:8px}
+.row label{font-size:10.5px;color:var(--ink-dim);width:58px;font-family:"IBM Plex Mono";text-transform:uppercase;letter-spacing:.5px}
+input[type=range]{-webkit-appearance:none;height:4px;background:var(--line2);border-radius:3px;flex:1;outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;
+  background:var(--bronze-bright);border:1px solid #0007;cursor:pointer;box-shadow:0 1px 3px #0008}
+.val{font-family:"IBM Plex Mono";font-size:10.5px;color:var(--bronze);width:34px;text-align:right}
+select,input[type=text],textarea{font-family:"IBM Plex Mono";font-size:11px;color:var(--ink);
+  background:#0d0b08;border:1px solid var(--line2);border-radius:4px;padding:5px 7px;outline:none;width:100%}
+select:focus,input:focus,textarea:focus{border-color:var(--bronze)}
+.hex{width:74px;font-family:"IBM Plex Mono";font-size:10.5px;text-align:center}
+
+/* ---------- CENTER / CANVAS ---------- */
+.col.center{position:relative;background:
+  repeating-conic-gradient(#19160f 0 25%, #16130d 0 50%) 50%/22px 22px}
+.toolbar{display:flex;align-items:center;gap:6px;padding:8px 12px;border-bottom:1px solid var(--line);
+  background:linear-gradient(180deg,var(--panel),var(--bg2));z-index:5;flex-wrap:wrap}
+.tool{width:34px;height:34px;padding:0;justify-content:center;font-size:15px}
+.tool.on{background:linear-gradient(180deg,var(--bronze-bright),var(--bronze-deep));color:#1a1305;border-color:#5e430f}
+.sep{width:1px;height:24px;background:var(--line2);margin:0 3px}
+.toolbar .meta{margin-left:auto;font-family:"IBM Plex Mono";font-size:10.5px;color:var(--ink-dim)}
+.canvas-wrap{flex:1;position:relative;overflow:hidden;display:grid;place-items:center}
+#stage{position:absolute;inset:0;width:100%;height:100%;cursor:crosshair}
+.brushsize{display:flex;align-items:center;gap:6px;background:#0d0b08;border:1px solid var(--line2);
+  border-radius:5px;padding:3px 8px}
+.brushsize input{width:90px}
+.brushsize span{font-family:"IBM Plex Mono";font-size:10px;color:var(--ink-dim);min-width:46px}
+.empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;pointer-events:none}
+.empty .box{pointer-events:auto;background:var(--panel);border:1px dashed var(--line2);border-radius:12px;padding:36px 44px;max-width:440px}
+.empty h2{font-family:"Cinzel";color:var(--bronze);margin:0 0 8px}
+.empty p{color:var(--ink-dim);line-height:1.6;margin:0 0 18px}
+
+/* ---------- RIGHT / FACTIONS ---------- */
+.faction{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:8px 9px;margin-bottom:8px;cursor:pointer;transition:.12s}
+.faction:hover{border-color:var(--line2)}
+.faction.active{border-color:var(--bronze);box-shadow:0 0 0 1px var(--bronze-deep)}
+.faction-top{display:flex;align-items:center;gap:8px}
+.faction-name{flex:1;font-weight:600;font-size:12.5px;border:none;background:transparent;padding:2px 0;color:var(--ink)}
+.faction-name:focus{border-bottom:1px solid var(--bronze)}
+.palette{display:flex;gap:3px;margin-top:7px}
+.palette span{flex:1;height:13px;border-radius:2px;border:1px solid #0006}
+.faction-acts{display:flex;gap:4px}
+.field{margin-bottom:10px}
+.field>label{display:block;font-family:"IBM Plex Mono";font-size:10px;letter-spacing:.8px;
+  text-transform:uppercase;color:var(--ink-dim);margin-bottom:4px}
+.hint{font-size:10.5px;color:var(--ink-faint);line-height:1.5;margin:6px 0 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+textarea{resize:vertical;min-height:80px;line-height:1.45}
+details{border:1px solid var(--line);border-radius:7px;background:var(--panel);margin-bottom:10px;overflow:hidden}
+details>summary{cursor:pointer;padding:9px 11px;font-family:"Cinzel";font-weight:700;font-size:11.5px;
+  letter-spacing:1px;text-transform:uppercase;color:var(--bronze);list-style:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"▸ ";color:var(--ink-faint)}
+details[open]>summary::before{content:"▾ "}
+details .inner{padding:0 11px 11px}
+.kbd{font-family:"IBM Plex Mono";font-size:10px;background:#0d0b08;border:1px solid var(--line2);
+  border-radius:3px;padding:1px 5px;color:var(--bronze)}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--panel2);border:1px solid var(--bronze-deep);border-radius:8px;padding:11px 20px;
+  font-size:12.5px;box-shadow:var(--shadow);opacity:0;transition:.25s;z-index:1000;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.cluster-row{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}
+.cluster{width:30px;height:30px;border-radius:5px;border:1px solid #0006;cursor:pointer;position:relative;transition:.1s}
+.cluster:hover{transform:scale(1.08);border-color:var(--bronze)}
+.cluster small{position:absolute;bottom:-1px;right:-1px;background:#000a;font-family:"IBM Plex Mono";
+  font-size:8px;padding:0 2px;border-radius:2px;color:#fff}
+.statusbar{padding:6px 12px;border-top:1px solid var(--line);background:var(--bg2);
+  font-family:"IBM Plex Mono";font-size:10.5px;color:var(--ink-faint);display:flex;gap:16px}
+.statusbar b{color:var(--bronze);font-weight:500}
+input[type=file]{display:none}
+.protectrow{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);
+  border-radius:7px;padding:8px 10px;margin-bottom:8px;cursor:pointer;font-size:11.5px;color:var(--ink-dim)}
+.protectrow:hover{border-color:var(--line2)}
+.protectrow input{width:15px;height:15px;accent-color:var(--bronze)}
+.protectrow span{user-select:none}
+.swap{display:flex;background:#0d0b08;border:1px solid var(--line2);border-radius:5px;overflow:hidden}
+.swap button{border:none;border-radius:0;background:transparent;padding:6px 10px;font-size:11px}
+.swap button.on{background:var(--bronze-deep);color:#fff}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ======= HEADER ======= -->
+  <header>
+    <div class="brand">
+      <div class="crest">SPQR</div>
+      <div>
+        <h1>Faction Forge</h1>
+        <div class="sub">RTW · DDS Mask & Recolor Studio</div>
+      </div>
+    </div>
+    <div class="filename" id="fileLabel">no texture loaded</div>
+    <div class="topbtns">
+      <button class="btn" onclick="dom.fileInput.click()">⊕ Load Texture</button>
+      <button class="btn sm" onclick="saveProject()">💾 Save Project</button>
+      <button class="btn sm" onclick="dom.projInput.click()">📂 Open Project</button>
+      <button class="btn sm danger" onclick="resetAll()">↺ Reset</button>
+    </div>
+  </header>
+
+  <div class="main">
+    <!-- ======= LEFT : CHANNELS ======= -->
+    <div class="col left">
+      <div class="scroll">
+        <div class="section-h">Material Channels</div>
+        <button class="btn primary" style="width:100%;justify-content:center;margin-bottom:8px" onclick="autoMaskAll()">✨ Auto-Mask All Materials</button>
+        <label class="protectrow" title="Cloth channels (primary–quaternary) will never overwrite metal or skin pixels">
+          <input type="checkbox" id="protectChk" checked onchange="state.protectSkinMetal=this.checked;toast(this.checked?'Skin & metal protected':'Protection off')">
+          <span>🛡 Protect skin &amp; metal from cloth recoloring</span>
+        </label>
+        <div class="hint" style="margin:-2px 0 12px">One click segments the texture and assigns each zone to a channel. With protection on, painting or auto-masking the cloth channels can’t bleed into metal or skin. Fine-tune any zone with the brush, magic wand, or the Grow/Shrink/Smooth refine buttons.</div>
+        <div id="channels"></div>
+        <div class="section-h again">Global Recolor</div>
+        <div class="chan" style="padding:9px">
+          <div class="row"><label>Strength</label>
+            <input type="range" id="globalStrength" min="0" max="100" value="100">
+            <span class="val" id="globalStrengthVal">100%</span></div>
+          <div class="hint">Master blend between original texture and the recolored result. Per-channel strength stacks on top of this.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= CENTER : CANVAS ======= -->
+    <div class="col center">
+      <div class="toolbar">
+        <button class="tool" id="t-brush" title="Brush — paint active channel (B)" onclick="setTool('brush')">🖌</button>
+        <button class="tool" id="t-erase" title="Erase mask (E)" onclick="setTool('erase')">🧽</button>
+        <button class="tool" id="t-wand" title="Magic wand — select similar colors globally (W)" onclick="setTool('wand')">✦</button>
+        <button class="tool" id="t-fill" title="Flood fill — contiguous similar colors (F)" onclick="setTool('fill')">🪣</button>
+        <button class="tool" id="t-pick" title="Eyedropper — set active channel color from texture (I)" onclick="setTool('pick')">💧</button>
+        <button class="tool" id="t-pan" title="Pan (Space)" onclick="setTool('pan')">✥</button>
+        <div class="sep"></div>
+        <button class="tool" id="undoBtn" title="Undo (Ctrl+Z)" onclick="undo()" disabled>↶</button>
+        <button class="tool" id="redoBtn" title="Redo (Ctrl+Shift+Z)" onclick="redo()" disabled>↷</button>
+        <div class="sep"></div>
+        <button class="btn primary sm" id="autoMaskBtn" title="One-click: detect all material zones automatically (A)" onclick="autoMaskAll()">✨ Auto-Mask All</button>
+        <div class="sep"></div>
+        <div class="brushsize">
+          <span>Brush <b id="brushVal" style="color:var(--bronze)">14</b></span>
+          <input type="range" id="brushSize" min="1" max="120" value="14">
+        </div>
+        <div class="brushsize" id="tolWrap" style="display:none">
+          <span>Tol <b id="tolVal" style="color:var(--bronze)">28</b></span>
+          <input type="range" id="tolerance" min="1" max="160" value="28">
+        </div>
+        <div class="sep"></div>
+        <div class="swap" id="viewSwap">
+          <button data-v="recolor" class="on" onclick="setView('recolor')">Recolored</button>
+          <button data-v="original" onclick="setView('original')">Original</button>
+        </div>
+        <button class="btn sm" id="maskToggle" onclick="toggleMaskView()">👁 Masks</button>
+        <button class="btn sm" id="isoToggle" title="Show only the active channel's mask" onclick="toggleIsolate()">◉ Solo</button>
+        <div class="brushsize" id="overlayWrap" style="display:none">
+          <span>Overlay</span>
+          <input type="range" id="overlayOp" min="20" max="100" value="70">
+        </div>
+        <div class="meta" id="zoomMeta">100%</div>
+        <button class="btn sm" onclick="fitView()">Fit</button>
+      </div>
+      <div class="canvas-wrap" id="canvasWrap">
+        <canvas id="stage"></canvas>
+        <div class="empty" id="emptyState">
+          <div class="box">
+            <h2>Load a unit texture</h2>
+            <p>Drop or open a Rome: Total War unit atlas — <b>.dds</b> (DXT1/3/5 or uncompressed), <b>.tga</b>, or <b>.png</b>. Then paint each material zone and assign faction palettes.</p>
+            <button class="btn primary" onclick="dom.fileInput.click()">⊕ Choose file</button>
+          </div>
+        </div>
+      </div>
+      <div class="statusbar">
+        <span>Texture: <b id="sbSize">—</b></span>
+        <span>Cursor: <b id="sbCursor">—</b></span>
+        <span>Active: <b id="sbChannel">primary</b></span>
+        <span>Tool: <b id="sbTool">brush</b></span>
+        <span style="margin-left:auto">Faction: <b id="sbFaction">—</b></span>
+      </div>
+    </div>
+
+    <!-- ======= RIGHT : FACTIONS / EXPORT ======= -->
+    <div class="col right">
+      <div class="scroll">
+        <div class="section-h">Factions</div>
+        <div id="factions"></div>
+        <div class="grid2" style="margin-top:8px">
+          <button class="btn sm" onclick="addFaction()">＋ New Faction</button>
+          <button class="btn sm" onclick="duplicateFaction()">⧉ Duplicate</button>
+        </div>
+
+        <div class="section-h again">Export</div>
+        <div class="field">
+          <label>Filename pattern</label>
+          <input type="text" id="pattern" value="east_axe_{faction}.tga.dds">
+          <div class="hint"><span class="kbd">{faction}</span> = faction id · <span class="kbd">{base}</span> = source name. Spaces become underscores, lowercased.</div>
+        </div>
+        <div class="grid2">
+          <div class="field">
+            <label>Format</label>
+            <select id="exportFormat">
+              <option value="dds-dxt3">DDS · DXT3 (RTW default)</option>
+              <option value="dds-dxt5">DDS · DXT5 (alpha)</option>
+              <option value="dds-dxt1">DDS · DXT1 (no alpha)</option>
+              <option value="dds-raw">DDS · 32-bit uncompressed</option>
+              <option value="tga">TGA · 32-bit</option>
+              <option value="png">PNG</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Mipmaps (DDS)</label>
+            <select id="mips">
+              <option value="1">Generate full chain</option>
+              <option value="0">None</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid2">
+          <button class="btn" onclick="exportCurrent()">⤓ Export current</button>
+          <button class="btn primary" onclick="exportAll()">⤓⤓ Export all factions</button>
+        </div>
+        <div class="hint">“Export all” recolors every faction and bundles them into a single <b>.zip</b> using the pattern above.</div>
+
+        <details>
+          <summary>AI Palette Assistant (LLM)</summary>
+          <div class="inner">
+            <p class="hint" style="margin-top:4px">Masks are painted algorithmically (brush / wand / auto-segment). An LLM is best used to <b>invent historically-flavored faction palettes</b>. Generate a prompt, paste it to Claude, then import the JSON it returns.</p>
+            <div class="grid2" style="margin:8px 0">
+              <button class="btn sm" onclick="genLLMPrompt()">⚙ Build prompt</button>
+              <button class="btn sm" onclick="copyText('llmPrompt')">⧉ Copy</button>
+            </div>
+            <textarea id="llmPrompt" placeholder="Click ‘Build prompt’ to generate an LLM request describing your 8 channels…"></textarea>
+            <label style="display:block;font-family:'IBM Plex Mono';font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--ink-dim);margin:10px 0 4px">Paste palette JSON to import</label>
+            <textarea id="llmImport" placeholder='[{"name":"Parthia","primary":"#5a1f6e","secondary":"#caa64a", ...}]'></textarea>
+            <button class="btn sm" style="margin-top:7px" onclick="importLLM()">⮕ Import factions</button>
+          </div>
+        </details>
+
+        <details>
+          <summary>Auto-Segment (k-means)</summary>
+          <div class="inner">
+            <p class="hint" style="margin-top:4px">Cluster the texture into dominant colors. Select a channel on the left, then click a cluster swatch to assign all its pixels to that channel.</p>
+            <div class="row" style="margin:8px 0">
+              <label style="width:auto">Clusters</label>
+              <input type="range" id="kClusters" min="2" max="12" value="8" style="flex:1">
+              <span class="val" id="kVal">8</span>
+              <button class="btn sm" onclick="runKMeans()">Run</button>
+            </div>
+            <div class="cluster-row" id="clusters"></div>
+          </div>
+        </details>
+
+        <details>
+          <summary>Help & RTW Notes</summary>
+          <div class="inner hint" style="line-height:1.65">
+            <p><b>Workflow:</b> Load atlas → pick a channel → paint/wand/auto-segment its zone → repeat for all materials → create factions & set palettes → preview → Export all.</p>
+            <p><b>Recolor modes:</b> <b>Fabric</b> imposes hue+saturation, keeps shading (cloth/dye). <b>Metal</b> keeps highlights & shadow contrast, tints mid-tones (bronze↔steel↔gold). <b>Skin/Hair</b> blends gently. <b>Tint</b> multiplies the source by the target color.</p>
+            <p><b>RTW format:</b> Classic Rome unit textures are usually <b>DXT3</b> with a full mipmap chain; the engine references a <code>.tga</code> name while the file is <code>.dds</code> — hence <code>name.tga.dds</code>. Keep dimensions as powers of two.</p>
+            <p><b>Shortcuts:</b> <span class="kbd">B</span> brush · <span class="kbd">E</span> erase · <span class="kbd">W</span> wand · <span class="kbd">F</span> fill · <span class="kbd">I</span> pick · <span class="kbd">A</span> auto-mask · <span class="kbd">L</span> lock channel · <span class="kbd">X</span> solo · <span class="kbd">Space</span> pan · <span class="kbd">Ctrl+Z</span>/<span class="kbd">Ctrl+Shift+Z</span> undo/redo · <span class="kbd">[</span> <span class="kbd">]</span> brush size · <span class="kbd">1–8</span> select channel.</p>
+            <p><b>Protection & locks:</b> “Protect skin &amp; metal” stops the cloth channels (primary–quaternary) from ever overwriting metal or skin pixels while you paint, wand, or auto-mask — so cloth recolors never bleed onto flesh or armour. Lock 🔒 any channel to freeze it. <b>Refine</b> Grow/Shrink/Smooth cleans up jagged mask edges. Per-channel <b>Saturation</b> and <b>Lightness</b> sliders fine-tune each recolor.</p>
+            <p>Runs fully offline. Projects save to your browser and to a <code>.ffproj.json</code> file. Fonts & zip load from CDN on first run.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input type="file" id="fileInput" accept=".dds,.tga,.png,.jpg,.jpeg,.webp">
+<input type="file" id="projInput" accept=".json,.ffproj,application/json">
+<div class="toast" id="toast"></div>
+
+<script>
+/* ======================================================================
+   FACTION FORGE  —  RTW DDS mask + recolor studio
+   ====================================================================== */
+"use strict";
+
+const CHANNELS = [
+  {key:"primary",   label:"Primary",         desc:"main cloth / tunic", mode:"fabric"},
+  {key:"secondary", label:"Secondary",       desc:"trim / cloak",       mode:"fabric"},
+  {key:"tertiary",  label:"Tertiary",        desc:"accents / sash",     mode:"fabric"},
+  {key:"quaternary",label:"Quaternary",      desc:"detail / pattern",   mode:"fabric"},
+  {key:"metalprim", label:"Metal Primary",   desc:"armour / blade",     mode:"metal"},
+  {key:"metalsec",  label:"Metal Secondary", desc:"trim metal / gold",  mode:"metal"},
+  {key:"skin",      label:"Skin",            desc:"flesh tones",        mode:"skinhair"},
+  {key:"hair",      label:"Hair",            desc:"hair / beard",       mode:"skinhair"},
+];
+// label index in maskMap = channel index + 1 ; 0 = unassigned
+const CH_COLORS = ["#b5482f","#3f6fb0","#caa64a","#6f4a9c","#9aa3ad","#d9b24a","#caa07a","#5a3a24"];
+
+const dom = {};
+["fileInput","projInput","stage","canvasWrap","emptyState","fileLabel","toast",
+ "channels","factions","brushSize","brushVal","tolerance","tolVal","tolWrap",
+ "globalStrength","globalStrengthVal","zoomMeta","sbSize","sbCursor","sbChannel","sbTool","sbFaction",
+ "pattern","exportFormat","mips","llmPrompt","llmImport","kClusters","kVal","clusters","maskToggle"
+].forEach(id=>dom[id]=document.getElementById(id));
+
+const ctx = dom.stage.getContext("2d");
+
+/* ---------------- STATE ---------------- */
+let state = {
+  baseName:"texture",
+  width:0, height:0,
+  srcRGBA:null,          // Uint8ClampedArray source pixels (premask)
+  maskMap:null,          // Uint8Array length w*h, 0 unassigned, 1..8 channel
+  channels:{},           // key -> {color, mode, strength, sat, light, locked, visible}
+  factions:[],
+  activeFaction:0,
+  activeChannel:0,       // index 0..7
+  protectSkinMetal:true, // cloth (1-4) ops never overwrite skin/metal pixels
+};
+CHANNELS.forEach((c,i)=>{ state.channels[c.key]={color:CH_COLORS[i], mode:c.mode, strength:100, sat:100, light:0, locked:false, visible:true}; });
+
+let srcCanvas, recolorCanvas, maskCanvas; // offscreen full-res
+let recolorImage, maskImage;
+let view = {scale:1, ox:0, oy:0};
+let tool="brush", showMasks=false, viewMode="recolor", isolateActive=false, overlayOpacity=0.7;
+let painting=false, panning=false, lastPan=null;
+let recolorDirty=true, maskDirty=true;
+let undoStack=[], redoStack=[];
+
+/* ---------------- MASK PROTECTION + UNDO ---------------- */
+// may a paint op writing `targetLab` (0=erase) overwrite a pixel currently `curLab`?
+function canWrite(targetLab, curLab){
+  if(curLab>0 && state.channels[CHANNELS[curLab-1].key].locked) return false;          // locked zone is untouchable
+  if(state.protectSkinMetal && targetLab>=1 && targetLab<=4 &&
+     (curLab>=5 && curLab<=7)) return false;                                            // cloth must not eat metal/skin
+  return true;
+}
+function pushUndo(){ if(!state.maskMap)return; undoStack.push(state.maskMap.slice());
+  if(undoStack.length>40)undoStack.shift(); redoStack.length=0; updateUndoButtons(); }
+function undo(){ if(!undoStack.length){toast("Nothing to undo");return;} redoStack.push(state.maskMap.slice());
+  state.maskMap=undoStack.pop(); afterMaskChange(); toast("Undo"); }
+function redo(){ if(!redoStack.length){toast("Nothing to redo");return;} undoStack.push(state.maskMap.slice());
+  state.maskMap=redoStack.pop(); afterMaskChange(); toast("Redo"); }
+function afterMaskChange(){ recolorDirty=maskDirty=true; updateRecolor(); updateMask(); draw(); updatePixelCounts(); updateUndoButtons(); }
+function updateUndoButtons(){ const u=document.getElementById("undoBtn"),r=document.getElementById("redoBtn");
+  if(u)u.disabled=!undoStack.length; if(r)r.disabled=!redoStack.length; }
+
+/* ---------------- UTIL ---------------- */
+function toast(msg,bad){ const t=dom.toast; t.textContent=msg; t.style.borderColor=bad?"var(--bad)":"var(--bronze-deep)";
+  t.classList.add("show"); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove("show"),2200); }
+function hexToRgb(h){h=h.replace("#","");if(h.length===3)h=h.split("").map(c=>c+c).join("");
+  return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+function rgbToHex(r,g,b){return "#"+[r,g,b].map(v=>Math.max(0,Math.min(255,v|0)).toString(16).padStart(2,"0")).join("");}
+function clamp(v,a,b){return v<a?a:v>b?b:v;}
+function lerp(a,b,t){return a+(b-a)*t;}
+
+function rgbToHsl(r,g,b){
+  r/=255;g/=255;b/=255;const mx=Math.max(r,g,b),mn=Math.min(r,g,b);let h,s,l=(mx+mn)/2;
+  if(mx===mn){h=s=0;}else{const d=mx-mn;s=l>0.5?d/(2-mx-mn):d/(mx+mn);
+    switch(mx){case r:h=(g-b)/d+(g<b?6:0);break;case g:h=(b-r)/d+2;break;default:h=(r-g)/d+4;}h/=6;}
+  return [h,s,l];
+}
+function hue2rgb(p,q,t){if(t<0)t+=1;if(t>1)t-=1;if(t<1/6)return p+(q-p)*6*t;if(t<1/2)return q;
+  if(t<2/3)return p+(q-p)*(2/3-t)*6;return p;}
+function hslToRgb(h,s,l){let r,g,b;if(s===0){r=g=b=l;}else{const q=l<0.5?l*(1+s):l+s-l*s;const p=2*l-q;
+  r=hue2rgb(p,q,h+1/3);g=hue2rgb(p,q,h);b=hue2rgb(p,q,h-1/3);}return [r*255,g*255,b*255];}
+
+/* ======================================================================
+   DDS / TGA  DECODE
+   ====================================================================== */
+function decodeColorBlock(c0,c1,dxt1){
+  const r0=(c0>>11)&31,g0=(c0>>5)&63,b0=c0&31,r1=(c1>>11)&31,g1=(c1>>5)&63,b1=c1&31;
+  const col=[
+    [(r0<<3)|(r0>>2),(g0<<2)|(g0>>4),(b0<<3)|(b0>>2),255],
+    [(r1<<3)|(r1>>2),(g1<<2)|(g1>>4),(b1<<3)|(b1>>2),255],[0,0,0,255],[0,0,0,255]];
+  if(c0>c1||!dxt1){
+    for(let i=0;i<3;i++){col[2][i]=((2*col[0][i]+col[1][i])/3)|0;col[3][i]=((col[0][i]+2*col[1][i])/3)|0;}
+  }else{for(let i=0;i<3;i++)col[2][i]=((col[0][i]+col[1][i])/2)|0;col[3]=[0,0,0,0];}
+  return col;
+}
+function decodeDXT(dv,off,w,h,out,kind){ // kind: 1,3,5
+  const bw=Math.max(1,(w+3)>>2),bh=Math.max(1,(h+3)>>2);
+  let p=off;
+  for(let by=0;by<bh;by++)for(let bx=0;bx<bw;bx++){
+    let alpha=null;
+    if(kind===3){ alpha=[];for(let i=0;i<8;i++){const byte=dv.getUint8(p+i);alpha.push((byte&15)*17,(byte>>4)*17);} p+=8; }
+    else if(kind===5){ const a0=dv.getUint8(p),a1=dv.getUint8(p+1);const al=[a0,a1];
+      if(a0>a1){for(let i=1;i<7;i++)al.push(((7-i)*a0+i*a1)/7|0);}else{for(let i=1;i<5;i++)al.push(((5-i)*a0+i*a1)/5|0);al.push(0,255);}
+      let bits=0n;for(let i=0;i<6;i++)bits|=BigInt(dv.getUint8(p+2+i))<<BigInt(8*i);
+      alpha=[];for(let i=0;i<16;i++){alpha.push(al[Number((bits>>BigInt(3*i))&7n)]);} p+=8; }
+    const c0=dv.getUint16(p,true),c1=dv.getUint16(p+2,true),idx=dv.getUint32(p+4,true);p+=8;
+    const col=decodeColorBlock(c0,c1,kind===1);
+    for(let py=0;py<4;py++)for(let px=0;px<4;px++){
+      const x=bx*4+px,y=by*4+py;if(x>=w||y>=h)continue;
+      const ci=(idx>>(2*(py*4+px)))&3;const c=col[ci];const o=(y*w+x)*4;
+      out[o]=c[0];out[o+1]=c[1];out[o+2]=c[2];
+      out[o+3]= kind===1 ? (c[3]??255) : alpha[py*4+px];
+    }
+  }
+}
+function maskShift(m){if(!m)return 0;let s=0;while(!((m>>s)&1)&&s<32)s++;return s;}
+function parseDDS(buf){
+  const dv=new DataView(buf);
+  if(dv.getUint32(0,true)!==0x20534444) throw new Error("Not a DDS file");
+  const h=dv.getUint32(12,true),w=dv.getUint32(16,true);
+  const pfFlags=dv.getUint32(80,true),fourCC=dv.getUint32(84,true);
+  const out=new Uint8ClampedArray(w*h*4);
+  const off=128;
+  if(pfFlags&0x4){
+    if(fourCC===0x31545844)decodeDXT(dv,off,w,h,out,1);
+    else if(fourCC===0x33545844)decodeDXT(dv,off,w,h,out,3);
+    else if(fourCC===0x35545844)decodeDXT(dv,off,w,h,out,5);
+    else throw new Error("Unsupported DDS compression (fourCC "+fourCC.toString(16)+")");
+  }else{
+    const bits=dv.getUint32(88,true);const bytes=bits/8;
+    const rM=dv.getUint32(92,true),gM=dv.getUint32(96,true),bM=dv.getUint32(100,true),aM=dv.getUint32(104,true);
+    const rS=maskShift(rM),gS=maskShift(gM),bS=maskShift(bM),aS=maskShift(aM);
+    for(let i=0;i<w*h;i++){let px=0;for(let b=0;b<bytes;b++)px|=dv.getUint8(off+i*bytes+b)<<(8*b);
+      const o=i*4;out[o]=(px&rM)>>>rS;out[o+1]=(px&gM)>>>gS;out[o+2]=(px&bM)>>>bS;out[o+3]=aM?((px&aM)>>>aS):255;}
+  }
+  return {width:w,height:h,rgba:out};
+}
+function parseTGA(buf){
+  const dv=new DataView(buf),u8=new Uint8Array(buf);
+  const idLen=dv.getUint8(0),imgType=dv.getUint8(2);
+  const w=dv.getUint16(12,true),h=dv.getUint16(14,true),bpp=dv.getUint8(16),desc=dv.getUint8(17);
+  const topLeft=(desc&0x20)!==0;const bytespp=bpp/8;
+  let p=18+idLen;const out=new Uint8ClampedArray(w*h*4);
+  const px=new Uint8Array(w*h*bytespp);
+  if(imgType===2||imgType===3){ for(let i=0;i<px.length;i++)px[i]=u8[p+i]; }
+  else if(imgType===10||imgType===11){ let o=0;while(o<w*h*bytespp){const c=u8[p++];const n=(c&0x7f)+1;
+    if(c&0x80){for(let k=0;k<bytespp;k++){const v=u8[p+k];for(let r=0;r<n;r++)px[o+r*bytespp+k]=v;}p+=bytespp;o+=n*bytespp;}
+    else{for(let r=0;r<n*bytespp;r++)px[o++]=u8[p++];}} }
+  else throw new Error("Unsupported TGA type "+imgType);
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++){const sy=topLeft?y:(h-1-y);const si=(sy*w+x)*bytespp;const o=(y*w+x)*4;
+    if(bytespp>=3){out[o]=px[si+2];out[o+1]=px[si+1];out[o+2]=px[si];out[o+3]=bytespp===4?px[si+3]:255;}
+    else{out[o]=out[o+1]=out[o+2]=px[si];out[o+3]=255;}}
+  return {width:w,height:h,rgba:out};
+}
+
+/* ======================================================================
+   DDS / TGA  ENCODE
+   ====================================================================== */
+function pack565(r,g,b){return ((r>>3)<<11)|((g>>2)<<5)|(b>>3);}
+function encodeColorBlock(px){ // px: 16 * [r,g,b,a]; returns {bytes:[c0lo,c0hi,c1lo,c1hi, i0..i3]}
+  let mn=[255,255,255],mx=[0,0,0];
+  for(let i=0;i<16;i++){for(let c=0;c<3;c++){const v=px[i][c];if(v<mn[c])mn[c]=v;if(v>mx[c])mx[c]=v;}}
+  let c0=pack565(mx[0],mx[1],mx[2]),c1=pack565(mn[0],mn[1],mn[2]);
+  if(c0<c1){const t=c0;c0=c1;c1=t;}
+  if(c0===c1){ const idx=new Uint8Array(16); return blockBytes(c0,c1,idx); }
+  const pal=decodeColorBlock(c0,c1,false); // 4-color
+  const idx=new Uint8Array(16);
+  for(let i=0;i<16;i++){let best=0,bd=1e9;for(let j=0;j<4;j++){const dr=px[i][0]-pal[j][0],dg=px[i][1]-pal[j][1],db=px[i][2]-pal[j][2];
+    const d=dr*dr+dg*dg+db*db;if(d<bd){bd=d;best=j;}}idx[i]=best;}
+  return blockBytes(c0,c1,idx);
+}
+function blockBytes(c0,c1,idx){let bits=0;for(let i=0;i<16;i++)bits|=idx[i]<<(2*i);
+  return [c0&255,(c0>>8)&255,c1&255,(c1>>8)&255,bits&255,(bits>>8)&255,(bits>>16)&255,(bits>>24)&255];}
+function encodeAlphaBC3(px){ // 8 bytes interpolated alpha
+  let mn=255,mx=0;for(let i=0;i<16;i++){const a=px[i][3];if(a<mn)mn=a;if(a>mx)mx=a;}
+  const a0=mx,a1=mn;const al=[a0,a1];
+  if(a0>a1){for(let i=1;i<7;i++)al.push(((7-i)*a0+i*a1)/7|0);}else{for(let i=1;i<5;i++)al.push(((5-i)*a0+i*a1)/5|0);al.push(0,255);}
+  let bits=0n;for(let i=0;i<16;i++){let best=0,bd=1e9;for(let j=0;j<8;j++){const d=Math.abs(px[i][3]-al[j]);if(d<bd){bd=d;best=j;}}
+    bits|=BigInt(best)<<BigInt(3*i);}
+  const out=[a0,a1];for(let i=0;i<6;i++)out.push(Number((bits>>BigInt(8*i))&255n));return out;
+}
+function encodeAlphaBC2(px){const out=[];for(let i=0;i<16;i+=2){const a=px[i][3]>>4,b=px[i+1][3]>>4;out.push((b<<4)|a);}return out;}
+function getBlock(rgba,w,h,bx,by){const px=[];for(let py=0;py<4;py++)for(let pxx=0;pxx<4;pxx++){
+  const x=Math.min(w-1,bx*4+pxx),y=Math.min(h-1,by*4+py);const o=(y*w+x)*4;px.push([rgba[o],rgba[o+1],rgba[o+2],rgba[o+3]]);}return px;}
+function encodeDXTlevel(rgba,w,h,kind){
+  const bw=Math.max(1,(w+3)>>2),bh=Math.max(1,(h+3)>>2);
+  const blockSize=kind===1?8:16;const buf=new Uint8Array(bw*bh*blockSize);let p=0;
+  for(let by=0;by<bh;by++)for(let bx=0;bx<bw;bx++){const px=getBlock(rgba,w,h,bx,by);
+    if(kind===3){const a=encodeAlphaBC2(px);for(const v of a)buf[p++]=v;}
+    else if(kind===5){const a=encodeAlphaBC3(px);for(const v of a)buf[p++]=v;}
+    const cb=encodeColorBlock(px);for(const v of cb)buf[p++]=v;}
+  return buf;
+}
+function downsample(rgba,w,h){const nw=Math.max(1,w>>1),nh=Math.max(1,h>>1);const out=new Uint8ClampedArray(nw*nh*4);
+  for(let y=0;y<nh;y++)for(let x=0;x<nw;x++){for(let c=0;c<4;c++){let s=0,n=0;
+    for(let dy=0;dy<2;dy++)for(let dx=0;dx<2;dx++){const sx=Math.min(w-1,x*2+dx),sy=Math.min(h-1,y*2+dy);s+=rgba[(sy*w+sx)*4+c];n++;}
+    out[(y*nw+x)*4+c]=s/n;}}return {rgba:out,w:nw,h:nh};}
+function buildMipChain(rgba,w,h){const levels=[{rgba,w,h}];let cw=w,ch=h,cur=rgba;
+  while(cw>1||ch>1){const d=downsample(cur,cw,ch);levels.push(d);cur=d.rgba;cw=d.w;ch=d.h;}return levels;}
+
+function encodeDDS(rgba,w,h,fmt,withMips){
+  let kind=null,fourCC=0,blockSize=0,raw=false;
+  if(fmt==="dds-dxt1"){kind=1;fourCC=0x31545844;blockSize=8;}
+  else if(fmt==="dds-dxt3"){kind=3;fourCC=0x33545844;blockSize=16;}
+  else if(fmt==="dds-dxt5"){kind=5;fourCC=0x35545844;blockSize=16;}
+  else if(fmt==="dds-raw"){raw=true;}
+  const levels = withMips ? buildMipChain(rgba,w,h) : [{rgba,w,h}];
+  const chunks=[];
+  for(const lv of levels){
+    if(raw){const b=new Uint8Array(lv.w*lv.h*4);for(let i=0;i<lv.w*lv.h;i++){const o=i*4;
+      b[o]=lv.rgba[o+2];b[o+1]=lv.rgba[o+1];b[o+2]=lv.rgba[o];b[o+3]=lv.rgba[o+3];}chunks.push(b);} // BGRA
+    else chunks.push(encodeDXTlevel(lv.rgba,lv.w,lv.h,kind));
+  }
+  let dataLen=0;chunks.forEach(c=>dataLen+=c.length);
+  const buf=new ArrayBuffer(128+dataLen);const dv=new DataView(buf);const u8=new Uint8Array(buf);
+  dv.setUint32(0,0x20534444,true); // 'DDS '
+  dv.setUint32(4,124,true);
+  let flags=0x1|0x2|0x4|0x1000; // caps,height,width,pixelformat
+  flags|= raw?0x8:0x80000; // pitch : linearsize
+  if(withMips)flags|=0x20000;
+  dv.setUint32(8,flags,true);
+  dv.setUint32(12,h,true);dv.setUint32(16,w,true);
+  const linear = raw ? (w*4) : Math.max(1,(w+3)>>2)*Math.max(1,(h+3)>>2)*blockSize;
+  dv.setUint32(20,linear,true);
+  dv.setUint32(24,0,true);
+  dv.setUint32(28,withMips?levels.length:1,true);
+  // pixelformat @76
+  dv.setUint32(76,32,true);
+  if(raw){dv.setUint32(80,0x41,true); // RGB|ALPHAPIXELS
+    dv.setUint32(84,0,true);dv.setUint32(88,32,true);
+    dv.setUint32(92,0x00ff0000,true);dv.setUint32(96,0x0000ff00,true);dv.setUint32(100,0x000000ff,true);dv.setUint32(104,0xff000000,true);
+  }else{dv.setUint32(80,0x4,true);dv.setUint32(84,fourCC,true);}
+  let caps=0x1000;if(withMips)caps|=0x400000|0x8;
+  dv.setUint32(108,caps,true);
+  let o=128;chunks.forEach(c=>{u8.set(c,o);o+=c.length;});
+  return buf;
+}
+function encodeTGA(rgba,w,h){
+  const out=new Uint8Array(18+w*h*4);out[2]=2;out[12]=w&255;out[13]=(w>>8)&255;out[14]=h&255;out[15]=(h>>8)&255;
+  out[16]=32;out[17]=0x28; // 32bpp, top-left, 8 alpha bits
+  let p=18;for(let i=0;i<w*h;i++){const o=i*4;out[p++]=rgba[o+2];out[p++]=rgba[o+1];out[p++]=rgba[o];out[p++]=rgba[o+3];}
+  return out.buffer;
+}
+
+/* ======================================================================
+   LOAD TEXTURE
+   ====================================================================== */
+function ingest(width,height,rgba,name){
+  state.width=width;state.height=height;state.srcRGBA=rgba;state.baseName=name.replace(/\.(tga\.dds|dds|tga|png|jpe?g|webp)$/i,"");
+  state.maskMap=new Uint8Array(width*height);
+  srcCanvas=document.createElement("canvas");srcCanvas.width=width;srcCanvas.height=height;
+  srcCanvas.getContext("2d").putImageData(new ImageData(new Uint8ClampedArray(rgba),width,height),0,0);
+  recolorCanvas=document.createElement("canvas");recolorCanvas.width=width;recolorCanvas.height=height;
+  maskCanvas=document.createElement("canvas");maskCanvas.width=width;maskCanvas.height=height;
+  recolorImage=new ImageData(width,height);maskImage=new ImageData(width,height);
+  recolorDirty=maskDirty=true;
+  dom.emptyState.style.display="none";
+  dom.fileLabel.textContent=name;
+  dom.sbSize.textContent=width+" × "+height;
+  if(state.factions.length===0)seedFactions();
+  fitView();renderChannels();renderFactions();updateRecolor();updateMask();draw();
+  toast("Loaded "+width+"×"+height);
+}
+async function loadFile(file){
+  const name=file.name;const ext=name.toLowerCase();
+  try{
+    if(ext.endsWith(".dds")){const buf=await file.arrayBuffer();const r=parseDDS(buf);ingest(r.width,r.height,r.rgba,name);}
+    else if(ext.endsWith(".tga")){const buf=await file.arrayBuffer();const r=parseTGA(buf);ingest(r.width,r.height,r.rgba,name);}
+    else{const url=URL.createObjectURL(file);const img=new Image();img.onload=()=>{const c=document.createElement("canvas");
+      c.width=img.naturalWidth;c.height=img.naturalHeight;const cx=c.getContext("2d");cx.drawImage(img,0,0);
+      const d=cx.getImageData(0,0,c.width,c.height);ingest(c.width,c.height,d.data,name);URL.revokeObjectURL(url);};
+      img.onerror=()=>toast("Could not decode image",true);img.src=url;}
+  }catch(e){console.error(e);toast("Load failed: "+e.message,true);}
+}
+dom.fileInput.addEventListener("change",e=>{if(e.target.files[0])loadFile(e.target.files[0]);e.target.value="";});
+// drag & drop
+window.addEventListener("dragover",e=>e.preventDefault());
+window.addEventListener("drop",e=>{e.preventDefault();if(e.dataTransfer.files[0])loadFile(e.dataTransfer.files[0]);});
+
+/* ======================================================================
+   RECOLOR ENGINE
+   ====================================================================== */
+function recolorPixel(r,g,b,a, tgt, mode, strength, satMul, lightShift){
+  if(strength<=0) return [r,g,b,a];
+  satMul = (satMul==null?1:satMul); lightShift = (lightShift==null?0:lightShift); // lightShift in -0.5..0.5
+  const [h,s,l]=rgbToHsl(r,g,b);
+  const [th,ts,tl]=tgt.hsl;
+  let nr,ng,nb;
+  if(mode==="tint"){ const k=clamp(1+lightShift,0,2);
+    nr=r*tgt.rgb[0]/255*k; ng=g*tgt.rgb[1]/255*k; nb=b*tgt.rgb[2]/255*k; }
+  else if(mode==="metal"){
+    const midWeight=1-Math.abs(2*l-1);                 // colour lives in midtones; specular & shadow stay neutral
+    const ns=clamp(ts*midWeight*satMul,0,1); const nl=clamp(l+lightShift*0.5,0,1);
+    [nr,ng,nb]=hslToRgb(th,ns,nl);
+  } else if(mode==="skinhair"){
+    const ns=clamp(lerp(s,ts,0.7)*satMul,0,1); const nl=clamp(lerp(l,clamp(l*0.55+tl*0.45,0,1),0.3)+lightShift*0.4,0,1);
+    [nr,ng,nb]=hslToRgb(th,ns,nl);
+  } else { // fabric — preserve weave shading: keep source luminance, desaturate extreme highlights AND shadows
+    let shade=1;
+    if(l>0.86) shade=(1-(l-0.86)/0.14)*0.55+0.45;       // bright specular threads stay pale
+    else if(l<0.10) shade=0.45+(l/0.10)*0.55;            // deep shadow folds stay dark/neutral
+    const ns=clamp(ts*shade*satMul,0,1); const nl=clamp(l+lightShift*0.5,0,1);
+    [nr,ng,nb]=hslToRgb(th,ns,nl);
+  }
+  return [lerp(r,nr,strength),lerp(g,ng,strength),lerp(b,nb,strength),a];
+}
+function activeTargets(){
+  const f=state.factions[state.activeFaction];
+  const t={};
+  CHANNELS.forEach(c=>{
+    const hex=(f&&f.colors[c.key])||state.channels[c.key].color;
+    const rgb=hexToRgb(hex);t[c.key]={rgb,hsl:rgbToHsl(rgb[0],rgb[1],rgb[2])};
+  });
+  return t;
+}
+function updateRecolor(){
+  if(!state.srcRGBA)return;
+  const src=state.srcRGBA,mm=state.maskMap,out=recolorImage.data;
+  const tg=activeTargets();const gs=parseInt(dom.globalStrength.value)/100;
+  const perCh=CHANNELS.map(c=>({mode:state.channels[c.key].mode,
+    strength:state.channels[c.key].strength/100*gs, tgt:tg[c.key],
+    sat:state.channels[c.key].sat/100, light:state.channels[c.key].light/100}));
+  for(let i=0;i<mm.length;i++){
+    const o=i*4;const lab=mm[i];const r=src[o],g=src[o+1],b=src[o+2],a=src[o+3];
+    if(lab===0){out[o]=r;out[o+1]=g;out[o+2]=b;out[o+3]=a;continue;}
+    const ch=perCh[lab-1];const res=recolorPixel(r,g,b,a,ch.tgt,ch.mode,ch.strength,ch.sat,ch.light);
+    out[o]=res[0];out[o+1]=res[1];out[o+2]=res[2];out[o+3]=res[3];
+  }
+  recolorCanvas.getContext("2d").putImageData(recolorImage,0,0);
+  recolorDirty=false;
+}
+function updateMask(){
+  if(!state.maskMap)return;const mm=state.maskMap,out=maskImage.data;
+  const cols=CHANNELS.map((c,i)=>hexToRgb(state.channels[c.key].color));
+  const vis=CHANNELS.map(c=>state.channels[c.key].visible);
+  const act=state.activeChannel+1;
+  for(let i=0;i<mm.length;i++){const o=i*4;const lab=mm[i];
+    if(lab===0||!vis[lab-1]||(isolateActive&&lab!==act)){out[o+3]=0;continue;}const c=cols[lab-1];
+    out[o]=c[0];out[o+1]=c[1];out[o+2]=c[2];out[o+3]=200;}
+  maskCanvas.getContext("2d").putImageData(maskImage,0,0);
+  maskDirty=false;
+}
+
+/* ======================================================================
+   VIEW / DRAW
+   ====================================================================== */
+function resizeStage(){const r=dom.canvasWrap.getBoundingClientRect();
+  dom.stage.width=r.width*devicePixelRatio;dom.stage.height=r.height*devicePixelRatio;
+  dom.stage.style.width=r.width+"px";dom.stage.style.height=r.height+"px";draw();}
+function fitView(){if(!state.width)return;const r=dom.canvasWrap.getBoundingClientRect();
+  const s=Math.min(r.width/state.width,r.height/state.height)*0.9;view.scale=s;
+  view.ox=(r.width-state.width*s)/2;view.oy=(r.height-state.height*s)/2;updateZoomMeta();draw();}
+function updateZoomMeta(){dom.zoomMeta.textContent=Math.round(view.scale*100)+"%";}
+function draw(){
+  const cw=dom.stage.width,chh=dom.stage.height;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);
+  ctx.clearRect(0,0,cw,chh);if(!state.width)return;
+  ctx.imageSmoothingEnabled=view.scale<3?true:false;
+  const base = viewMode==="recolor" ? recolorCanvas : srcCanvas;
+  if(recolorDirty&&viewMode==="recolor")updateRecolor();
+  ctx.save();ctx.translate(view.ox,view.oy);ctx.scale(view.scale,view.scale);
+  ctx.drawImage(viewMode==="recolor"?recolorCanvas:srcCanvas,0,0);
+  if(showMasks){if(maskDirty)updateMask();ctx.globalAlpha=overlayOpacity;ctx.drawImage(maskCanvas,0,0);ctx.globalAlpha=1;}
+  ctx.restore();
+}
+function screenToTex(e){const r=dom.stage.getBoundingClientRect();
+  const x=(e.clientX-r.left-view.ox)/view.scale, y=(e.clientY-r.top-view.oy)/view.scale;
+  return {x:Math.floor(x),y:Math.floor(y)};}
+
+/* ======================================================================
+   PAINT TOOLS
+   ====================================================================== */
+function paintBrush(tx,ty,erase){
+  const rad=parseInt(dom.brushSize.value),lab=erase?0:(state.activeChannel+1),r2=rad*rad;
+  const mm=state.maskMap,w=state.width,h=state.height;
+  for(let y=Math.max(0,ty-rad);y<=Math.min(h-1,ty+rad);y++)
+    for(let x=Math.max(0,tx-rad);x<=Math.min(w-1,tx+rad);x++){
+      const dx=x-tx,dy=y-ty;if(dx*dx+dy*dy<=r2){const idx=y*w+x;if(canWrite(lab,mm[idx]))mm[idx]=lab;}}
+  maskDirty=recolorDirty=true;
+}
+function wandSelect(tx,ty,contiguous){
+  const w=state.width,h=state.height,src=state.srcRGBA,mm=state.maskMap;
+  const o0=(ty*w+tx)*4;const r0=src[o0],g0=src[o0+1],b0=src[o0+2];
+  const tol=parseInt(dom.tolerance.value);const tol2=tol*tol*3;const lab=state.activeChannel+1;
+  pushUndo();
+  const match=(o)=>{const dr=src[o]-r0,dg=src[o+1]-g0,db=src[o+2]-b0;return dr*dr+dg*dg+db*db<=tol2;};
+  if(!contiguous){for(let i=0;i<w*h;i++)if(match(i*4)&&canWrite(lab,mm[i]))mm[i]=lab;}
+  else{const stack=[[tx,ty]],seen=new Uint8Array(w*h);
+    while(stack.length){const [x,y]=stack.pop();if(x<0||y<0||x>=w||y>=h)continue;const idx=y*w+x;if(seen[idx])continue;seen[idx]=1;
+      if(!match(idx*4))continue;if(canWrite(lab,mm[idx]))mm[idx]=lab;stack.push([x+1,y],[x-1,y],[x,y+1],[x,y-1]);}}
+  maskDirty=recolorDirty=true;draw();updatePixelCounts();updateUndoButtons();
+}
+function pickColor(tx,ty){const o=(ty*state.width+tx)*4;const hex=rgbToHex(state.srcRGBA[o],state.srcRGBA[o+1],state.srcRGBA[o+2]);
+  setChannelColor(state.activeChannel,hex,true);toast("Picked "+hex);}
+
+/* ----- pointer handling ----- */
+dom.stage.addEventListener("pointerdown",e=>{
+  if(!state.width)return;dom.stage.setPointerCapture(e.pointerId);
+  if(tool==="pan"||e.button===1||e.shiftKey){panning=true;lastPan={x:e.clientX,y:e.clientY};return;}
+  const {x,y}=screenToTex(e);if(x<0||y<0||x>=state.width||y>=state.height)return;
+  if(tool==="brush"){painting=true;pushUndo();paintBrush(x,y,false);draw();}
+  else if(tool==="erase"){painting=true;pushUndo();paintBrush(x,y,true);draw();}
+  else if(tool==="wand"){wandSelect(x,y,false);}
+  else if(tool==="fill"){wandSelect(x,y,true);}
+  else if(tool==="pick"){pickColor(x,y);}
+});
+dom.stage.addEventListener("pointermove",e=>{
+  if(!state.width)return;const {x,y}=screenToTex(e);
+  dom.sbCursor.textContent=(x>=0&&y>=0&&x<state.width&&y<state.height)?(x+","+y):"—";
+  if(panning&&lastPan){view.ox+=e.clientX-lastPan.x;view.oy+=e.clientY-lastPan.y;lastPan={x:e.clientX,y:e.clientY};draw();return;}
+  if(painting){if(x<0||y<0)return;paintBrush(x,y,tool==="erase");draw();}
+});
+function endStroke(){if(painting){painting=false;updateRecolor();draw();updatePixelCounts();updateUndoButtons();}panning=false;lastPan=null;}
+dom.stage.addEventListener("pointerup",endStroke);
+dom.stage.addEventListener("pointerleave",()=>{if(!painting&&!panning)return;});
+dom.stage.addEventListener("wheel",e=>{e.preventDefault();if(!state.width)return;
+  const r=dom.stage.getBoundingClientRect();const mx=e.clientX-r.left,my=e.clientY-r.top;
+  const before=view.scale;const factor=e.deltaY<0?1.12:1/1.12;view.scale=clamp(before*factor,0.05,40);
+  view.ox=mx-(mx-view.ox)*(view.scale/before);view.oy=my-(my-view.oy)*(view.scale/before);updateZoomMeta();draw();},{passive:false});
+
+/* ======================================================================
+   TOOLS / VIEW UI
+   ====================================================================== */
+function setTool(t){tool=t;["brush","erase","wand","fill","pick","pan"].forEach(k=>
+  document.getElementById("t-"+k).classList.toggle("on",k===t));
+  dom.sbTool.textContent=t;dom.tolWrap.style.display=(t==="wand"||t==="fill")?"flex":"none";}
+function setView(v){viewMode=v;document.querySelectorAll("#viewSwap button").forEach(b=>b.classList.toggle("on",b.dataset.v===v));recolorDirty=true;draw();}
+function toggleMaskView(){showMasks=!showMasks;dom.maskToggle.classList.toggle("on",showMasks);
+  dom.maskToggle.style.background=showMasks?"var(--bronze-deep)":"";
+  const ow=document.getElementById("overlayWrap");if(ow)ow.style.display=showMasks?"flex":"none";
+  maskDirty=true;draw();}
+function toggleIsolate(){isolateActive=!isolateActive;const b=document.getElementById("isoToggle");
+  b.classList.toggle("on",isolateActive);b.style.background=isolateActive?"var(--bronze-deep)":"";
+  if(isolateActive&&!showMasks)toggleMaskView();maskDirty=true;updateMask();draw();}
+dom.brushSize.addEventListener("input",()=>dom.brushVal.textContent=dom.brushSize.value);
+dom.tolerance.addEventListener("input",()=>dom.tolVal.textContent=dom.tolerance.value);
+dom.globalStrength.addEventListener("input",()=>{dom.globalStrengthVal.textContent=dom.globalStrength.value+"%";recolorDirty=true;updateRecolor();draw();});
+dom.kClusters.addEventListener("input",()=>dom.kVal.textContent=dom.kClusters.value);
+document.getElementById("overlayOp").addEventListener("input",e=>{overlayOpacity=+e.target.value/100;if(showMasks)draw();});
+
+/* ======================================================================
+   CHANNELS UI
+   ====================================================================== */
+function renderChannels(){
+  dom.channels.innerHTML="";
+  CHANNELS.forEach((c,i)=>{
+    const st=state.channels[c.key];
+    const el=document.createElement("div");el.className="chan"+(i===state.activeChannel?" active open":"");
+    el.innerHTML=`
+      <div class="chan-head">
+        <div class="swatch" style="background:${st.color}"><input type="color" value="${st.color}"></div>
+        <div class="chan-name">${c.label}<small>${c.desc}</small></div>
+        <div class="chan-pix" data-pix></div>
+        <div class="chan-eye" data-lock title="lock zone from edits">${st.locked?"🔒":"🔓"}</div>
+        <div class="chan-eye" title="toggle mask visibility">${st.visible?"👁":"⊘"}</div>
+      </div>
+      <div class="chan-body">
+        <div class="row"><label>Mode</label>
+          <select data-mode>
+            <option value="fabric">Fabric</option><option value="metal">Metal</option>
+            <option value="skinhair">Skin/Hair</option><option value="tint">Tint</option>
+          </select></div>
+        <div class="row"><label>Strength</label><input type="range" data-str min="0" max="100" value="${st.strength}"><span class="val" data-strval>${st.strength}%</span></div>
+        <div class="row"><label>Saturation</label><input type="range" data-sat min="0" max="180" value="${st.sat}"><span class="val" data-satval>${st.sat}%</span></div>
+        <div class="row"><label>Lightness</label><input type="range" data-lit min="-50" max="50" value="${st.light}"><span class="val" data-litval>${st.light>0?"+":""}${st.light}</span></div>
+        <div class="row"><label>Hex</label><input type="text" class="hex" data-hex value="${st.color}">
+          <button class="btn tiny" data-clear>Clear</button></div>
+        <div class="row" style="gap:5px"><label>Refine</label>
+          <button class="btn tiny" data-grow title="Expand this zone by 1px">⊕ Grow</button>
+          <button class="btn tiny" data-shrink title="Contract this zone by 1px">⊖ Shrink</button>
+          <button class="btn tiny" data-smooth title="Smooth jagged edges">∿ Smooth</button>
+        </div>
+      </div>`;
+    // header: select channel (open body)
+    el.querySelector(".chan-head").addEventListener("click",ev=>{
+      if(ev.target.closest(".swatch")||ev.target.closest(".chan-eye"))return;
+      setActiveChannel(i);});
+    const cin=el.querySelector(".swatch input");
+    cin.addEventListener("input",ev=>setChannelColor(i,ev.target.value,false));   // live drag, no re-render
+    cin.addEventListener("change",ev=>setChannelColor(i,ev.target.value,true));    // committed → sync everything
+    el.querySelector("[data-lock]").addEventListener("click",ev=>{ev.stopPropagation();st.locked=!st.locked;renderChannels();toast(c.label+(st.locked?" locked":" unlocked"));});
+    el.querySelector(".chan-eye:not([data-lock])").addEventListener("click",ev=>{ev.stopPropagation();st.visible=!st.visible;maskDirty=true;draw();renderChannels();});
+    el.querySelector("[data-mode]").value=st.mode;
+    el.querySelector("[data-mode]").addEventListener("change",ev=>{st.mode=ev.target.value;recolorDirty=true;updateRecolor();draw();});
+    const sr=el.querySelector("[data-str]");sr.addEventListener("input",ev=>{st.strength=+ev.target.value;
+      el.querySelector("[data-strval]").textContent=st.strength+"%";recolorDirty=true;updateRecolor();draw();});
+    const sa=el.querySelector("[data-sat]");sa.addEventListener("input",ev=>{st.sat=+ev.target.value;
+      el.querySelector("[data-satval]").textContent=st.sat+"%";recolorDirty=true;updateRecolor();draw();});
+    const li=el.querySelector("[data-lit]");li.addEventListener("input",ev=>{st.light=+ev.target.value;
+      el.querySelector("[data-litval]").textContent=(st.light>0?"+":"")+st.light;recolorDirty=true;updateRecolor();draw();});
+    const hx=el.querySelector("[data-hex]");hx.addEventListener("change",ev=>{let v=ev.target.value.trim();if(!v.startsWith("#"))v="#"+v;
+      if(/^#[0-9a-f]{6}$/i.test(v))setChannelColor(i,v,true);else{toast("Bad hex",true);ev.target.value=st.color;}});
+    el.querySelector("[data-clear]").addEventListener("click",()=>clearChannel(i));
+    el.querySelector("[data-grow]").addEventListener("click",()=>{setActiveChannel(i);refineMask("grow");});
+    el.querySelector("[data-shrink]").addEventListener("click",()=>{setActiveChannel(i);refineMask("shrink");});
+    el.querySelector("[data-smooth]").addEventListener("click",()=>{setActiveChannel(i);refineMask("smooth");});
+    dom.channels.appendChild(el);
+  });
+  updatePixelCounts();
+}
+function updatePixelCounts(){if(!state.maskMap)return;const counts=new Array(9).fill(0);
+  for(let i=0;i<state.maskMap.length;i++)counts[state.maskMap[i]]++;
+  const total=state.maskMap.length;
+  document.querySelectorAll(".chan").forEach((el,i)=>{const p=el.querySelector("[data-pix]");if(p){
+    const pct=(counts[i+1]/total*100);p.textContent=counts[i+1]?pct.toFixed(1)+"%":"";}});
+}
+function setActiveChannel(i){state.activeChannel=i;dom.sbChannel.textContent=CHANNELS[i].label.toLowerCase();renderChannels();}
+// full=false → live update during color-picker drag: DO NOT rebuild the channel
+// list (that rips out the <input> you're dragging and freezes the picker).
+function setChannelColor(i,hex,full){const key=CHANNELS[i].key;state.channels[key].color=hex;
+  const f=state.factions[state.activeFaction];if(f)f.colors[key]=hex;
+  recolorDirty=maskDirty=true;updateRecolor();updateMask();draw();
+  // in-place patch of just this channel's visuals + faction palette strip
+  const chEls=dom.channels.children;if(chEls[i]){
+    const sw=chEls[i].querySelector(".swatch");if(sw)sw.style.background=hex;
+    const cinput=chEls[i].querySelector(".swatch input");if(cinput&&cinput.value.toLowerCase()!==hex.toLowerCase())cinput.value=hex;
+    const hx=chEls[i].querySelector("[data-hex]");if(hx&&document.activeElement!==hx)hx.value=hex;
+  }
+  patchActiveFactionPalette();
+  if(full){renderChannels();renderFactions();}
+}
+function patchActiveFactionPalette(){const fel=dom.factions.children[state.activeFaction];if(!fel)return;
+  const spans=fel.querySelectorAll(".palette span");const f=state.factions[state.activeFaction];if(!f)return;
+  CHANNELS.forEach((c,j)=>{if(spans[j])spans[j].style.background=f.colors[c.key]||"#333";});}
+function clearChannel(i){if(!state.maskMap)return;if(state.channels[CHANNELS[i].key].locked){toast(CHANNELS[i].label+" is locked",true);return;}
+  pushUndo();const lab=i+1;for(let j=0;j<state.maskMap.length;j++)if(state.maskMap[j]===lab)state.maskMap[j]=0;
+  recolorDirty=maskDirty=true;updateRecolor();updateMask();draw();updatePixelCounts();updateUndoButtons();toast("Cleared "+CHANNELS[i].label+" zone");}
+// morphological cleanup of the ACTIVE channel: grow / shrink / smooth edges
+function refineMask(op){
+  if(!state.maskMap){toast("Load a texture first",true);return;}
+  const w=state.width,h=state.height,lab=state.activeChannel+1,mm=state.maskMap;
+  if(state.channels[CHANNELS[state.activeChannel].key].locked){toast("Channel is locked",true);return;}
+  pushUndo();
+  const bin=new Uint8Array(w*h);for(let i=0;i<mm.length;i++)bin[i]=mm[i]===lab?1:0;
+  const nb=(x,y)=>{let c=0;for(let dy=-1;dy<=1;dy++)for(let dx=-1;dx<=1;dx++){if(!dx&&!dy)continue;const nx=x+dx,ny=y+dy;if(nx<0||ny<0||nx>=w||ny>=h)continue;c+=bin[ny*w+nx];}return c;};
+  const out=bin.slice();
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++){const i=y*w+x;const c=nb(x,y);
+    if(op==="grow"){ if(!bin[i]&&c>0)out[i]=1; }
+    else if(op==="shrink"){ if(bin[i]&&c<8)out[i]=0; }
+    else if(op==="smooth"){ out[i]= c>=5?1:(c<=3?0:bin[i]); }}
+  for(let i=0;i<mm.length;i++){
+    if(out[i]&&mm[i]!==lab){ if(canWrite(lab,mm[i]))mm[i]=lab; }   // grow into allowed pixels only
+    else if(!out[i]&&mm[i]===lab){ mm[i]=0; }                     // remove own pixels
+  }
+  afterMaskChange();toast(op[0].toUpperCase()+op.slice(1)+" → "+CHANNELS[state.activeChannel].label);
+}
+
+/* ======================================================================
+   FACTIONS
+   ====================================================================== */
+function seedFactions(){
+  state.factions=[
+    {name:"Parthia", colors:{primary:"#6d2f8f",secondary:"#caa64a",tertiary:"#9c1f2e",quaternary:"#2c2440",metalprim:"#c9cdd2",metalsec:"#d9b24a",skin:"#caa07a",hair:"#3a2a1c"}},
+    {name:"Armenia", colors:{primary:"#9c1f2e",secondary:"#1f3f7a",tertiary:"#caa64a",quaternary:"#3a1414",metalprim:"#b9bdc2",metalsec:"#caa64a",skin:"#caa07a",hair:"#241a12"}},
+    {name:"Pontus",  colors:{primary:"#1f6f5c",secondary:"#caa64a",tertiary:"#7a1f2e",quaternary:"#10362c",metalprim:"#c4c8cd",metalsec:"#d9b24a",skin:"#cda884",hair:"#2a1d12"}},
+  ];
+  state.activeFaction=0;applyFactionToChannels();
+}
+function applyFactionToChannels(){const f=state.factions[state.activeFaction];if(!f)return;
+  CHANNELS.forEach(c=>{if(f.colors[c.key])state.channels[c.key].color=f.colors[c.key];});
+  dom.sbFaction.textContent=f.name;}
+function renderFactions(){
+  dom.factions.innerHTML="";
+  state.factions.forEach((f,i)=>{
+    const el=document.createElement("div");el.className="faction"+(i===state.activeFaction?" active":"");
+    const sw=CHANNELS.map(c=>`<span style="background:${f.colors[c.key]||"#333"}"></span>`).join("");
+    el.innerHTML=`<div class="faction-top">
+        <input class="faction-name" value="${f.name.replace(/"/g,"&quot;")}">
+        <div class="faction-acts">
+          <button class="btn tiny" data-use title="Preview this faction">Preview</button>
+          <button class="btn tiny danger" data-del title="Delete">✕</button>
+        </div></div>
+      <div class="palette">${sw}</div>`;
+    el.querySelector(".faction-name").addEventListener("change",ev=>{f.name=ev.target.value||("Faction "+(i+1));renderFactions();if(i===state.activeFaction)dom.sbFaction.textContent=f.name;});
+    el.querySelector(".faction-name").addEventListener("click",ev=>ev.stopPropagation());
+    el.querySelector("[data-use]").addEventListener("click",ev=>{ev.stopPropagation();selectFaction(i);});
+    el.querySelector("[data-del]").addEventListener("click",ev=>{ev.stopPropagation();deleteFaction(i);});
+    el.addEventListener("click",()=>selectFaction(i));
+    dom.factions.appendChild(el);
+  });
+}
+function selectFaction(i){state.activeFaction=i;applyFactionToChannels();recolorDirty=maskDirty=true;
+  updateRecolor();updateMask();draw();renderChannels();renderFactions();}
+function addFaction(){const c={};CHANNELS.forEach(ch=>c[ch.key]=state.channels[ch.key].color);
+  state.factions.push({name:"Faction "+(state.factions.length+1),colors:c});state.activeFaction=state.factions.length-1;
+  applyFactionToChannels();renderFactions();renderChannels();}
+function duplicateFaction(){const f=state.factions[state.activeFaction];if(!f)return;
+  state.factions.push({name:f.name+" copy",colors:{...f.colors}});state.activeFaction=state.factions.length-1;
+  applyFactionToChannels();renderFactions();renderChannels();}
+function deleteFaction(i){if(state.factions.length<=1){toast("Keep at least one faction",true);return;}
+  state.factions.splice(i,1);if(state.activeFaction>=state.factions.length)state.activeFaction=state.factions.length-1;
+  applyFactionToChannels();recolorDirty=true;updateRecolor();draw();renderFactions();renderChannels();}
+
+/* ======================================================================
+   K-MEANS AUTO SEGMENT  +  ONE-CLICK AUTO-MASK
+   ====================================================================== */
+function computeClusters(K){
+  const src=state.srcRGBA;
+  const samples=[];const step=Math.max(1,Math.floor(Math.sqrt(state.width*state.height/12000)));
+  for(let i=0;i<src.length;i+=4*step){if(src[i+3]<16)continue;samples.push([src[i],src[i+1],src[i+2]]);}
+  if(samples.length<K)return null;
+  // k-means++ style seeding for stability
+  let cent=[samples[Math.floor(Math.random()*samples.length)].slice()];
+  while(cent.length<K){const d2=samples.map(s=>{let bd=1e18;for(const c of cent){const dr=s[0]-c[0],dg=s[1]-c[1],db=s[2]-c[2];bd=Math.min(bd,dr*dr+dg*dg+db*db);}return bd;});
+    let sum=d2.reduce((a,b)=>a+b,0)*Math.random(),idx=0;while(idx<d2.length-1&&(sum-=d2[idx])>0)idx++;cent.push(samples[idx].slice());}
+  const assign=new Int32Array(samples.length);
+  for(let iter=0;iter<14;iter++){
+    for(let s=0;s<samples.length;s++){let bd=1e18,bk=0;for(let k=0;k<K;k++){const dr=samples[s][0]-cent[k][0],dg=samples[s][1]-cent[k][1],db=samples[s][2]-cent[k][2];
+      const d=dr*dr+dg*dg+db*db;if(d<bd){bd=d;bk=k;}}assign[s]=bk;}
+    const sum=Array.from({length:K},()=>[0,0,0,0]);for(let s=0;s<samples.length;s++){const k=assign[s];sum[k][0]+=samples[s][0];sum[k][1]+=samples[s][1];sum[k][2]+=samples[s][2];sum[k][3]++;}
+    for(let k=0;k<K;k++)if(sum[k][3]>0)cent[k]=[sum[k][0]/sum[k][3],sum[k][1]/sum[k][3],sum[k][2]/sum[k][3]];
+  }
+  const counts=new Array(K).fill(0);for(let s=0;s<samples.length;s++)counts[assign[s]]++;
+  return {cent:cent.map(c=>[c[0]|0,c[1]|0,c[2]|0]),counts,total:samples.length};
+}
+function runKMeans(){
+  if(!state.srcRGBA){toast("Load a texture first",true);return;}
+  const K=parseInt(dom.kClusters.value);const r=computeClusters(K);
+  if(!r){toast("Not enough opaque pixels",true);return;}
+  state._clusters=r.cent;
+  dom.clusters.innerHTML="";state._clusters.forEach((c,k)=>{
+    const pct=(r.counts[k]/r.total*100).toFixed(0);
+    const d=document.createElement("div");d.className="cluster";d.style.background=rgbToHex(c[0],c[1],c[2]);
+    d.title="Assign these pixels to active channel ("+CHANNELS[state.activeChannel].label+")";
+    d.innerHTML=`<small>${pct}%</small>`;
+    d.addEventListener("click",()=>assignCluster(c));dom.clusters.appendChild(d);});
+  toast("Found "+K+" clusters — click one to assign to “"+CHANNELS[state.activeChannel].label+"”");
+}
+// classify a centroid (rgb) to a channel index 0..7 using HSL heuristics
+function classifyColor(r,g,b){
+  const [h,s,l]=rgbToHsl(r,g,b);const hd=h*360;
+  // very dark → hair
+  if(l<0.20) return 7;
+  // gold / warm metal: warm hue, mid-high lightness (checked before skin so saturated gold isn't eaten)
+  if(hd>=32&&hd<=66 && s>=0.30&&s<=0.78 && l>=0.40) return 5;
+  // skin: warm peach hue, mid-high lightness (gold already claimed by hue band above)
+  if(hd>=8&&hd<=40 && s>=0.12&&s<=0.66 && l>=0.40&&l<=0.88) return 6;
+  // metal: low saturation (greys) → cool steel vs warm gold by hue
+  if(s<0.18){ return (hd>=30&&hd<=70 && l>0.45) ? 5 : 4; }
+  // muted warm gold/brass
+  if(hd>=34&&hd<=60 && s<0.34 && l>0.42) return 5;
+  return -1; // cloth — decided later by population
+}
+function autoMaskAll(){
+  if(!state.srcRGBA){toast("Load a texture first",true);return;}
+  toast("Auto-masking…");
+  const K=Math.max(8,parseInt(dom.kClusters.value));
+  const r=computeClusters(K);if(!r){toast("Not enough opaque pixels",true);return;}
+  state._clusters=r.cent;
+  // map each cluster → channel
+  const clusterCh=new Array(K).fill(-1);
+  const clothPool=[];
+  for(let k=0;k<K;k++){const c=r.cent[k];const cls=classifyColor(c[0],c[1],c[2]);
+    if(cls>=0)clusterCh[k]=cls;else clothPool.push(k);}
+  // assign cloth clusters to primary..quaternary by population (biggest=primary)
+  clothPool.sort((a,b)=>r.counts[b]-r.counts[a]);
+  const clothCh=[0,1,2,3];
+  clothPool.forEach((k,idx)=>{ clusterCh[k]= idx<4 ? clothCh[idx] : clothCh[3]; });
+  // build mask: each opaque pixel → nearest cluster's channel (respect locks)
+  pushUndo();
+  const src=state.srcRGBA,mm=state.maskMap,cl=r.cent;
+  for(let i=0;i<mm.length;i++){const o=i*4;if(src[o+3]<16){if(canWrite(0,mm[i]))mm[i]=0;continue;}
+    let bd=1e18,bk=0;for(let k=0;k<K;k++){const dr=src[o]-cl[k][0],dg=src[o+1]-cl[k][1],db=src[o+2]-cl[k][2];const d=dr*dr+dg*dg+db*db;if(d<bd){bd=d;bk=k;}}
+    const nl=clusterCh[bk]+1;if(canWrite(nl,mm[i]))mm[i]=nl;}
+  // auto-derive a base color per channel from the dominant cluster mapped to it (easier recoloring)
+  const best={};for(let k=0;k<K;k++){const ch=clusterCh[k];if(ch<0)continue;if(best[ch]===undefined||r.counts[k]>r.counts[best[ch]])best[ch]=k;}
+  CHANNELS.forEach((c,ci)=>{ if(best[ci]!==undefined){ const cc=r.cent[best[ci]];
+    const hex=rgbToHex(cc[0],cc[1],cc[2]); state.channels[c.key].color=hex; }});
+  recolorDirty=maskDirty=true;updateRecolor();updateMask();showMasks=true;
+  dom.maskToggle.classList.add("on");dom.maskToggle.style.background="var(--bronze-deep)";
+  draw();renderChannels();renderFactions();updatePixelCounts();
+  const used=[...new Set(clusterCh.filter(x=>x>=0))].length;
+  toast("Auto-mask done — "+used+" channels detected. Tweak any zone with the brush/wand.");
+}
+function assignCluster(centroid){
+  if(!state._clusters)return;const src=state.srcRGBA,mm=state.maskMap,cl=state._clusters;const lab=state.activeChannel+1;
+  pushUndo();
+  for(let i=0;i<mm.length;i++){const o=i*4;if(src[o+3]<16)continue;
+    let bd=1e18,bk=0;for(let k=0;k<cl.length;k++){const dr=src[o]-cl[k][0],dg=src[o+1]-cl[k][1],db=src[o+2]-cl[k][2];const d=dr*dr+dg*dg+db*db;if(d<bd){bd=d;bk=k;}}
+    if(cl[bk][0]===centroid[0]&&cl[bk][1]===centroid[1]&&cl[bk][2]===centroid[2]&&canWrite(lab,mm[i]))mm[i]=lab;}
+  recolorDirty=maskDirty=true;updateRecolor();updateMask();draw();updatePixelCounts();updateUndoButtons();
+  toast("Assigned cluster → "+CHANNELS[state.activeChannel].label);
+}
+
+/* ======================================================================
+   EXPORT
+   ====================================================================== */
+function fileNameFor(faction){
+  let p=dom.pattern.value||"{faction}.dds";
+  const fid=faction.name.trim().toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"");
+  return p.replace(/\{faction\}/g,fid).replace(/\{base\}/g,state.baseName);
+}
+function renderFactionRGBA(faction){
+  const src=state.srcRGBA,mm=state.maskMap,w=state.width,h=state.height;const out=new Uint8ClampedArray(w*h*4);
+  const gs=parseInt(dom.globalStrength.value)/100;
+  const tg={};CHANNELS.forEach(c=>{const rgb=hexToRgb(faction.colors[c.key]||state.channels[c.key].color);tg[c.key]={rgb,hsl:rgbToHsl(rgb[0],rgb[1],rgb[2])};});
+  const perCh=CHANNELS.map(c=>({mode:state.channels[c.key].mode,strength:state.channels[c.key].strength/100*gs,tgt:tg[c.key],
+    sat:state.channels[c.key].sat/100,light:state.channels[c.key].light/100}));
+  for(let i=0;i<mm.length;i++){const o=i*4;const lab=mm[i];const r=src[o],g=src[o+1],b=src[o+2],a=src[o+3];
+    if(lab===0){out[o]=r;out[o+1]=g;out[o+2]=b;out[o+3]=a;continue;}
+    const ch=perCh[lab-1];const res=recolorPixel(r,g,b,a,ch.tgt,ch.mode,ch.strength,ch.sat,ch.light);
+    out[o]=res[0];out[o+1]=res[1];out[o+2]=res[2];out[o+3]=res[3];}
+  return out;
+}
+function encodeFaction(faction){
+  const rgba=renderFactionRGBA(faction);const fmt=dom.exportFormat.value;const mips=dom.mips.value==="1";
+  const w=state.width,h=state.height;
+  if(fmt==="png"){const c=document.createElement("canvas");c.width=w;c.height=h;c.getContext("2d").putImageData(new ImageData(rgba,w,h),0,0);
+    return new Promise(res=>c.toBlob(b=>res(b),"image/png"));}
+  if(fmt==="tga"){return Promise.resolve(new Blob([encodeTGA(rgba,w,h)],{type:"image/x-tga"}));}
+  return Promise.resolve(new Blob([encodeDDS(rgba,w,h,fmt,mips)],{type:"image/vnd-ms.dds"}));
+}
+function download(blob,name){const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);}
+async function exportCurrent(){if(!state.width){toast("Load a texture first",true);return;}
+  const f=state.factions[state.activeFaction];const blob=await encodeFaction(f);download(blob,fileNameFor(f));toast("Exported "+fileNameFor(f));}
+async function exportAll(){
+  if(!state.width){toast("Load a texture first",true);return;}
+  if(typeof JSZip==="undefined"){toast("JSZip unavailable (offline?) — exporting current only",true);return exportCurrent();}
+  toast("Encoding "+state.factions.length+" factions…");
+  const zip=new JSZip();
+  for(const f of state.factions){const blob=await encodeFaction(f);zip.file(fileNameFor(f),blob);}
+  const out=await zip.generateAsync({type:"blob"});download(out,(state.baseName||"factions")+"_factions.zip");
+  toast("Exported "+state.factions.length+" files → zip");
+}
+
+/* ======================================================================
+   PROJECT SAVE / LOAD
+   ====================================================================== */
+function rleEncode(arr){const out=[];let i=0;while(i<arr.length){let v=arr[i],n=1;while(i+n<arr.length&&arr[i+n]===v&&n<65535)n++;out.push(v,n);i+=n;}return out;}
+function rleDecode(out,len){const arr=new Uint8Array(len);let p=0;for(let i=0;i<out.length;i+=2){const v=out[i],n=out[i+1];for(let k=0;k<n;k++)arr[p++]=v;}return arr;}
+function serialize(){
+  let srcDataURL=null;
+  if(srcCanvas)srcDataURL=srcCanvas.toDataURL("image/png");
+  return {v:1,baseName:state.baseName,width:state.width,height:state.height,
+    src:srcDataURL, mask:state.maskMap?rleEncode(state.maskMap):null,
+    channels:state.channels, factions:state.factions, activeFaction:state.activeFaction,
+    protectSkinMetal:state.protectSkinMetal,
+    pattern:dom.pattern.value, format:dom.exportFormat.value};
+}
+function saveProject(){
+  if(!state.width){toast("Nothing to save",true);return;}
+  const data=serialize();const json=JSON.stringify(data);
+  try{localStorage.setItem("faction_forge_project",json);}catch(e){}
+  download(new Blob([json],{type:"application/json"}),(state.baseName||"project")+".ffproj.json");
+  toast("Project saved");
+}
+function applyProject(data){
+  state.channels=data.channels||state.channels;state.factions=data.factions||state.factions;
+  state.activeFaction=data.activeFaction||0;dom.pattern.value=data.pattern||dom.pattern.value;
+  // backfill fields that may be missing from older projects
+  CHANNELS.forEach(c=>{const s=state.channels[c.key];if(!s)return;
+    if(s.sat==null)s.sat=100;if(s.light==null)s.light=0;if(s.locked==null)s.locked=false;if(s.visible==null)s.visible=true;});
+  if(data.protectSkinMetal!=null){state.protectSkinMetal=data.protectSkinMetal;const pc=document.getElementById("protectChk");if(pc)pc.checked=data.protectSkinMetal;}
+  undoStack.length=0;redoStack.length=0;updateUndoButtons();
+  if(data.format)dom.exportFormat.value=data.format;
+  if(data.src){const img=new Image();img.onload=()=>{
+    state.width=data.width;state.height=data.height;state.baseName=data.baseName||"texture";
+    srcCanvas=document.createElement("canvas");srcCanvas.width=data.width;srcCanvas.height=data.height;
+    const cx=srcCanvas.getContext("2d");cx.drawImage(img,0,0);state.srcRGBA=cx.getImageData(0,0,data.width,data.height).data;
+    state.maskMap=data.mask?rleDecode(data.mask,data.width*data.height):new Uint8Array(data.width*data.height);
+    recolorCanvas=document.createElement("canvas");recolorCanvas.width=data.width;recolorCanvas.height=data.height;
+    maskCanvas=document.createElement("canvas");maskCanvas.width=data.width;maskCanvas.height=data.height;
+    recolorImage=new ImageData(data.width,data.height);maskImage=new ImageData(data.width,data.height);
+    dom.emptyState.style.display="none";dom.fileLabel.textContent=state.baseName;dom.sbSize.textContent=data.width+" × "+data.height;
+    applyFactionToChannels();fitView();renderChannels();renderFactions();recolorDirty=maskDirty=true;updateRecolor();updateMask();draw();
+    toast("Project loaded");};img.src=data.src;}
+  else{renderChannels();renderFactions();}
+}
+dom.projInput.addEventListener("change",async e=>{const f=e.target.files[0];if(!f)return;
+  try{const data=JSON.parse(await f.text());applyProject(data);}catch(err){toast("Bad project file",true);}e.target.value="";});
+function resetAll(){if(!confirm("Clear all masks? (Recolor settings and factions are kept. This can be undone.)"))return;
+  if(state.maskMap){pushUndo();state.maskMap.fill(0);}recolorDirty=maskDirty=true;if(state.width){updateRecolor();updateMask();draw();updatePixelCounts();updateUndoButtons();}toast("Masks cleared");}
+
+/* ======================================================================
+   LLM PALETTE ASSISTANT
+   ====================================================================== */
+function genLLMPrompt(){
+  const names=state.factions.map(f=>f.name).join(", ");
+  const chLines=CHANNELS.map(c=>`- ${c.key}: the ${c.desc} (${c.mode})`).join("\n");
+  const prompt=
+`I'm recoloring Rome: Total War unit textures by faction. For each faction below, give me a historically-plausible color palette as hex codes for these 8 material channels:
+
+${chLines}
+
+Factions: ${names||"(list your factions)"}
+
+Return ONLY a JSON array, no commentary, in exactly this shape:
+[
+  {"name":"Parthia","primary":"#RRGGBB","secondary":"#RRGGBB","tertiary":"#RRGGBB","quaternary":"#RRGGBB","metalprim":"#RRGGBB","metalsec":"#RRGGBB","skin":"#RRGGBB","hair":"#RRGGBB"}
+]
+
+Guidance: metal channels should read as desaturated metallic tones (steel/bronze/gold). Skin and hair should stay natural. Cloth channels (primary–quaternary) can be bold and faction-distinct.`;
+  dom.llmPrompt.value=prompt;toast("Prompt ready — copy it to Claude");
+}
+function importLLM(){
+  let txt=dom.llmImport.value.trim();if(!txt){toast("Paste JSON first",true);return;}
+  txt=txt.replace(/```json|```/g,"").trim();
+  try{const arr=JSON.parse(txt);if(!Array.isArray(arr))throw 0;let added=0;
+    arr.forEach(f=>{if(!f.name)return;const colors={};let ok=true;
+      CHANNELS.forEach(c=>{let v=f[c.key];if(v&&!v.startsWith("#"))v="#"+v;
+        if(v&&/^#[0-9a-f]{6}$/i.test(v))colors[c.key]=v;else colors[c.key]=state.channels[c.key].color;});
+      state.factions.push({name:String(f.name),colors});added++;});
+    if(added){state.activeFaction=state.factions.length-1;applyFactionToChannels();renderFactions();renderChannels();
+      recolorDirty=true;if(state.width)updateRecolor();draw();dom.llmImport.value="";toast("Imported "+added+" factions");}
+    else toast("No valid factions found",true);
+  }catch(e){toast("Invalid JSON",true);}
+}
+function copyText(id){const el=document.getElementById(id);el.select();
+  try{navigator.clipboard.writeText(el.value);toast("Copied");}catch(e){document.execCommand("copy");toast("Copied");}}
+
+/* ======================================================================
+   KEYBOARD
+   ====================================================================== */
+window.addEventListener("keydown",e=>{
+  // undo / redo work outside text fields
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="z"){e.preventDefault();e.shiftKey?redo():undo();return;}
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="y"){e.preventDefault();redo();return;}
+  if(e.target.matches("input,textarea,select"))return;
+  if(e.ctrlKey||e.metaKey||e.altKey)return;
+  const k=e.key.toLowerCase();
+  if(k==="b")setTool("brush");else if(k==="e")setTool("erase");else if(k==="w")setTool("wand");
+  else if(k==="f")setTool("fill");else if(k==="i")setTool("pick");else if(k==="a"){autoMaskAll();e.preventDefault();}
+  else if(k===" "){setTool("pan");e.preventDefault();}
+  else if(k==="l"){const st=state.channels[CHANNELS[state.activeChannel].key];st.locked=!st.locked;renderChannels();toast(CHANNELS[state.activeChannel].label+(st.locked?" locked":" unlocked"));}
+  else if(k==="x"){toggleIsolate();}
+  else if(k==="[")  {dom.brushSize.value=Math.max(1,+dom.brushSize.value-2);dom.brushVal.textContent=dom.brushSize.value;}
+  else if(k==="]")  {dom.brushSize.value=Math.min(120,+dom.brushSize.value+2);dom.brushVal.textContent=dom.brushSize.value;}
+  else if(k>="1"&&k<="8")setActiveChannel(+k-1);
+});
+
+/* ======================================================================
+   BOOT
+   ====================================================================== */
+function boot(){
+  renderChannels();
+  if(state.factions.length===0)seedFactions();
+  renderFactions();setTool("brush");setView("recolor");
+  new ResizeObserver(resizeStage).observe(dom.canvasWrap);resizeStage();
+  // try restore last project
+  try{const last=localStorage.getItem("faction_forge_project");
+    if(last){/* leave for user to Open Project; auto-restore could surprise */}}catch(e){}
+}
+boot();
+</script>
+</body>
+</html>
