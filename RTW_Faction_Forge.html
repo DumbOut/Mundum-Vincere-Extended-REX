@@ -744,11 +744,12 @@ function screenToTex(e){const r=dom.stage.getBoundingClientRect();
    PAINT TOOLS
    ====================================================================== */
 function paintBrush(tx,ty,erase){
-  const rad=parseInt(dom.brushSize.value),lab=erase?0:(state.activeChannel+1),r2=rad*rad;
+  // Square brush: size=1 → 1px, size=N → (2N-1)×(2N-1) square centered on cursor
+  const half=parseInt(dom.brushSize.value)-1,lab=erase?0:(state.activeChannel+1);
   const mm=state.maskMap,w=state.width,h=state.height;
-  for(let y=Math.max(0,ty-rad);y<=Math.min(h-1,ty+rad);y++)
-    for(let x=Math.max(0,tx-rad);x<=Math.min(w-1,tx+rad);x++){
-      const dx=x-tx,dy=y-ty;if(dx*dx+dy*dy<=r2){const idx=y*w+x;if(canWrite(lab,mm[idx]))mm[idx]=lab;}}
+  for(let y=Math.max(0,ty-half);y<=Math.min(h-1,ty+half);y++)
+    for(let x=Math.max(0,tx-half);x<=Math.min(w-1,tx+half);x++){
+      const idx=y*w+x;if(canWrite(lab,mm[idx]))mm[idx]=lab;}
   maskDirty=recolorDirty=true;
 }
 function wandSelect(tx,ty,contiguous){
