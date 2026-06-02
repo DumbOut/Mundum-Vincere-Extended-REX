@@ -13403,13 +13403,22 @@ Mai_R
 ; *********************************************************
 ; *********************************************************
 ; 74. East Ethiopia
-; Number of Provinces: 4
+; Number of Provinces: 5
 
 Sybene_Aethiopis_R
 	Sybene_Aethiopis
 	egypt
 	Libyans
 	62 127 62
+	none
+	5
+	1
+
+Temopus_Aethiopis_R
+	Temopus_Aethiopis
+	egypt
+	Libyans
+	65 60 54
 	none
 	5
 	1
@@ -13444,7 +13453,7 @@ Apocopa_R
 ; *********************************************************
 ; *********************************************************
 ; 75. Japan
-; Number of Provinces: 1
+; Number of Provinces: 2
 
 
 Iki_R
@@ -13452,6 +13461,16 @@ Iki_R
 	parthia
 	Medes
 	126 50 50
+	none
+	5
+	1
+
+
+Fuzitu_R
+	Fuzitu
+	parthia
+	Medes
+	76 28 28
 	none
 	5
 	1

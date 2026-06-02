@@ -16687,6 +16687,32 @@ settlement
 settlement
 {
 	level town
+	region Temopus_Aethiopis_R
+
+	year_founded 0
+	population 450
+	plan_set default_set
+	faction_creator egypt
+	garrisoned_army
+	unit		numidian cavalry
+	unit		numidian cavalry
+	unit		numidian cavalry
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
 	region Iki_R
 
 	year_founded 0
@@ -16707,13 +16733,38 @@ settlement
 	}
 }
 
+
+settlement
+{
+	level town
+	region Fuzitu_R
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+
 settlement
 {
 	level town
 	region Xulma_R
 
 	year_founded 0
-	population 500
+	population 400
 	plan_set default_set
 	faction_creator parthia
 	garrisoned_army
