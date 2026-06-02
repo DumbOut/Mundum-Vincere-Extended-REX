@@ -9478,6 +9478,21 @@ settlement
 settlement
 {
 	level town
+	region Centurinum_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
 	region Malaca_R
 
 	year_founded 0
@@ -9685,6 +9700,15 @@ unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+
+;	Centurinum
+character	Mytonnes, named character, age 21, , x 190, y 492
+traits NaturalMilitarySkill 3 , StrategicSkill 2 , Intelligent 1 , PublicFaith 2
+ancillaries famous_warrior, merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 
 ;	Taparura
@@ -9936,14 +9960,15 @@ character_record		Xanthe, 	female, command 0, influence 0, management 0, subterf
 character_record		Roxane, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Muttunbaal, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
 
-relative 	Hanno, 	Actaee,		Hasdrubal,	Burrhus,	Theophanes,	Bomilkar,	end
+relative 	Hanno, 	Actaee,		Hasdrubal,	Burrhus,	Theophanes,	Bomilkar,	Mytonnes, 	end
 relative 	Hasdrubal, 	Althaia,		Bisaltes,	Muttunbaal,	end
 relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
+relative 	Mytonnes,		end
 
 
 faction	parthia, balanced genghis
-denari	1000
+denari	1050
 settlement
 {
 	level town
