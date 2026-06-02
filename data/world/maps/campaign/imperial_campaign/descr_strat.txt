@@ -49,7 +49,7 @@ end_date	1041 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 20
+brigand_spawn_value 29
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -16539,6 +16539,44 @@ settlement
 settlement
 {
 	level town
+	region Raas_Xoor_R
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Apocopa_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
 	region Aualites_R
 
 	year_founded 0
@@ -16583,6 +16621,29 @@ settlement
 	population 600
 	plan_set default_set
 	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Iki_R
+
+	year_founded 0
+	population 700
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	building
 	{
 		type core_building governors_house
@@ -43313,6 +43374,32 @@ unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 character,	sub_faction numidia, Akbar, general, age 20, , x 616, y 170
 
 army
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+
+;	Raas Xoor
+character,	sub_faction numidia, Akbar, general, age 20, , x 637, y 142
+
+army
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+
+;	Apocopa
+character,	sub_faction numidia, Akbar, general, age 20, , x 634, y 139
+
+army
+unit		numidian cavalry				exp 3 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
