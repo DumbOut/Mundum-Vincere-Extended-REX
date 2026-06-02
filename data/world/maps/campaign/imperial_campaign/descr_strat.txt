@@ -33,7 +33,7 @@ nonplayable
 ;	nok_culture_01
 ;	arevaci_01
 ;	zhou_01
-;	qin_01
+	qin_01
 ;	illyria_01
 ;	aestii_01
 ;	aedui_01
@@ -14291,6 +14291,9 @@ settlement
 
 character Ying Si, named character, faction leader, age 42, , x 1243, y 537
 traits GoodCommander 2, GoodAdministrator 1, NaturalMilitarySkill 1
+army
+unit	china generals early	exp 1 armour 0 weapon_lvl 0
+
 
 ;faction	illyria_01, balanced smith
 ;denari	5000
