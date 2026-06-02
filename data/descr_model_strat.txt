@@ -102,7 +102,7 @@ type				china_diplomat
 skeleton			strat_diplomat
 scale				0.7
 indiv_range			40
-texture				qin_01, mve_rex/data/models_strat/textures/sg_diplomat_sm_liubei
+texture		qiin_01, 		mve_rex/data/models_strat/textures/sg_diplomat_sm_liubei.tga
 model_flexi_m		mve_rex/data/models_strat/sg_diplomat_sm.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_diplomat.cas, max
 
@@ -134,7 +134,7 @@ texture				scythia, data/models_strat/textures/spy_scythia.tga
 texture				spain, data/models_strat/textures/spy_spain.tga
 texture				thrace, data/models_strat/textures/spy_thrace.tga
 texture				massilia_01, data/models_strat/textures/spy_slave.tga
-texture				qin_01, data/models_strat/textures/spy_slave.tga
+texture				qin_01, mve_rex/data/models_strat/textures/BI_strat_spy_qin_01.tga
 texture				slave, data/models_strat/textures/spy_slave.tga
 model_flexi_m		data/models_strat/spy.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
@@ -171,14 +171,6 @@ texture				slave, data/models_strat/textures/assassin_slave.tga
 texture				massilia_01, data/models_strat/textures/assassin_slave.tga
 texture				qin_01, data/models_strat/textures/assassin_slave.tga
 model_flexi			data/models_strat/assassin.cas, max
-shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
-
-type				china_assassin
-skeleton			strat_assassin
-scale				0.7
-indiv_range			40
-texture		qin_01, 		mve_rex/data/models_strat/textures/sg_spy_sm
-model_flexi_m		mve_rex/data/models_strat/sg_spy_sm.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -14273,7 +14273,7 @@ denari	40000
 settlement
 {
     level town
-   region Weinan_R
+   	region Weinan_R
 
     year_founded 0
     population 1100
@@ -14289,20 +14289,21 @@ settlement
 	}
 }
 
-character Ying Si, named character, age 42, , x 1243, y 537
+character	Ying Si, named character, age 51, , x 1242, y 534
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
 
-character	Ying Bang, named character, heir, age 33, , x 1244, y 536
+character	Ying Bang, named character, heir, age 33, , x 1242, y 535
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
 
 
-character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, dead, never_a_leader
+character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
 
 relative 	Ying Si, 	Ai,		Ying Bang,	end
+relative	Ying Bang,	end
 
 
 ;faction	illyria_01, balanced smith
@@ -50416,11 +50417,12 @@ core_attitudes	mauryans,		600		slave
 ;core_attitudes	zhou_01,		600		slave
 ;core_attitudes	illyria_01,		600		slave
 core_attitudes	massilia_01,		600		slave
+core_attitudes	qin_01,		600		slave
 ;core_attitudes	aestii_01,		600		slave
 ;core_attitudes	aedui_01,			600		slave
 ;core_attitudes	allobroges_01,		600		slave
 ;core_attitudes	bituriges_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -50460,10 +50462,11 @@ faction_relationships	mauryans,			600		slave
 ;faction_relationships	zhou_01,		600		slave
 ;faction_relationships	illyria_01,		600		slave
 faction_relationships	massilia_01,		600		slave
+faction_relationships	qin_01,		600		slave
 ;faction_relationships	aestii_01,		600		slave
 ;faction_relationships	aedui_01,			600		slave
 ;faction_relationships	allobroges_01,		600		slave
 ;faction_relationships	bituriges_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<

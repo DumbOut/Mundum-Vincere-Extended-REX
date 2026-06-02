@@ -513,7 +513,8 @@ strat_model		spy
 faction			qin_01
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
-strat_model		china_spy
+strat_model		spy
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
@@ -645,7 +646,7 @@ strat_model		assassin
 faction			qin_01
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
-strat_model		china_assassin
+strat_model		assassin
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -773,7 +774,7 @@ strat_model		diplomat
 faction			qin_01
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
-strat_model		diplomat
+strat_model		china_diplomat
 
 faction			mauryans
 dictionary		2
