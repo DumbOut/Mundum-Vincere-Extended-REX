@@ -66,6 +66,7 @@ building core_building
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
 				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, }
 				recruit "thracian bodyguard early"  0  requires factions { thrace, }  and not marian_reforms
 				recruit "thracian bodyguard"  0  requires factions { thrace, }  and marian_reforms  
 				recruit "carthaginian general's cavalry early"  0  requires factions { carthage, numidia, }  and not marian_reforms 
@@ -76,7 +77,8 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
+				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
 				recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, massilia_01, macedon, seleucid, }  and not marian_reforms
@@ -126,6 +128,7 @@ building core_building
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
 				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, }
 				recruit "thracian bodyguard early"  0  requires factions { thrace, }  and not marian_reforms
 				recruit "thracian bodyguard"  0  requires factions { thrace, }  and marian_reforms  
 				recruit "carthaginian general's cavalry early"  0  requires factions { carthage, numidia, }  and not marian_reforms 
@@ -136,7 +139,8 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
+				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
 				recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, massilia_01, macedon, seleucid, }  and not marian_reforms
@@ -186,6 +190,7 @@ building core_building
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
 				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, }
 				recruit "thracian bodyguard early"  0  requires factions { thrace, }  and not marian_reforms
 				recruit "thracian bodyguard"  0  requires factions { thrace, }  and marian_reforms  
 				recruit "carthaginian general's cavalry early"  0  requires factions { carthage, numidia, }  and not marian_reforms 
@@ -196,7 +201,8 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
+				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
 				recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, massilia_01, macedon, seleucid, }  and not marian_reforms
@@ -246,6 +252,7 @@ building core_building
 				recruit "barb scythian general scythian"  1  requires factions { scythia, }  and marian_reforms  
 				recruit "barb british general briton"  1  requires factions { britons, }
 				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, }
 				recruit "thracian bodyguard early"  0  requires factions { thrace, }  and not marian_reforms
 				recruit "thracian bodyguard"  0  requires factions { thrace, }  and marian_reforms  
 				recruit "carthaginian general's cavalry early"  0  requires factions { carthage, numidia, }  and not marian_reforms 
@@ -256,7 +263,8 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
+				recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
 				recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, massilia_01, macedon, seleucid, }  and not marian_reforms
@@ -388,6 +396,9 @@ building barracks
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, seleucid, macedon, egypt, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
@@ -427,6 +438,10 @@ building barracks
                 recruit "carthaginian infantry"  0  requires factions { spain, }
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
+                recruit "china phalanx"  0  requires factions { qin_01, }
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
@@ -503,6 +518,12 @@ building barracks
                 recruit "galatian swordsmen"  0  requires factions { pontus, }
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
+                recruit "china phalanx"  0  requires factions { qin_01, }
+                recruit "china swords infantry"  0  requires factions { qin_01, }
+                recruit "china heavy infantry"  0  requires factions { qin_01, }
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
@@ -607,6 +628,12 @@ building barracks
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } 
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
+                recruit "china phalanx"  0  requires factions { qin_01, }
+                recruit "china swords infantry"  0  requires factions { qin_01, }
+                recruit "china heavy infantry"  0  requires factions { qin_01, }
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
@@ -730,6 +757,14 @@ building barracks
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } 
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
+                recruit "china phalanx"  0  requires factions { qin_01, }
+                recruit "china swords infantry"  0  requires factions { qin_01, }
+                recruit "china heavy infantry"  0  requires factions { qin_01, }
+                recruit "china elite infantry"  0  requires factions { qin_01, }
+                recruit "china suicide squad"  0  requires factions { qin_01, }
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
@@ -855,6 +890,7 @@ building equestrian
                 recruit "Indian Light Cavalry"  0  requires factions { mauryans, }
                 recruit "cantabrian"  0  requires factions { spain, } 
                 recruit "barb cavalry gaul"  0  requires factions { gauls, } 
+                recruit "china horse archer"  0  requires factions { qin_01, }
                 recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
@@ -898,7 +934,9 @@ building equestrian
                 recruit "cantabrian"  0  requires factions { spain, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
-                recruit "barb cavalry gaul"  0  requires factions { gauls, } 
+                recruit "barb cavalry gaul"  0  requires factions { gauls, }
+                recruit "china horse crossbow"  0  requires factions { qin_01, }
+                recruit "china horse archer"  0  requires factions { qin_01, }
                 recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
@@ -959,7 +997,9 @@ building equestrian
                 recruit "cantabrian"  0  requires factions { spain, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
-                recruit "barb cavalry gaul"  0  requires factions { gauls, } 
+                recruit "barb cavalry gaul"  0  requires factions { gauls, }
+                recruit "china horse crossbow"  0  requires factions { qin_01, }
+                recruit "china horse archer"  0  requires factions { qin_01, }
                 recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
@@ -1036,7 +1076,9 @@ building equestrian
                 recruit "cantabrian"  0  requires factions { spain, } 
                 recruit "carthaginian medium cavalry"  0  requires factions { spain, } 
                 recruit "shield cavalry"  0  requires factions { spain, } 
-                recruit "barb cavalry gaul"  0  requires factions { gauls, } 
+                recruit "barb cavalry gaul"  0  requires factions { gauls, }
+                recruit "china horse crossbow"  0  requires factions { qin_01, }
+                recruit "china horse archer"  0  requires factions { qin_01, }
                 recruit "barb cavalry german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
@@ -1131,6 +1173,9 @@ building missiles
                 recruit "carthaginian archer"  0  requires factions { numidia, } 
                 recruit "east peltast"  0  requires factions { armenia, pontus, } 
                 recruit "east slinger"  0  requires factions { parthia, } 
+                recruit "china archer"  0  requires factions { qin_01, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
                 recruit "Indian Female Archers"  0  requires factions { mauryans, }
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
@@ -1174,6 +1219,10 @@ building missiles
                 recruit "carthaginian slinger"  0  requires factions { carthage, numidia, } 
                 recruit "east peltast"  0  requires factions { armenia, pontus, } 
                 recruit "east slinger"  0  requires factions { parthia, } 
+                recruit "china archer"  0  requires factions { qin_01, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china crossbow"  0  requires factions { qin_01, }
                 recruit "Indian Female Archers"  0  requires factions { mauryans, }
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
@@ -1225,6 +1274,11 @@ building missiles
                 recruit "carthaginian onager"  0  requires factions { carthage, numidia, } 
                 recruit "east peltast"  0  requires factions { armenia, pontus, } 
                 recruit "east slinger"  0  requires factions { parthia, } 
+                recruit "china archer"  0  requires factions { qin_01, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china crossbow"  0  requires factions { qin_01, }
+                recruit "china armoured crossbow"  0  requires factions { qin_01, }
                 recruit "Indian Female Archers"  0  requires factions { mauryans, }
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
@@ -1287,6 +1341,12 @@ building missiles
                 recruit "carthaginian heavy onager"  0  requires factions { carthage, } 
                 recruit "east peltast"  0  requires factions { armenia, pontus, } 
                 recruit "east slinger"  0  requires factions { parthia, } 
+                recruit "china archer"  0  requires factions { qin_01, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china heavy chariot"  0  requires factions { qin_01, }
+                recruit "china crossbow"  0  requires factions { qin_01, }
+                recruit "china armoured crossbow"  0  requires factions { qin_01, }
                 recruit "Indian Female Archers"  0  requires factions { mauryans, }
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
