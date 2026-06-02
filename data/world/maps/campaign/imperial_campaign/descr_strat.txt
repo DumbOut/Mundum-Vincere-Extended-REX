@@ -14269,7 +14269,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, faction leader, age 42, , x 1280, y 540
 
 faction	qin_01, balanced smith
-denari	20000
+denari	40000
 settlement
 {
     level town
@@ -14289,7 +14289,8 @@ settlement
 	}
 }
 
-;character FirstName LastName, named character, faction leader, age 42, , x 1243, y 537
+character Ying Si, named character, faction leader, age 42, , x 1243, y 537
+traits GoodCommander 2, GoodAdministrator 1, NaturalMilitarySkill 1
 
 ;faction	illyria_01, balanced smith
 ;denari	5000
