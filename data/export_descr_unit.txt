@@ -9332,7 +9332,7 @@ category         cavalry
 class            missile
 voice_type       Medium_1
 soldier          china_chariot_crossbow, 12, 4, 1
-mount            china light
+mount            medium horse
 mount_effect     elephant -8, camel -4
 attributes       frighten_foot
 formation        7, 9, 15, 15, 2, square
@@ -9358,7 +9358,7 @@ category         cavalry
 class            missile
 voice_type       Medium_1
 soldier          china_chariot_armored_crossbow, 12, 4, 1
-mount            china heavy
+mount            medium horse
 mount_effect     elephant -8, camel -4
 attributes       frighten_foot, very_hardy
 formation        10, 10, 15, 15, 2, square
@@ -9376,32 +9376,6 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 70, 30, 20, 200
-ownership        qin_01
-
-type             china heavy chariot
-dictionary       china_heavy_chariot     
-category         cavalry
-class            heavy
-voice_type       Heavy_1
-soldier          china_chariot_infantry, 12, 4, 1
-mount            china heavy
-mount_effect     elephant -8, camel -4
-attributes       frighten_foot, hardy
-formation        10, 10, 15, 15, 2, square
-stat_health      2, 5
-stat_pri         12, 11, no, 0, 0, melee, blade, slashing, axe, 35 ,1
-stat_pri_attr    no
-stat_sec         8, 18, no, 0, 0, melee, other, slashing, none, 45 ,1
-stat_sec_attr    launching, ap
-stat_pri_armour  9, 7, 0, metal
-stat_sec_armour  10, 2, flesh
-stat_heat        5
-stat_ground      0, -5, -10, -2
-stat_mental      13, disciplined, highly_trained
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        30, 300
-stat_cost        1, 701, 85, 30, 20, 701
 ownership        qin_01
 
 type             china generals early

@@ -332,6 +332,7 @@ texture				seleucid, data/models_unit/textures/mount_horse_light_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_light_senate.tga
 texture				slave, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				massilia_01, data/models_unit/textures/mount_horse_light_rebel.tga
+texture				qin_01, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				spain, data/models_unit/textures/mount_horse_light_spain.tga
 texture				thrace, data/models_unit/textures/horse_light_thrace.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
@@ -390,6 +391,7 @@ texture				scythia, data/models_unit/textures/horse_medium_scythia.tga
 texture				seleucid, data/models_unit/textures/horse_medium_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_medium_senate.tga
 texture				slave, data/models_unit/textures/horse_medium_rebel.tga
+texture				qin_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				spain, data/models_unit/textures/horse_medium_spain.tga
 texture				thrace, data/models_unit/textures/horse_medium_thrace.tga
@@ -450,6 +452,7 @@ texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
 texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
+texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
@@ -508,6 +511,7 @@ texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
 texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
+texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
 model_flexi			data/models_unit/mount_horse_light_400.CAS, 15
@@ -4605,7 +4609,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_militia_lowest.cas, max
 model_tri	400, 0.5f, 0.5f, 0.5f
 
 type				qin_maoshou
-skeleton			fs_2mao
+skeleton			fs_spearman
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/zhanguo/textures/qin_maoshou.tga
 model_flexi			mve_rex/data/models_unit/zhanguo/qin_maoshou.cas, max
@@ -4622,7 +4626,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_swordsmen_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_light_infantry
-skeleton			fs_2mao
+skeleton			fs_spearman
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_light_infantry.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_light_infantry_high.cas, 15
@@ -4642,7 +4646,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_phalanx_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_heavy_infantry
-skeleton			fs_2mao
+skeleton			fs_spearman
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_heavy_infantry.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_heavy_infantry_high.cas, 15
@@ -4659,7 +4663,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_elite_infantry.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_archer
-skeleton			fs_fast_archer, fs_ge
+skeleton			fs_fast_archer, fs_dagger
 indiv_range			40
 texture			qin_01, mve_rex/data/models_unit/tsin/textures/china_archer.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, 15
@@ -4669,7 +4673,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_crossbow
-skeleton			fs_nu, fs_dagger									
+skeleton			fs_crossbow, fs_dagger									
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_crossbowmen.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 15
@@ -4699,7 +4703,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_horse_archer_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_armoured_crossbow
-skeleton			fs_nu, fs_dagger									
+skeleton			fs_crossbow, fs_dagger									
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_armoured_crossbowmen.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 15
@@ -4709,7 +4713,7 @@ model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas,
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_chariot_crossbow
-skeleton			fs_chenu					
+skeleton			fs_crossbow, fs_dagger					
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_crossbowmen.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 15
@@ -4719,23 +4723,13 @@ model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_chariot_armored_crossbow
-skeleton			fs_chenu					
+skeleton			fs_crossbow, fs_dagger		
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_armoured_crossbowmen.tga
 model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 15
 model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 30
 model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 40
 model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, max
-model_tri			400, 0.5f, 0.5f, 0.5f
-
-type				china_chariot_infantry
-skeleton			fs_chariot_sword									
-indiv_range			40
-texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_infantry.tga
-model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 15
-model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 30
-model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 40
-model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				china_heavy_cavalry
