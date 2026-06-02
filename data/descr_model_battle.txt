@@ -4593,3 +4593,165 @@ model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantr
 model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_low.cas, 40
 model_flexi                 mve_rex/data/characters/unit_NL_libyan_light_infantry_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type          Minbin_Wei
+skeleton				fs_semi_fast_dagger
+indiv_range				40
+texture		qin_01, 		mve_rex/data/models_unit/tsin/textures/china_militia.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_militia_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_militia_med.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_militia_low.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_militia_lowest.cas, max
+model_tri	400, 0.5f, 0.5f, 0.5f
+
+type				qin_maoshou
+skeleton			fs_2mao
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/zhanguo/textures/qin_maoshou.tga
+model_flexi			mve_rex/data/models_unit/zhanguo/qin_maoshou.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_swords_infantry
+skeleton			fs_swordsman		
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_swordsmen.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_swordsmen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_swordsmen_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_swordsmen_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_swordsmen_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_light_infantry
+skeleton			fs_2mao
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_light_infantry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_light_infantry_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_light_infantry_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_light_infantry_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_light_infantry_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_phalanx
+skeleton			fs_spearman, fs_swordsman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_phalanx.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_phalanx_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_phalanx_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_phalanx_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_phalanx_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_heavy_infantry
+skeleton			fs_2mao
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_heavy_infantry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_infantry_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_infantry_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_infantry_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_infantry_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_elite_infantry
+skeleton			fs_spearman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_elite_infantry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_elite_infantry.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_archer
+skeleton			fs_fast_archer, fs_ge
+indiv_range			40
+texture			qin_01, mve_rex/data/models_unit/tsin/textures/china_archer.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_archer_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_crossbow
+skeleton			fs_nu, fs_dagger									
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_crossbowmen.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_horse_crossbow
+skeleton			fs_hc_archer, fs_hc_spearman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_horse_crossbow.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_crossbowmen.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_crossbowmen.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_crossbowmen.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_crossbowmen.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_horse_archer
+skeleton			fs_hc_archer, fs_hc_swordsman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_heavy_cavalry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_archer_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_archer_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_archer_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_horse_archer_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_armoured_crossbow
+skeleton			fs_nu, fs_dagger									
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_armoured_crossbowmen.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_chariot_crossbow
+skeleton			fs_chenu					
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_crossbowmen.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_crossbowmen_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_chariot_armored_crossbow
+skeleton			fs_chenu					
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_armoured_crossbowmen.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_armoured_crossbowmen_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_chariot_infantry
+skeleton			fs_chariot_sword									
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_chariot_infantry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_chariot_infantry.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_heavy_cavalry
+skeleton			fs_hc_spearman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/china_heavy_cavalry.tga
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_cavalry_high.cas, 15
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_cavalry_high.cas, 30
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_cavalry_high.cas, 40
+model_flexi			mve_rex/data/models_unit/tsin/china_heavy_cavalry_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				china_suicide_squad
+skeleton			fs_crossbow, fs_swordsman
+indiv_range			40
+texture				qin_01, mve_rex/data/models_unit/tsin/textures/ruishi.tga
+model_flexi			mve_rex/data/models_unit/tsin/ruishi.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
