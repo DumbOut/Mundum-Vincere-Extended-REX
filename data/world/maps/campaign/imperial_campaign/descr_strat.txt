@@ -14294,14 +14294,15 @@ traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
 
+character	Ying Bang, named character, heir, age 33, , x 1244, y 536
+traits GoodCommander 1, GoodAdministrator 1
+army
+unit	china generals early	exp 1 armour 0 weapon_lvl 0
 
-character_record		Durdhara, 	female, command 0, influence 0, management 0, subterfuge 0, age 69, dead, never_a_leader
-character_record		Subhadrangi, 	female, command 0, influence 0, management 0, subterfuge 0, age 49, alive, never_a_leader
-character_record		Chandragupta Maurya, 	male, command 0, influence 0, management 0, subterfuge 0, age 69, dead, past_leader
-character_record		Vitashoka Maurya, 	male, command 0, influence 0, management 0, subterfuge 0, age 0, alive, never_a_leader
 
-relative 	Ying Si, 	Durdhara,		Bindusara Maurya,	end
-relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparswa Maurya,	Tissa Maurya,	Vitashoka Maurya,	end
+character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 69, dead, never_a_leader
+
+relative 	Ying Si, 	Ai,		Ying Bang,	end
 
 
 ;faction	illyria_01, balanced smith
