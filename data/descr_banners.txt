@@ -65,6 +65,16 @@ model		data/models/standard_general_julii.cas
 skeleton	general_legion_pole
 outline		data/models/standard_battle_glow_eastern.cas
 
+banner		upper_chinese
+model       mve_rex/data/models/sgbanner1.cas          ; generals banner
+skeleton    general_legion_pole
+outline     mve_rex/data/models/sgbanner1.cas
+model       mve_rex/data/models/sgbanner.cas                  ; standard unit banner
+skeleton    standard_legion_pole
+outline     mve_rex/data/models/sgbanner.cas
+model       mve_rex/data/models/sgbanner.cas          ; mini banner
+skeleton    general_legion_pole
+outline     mve_rex/data/models/sgbanner.cas
 
 faction				romans_julii
 standard_texture	models/textures/standard_julii.tga
@@ -191,6 +201,12 @@ standard_texture	models/textures/standard_slave.tga
 rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_slave_ally.tga
+
+faction				qin_01
+standard_texture	models/textures/standard_qin_01.tga
+rebels_texture		models/textures/standard_upper_chinese_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_qin_01_ally.tga
 
 ;; New Factions - 33 ;;
 

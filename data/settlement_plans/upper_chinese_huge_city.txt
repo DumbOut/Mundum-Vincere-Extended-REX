@@ -1,0 +1,564 @@
+plan
+
+{
+target rectangle x 80 z -176 rot 0 width 192 height 192
+floor		roman_huge_city_underlay.cas  roman_huge_city_overlay.cas
+ground_types	roman_huge_city_ground.tga -480 -608 672 608 
+street_plan	roman_huge_city_pathfinding.cas
+borders
+	{
+gateway,	480,	128,	90,	0.5
+gateway,	-416,	0,	-90,	0.5
+gateway,	128,	544,	180,	0.5
+gateway,	-64,	-544,	0,	0.5
+straight,	0,	-544,	0,	0.5
+straight,	-128,	-544,	0,	0.5
+straight,	384,	-480,	0,	0.5
+straight,	192,	-544,	0,	0.5
+straight,	256,	-512,	45,	0.5
+straight,	448,	-448,	45,	0.5
+straight,	512,	-384,	45,	0.5
+straight,	544,	-320,	90,	0.5
+straight,	544,	-192,	90,	0.5
+straight,	544,	-128,	90,	0.5
+straight,	512,	-0,	135,	0.5
+straight,	480,	64,	90,	0.5
+straight,	480,	256,	90,	0.5
+straight,	608,	384,	90,	0.5
+straight,	512,	288,	0,	0.5
+straight,	576,	416,	180,	0.5
+straight,	512,	448,	135,	0.5
+straight,	448,	512,	135,	0.5
+straight,	320,	544,	180,	0.5
+straight,	256,	544,	180,	0.5
+straight,	64,	544,	180,	0.5
+straight,	-64,	416,	180,	0.5
+straight,	-192,	416,	180,	0.5
+straight,	-32,	448,	-90,	0.5
+straight,	0,	512,	-135,	0.5
+straight,	-256,	384,	-135,	0.5
+straight,	-320,	320,	-135,	0.5
+straight,	-384,	192,	-135,	0.5
+straight,	-416,	128,	-90,	0.5
+straight,	-416,	-64,	-90,	0.5
+straight,	-352,	-192,	-90,	0.5
+straight,	-224,	-320,	-90,	0.5
+straight,	-224,	-384,	-90,	0.5
+straight,	-224,	-512,	-90,	0.5
+straight,	-384,	-128,	-45,	0.5
+straight,	-256,	-288,	0,	0.5
+straight,	-192,	-544,	0,	0.5
+straight,	192,	544,	180,	0.5
+straight,	128,	-544,	0,	0.5
+straight,	480,	192,	90,	0.5
+straight,	-416,	64,	-90,	0.5
+tower_straight,	320,	-480,	0,	0.5
+tower_straight,	64,	-544,	0,	0.5
+tower_straight,	544,	-256,	90,	0.5
+tower_straight,	544,	-64,	90,	0.5
+tower_straight,	576,	320,	45,	0.5
+tower_straight,	384,	544,	-180,	0.5
+tower_straight,	-128,	416,	-180,	0.5
+tower_straight,	-352,	256,	-90,	0.5
+tower_straight,	-320,	-256,	-45,	0.5
+tower_straight,	-224,	-448,	-90,	0.5
+tower_internal_corner_link,	-224,	-288,	0,	0.5
+tower_external_corner_link,	-224,	-544,	0,	0.5
+external_corner_link,	608,	416,	180,	0.5
+internal_corner_link,	480,	288,	90,	0.5
+internal_corner_link,	-32,	416,	-90,	0.5
+straight_link,	-160,	-544,	0,	0.5
+straight_link,	32,	-544,	0,	0.5
+straight_link,	160,	-544,	0,	0.5
+straight_link,	352,	-480,	0,	0.5
+straight_link,	544,	-288,	90,	0.5
+straight_link,	544,	-224,	90,	0.5
+straight_link,	544,	-160,	90,	0.5
+straight_link,	544,	-96,	90,	0.5
+straight_link,	352,	544,	-180,	0.5
+straight_link,	288,	544,	-180,	0.5
+straight_link,	-160,	416,	-180,	0.5
+straight_link,	-96,	416,	-180,	0.5
+straight_link,	-224,	-480,	-90,	0.5
+straight_link,	-224,	-416,	-90,	0.5
+straight_link,	-224,	-352,	-90,	0.5
+straight_link,	-416,	96,	-90,	0.5
+straight_link,	224,	544,	-180,	0.5
+straight_link,	96,	-544,	0,	0.5
+straight_link,	480,	224,	90,	0.5
+external_right_link,	224,	-544,	0,	0.5
+external_right_link,	416,	-480,	0,	0.5
+external_right_link,	544,	-32,	90,	0.5
+external_right_link,	544,	288,	0,	0.5
+external_right_link,	32,	544,	180,	0.5
+external_right_link,	-224,	416,	180,	0.5
+external_right_link,	-352,	-224,	-90,	0.5
+external_right_link,	-416,	-96,	-90,	0.5
+external_left_link,	544,	-352,	90,	0.5
+external_left_link,	608,	352,	90,	0.5
+external_left_link,	416,	544,	180,	0.5
+external_left_link,	-32,	480,	-90,	0.5
+external_left_link,	-352,	288,	-90,	0.5
+external_left_link,	-416,	160,	-90,	0.5
+external_left_link,	-288,	-288,	0,	0.5
+internal_left_link,	480,	32,	90,	0.5
+internal_left_link,	-352,	-160,	-90,	0.5
+internal_left_link,	288,	-480,	0,	0.5
+internal_right_link,	544,	416,	180,	0.5
+internal_right_link,	-352,	224,	-90,	0.5
+diagonal_link,	480,	-416,	45,	0.5
+diagonal_link,	480,	480,	135,	0.5
+diagonal_link,	-288,	352,	-135,	0.5
+	}
+
+; ROAD JOINERS
+
+gateway_slot_into_roman_town,	512,	128,	0,	0
+gateway_slot_into_roman_town,	128,	576,	90,	0
+gateway_slot_into_roman_town,	-448,	0,	180,	0
+gateway_slot_into_roman_town,	-64,	-576,	-90,	0
+
+
+
+slot_plaza_roman_192x192m,	80,	-176,	0,	0.5
+
+slot_112x64_academic,	-180.34,	-120.337,	180,	0.5
+slot_112x64_barracks,	-56,	-470,	0,	0.5
+slot_160x128_market,	125.46,	397.58,	0,	0.5
+slot_160x128_religious,	-151,	56,	90,	0.5
+slot_256x192_amphitheatres,	409.10,	-196.56,	90,	0.5
+slot_256x192_core_building,	79.76,	25.19,	0,	0.5
+slot_256x96_equestrian,	-73.11,	199,	0,	0.5
+slot_48x32_smith,	241.754,	-444.198,	45,	0.5
+slot_160x128_missiles,	376.143,	256.87,		90,	0.5
+
+slot_112x64_health_huge_city,	-280,	-150,	-90,	0.5
+
+
+
+
+;COLLISION
+
+roman_huge_city_collision, 	0,	0,	0,	0
+
+;AMBIENTS
+
+
+boxed_tree_A,	-171.18,	-333.98,	-15,	0.5
+boxed_tree_A,	-199.66,	-305.41,	-15,	0.5
+boxed_tree_A,	-202.49,	369.30,	-15,	0.5
+boxed_tree_E,	-192.87,	270.61,	-15,	0.5
+boxed_tree_F,	-200.65,	-338.20,	-15,	0.5
+boxed_tree_F,	-171.99,	-306.22,	-15,	0.5
+
+
+insulae_white,	65.06,	224.32,	5,	0.5
+insulae_white,	-211.61,	-173.023,	90,	0.5
+insulae_white,	-101.37,	-422.887,	-90,	0.5
+insulae_white,	-178.39,	-64.10,	-85,	0.5
+insulae_white,	-130.44,	255.42,	-85,	0.5
+insulae_white,	-11.02,	-422.567,	-90,	0.5
+insulae_white,	65.05,	250,	0,	0.5
+insulae_white,	81.87,	320.68,	-90,	0.5
+insulae_white,	-152.70,	-64.10,	-90,	0.5
+insulae_white,	-208.67,	214.28,	180,	0.5
+insulae_white,	56.19,	320.68,	-85,	0.5
+insulae_white,	-208.67,	239.97,	-175,	0.5
+insulae_white,	-104.76,	255.42,	-90,	0.5
+insulae_white,	-222.20,	76.60,	0,	0.5
+insulae_white,	-185.93,	-162.636,	95,	0.5
+insulae_white,	489.396,	401.755,	45,	0.5
+insulae_white,	205.567,	-434.862,	40,	0.5
+
+
+
+roman_ambush_building,	-330.54,	-44.56,	90,	0.5
+
+
+triumphal_arch,	-59.34,	-132.56,	-135,	0.5
+
+
+roman_colonnaded_portico,	-191.28,	350.58,	-60,	0.5
+roman_colonnaded_portico,	486.04,	-51.71,	-90,	0.5
+roman_colonnaded_portico,	-184.42,	-321.26,	-90,	0.5
+roman_colonnaded_portico,	447.83,	412.44,	0,	0.5
+roman_colonnaded_portico,	17.76,	-428.30,	-85,	0.5
+roman_colonnaded_portico,	199.56,	-104.01,	90,	0.5
+roman_colonnaded_portico,	-45.03,	-101.61,	90,	0.5
+roman_colonnaded_portico,	22.51,	388.45,	0,	0.5
+roman_colonnaded_portico,	439.097,	347.96,	0,	0.5
+roman_colonnaded_portico,	-236.3,	-162.578,	180,	0.5
+roman_colonnaded_portico,	222.551,	-471.324,	-35,	0.5
+roman_colonnaded_portico,	229.802,	-415.312,	-125,	0.5
+
+
+roman_statue,	20.77,	-401.98,	-90,	0.3
+roman_statue,	-273.39,	-211.75,	-90,	0.3
+
+
+shrine_round ,	247.84,	-394.72,	-45,	0.5
+shrine_round ,	-241.83,	241.37,	90,	0.5
+shrine_round ,	-339.90,	-96.38,	-45,	0.5
+
+
+roman_tenamentA_group,	-261.94,	10.50,	180,	0.5
+roman_tenamentA_group,	355.21,	6.51,	90,	0.5
+roman_tenamentA_group,	251.60,	192.46,	0,	0.5
+roman_tenamentA_group,	308.72,	380.45,	90,	0.5
+roman_tenamentA_group,	171.18,	184.89,	-90,	0.5
+roman_tenamentA_group,	69.69,	-459.87,	-180,	0.5
+roman_tenamentA_group,	122.75,	268.05,	0,	0.5
+roman_tenamentA_group,	163.48,	-468.65,	90,	0.5
+roman_tenamentA_group,	385.82,	427.83,	-180,	0.5
+roman_tenamentA_group,	307.53,	459.21,	0,	0.5
+roman_tenamentA_group,	-230.24,	305.83,	-45,	0.5
+roman_tenamentA_group,	-266.27,	193.38,	0,	0.5
+roman_tenamentA_group,	203.75,	280.31,	0,	0.5
+roman_tenamentA_group,	397.05,	77.42,	90,	0.5
+roman_tenamentA_group,	-343.54,	30.09,	180,	0.5
+roman_tenamentA_group,	-262.30,	93.94,	0,	0.5
+roman_tenamentA_group,	-133.45,	343.37,	90,	0.5
+roman_tenamentA_group,	-74.15,	-204.35,	-180,	0.5
+roman_tenamentA_group,	-148.60,	-460.75,	-180,	0.5
+
+roman_tenamentB,	296.44,	-176.25,	0,	0.5
+roman_tenamentB,	-56.27,	-265.19,	90,	0.5
+roman_tenamentB,	-7.14,	278.13,	0,	0.5
+roman_tenamentB,	-317.51,	169.13,	0,	0.5
+roman_tenamentB,	6.20,	-312.80,	0,	0.5
+roman_tenamentB,	359.26,	486.17,	0,	0.5
+roman_tenamentB,	-106.03,	278.13,	0,	0.5
+roman_tenamentB,	112.81,	209.64,	0,	0.5
+roman_tenamentB,	254.56,	250.12,	0,	0.5
+roman_tenamentB,	217.34,	-260.54,	0,	0.5
+roman_tenamentB,	423.05,	161.453,	90,	0.5
+roman_tenamentB,	-17.66,	-394.41,	0,	0.5
+roman_tenamentB,	383.02,	-379.71,	45,	0.5
+roman_tenamentB,	-99.34,	-394.41,	90,	0.5
+roman_tenamentB,	-340.03,	135.86,	0,	0.5
+roman_tenamentB,	-51.63,	-394.75,	-180,	0.5
+roman_tenamentB,	258.38,	-304.10,	45,	0.5
+roman_tenamentB,	296.44,	-78.85,	0,	0.5
+roman_tenamentB,	369.03,	127.50,	0,	0.5
+roman_tenamentB,	223.13,	-368.05,	0,	0.5
+roman_tenamentB,	-116.11,	-41.53,	0,	0.5
+roman_tenamentB,	-136.93,	-320.66,	0,	0.5
+roman_tenamentB,	-136.87,	-355.05,	90,	0.5
+roman_tenamentB,	130.60,	487.21,	0,	0.5
+roman_tenamentB,	516.44,	351.15,	0,	0.5
+roman_tenamentB,	247.25,	112.88,	0,	0.5
+roman_tenamentB,	403.293,	361.183,	180,	0.5
+roman_tenamentB,	479.633,	349.238,	180,	0.5
+
+roman_tenamentC,	293.323,	311.77,	-90,	0.5
+roman_tenamentC,	-56.64,	278.99,	180,	0.5
+roman_tenamentC,	291.52,	-405.33,	135,	0.5
+roman_tenamentC,	-153.41,	-403.44,	180,	0.5
+roman_tenamentC,	216.85,	-211.31,	90,	0.5
+roman_tenamentC,	25.84,	346.99,	90,	0.5
+roman_tenamentC,	25.84,	430.01,	90,	0.5
+roman_tenamentC,	-155.54,	273.49,	-165,	0.5
+roman_tenamentC,	18.21,	-472.77,	-90,	0.5
+roman_tenamentC,	-163.66,	-40.45,	-180,	0.5
+roman_tenamentC,	229.83,	355.33,	90,	0.5
+roman_tenamentC,	295.45,	-128.69,	90,	0.5
+roman_tenamentC,	-362.60,	-42.74,	90,	0.5
+roman_tenamentC,	405.92,	-405.65,	45,	0.5
+roman_tenamentC,	233.02,	420.94,	90,	0.5
+roman_tenamentC,	-343.83,	88.03,	0,	0.5
+roman_tenamentC,	81.10,	488.07,	180,	0.5
+roman_tenamentC,	248.43,	-0.26,	90,	0.5
+roman_tenamentC,	31.74,	-375.81,	180,	0.5
+roman_tenamentC,	295.45,	-237.43,	90,	0.5
+roman_tenamentC,	39.44,	278.99,	180,	0.5
+roman_tenamentC,	-271.19,	264.26,	-45,	0.5
+roman_tenamentC,	248.43,	-124.12,	90,	0.5
+roman_tenamentC,	248.43,	-61.32,	90,	0.5
+roman_tenamentC,	295.45,	-300.76,	90,	0.5
+roman_tenamentC,	422.06,	7.87,	-90,	0.5
+roman_tenamentC,	136.01,	-313.46,	180,	0.5
+roman_tenamentC,	379.98,	-46.31,	0,	0.5
+roman_tenamentC,	316.85,	-46.31,	0,	0.5
+roman_tenamentC,	446.41,	-46.31,	0,	0.5
+roman_tenamentC,	263.80,	79.78,	0,	0.5
+roman_tenamentC,	327.52,	79.45,	90,	0.5
+roman_tenamentC,	-103.98,	-120.47,	-90,	0.5
+roman_tenamentC,	-219.42,	-201.15,	180,	0.5
+roman_tenamentC,	343.62,	-388.35,	-45,	0.5
+roman_tenamentC,	174.80,	-393.30,	180,	0.5
+roman_tenamentC,	264.43,	46.77,	0,	0.5
+roman_tenamentC,	-153.86,	-201.15,	180,	0.5
+roman_tenamentC,	55.17,	-313.46,	180,	0.5
+roman_tenamentC,	177.18,	488.07,	180,	0.5
+roman_tenamentC,	-225.34,	-47.85,	-180,	0.5
+roman_tenamentC,	453.89,	384.044,	180,	0.5
+
+roman_tenamentD,	-239.90,	-67.98,	90,	0.5
+roman_tenamentD,	220.21,	-165.98,	135,	0.5
+roman_tenamentD,	467.26,	424.22,	50,	0.5
+roman_tenamentD,	-154.40,	-166.715,	90,	0.5
+roman_tenamentD,	-360.86,	135.95,	-180,	0.5
+roman_tenamentD,	331.50,	-339.77,	90,	0.5
+roman_tenamentD,	366.82,	-434.56,	90,	0.5
+roman_tenamentD,	-208.37,	-67.98,	90,	0.5
+roman_tenamentD,	-165.99,	-359.24,	135,	0.5
+roman_tenamentD,	392.80,	476.03,	90,	0.5
+roman_tenamentD,	359.75,	-358.86,	90,	0.5
+roman_tenamentD,	406.66,	-357.67,	90,	0.5
+roman_tenamentD,	456.15,	-23.88,	-90,	0.5
+roman_tenamentD,	303.24,	-364.83,	45,	0.5
+roman_tenamentD,	-224.17,	-244.04,	90,	0.5
+roman_tenamentD,	440.44,	-357.28,	90,	0.5
+roman_tenamentD,	213.85,	-330.33,	-45,	0.5
+roman_tenamentD,	88.01,	-405.64,	90,	0.5
+roman_tenamentD,	-160.88,	-234.22,	90,	0.5
+roman_tenamentD,	-346.39,	165.47,	135,	0.5
+roman_tenamentD,	-287.197,	-221.876,	45,	0.5
+roman_tenamentD,	-60.76,	254.78,	-90,	0.5
+roman_tenamentD,	-103.32,	-280.67,	45,	0.5
+roman_tenamentD,	415.91,	-335.61,	90,	0.5
+roman_tenamentD,	379.56,	-335.61,	90,	0.5
+roman_tenamentD,	-306.85,	201.57,	-180,	0.5
+roman_tenamentD,	-93.46,	-41.44,	-180,	0.5
+roman_tenamentD,	32.32,	478.73,	-45,	0.5
+roman_tenamentD,	-221.17,	106.04,	-180,	0.5
+roman_tenamentD,	232.40,	459.21,	-90,	0.5
+roman_tenamentD,	-121.54,	-64.78,	90,	0.5
+roman_tenamentD,	266.36,	-364.66,	45,	0.5
+roman_tenamentD,	437.43,	435.90,	90,	0.5
+roman_tenamentD,	-254.68,	-244.04,	90,	0.5
+roman_tenamentD,	268.87,	15.13,	0,	0.5
+roman_tenamentD,	-87.10,	-261.34,	45,	0.5
+roman_tenamentD,	-221.17,	47.33,	-180,	0.5
+roman_tenamentD,	187.51,	-423.22,	-45,	0.5
+roman_tenamentD,	513.30,	380.68,	45,	0.5
+roman_tenamentD,	279.46,	100.06,	90,	0.5
+roman_tenamentD,	-317.37,	135.95,	-180,	0.5
+roman_tenamentD,	241.30,	-338.28,	-135,	0.5
+roman_tenamentD,	158.78,	-415.14,	-90,	0.5
+roman_tenamentD,	-306.15,	254.41,	180,	0.5
+roman_tenamentD,	182.49,	-327.79,	135,	0.5
+roman_tenamentD,	273.98,	-191.12,	-180,	0.5
+roman_tenamentD,	-137.15,	-379.91,	-90,	0.5
+roman_tenamentD,	221.87,	-389.36,	-90,	0.5
+roman_tenamentD,	245.66,	-369.17,	0,	0.5
+roman_tenamentD,	273.98,	-223.30,	-180,	0.5
+roman_tenamentD,	295.15,	-198.96,	90,	0.5
+roman_tenamentD,	-209.52,	186.23,	-180,	0.5
+roman_tenamentD,	-72.68,	-422.112,	90,	0.5
+roman_tenamentD,	273.98,	-271.22,	-180,	0.5
+roman_tenamentD,	133.69,	-386.50,	0,	0.5
+roman_tenamentD,	-126.07,	-287.35,	-180,	0.5
+roman_tenamentD,	-112.05,	-298.52,	-180,	0.5
+roman_tenamentD,	449.05,	-379.09,	135,	0.5
+roman_tenamentD,	133.69,	-419.13,	0,	0.5
+roman_tenamentD,	-221.17,	-15.45,	-180,	0.5
+roman_tenamentD,	175.49,	-364.35,	-90,	0.5
+roman_tenamentD,	-41.08,	-422.911,	90,	0.5
+roman_tenamentD,	-74.77,	-394.03,	-180,	0.5
+roman_tenamentD,	55.23,	-405.64,	90,	0.5
+roman_tenamentD,	-32.54,	-374.41,	90,	0.5
+roman_tenamentD,	-257.25,	-221.04,	0,	0.5
+roman_tenamentD,	153.02,	-338.21,	90,	0.5
+roman_tenamentD,	212.41,	447.33,	180,	0.5
+roman_tenamentD,	125.86,	317.40,	-90,	0.5
+roman_tenamentD,	307.20,	-12.16,	-180,	0.5
+roman_tenamentD,	212.41,	414.91,	180,	0.5
+roman_tenamentD,	-28.11,	-320.65,	45,	0.5
+roman_tenamentD,	191.35,	467.18,	-90,	0.5
+roman_tenamentD,	157.40,	-426.91,	-90,	0.5
+roman_tenamentD,	215.27,	-282.52,	90,	0.5
+roman_tenamentD,	243.57,	-198.81,	-180,	0.5
+roman_tenamentD,	243.57,	-230.99,	-180,	0.5
+roman_tenamentD,	182.45,	-301.10,	90,	0.5
+roman_tenamentD,	211.26,	-300.49,	135,	0.5
+roman_tenamentD,	143.25,	-364.35,	-90,	0.5
+roman_tenamentD,	61.02,	467.18,	-90,	0.5
+roman_tenamentD,	-140.90,	-278.17,	-180,	0.5
+roman_tenamentD,	261.96,	-415.34,	45,	0.5
+roman_tenamentD,	462.33,	-334.82,	90,	0.5
+roman_tenamentD,	-127.45,	-239.11,	90,	0.5
+roman_tenamentD,	-191.39,	-234.22,	90,	0.5
+roman_tenamentD,	246.66,	-167.72,	135,	0.5
+roman_tenamentD,	-221.17,	16.60,	-180,	0.5
+roman_tenamentD,	295.575,	-339.981,	90,	0.5
+roman_tenamentD,	46.40,	-337.08,	90,	0.5
+roman_tenamentD,	11.47,	-337.08,	90,	0.5
+
+roman_tenamentE,	269.991,	299.294,	91.692,	0.5
+;
+roman_tenamentE,	270.55,	110.03,	1.69,	0.5
+roman_tenamentE,	366.63,	-423.39,	91.69,	0.5
+roman_tenamentE,	273.62,	-246.83,	91.69,	0.5
+roman_tenamentE,	-272,	-237.13,	-138.31,	0.5
+roman_tenamentE,	290.18,	-434.04,	-178.31,	0.5
+roman_tenamentE,	278.84,	24.04,	-88.31,	0.5
+roman_tenamentE,	463.70,	-361.94,	136.69,	0.5
+roman_tenamentE,	355.93,	-337.71,	91.69,	0.5
+roman_tenamentE,	383.89,	486,	1.69,	0.5
+roman_tenamentE,	212.07,	-490.78,	-133.31,	0.5
+roman_tenamentE,	-16.15,	-303.30,	91.69,	0.5
+roman_tenamentE,	276.67,	-433.68,	-178.31,	0.5
+roman_tenamentE,	-200.56,	261.14,	41.69,	0.5
+roman_tenamentE,	-10.66,	-335.13,	91.69,	0.5
+roman_tenamentE,	266.59,	-327.49,	136.69,	0.5
+roman_tenamentE,	444.71,	-11.89,	91.69,	0.5
+roman_tenamentE,	483.58,	-340.70,	136.69,	0.5
+roman_tenamentE,	-44.25,	-288.88,	91.69,	0.5
+roman_tenamentE,	441.02,	-371.32,	136.69,	0.5
+roman_tenamentE,	-208.83,	162.98,	1.69,	0.5
+roman_tenamentE,	439.89,	-336.06,	91.69,	0.5
+roman_tenamentE,	203.22,	-292.63,	91.69,	0.5
+roman_tenamentE,	195.09,	-312.01,	136.69,	0.5
+roman_tenamentE,	-33.99,	-352.12,	136.69,	0.5
+roman_tenamentE,	-92.73,	-157.97,	-178.31,	0.5
+roman_tenamentE,	-188.69,	258.08,	41.69,	0.5
+roman_tenamentE,	243.49,	272.20,	91.69,	0.5
+roman_tenamentE,	-129.69,	-266.89,	1.69,	0.5
+roman_tenamentE,	-61.24,	-287.30,	132.79,	0.5
+roman_tenamentE,	132.05,	-337.51,	91.69,	0.5
+roman_tenamentE,	-43.93,	-303.97,	132.79,	0.5
+roman_tenamentE,	-23.56,	-362.51,	136.69,	0.5
+roman_tenamentE,	-8.37,	-364.61,	-178.31,	0.5
+roman_tenamentE,	-83.78,	254.99,	1.69,	0.5
+roman_tenamentE,	-163.03,	-380.88,	-178.31,	0.5
+roman_tenamentE,	-179.35,	-379.77,	91.69,	0.5
+roman_tenamentE,	428.52,	445.86,	1.69,	0.5
+roman_tenamentE,	275.74,	239.59,	91.69,	0.5
+roman_tenamentE,	322.36,	-435.57,	-178.31,	0.5
+roman_tenamentE,	297.23,	-21.06,	91.69,	0.5
+roman_tenamentE,	102.85,	317.61,	1.69,	0.5
+roman_tenamentE,	305.70,	270.88,	91.69,	0.5
+roman_tenamentE,	66.73,	204.36,	91.69,	0.5
+roman_tenamentE,	-29.09,	-302.25,	-178.31,	0.5
+roman_tenamentE,	198.88,	-348.48,	-133.31,	0.5
+roman_tenamentE,	-138.28,	-299.01,	-178.31,	0.5
+roman_tenamentE,	-131.38,	-161.41,	-178.31,	0.5
+roman_tenamentE,	243.21,	-254.52,	91.69,	0.5
+roman_tenamentE,	224.72,	-339.38,	136.69,	0.5
+roman_tenamentE,	-370.46,	135.61,	-88.31,	0.5
+roman_tenamentE,	-98.92,	-64.99,	-178.31,	0.5
+roman_tenamentE,	288.825,	-348.579,	91.692,		0.5
+roman_tenamentE,	353.338,	-423.959,	171.692,	0.5
+roman_tenamentE,	457.286,	-346.261,	91.692,		0.5
+roman_tenamentE,	-90.858,	-298.509,	-132.205,	0.5
+
+tree_B,	-17.76,	-316.26,	45,	1.5
+tree_B,	-230.74,	-226.99,	90,	1.5
+tree_B,	-80.34,	-253.93,	45,	1.5
+tree_B,	379.84,	494.68,	0,	1.5
+tree_B,	-132.96,	-225.35,	90,	1.5
+tree_B,	241.16,	-268.51,	45,	1.5
+tree_B,	-64.77,	-346.19,	0,	1.5
+tree_B,	209.70,	-127.20,	90,	1.5
+tree_B,	311.54,	-435.87,	0,	1.5
+tree_B,	189.38,	-355.97,	45,	1.5
+tree_B,	-35.16,	-432.961,	0,	1.5
+tree_B,	185.81,	-157.18,	90,	1.5
+tree_B,	220.05,	-482.99,	45,	1.5
+tree_B,	259.30,	-377.97,	45,	1.5
+tree_B,	426.69,	423.66,	0,	1.5
+tree_B,	-62.04,	8.63,	90,	1.5
+tree_B,	277.74,	-170.94,	45,	1.5
+tree_B,	154.24,	466.88,	0,	1.5
+tree_B,	287.52,	28.09,	-90,	1.5
+tree_B,	394.11,	484.39,	0,	1.5
+tree_B,	-25.07,	-101.48,	90,	1.5
+tree_B,	438.74,	444.26,	0,	1.5
+tree_B,	274.60,	-335.33,	45,	1.5
+tree_B,	-81.16,	-432.161,	0,	1.5
+tree_B,	-62.04,	127.86,	90,	1.5
+tree_B,	-62.04,	52.24,	90,	1.5
+tree_B,	-25.04,	254.97,	90,	1.5
+tree_B,	-118.18,	-266.36,	0,	1.5
+tree_B,	183.87,	228.51,	0,	1.5
+tree_B,	88.46,	466.88,	0,	1.5
+tree_B,	-62.04,	-36.50,	90,	1.5
+tree_B,	95.32,	-414.74,	0,	1.5
+tree_B,	-62.04,	90.42,	90,	1.5
+tree_B,	266.50,	118.71,	0,	1.5
+tree_B,	175.35,	-315.18,	45,	1.5
+tree_B,	-207.71,	349.95,	120,	1.5
+tree_B,	58.79,	-396.81,	0,	1.5
+tree_B,	232.82,	-167.17,	45,	1.5
+tree_B,	323.45,	-423.06,	0,	1.5
+tree_B,	264.42,	-280.20,	45,	1.5
+tree_B,	-316.07,	190.31,	90,	1.5
+tree_B,	-62.04,	-95.02,	90,	1.5
+tree_B,	-180.91,	363.26,	120,	1.5
+tree_B,	-290.22,	246.42,	90,	1.5
+tree_B,	-182.24,	327.97,	90,	1.5
+tree_B,	-28.29,	-139.13,	90,	1.5
+tree_B,	442.04,	-1.47,	90,	1.5
+tree_B,	277.24,	13.82,	-90,	1.5
+tree_B,	-221.63,	129.90,	90,	1.5
+tree_B,	349.40,	106.47,	90,	1.5
+tree_B,	280.77,	108.43,	0,	1.5
+tree_B,	298.83,	-10.84,	90,	1.5
+tree_B,	453.83,	-14.67,	90,	1.5
+tree_B,	288.55,	-25.12,	90,	1.5
+tree_B,	185.81,	-128.14,	90,	1.5
+tree_B,	-53.493,	-296.705,	45,	1.5
+tree_B,	456,	342.5,	0,	1.5
+
+tree_box,	58.79,	-396.81,	0,	0.5
+tree_box,	-64.77,	-346.19,	0,	0.5
+tree_box,	189.38,	-355.97,	45,	0.5
+tree_box,	-180.91,	363.26,	120,	0.5
+tree_box,	-118.18,	-266.36,	0,	0.5
+tree_box,	175.35,	-315.18,	45,	0.5
+tree_box,	220.05,	-482.99,	45,	0.5
+tree_box,	323.45,	-423.06,	0,	0.5
+tree_box,	311.54,	-435.87,	0,	0.5
+tree_box,	185.81,	-157.18,	90,	0.5
+tree_box,	-28.29,	-139.13,	90,	0.5
+tree_box,	185.81,	-128.14,	90,	0.5
+tree_box,	288.55,	-25.12,	90,	0.5
+tree_box,	-207.71,	349.95,	120,	0.5
+tree_box,	183.87,	228.51,	0,	0.5
+tree_box,	-25.07,	-101.48,	90,	0.5
+tree_box,	-62.04,	-95.02,	90,	0.5
+tree_box,	349.40,	106.47,	90,	0.5
+tree_box,	-62.04,	8.63,	90,	0.5
+tree_box,	-25.04,	254.97,	90,	0.5
+tree_box,	277.24,	13.82,	-90,	0.5
+tree_box,	-62.04,	127.86,	90,	0.5
+tree_box,	209.70,	-127.20,	90,	0.5
+tree_box,	-62.04,	52.24,	90,	0.5
+tree_box,	-62.04,	90.42,	90,	0.5
+tree_box,	394.11,	484.39,	0,	0.5
+tree_box,	264.42,	-280.20,	45,	0.5
+tree_box,	453.83,	-14.67,	90,	0.5
+tree_box,	-62.04,	-36.50,	90,	0.5
+tree_box,	-290.22,	246.42,	90,	0.5
+tree_box,	-17.76,	-316.26,	45,	0.5
+tree_box,	259.30,	-377.97,	45,	0.5
+tree_box,	277.74,	-170.94,	45,	0.5
+tree_box,	154.24,	466.88,	0,	0.5
+tree_box,	506.31,	372.96,	45,	0.5
+tree_box,	88.46,	466.88,	0,	0.5
+tree_box,	280.77,	108.43,	0,	0.5
+tree_box,	442.04,	-1.47,	90,	0.5
+tree_box,	298.83,	-10.84,	90,	0.5
+tree_box,	438.74,	444.26,	0,	0.5
+tree_box,	379.84,	494.68,	0,	0.5
+tree_box,	-230.74,	-226.99,	90,	0.5
+tree_box,	274.60,	-335.33,	45,	0.5
+tree_box,	-80.34,	-253.93,	45,	0.5
+tree_box,	-221.63,	129.90,	90,	0.5
+tree_box,	-316.07,	190.31,	90,	0.5
+tree_box,	-132.96,	-225.35,	90,	0.5
+tree_box,	39.37,	469.71,	0,	0.5
+tree_box,	266.50,	118.71,	0,	0.5
+tree_box,	232.82,	-167.17,	45,	0.5
+tree_box,	-81.16,	-432.161,	0,	0.5
+tree_box,	426.69,	423.66,	0,	0.5
+tree_box,	-182.24,	327.97,	90,	0.5
+tree_box,	287.52,	28.09,	-90,	0.5
+tree_box,	95.32,	-414.74,	0,	0.5
+tree_box,	-35.16,	-432.961,	0,	0.5
+tree_box,	241.16,	-268.51,	45,	0.5
+tree_box,	-53.493,	-296.705,	45,	 0.5
+tree_box,	456,	342.5,	0,	0.5
+
+	}

@@ -8,7 +8,7 @@ building core_building
 {
     levels governors_house governors_villa governors_palace proconsuls_palace imperial_palace 
     {
-        governors_house requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        governors_house requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -33,7 +33,7 @@ building core_building
                 governors_villa
             }
         }
-        governors_villa requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        governors_villa requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -93,7 +93,7 @@ building core_building
                 governors_palace
             }
         }
-        governors_palace requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -154,7 +154,7 @@ building core_building
                 proconsuls_palace
             }
         }
-        proconsuls_palace requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        proconsuls_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -214,7 +214,7 @@ building core_building
                 imperial_palace
             }
         }
-        imperial_palace requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        imperial_palace requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -283,7 +283,7 @@ building defenses
 {
     levels wooden_pallisade wooden_wall stone_wall large_stone_wall epic_stone_wall 
     {
-        wooden_pallisade requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        wooden_pallisade requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -299,7 +299,7 @@ building defenses
                 wooden_wall
             }
         }
-        wooden_wall requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        wooden_wall requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -316,7 +316,7 @@ building defenses
                 stone_wall
             }
         }
-        stone_wall requires factions { carthage, numidia, eastern, parthia, barbarian, egyptian, greek, roman, } 
+        stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, barbarian, egyptian, greek, roman, } 
         {
             capability
             {
@@ -334,7 +334,7 @@ building defenses
                 large_stone_wall
             }
         }
-        large_stone_wall requires factions { carthage, numidia, eastern, parthia, dacia, gauls, egyptian, greek, roman, } 
+        large_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, dacia, gauls, egyptian, greek, roman, } 
         {
             capability
             {
@@ -351,7 +351,7 @@ building defenses
                 epic_stone_wall
             }
         }
-        epic_stone_wall requires factions { carthage, numidia, eastern, parthia, dacia, gauls, egyptian, greek, roman, } 
+        epic_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, dacia, gauls, egyptian, greek, roman, } 
         {
             capability
             {
@@ -377,7 +377,7 @@ building barracks
 {
     levels muster_field militia_barracks city_barracks army_barracks royal_barracks 
     {
-        muster_field requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        muster_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -414,7 +414,7 @@ building barracks
                 militia_barracks
             }
         }
-        militia_barracks requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        militia_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -483,7 +483,7 @@ building barracks
                 city_barracks
             }
         }
-        city_barracks requires factions { barbarian, carthage, numidia, eastern, egyptian, greek, roman, } 
+        city_barracks requires factions { barbarian, carthage, numidia, eastern, upper_chinese, egyptian, greek, roman, } 
         {
             capability
             {
@@ -585,7 +585,7 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, sciria_01, } 
+        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, dacia, gauls, germans, sciria_01, } 
         {
             capability
             {
@@ -707,7 +707,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, egyptian, dacia, gauls, germans, sciria_01, } 
+        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, dacia, gauls, germans, sciria_01, } 
         {
             capability
             {
@@ -845,7 +845,7 @@ building equestrian
 {
     levels stables cavalry_barracks hippodrome circus_maximus 
     {
-        stables requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        stables requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -885,7 +885,7 @@ building equestrian
                 cavalry_barracks
             }
         }
-        cavalry_barracks requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        cavalry_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -946,7 +946,7 @@ building equestrian
                 hippodrome
             }
         }
-        hippodrome requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        hippodrome requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1116,7 +1116,7 @@ building missiles
 {
     levels practice_field archery_range catapult_range siege_engineer 
     {
-        practice_field requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        practice_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1149,7 +1149,7 @@ building missiles
                 archery_range
             }
         }
-        archery_range requires factions { barbarian, carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }
+        archery_range requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1199,7 +1199,7 @@ building missiles
                 catapult_range
             }
         }
-        catapult_range requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        catapult_range requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1260,7 +1260,7 @@ building missiles
                 siege_engineer
             }
         }
-        siege_engineer requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        siege_engineer requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1335,7 +1335,7 @@ building market
 {
     levels trader market forum great_forum curia 
     {
-        trader requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        trader requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1350,7 +1350,7 @@ building market
                 market
             }
         }
-        market requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        market requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1371,7 +1371,7 @@ building market
                 forum
             }
         }
-        forum requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        forum requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1398,7 +1398,7 @@ building market
                 great_forum
             }
         }
-        great_forum requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        great_forum requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -1425,7 +1425,7 @@ building market
                 curia
             }
         }
-        curia requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        curia requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -1461,7 +1461,7 @@ building smith
 {
     levels blacksmith smiths_workshop foundry 
     {
-        blacksmith requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market trader
+        blacksmith requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market trader
         {
             capability
             {
@@ -1481,7 +1481,7 @@ building smith
                 smiths_workshop
             }
         }
-        smiths_workshop requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market market
+        smiths_workshop requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market market
         {
             capability
             {
@@ -1506,7 +1506,7 @@ building smith
                 foundry
             }
         }
-        foundry requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
+        foundry requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
         {
             capability
             {
@@ -1539,7 +1539,7 @@ building port_buildings
 {
     levels port shipwright dockyard 
     {
-        port requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        port requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1559,7 +1559,7 @@ building port_buildings
                 shipwright
             }
         }
-        shipwright requires factions { barbarian, carthage, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        shipwright requires factions { barbarian, carthage, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -1585,7 +1585,7 @@ building port_buildings
                 dockyard
             }
         }
-        dockyard requires factions { carthage, eastern, parthia, greek, roman, } 
+        dockyard requires factions { carthage, eastern, upper_chinese, parthia, greek, roman, } 
         {
             capability
             {
@@ -1688,7 +1688,7 @@ building hinterland_farms
 {
     levels farms farms+1 farms+2 farms+3 farms+4 
     {
-        farms requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        farms requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1702,7 +1702,7 @@ building hinterland_farms
                 farms+1
             }
         }
-        farms+1 requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        farms+1 requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1716,7 +1716,7 @@ building hinterland_farms
                 farms+2
             }
         }
-        farms+2 requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        farms+2 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -1730,7 +1730,7 @@ building hinterland_farms
                 farms+3
             }
         }
-        farms+3 requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, } 
+        farms+3 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -1766,7 +1766,7 @@ building hinterland_roads
 {
     levels roads paved_roads highways 
     {
-        roads requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, }
+        roads requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
             {
@@ -1816,7 +1816,7 @@ building hinterland_mines
 {
     levels mines mines+1 
     {
-        mines requires factions { barbarian, carthaginian, eastern, parthia, mauryans, egyptian, greek, roman, } and resource silver or resource gold
+        mines requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and resource silver or resource gold
         {
             capability
             {
@@ -1830,7 +1830,7 @@ building hinterland_mines
                 mines+1
             }
         }
-        mines+1 requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }  and resource silver or resource gold
+        mines+1 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and resource silver or resource gold
         {
             capability
             {
@@ -1852,7 +1852,7 @@ building academic
 {
     levels academy scriptorium ludus_magnus 
     {
-        academy requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market market
+        academy requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market market
         {
             capability
             {
@@ -1865,7 +1865,7 @@ building academic
                 scriptorium
             }
         }
-        scriptorium requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market forum
+        scriptorium requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market forum
         {
             capability
             {
@@ -1878,7 +1878,7 @@ building academic
                 ludus_magnus
             }
         }
-        ludus_magnus requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
+        ludus_magnus requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
         {
             capability
             {
@@ -2008,7 +2008,7 @@ building despotic_law
 {
     levels execution_square secret_police_hq secret_police_network 
     {
-        execution_square requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, } 
+        execution_square requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
         {
             capability
             {
@@ -2022,7 +2022,7 @@ building despotic_law
                 secret_police_hq
             }
         }
-        secret_police_hq requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, } 
+        secret_police_hq requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
         {
             capability
             {
@@ -2036,7 +2036,7 @@ building despotic_law
                 secret_police_network
             }
         }
-        secret_police_network requires factions { carthage, numidia, eastern, parthia, mauryans, egyptian, } 
+        secret_police_network requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
         {
             capability
             {
@@ -2058,7 +2058,7 @@ building caravans
 {
     levels caravan frankincense_rd silk_rd 
     {
-        caravan requires factions { eastern, parthia, } 
+        caravan requires factions { eastern, upper_chinese, parthia, } 
         {
             capability
             {
@@ -2072,7 +2072,7 @@ building caravans
                 frankincense_rd
             }
         }
-        frankincense_rd requires factions { eastern, parthia, } 
+        frankincense_rd requires factions { eastern, upper_chinese, parthia, } 
         {
             capability
             {
@@ -2086,7 +2086,7 @@ building caravans
                 silk_rd
             }
         }
-        silk_rd requires factions { eastern, parthia, } 
+        silk_rd requires factions { eastern, upper_chinese, parthia, } 
         {
             capability
             {
