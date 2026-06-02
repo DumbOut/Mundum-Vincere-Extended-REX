@@ -9386,7 +9386,7 @@ voice_type       General_1
 soldier          china_heavy_cavalry, 12, 0, 1
 mount            generals horse
 mount_effect     elephant -8, camel -4
-attributes       hide_forest, hardy
+attributes       sea_faring, general_unit, hide_forest, hardy
 formation        3, 4, 6, 6, 4, square, wedge
 stat_health      2, 0
 stat_pri         12, 11, no, 0, 0, melee, blade, slashing, axe, 35 ,1
