@@ -14120,7 +14120,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 69, y 675
+;character FirstName LastName, named character, age 42, , x 69, y 675
 
 ;faction voluntii_01, balanced_smith
 ;denari 5000
@@ -14149,7 +14149,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 39, y 652
+;character FirstName LastName, named character, age 42, , x 39, y 652
 
 ;faction coriondi_01, balanced_smith
 ;denari 5000
@@ -14178,7 +14178,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 39, y 621
+;character FirstName LastName, named character, age 42, , x 39, y 621
 
 ;faction nok_culture_01, balanced_smith
 ;denari 5000
@@ -14207,7 +14207,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 105, y 181
+;character FirstName LastName, named character, age 42, , x 105, y 181
 
 
 ;faction arevaci_01, balanced_smith
@@ -14241,7 +14241,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 79, y 474
+;character FirstName LastName, named character, age 42, , x 79, y 474
 
 ;faction	zhou_01, balanced smith
 ;denari	20000
@@ -14266,7 +14266,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 1280, y 540
+;character FirstName LastName, named character, age 42, , x 1280, y 540
 
 faction	qin_01, balanced smith
 denari	40000
@@ -14289,10 +14289,19 @@ settlement
 	}
 }
 
-character Ying Si, named character, faction leader, age 42, , x 1243, y 537
-traits GoodCommander 2, GoodAdministrator 1, NaturalMilitarySkill 1
+character Ying Si, named character, age 42, , x 1243, y 537
+traits GoodCommander 2, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
+
+
+character_record		Durdhara, 	female, command 0, influence 0, management 0, subterfuge 0, age 69, dead, never_a_leader
+character_record		Subhadrangi, 	female, command 0, influence 0, management 0, subterfuge 0, age 49, alive, never_a_leader
+character_record		Chandragupta Maurya, 	male, command 0, influence 0, management 0, subterfuge 0, age 69, dead, past_leader
+character_record		Vitashoka Maurya, 	male, command 0, influence 0, management 0, subterfuge 0, age 0, alive, never_a_leader
+
+relative 	Ying Si, 	Durdhara,		Bindusara Maurya,	end
+relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparswa Maurya,	Tissa Maurya,	Vitashoka Maurya,	end
 
 
 ;faction	illyria_01, balanced smith
@@ -14322,7 +14331,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 252, y 529
+;character FirstName LastName, named character, age 42, , x 252, y 529
 
 ;faction	aestii_01, balanced smith
 ;denari	5000
@@ -14351,7 +14360,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 288, y 680
+;character FirstName LastName, named character, age 42, , x 288, y 680
 
 ;faction aedui_01, balanced_smith
 ;denari 5000
@@ -14380,7 +14389,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x , y 
+;character FirstName LastName, named character, age 42, , x , y 
 
 ;faction allobroges_01, balanced_smith
 ;denari 5000
@@ -14409,7 +14418,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x , y 
+;character FirstName LastName, named character, age 42, , x , y 
 
 ;faction bituriges_01, balanced_smith
 ;denari 5000
@@ -14438,7 +14447,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x , y 
+;character FirstName LastName, named character, age 42, , x , y 
 
 ;faction seth_01, balanced_smith
 ;denari 200000
@@ -14467,7 +14476,7 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 ;	}
 ;}
 
-;character FirstName LastName, named character, faction leader, age 42, , x 398, y 276
+;character FirstName LastName, named character, age 42, , x 398, y 276
 
 faction	massilia_01, balanced napoleon
 denari	3980
