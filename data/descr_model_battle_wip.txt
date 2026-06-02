@@ -4615,3 +4615,15 @@ model_flexi			data/models_unit/unit_gallic_hoplite_med.cas, 30
 model_flexi			data/models_unit/unit_gallic_hoplite_low.cas, 40
 model_flexi			data/models_unit/unit_gallic_hoplite_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type		citizen_spear
+skeleton	fs_spearman
+indiv_range	40
+texture		qin_01,	data/models_unit/textures/china_citizen_spear_qin_01.tga	
+texture		slave,	data/models_unit/textures/china_citizen_spear_slave.tga	
+model_flexi				data/models_unit/Citizen_Spear.cas, 15
+model_flexi				data/models_unit/Citizen_Spear100.cas, 30
+model_flexi				data/models_unit/Citizen_Spear200.cas, 40
+model_flexi				data/models_unit/Citizen_Spear300.cas, max
+model_sprite		qin_01, 60.0, data/sprites/empire_west_Citizen_Spear_sprite.spr
+model_tri	400, 0.5f, 0.5f, 0.5f
