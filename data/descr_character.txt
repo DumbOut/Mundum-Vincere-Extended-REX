@@ -197,7 +197,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			qin_01
 dictionary		15
 strat_model		sm_qin_general
-battle_model	east_general
+battle_model	china_heavy_cavalry
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -379,7 +379,7 @@ faction			qin_01
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		qin_lesser_general
-battle_model	east_lesser_general
+battle_model	china_heavy_cavalry
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -770,6 +770,11 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+faction			qin_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			mauryans
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -888,6 +893,11 @@ strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		thrace_admiral
 
 faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
+faction			qin_01
 dictionary		2
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
