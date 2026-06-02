@@ -14467,8 +14467,8 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 398, y 276
 
-faction	massilia_01, balanced smith
-denari	1950
+faction	massilia_01, balanced napoleon
+denari	3980
 settlement
 {
     level city
@@ -14497,7 +14497,7 @@ settlement
     region Heraclea_Caecabarea_R
 
     year_founded 0
-    population 800
+    population 1000
     plan_set default_set
     faction_creator massilia_01
 	building
@@ -14515,18 +14515,40 @@ settlement
     region Nicaea_Monoicus_R
 
     year_founded 0
-    population 500
+    population 400
     plan_set default_set
     faction_creator massilia_01
 	building
 	{
 		type core_building governors_house
 	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Pergantion_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator massilia_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
 }
 
 ;	Massilia
 character	Comanus Aulouporid, named character, age 40, , x 151, y 496
-traits GoodCommander 4, GoodAdministrator 2
+traits GoodCommander 4, GoodAdministrator 3
 army
 unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
@@ -14540,7 +14562,6 @@ traits GoodCommander 1, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
 ;	Nicaea Monoicus
@@ -14550,6 +14571,12 @@ army
 unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
+;	Pergantion
+character	Aktaneus Aulouporid, named character, age 36, , x 164, y 499
+traits GoodCommander 3
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -14562,10 +14589,11 @@ character_record		Atreus Aulouporid, 	male, command 5, influence 3, management 2
 relative 	Comanus Aulouporid, 	Clymene,		Dymnos Aulouporid,	Meriones Aulouporid,	Basilides Aulouporid,	Demophon Aulouporid,	Atreus Aulouporid,	end
 relative 	Deinias Aulouporid,		end
 relative 	Epimenes Aulouporid,		end
+relative 	Aktaneus Aulouporid,		end
 
 
 faction	slave, balanced_smith
-denari	-80962800
+denari	-88962800
 settlement
 {
 	level town
@@ -16666,6 +16694,32 @@ settlement
 	plan_set default_set
 	faction_creator parthia
 	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Xulma_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
 	unit	east infantry		exp 0 armour 0 weapon_lvl 0
@@ -41136,6 +41190,17 @@ character,	sub_faction greek_cities, Milon, general, age 33, , x 342, y 437
 army
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+
+;	Kythnos
+character,	sub_faction greek_cities, Milon, general, age 33, , x 336, y 435
+army
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 3 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0

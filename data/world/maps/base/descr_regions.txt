@@ -1410,7 +1410,7 @@ Bovianum_R
 ; *********************************************************
 ; *********************************************************
 ; 11. Alps
-; Number of Provinces: 22
+; Number of Provinces: 23
 
 Transalpine_Gaul
 	Massilia
@@ -1433,6 +1433,14 @@ Nicaea_Monoicus_R
 	massilia_01
 	Ionians
 	189 0 206
+	none
+	5
+	9
+Pergantion_R
+	Pergantion
+	massilia_01
+	Ionians
+	109 50 50
 	none
 	5
 	9
@@ -2557,6 +2565,14 @@ Andros_R
 	greek_cities
 	Ionians
 	81 26 26
+	none
+	5
+	6
+Kythnos_R
+	Kythnos
+	greek_cities
+	Ionians
+	54 81 51
 	none
 	5
 	6
@@ -13436,6 +13452,22 @@ Iki_R
 	parthia
 	Medes
 	126 50 50
+	none
+	5
+	1
+
+
+; *********************************************************
+; *********************************************************
+; 76. Tungusic Lands
+; Number of Provinces: 1
+
+
+Xulma_R
+	Xulma
+	parthia
+	Medes
+	17 29 47
 	none
 	5
 	1
