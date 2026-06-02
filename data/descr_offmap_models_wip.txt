@@ -203,12 +203,12 @@ navy
 	;	small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
 	;}
 
-	;faction qin_01
-	;{
-	;	large 	data/models_off_map/bireme_OFF_MAP.CAS	100 0
-	;	medium	data/models_off_map/bireme_OFF_MAP.CAS	100 0
-	;	small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
-	;}
+	faction qin_01
+	{
+		large 	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		medium	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+		small	data/models_off_map/bireme_OFF_MAP.CAS	100 0
+	}
 
 	;faction illyria_01
 	;{
@@ -249,6 +249,39 @@ navy
 settlement
 {
 	culture roman
+	{        
+		level village		    
+        {
+            data/models_building/offmap_village_dummy.cas	        200         0
+        }
+
+		level town		    
+        {
+            data/models_building/offmap_town_roman.cas	        200         0
+		}
+
+		level large_town	    
+        {
+            data/models_building/offmap_town_roman.cas	        200         0
+        }
+
+		level city		    
+        {
+            data/models_building/offmap_city_roman.cas 	        200         0
+        }
+
+		level large_city		
+        {
+            data/models_building/offmap_city_roman.cas 	        200         0
+        }
+
+		level huge_city		
+        {
+            data/models_building/offmap_city_roman.cas	        200         0
+        }
+	}
+
+	culture upper_chinese
 	{        
 		level village		    
         {
