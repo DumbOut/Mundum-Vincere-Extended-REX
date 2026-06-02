@@ -770,7 +770,8 @@ building barracks
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "Indian Spearmen"  0  requires factions { mauryans, }
                 recruit "spear warrior briton"  0  requires factions { britons, } 
-                recruit "spear warrior dacia"  0  requires factions { dacia, } 
+                recruit "spear warrior dacia"  0  requires factions { dacia, }
+                recruit "parthian immortal"  0  requires factions { parthia, }
                 recruit "spear warrior gaul"  0  requires factions { gauls, } 
                 recruit "warband spear german"  0  requires factions { germans, sciria_01, } 
                 recruit "spear warrior german"  0  requires factions { germans, } 
@@ -844,8 +845,7 @@ building barracks
                 recruit "greek silver shield pikemen"  0  requires factions { seleucid, } 
                 recruit "greek spear hypaspist"  0  requires factions { macedon, seleucid, } 
                 recruit "royal swordsman"  0  requires factions { macedon, } 
-                recruit "greek argyraspid"  0  requires factions { seleucid, }
-                recruit "parthian immortal"  0  requires factions { parthia, }
+                recruit "greek argyraspid"  0  requires factions { seleucid, } 
                 recruit "silver swordsman"  0  requires factions { seleucid, }
                 recruit "greek hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
@@ -1348,9 +1348,9 @@ building missiles
                 recruit "china crossbow"  0  requires factions { qin_01, }
                 recruit "china armoured crossbow"  0  requires factions { qin_01, }
                 recruit "Indian Female Archers"  0  requires factions { mauryans, }
-                recruit "Indian Javedium skirmishers"  0  requires factions { thrace, }
-                recruit "Indian Lonelin Men" 0  requires factions { mauryans, }
-                recruit "thracian mgbowmen" 0 requires factions { mauryans, }
+                recruit "Indian Javelin Men" 0  requires factions { mauryans, }
+                recruit "thracian medium skirmishers"  0  requires factions { thrace, }
+                recruit "Indian Longbowmen" 0 requires factions { mauryans, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
                 recruit "east archer"  0  requires factions { parthia, pontus, armenia, } 
                 recruit "east heavy archer"  0  requires factions { armenia, } 
