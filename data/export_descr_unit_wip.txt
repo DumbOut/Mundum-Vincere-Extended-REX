@@ -9122,3 +9122,27 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 850, 80, 40, 60, 300
 ownership        qin_01, slave
+
+type             china_peasant_lol
+dictionary       china_peasant_lol      ; Head Hurlers
+category         infantry
+class            missile
+voice_type       Heavy_1
+soldier          warband_hurler_china, 40, 0, 1.2
+attributes       sea_faring, can_withdraw, hide_improved_forest, warcry, can_swim
+formation        1.6, 2, 3.2, 4, 3, horde
+stat_health      1, 0
+stat_pri         17, 5, head, 40, 6, thrown, archery, fire, none, 25 ,1
+stat_pri_attr    thrown ap
+stat_sec         12, 6, no, 0, 0, melee, simple, piercing, sword, 10 ,1
+stat_sec_attr    no
+stat_pri_armour  0, 2, 0, flesh
+stat_sec_armour  0, 3, flesh
+stat_heat        -5
+stat_ground      7, -12, 8, -11
+stat_mental      9, impetuous, untrained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 1000, 90, 70, 40, 600
+ownership        qin_01

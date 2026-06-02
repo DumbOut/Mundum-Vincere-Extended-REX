@@ -4627,3 +4627,14 @@ model_flexi				data/models_unit/Citizen_Spear200.cas, 40
 model_flexi				data/models_unit/Citizen_Spear300.cas, max
 model_sprite		qin_01, 60.0, data/sprites/empire_west_Citizen_Spear_sprite.spr
 model_tri	400, 0.5f, 0.5f, 0.5f
+
+type				warband_hurler_china
+skeleton			fs_slinger_new, fs_slinger_new
+indiv_range			40
+texture				data/models_unit/textures/unit_barb_warband_hurler_china.tga
+model_flexi_m			data/models_unit/unit_upper_china_warband_hurler_high.cas, 8
+model_flexi_m			data/models_unit/unit_upper_china_warband_hurler_med.cas, 15
+model_flexi			data/models_unit/unit_upper_china_warband_hurler_low.cas, 30
+model_flexi			data/models_unit/unit_upper_china_warband_hurler_lowest.cas, max
+model_sprite		60.0, data/sprites/china_warband_hurler_sprite.spr
+model_tri			400, 0.5f, 0.5f, 0.5f

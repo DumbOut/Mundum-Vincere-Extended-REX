@@ -14268,28 +14268,26 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 1280, y 540
 
-;faction	qin_01, balanced smith
-;denari	20000
+faction	qin_01, balanced smith
+denari	20000
+settlement
+{
+    level town
+   region Weinan_R
 
-; relative settlement and character entries for rebels are NOT removed yet.
-;settlement
-;{
-;    level town
-;   region Weinan_R
-;
-;    year_founded 0
-;    population 800
-;    plan_set default_set
-;    faction_creator qin_01
-;    building
-;    {
-;        type core_building governors_house
-;    }
-;	building
-;	{
-;		type defenses wooden_pallisade
-;	}
-;}
+    year_founded 0
+    population 800
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
 
 ;character FirstName LastName, named character, faction leader, age 42, , x 1243, y 537
 
@@ -36159,27 +36157,6 @@ settlement
 {
     level town
     region Hongnong_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Weinan_R
 
     year_founded 0
     population 400
