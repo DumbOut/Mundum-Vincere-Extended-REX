@@ -14978,6 +14978,21 @@ settlement
 settlement
 {
 	level town
+	region Kythnos_R
+
+	year_founded 0
+	population 450
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
 	region Kos_R
 
 	year_founded 0
