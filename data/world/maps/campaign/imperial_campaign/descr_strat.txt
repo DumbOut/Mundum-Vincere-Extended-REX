@@ -14288,23 +14288,246 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
+settlement
+{
+    level town
+    region Hongnong_R
 
-character	Ying Si, named character, age 51, , x 1242, y 537
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Zhongdi_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Gaoling_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Hanxing_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Hanzhong_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Xicheng_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Heshang_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Fangling_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Shangyong_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Wuqian_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Guling_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
+    region Dangqu_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+character	Ying Si, named character, age 33, , x 1241, y 537
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
+unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 
-character	Ying Bang, named character, heir, age 33, , x 1241, y 537
+character	Ying Tong, named character, , age 51, heir, x 1216, y 499
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
-
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china crossbow	exp 0 armour 0 weapon_lvl 0
+unit	china light chariot	exp 0 armour 0 weapon_lvl 0
 
 character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
-character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
 
-relative 	Ying Si, 	Ai,		Ying Bang,	end
-relative	Ying Bang,	end
+relative 	Ying Si, 	Ai,		Ying Tong,	end
+relative	Ying Tong,	end
 
 
 ;faction	illyria_01, balanced smith
@@ -35962,6 +36185,24 @@ settlement
 settlement
 {
     level town
+    region Xiangyang_R
+
+    year_founded 0
+    population 400
+    plan_set default_set
+    faction_creator qin_01
+    building
+    {
+        type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level town
     region Mi_R
 
     year_founded 0
@@ -36172,70 +36413,7 @@ settlement
 settlement
 {
     level town
-    region Hongnong_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Heshang_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
     region Shaoliang_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Gaoling_R
 
     year_founded 0
     population 400
@@ -36634,91 +36812,7 @@ settlement
 settlement
 {
     level town
-    region Zhongdi_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Hanxing_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
     region Xi_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Hanzhong_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Guling_R
 
     year_founded 0
     population 400
@@ -36907,27 +37001,6 @@ settlement
 settlement
 {
     level town
-    region Dangqu_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
     region Guanghan_R
 
     year_founded 0
@@ -37012,48 +37085,6 @@ settlement
 settlement
 {
     level town
-    region Xicheng_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Fangling_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
     region Nanyang_R
 
     year_founded 0
@@ -37096,27 +37127,6 @@ settlement
 settlement
 {
     level town
-    region Xiangyang_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
     region Jiangxia_R
 
     year_founded 0
@@ -37139,27 +37149,6 @@ settlement
 {
     level town
     region Nan_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Wuqian_R
 
     year_founded 0
     population 400
@@ -37328,27 +37317,6 @@ settlement
 {
     level town
     region Qujiang_R
-
-    year_founded 0
-    population 400
-    plan_set default_set
-    faction_creator parthia
-	garrisoned_army
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-	unit	east infantry		exp 0 armour 0 weapon_lvl 0
-    building
-    {
-        type core_building governors_house
-    }
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-settlement
-{
-    level town
-    region Shangyong_R
 
     year_founded 0
     population 400
