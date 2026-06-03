@@ -10866,7 +10866,7 @@ settlement
 	region Leucaristus_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator germans
 	building
@@ -13800,7 +13800,7 @@ unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
 unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
 
 ;	Sudinium
-character	Etreleus, named character, leader, age 23, , x 320, y 643
+character	Etreleus, named character, age 23, , x 320, y 643
 traits GoodCommander 1 , GoodAdministrator 2 , Bloodthirsty 1
 ancillaries bodyguard, comedian
 army
@@ -13987,7 +13987,7 @@ settlement
 	}
 }
 ;	Pertalis
-character	Bindusara Maurya, named character, age 51, , x 990, y 383
+character	Bindusara Maurya, named character, leader, age 51, , x 990, y 383
 traits GoodCommander 2, GoodAdministrator 2
 army
 unit		Indian General		exp 1 armour 0 weapon_lvl 0
@@ -14505,7 +14505,7 @@ settlement
 	}
 }
 
-character	Ying Si, named character, age 42, , x 1242, y 537
+character	Ying Si, named character, leader, age 42, , x 1242, y 537
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
@@ -14515,7 +14515,7 @@ unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 
-character	Ying Tong, named character, age 16, heir, x 1243, y 537
+character	Ying Tong, named character, heir, age 16, x 1243, y 537
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
