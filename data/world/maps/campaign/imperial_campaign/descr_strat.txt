@@ -14492,7 +14492,7 @@ settlement
     region Dangqu_R
 
     year_founded 0
-    population 400
+    population 500
     plan_set default_set
     faction_creator qin_01
     building
@@ -14505,19 +14505,22 @@ settlement
 	}
 }
 
-character	Ying Si, named character, age 33, , x 1241, y 537
+character	Ying Si, named character, age 33, , x 1242, y 537
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 
-character	Ying Tong, named character, , age 51, heir, x 1216, y 499
+character	Ying Tong, named character, , age 16, heir, x 1243, y 537
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
