@@ -2,6 +2,12 @@
 ;
 ; Engine feature toggles which can't be enabled transparently. Mods that don't ship this file get safe defaults so nothing breaks silently.
 
+; where the sea trade fleet count per port settlement comes from:
+;   port_level = port building level (vanilla RTW: fishing village / port / shipwright / dockyard = 0 / 1 / 2 / 3 fleets)
+;   capability = trade_fleet value from the EDB port buildings; lets modders grant more than the vanilla cap of 3
+; Vanilla data is identical either way (port/shipwright/dockyard already declare trade_fleet 1/2/3).
+trade_fleet_source  capability
+
 ; sprite definition format:
 ;   sd    = legacy binary .rsd files (default)
 ;   xml   = v7 .sd.xml with runtime atlas packing, allows you to freely add new sprites without modifying the binary files, including in loose .tgas.
@@ -25,3 +31,45 @@ portrait_pool  merged
 ;   0 = strict M2 parity: settlements get nothing unless a building grants `recruitment_slots N` in EDB
 ; Building caps with `recruitment_slots bonus N` always stack on top of this value (summed across buildings).
 default_recruitment_slots  1
+
+; resource_role_source - how the engine decides resource ROLES that used to be hard-coded:
+;   * which resources are MINEABLE (earn mine income + show a mine model when the region builds a mine)
+;   * which single resource is the SLAVE resource (the one the enslave-population mechanic spawns)
+;
+;   legacy_names : back-compat. "gold"/"silver" are mineable and "slaves" is the slave resource
+;                  by NAME, even when descr_sm_resources.txt omits the has_mine / is_slave flags -
+;                  so resource files written before those flags existed keep working. This is the
+;                  compiled-in default used when the line below is absent.
+;   data_only    : trust ONLY the has_mine / is_slave flags in descr_sm_resources.txt; names mean
+;                  nothing. Use this once your resources are flagged - then any resource can be
+;                  mineable, the slave resource can be renamed, new roles added, and so on.
+resource_role_source  data_only
+
+; sea trade tuning - all three default to exact vanilla behaviour (changing none of them is a no-op):
+;   sea_trade_base_multiplier   = flat richness applied to every sea trade route (the old hard-coded 8.0)
+;   sea_trade_distance_exponent = shape of the distance falloff. route income = base * 100 / (route_mp ^ exponent),
+;                                 where route_mp is the admiral's optimal-path movement-point cost between the two
+;                                 ports. 1.0 = vanilla linear falloff; >1 = trade drops off faster (shorter reach);
+;                                 <1 = distance matters less (longer reach).
+;   sea_trade_max_mp            = hard cutoff. a port whose route_mp exceeds this earns no sea trade. 0 = no limit.
+sea_trade_base_multiplier    8.0
+sea_trade_distance_exponent  1.0
+sea_trade_max_mp             0
+
+; fog_of_war_shroud - how unexplored campaign-map tiles are drawn:
+;   black   = opaque black void over never-seen tiles, like M2 (default)
+;   vanilla = the classic RTW lighter shroud
+fog_of_war_shroud  vanilla
+
+; population_on_disband - when a unit is disbanded on a settlement of its own faction, hand its
+; soldiers back to that settlement's population.
+;   true  = vanilla RTW; the disbanded men rejoin the local population
+;   false = disbanding just removes the unit (Medieval-style)
+population_on_disband  true
+
+; brigand_order_scaling - tie brigand (rebel) spawn chance to a province's public order, so banditry
+; reflects bad governance instead of appearing at random.
+;   true  = well-governed provinces see far fewer brigands, poorly-governed ones see roughly the
+;           vanilla rate (capped so it never exceeds vanilla). (default)
+;   false = vanilla: brigand spawns ignore public order
+brigand_order_scaling  true

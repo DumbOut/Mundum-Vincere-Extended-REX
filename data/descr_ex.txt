@@ -17,17 +17,17 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 612
+max_factions 1024
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 24
+superfaction_min_regions 22
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
-camera_min_height 0.1
-camera_max_height 512.0
+camera_min_height 0.05
+camera_max_height 1024.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -51,11 +51,19 @@ minimum_load_time 0
 ; Gameplay
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; Population changes when units are disbanded (default true)
-population_on_disband true
-
 ; Any general can attempt night attacks regardless of traits (default false)
 easy_nightfight false
+
+; Limit each general to building/removing one watchtower per turn (default false)
+one_watchtower_per_general_per_turn false
+
+; Limit each general to building one fort per turn (default false)
+one_fort_per_general_per_turn false
+
+; Free-upkeep slots free the most expensive garrisoned units first (default false).
+; Set true to free the cheapest units first instead. Applies to free_upkeep and the
+; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
+free_upkeep_cheap_first false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -92,13 +100,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 160
+max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
-old_age 80
+old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 160
+max_age 150
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -113,7 +121,7 @@ daughters_age_of_consent 12
 daughters_retirement_age 60
 
 ; Oldest age a man / woman is matched for marriage (defaults 75 / 50)
-max_age_for_marriage_for_male 75
+max_age_for_marriage_for_male 80
 max_age_for_marriage_for_female 50
 
 ; Spouse age difference range, husband minus wife (defaults -10 to 30)
@@ -128,10 +136,10 @@ min_adoption_age 16
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 60
+max_age_for_conception 50
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 18
+max_num_ancillaries 512
 
 ; Max children a character can have (default 4)
-max_num_children 150
+max_num_children 400
