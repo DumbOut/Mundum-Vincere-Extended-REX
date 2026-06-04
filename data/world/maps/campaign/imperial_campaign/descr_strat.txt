@@ -2941,7 +2941,7 @@ resource	slaves	353	,	156		;	TerraIncognita3 (east africa / arabia)
 
 faction	romans_julii, comfortable caesar
 superfaction romans_senate
-denari	1000
+denari	8000
 settlement
 {
 	level large_town
@@ -39604,6 +39604,29 @@ settlement
     building
     {
         type core_building governors_house
+    }
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+    level huge_city
+    region Lemuria_R
+
+    year_founded 0
+    population 25000
+    plan_set default_set
+    faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 9 armour 3 weapon_lvl 1
+	unit	east infantry		exp 9 armour 3 weapon_lvl 1
+	unit	east infantry		exp 9 armour 3 weapon_lvl 1
+	unit	east infantry		exp 9 armour 3 weapon_lvl 1
+    building
+    {
+        type core_building imperial_palace
     }
 	building
 	{
