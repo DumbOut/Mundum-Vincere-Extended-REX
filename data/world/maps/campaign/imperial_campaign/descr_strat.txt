@@ -14505,7 +14505,7 @@ settlement
 	}
 }
 
-character	Ying Si, named character, leader, age 42, , x 1242, y 537
+character	Si Ying, named character, leader, age 42, , x 1242, y 537
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
@@ -14515,7 +14515,7 @@ unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 
-character	Ying Tong, named character, heir, age 16, x 1243, y 537
+character	Tong Ying, named character, heir, age 16, x 1213, y 500
 traits GoodCommander 1, GoodAdministrator 1
 army
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
@@ -14527,10 +14527,15 @@ unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 unit	china light chariot	exp 0 armour 0 weapon_lvl 0
 
+character_record		Dang Ying, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Zhuang Ying, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Ji Ying, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Yun Ying, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Ai, 	female, command 0, influence 0, management 0, subterfuge 0, age 42, alive, never_a_leader
+character_record		Yi, 	female, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
 
-relative 	Ying Si, 	Ai,		Ying Tong,	end
-relative	Ying Tong,	end
+relative 	Si Ying, 	Ai,		Tong Ying, Yi, Dang Ying, Zhuang Ying, Ji Ying, Yun Ying,	end
+relative	Tong ying,	end
 
 
 ;faction	illyria_01, balanced smith
