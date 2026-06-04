@@ -100,10 +100,31 @@ large_town
 }
 city
 {
-	normal				data/models_strat/residences/barb_city_buildings.CAS,			settlement_barbarian_level_2
-	wall				data/models_strat/residences/barb_city_wall_1.CAS,				settlement_barbarian_walled_level_4
-	wall				data/models_strat/residences/barb_city_wall_2.CAS,				settlement_barbarian_walled_level_4
-	card				data/ui/barbarian/cities/barbarian_city.tga
+	normal				data/models_strat/residences/roman_city_buildings.CAS,			settlement_roman_level_4
+	wall				data/models_strat/residences/roman_city_wall_1.CAS,				settlement_roman_walled_level_4
+	wall				data/models_strat/residences/roman_city_wall_2.CAS,				settlement_roman_walled_level_4
+	wall				data/models_strat/residences/roman_city_wall_3.CAS,				settlement_roman_walled_level_4
+	wall				data/models_strat/residences/roman_city_wall_4.CAS,				settlement_roman_walled_level_4
+	card				data/ui/roman/cities/graeco-roman_city.tga
+}
+large_city
+{
+	normal				data/models_strat/residences/roman_large_city_buildings.CAS,	settlement_roman_level_5
+	wall				data/models_strat/residences/roman_large_city_wall_1.CAS,		settlement_roman_walled_level_5
+	wall				data/models_strat/residences/roman_large_city_wall_2.CAS,		settlement_roman_walled_level_5
+	wall				data/models_strat/residences/roman_large_city_wall_3.CAS,		settlement_roman_walled_level_5
+	wall				data/models_strat/residences/roman_large_city_wall_4.CAS,		settlement_roman_walled_level_5
+	card				data/ui/roman/cities/graeco-roman_large_city.tga
+}
+huge_city
+{
+	normal				data/models_strat/residences/roman_huge_city_buildings.CAS,		settlement_roman_level_6
+	wall				data/models_strat/residences/roman_huge_city_wall_1.CAS,		settlement_roman_walled_level_6
+	wall				data/models_strat/residences/roman_huge_city_wall_2.CAS,		settlement_roman_walled_level_6
+	wall				data/models_strat/residences/roman_huge_city_wall_3.CAS,		settlement_roman_walled_level_6
+	wall				data/models_strat/residences/roman_huge_city_wall_4.CAS,		settlement_roman_walled_level_6
+	wall				data/models_strat/residences/roman_huge_city_wall_5.CAS,		settlement_roman_walled_level_6
+	card				data/ui/roman/cities/graeco-roman_huge_city.tga
 }
 }
 fort				data/models_strat/residences/barb_fort.CAS,							fort_barbarian
