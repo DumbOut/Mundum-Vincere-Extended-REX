@@ -2612,6 +2612,10 @@ resource	slaves	301	,	494		;	Ulpiana / Dardanorum
 resource	slaves	53	,	564		;	Uxisame
 resource	slaves	146	,	525		;	Vienna
 resource	slaves	219	,	498		;	Iguvium
+resource	slaves	217	,	494		;	Perusna
+resource	slaves	216	,	481		;	Cisra
+resource	slaves	212	,	486		;	Tarchna
+resource	slaves	204	,	505		;	Visul
 resource	slaves	881	,	348		;	Narmadapura
 resource	slaves	870	,	368		;	Sanakanikapura
 resource	slaves	952	,	356		;	Savarapura
@@ -15679,6 +15683,82 @@ settlement
 {
 	level town
 	region Iguvium_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Perusna_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Cisra_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Tarchna_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Visul_R
 
 	year_founded 0
 	population 1200
@@ -45868,6 +45948,50 @@ unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
 ;	Iguvium
 character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 219, y 498
+traits GoodCommander 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+;	Perusna
+character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 217, y 494
+traits GoodCommander 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+;	Cisra
+character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 216, y 481
+traits GoodCommander 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+;	Tarchna
+character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 212, y 486
+traits GoodCommander 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+;	Visul
+character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 204, y 505
 traits GoodCommander 2
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
