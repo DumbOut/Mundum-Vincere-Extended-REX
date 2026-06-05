@@ -406,7 +406,7 @@ rebel_symbol				models_strat/symbol_barb_rebel.CAS
 primary_colour				red 69, green 184, blue 61
 secondary_colour			red 255, green 255, blue 255
 loading_logo				loading_screen/symbols/symbol128_sciria_01.tga
-standard_index				28
+standard_index				32
 logo_index					FACTION_LOGO_SCIRIA_01
 small_logo_index			SMALL_FACTION_LOGO_SCIRIA_01
 triumph_value				5
@@ -427,7 +427,7 @@ rebel_symbol				models_strat/symbol_eastern_rebel.CAS
 primary_colour				red 217, green 176, blue 83
 secondary_colour			red 78, green 144, blue 174
 loading_logo				loading_screen/symbols/symbol128_mauryans.tga
-standard_index				29
+standard_index				33
 logo_index					FACTION_LOGO_MAURYANS
 small_logo_index			SMALL_FACTION_LOGO_MAURYANS
 triumph_value				5
@@ -456,7 +456,7 @@ intro_movie					fmv/intros/julii_intro_final.wmv
 victory_movie				fmv/victory/barbarian_outro_320x240.wmv
 defeat_movie				fmv/lose/rebels_eliminated.wmv
 death_movie					fmv/death/death_rebels_grass_320x240.wmv
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -478,7 +478,7 @@ defeat_movie				fmv/lose/greeks_eliminated.wmv
 death_movie					fmv/death/death_greek_grass_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;CHECK WIP;;;;;;;;;;;;;;
@@ -490,7 +490,7 @@ rebel_symbol				models_strat/symbol_eastern_rebel.CAS
 primary_colour				red 0, green 0, blue 0
 secondary_colour			red 245, green 245, blue 245
 loading_logo				loading_screen/symbols/symbol128_qin_01.tga
-standard_index				35
+standard_index				34
 logo_index					FACTION_LOGO_QIN_01
 small_logo_index			SMALL_FACTION_LOGO_QIN_01
 triumph_value				5
