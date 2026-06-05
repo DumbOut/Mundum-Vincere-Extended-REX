@@ -14785,6 +14785,9 @@ settlement
     population 400
     plan_set default_set
     faction_creator massilia_01
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -14803,7 +14806,8 @@ unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 3 armour 0 weapon_lvl 2
+unit		merc cretan archers				exp 3 armour 0 weapon_lvl 2
 
 ;	Heraclea Caecabarea
 character	Deinias Aulouporid, named character, age 38, , x 162, y 496
@@ -14826,6 +14830,8 @@ traits GoodCommander 3
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -14842,7 +14848,7 @@ relative 	Aktaneus Aulouporid,		end
 
 
 faction	slave, balanced_smith
-denari	-88972800
+denari	-2075800
 settlement
 {
 	level town
@@ -17707,6 +17713,23 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Itamos_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator egypt
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
 	}
 }
 
