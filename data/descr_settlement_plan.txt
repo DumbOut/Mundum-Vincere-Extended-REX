@@ -10752,7 +10752,18 @@ plans_by_level
 		large_city	Eastern_Large_City
 		huge_city	Eastern_Huge_City
 	}
+
+	plan_levels		Upper_Chinese_plan_levels
+	{
+		village		Egyptian_Village
+		town		Eastern_Town
+		large_town	Eastern_Large_Town
+		city		Eastern_City
+		large_city	Eastern_Large_City
+		huge_city	Eastern_Huge_City
+	}
 	
+
 	plan_levels		Greek_plan_levels
 	{
 		village		Roman_Village
@@ -10817,16 +10828,16 @@ plan_sets
 	plan_set default_set
 	{
 		locale any
-		;default		test_levels
+		default		Roman_plan_levels
 
 		roman			Roman_plan_levels
 		greek			Greek_plan_levels
 		carthaginian		Carthaginian_plan_levels
 		egyptian		Egyptian_plan_levels
 		eastern			Eastern_plan_levels
-		upper_chinese			Eastern_plan_levels 
 		barbarian		Barbarian_plan_levels
-
+		upper_chinese			Eastern_plan_levels 
+	
 	}
 	
 	 ;port	default_port_set

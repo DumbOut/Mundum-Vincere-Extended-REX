@@ -1,0 +1,2440 @@
+;
+; Gates:  model plus left and right gate models, offsets and sizes.
+; Assumed the gates face outward along Z.
+; NO double gates, please.
+; Using none anywhere here means the items are simply ignored.
+;
+; Gate types:  wooden; reinforced; iron.
+; Short gate - wooden only
+; Medium gate - all three
+; Huge gate - all three
+
+
+gates
+{
+	gate  short_wooden
+	{
+		full_health 100
+		width	7
+		height 6
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 25
+			open		gate_short_wooden_open
+			closed		gate_short_wooden_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_short_wooden_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_short_wooden_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_short_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_short_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_short_wooden_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_short_wooden_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_short_wooden_open_damaged
+			closed		gate_short_wooden_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_short_wooden_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_short_wooden_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_short_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_short_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_short_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_short_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_short_wooden_collapsed
+		}
+	}
+
+	gate  medium_wooden
+	{
+		full_health 100
+		width	7
+		height 10
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 25
+			open		gate_medium_wooden_open
+			closed		gate_medium_wooden_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_wooden_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_wooden_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_medium_wooden_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_wooden_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_medium_wooden_open_damaged
+			closed		gate_medium_wooden_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_wooden_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_wooden_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_medium_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_medium_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_medium_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_medium_wooden_collapsed
+		}
+	}
+
+
+	gate  huge_wooden
+	{
+		full_health 150
+		width	7
+		height 20
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 45
+			open		gate_huge_wooden_open
+			closed		gate_huge_wooden_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_wooden_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_wooden_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_huge_wooden_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_wooden_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_huge_wooden_open_damaged
+			closed		gate_huge_wooden_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_wooden_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_wooden_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_huge_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_huge_wooden_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_huge_wooden_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_wooden_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_huge_wooden_collapsed
+		}
+	}
+	
+	gate  medium_reinforced
+	{
+		full_health 150
+		width	7
+		height 10
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 40
+			open		gate_medium_reinforced_open
+			closed		gate_medium_reinforced_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_reinforced_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_reinforced_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_reinforced_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_reinforced_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_medium_reinforced_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_reinforced_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_medium_reinforced_open_damaged
+			closed		gate_medium_reinforced_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_reinforced_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_reinforced_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_medium_reinforced_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_medium_reinforced_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_medium_reinforced_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_reinforced_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_medium_reinforced_collapsed
+		}
+	}
+	gate  huge_reinforced
+	{
+		full_health 200
+		width	7
+		height 20
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 50
+			open		gate_huge_reinforced_open
+			closed		gate_huge_reinforced_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_reinforced_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_reinforced_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_reinforced_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_reinforced_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_huge_reinforced_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_reinforced_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_huge_reinforced_open_damaged
+			closed		gate_huge_reinforced_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_reinforced_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_reinforced_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_huge_reinforced_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_huge_reinforced_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_huge_reinforced_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_reinforced_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_huge_reinforced_collapsed
+		}
+	}
+
+
+	gate  medium_iron
+	{
+		full_health 200
+		width	7
+		height 10
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 50
+			open		gate_medium_iron_open
+			closed		gate_medium_iron_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_iron_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_iron_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_iron_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_iron_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_medium_iron_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_iron_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_medium_iron_open_damaged
+			closed		gate_medium_iron_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_medium_iron_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_medium_iron_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_medium_iron_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_medium_iron_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_medium_iron_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_medium_iron_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_medium_iron_collapsed
+		}
+	}
+
+	gate  huge_iron
+	{
+		full_health 250
+		width	7
+		height 20
+		outer_clearance 8
+		inner_clearance	10
+		left 
+		{
+			xz	-4 0
+			length 5
+		}
+		right
+		{
+			xz 4 0
+			length 5
+		}
+		level
+		{
+			min_health 65
+			open		gate_huge_iron_open
+			closed		gate_huge_iron_closed
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_iron_open_to_closed
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_iron_closed_to_open
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_iron_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_iron_closed_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 9
+				physical_switch 0
+				item gate_huge_iron_closed_impact
+				{
+					0 enable
+					0 anim 2 0 0
+					2 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_iron_open_impact
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level
+		{
+			min_health 1
+			open		gate_huge_iron_open_damaged
+			closed		gate_huge_iron_closed_damaged
+			open_to_closed
+			{
+				duration 25
+				physical_switch 0
+				item gate_huge_iron_open_to_closed_damaged
+				{
+					0 enable
+					0 anim 25 0 2.5
+				}
+			}
+			closed_to_open
+			{
+				duration 30
+				physical_switch 0
+				item gate_huge_iron_closed_to_open_damaged
+				{
+					0 enable
+					0 anim 30 0 3
+				}
+			}
+			open_to_next_damage
+			{
+				duration 2
+				physical_switch 0
+				item gate_huge_iron_closed_to_collapsed
+				{
+					0 enable
+					0 anim 2 1.0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_to_next_damage
+			{
+				duration 12
+				physical_switch 0
+				item gate_huge_iron_closed_to_collapsed
+				{
+					0 enable
+					0 anim 12 0 1.2
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			closed_impacted
+			{
+				duration 7
+				physical_switch 0
+				item gate_huge_iron_closed_impact_damaged
+				{
+					0 enable
+					0 anim 7 0 0.7
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+			open_impacted
+			{
+				duration 10
+				physical_switch 0
+				item gate_huge_iron_open_impact_damaged
+				{
+					0 enable
+					0 anim 10 0 0.95
+					0 dust_bounds 1 1.0 1 15 1 1 4 gate_style
+				}
+			}
+		}
+		level ; Final level has no transitions, just the collapsed item.
+		{
+			min_health 0
+			open		gate_huge_iron_collapsed
+		}
+	}
+
+
+}
+
+
+
+
+; SHORT WOODEN WALLS, level 0 for everyone
+
+wall
+{
+	culture any
+	level 0
+	siege_tower_size too_small
+
+	straight
+	{
+		wooden_short_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		wooden_short_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		wooden_short_wall_external_corner
+	}
+
+	straight_link
+	{
+		wooden_short_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		wooden_short_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		wooden_short_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		wooden_short_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		wooden_short_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		wooden_short_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 0
+		wooden_short_gateway
+		projectile_impacts_all_hit_gate
+		short_wooden	; Just one type allowed!
+	}
+	tower_straight
+	{
+		wooden_short_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		wooden_short_wall_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		wooden_short_wall_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+; TALL WOODEN WALLS, level 1 for everyone
+
+wall
+{
+	culture any
+	level 1
+	siege_tower_size too_small
+
+	straight
+	{
+		wooden_tall_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		wooden_tall_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		wooden_tall_wall_external_corner
+	}
+
+	straight_link
+	{
+		wooden_tall_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		wooden_tall_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		wooden_tall_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		wooden_tall_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		wooden_tall_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		wooden_tall_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 0
+		wooden_tall_gateway
+		projectile_impacts_all_hit_gate
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		wooden_tall_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		wooden_tall_wall_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		wooden_tall_wall_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+;EASTERN SMALL STONE/TOWN WALLS
+wall
+{
+	culture eastern carthaginian egyptian
+	level 2
+	siege_tower_size small
+
+	straight
+	{
+		eastern_town_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		eastern_town_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		eastern_town_wall_external_corner
+	}
+
+	straight_link
+	{
+		eastern_town_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		eastern_town_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		eastern_town_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		eastern_town_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		eastern_town_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		eastern_town_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		eastern_town_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		eastern_town_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		eastern_town_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		eastern_town_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+; ROMAN SMALL STONE/TOWN WALLS
+; Temporarily, level 2+ for everyone - achieved by hacking everything after to be level 0 - the selection code
+; uses a direct match if there is one, otherwise uses the highest level no larger than the selected one that matches the culture.
+wall
+{
+	culture any ; roman
+	level 2
+	siege_tower_size small
+
+	straight
+	{
+		roman_town_wall_straight
+		breach_inner_link 0.4 14
+		breach_outer_link 0.4 -14
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		roman_town_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		roman_town_wall_external_corner
+	}
+
+	straight_link
+	{
+		roman_town_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		roman_town_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		roman_town_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		roman_town_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		roman_town_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		roman_town_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		roman_town_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		roman_town_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		roman_town_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		roman_town_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+wall
+{
+	culture eastern carthaginian egyptian
+	level 3
+	siege_tower_size medium
+
+	straight
+	{
+		eastern_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		eastern_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		eastern_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		eastern_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		eastern_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		eastern_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		eastern_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		eastern_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		eastern_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		eastern_city_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		eastern_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		eastern_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		eastern_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+;EASTERN EPIC WALLS
+
+wall
+{
+	culture eastern carthaginian egyptian
+	level 4
+	siege_tower_size large
+
+	straight
+	{
+		eastern_huge_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		eastern_huge_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		eastern_huge_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		eastern_huge_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		eastern_huge_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		eastern_huge_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		eastern_huge_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		eastern_huge_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		eastern_huge_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		eastern_huge_city_gateway
+		huge_wooden
+		huge_reinforced
+		huge_iron
+	}
+	tower_straight
+	{
+		eastern_huge_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		eastern_huge_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		eastern_huge_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+; TEMP WALL - forces level 4 to level 2
+wall
+{
+	culture any ; roman
+	level 0 ; 4
+	siege_tower_size small
+
+	straight
+	{
+		roman_town_wall_straight
+		breach_inner_link 0.4 14
+		breach_outer_link 0.4 -14
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		roman_town_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		roman_town_wall_external_corner
+	}
+
+	straight_link
+	{
+		roman_town_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		roman_town_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		roman_town_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		roman_town_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		roman_town_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		roman_town_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		roman_town_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		roman_town_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		roman_town_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		roman_town_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+
+
+
+wall
+{
+	culture greek
+	level 0 ; 2
+	siege_tower_size small
+
+	straight
+	{
+		greek_town_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		greek_town_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		greek_town_wall_external_corner
+	}
+
+	straight_link
+	{
+		greek_town_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		greek_town_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		greek_town_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		greek_town_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		greek_town_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		greek_town_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		greek_town_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		greek_town_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		greek_town_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		greek_town_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+wall
+{
+	culture egyptian
+	level 0 ; 2
+	siege_tower_size small
+
+	straight
+	{
+		egyptian_town_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		egyptian_town_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		egyptian_town_wall_external_corner
+	}
+
+	straight_link
+	{
+		egyptian_town_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		egyptian_town_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		egyptian_town_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		egyptian_town_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		egyptian_town_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		egyptian_town_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		egyptian_town_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		egyptian_town_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		egyptian_town_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		egyptian_town_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+
+
+
+; ********* temporary CITY wall definitions
+
+wall
+{
+	culture roman greek
+	level 3
+	siege_tower_size medium
+
+	straight
+	{
+		roman_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		roman_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		roman_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		roman_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		roman_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		roman_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		roman_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		roman_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		roman_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		outer_offset 18.5
+		roman_city_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		roman_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		roman_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		roman_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+wall
+{
+	culture greek
+	level 0 ; 3
+	siege_tower_size medium
+
+	straight
+	{
+		greek_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		greek_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		greek_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		greek_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		greek_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		greek_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		greek_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		greek_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		greek_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		greek_city_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		greek_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		greek_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		greek_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+wall
+{
+	culture egyptian
+	level 0 ; 3
+	siege_tower_size medium
+
+	straight
+	{
+		egyptian_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		egyptian_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		egyptian_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		egyptian_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		egyptian_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		egyptian_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		egyptian_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		egyptian_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		egyptian_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		egyptian_city_gateway
+		medium_wooden
+		medium_reinforced
+		medium_iron
+	}
+	tower_straight
+	{
+		egyptian_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		egyptian_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		egyptian_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+; ********* temporary HUGE CITY wall definitions
+
+wall
+{
+	culture roman greek
+	level 4
+	siege_tower_size large
+
+	straight
+	{
+		roman_huge_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		roman_huge_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		roman_huge_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		roman_huge_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		roman_huge_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		roman_huge_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		roman_huge_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		roman_huge_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		roman_huge_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		outer_offset 18.5
+		roman_huge_city_gateway
+		huge_wooden
+		huge_reinforced
+		huge_iron
+	}
+	tower_straight
+	{
+		roman_huge_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		roman_huge_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		roman_huge_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+wall
+{
+	culture greek
+	level 0 ; 4
+	siege_tower_size large
+
+	straight
+	{
+		greek_huge_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		greek_huge_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		greek_huge_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		greek_huge_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		greek_huge_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		greek_huge_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		greek_huge_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		greek_huge_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		greek_huge_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		greek_huge_city_gateway
+		huge_wooden
+		huge_reinforced
+		huge_iron
+	}
+	tower_straight
+	{
+		greek_huge_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		greek_huge_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		greek_huge_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+wall
+{
+	culture egyptian
+	level 0 ; 4
+	siege_tower_size large
+
+	straight
+	{
+		egyptian_huge_city_wall_straight
+		breach_inner_link 0 10
+		breach_outer_link 0 -10
+		breach_width 10
+	}
+
+	internal_corner_link
+	{
+		egyptian_huge_city_wall_internal_corner
+	}
+
+	external_corner_link
+	{
+		egyptian_huge_city_wall_external_corner
+	}
+
+	straight_link
+	{
+		egyptian_huge_city_wall_joiner_straight
+	}
+
+	diagonal_link
+	{
+		egyptian_huge_city_wall_joiner_diagonal
+	}
+
+	internal_left_link
+	{
+		egyptian_huge_city_wall_joiner_internal_left
+	}
+
+	internal_right_link
+	{
+		egyptian_huge_city_wall_joiner_internal_right
+	}
+
+	external_left_link
+	{
+		egyptian_huge_city_wall_joiner_external_left
+	}
+
+	external_right_link
+	{
+		egyptian_huge_city_wall_joiner_external_right
+	}
+
+	gateway
+	{
+		offset_xz	0 -1.5
+		egyptian_huge_city_gateway
+		huge_wooden
+		huge_reinforced
+		huge_iron
+	}
+	tower_straight
+	{
+		egyptian_huge_city_wall_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_internal_corner_link
+	{
+		egyptian_huge_city_internal_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+	tower_external_corner_link
+	{
+		egyptian_huge_city_external_corner_watchtower
+		reload_ticks_arrow 5
+		reload_ticks_ballista 10
+	}
+}
+
+
+
