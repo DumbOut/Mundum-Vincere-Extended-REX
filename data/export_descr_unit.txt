@@ -9502,3 +9502,27 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 535, 110, 60, 40, 535
 ownership        slave, greek_cities, egypt, seleucid, carthage
+
+type             greek polis hoplite old
+dictionary       greek_polis_hoplite_old      ; Armoured Hoplites Late
+category         infantry
+class            spearmen
+voice_type       Heavy_1
+soldier          greek_polis_hoplite_old, 60, 0, 0.75
+attributes       sea_faring, hide_forest, can_sap, hardy
+formation        1, 1, 2, 2, 5, square, phalanx
+stat_health      1, 0
+stat_pri         7, 5, no, 0, 0, melee, simple, piercing, spear, 25 ,1
+stat_pri_attr    spear, spear_bonus_8
+stat_sec         8, 2, no, 0, 0, melee, simple, piercing, sword, 25 ,1
+stat_sec_attr    no
+stat_pri_armour  7, 4, 5, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      2, 0, 0, 0
+stat_mental      10, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 600, 180, 60, 80, 600
+ownership        greek_cities
