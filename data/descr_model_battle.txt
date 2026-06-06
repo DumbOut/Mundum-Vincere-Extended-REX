@@ -3256,15 +3256,18 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				roman_samnite_warrior
 skeleton			fs_spearman
 indiv_range			40
-;texture				slave, data/models_unit/textures/unit_roman_samnite_rebel.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_roman_samnite_rebel.tga
 texture				merc, data/models_unit/textures/unit_roman_samnite_merc.tga
-texture				carthage, data/models_unit/textures/unit_roman_samnite_merc.tga
+texture				romans_brutii, mve_rex/data/models_unit/textures/unit_roman_samnite_brutii.tga
+texture				romans_julii, mve_rex/data/models_unit/textures/unit_roman_samnite_julii.tga
+texture				romans_scipii, mve_rex/data/models_unit/textures/unit_roman_samnite_scipii.tga
+texture				romans_senate, mve_rex/data/models_unit/textures/unit_roman_samnite_senate.tga
 model_flexi			data/models_unit/unit_roman_samnite_high.cas, 15
 model_flexi			data/models_unit/unit_roman_samnite_med.cas, 30
 model_flexi			data/models_unit/unit_roman_samnite_low.cas, 40
 model_flexi			data/models_unit/unit_roman_samnite_lowest.cas, max
-model_sprite		60.0, data/sprites/roman_samnite_warrior_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
 
 ;;;;;; MERCENARIES ;;;;;;;;;;;;;;;;;;;
 
@@ -4748,21 +4751,6 @@ skeleton			fs_crossbow, fs_swordsman
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/ruishi.tga
 model_flexi			mve_rex/data/models_unit/tsin/ruishi.cas, max
-model_tri			400, 0.5f, 0.5f, 0.5f
-
-type				roman_samnite_warrior
-skeleton			fs_spearman
-indiv_range			40
-texture				slave, mve_rex/data/models_unit/textures/unit_roman_samnite_rebel.tga
-texture				merc, data/models_unit/textures/unit_roman_samnite_merc.tga
-texture				romans_brutii, mve_rex/data/models_unit/textures/unit_roman_samnite_brutii.tga
-texture				romans_julii, mve_rex/data/models_unit/textures/unit_roman_samnite_julii.tga
-texture				romans_scipii, mve_rex/data/models_unit/textures/unit_roman_samnite_scipii.tga
-texture				romans_senate, mve_rex/data/models_unit/textures/unit_roman_samnite_senate.tga
-model_flexi			data/models_unit/unit_roman_samnite_high.cas, 15
-model_flexi			data/models_unit/unit_roman_samnite_med.cas, 30
-model_flexi			data/models_unit/unit_roman_samnite_low.cas, 40
-model_flexi			data/models_unit/unit_roman_samnite_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				east_persian_infantry
