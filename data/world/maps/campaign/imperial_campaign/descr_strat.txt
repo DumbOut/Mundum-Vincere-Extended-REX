@@ -4053,41 +4053,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Phoenicia
-
-	year_founded 0
-	population 4500
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
 	level town
 	region Coele_Syria
 
@@ -5072,15 +5037,6 @@ character	Khu, spy, age 20, , x 446, y 379
 traits GoodSpy 3
 ancillaries poisoner
 
-;	Sidon
-character	Minmose, general, age 20, , x 449, y 397
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
 ;	Halicarnassus
 character	Minmose, general, age 20, , x 366, y 430
 
@@ -5441,6 +5397,49 @@ settlement
 	building
 	{
 		type equestrian stables
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phoenicia
+
+	year_founded 0
+	population 4500
+	plan_set default_set
+	faction_creator carthage
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type market market
 	}
 	building
 	{
