@@ -264,6 +264,7 @@ skeleton			strat_named_with_army
 scale				0.7
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_elite_guard.tga
+texturw             seth_01,    data/models_unit/textures/unit_egyption_elite_guard_seth_01.tga
 model_flexi_m		data/models_strat/strat_egyptian_general.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -271,6 +272,7 @@ type				sm_egypt_lesser_general
 skeleton			strat_named_with_army
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_cleruch.tga
+texture				seth_01, data/models_unit/textures/unit_egyption_cleruch_seth_01.tga
 model_flexi_m		data/models_strat/strat_egyptian_lesser_general.CAS, max
 shadow_model_flexi	data/models_strat/shadow_model_axe.cas, max
 
