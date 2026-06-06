@@ -391,6 +391,7 @@ building barracks
             {
                 taxable_income_bonus bonus -3 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "italic spearmen"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -431,6 +432,7 @@ building barracks
             {
                 taxable_income_bonus bonus -2 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "italic spearmen" 0 requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -470,6 +472,8 @@ building barracks
                 recruit "numidian desert warriors"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east persian infantry"  0  requires factions { parthia, }
+                recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "egyptian nile infantry"  0  requires factions { egypt, }
@@ -503,6 +507,7 @@ building barracks
             capability
             {
                 recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "italic spearmen" 0 requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -557,6 +562,8 @@ building barracks
                 recruit "desert swordsman"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east persian infantry"  0  requires factions { parthia, }
+                recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  0  requires factions { parthia, } 
                 recruit "east heavy infantry"  0  requires factions { armenia, } 
@@ -611,6 +618,7 @@ building barracks
             capability
             {
                 recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "italic spearmen" 0 requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -670,6 +678,8 @@ building barracks
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east persian infantry"  0  requires factions { parthia, }
+                recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  1  requires factions { parthia, } 
                 recruit "east swordbearer"  0  requires factions { parthia, } 
@@ -740,6 +750,7 @@ building barracks
             {
 				taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { spain, }
+                recruit "italic spearmen" 0 requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, slave, }
                 recruit "iberian spears"  0  requires factions { spain, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, } 
@@ -802,6 +813,8 @@ building barracks
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, } 
                 recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east persian infantry"  0  requires factions { parthia, }
+                recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  1  requires factions { parthia, } 
                 recruit "east swordbearer"  0  requires factions { parthia, } 

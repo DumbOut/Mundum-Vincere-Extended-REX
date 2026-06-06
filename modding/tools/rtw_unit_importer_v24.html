@@ -3070,8 +3070,23 @@ function getBinaryPaths(u) {
 // This prevents cross-faction card bleeding (e.g. parthia card used for armenia)
 function getAssetStrict(p) {
   const full = normalisePath(p);
-  const fullDds = full.endsWith('.tga') ? full + '.dds' : null;
-  return state.assets.get(full) || (fullDds ? state.assets.get(fullDds) : null) || null;
+  const file = full.split('/').pop();
+
+  const fullDds = full.endsWith('.tga')
+    ? full + '.dds'
+    : null;
+
+  const fileDds = file.endsWith('.tga')
+    ? file + '.dds'
+    : null;
+
+  return (
+    state.assets.get(full) ||
+    (fullDds && state.assets.get(fullDds)) ||
+    state.assets.get(file) ||
+    (fileDds && state.assets.get(fileDds)) ||
+    null
+  );
 }
 
 // ═══════════════════════════════════════════
@@ -3596,13 +3611,15 @@ async function exportModZip() {
   for (const { path, strictPath } of uniquePaths) {
     const asset = strictPath ? getAssetStrict(path) : getAsset(path);
     if (asset) {
-      const packPath = (path.endsWith('.tga') && asset.name.toLowerCase().endsWith('.tga.dds'))
-        ? path + '.dds' : path;
-      zip.file(packPath, asset.buffer);
-      addLog('ok', `ModZIP: packed ${packPath}`);
-    } else {
-      zip.file(path + '.MISSING.txt', `File not loaded:\n${path}\n\nCopy manually from your source mod.`);
-      addLog('warn', `ModZIP: missing — ${path}`);
+        zip.file(packPath, asset.buffer);
+
+        // mirror UI cards into a recovery folder
+        if (packPath.startsWith('ui/')) {
+            zip.file(
+                'RECOVER_UI_CARDS/' + asset.name,
+                asset.buffer
+            );
+        }
     }
   }
 
@@ -3640,6 +3657,26 @@ async function exportModZip() {
 
   plabel.textContent = 'Generating ZIP…'; fill.style.width = '95%';
   try {
+    const uiCards = uniquePaths.filter(
+      p => p.path.startsWith('ui/')
+    );
+
+    const missingCards = uiCards.filter(
+      p => !(p.strictPath
+        ? getAssetStrict(p.path)
+        : getAsset(p.path))
+    );
+
+    if (missingCards.length) {
+      addLog(
+        'warn',
+        `Missing ${missingCards.length} UI card(s)`
+      );
+
+      missingCards.forEach(c =>
+        addLog('warn', `  ${c.path}`)
+      );
+    }
     const blob = await zip.generateAsync({ type: 'blob', compression: 'DEFLATE', compressionOptions: { level: 6 } });
     fill.style.width = '100%'; plabel.textContent = 'Done!';
     const tag = renamedUnits.map(u => u.dict).join('_').substring(0, 40);

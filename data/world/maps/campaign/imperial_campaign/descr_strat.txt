@@ -14848,7 +14848,7 @@ relative 	Aktaneus Aulouporid,		end
 
 
 faction	slave, balanced_smith
-denari	-2075800
+denari	-2003800
 settlement
 {
 	level town
@@ -17076,6 +17076,47 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Matsura_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Nafun_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+}
 
 settlement
 {

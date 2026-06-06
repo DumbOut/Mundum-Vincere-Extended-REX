@@ -2688,6 +2688,7 @@ texture				macedon, data/models_unit/textures/unit_greek_pike_phalanx_macedon.tg
 texture				pontus, data/models_unit/textures/unit_greek_pike_phalanx_pontus.tga
 texture				seleucid, data/models_unit/textures/unit_greek_pike_phalanx_seleucid.tga
 texture				thrace, data/models_unit/textures/unit_greek_pike_phalanx_thrace.tga
+texture				merc, mve_rex/data/models_unit/textures/unit_greek_pike_phalanx_merc.tga
 model_flexi_m			data/models_unit/unit_greek_pike_phalanx_400.cas, 8
 model_flexi_m			data/models_unit/unit_greek_pike_phalanx_300.cas, 15
 model_flexi			data/models_unit/unit_greek_pike_phalanx_200.cas, 30
@@ -4747,5 +4748,30 @@ skeleton			fs_crossbow, fs_swordsman
 indiv_range			40
 texture				qin_01, mve_rex/data/models_unit/tsin/textures/ruishi.tga
 model_flexi			mve_rex/data/models_unit/tsin/ruishi.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				roman_samnite_warrior
+skeleton			fs_spearman
+indiv_range			40
+texture				slave, mve_rex/data/models_unit/textures/unit_roman_samnite_rebel.tga
+texture				merc, data/models_unit/textures/unit_roman_samnite_merc.tga
+texture				romans_brutii, mve_rex/data/models_unit/textures/unit_roman_samnite_brutii.tga
+texture				romans_julii, mve_rex/data/models_unit/textures/unit_roman_samnite_julii.tga
+texture				romans_scipii, mve_rex/data/models_unit/textures/unit_roman_samnite_scipii.tga
+texture				romans_senate, mve_rex/data/models_unit/textures/unit_roman_samnite_senate.tga
+model_flexi			data/models_unit/unit_roman_samnite_high.cas, 15
+model_flexi			data/models_unit/unit_roman_samnite_med.cas, 30
+model_flexi			data/models_unit/unit_roman_samnite_low.cas, 40
+model_flexi			data/models_unit/unit_roman_samnite_lowest.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
+
+type				east_persian_infantry
+skeleton			fs_slow_spearman								
+indiv_range			40
+texture				parthia, data/models_unit/textures/unit_eastern_cappodocean_cavalry_parthia.tga
+model_flexi_m		data/models_unit/unit_east_cappodocean_cav_high.cas, 15
+model_flexi_m		data/models_unit/unit_east_cappodocean_cav_med.cas, 30
+model_flexi_m		data/models_unit/unit_east_cappodocean_cav_low.cas, 40
+model_flexi			data/models_unit/unit_east_cappodocean_cav_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
