@@ -14795,7 +14795,7 @@ relative	Tong ying,	end
 ;character FirstName LastName, named character, age 42, , x 398, y 276
 
 faction	massilia_01, balanced napoleon
-denari	3980
+denari	24980
 settlement
 {
     level city
@@ -14866,6 +14866,8 @@ settlement
 	garrisoned_army
 	unit		greek hoplite militia
 	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -14880,9 +14882,11 @@ settlement
 character	Comanus Aulouporid, named character, leader, age 40, , x 151, y 496
 traits GoodCommander 4, GoodAdministrator 3
 army
-unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
-unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
+unit		greek hoplite militia				exp 5 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
@@ -14894,9 +14898,9 @@ unit		merc cretan archers				exp 3 armour 0 weapon_lvl 2
 
 ;	Heraclea Caecabarea
 character	Deinias Aulouporid, named character, age 38, , x 162, y 496
-traits GoodCommander 1, GoodAdministrator 2
+traits GoodCommander 4, GoodAdministrator 3
 army
-unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
@@ -14904,6 +14908,8 @@ unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
 ;	Nicaea Monoicus
