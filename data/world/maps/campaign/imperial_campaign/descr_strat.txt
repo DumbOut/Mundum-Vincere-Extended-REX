@@ -49,7 +49,7 @@ end_date	1180 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 40
+brigand_spawn_value 42
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13736,7 +13736,7 @@ relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	sciria_01, balanced napoleon
-denari	1000
+denari	3410
 settlement
 {
 	level large_town
@@ -13769,7 +13769,7 @@ settlement
 	region Sudinium_R
 
 	year_founded 0
-	population 900
+	population 700
 	plan_set default_set
 	faction_creator sciria_01
 	building
@@ -13792,14 +13792,6 @@ unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
 unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
 unit		barb berserker german				exp 4 armour 0 weapon_lvl 3
 unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
-unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
 unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
 unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
 
@@ -13810,15 +13802,12 @@ ancillaries bodyguard, comedian
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
 unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		barb gothic cavalry german				exp 3 armour 0 weapon_lvl 2
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Odryssa
 character	Hanhavaldi, diplomat, age 20, , x 321, y 643
-traits GoodDiplomat 1
+traits GoodDiplomat 2
 
 character_record		Gunderic, 	male, command 3, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
 character_record		Aelric, 	male, command 3, influence 0, management 2, subterfuge 0, age 1, alive, never_a_leader
@@ -13836,7 +13825,7 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 ;	Maurya Empire
 faction	mauryans, religious napoleon
-denari	 9950
+denari	 10050
 settlement
 {
 	level city
@@ -17740,7 +17729,7 @@ settlement
 	region Tylos_R
 
 	year_founded 0
-	population 600
+	population 500
 	plan_set default_set
 	faction_creator egypt
 	building
