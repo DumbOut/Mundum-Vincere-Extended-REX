@@ -12,7 +12,6 @@ building core_building
         {
             capability
             {
-                taxable_income_bonus bonus -3.02 requires factions { seleucid, egypt, carthage, } ; Starting Empire penalty
                 taxable_income_bonus bonus -3.95 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 

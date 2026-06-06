@@ -3964,7 +3964,7 @@ settlement
 	region PtolemaisHermeiou_R
 
 	year_founded 0
-	population 4500
+	population 4000
 	plan_set default_set
 	faction_creator egypt
 	building
@@ -4600,82 +4600,6 @@ settlement
 settlement
 {
 	level town
-	region Coracesium_R
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Side_R
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Byblos_R
-
-	year_founded 0
-	population 1600
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Tripolis_R
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
 	region Gadara_R
 
 	year_founded 0
@@ -5187,22 +5111,8 @@ army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
-;	Side
-character	Minmose, general, age 20, , x 406, y 431
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
 ;	Perge
 character	Minmose, general, age 20, , x 399, y 432
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
-;	Coracesium
-character	Minmose, general, age 20, , x 411, y 429
 
 army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
@@ -5390,22 +5300,6 @@ army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
-;	Tripolis
-character	Minmose, general, age 20, , x 452, y 408
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
-;	Byblos
-character	Minmose, general, age 20, , x 450, y 404
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
 ;	Philadelphia
 character	Minmose, general, age 20, , x 457, y 380
 
@@ -5522,7 +5416,7 @@ relative 	Sekhmetsekhemkhet, 	Padibastet,		Sabast,	end
 
 
 faction	seleucid, balanced stalin
-denari	2295
+denari	32295
 settlement
 {
 	level city
@@ -5551,6 +5445,126 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Byblos_R
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator carthage
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+}
+settlement
+{
+	level town
+	region Tripolis_R
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator carthage
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Itamos_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator seleucid
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+settlement
+{
+	level town
+	region Coracesium_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Side_R
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator macedon
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
@@ -10522,7 +10536,7 @@ settlement
 	region Felsina_R
 
 	year_founded 0
-	population 2500
+	population 2000
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -39766,7 +39780,7 @@ settlement
     }
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 }
 ;;;;;;;;;;;;;;;;;;;;;;;		END OF CITIES
