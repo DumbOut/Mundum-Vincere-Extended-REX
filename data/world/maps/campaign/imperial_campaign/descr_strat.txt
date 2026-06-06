@@ -3879,7 +3879,7 @@ relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 
 faction	egypt, religious caesar
-denari	5900
+denari	8900
 settlement
 {
 	level large_town
@@ -7926,9 +7926,14 @@ character	Antiochus, named character, leader, age 60, , x 453, y 430
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2
 ancillaries heroic_saviour
 army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 2
 unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
@@ -7939,9 +7944,14 @@ character	Aristarchus, named character, heir, age 40, , x 537, y 404
 traits Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , Embezzler 1
 ancillaries exotic_slave, biographer
 army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 2
+unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 2
+unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -7953,6 +7963,12 @@ traits GoodAdministrator 2 , Intelligent 1
 ancillaries desert_scout
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -13593,7 +13609,7 @@ relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	thrace, sailor napoleon
-denari	6800
+denari	16800
 settlement
 {
 	level large_town
@@ -13627,7 +13643,7 @@ settlement
 	region Seuthopolis_R
 
 	year_founded 0
-	population 1100
+	population 1300
 	plan_set default_set
 	faction_creator thrace
 	building
@@ -13688,8 +13704,14 @@ traits GoodCommander 2 , GoodAttacker 2 , Energetic 1 , Drink 2
 ancillaries wine_steward, comedian, aged_retainer
 army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		warband falx thracian				exp 3 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
-unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
@@ -13703,7 +13725,14 @@ unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 3 armour 0 weapon_lvl 0
 
 ;	Bizye
 character	Byzas, named character, age 30, , x 364, y 486
@@ -13751,8 +13780,8 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
-faction	sciria_01, religious caesar
-denari	4810
+faction	sciria_01, 
+denari	9810
 settlement
 {
 	level large_town
@@ -13805,6 +13834,15 @@ ancillaries bodyguard, comedian, aged_retainer
 army
 unit		barb chieftain cavalry early german				exp 6 armour 2 weapon_lvl 3
 unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb gothic cavalry german				exp 4 armour 0 weapon_lvl 2
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
 
 ;	Sudinium
 character	Etreleus, named character, heir, age 23, , x 320, y 643
@@ -13812,6 +13850,9 @@ traits GoodCommander 1 , GoodAdministrator 2 , Bloodthirsty 1
 ancillaries bodyguard, comedian
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
+unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
 unit		barb berserker german				exp 1 armour 0 weapon_lvl 3
 
 ;	outside Odryssa
@@ -13833,7 +13874,7 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 
 ;	Maurya Empire
-faction	mauryans, religious caesar
+faction	mauryans, 
 denari	 30090
 settlement
 {
@@ -13957,7 +13998,7 @@ settlement
 	region Saharsa_R
 
 	year_founded 0
-	population 800
+	population 600
 	plan_set default_set
 	faction_creator mauryans
 	building
@@ -14006,25 +14047,47 @@ traits GoodCommander 1, GoodAdministrator 1
 army
 unit		Indian General		exp 1 armour 0 weapon_lvl 0
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Javelin Men			exp 0 armour 0 weapon_lvl 0
 
 ;	Pundranagara
 character	Ashoka Maurya, named character, age 32, , x 994, y 408 
-traits GoodCommander 2, GoodAdministrator 1, NaturalMilitarySkill 1 
+traits GoodCommander 4, GoodAdministrator 3, NaturalMilitarySkill 13
 ancillaries mentor
 army
-unit		Indian General		exp 1 armour 0 weapon_lvl 0
+unit		Indian General		exp 9 armour 9 weapon_lvl 9
+unit		Indian General		exp 9 armour 9 weapon_lvl 9
+unit		Indian General		exp 9 armour 9 weapon_lvl 9
+unit		Indian General		exp 9 armour 9 weapon_lvl 9
+unit		Indian General		exp 9 armour 9 weapon_lvl 9
 unit		Indian Light Cavalry			exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 3 armour 3 weapon_lvl 3
+unit		Indian Spearmen				exp 3 armour 3 weapon_lvl 3
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Javelin Men			exp 0 armour 0 weapon_lvl 0
 
 ;	Pataliputra - Fictional
 character	Suparswa Maurya, named character, age 31, , x 951, y 403
-traits GoodCommander 2, GoodAdministrator 1, NaturalMilitarySkill 1 
+traits GoodCommander 3, GoodAdministrator 1, NaturalMilitarySkill 1 
 ancillaries mentor
 army
-unit		Indian General		exp 1 armour 0 weapon_lvl 0
+unit		Indian General		exp 2 armour 0 weapon_lvl 0
 unit		Indian Light Cavalry			exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
+unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Spearmen				exp 0 armour 0 weapon_lvl 0
 unit		Indian Javelin Men			exp 0 armour 0 weapon_lvl 0
 
@@ -14270,7 +14333,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, age 42, , x 1280, y 540
 
-faction	qin_01, religious caesar
+faction	qin_01, 
 denari	40000
 settlement
 {
@@ -14803,6 +14866,11 @@ army
 unit		greek general's guard cavalry early				exp 4 armour 0 weapon_lvl 0
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 3 armour 0 weapon_lvl 2
 unit		merc cretan archers				exp 3 armour 0 weapon_lvl 2
@@ -14813,6 +14881,12 @@ traits GoodCommander 1, GoodAdministrator 2
 army
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
 ;	Nicaea Monoicus
@@ -14821,6 +14895,9 @@ traits GoodCommander 4
 army
 unit		greek general's guard cavalry early				exp 3 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 
 ;	Pergantion
 character	Aktaneus Aulouporid, named character, age 36, , x 165, y 499
@@ -14830,6 +14907,9 @@ unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Dymnos Aulouporid, 	male, command 2, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -14918,7 +14998,7 @@ settlement
 	region Bosphorus
 
 	year_founded 0
-	population 700
+	population 600
 	plan_set default_set
 	faction_creator greek_cities
 	building
