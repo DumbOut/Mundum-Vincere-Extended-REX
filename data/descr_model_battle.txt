@@ -4770,3 +4770,11 @@ indiv_range		40
 texture			scythia, mve_rex/data/models_unit/textures/UNIT_NL_SCYTHIAN_FOOT_GUARD_SCYTHIA.TGA
 model_flexi			mve_rex/data/models_unit/unit_NL_scythian_guard_low.cas, max
 model_tri		400, 0.5f, 0.5f, 0.5f
+
+
+type				greek_polis_hoplite_old
+skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
+indiv_range			40
+texture				greek_cities, mve_rex/data/models_unit/textures/greek_polis_hoplite_old_greek.tga
+model_flexi			mve_rex/data/models_unit/greek_polis_hoplite_old_high.cas, max
+model_tri			400, 0.5f, 0.5f, 0.5f
