@@ -13,7 +13,7 @@ building core_building
             capability
             {
                 taxable_income_bonus bonus -6.4
-                taxable_income_bonus bonus 1
+                taxable_income_bonus bonus 2.2
                 taxable_income_bonus bonus -6.4 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
@@ -40,7 +40,7 @@ building core_building
             capability
             {
                 taxable_income_bonus bonus -6.4
-                taxable_income_bonus bonus 1
+                taxable_income_bonus bonus 1.99
                 taxable_income_bonus bonus -4 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { spain, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
@@ -305,8 +305,8 @@ building defenses
         {
             capability
             {
-                taxable_income_bonus bonus -6.4
-                taxable_income_bonus bonus 1
+                taxable_income_bonus bonus -6.3
+                taxable_income_bonus bonus 2
 				taxable_income_bonus bonus -3 requires factions { slave, }
                 wall_level 0
                 tower_level 1
