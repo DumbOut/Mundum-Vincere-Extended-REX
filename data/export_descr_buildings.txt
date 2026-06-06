@@ -364,9 +364,7 @@ building defenses
         {
             capability
             {
-                taxable_income_bonus bonus -6.6
-                taxable_income_bonus bonus 3.67
-                taxable_income_bonus bonus -4 requires factions { slave, }
+                taxable_income_bonus bonus -5 requires factions { slave, }
                 wall_level 4
                 tower_level 2
                 gate_defences 2
