@@ -2945,7 +2945,7 @@ resource	slaves	353	,	156		;	TerraIncognita3 (east africa / arabia)
 
 faction	romans_julii, comfortable caesar
 superfaction romans_senate
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -3081,7 +3081,7 @@ relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
 faction	romans_brutii, balanced stalin
 superfaction romans_senate
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -3218,7 +3218,7 @@ relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
 
 faction	romans_scipii, bureaucrat napoleon
 superfaction romans_senate
-denari	1200
+denari	11200
 settlement
 {
 	level large_town
@@ -3368,7 +3368,7 @@ relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 
 faction	romans_senate, comfortable napoleon
-denari	5900
+denari	15900
 settlement
 {
 	level city
@@ -3517,7 +3517,7 @@ relative 	Duilius Maxentius, 	Antistia,	end
 
 
 faction	macedon, fortified napoleon
-denari	5900
+denari	15900
 settlement
 {
 	level city
@@ -3879,7 +3879,7 @@ relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 
 faction	egypt, religious caesar
-denari	8900
+denari	18900
 settlement
 {
 	level large_town
@@ -5414,7 +5414,6 @@ settlement
 	plan_set default_set
 	faction_creator carthage
 	garrisoned_army
-	unit		greek hoplite militia
 	unit		greek hoplite militia
 	unit		greek hoplite militia
 	unit		greek hoplite militia
@@ -8824,7 +8823,7 @@ relative 	Demetrius, 	Athena,		Kassandros,	Orthia,	end
 
 
 faction	carthage, balanced smith
-denari	6900
+denari	16900
 settlement
 {
 	level city
@@ -10185,7 +10184,7 @@ relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 
 faction	pontus, trader napoleon
-denari	5800
+denari	15800
 settlement
 {
 	level large_town
@@ -10361,7 +10360,7 @@ relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 
 
 faction	gauls, religious smith
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -10835,7 +10834,7 @@ relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 
 faction	germans, balanced mao
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -10996,7 +10995,7 @@ relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
 
 faction	britons, trader henry
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -11147,7 +11146,7 @@ relative 	Cynfawr, 	Eudaf,		Sennianus,	Drustan,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	armenia, fortified henry
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -11553,7 +11552,7 @@ relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, balanced stalin
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -11687,7 +11686,7 @@ relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	greek_cities, balanced smith
-denari	5900
+denari	15900
 settlement
 {
 	level city
@@ -13065,7 +13064,7 @@ relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	numidia, balanced henry
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -13250,7 +13249,7 @@ relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	scythia, trader smith
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -13454,7 +13453,7 @@ relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	spain, fortified mao
-denari	5900
+denari	15900
 settlement
 {
 	level large_town
@@ -13790,7 +13789,7 @@ relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	sciria_01, 
-denari	9810
+denari	19810
 settlement
 {
 	level large_town
@@ -13884,7 +13883,7 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 ;	Maurya Empire
 faction	mauryans, 
-denari	 30090
+denari	 42090
 settlement
 {
 	level city
@@ -14343,7 +14342,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, age 42, , x 1280, y 540
 
 faction	qin_01, 
-denari	40000
+denari	140000
 settlement
 {
     level town
@@ -14586,16 +14585,25 @@ unit	china generals early	exp 1 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
+unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 
 character	Tong Ying, named character, heir, age 16, x 1213, y 500
 traits GoodCommander 1, GoodAdministrator 1
 army
-unit	china generals early	exp 1 armour 0 weapon_lvl 0
+unit	china generals early	exp 3 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
+unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
+unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
+unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
@@ -14613,7 +14621,7 @@ relative	Tong ying,	end
 
 
 ;faction	illyria_01, balanced smith
-;denari	5000
+;denari	15000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
@@ -14642,7 +14650,7 @@ relative	Tong ying,	end
 ;character FirstName LastName, named character, age 42, , x 252, y 529
 
 ;faction	aestii_01, balanced smith
-;denari	5000
+;denari	15000
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
