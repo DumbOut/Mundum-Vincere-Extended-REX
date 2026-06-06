@@ -7988,9 +7988,12 @@ character	Philip, spy, age 20, , x 535, y 405
 traits GoodSpy 2
 
 ;	Assur
-character	Achaeus of Hippus, general, age 20, , x 521, y 429
+character	Achaeus of Hippus, named character, age 20, , x 521, y 429
 
 army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -7999,6 +8002,8 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 438, y 437
 
 army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -10002,7 +10007,7 @@ relative 	Mytonnes,		end
 
 
 faction	parthia, balanced genghis
-denari	3900
+denari	13900
 settlement
 {
 	level town
@@ -10104,6 +10109,8 @@ army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
@@ -10114,6 +10121,8 @@ traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 1 , GoodCavalr
 ancillaries galloper
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
@@ -10123,6 +10132,8 @@ traits PublicFaith 2 , GoodAdministrator 1
 ancillaries priest_of_Zoroastra
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
@@ -10136,17 +10147,16 @@ traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1
 ancillaries merchant
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 2
+unit		east horse archer				exp 0 armour 0 weapon_lvl 2
+unit		east horse archer				exp 0 armour 0 weapon_lvl 2
 unit		east peasant				exp 0 armour 0 weapon_lvl 0
 
-;	Caspian Sea
-character	Sherh, admiral, age 20, , x 619, y 514
-
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;	outside Barange
 character	Otanes, diplomat, age 20, , x 619, y 491
