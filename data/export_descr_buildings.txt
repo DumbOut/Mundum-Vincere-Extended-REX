@@ -82,7 +82,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, }
+				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
@@ -146,7 +146,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, }
+				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
@@ -210,7 +210,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, }
+				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
@@ -229,7 +229,7 @@ building core_building
                 imperial_palace
             }
         }
-        imperial_palace requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        imperial_palace requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
         {
             capability
             {
@@ -274,8 +274,9 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { numidia, }  and marian_reforms
 				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, }  and not marian_reforms 
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
-				recruit "east pontic general"  0  requires factions { pontus, }
+				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
+                recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
 				recruit "egyptian general's bodyguard early"  0  requires factions { egypt, }  and not marian_reforms 
 				recruit "egyptian general's bodyguard"  0  requires factions { egypt, }  and marian_reforms 
 				recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, massilia_01, macedon, seleucid, }  and not marian_reforms
@@ -339,7 +340,7 @@ building defenses
                 stone_wall
             }
         }
-        stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        stone_wall requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
         {
             capability
             {
@@ -359,7 +360,7 @@ building defenses
                 large_stone_wall
             }
         }
-        large_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        large_stone_wall requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
         {
             capability
             {
@@ -378,7 +379,7 @@ building defenses
                 epic_stone_wall
             }
         }
-        epic_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        epic_stone_wall requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
         {
             capability
             {
@@ -640,7 +641,7 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, dacia, gauls, germans, sciria_01, } 
+        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, }
         {
             capability
             {
@@ -773,7 +774,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, dacia, gauls, germans, sciria_01, } 
+        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, } 
         {
             capability
             {
@@ -1115,7 +1116,7 @@ building equestrian
                 circus_maximus
             }
         }
-        circus_maximus requires factions { carthage, parthia, macedon, seleucid, roman, } 
+        circus_maximus requires factions { carthaginian, parthia, macedon, seleucid, roman, greek, eastern, upper_chinese, egyptian, barbarian, } 
         {
             capability
             {
