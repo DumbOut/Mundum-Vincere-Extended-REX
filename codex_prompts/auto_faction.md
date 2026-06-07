@@ -23,11 +23,11 @@ faction: <FACTION_NAME>
 culture: <CULTURE_NAME>
 
 Example:
-faction:cisra_01
-culture: roman
+faction:caledonia_01
+culture: barbarian
 
-ONLY EGIONS TO OCCUPY:
-Cisra_R
+ONLY REGIONS TO OCCUPY:
+Eydin_R
 
 standard_index				38
 and symbol_slaves must be used
@@ -38,7 +38,7 @@ Specs:
 
 Make them a client kingdom of the SPQR and have the spqr not attack them
 
-Give them 2 speciifc temples 
+Give them 2 speciifc temples for local relevant mythical heroes/rulers/nobles or local deiites or cthonic gods
 
 Add temples 
 
@@ -177,7 +177,7 @@ UI FILES TO CREATE
 
 Unit Pool, don't include un-necessary units or unrelated 
 
-Greek/Eastern/Cretan mix
+Briton/Gallic mix
 
 Make an extremely detailed namelists and export to names.txt at the bottom foolow convention, 50 names for men, women, and surnames each (use  or accurate endonyms like id or idae for surnames that are eastern or greek)
 
@@ -198,7 +198,7 @@ small_logo_index
 
 replace these too
 
-Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 19 paragrpahs
+Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 22 paragrpahs
 
 Don't add ; loc notes in /text strings files
 
@@ -206,6 +206,6 @@ Don't add ; loc notes in /text strings files
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: cisra_01
-culture: roman
+faction: caledonia_01
+culture: barbarian
 -----------------------------------------

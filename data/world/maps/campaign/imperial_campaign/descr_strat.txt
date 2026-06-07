@@ -13137,7 +13137,7 @@ relative 	Hippokrates, 	Phainarete,		Thessalos,	Kallianeira,	end
 
 ;; cisra_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION CISRA	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CISRA	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	cisra_01, balanced smith
@@ -13149,7 +13149,7 @@ settlement
 	region Cisra_R
 
 	year_founded 0
-	population 1200
+	population 1300
 	plan_set default_set
 	faction_creator cisra_01
 	garrisoned_army
@@ -13166,7 +13166,7 @@ settlement
 }
 
 ;	Cisra
-character	Thefarie Caisranal, named character, leader, age 42, , x 216, y 481
+character	Thefarie Caisranalia, named character, leader, age 42, , x 216, y 481
 traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -13177,26 +13177,26 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Cisra
 character	Larth Spurinna, named character, heir, age 23, , x 217, y 481
-traits GoodCommander 1 , GoodAdministrator 1
+traits GoodCommander 2 , GoodAdministrator 1
 army
-unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman generals guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ;	Outside Cisra
 character	Velthur, diplomat, age 32, , x 219, y 480
-traits GoodDiplomat 1
+traits GoodDiplomat 3
 
 ;	Outside Cisra
 character	Arnth, spy, age 28, , x 215, y 482
 traits GoodSpy 1
 
-character_record		Thefarie Caisranal, 	male, command 2, influence 2, management 2, subterfuge 0, age 42, alive, never_a_leader
+character_record		Thefarie Caisranalia, 	male, command 2, influence 2, management 2, subterfuge 0, age 42, alive, never_a_leader
 character_record		Larth Spurinna, 	male, command 1, influence 1, management 1, subterfuge 0, age 23, alive, never_a_leader
 character_record		Ramtha, 	female, command 0, influence 1, management 1, subterfuge 0, age 39, alive, never_a_leader
 character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 17, alive, never_a_leader
 
-relative 	Thefarie Caisranal, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
+relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
