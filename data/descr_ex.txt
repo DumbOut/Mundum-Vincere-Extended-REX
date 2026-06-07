@@ -151,13 +151,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 127
+max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
-old_age 60
+old_age 150
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 120
+max_age 150
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
