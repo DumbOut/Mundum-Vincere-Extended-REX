@@ -484,11 +484,11 @@ prefers_naval_invasions		no
 faction						itanos_01
 culture						greek
 symbol						models_strat/symbol_greek_rebel.CAS
-rebel_symbol				models_strat/symbol_greek_rebel.CAS
-primary_colour				red 157, green 141, blue 0
-secondary_colour			red 36, green 56, blue 1
+rebel_symbol				models_strat/symbol_greek_rebel.CAS 
+primary_colour				red 36, green 56, blue 1
+secondary_colour			red 157, green 141, blue 0
 loading_logo				loading_screen/symbols/symbol128_itanos_01.tga
-standard_index				15
+standard_index				38
 logo_index					FACTION_LOGO_ITANOS_01
 small_logo_index			SMALL_FACTION_LOGO_ITANOS_01
 triumph_value				5
