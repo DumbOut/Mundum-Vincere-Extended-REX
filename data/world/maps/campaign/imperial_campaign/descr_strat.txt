@@ -24,11 +24,12 @@ playable
 	sciria_01
 	massilia_01
 	qin_01
+	mauryans
+	itanos_01
 end
 unlockable
 end
 nonplayable
-	mauryans
 	slave
 ;	caledonians_01
 ;	voluntii_01
@@ -49,7 +50,7 @@ end_date	1180 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 42
+brigand_spawn_value 45
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4603,29 +4604,6 @@ settlement
 settlement
 {
 	level town
-	region Itanos_R
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
 	region Mytilene_R
 
 	year_founded 0
@@ -5015,19 +4993,6 @@ unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 
-;	Itanos Harbor
-character	Wah, admiral, age 29, , x 356, y 407
-
-army
-unit		naval biremes				exp 2 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 
-
-
 ;	Alexandria
 character	Nakhti, diplomat, age 20, , x 397, y 360
 traits GoodDiplomat 2
@@ -5044,13 +5009,6 @@ army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
-;	Itanos
-character	Minmose, general, age 20, , x 357, y 407
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Ptolemais Theron
@@ -13057,6 +13015,66 @@ relative 	Kleomenes of Sparta, 	Clymene,		Dionysios of Sparta,	Antigonos of Spar
 relative 	Dionysios of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
 relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
+
+
+; Itanos
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION ITANOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	itanos_01, balanced smith
+denari	7000
+settlement
+{
+	level town
+	region Itanos_R
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator itanos_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+;	Itanos
+character	Itanios, named character, leader, age 40, , x 357, y 366
+traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 1
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Itanos
+character	Etearchos, named character, heir, age 20, , x 355, y 366
+traits GoodCommander 1 , GoodAdministrator 1
+army
+unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Itanos
+character	Diktys, spy, age 28, , x 357, y 367
+traits GoodSpy 1
+
+character_record		Itanios, 	male, command 2, influence 1, management 1, subterfuge 0, age 46, alive, never_a_leader
+character_record		Etearchos, 	male, command 1, influence 1, management 1, subterfuge 0, age 24, alive, never_a_leader
+character_record		Praisia, 	female, command 0, influence 0, management 0, subterfuge 0, age 44, alive, never_a_leader
+
+relative 	Itanios, 	Praisia,		Etearchos,	end
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

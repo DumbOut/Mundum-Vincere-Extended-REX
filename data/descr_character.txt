@@ -157,6 +157,13 @@ strat_model		sm_greek_general
 battle_model	greek_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+; Itanos
+faction			itanos_01
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			numidia
 dictionary		2
 strat_model		sm_carthage_general
@@ -333,6 +340,14 @@ strat_model		sm_greek_lesser_general
 battle_model	greek_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+; Itanos
+faction			itanos_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			numidia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
@@ -480,6 +495,12 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+; Itanos
+faction			itanos_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			numidia
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -613,6 +634,12 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+; Itanos
+faction			itanos_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 faction			numidia
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -742,6 +769,12 @@ strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
 faction			massilia_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+; Itanos
+faction			itanos_01
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
@@ -904,6 +937,12 @@ strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
 
 faction			massilia_01
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
+; Itanos
+faction			itanos_01
 dictionary		2
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral

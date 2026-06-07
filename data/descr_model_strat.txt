@@ -93,8 +93,10 @@ texture				numidia, data/models_strat/textures/diplomat_numidia.tga
 texture				scythia, data/models_strat/textures/diplomat_scythia.tga
 texture				spain, data/models_strat/textures/diplomat_spain.tga
 texture				thrace, data/models_strat/textures/diplomat_thrace.tga
-texture				slave, data/models_strat/textures/diplomat_slave.tga
+texture				default, data/models_strat/textures/diplomat_slave.tga
 texture				massilia_01, data/models_strat/textures/diplomat_slave.tga
+; Itanos
+texture				itanos_01, data/models_strat/textures/diplomat_slave.tga
 model_flexi_m		data/models_strat/diplomat.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_diplomat.cas, max
 
@@ -134,6 +136,8 @@ texture				scythia, data/models_strat/textures/spy_scythia.tga
 texture				spain, data/models_strat/textures/spy_spain.tga
 texture				thrace, data/models_strat/textures/spy_thrace.tga
 texture				massilia_01, data/models_strat/textures/spy_slave.tga
+; Itanos
+texture				itanos_01, data/models_strat/textures/spy_slave.tga
 texture				qin_01, mve_rex/data/models_strat/textures/BI_strat_spy_qin_01.tga
 texture				slave, data/models_strat/textures/spy_slave.tga
 model_flexi_m		data/models_strat/spy.cas, max
@@ -169,6 +173,8 @@ texture				spain, data/models_strat/textures/assassin_spain.tga
 texture				thrace, data/models_strat/textures/assassin_thrace.tga
 texture				slave, data/models_strat/textures/assassin_slave.tga
 texture				massilia_01, data/models_strat/textures/assassin_slave.tga
+; Itanos
+texture				itanos_01, data/models_strat/textures/assassin_slave.tga
 texture				qin_01, data/models_strat/textures/assassin_slave.tga
 model_flexi			data/models_strat/assassin.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
@@ -323,6 +329,8 @@ texture				seleucid, data/models_unit/textures/officer_greek_general_seleucid.tg
 texture				greek_cities, data/models_unit/textures/officer_greek_general_greece.tga
 texture				thrace, data/models_unit/textures/officer_greek_general_thrace.tga
 texture				massilia_01, mve_rex/data/models_unit/textures/officer_greek_general_massilia_01.tga
+; Itanos
+texture				itanos_01, data/models_unit/textures/officer_greek_general_greece.tga
 model_flexi_m		data/models_unit/officer_greek_general_high.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -335,6 +343,8 @@ texture				seleucid, data/models_unit/textures/unit_greek_militia_hoplite_seleuc
 texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
 texture				massilia_01, mve_rex/data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
+; Itanos
+texture				itanos_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
 model_flexi_m		data/models_strat/strat_greek_lesser_general.CAS, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -544,6 +554,8 @@ texture				slave, data/models_strat/textures/navy_slave.tga
 texture				massilia_01, data/models_strat/textures/navy_slave.tga
 texture				mauryans, data/models_strat/textures/navy_slave.tga
 texture             sciria_01, data/models_strat/textures/navy_slave.tga
+; Itanos
+texture				itanos_01, data/models_strat/textures/navy_slave.tga
 model_flexi			data/models_strat/navy_roman.cas, max
 shadow_model_flexi	data/models_strat/navy_roman_shadow.cas, max
 

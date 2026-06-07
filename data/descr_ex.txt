@@ -107,11 +107,11 @@ unlimited_superfactions_enable true
 
 ; Naval blockade trade-route raiding.
 naval_trade_route_raiding_enable true
-naval_trade_route_raiding_income_percent 50.0
+naval_trade_route_raiding_income_percent 10.0
 
 ; Settlement UI/display increments.
-population_growth_increment 0.1
-income_growth_increment 0.04
+population_growth_increment 0.09
+income_growth_increment 2.1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
