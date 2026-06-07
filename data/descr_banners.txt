@@ -179,12 +179,12 @@ rebels_texture		models/textures/standard_greek_rebels.tga
 routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_greek_rebels.tga
 
-;; kos_01
+;; Kos
 faction				kos_01
-standard_texture	models/textures/standard_kos_01.tga
-rebels_texture		models/textures/standard_slave.tga
+standard_texture	models/textures/standard_greek_rebels.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
 routing_texture		models/textures/standard_routing.tga
-ally_texture		models/textures/standard_kos_01_ally.tga
+ally_texture		models/textures/standard_greek_rebels.tga
 
 faction				numidia
 standard_texture	models/textures/standard_numidia.tga
