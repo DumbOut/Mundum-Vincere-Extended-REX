@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 512.0
+camera_max_height 2048.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -119,7 +119,7 @@ naval_trade_route_raiding_income_percent 50.0
 
 ; Settlement UI/display increments.
 population_growth_increment 0.1
-income_growth_increment 2.0
+income_growth_increment 6.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
