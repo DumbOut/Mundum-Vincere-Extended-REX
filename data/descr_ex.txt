@@ -72,7 +72,7 @@ free_upkeep_cheap_first true
 ; 0 = full AI, 1 = skip AI movement controllers, 2 = full AI with instant movement/conquest.
 ; Level 2 keeps AI conquest/movement logic but skips visual waiting and uses fast economy caches
 ; for very large REX campaigns.
-fast_ai_end_turn_level 2
+fast_ai_end_turn_level 0
 
 ; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
 fast_ai_end_turn_keep_diplomacy true
@@ -86,11 +86,11 @@ fast_ai_end_turn_fast_economy true
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
 ; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 64
+fast_ai_end_turn_diplomacy_candidate_limit 4
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
 ; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 24
+fast_ai_end_turn_confederation_candidate_limit 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles

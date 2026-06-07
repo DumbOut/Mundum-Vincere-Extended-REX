@@ -23,11 +23,16 @@ faction: <FACTION_NAME>
 culture: <CULTURE_NAME>
 
 Example:
-faction: itanos_01
+faction:kos_01
 culture: greek
 
 REGIONS TO OCCUPY:
-Itanos_R
+Kos_R
+
+standard_index				38
+and symbol_slaves must be used
+
+try ujsing pre-existing settlement coordinates as a basis
 
 -----------------------------------------
 GLOBAL RULES FOR ALL FILE EDITS
@@ -160,7 +165,7 @@ UI FILES TO CREATE
 
 Unit Pool, don't include un-necessary units or unrelated 
 
-Greek/Cretan/Egyptian mix
+Greek/Eastern/Cretan mix
 
 Make an extremely detailed namelists and export to names.txt at the bottom foolow convention
 
@@ -181,10 +186,10 @@ small_logo_index
 
 replace these too
 
-Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 11 paragrpahs
+Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 12 paragrpahs
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: itanos_01
+faction: kos_01
 culture: greek
 -----------------------------------------

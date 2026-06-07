@@ -127,6 +127,9 @@
 {SMT_SEA_DEEP}					Deep sea
 {SMT_SEA_SHALLOW}				Shallow sea
 {SMT_BEACH}					Coast
+{SMT_IMPASSABLE_LAND}	Impassable
+{SMT_IMPASSABLE_SEA}	Impassable
+{SMT_IMPASSABLE_SHROUDED}	Impassable
 {SMT_FAMINE_THREAT_OK}				None
 {SMT_FAMINE_THREAT_HUNGRY}			Hungry
 {SMT_FAMINE_THREAT_FAMINE_1}			Minor famine
@@ -300,6 +303,11 @@
 {SMT_DIPLOMACY_OFFER_MAP_INFORMATION}				Map information
 {SMT_DIPLOMACY_OFFER_BRIBE}					Bribe
 {SMT_DIPLOMACY_OFFER_PROTECTORATE}				Become Protectorate
+{SMT_DIPLOMACY_OFFER_CONFEDERATE}				Confederate
+{SMT_DIPLOMACY_OFFER_UNCONFEDERATE}				Dissolve
+{SMT_DIPLOMACY_CONFEDERATED}					Confederated
+{SMT_DIPLOMACY_NOT_CONFEDERATED}				No Confederation
+{SMT_DIPLOMACY_CONFEDERATION_STATUS}			Confederation
 {SMT_MAKE_OFFER}						Make offer
 {SMT_MAKE_DEMAND}						Make demand
 {SMT_YOUR_DEMANDS}						Your demands
@@ -680,6 +688,9 @@
 {SMT_LOOT_SETTLEMENT}						Occupy Settlement
 {SMT_ENSLAVE_POPULACE}						Enslave Populace
 {SMT_EXTERMINATE}						Exterminate Populace
+{SMT_EX_SACK_LEAVE_REBEL}					Sack and Leave
+{SMT_EX_SACK_RETURN_SETTLEMENT}				Sack and Return
+{SMT_EX_SACK_GIVE_SETTLEMENT}				Grant to Faction
 {SMT_SETTLEMENT_LOOT_BODY_STRING}				This settlement has fallen to the might of your army. Victory is yours and the fate of the settlement lies in your hands!
 {SMT_BUILDINGS_NEEDING_REPAIR}					Buildings Needing Repair
 {SMT_SHOW_NEW_BUILDINGS}					Show constructable buildings
@@ -1047,20 +1058,52 @@
 {SMT_CAPABILITY_WEAPON_MISSILE}			Upgrades missile weapons:
 {SMT_CAPABILITY_WEAPON_BLADED}			Upgrades bladed weapons:
 {SMT_CAPABILITY_WEAPON_SIEGE}				Upgrades siege weapons:
-{SMT_CAPABILITY_WEAPON_OTHER}				<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_WEAPON_OTHER}				Upgrades other weapons:
 {SMT_CAPABILITY_BODYGUARD}				Improved generals' bodyguards
 {SMT_CAPABILITY_RECRUITS_MORALE_BONUS}		Morale bonus to troops trained here:
 {SMT_CAPABILITY_RECRUITS_EXPERIENCE_BONUS}	Experience bonus to troops trained here:
 {SMT_CAPABILITY_HAPPINESS_BONUS}			Public order bonus due to happiness:
 {SMT_CAPABILITY_LAW_BONUS}				Public order bonus due to law:
-{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	<< THIS TEXT SHOULDN'T BE DISPLAYED >>
-{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		<< THIS TEXT SHOULDN'T BE DISPLAYED >>
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_MILITARY}	Military building construction cost reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_RELIGIOUS}	Religious building construction cost reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_DEFENSIVE}	Defensive building construction cost reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_COST_BONUS_OTHER}		Building construction cost reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_MILITARY}	Military building construction time reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_RELIGIOUS}	Religious building construction time reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_DEFENSIVE}	Defensive building construction time reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS_OTHER}		Building construction time reduced by:
+{SMT_CAPABILITY_POPULATION_SQUALOR_BONUS}	Squalor:
+{SMT_CAPABILITY_POPULATION_UNREST_BONUS}	Public unrest:
+{SMT_CAPABILITY_RELIGIOUS_UNREST_BONUS}	Religious unrest:
+{SMT_CAPABILITY_CORRUPTION_BONUS}	Corruption reduced by:
+{SMT_CAPABILITY_TRAINING_UNITS_BONUS}	Unit recruitment cost reduced by:
+{SMT_CAPABILITY_TRAINING_AGENTS_BONUS}	Agent recruitment cost reduced by:
+{SMT_CAPABILITY_DISTANCE_CAPITAL_BONUS}	Distance to capital reduced by:
+{SMT_CAPABILITY_FARM_INCOME_BONUS}	Farming income:
+{SMT_CAPABILITY_ORDER_BONUS_FINE}	Public order:
+{SMT_CAPABILITY_POPULATION_GROWTH_BONUS_FINE}	Population growth:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_CAVALRY}	Cavalry recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_HEAVY_INFANTRY}	Heavy infantry recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_LIGHT_INFANTRY}	Light infantry recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_MISSILE}	Missile troop recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_ARTILLERY}	Artillery recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_ANIMAL}	Animal unit recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITS_COST_BONUS_NAVAL}	Naval recruitment cost reduced by:
+{SMT_CAPABILITY_RECRUITMENT_SLOTS}	Additional recruitment slots:
+{SMT_CAPABILITY_CONSTRUCTION_TIME_BONUS}	Building construction time reduced by:
+{SMT_CAPABILITY_CONSTRUCTION_TURN_REDUCTION}	Building construction time reduced by (turns):
+{SMT_CAPABILITY_CONSTRUCTION_TURN_REDUCTION_MILITARY}	Military building construction time reduced by (turns):
+{SMT_CAPABILITY_CONSTRUCTION_TURN_REDUCTION_RELIGIOUS}	Religious building construction time reduced by (turns):
+{SMT_CAPABILITY_CONSTRUCTION_TURN_REDUCTION_DEFENSIVE}	Defensive building construction time reduced by (turns):
+{SMT_CAPABILITY_CONSTRUCTION_TURN_REDUCTION_OTHER}	Building construction time reduced by (turns):
+{SMT_CAPABILITY_FREE_UPKEEP}	Free upkeep for units:
+{SMT_CAPABILITY_FREE_UPKEEP_INFANTRY}	Free upkeep for infantry units:
+{SMT_CAPABILITY_FREE_UPKEEP_CAVALRY}	Free upkeep for cavalry units:
+{SMT_CAPABILITY_FREE_UPKEEP_SIEGE}	Free upkeep for siege units:
+{SMT_CAPABILITY_TRADING_INCOME_BONUS}	Trade income:
+{SMT_CAPABILITY_MINE_INCOME_BONUS}	Mining income:
+{SMT_CAPABILITY_FREE_UPKEEP_ANIMAL}	Free upkeep for animal units:
+{SMT_CAPABILITY_PUBLIC_SECURITY_BONUS}	Resistance to enemy spies and assassins:
 {SMT_CAPS_LOC_TRAINS}						Enables training of:
 {SMT_CAPS_LOC_RECRUITS}						Enables recruitment of:
 {SMT_CAPS_LOC_PROVIDES}						Provides:
@@ -1861,3 +1904,9 @@
 {SMT_DOMINATION_VICTORY}  Your Empire now stretches from sunrise to sunset, from the icy wastes to the scorching deserts! There is nothing left for you to prove, now that you are Master of All!
 {SMT_WEAPON_SHIELD_PIERCING}					Uses shield piercing weaponry
 {SMT_FACTIONWIDE_REQUIREMENT_SUFFIX} (factionwide)
+{SMT_DIP_PROPOSAL_BALANCE}Proposal Balance:
+{SMT_DIP_BALANCE_VERY_DEMANDING}Very Demanding
+{SMT_DIP_BALANCE_DEMANDING}Demanding
+{SMT_DIP_BALANCE_BALANCED}Balanced
+{SMT_DIP_BALANCE_GENEROUS}Generous
+{SMT_DIP_BALANCE_VERY_GENEROUS}Very Generous

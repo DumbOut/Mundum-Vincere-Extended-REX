@@ -26,6 +26,7 @@ playable
 	qin_01
 	mauryans
 	itanos_01
+	kos_01
 end
 unlockable
 end
@@ -13077,6 +13078,66 @@ character_record		Praisia, 	female, command 0, influence 0, management 0, subter
 relative 	Itanios, 	Praisia,		Etearchos,	end
 
 
+;; kos_01
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION KOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	kos_01, balanced smith
+denari	7000
+settlement
+{
+	level town
+	region Kos_R
+
+	year_founded 0
+	population 450
+	plan_set default_set
+	faction_creator kos_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+;	Kos
+character	Hippokrates, named character, leader, age 44, , x 364, y 427
+traits GoodCommander 1 , Intelligent 2 , GoodAdministrator 2
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+
+;	Kos
+character	Thessalos, named character, heir, age 22, , x 367, y 426
+traits GoodCommander 1 , GoodAdministrator 1
+army
+unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Kos
+character	Nikarchos, diplomat, age 31, , x 371, y 419
+traits GoodDiplomat 1
+
+;	Outside Kos
+character	Praxagoras, spy, age 28, , x 366, y 430
+traits GoodSpy 1
+
+character_record		Hippokrates, 	male, command 2, influence 3, management 3, subterfuge 0, age 44, alive, never_a_leader
+character_record		Thessalos, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
+character_record		Phainarete, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+character_record		Kallianeira, 	female, command 0, influence 0, management 0, subterfuge 0, age 17, alive, never_a_leader
+
+relative 	Hippokrates, 	Phainarete,		Thessalos,	Kallianeira,	end
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15098,21 +15159,6 @@ settlement
 {
 	level town
 	region Melos_R
-
-	year_founded 0
-	population 450
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Kos_R
 
 	year_founded 0
 	population 450
@@ -41510,15 +41556,6 @@ army
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
-
-;	Kos
-character,	sub_faction greek_cities, Milon, general, age 33, , x 364, y 427
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc greek hoplites				exp 1 armour 0 weapon_lvl 0
-unit		merc greek hoplites				exp 1 armour 0 weapon_lvl 0
 
 ;	Thurii
 character,	sub_faction greek_cities, Milon, general, age 20, , x 258, y 455

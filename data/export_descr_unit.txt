@@ -2729,7 +2729,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 120, 100, 20, 20, 120
-ownership        parthia, pontus, armenia, slave
+ownership        parthia, pontus, armenia, slave, kos_01
 
 type             east peltast
 dictionary       east_peltast      ; Peltasts
@@ -2802,7 +2802,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        parthia, pontus, armenia, slave
+ownership        parthia, pontus, armenia, slave, kos_01
 
 type             east hillmen
 dictionary       east_hillmen      ; Hillmen
@@ -2850,7 +2850,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 150, 40, 50, 330
-ownership        parthia, pontus, armenia, seleucid, slave
+ownership        parthia, pontus, armenia, seleucid, slave, kos_01
 
 type             east heavy infantry
 dictionary       east_heavy_infantry      ; Heavy Spearmen
@@ -3840,7 +3840,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 100, 100, 20, 30, 100
-ownership        greek, slave, itanos_01
+ownership        greek, slave, itanos_01, kos_01
 
 type             greek peltast
 dictionary       greek_peltast      ; Peltasts
@@ -3865,7 +3865,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        greek, slave, itanos_01
+ownership        greek, slave, itanos_01, kos_01
 
 type             greek archer
 dictionary       greek_archer      ; Archers
@@ -3914,7 +3914,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 350, 170, 40, 60, 350
-ownership        greek_cities, slave
+ownership        greek_cities, slave, kos_01
 
 type             greek hoplite militia
 dictionary       greek_hoplite_militia      ; Militia Hoplites
@@ -3938,7 +3938,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 230, 100, 30, 40, 230
-ownership        greek, slave, itanos_01
+ownership        greek, slave, itanos_01, kos_01
 
 type             greek hoplite
 dictionary       greek_hoplite      ; Hoplites
@@ -3962,7 +3962,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 170, 50, 70, 440
-ownership        greek_cities, massilia_01, slave
+ownership        greek_cities, massilia_01, slave, kos_01
 
 type             greek hoplite elite
 dictionary       greek_hoplite_elite      ; Armoured Hoplites
@@ -4210,7 +4210,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 340, 110, 40, 60, 340
-ownership        greek_cities, itanos_01, seleucid, thrace, slave
+ownership        greek_cities, itanos_01, seleucid, thrace, slave, kos_01
 
 type             greek medium cavalry
 dictionary       greek_medium_cavalry      ; Greek Cavalry
@@ -4236,7 +4236,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 120, 40, 50, 330
-ownership        greek, slave, itanos_01
+ownership        greek, slave, itanos_01, kos_01
 
 type             greek heavy cavalry
 dictionary       greek_heavy_cavalry      ; Macedonian Cavalry
@@ -4314,7 +4314,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 690, 130, 70, 110, 690
-ownership        greek_cities, itanos_01, seleucid, macedon, slave, massilia_01
+ownership        greek_cities, itanos_01, seleucid, macedon, slave, massilia_01, kos_01
 
 type             greek general's guard cavalry
 dictionary       greek_generals_guard_cavalry      ; General's Armoured Bodyguard
@@ -6201,7 +6201,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 100, 70, 100, 660
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
 
 type             naval triremes
 dictionary       naval_trireme      ; Trireme
@@ -6226,7 +6226,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 760, 150, 100, 150, 960
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
 
 type             naval quinquiremes
 dictionary       naval_quinquireme      ; Quinquireme
@@ -6251,7 +6251,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1150, 250, 170, 250, 1650
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
 
 type             naval corvus quinquireme
 dictionary       naval_corvus      ; Corvus Quinquireme
