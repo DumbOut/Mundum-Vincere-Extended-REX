@@ -9,7 +9,7 @@ The faction uses existing slave/vanilla units but has its own which you will cre
 - UI icon text
 - menu select icons
 - faction metadata
-- names (optional)
+- names
 - descr_strat entry
 - region ownership (faction creator)
 - units_info + units folder using SLAVE unit cards
@@ -26,7 +26,7 @@ Example:
 faction:kos_01
 culture: greek
 
-REGIONS TO OCCUPY:
+ONLY EGIONS TO OCCUPY:
 Kos_R
 
 standard_index				38
@@ -139,10 +139,12 @@ FILES TO EDIT (WORLD/BASE FOLDER)
 - Add random faction name + family tree.
 - Add starting characters.
 - Add starting army using existing units.
-- Add region ownership for Itanos_R.
-- Use coordinates found by:
+
+EXAMPLE:
+- Add region ownership for XYZ_R.
+- like Use coordinates found by:
   - Inverting map_regions.tga vertically
-  - Reading pixel location of Itanos_R region color
+  - Reading pixel location of XYZ_R region color
   - Finding the black settlement pixel (0,0,0)
   - Converting to descr_strat coordinates
 
@@ -167,7 +169,7 @@ Unit Pool, don't include un-necessary units or unrelated
 
 Greek/Eastern/Cretan mix
 
-Make an extremely detailed namelists and export to names.txt at the bottom foolow convention
+Make an extremely detailed namelists and export to names.txt at the bottom foolow convention, 50 names for men, women, and surnames each (use  or accurate endonyms like id or idae for surnames that are eastern or greek)
 
 Also for descr_strat make a correct family tree and follow convention already
 
@@ -186,7 +188,13 @@ small_logo_index
 
 replace these too
 
-Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 12 paragrpahs
+Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 19 paragrpahs
+
+Don't add ; loc notes in /text strings files
+
+Add temples 
+
+export_descr_buildings
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
