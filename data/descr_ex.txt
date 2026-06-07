@@ -72,7 +72,7 @@ free_upkeep_cheap_first true
 ; 0 = full AI, 1 = skip AI movement controllers, 2 = diplomacy/confederation only.
 ; Level 2 is intended for very large REX campaigns where total end-turn time matters more than
 ; per-faction movement planning.
-fast_ai_end_turn_level 2
+fast_ai_end_turn_level 0
 
 ; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
 fast_ai_end_turn_keep_diplomacy true
@@ -111,7 +111,7 @@ naval_trade_route_raiding_income_percent 50.0
 
 ; Settlement UI/display increments.
 population_growth_increment 0.1
-income_growth_increment 0.05
+income_growth_increment 0.04
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
