@@ -17,16 +17,16 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 1024
+max_factions 2048
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 22
+superfaction_min_regions 28
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
-camera_min_height 0.005
+camera_min_height 0.1
 camera_max_height 1024.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -52,7 +52,7 @@ minimum_load_time 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight false
+easy_nightfight true
 
 ; Limit each general to building/removing one watchtower per turn (default false)
 one_watchtower_per_general_per_turn false
@@ -63,7 +63,55 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first false
+free_upkeep_cheap_first true
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; AI end-turn speed
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; 0 = full AI, 1 = skip AI movement controllers, 2 = diplomacy/confederation only.
+; Level 2 is intended for very large REX campaigns where total end-turn time matters more than
+; per-faction movement planning.
+fast_ai_end_turn_level 2
+
+; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
+fast_ai_end_turn_keep_diplomacy true
+
+; Force AI campaign movement animations through the existing fast-forward path.
+fast_ai_end_turn_skip_animations false
+
+; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
+; every AI settlement's projected finance report during the yearly pass.
+fast_ai_end_turn_fast_economy true
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; EX feature toggles
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; All options here are vanilla-safe. Set false to disable the runtime feature.
+; Parser-only data extensions stay off unless their tokens are used in EDU/EDB.
+
+; Campaign faction-selection menu.
+faction_select_interactive_map_enable false
+faction_select_scrollbar_enable true
+hide_ui_hotkey_enable true
+
+; Diplomacy.
+confederate_diplomacy_enable true
+dynastic_princess_enable true
+
+; Campaign mechanics.
+neutral_common_enemy_battles_enable true
+secondary_sack_options_enable true
+unlimited_superfactions_enable true
+
+; Naval blockade trade-route raiding.
+naval_trade_route_raiding_enable true
+naval_trade_route_raiding_income_percent 50.0
+
+; Settlement UI/display increments.
+population_growth_increment 0.1
+income_growth_increment 2.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -85,6 +133,9 @@ bribe_cost_settlement 1.0
 ; Horde
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+; Master toggle for BI-style horde mechanics in vanilla Rome data (default true)
+horde_enable true
+
 ; Initial XP for horde units (0-9, default 0)
 horde_initial_xp 0
 
@@ -100,13 +151,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 150
+max_age_before_death 127
 
 ; Age the random old-age death check begins (default 60)
-old_age 80
+old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 150
+max_age 120
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -121,7 +172,7 @@ daughters_age_of_consent 12
 daughters_retirement_age 60
 
 ; Oldest age a man / woman is matched for marriage (defaults 75 / 50)
-max_age_for_marriage_for_male 80
+max_age_for_marriage_for_male 75
 max_age_for_marriage_for_female 50
 
 ; Spouse age difference range, husband minus wife (defaults -10 to 30)
@@ -132,13 +183,14 @@ age_difference_max 30
 parent_to_child_min_age_diff 12
 
 ; Adoptable age range (defaults 20 to 30)
-min_adoption_age 16
+min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 100
+max_age_for_conception 50
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 512
+max_num_ancillaries 84
 
 ; Max children a character can have (default 4)
+max_num_children 400

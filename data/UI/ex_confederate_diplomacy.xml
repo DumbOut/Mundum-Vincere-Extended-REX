@@ -1,0 +1,44 @@
+<DiplomacyUI name="ex_confederate_diplomacy" version="1">
+    <Panel name="ex_confederate_actions_panel" attach_to="diplomacy_scroll" style="ex_confederate_action_panel">
+        <Button
+            name="btn_ex_confederate"
+            x="420"
+            y="180"
+            width="128"
+            height="32"
+            style="ex_confederate_action_button"
+            tooltip="tooltip_ex_confederate_action"
+            on_click="action_ex_confederate"
+            offer_type="DIPLOMACY_OFFER_CONFEDERATE"
+            enabled_rule="can_faction_a_confederate_with_faction_b">
+            <Text id="ex_confederate_button_text" value="Confederate" />
+        </Button>
+
+        <Button
+            name="btn_ex_unconfederate"
+            x="420"
+            y="220"
+            width="128"
+            height="32"
+            style="ex_confederate_action_button_secondary"
+            tooltip="tooltip_ex_unconfederate_action"
+            on_click="action_ex_unconfederate"
+            offer_type="DIPLOMACY_OFFER_UNCONFEDERATE"
+            enabled_rule="can_faction_a_unconfederate_with_faction_b">
+            <Text id="ex_unconfederate_button_text" value="Dissolve" />
+        </Button>
+    </Panel>
+
+    <Panel name="ex_confederate_status_panel" attach_to="diplomacy_header" style="ex_confederate_status_panel">
+        <Panel name="ex_confederation_status" bind="are_factions_confederated">
+            <Text
+                id="ex_confederation_status_text"
+                x="320"
+                y="142"
+                value_false=""
+                value_true="Confederated"
+                style="ex_confederate_status_text"
+                tooltip="tooltip_ex_confederation_status" />
+        </Panel>
+    </Panel>
+</DiplomacyUI>

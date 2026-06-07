@@ -1,0 +1,147 @@
+<EventWindows name="ex_confederate_events" version="1">
+    <EventWindow name="event_ex_confederation_proposal" event="ex_confederation_proposal">
+        <Image
+            id="ex_confederation_proposal_background"
+            path="data/ui/events/ex_confederate/ex_confederation_proposal.tga"
+            x="0"
+            y="0"
+            width="512"
+            height="384" />
+        <Text
+            id="ex_confederation_proposal_title"
+            x="40"
+            y="40"
+            value="Confederation"
+            style="event_title_text" />
+        <Text
+            id="ex_confederation_proposal_body"
+            x="40"
+            y="80"
+            width="432"
+            height="200"
+            value="%FACTION_NAME% offers confederation."
+            style="event_body_text" />
+        <Button
+            name="btn_ex_confederation_accept"
+            x="120"
+            y="300"
+            width="120"
+            height="32"
+            style="event_button_primary"
+            on_click="event_ex_confederation_accept">
+            <Text value="Accept" />
+        </Button>
+        <Button
+            name="btn_ex_confederation_decline"
+            x="272"
+            y="300"
+            width="120"
+            height="32"
+            style="event_button_secondary"
+            on_click="event_ex_confederation_decline">
+            <Text value="Decline" />
+        </Button>
+    </EventWindow>
+
+    <EventWindow name="event_ex_confederation_accepted" event="ex_confederation_accepted">
+        <Image
+            id="ex_confederation_accepted_background"
+            path="data/ui/events/ex_confederate/ex_confederation_accepted.tga"
+            x="0"
+            y="0"
+            width="512"
+            height="384" />
+        <Text
+            id="ex_confederation_accepted_title"
+            x="40"
+            y="40"
+            value="Confederation"
+            style="event_title_text" />
+        <Text
+            id="ex_confederation_accepted_body"
+            x="40"
+            y="80"
+            width="432"
+            height="200"
+            value="Confederation with %FACTION_NAME% is agreed."
+            style="event_body_text" />
+        <Button
+            name="btn_ex_confederation_ok"
+            x="196"
+            y="300"
+            width="120"
+            height="32"
+            style="event_button_primary"
+            on_click="event_ex_confederation_ok">
+            <Text value="OK" />
+        </Button>
+    </EventWindow>
+
+    <EventWindow name="event_ex_confederation_rejected" event="ex_confederation_rejected">
+        <Image
+            id="ex_confederation_rejected_background"
+            path="data/ui/events/ex_confederate/ex_confederation_rejected.tga"
+            x="0"
+            y="0"
+            width="512"
+            height="384" />
+        <Text
+            id="ex_confederation_rejected_title"
+            x="40"
+            y="40"
+            value="Confederation"
+            style="event_title_text" />
+        <Text
+            id="ex_confederation_rejected_body"
+            x="40"
+            y="80"
+            width="432"
+            height="200"
+            value="%FACTION_NAME% refuses confederation."
+            style="event_body_text" />
+        <Button
+            name="btn_ex_confederation_rejected_ok"
+            x="196"
+            y="300"
+            width="120"
+            height="32"
+            style="event_button_primary"
+            on_click="event_ex_confederation_ok">
+            <Text value="OK" />
+        </Button>
+    </EventWindow>
+
+    <EventWindow name="event_ex_unconfederation" event="ex_unconfederation">
+        <Image
+            id="ex_unconfederation_background"
+            path="data/ui/events/ex_confederate/ex_unconfederation.tga"
+            x="0"
+            y="0"
+            width="512"
+            height="384" />
+        <Text
+            id="ex_unconfederation_title"
+            x="40"
+            y="40"
+            value="Confederation"
+            style="event_title_text" />
+        <Text
+            id="ex_unconfederation_body"
+            x="40"
+            y="80"
+            width="432"
+            height="200"
+            value="Confederation with %FACTION_NAME% is dissolved."
+            style="event_body_text" />
+        <Button
+            name="btn_ex_unconfederation_ok"
+            x="196"
+            y="300"
+            width="120"
+            height="32"
+            style="event_button_primary"
+            on_click="event_ex_unconfederation_ok">
+            <Text value="OK" />
+        </Button>
+    </EventWindow>
+</EventWindows>

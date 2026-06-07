@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campaign_ai_extensions>
+    <confederate_conditions>
+        <culture_compatibility source="descr_ex_confederate_dip.txt" />
+        <minimum_turns source="descr_ex_confederate_dip.txt" />
+        <cooldowns source="descr_ex_confederate_dip.txt" />
+    </confederate_conditions>
+    <confederate_desire>
+        <strength_ratio source="descr_ex_confederate_dip.txt" />
+        <economic_stability source="descr_ex_confederate_dip.txt" />
+        <external_threats enabled="true" />
+        <internal_rebellion_risk enabled="true" />
+        <ai_weight source="descr_ex_confederate_dip.txt" />
+    </confederate_desire>
+    <confederate_acceptance>
+        <diplomatic_attitude source="descr_ex_confederate_dip.txt" />
+        <mode source="descr_ex_confederate_dip.txt" />
+        <ai_threshold source="descr_ex_confederate_dip.txt" />
+    </confederate_acceptance>
+    <confederate_maintenance>
+        <locked_war enabled="true" />
+        <shared_vision source="descr_ex_confederate_dip.txt" />
+        <military_access source="descr_ex_confederate_dip.txt" />
+    </confederate_maintenance>
+    <unconfederate_desire>
+        <cooldown source="descr_ex_confederate_dip.txt" />
+        <relations_collapse source="descr_ex_confederate_dip.txt" />
+        <scripted_conditions source="descr_ex_confederate_dip.txt" />
+    </unconfederate_desire>
+</campaign_ai_extensions>

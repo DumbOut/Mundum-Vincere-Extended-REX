@@ -1,0 +1,21 @@
+<ButtonStyles name="ex_confederate_buttons" version="1">
+    <Style name="ex_confederate_action_button" base="text_button">
+        <Background state="normal" sprite="TEXT_BUTTON_BG_MID" />
+        <Background state="hover" sprite="TEXT_BUTTON_BG_MID" />
+        <Background state="pressed" sprite="TEXT_BUTTON_BG_DOWN_MID" />
+        <Background state="disabled" sprite="TEXT_BUTTON_BG_MID" disabled="1" />
+        <Text colour="khaki" align="center" />
+    </Style>
+
+    <Style name="ex_confederate_action_button_secondary" base="text_button">
+        <Background state="normal" sprite="TEXT_BUTTON_BG_MID" />
+        <Background state="hover" sprite="TEXT_BUTTON_BG_MID" />
+        <Background state="pressed" sprite="TEXT_BUTTON_BG_DOWN_MID" />
+        <Background state="disabled" sprite="TEXT_BUTTON_BG_MID" disabled="1" />
+        <Text colour="black" align="center" />
+    </Style>
+
+    <Style name="ex_confederate_status_text" base="small_text">
+        <Text colour="khaki" align="left" />
+    </Style>
+</ButtonStyles>
