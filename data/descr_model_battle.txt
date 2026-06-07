@@ -1004,6 +1004,8 @@ texture				romans_julii, data/models_unit/textures/officer_roman_general_julii.t
 texture				romans_brutii, data/models_unit/textures/officer_roman_general_brutii.tga
 texture				romans_scipii, data/models_unit/textures/officer_roman_general_scipii.tga
 texture				romans_senate, data/models_unit/textures/officer_roman_general_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/officer_roman_general_senate.tga
 ;texture				default, data/models_unit/textures/officer_roman_general_rebel.tga	;MISSING
 model_flexi_m		data/models_unit/officer_roman_general_high.cas, 15
 model_flexi_m		data/models_unit/officer_roman_general_med.cas, 30
@@ -1023,6 +1025,8 @@ texture				romans_julii, data/models_unit/textures/officer_roman_lesser_general_
 texture				romans_brutii, data/models_unit/textures/officer_roman_lesser_general_brutii.tga
 texture				romans_scipii, data/models_unit/textures/officer_roman_lesser_general_scipii.tga
 texture				romans_senate, data/models_unit/textures/officer_roman_lesser_general_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/officer_roman_lesser_general_senate.tga
 ;texture				slave_senate, data/models_unit/textures/officer_roman_lesser_general_rebel.tga	;MISSING
 model_flexi_m		data/models_unit/officer_roman_lesser_general_high.cas, 15
 model_flexi_m		data/models_unit/officer_roman_lesser_general_med.cas, 30
@@ -2558,6 +2562,8 @@ texture				massilia_01, data/models_unit/textures/unit_greek_medium_cavalry_slav
 texture				itanos_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
 model_flexi			data/models_unit/unit_greek_medium_cavalry_high.cas, 15
 model_flexi			data/models_unit/unit_greek_medium_cavalry_med.cas, 30
 model_flexi			data/models_unit/unit_greek_medium_cavalry_low.cas, 40
@@ -2582,6 +2588,8 @@ texture				massilia_01, mve_rex/data/models_unit/textures/unit_greek_militia_hop
 texture				itanos_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
 model_flexi			data/models_unit/unit_greek_hoplite_militia_high.cas, 15
 model_flexi			data/models_unit/unit_greek_hoplite_militia_med.cas, 30
 model_flexi			data/models_unit/unit_greek_hoplite_militia_low.cas, 40
@@ -2602,6 +2610,8 @@ texture				massilia_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
 texture				itanos_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_hoplite_greek.tga
 model_flexi			data/models_unit/unit_greek_hoplite_high.cas, 15
 model_flexi			data/models_unit/unit_greek_hoplite_med.cas, 30
@@ -2635,6 +2645,8 @@ texture				massilia_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 texture				itanos_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_peasant_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_roman_peasant_med.cas, 30
 model_flexi			data/models_unit/unit_roman_peasant_low.cas, 40
@@ -2675,6 +2687,8 @@ texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 texture				itanos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 model_flexi			data/models_unit/unit_greek_peltast_high.cas, 15
 model_flexi			data/models_unit/unit_greek_peltast_med.cas, 30
 model_flexi			data/models_unit/unit_greek_peltast_low.cas, 40
@@ -2698,6 +2712,8 @@ texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 texture				itanos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 model_flexi			data/models_unit/unit_greek_peltast_high.cas, 15
 model_flexi			data/models_unit/unit_greek_peltast_med.cas, 30
 model_flexi			data/models_unit/unit_greek_peltast_low.cas, 40
@@ -2888,6 +2904,8 @@ texture				romans_brutii, data/models_unit/textures/unit_roman_peasant_brutii.tg
 texture				romans_scipii, data/models_unit/textures/unit_roman_peasant_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_peasant_senate.tga
 texture				default, data/models_unit/textures/unit_roman_peasant_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_roman_peasant_med.cas, 30
 model_flexi			data/models_unit/unit_roman_peasant_low.cas, 40
@@ -2941,6 +2959,8 @@ texture				romans_brutii, data/models_unit/textures/unit_roman_light_infantry_br
 texture				romans_scipii, data/models_unit/textures/unit_roman_light_infantry_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_light_infantry_senate.tga
 texture				default, data/models_unit/textures/unit_roman_light_infantry_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_light_infantry_slave.tga
 model_flexi			data/models_unit/unit_roman_light_infantry_high.cas, 15
 model_flexi			data/models_unit/unit_roman_light_infantry_med.cas, 30
 model_flexi			data/models_unit/unit_roman_light_infantry_low.cas, 40
@@ -2959,6 +2979,8 @@ texture				romans_julii, data/models_unit/textures/unit_roman_light_infantry_jul
 texture				romans_brutii, data/models_unit/textures/unit_roman_light_infantry_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_light_infantry_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_light_infantry_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_light_infantry_senate.tga
 model_flexi			data/models_unit/roman_light_cavalry_high.cas, 15
 model_flexi			data/models_unit/roman_light_cavalry_med.cas, 30
 model_flexi			data/models_unit/roman_light_cavalry_low.cas, 40
@@ -2993,6 +3015,8 @@ texture				romans_julii, data/models_unit/textures/unit_roman_auxillia_infantry_
 texture				romans_brutii, data/models_unit/textures/unit_roman_auxillia_infantry_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_auxillia_infantry_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_auxillia_infantry_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_auxillia_infantry_senate.tga
 model_flexi			data/models_unit/roman_auxillia_infantry_high.cas, 15
 model_flexi			data/models_unit/roman_auxillia_infantry_med.cas, 30
 model_flexi			data/models_unit/roman_auxillia_infantry_low.cas, 40
@@ -3011,6 +3035,8 @@ texture				romans_brutii, data/models_unit/textures/unit_roman_hastati_brutii.tg
 texture				romans_scipii, data/models_unit/textures/unit_roman_hastati_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_hastati_senate.tga
 texture				default, data/models_unit/textures/unit_roman_hastati_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_hastati_slave.tga
 model_flexi_m			data/models_unit/unit_roman_hastati_high.cas, 15
 model_flexi_m			data/models_unit/unit_roman_hastati_med.cas, 30
 model_flexi_m			data/models_unit/unit_roman_hastati_low.cas, 40
@@ -3231,6 +3257,8 @@ texture				romans_brutii, data/models_unit/textures/unit_roman_peasant_brutii.tg
 texture				romans_scipii, data/models_unit/textures/unit_roman_peasant_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_peasant_senate.tga
 texture				default, data/models_unit/textures/unit_roman_peasant_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_velite_high.cas, 8
 model_flexi			data/models_unit/unit_roman_velite_med.cas, 15
 model_flexi			data/models_unit/unit_roman_velite_low.cas, 30
@@ -3269,6 +3297,8 @@ texture				romans_brutii, data/models_unit/textures/unit_roman_city_militia_brut
 texture				romans_scipii, data/models_unit/textures/unit_roman_city_militia_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_city_militia_senate.tga
 texture				default, data/models_unit/textures/unit_roman_city_militia_rebel.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_city_militia_rebel.tga
 model_flexi			data/models_unit/roman_city_militia_high.cas, 15
 model_flexi			data/models_unit/roman_city_militia_med.cas, 30
 model_flexi			data/models_unit/roman_city_militia_low.cas, 40

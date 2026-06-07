@@ -73,6 +73,13 @@ strat_model		sm_roman_general
 battle_model	roman_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+;; cisra_01
+faction			cisra_01
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			macedon
 dictionary		2
 strat_model		sm_greek_general
@@ -243,6 +250,14 @@ battle_model	roman_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;; cisra_01
+faction			cisra_01
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
 strat_model		sm_roman_lesser_general
@@ -440,6 +455,12 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+;; cisra_01
+faction			cisra_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			macedon
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -585,6 +606,12 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+;; cisra_01
+faction			cisra_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 faction			macedon
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -726,6 +753,12 @@ strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
 
 faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+;; cisra_01
+faction			cisra_01
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
@@ -983,6 +1016,12 @@ strat_model		slave_admiral
 ;; Kos
 faction			kos_01
 dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
+;; cisra_01
+faction			cisra_01
+dictionary		15
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
 

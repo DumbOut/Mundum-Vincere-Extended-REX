@@ -522,6 +522,27 @@ can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; cisra_01
+faction						cisra_01
+culture						roman
+symbol						models_strat/symbol_slaves.CAS
+rebel_symbol				models_strat/symbol_slaves.CAS
+primary_colour				red 83, green 23, blue 56
+secondary_colour			red 218, green 184, blue 84
+loading_logo				loading_screen/symbols/symbol128_cisra_01.tga
+standard_index				38
+logo_index					FACTION_LOGO_CISRA_01
+small_logo_index			SMALL_FACTION_LOGO_CISRA_01
+triumph_value				5
+intro_movie					fmv/intros/julii_intro_final.wmv
+victory_movie				fmv/victory/julii_outro_320x240.wmv
+defeat_movie				fmv/lose/julii_eliminated.wmv
+death_movie					fmv/death/death_julii_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;CHECK WIP;;;;;;;;;;;;;;
 
 faction						qin_01

@@ -3840,7 +3840,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 100, 100, 20, 30, 100
-ownership        greek, slave, itanos_01, kos_01
+ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 type             greek peltast
 dictionary       greek_peltast      ; Peltasts
@@ -3865,7 +3865,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        greek, slave, itanos_01, kos_01
+ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 type             greek archer
 dictionary       greek_archer      ; Archers
@@ -3938,7 +3938,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 230, 100, 30, 40, 230
-ownership        greek, slave, itanos_01, kos_01
+ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 type             greek hoplite
 dictionary       greek_hoplite      ; Hoplites
@@ -3962,7 +3962,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 170, 50, 70, 440
-ownership        greek_cities, massilia_01, slave, kos_01
+ownership        greek_cities, massilia_01, slave, kos_01, cisra_01
 
 type             greek hoplite elite
 dictionary       greek_hoplite_elite      ; Armoured Hoplites
@@ -4210,7 +4210,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 340, 110, 40, 60, 340
-ownership        greek_cities, itanos_01, seleucid, thrace, slave, kos_01
+ownership        greek_cities, itanos_01, seleucid, thrace, slave, kos_01, cisra_01
 
 type             greek medium cavalry
 dictionary       greek_medium_cavalry      ; Greek Cavalry
@@ -4236,7 +4236,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 120, 40, 50, 330
-ownership        greek, slave, itanos_01, kos_01
+ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 type             greek heavy cavalry
 dictionary       greek_heavy_cavalry      ; Macedonian Cavalry
@@ -4645,7 +4645,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 100, 100, 20, 30, 100
-ownership        roman
+ownership        roman, cisra_01
 
 type             roman archer
 dictionary       roman_archer      ; Roman Archers
@@ -4719,7 +4719,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 270, 170, 30, 40, 270
-ownership        roman
+ownership        roman, cisra_01
 
 type             roman light infantry auxillia
 dictionary       roman_light_infantry      ; Light Auxilia
@@ -4769,7 +4769,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 100, 20, 30, 150
-ownership        roman
+ownership        roman, cisra_01
 
 type             roman hastati
 dictionary       roman_hastati      ; Hastati
@@ -4793,7 +4793,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 170, 50, 70, 440
-ownership        roman
+ownership        roman, cisra_01
 
 type             roman princeps
 dictionary       roman_principes      ; Principes
@@ -5194,7 +5194,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 110, 50, 70, 420
-ownership        roman
+ownership        roman, cisra_01
 
 type             roman cavalry auxillia
 dictionary       roman_cavalry_auxillia      ; Cavalry Auxilia
@@ -5324,7 +5324,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 790, 80, 80, 120, 790
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate,slave
+ownership        romans_julii,romans_brutii,romans_scipii,romans_senate,slave,cisra_01
 
 type             roman generals guard cavalry
 dictionary       roman_generals_guard_cavalry      ; Roman Armoured General
@@ -6201,7 +6201,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 100, 70, 100, 660
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01
 
 type             naval triremes
 dictionary       naval_trireme      ; Trireme
@@ -6226,7 +6226,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 760, 150, 100, 150, 960
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01
 
 type             naval quinquiremes
 dictionary       naval_quinquireme      ; Quinquireme
@@ -6251,7 +6251,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1150, 250, 170, 250, 1650
-ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01
+ownership        roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01
 
 type             naval corvus quinquireme
 dictionary       naval_corvus      ; Corvus Quinquireme

@@ -27,6 +27,7 @@ playable
 	mauryans
 	itanos_01
 	kos_01
+	cisra_01
 end
 unlockable
 end
@@ -3484,10 +3485,6 @@ unit		roman triarii				exp 3 armour 1 weapon_lvl 0
 unit		roman velite				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati				exp 3 armour 1 weapon_lvl 0
-
-;	outside Rome
-character	Flavius Nepos, diplomat, age 30, , x 217, y 481
-traits GoodDiplomat 5
 
 ;	outside Rome
 character	Servius Maxentius, named character, age 36, , x 223, y 476
@@ -13138,6 +13135,70 @@ character_record		Kallianeira, 	female, command 0, influence 0, management 0, su
 relative 	Hippokrates, 	Phainarete,		Thessalos,	Kallianeira,	end
 
 
+;; cisra_01
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION CISRA	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	cisra_01, balanced smith
+superfaction romans_senate
+denari	7000
+settlement
+{
+	level town
+	region Cisra_R
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator cisra_01
+	garrisoned_army
+	unit		roman hastati
+	unit		roman velite
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+;	Cisra
+character	Thefarie Caisranal, named character, leader, age 42, , x 216, y 481
+traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 0 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Cisra
+character	Larth Spurinna, named character, heir, age 23, , x 217, y 481
+traits GoodCommander 1 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman city militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Cisra
+character	Velthur, diplomat, age 32, , x 219, y 480
+traits GoodDiplomat 1
+
+;	Outside Cisra
+character	Arnth, spy, age 28, , x 215, y 482
+traits GoodSpy 1
+
+character_record		Thefarie Caisranal, 	male, command 2, influence 2, management 2, subterfuge 0, age 42, alive, never_a_leader
+character_record		Larth Spurinna, 	male, command 1, influence 1, management 1, subterfuge 0, age 23, alive, never_a_leader
+character_record		Ramtha, 	female, command 0, influence 1, management 1, subterfuge 0, age 39, alive, never_a_leader
+character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 17, alive, never_a_leader
+
+relative 	Thefarie Caisranal, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15873,28 +15934,6 @@ settlement
 {
 	level town
 	region Perusna_R
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator romans_julii
-	garrisoned_army
-	unit		roman hastati
-	unit		roman hastati
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Cisra_R
 
 	year_founded 0
 	population 1200
@@ -46181,17 +46220,6 @@ unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
-;	Cisra
-character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 216, y 481
-traits GoodCommander 2
-army
-unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
-
 ;	Tarchna
 character,	sub_faction romans_julii, Kaeso, named character, age 28, , x 212, y 486
 traits GoodCommander 2
@@ -50699,14 +50727,20 @@ unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 ;DS_AT_WAR			= 600
 
 core_attitudes	romans_julii,	-10		romans_brutii, romans_scipii, romans_senate
+core_attitudes	romans_julii,	-10		cisra_01
 core_attitudes	romans_julii,	400		carthage
 core_attitudes	romans_julii,	600		slave
 core_attitudes	romans_brutii,	-10		romans_julii, romans_scipii, romans_senate
+core_attitudes	romans_brutii,	-10		cisra_01
 core_attitudes	romans_brutii,	600		slave
 core_attitudes	romans_scipii,	-10		romans_julii, romans_brutii, romans_senate
+core_attitudes	romans_scipii,	-10		cisra_01
 core_attitudes	romans_scipii,	600		slave
 core_attitudes	romans_senate, 	-10		romans_julii, romans_brutii, romans_scipii
+core_attitudes	romans_senate, 	-10		cisra_01
 core_attitudes	romans_senate,	600		slave
+core_attitudes	cisra_01,		-10		romans_julii, romans_brutii, romans_scipii, romans_senate
+core_attitudes	cisra_01,		600		slave
 core_attitudes	macedon,		90		romans_brutii
 core_attitudes	macedon,		600		slave
 core_attitudes	egypt,		410		numidia
@@ -50759,20 +50793,27 @@ core_attitudes	qin_01,		600		slave
 ;core_attitudes	aedui_01,			600		slave
 ;core_attitudes	allobroges_01,		600		slave
 ;core_attitudes	bituriges_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
 faction_relationships	romans_julii,		100		romans_senate
+faction_relationships	romans_julii,		100		cisra_01
 faction_relationships	romans_julii, 		600		slave
 faction_relationships	romans_brutii, 		100		romans_julii
 faction_relationships	romans_brutii,		100		romans_scipii
 faction_relationships	romans_brutii,		100		romans_senate
+faction_relationships	romans_brutii,		100		cisra_01
 faction_relationships	romans_brutii,		600		slave
 faction_relationships	romans_scipii,		100		romans_julii
 faction_relationships	romans_scipii,		100		romans_brutii
 faction_relationships	romans_scipii,		100		romans_senate
+faction_relationships	romans_scipii,		100		cisra_01
 faction_relationships	romans_scipii,		600		slave
+faction_relationships	romans_senate,		0		cisra_01
+faction_relationships	cisra_01,		0		romans_senate
+faction_relationships	cisra_01,		100		romans_julii, romans_brutii, romans_scipii
+faction_relationships	cisra_01,		600		slave
 faction_relationships	macedon,			600		slave
 faction_relationships	egypt,			600		slave
 faction_relationships	seleucid,			600		slave
@@ -50804,6 +50845,6 @@ faction_relationships	qin_01,		600		slave
 ;faction_relationships	aedui_01,			600		slave
 ;faction_relationships	allobroges_01,		600		slave
 ;faction_relationships	bituriges_01,		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<

@@ -23,16 +23,26 @@ faction: <FACTION_NAME>
 culture: <CULTURE_NAME>
 
 Example:
-faction:kos_01
-culture: greek
+faction:cisra_01
+culture: roman
 
 ONLY EGIONS TO OCCUPY:
-Kos_R
+Cisra_R
 
 standard_index				38
 and symbol_slaves must be used
 
 try ujsing pre-existing settlement coordinates as a basis
+
+Specs:
+
+Make them a client kingdom of the SPQR and have the spqr not attack them
+
+Give them 2 speciifc temples 
+
+Add temples 
+
+make the entries in edb, ui_buildings, and the buildings strings
 
 -----------------------------------------
 GLOBAL RULES FOR ALL FILE EDITS
@@ -82,7 +92,7 @@ FILES TO EDIT (DATA FOLDER)
   - UI icon path
 
 ### 2. descr_banners.txt
-- Add campaign and battle banner entries for the new faction.
+- Add campaign and battle banner entries for the new faction. but use the
 - Use existing banner models; only change textures.
 
 ### 3. descr_building_battle.txt
@@ -192,12 +202,10 @@ Also generate an extremely detailed faction description including tons of real w
 
 Don't add ; loc notes in /text strings files
 
-Add temples 
 
-export_descr_buildings
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: kos_01
-culture: greek
+faction: cisra_01
+culture: roman
 -----------------------------------------

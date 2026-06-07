@@ -23,8 +23,8 @@ building core_building
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
-                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
-                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
             }
             construction  1 
             cost  400 
@@ -53,10 +53,10 @@ building core_building
                 agent diplomat  0  requires factions { parthia, pontus, armenia, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
-                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 agent diplomat  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
-                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                agent diplomat  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                agent diplomat  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 ;; Recruiitable Generals ;;
 				recruit "barb chieftain cavalry early dacian"  1  requires factions { dacia, }  and not marian_reforms
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
@@ -116,10 +116,10 @@ building core_building
                 agent diplomat  0  requires factions { parthia, pontus, armenia, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
-                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 agent diplomat  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
-                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                agent diplomat  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                agent diplomat  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 ;; Recruiitable Generals ;;
 				recruit "barb chieftain cavalry early dacian"  1  requires factions { dacia, }  and not marian_reforms
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
@@ -179,10 +179,10 @@ building core_building
                 agent diplomat  0  requires factions { parthia, pontus, armenia, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
-                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 agent diplomat  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
-                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                agent diplomat  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                agent diplomat  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 ;; Recruiitable Generals ;;
 				recruit "barb chieftain cavalry early dacian"  1  requires factions { dacia, }  and not marian_reforms
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
@@ -242,10 +242,10 @@ building core_building
                 agent diplomat  0  requires factions { parthia, pontus, armenia, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
-                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 agent diplomat  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
-                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                agent diplomat  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                agent diplomat  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 ;; Recruiitable Generals ;;
 				recruit "barb chieftain cavalry early dacian"  1  requires factions { dacia, }  and not marian_reforms
 				recruit "barb chieftain cavalry dacian"  1  requires factions { dacia, }  and marian_reforms 
@@ -425,10 +425,10 @@ building barracks
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
-                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
-                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 recruit "baltic spearmen"  0  requires factions { germans, }
             }
             construction  2 
@@ -492,19 +492,19 @@ building barracks
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "egyptian nile infantry"  0  requires factions { egypt, }
                 recruit "celtic foot nobles"  0  requires factions { gauls, germans, britons, dacia, }
-                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
-                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, } 
+                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, carthage, }
-                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 recruit "baltic spearmen"  0  requires factions { germans, }
-                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "barb getic spear warband"  0  requires factions { dacia, }
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
             }
@@ -592,12 +592,12 @@ building barracks
                 recruit "celtic foot nobles"  0  requires factions { gauls, germans, britons, dacia, } 
                 recruit "greek hoplite late"  0  requires factions { greek_cities, }
                 recruit "egyptian infantry"  0  requires factions { egypt, } 
-                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
-                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, } 
+                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
 				recruit "merc greek hoplites"  0  requires factions { thrace, greek_cities, carthage, }
@@ -612,9 +612,9 @@ building barracks
                 recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "greek hoplite elite"  0  requires factions { greek_cities, } 
                 recruit "greek levy pikemen merc" 0 requires factions { greek_cities, egypt, seleucid, }
-                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 recruit "baltic spearmen"  0  requires factions { germans, }
-                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "barb getic spear warband"  0  requires factions { dacia, }
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -716,7 +716,7 @@ building barracks
                 recruit "egyptian medium infantry"  0  requires factions { egypt, } 
                 recruit "egyptian heavy infantry"  0  requires factions { egypt, } 
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
-                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
@@ -740,9 +740,9 @@ building barracks
 				recruit "merc greek hoplites"  0  requires factions { greek_cities, thrace, carthage, }
 				recruit "merc barbarian infantry" 0 requires factions { thrace, }
                 recruit "parthian immortal"  0  requires factions { parthia, }
-                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 recruit "baltic spearmen"  0  requires factions { germans, }
-                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "barb getic spear warband"  0  requires factions { dacia, }
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -853,12 +853,12 @@ building barracks
                 recruit "egyptian medium infantry"  0  requires factions { egypt, } 
                 recruit "egyptian heavy infantry"  0  requires factions { egypt, } 
                 recruit "egyptian elite guards"  0  requires factions { egypt, } 
-                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
-                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, } 
+                recruit "greek hoplite"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, slave, }
                 recruit "eastern macemen"  0  requires factions { parthia, armenia, pontus, }
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
@@ -880,9 +880,9 @@ building barracks
                 recruit "greek hoplite spartan"  0  requires factions { greek_cities, }  and hidden_resource sparta
                 recruit "greek bastarnae"  0  requires factions { thrace, } 
                 recruit "thracian noble"  0  requires factions { thrace, } 
-                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "roman city militia"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 recruit "baltic spearmen"  0  requires factions { germans, }
-                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman hastati"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "barb getic spear warband"  0  requires factions { dacia, }
                 recruit "roman infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -940,9 +940,9 @@ building equestrian
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
                 recruit "barb getic steppe raiders"  0  requires factions { dacia, }
                 recruit "greek light lancer"  0  requires factions { macedon, } 
-                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, massilia_01, } 
+                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
-                recruit "roman light cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman light cavalry"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
             }
             construction  3 
@@ -1001,11 +1001,11 @@ building equestrian
                 recruit "barb getic steppe raiders" 0 requires factions { dacia, }
                 recruit "egyptian nubian cavalry"  0  requires factions { egypt, } 
                 recruit "greek light lancer"  0  requires factions { macedon, } 
-                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, massilia_01, } 
-                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, massilia_01, macedon, thrace, } 
+                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
+                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, cisra_01, massilia_01, macedon, thrace, } 
                 recruit "greek elephant small"  0  requires factions { seleucid, }  and resource elephants
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "roman light cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman light cavalry"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
             }
@@ -1072,8 +1072,8 @@ building equestrian
                 recruit "egyptian cleruch"  0  requires factions { egypt, } 
                 recruit "egyptian bedouin"  0  requires factions { egypt, }  and resource camels
                 recruit "greek light lancer"  0  requires factions { macedon, } 
-                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, massilia_01, } 
-                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, massilia_01, macedon, thrace, } 
+                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
+                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, cisra_01, massilia_01, macedon, thrace, } 
                 recruit "thracian cavalry"  0  requires factions { thrace, } 
                 recruit "greek elephant small"  0  requires factions { seleucid, }  and resource elephants
                 recruit "greek heavy cavalry"  0  requires factions { macedon, } 
@@ -1083,7 +1083,7 @@ building equestrian
                 recruit "barb getic noble cavalry" 0 requires factions { dacia, } 
                 recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "roman light cavalry"  1  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman light cavalry"  1  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
@@ -1155,8 +1155,8 @@ building equestrian
                 recruit "egyptian cleruch"  0  requires factions { egypt, } 
                 recruit "egyptian bedouin"  0  requires factions { egypt, }  and resource camels
                 recruit "greek light lancer"  0  requires factions { macedon, } 
-                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, massilia_01, } 
-                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, massilia_01, macedon, thrace, } 
+                recruit "greek cavalry"  0  requires factions { seleucid, thrace, greek_cities, itanos_01, kos_01, cisra_01, massilia_01, } 
+                recruit "greek medium cavalry"  0  requires factions { greek_cities, seleucid, itanos_01, kos_01, cisra_01, massilia_01, macedon, thrace, } 
                 recruit "thracian cavalry"  0  requires factions { thrace, } 
                 recruit "greek elephant small"  0  requires factions { seleucid, }  and resource elephants
                 recruit "greek heavy cavalry"  0  requires factions { macedon, } 
@@ -1168,7 +1168,7 @@ building equestrian
                 recruit "barb getic noble cavalry" 0 requires factions { dacia, } 
                 recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
                 recruit "roman cavalry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "roman light cavalry"  2  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman light cavalry"  2  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman marian light cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -1218,8 +1218,8 @@ building missiles
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
                 recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
-                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
-                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman light infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
             }
             construction  3 
@@ -1268,10 +1268,10 @@ building missiles
                 recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
-                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek archer"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek ballista"  0  requires factions { macedon, greek_cities, } 
-                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman light infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman archer"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman archer auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -1331,12 +1331,12 @@ building missiles
                 recruit "egyptian archer"  0  requires factions { egypt, } 
                 recruit "egyptian archer elite"  0  requires factions { egypt, } 
                 recruit "egyptian onager"  0  requires factions { egypt, } 
-                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek archer"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek heavy peltast"  0  requires factions { greek_cities, kos_01, } 
                 recruit "greek ballista"  0  requires factions { macedon, greek_cities, } 
                 recruit "greek onager"  0  requires factions { greek_cities, massilia_01, seleucid, macedon, thrace, } 
-                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman light infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman archer"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman archer auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -1400,14 +1400,14 @@ building missiles
                 recruit "egyptian archer elite"  0  requires factions { egypt, } 
                 recruit "egyptian onager"  0  requires factions { egypt, } 
                 recruit "egyptian heavy onager"  0  requires factions { egypt, } 
-                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
+                recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek archer"  0  requires factions { greek_cities, seleucid, macedon, thrace, } 
                 recruit "greek heavy peltast"  0  requires factions { greek_cities, kos_01, } 
                 recruit "greek ballista"  0  requires factions { macedon, greek_cities, } 
                 recruit "greek onager"  0  requires factions { greek_cities, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek heavy onager"  0  requires factions { macedon, greek_cities, seleucid, thrace, } 
                 recruit "east heavy onager"  0  requires factions { pontus, armenia, parthia, }
-                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
+                recruit "roman velite"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman light infantry auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
                 recruit "roman archer"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and not marian_reforms 
                 recruit "roman archer auxillia"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, }  and marian_reforms 
@@ -1459,7 +1459,7 @@ building market
                 agent spy  0  requires factions { parthia, pontus, armenia, } 
                 agent spy  0  requires factions { egypt, } 
                 agent spy  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
-                agent spy  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                agent spy  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 trade_base_income_bonus bonus 2
                 population_growth_bonus bonus 1
             }
@@ -1486,7 +1486,7 @@ building market
                 agent assassin  0  requires factions { egypt, } 
                 agent spy  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
                 agent assassin  0  requires factions { greek_cities, kos_01, seleucid, macedon, thrace, } 
-                agent spy  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                agent spy  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 agent assassin  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 1
@@ -1514,7 +1514,7 @@ building market
                 agent assassin  0  requires factions { egypt, } 
                 agent spy  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
                 agent assassin  0  requires factions { greek_cities, kos_01, seleucid, macedon, thrace, } 
-                agent spy  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                agent spy  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 agent assassin  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 trade_base_income_bonus bonus 4
                 population_growth_bonus bonus 2
@@ -1542,7 +1542,7 @@ building market
                 agent assassin  0  requires factions { egypt, } 
                 agent spy  0  requires factions { greek_cities, itanos_01, kos_01, massilia_01, seleucid, macedon, thrace, } 
                 agent assassin  0  requires factions { greek_cities, kos_01, seleucid, macedon, thrace, } 
-                agent spy  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                agent spy  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 agent assassin  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
                 trade_base_income_bonus bonus 5
                 population_growth_bonus bonus 2
@@ -1655,7 +1655,7 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { parthia, pontus, armenia, } 
                 recruit "naval biremes"  0  requires factions { egypt, } 
                 recruit "naval biremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
-                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 trade_fleet 1 ;trade_base_income_bonus bonus 1
             }
             construction  2 
@@ -1681,8 +1681,8 @@ building port_buildings
                 recruit "naval triremes"  0  requires factions { egypt, } 
                 recruit "naval biremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
                 recruit "naval triremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
-                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "naval triremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                recruit "naval triremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 trade_fleet 2 ;trade_base_income_bonus bonus 2
             }
             construction  3 
@@ -1712,9 +1712,9 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
                 recruit "naval triremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
                 recruit "naval quinquiremes"  0  requires factions { greek_cities, itanos_01, kos_01, seleucid, macedon, thrace, } 
-                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "naval triremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
-                recruit "naval quinquiremes"  0  requires factions { romans_julii, romans_senate, romans_scipii, romans_brutii, } 
+                recruit "naval biremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                recruit "naval triremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
+                recruit "naval quinquiremes"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
                 trade_fleet 3 ;trade_base_income_bonus bonus 2
             }
             construction  5 
@@ -4393,6 +4393,455 @@ building temple_of_nikaea_massilia
                 weapon_missile bonus 3
                 trade_base_income_bonus bonus 3
                 farming_level bonus 4
+            }
+            construction  6 
+            cost  7020 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+;; cisra_01
+building temple_of_aita_cisra
+{
+    levels temple_of_aita_cisra_shrine temple_of_aita_cisra_temple temple_of_aita_cisra_large_temple temple_of_aita_cisra_awesome_temple temple_of_aita_cisra_pantheon 
+    {
+        temple_of_aita_cisra_shrine requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 1
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_aita_cisra_temple
+            }
+        }
+        temple_of_aita_cisra_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 2
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_aita_cisra_large_temple
+            }
+        }
+        temple_of_aita_cisra_large_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                law_bonus bonus 3
+                population_health_bonus bonus 1
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_aita_cisra_awesome_temple
+            }
+        }
+        temple_of_aita_cisra_awesome_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                law_bonus bonus 4
+                population_health_bonus bonus 2
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_aita_cisra_pantheon
+            }
+        }
+        temple_of_aita_cisra_pantheon requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 5
+                law_bonus bonus 5
+                population_health_bonus bonus 3
+                trade_base_income_bonus bonus 2
+            }
+            construction  6 
+            cost  7020 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+;; cisra_01
+building temple_of_tarchon_cisra
+{
+    levels temple_of_tarchon_cisra_shrine temple_of_tarchon_cisra_temple temple_of_tarchon_cisra_large_temple temple_of_tarchon_cisra_awesome_temple temple_of_tarchon_cisra_pantheon 
+    {
+        temple_of_tarchon_cisra_shrine requires factions { cisra_01, } 
+        {
+            capability
+            {
+                law_bonus bonus 1
+                recruits_morale_bonus bonus 1
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_tarchon_cisra_temple
+            }
+        }
+        temple_of_tarchon_cisra_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 2
+                recruits_morale_bonus bonus 1
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_tarchon_cisra_large_temple
+            }
+        }
+        temple_of_tarchon_cisra_large_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                law_bonus bonus 3
+                recruits_morale_bonus bonus 2
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_tarchon_cisra_awesome_temple
+            }
+        }
+        temple_of_tarchon_cisra_awesome_temple requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                law_bonus bonus 4
+                recruits_morale_bonus bonus 3
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_tarchon_cisra_pantheon
+            }
+        }
+        temple_of_tarchon_cisra_pantheon requires factions { cisra_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                law_bonus bonus 5
+                recruits_morale_bonus bonus 4
+                trade_base_income_bonus bonus 2
+            }
+            construction  6 
+            cost  7020 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+;; kos_01
+building temple_of_thessalidai_kos
+{
+    levels temple_of_thessalidai_kos_shrine temple_of_thessalidai_kos_temple temple_of_thessalidai_kos_large_temple temple_of_thessalidai_kos_awesome_temple temple_of_thessalidai_kos_pantheon 
+    {
+        temple_of_thessalidai_kos_shrine requires factions { kos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                recruits_morale_bonus bonus 1
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_thessalidai_kos_temple
+            }
+        }
+        temple_of_thessalidai_kos_temple requires factions { kos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 1
+                recruits_morale_bonus bonus 1
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_thessalidai_kos_large_temple
+            }
+        }
+        temple_of_thessalidai_kos_large_temple requires factions { kos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                law_bonus bonus 2
+                recruits_morale_bonus bonus 2
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_thessalidai_kos_awesome_temple
+            }
+        }
+        temple_of_thessalidai_kos_awesome_temple requires factions { kos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                law_bonus bonus 3
+                recruits_morale_bonus bonus 3
+                trade_base_income_bonus bonus 1
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_thessalidai_kos_pantheon
+            }
+        }
+        temple_of_thessalidai_kos_pantheon requires factions { kos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                law_bonus bonus 4
+                recruits_morale_bonus bonus 4
+                trade_base_income_bonus bonus 2
+            }
+            construction  6 
+            cost  7020 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+;; itanos_01
+building temple_of_velchanos_itanos
+{
+    levels temple_of_velchanos_itanos_shrine temple_of_velchanos_itanos_temple temple_of_velchanos_itanos_large_temple temple_of_velchanos_itanos_awesome_temple temple_of_velchanos_itanos_pantheon 
+    {
+        temple_of_velchanos_itanos_shrine requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 1
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_velchanos_itanos_temple
+            }
+        }
+        temple_of_velchanos_itanos_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                law_bonus bonus 1
+                recruits_morale_bonus bonus 1
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_velchanos_itanos_large_temple
+            }
+        }
+        temple_of_velchanos_itanos_large_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                law_bonus bonus 2
+                recruits_morale_bonus bonus 2
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_velchanos_itanos_awesome_temple
+            }
+        }
+        temple_of_velchanos_itanos_awesome_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                law_bonus bonus 3
+                recruits_morale_bonus bonus 3
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_velchanos_itanos_pantheon
+            }
+        }
+        temple_of_velchanos_itanos_pantheon requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 5
+                law_bonus bonus 4
+                recruits_morale_bonus bonus 4
+                trade_base_income_bonus bonus 2
+            }
+            construction  6 
+            cost  7020 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+;; itanos_01
+building temple_of_diktynna_itanos
+{
+    levels temple_of_diktynna_itanos_shrine temple_of_diktynna_itanos_temple temple_of_diktynna_itanos_large_temple temple_of_diktynna_itanos_awesome_temple temple_of_diktynna_itanos_pantheon 
+    {
+        temple_of_diktynna_itanos_shrine requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                trade_base_income_bonus bonus 1
+            }
+            construction  1 
+            cost  400 
+            settlement_min town
+            upgrades
+            {
+                temple_of_diktynna_itanos_temple
+            }
+        }
+        temple_of_diktynna_itanos_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                trade_base_income_bonus bonus 1
+            }
+            construction  2 
+            cost  800 
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_diktynna_itanos_large_temple
+            }
+        }
+        temple_of_diktynna_itanos_large_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                law_bonus bonus 1
+                trade_base_income_bonus bonus 2
+            }
+            construction  3 
+            cost  1500 
+            settlement_min city
+            upgrades
+            {
+                temple_of_diktynna_itanos_awesome_temple
+            }
+        }
+        temple_of_diktynna_itanos_awesome_temple requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                law_bonus bonus 2
+                trade_base_income_bonus bonus 3
+            }
+            construction  5 
+            cost  3200 
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_diktynna_itanos_pantheon
+            }
+        }
+        temple_of_diktynna_itanos_pantheon requires factions { itanos_01, } 
+        {
+            capability
+            {
+                happiness_bonus bonus 5
+                law_bonus bonus 3
+                trade_base_income_bonus bonus 4
+                population_health_bonus bonus 1
             }
             construction  6 
             cost  7020 

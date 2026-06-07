@@ -75,6 +75,8 @@ texture				romans_julii, data/models_strat/textures/diplomat_julii.tga
 texture				romans_brutii, data/models_strat/textures/diplomat_brutii.tga
 texture				romans_scipii, data/models_strat/textures/diplomat_scipii.tga
 texture				romans_senate, data/models_strat/textures/diplomat_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_strat/textures/diplomat_slave.tga
 texture				macedon, data/models_strat/textures/diplomat_macedon.tga
 texture				egypt, data/models_strat/textures/diplomat_egypt.tga
 texture             mauryans, data/models_strat/textures/diplomat_egypt.tga
@@ -119,6 +121,8 @@ texture				romans_julii, data/models_strat/textures/spy_julii.tga
 texture				romans_brutii, data/models_strat/textures/spy_brutii.tga
 texture				romans_scipii, data/models_strat/textures/spy_scipii.tga
 texture				romans_senate, data/models_strat/textures/spy_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_strat/textures/spy_slave.tga
 texture				macedon, data/models_strat/textures/spy_macedon.tga
 texture				egypt, data/models_strat/textures/spy_egypt.tga
 texture             mauryans, data/models_strat/textures/spy_egypt.tga
@@ -157,6 +161,8 @@ texture				romans_julii, data/models_strat/textures/assassin_julii.tga
 texture				romans_brutii, data/models_strat/textures/assassin_brutii.tga
 texture				romans_scipii, data/models_strat/textures/assassin_scipii.tga
 texture				romans_senate, data/models_strat/textures/assassin_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_strat/textures/assassin_slave.tga
 texture				macedon, data/models_strat/textures/assassin_macedon.tga
 texture				egypt, data/models_strat/textures/assassin_egypt.tga
 texture             mauryans, data/models_strat/textures/assassin_egypt.tga
@@ -374,6 +380,8 @@ texture_no_move		romans_julii, data/models_strat/textures/officer_roman_general_
 texture				romans_brutii, data/models_strat/textures/officer_roman_general_brutii.tga
 texture				romans_scipii, data/models_strat/textures/officer_roman_general_scipii.tga
 texture				romans_senate, data/models_strat/textures/officer_roman_general_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_strat/textures/officer_roman_general_senate.tga
 model_flexi_m		data/models_unit/officer_roman_general_high.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -386,6 +394,8 @@ texture				romans_julii, data/models_unit/textures/unit_roman_legionary_II_julii
 texture				romans_brutii, data/models_unit/textures/unit_roman_legionary_II_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_legionary_II_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_legionary_II_senate.tga
+;; cisra_01
+texture				cisra_01, data/models_unit/textures/unit_roman_legionary_II_senate.tga
 model_flexi_m		data/models_strat/strat_roman_lesser_general.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -568,6 +578,8 @@ texture             sciria_01, data/models_strat/textures/navy_slave.tga
 texture				itanos_01, data/models_strat/textures/navy_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/navy_slave.tga
+;; cisra_01
+texture				cisra_01, data/models_strat/textures/navy_slave.tga
 model_flexi			data/models_strat/navy_roman.cas, max
 shadow_model_flexi	data/models_strat/navy_roman_shadow.cas, max
 
