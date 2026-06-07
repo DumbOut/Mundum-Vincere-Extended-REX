@@ -44,8 +44,8 @@ GLOBAL RULES FOR ALL FILE EDITS
    - Remove the region from its previous faction
    - Remove any characters stationed there
 8. When finding coordinates for descr_strat:
-   - INVERT map_regions.tga VERTICALLY before reading pixel coordinates
-   - Use the inverted Y-axis for correct RTW coordinate mapping
+   - INVERT map_regions.tga VERTICALLY once before reading pixel coordinates
+   - Use the flipped vertically once
 9. Prefer SLAVE textures for DMB and DMS ownership additions.
 10. Create a new folder:
       data/ui/units/<faction>

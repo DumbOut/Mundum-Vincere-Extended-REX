@@ -50,7 +50,7 @@ end_date	1180 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 45
+brigand_spawn_value 48
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13048,7 +13048,7 @@ settlement
 }
 
 ;	Itanos
-character	Itanios, named character, leader, age 40, , x 357, y 366
+character	Itanios, named character, leader, age 40, , x 357, y 407
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 1
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -13059,7 +13059,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Itanos
-character	Etearchos, named character, heir, age 20, , x 355, y 366
+character	Etearchos, named character, heir, age 20, , x 355, y 407
 traits GoodCommander 1 , GoodAdministrator 1
 army
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
@@ -13067,7 +13067,7 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 
 ;	Outside Itanos
-character	Diktys, spy, age 28, , x 357, y 367
+character	Diktys, spy, age 28, , x 357, y 408
 traits GoodSpy 1
 
 character_record		Itanios, 	male, command 2, influence 1, management 1, subterfuge 0, age 46, alive, never_a_leader

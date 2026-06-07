@@ -21,13 +21,13 @@ max_factions 2048
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 28
+superfaction_min_regions 29
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 1024.0
+camera_max_height 512.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -69,20 +69,28 @@ free_upkeep_cheap_first true
 ; AI end-turn speed
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; 0 = full AI, 1 = skip AI movement controllers, 2 = diplomacy/confederation only.
-; Level 2 is intended for very large REX campaigns where total end-turn time matters more than
-; per-faction movement planning.
-fast_ai_end_turn_level 0
+; 0 = full AI, 1 = skip AI movement controllers, 2 = full AI with instant movement/conquest.
+; Level 2 keeps AI conquest/movement logic but skips visual waiting and uses fast economy caches
+; for very large REX campaigns.
+fast_ai_end_turn_level 2
 
 ; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
 fast_ai_end_turn_keep_diplomacy true
 
 ; Force AI campaign movement animations through the existing fast-forward path.
-fast_ai_end_turn_skip_animations false
+fast_ai_end_turn_skip_animations true
 
 ; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
 ; every AI settlement's projected finance report during the yearly pass.
 fast_ai_end_turn_fast_economy true
+
+; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
+; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
+fast_ai_end_turn_diplomacy_candidate_limit 64
+
+; In level 2, cap confederation AI candidate checks per faction per turn.
+; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
+fast_ai_end_turn_confederation_candidate_limit 24
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -107,11 +115,11 @@ unlimited_superfactions_enable true
 
 ; Naval blockade trade-route raiding.
 naval_trade_route_raiding_enable true
-naval_trade_route_raiding_income_percent 10.0
+naval_trade_route_raiding_income_percent 50.0
 
 ; Settlement UI/display increments.
-population_growth_increment 0.09
-income_growth_increment 2.1
+population_growth_increment 0.1
+income_growth_increment 2.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -151,13 +159,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 150
+max_age_before_death 127
 
 ; Age the random old-age death check begins (default 60)
-old_age 150
+old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 150
+max_age 120
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
