@@ -2729,7 +2729,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 120, 100, 20, 20, 120
-ownership        parthia, pontus, armenia, slave, kos_01
+ownership        parthia, pontus, armenia, slave, kos_01, thamud_01
 
 type             east peltast
 dictionary       east_peltast      ; Peltasts
@@ -2754,7 +2754,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        pontus, armenia
+ownership        pontus, armenia, thamud_01
 
 type             east slinger
 dictionary       east_slinger      ; Slingers
@@ -2802,7 +2802,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        parthia, pontus, armenia, slave, kos_01
+ownership        parthia, pontus, armenia, slave, kos_01, thamud_01
 
 type             east hillmen
 dictionary       east_hillmen      ; Hillmen
@@ -2826,7 +2826,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 170, 30, 50, 290
-ownership        parthia, pontus, armenia
+ownership        parthia, pontus, armenia, thamud_01
 
 type             east infantry
 dictionary       east_infantry      ; Eastern Infantry
@@ -2850,7 +2850,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 150, 40, 50, 330
-ownership        parthia, pontus, armenia, seleucid, slave, kos_01
+ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01
 
 type             east heavy infantry
 dictionary       east_heavy_infantry      ; Heavy Spearmen
@@ -2875,7 +2875,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 170, 50, 70, 460
-ownership        armenia
+ownership        armenia, thamud_01
 
 type             east hoplite
 dictionary       east_hoplite      ; Phalanx Pikemen
@@ -3131,7 +3131,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 110, 50, 70, 440
-ownership        parthia, armenia, slave
+ownership        parthia, armenia, slave, thamud_01
 
 type             east camel cataphract
 dictionary       east_camel_cataphract      ; Cataphract Camels
@@ -3261,7 +3261,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 960, 80, 100, 150, 960
-ownership        parthia, pontus, armenia, slave
+ownership        parthia, pontus, armenia, slave, thamud_01
 
 type             east generals cavalry
 dictionary       east_generals_cavalry      ; Armoured Eastern General

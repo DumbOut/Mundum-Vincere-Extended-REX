@@ -22,15 +22,36 @@ MODULAR HEADER:
 faction: <FACTION_NAME>
 culture: <CULTURE_NAME>
 
-Example:
-faction:caledonia_01
-culture: barbarian
+The faction in question:
 
-ONLY REGIONS TO OCCUPY:
-Eydin_R
+faction: thamud_01
+culture: eastern
+
+ONLY REGIONS TO OCCUPY no others:
+Hegra_R
 
 standard_index				38
-and symbol_slaves must be used
+
+correct example: for descr_sm_factions.txt
+
+faction						cisra_01
+culture						roman
+symbol						models_strat/symbol_slaves.CAS
+rebel_symbol				models_strat/symbol_slaves.CAS  
+primary_colour				red 124, green 108, blue 4
+secondary_colour			red 170, green 157, blue 187
+loading_logo				loading_screen/symbols/symbol128_cisra_01.tga
+standard_index				38
+logo_index					FACTION_LOGO_CISRA_01
+small_logo_index			SMALL_FACTION_LOGO_CISRA_01
+triumph_value				5
+intro_movie					fmv/intros/julii_intro_final.wmv
+victory_movie				fmv/victory/julii_outro_320x240.wmv
+defeat_movie				fmv/lose/julii_eliminated.wmv
+death_movie					fmv/death/death_julii_grass_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
 
 try ujsing pre-existing settlement coordinates as a basis
 
@@ -40,7 +61,7 @@ Make them a client kingdom of the SPQR and have the spqr not attack them
 
 Give them 2 speciifc temples for local relevant mythical heroes/rulers/nobles or local deiites or cthonic gods
 
-Add temples 
+Add temples in export_descr_buildings, descr_ui_buildings.txt, and export_buildings strings
 
 make the entries in edb, ui_buildings, and the buildings strings
 
@@ -99,7 +120,7 @@ FILES TO EDIT (DATA FOLDER)
 - Add building banner entry referencing the same texture as battle banner.
 
 ### 4. descr_character.txt
-- Add faction to valid general/captain/spy/diplomat pools.
+- Add faction to valid general/captain/spy/diplomat pools. use sm_rebel_general for strat 
 
 ### 5. descr_lbc_db.txt
 - Add faction to the LBC block.
@@ -177,7 +198,9 @@ UI FILES TO CREATE
 
 Unit Pool, don't include un-necessary units or unrelated 
 
-Briton/Gallic mix
+Arabic/Eastern (Persian)/Egyptian mix
+
+Only use pre-existing units
 
 Make an extremely detailed namelists and export to names.txt at the bottom foolow convention, 50 names for men, women, and surnames each (use  or accurate endonyms like id or idae for surnames that are eastern or greek)
 
@@ -198,14 +221,16 @@ small_logo_index
 
 replace these too
 
-Also generate an extremely detailed faction description including tons of real world history and mythic/folklore data if needed - 22 paragrpahs
+Also generate an extremely detailed faction description including tons of real world history up until 270 bc and mythic/folklore data if needed - 32 paragrpahs
 
 Don't add ; loc notes in /text strings files
 
+crlf 
 
+Make sure to add the faction to the playable section in ds
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: caledonia_01
-culture: barbarian
+faction: thamud_01
+culture: eastern
 -----------------------------------------

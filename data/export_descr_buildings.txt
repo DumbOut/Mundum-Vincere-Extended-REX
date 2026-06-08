@@ -21,7 +21,7 @@ building core_building
                 recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "roman peasant"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, } 
@@ -49,8 +49,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
@@ -112,8 +112,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
@@ -175,8 +175,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
@@ -238,8 +238,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
@@ -4834,7 +4834,7 @@ building temple_of_diktynna_itanos
                 temple_of_diktynna_itanos_pantheon
             }
         }
-        temple_of_diktynna_itanos_pantheon requires factions { itanos_01, } 
+        temple_of_diktynna_itanos_pantheon requires factions { itanos_01, }
         {
             capability
             {
@@ -4843,15 +4843,195 @@ building temple_of_diktynna_itanos
                 trade_base_income_bonus bonus 4
                 population_health_bonus bonus 1
             }
-            construction  6 
-            cost  7020 
+            construction  6
+            cost  7020
             settlement_min huge_city
             upgrades
             {
             }
         }
     }
-    plugins 
+    plugins
     {
     }
 }
+
+;; thamud_01 START
+building temple_of_dushara_thamud
+{
+    levels temple_of_dushara_thamud_shrine temple_of_dushara_thamud_temple temple_of_dushara_thamud_large_temple temple_of_dushara_thamud_awesome_temple temple_of_dushara_thamud_pantheon
+    {
+        temple_of_dushara_thamud_shrine requires factions { thamud_01, }
+        {
+            capability
+            {
+                law_bonus bonus 1
+                trade_base_income_bonus bonus 1
+            }
+            construction  1
+            cost  400
+            settlement_min town
+            upgrades
+            {
+                temple_of_dushara_thamud_temple
+            }
+        }
+        temple_of_dushara_thamud_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                law_bonus bonus 2
+                trade_base_income_bonus bonus 2
+            }
+            construction  2
+            cost  800
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_dushara_thamud_large_temple
+            }
+        }
+        temple_of_dushara_thamud_large_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                law_bonus bonus 3
+                trade_base_income_bonus bonus 3
+            }
+            construction  3
+            cost  1500
+            settlement_min city
+            upgrades
+            {
+                temple_of_dushara_thamud_awesome_temple
+            }
+        }
+        temple_of_dushara_thamud_awesome_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                law_bonus bonus 4
+                trade_base_income_bonus bonus 4
+            }
+            construction  5
+            cost  3200
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_dushara_thamud_pantheon
+            }
+        }
+        temple_of_dushara_thamud_pantheon requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 5
+                law_bonus bonus 5
+                trade_base_income_bonus bonus 5
+                population_health_bonus bonus 1
+            }
+            construction  6
+            cost  7020
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins
+    {
+    }
+}
+
+building temple_of_allat_thamud
+{
+    levels temple_of_allat_thamud_shrine temple_of_allat_thamud_temple temple_of_allat_thamud_large_temple temple_of_allat_thamud_awesome_temple temple_of_allat_thamud_pantheon
+    {
+        temple_of_allat_thamud_shrine requires factions { thamud_01, }
+        {
+            capability
+            {
+                recruits_morale_bonus bonus 1
+                weapon_bonus bonus 1
+            }
+            construction  1
+            cost  400
+            settlement_min town
+            upgrades
+            {
+                temple_of_allat_thamud_temple
+            }
+        }
+        temple_of_allat_thamud_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 1
+                recruits_morale_bonus bonus 2
+                weapon_bonus bonus 1
+            }
+            construction  2
+            cost  800
+            settlement_min large_town
+            upgrades
+            {
+                temple_of_allat_thamud_large_temple
+            }
+        }
+        temple_of_allat_thamud_large_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 2
+                recruits_morale_bonus bonus 3
+                weapon_bonus bonus 2
+            }
+            construction  3
+            cost  1500
+            settlement_min city
+            upgrades
+            {
+                temple_of_allat_thamud_awesome_temple
+            }
+        }
+        temple_of_allat_thamud_awesome_temple requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 3
+                recruits_morale_bonus bonus 4
+                weapon_bonus bonus 2
+            }
+            construction  5
+            cost  3200
+            settlement_min large_city
+            upgrades
+            {
+                temple_of_allat_thamud_pantheon
+            }
+        }
+        temple_of_allat_thamud_pantheon requires factions { thamud_01, }
+        {
+            capability
+            {
+                happiness_bonus bonus 4
+                recruits_morale_bonus bonus 5
+                weapon_bonus bonus 3
+                armour_bonus bonus 1
+            }
+            construction  6
+            cost  7020
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins
+    {
+    }
+}
+;; thamud_01 END

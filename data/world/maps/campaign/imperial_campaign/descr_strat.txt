@@ -28,6 +28,7 @@ playable
 	itanos_01
 	kos_01
 	cisra_01
+	thamud_01
 end
 unlockable
 end
@@ -13195,6 +13196,69 @@ character_record		Tanaquil, 	female, command 0, influence 1, management 1, subte
 
 relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 
+
+;; thamud_01 START
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	thamud_01,
+denari	8000
+settlement
+{
+	level town
+	region Hegra_R
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator thamud_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type temple_of_dushara_thamud temple_of_dushara_thamud_shrine
+	}
+}
+
+;	Hegra
+character	Malik Salih ibn Dathan, named character, leader, age 45, , x 482, y 325
+traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Hegra
+character	Qaydar ibn Salih, named character, heir, age 22, , x 483, y 325
+traits GoodCommander 1 , GoodAdministrator 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Hegra
+character	Radif ibn Hawmal, diplomat, age 35, , x 484, y 326
+traits GoodDiplomat 2
+
+;	Outside Hegra
+character	Waddah al-Zariq, spy, age 27, , x 481, y 324
+traits GoodSpy 1
+
+character_record		Malik Salih ibn Dathan, 	male, command 2, influence 2, management 2, subterfuge 0, age 45, alive, never_a_leader
+character_record		Qaydar ibn Salih, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
+character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
+character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+
+relative 	Malik Salih ibn Dathan, 	Labna,		Qaydar ibn Salih,	Hind,	end
+
+;; thamud_01 END
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -31838,7 +31902,7 @@ settlement
 	year_founded 0
 	population 700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator thamud_01
 	building
 	{
 		type core_building governors_house
@@ -50738,6 +50802,13 @@ core_attitudes	romans_senate, 	-10		cisra_01
 core_attitudes	romans_senate,	600		slave
 core_attitudes	cisra_01,		-10		romans_julii, romans_brutii, romans_scipii, romans_senate
 core_attitudes	cisra_01,		600		slave
+;; thamud_01
+core_attitudes	romans_julii,	100		thamud_01
+core_attitudes	romans_brutii,	100		thamud_01
+core_attitudes	romans_scipii,	100		thamud_01
+core_attitudes	romans_senate,	100		thamud_01
+core_attitudes	thamud_01,		100		romans_julii, romans_brutii, romans_scipii, romans_senate
+core_attitudes	thamud_01,		600		slave
 core_attitudes	macedon,		90		romans_brutii
 core_attitudes	macedon,		600		slave
 core_attitudes	egypt,		410		numidia
@@ -50790,7 +50861,7 @@ core_attitudes	qin_01,		600		slave
 ;core_attitudes	aedui_01,			600		slave
 ;core_attitudes	allobroges_01,		600		slave
 ;core_attitudes	bituriges_01,		600		slave
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, thamud_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace, massilia_01,; caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 
 faction_relationships	romans_julii,		100		romans_brutii
 faction_relationships	romans_julii, 		100		romans_scipii
@@ -50811,6 +50882,14 @@ faction_relationships	romans_senate,		0		cisra_01
 faction_relationships	cisra_01,		0		romans_senate
 faction_relationships	cisra_01,		100		romans_julii, romans_brutii, romans_scipii
 faction_relationships	cisra_01,		600		slave
+;; thamud_01
+faction_relationships	romans_julii,		100		thamud_01
+faction_relationships	romans_brutii,		100		thamud_01
+faction_relationships	romans_scipii,		100		thamud_01
+faction_relationships	romans_senate,		0		thamud_01
+faction_relationships	thamud_01,		0		romans_senate
+faction_relationships	thamud_01,		100		romans_julii, romans_brutii, romans_scipii
+faction_relationships	thamud_01,		600		slave
 faction_relationships	macedon,			600		slave
 faction_relationships	egypt,			600		slave
 faction_relationships	seleucid,			600		slave

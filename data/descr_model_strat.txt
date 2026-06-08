@@ -101,6 +101,8 @@ texture				massilia_01, data/models_strat/textures/diplomat_slave.tga
 texture				itanos_01, data/models_strat/textures/diplomat_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/diplomat_slave.tga
+;; thamud_01
+texture				thamud_01, data/models_strat/textures/diplomat_slave.tga
 model_flexi_m		data/models_strat/diplomat.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_diplomat.cas, max
 
@@ -146,6 +148,8 @@ texture				massilia_01, data/models_strat/textures/spy_slave.tga
 texture				itanos_01, data/models_strat/textures/spy_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/spy_slave.tga
+;; thamud_01
+texture				thamud_01, data/models_strat/textures/spy_slave.tga
 texture				qin_01, mve_rex/data/models_strat/textures/BI_strat_spy_qin_01.tga
 texture				slave, data/models_strat/textures/spy_slave.tga
 model_flexi_m		data/models_strat/spy.cas, max
@@ -187,6 +191,8 @@ texture				massilia_01, data/models_strat/textures/assassin_slave.tga
 texture				itanos_01, data/models_strat/textures/assassin_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/assassin_slave.tga
+;; thamud_01
+texture				thamud_01, data/models_strat/textures/assassin_slave.tga
 texture				qin_01, data/models_strat/textures/assassin_slave.tga
 model_flexi			data/models_strat/assassin.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
@@ -289,6 +295,8 @@ indiv_range			40
 texture				parthia, data/models_unit/textures/officer_eastern_general_parthia.TGA
 texture				pontus, data/models_unit/textures/officer_eastern_general_pontus.TGA
 texture				armenia, data/models_unit/textures/officer_eastern_general_armenia.TGA
+;; thamud_01
+texture				thamud_01, data/models_unit/textures/officer_eastern_general_parthia.TGA
 model_flexi_m		data/models_unit/officer_eastern_general_high.CAS, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -300,6 +308,8 @@ indiv_range			40
 texture				parthia, data/models_strat/textures/unit_eastern_crew_parthia.tga
 texture				pontus, data/models_strat/textures/unit_eastern_crew_pontus.tga
 texture				armenia, data/models_strat/textures/unit_eastern_crew_armenia.tga
+;; thamud_01
+texture				thamud_01, data/models_strat/textures/unit_eastern_crew_parthia.tga
 model_flexi			data/models_strat/strat_eastern_lesser_general.CAS, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -580,6 +590,8 @@ texture				itanos_01, data/models_strat/textures/navy_slave.tga
 texture				kos_01, data/models_strat/textures/navy_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_strat/textures/navy_slave.tga
+;; thamud_01
+texture				thamud_01, data/models_strat/textures/navy_slave.tga
 model_flexi			data/models_strat/navy_roman.cas, max
 shadow_model_flexi	data/models_strat/navy_roman_shadow.cas, max
 
