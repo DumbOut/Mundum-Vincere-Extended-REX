@@ -1,0 +1,13 @@
+; Settlement endonym table for rename_settlement_endonym <settlement_label>
+;
+; Format:
+; settlement_endonym <settlement_label_or_region_label> faction <faction_name> <display name>
+; settlement_endonym <settlement_label_or_region_label> culture <culture_name> <display name>
+;
+; Faction rows have priority. Culture rows are used as a fallback when no
+; faction-specific row exists for the current owner.
+;
+; Examples:
+; settlement_endonym Arretium faction romans_julii Arretium
+; settlement_endonym Arretium culture barbarian Areton
+; endonym Londinium faction britons Llundain

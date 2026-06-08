@@ -2482,6 +2482,102 @@
       </Parameters>
       <object_id>empty_push_button</object_id>
     </UI piece>
+    <UI piece>new_game_mp_campaign
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>256</x>
+        <y>510</y>
+        <width>512</width>
+        <height>38</height>
+        <menu_id>mp_campaign_setup</menu_id>
+        <UI text>UI_NEW_GAME_MULTIPLAYER_CAMPAIGN
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_NEW_GAME_MULTIPLAYER_CAMPAIGN_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>mp_campaign_setup
+    <UI piece>mp_campaign_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>257</x>
+        <y>45</y>
+        <width>512</width>
+        <height>38</height>
+        <UI text>UI_MULTIPLAYER_CAMPAIGN_TITLE
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mp_campaign_gold_bar
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>336</x>
+        <y>96</y>
+        <width>348</width>
+        <height>5</height>
+      </Parameters>
+      <object_id>gold_bar</object_id>
+    </UI piece>
+    <UI piece>mp_campaign_description
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>257</x>
+        <y>120</y>
+        <width>512</width>
+        <height>80</height>
+        <UI text>UI_MULTIPLAYER_CAMPAIGN_DESCRIPTION
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mp_campaign_start_button
+      <identifier>UIP_MP_CAMPAIGN_LAUNCH</identifier>
+      <Parameters>
+        <x>257</x>
+        <y>320</y>
+        <width>512</width>
+        <height>38</height>
+        <UI text>UI_MP_CAMPAIGN_START
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MP_CAMPAIGN_START_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>mp_campaign_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>130</x>
+        <y>725</y>
+        <width>768</width>
+        <height>26</height>
+        <UI text>EMPTY_TEXT
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mp_campaign_arrow_return
+      <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>10</x>
+        <y>715</y>
+        <width>41</width>
+        <height>46</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>arrow_return</object_id>
+    </UI piece>
   </lpage>
   <lpage>background
     <UI piece>backdrop
@@ -5722,6 +5818,22 @@
       </Parameters>
       <object_id>empty_push_button</object_id>
     </UI piece>
+    <UI piece>mp_campaign_nav
+      <identifier>UIP_MENU_BUTTON</identifier>
+      <Parameters>
+        <x>256</x>
+        <y>256</y>
+        <width>512</width>
+        <height>38</height>
+        <menu_id>mp_campaign_lan_lobby</menu_id>
+        <UI text>UI_MP_CAMPAIGN_LOBBY
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MP_CAMPAIGN_LOBBY_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
     <UI piece>multiplayer_info
       <identifier>UIP_STATIC_TOOLTIP</identifier>
       <Parameters>
@@ -5734,6 +5846,203 @@
     </UI piece>
     <UI piece>multiplayer_arrow_return
       <identifier>UIP_BACK_BUTTON</identifier>
+      <Parameters>
+        <x>10</x>
+        <y>715</y>
+        <width>41</width>
+        <height>46</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>mp_campaign_lan_lobby
+    <UI piece>mpclan_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>293</x>
+        <y>43</y>
+        <width>454</width>
+        <height>38</height>
+        <UI text>UI_MP_CAMPAIGN_LOBBY_TITLE
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpclan_gold_bar
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>337</x>
+        <y>95</y>
+        <width>348</width>
+        <height>6</height>
+      </Parameters>
+      <object_id>gold_bar</object_id>
+    </UI piece>
+    <UI piece>mpclan_game_list
+      <identifier>UIP_MP_CAMPAIGN_SESSION_LIST</identifier>
+      <Parameters>
+        <x>62</x>
+        <y>160</y>
+        <width>898</width>
+        <height>375</height>
+      </Parameters>
+      <object_id>game_list_button1</object_id>
+    </UI piece>
+    <UI piece>mpclan_host
+      <identifier>UIP_MP_CAMPAIGN_HOST</identifier>
+      <Parameters>
+        <x>910</x>
+        <y>681</y>
+        <width>37</width>
+        <height>69</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_HOST_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>server_create</object_id>
+    </UI piece>
+    <UI piece>mpclan_join
+      <identifier>UIP_MP_CAMPAIGN_JOIN</identifier>
+      <Parameters>
+        <x>851</x>
+        <y>694</y>
+        <width>30</width>
+        <height>56</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_JOIN_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>server_join</object_id>
+    </UI piece>
+    <UI piece>mpclan_refresh
+      <identifier>UIP_LAN_GAME_REFRESH</identifier>
+      <Parameters>
+        <x>968</x>
+        <y>711</y>
+        <width>36</width>
+        <height>40</height>
+        <tool_tip_id>UI_MP_LAN_SERVER_REFRESH</tool_tip_id>
+      </Parameters>
+      <object_id>server_refresh</object_id>
+    </UI piece>
+    <UI piece>mpclan_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>240</x>
+        <y>727</y>
+        <width>545</width>
+        <height>26</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpclan_arrow_return
+      <identifier>UIP_MP_CAMPAIGN_LOBBY_EXIT</identifier>
+      <Parameters>
+        <x>11</x>
+        <y>715</y>
+        <width>41</width>
+        <height>46</height>
+        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>arrow_return</object_id>
+    </UI piece>
+  </lpage>
+  <lpage>mp_campaign_waiting_room
+    <UI piece>mpwr_title
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>293</x>
+        <y>43</y>
+        <width>454</width>
+        <height>38</height>
+        <UI text>UI_MP_CAMPAIGN_WAITING_ROOM_TITLE
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_gold_bar
+      <identifier>UIP_EMPTY_ART</identifier>
+      <Parameters>
+        <x>337</x>
+        <y>95</y>
+        <width>348</width>
+        <height>6</height>
+      </Parameters>
+      <object_id>gold_bar</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_list
+      <identifier>UIP_MP_CAMPAIGN_PLAYER_LIST</identifier>
+      <Parameters>
+        <x>62</x>
+        <y>160</y>
+        <width>600</width>
+        <height>400</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_ready_toggle
+      <identifier>UIP_MP_CAMPAIGN_READY_TOGGLE</identifier>
+      <Parameters>
+        <x>700</x>
+        <y>580</y>
+        <width>180</width>
+        <height>38</height>
+        <UI text>UI_MP_CAMPAIGN_READY_LABEL
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MP_CAMPAIGN_READY_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>mpwr_start
+      <identifier>UIP_MP_CAMPAIGN_START</identifier>
+      <Parameters>
+        <x>700</x>
+        <y>640</y>
+        <width>180</width>
+        <height>38</height>
+        <UI text>UI_MP_CAMPAIGN_START_GAME
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+        <tool_tip_id>UI_MP_CAMPAIGN_START_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_push_button</object_id>
+    </UI piece>
+    <UI piece>mpwr_chat
+      <identifier>UIP_LOBBY_CHAT_LIST</identifier>
+      <Parameters>
+        <x>62</x>
+        <y>570</y>
+        <width>580</width>
+        <height>100</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_chat_box
+      <identifier>UIP_LOBBY_CHAT_MESSAGE</identifier>
+      <Parameters>
+        <x>62</x>
+        <y>680</y>
+        <width>580</width>
+        <height>25</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_info
+      <identifier>UIP_STATIC_TOOLTIP</identifier>
+      <Parameters>
+        <x>128</x>
+        <y>727</y>
+        <width>769</width>
+        <height>26</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_leave
+      <identifier>UIP_MP_CAMPAIGN_LOBBY_EXIT</identifier>
       <Parameters>
         <x>10</x>
         <y>715</y>

@@ -1,0 +1,16 @@
+; Custom climate aliases for REX/descr_ex.
+;
+; climate <custom_climate_name> <base_vanilla_climate>
+; map_colour <custom_climate_name> red <0-255> green <0-255> blue <0-255>
+;
+; The climate line lets parsers and descr_climates.txt accept a custom name and
+; route it to a vanilla battlefield climate. The map_colour line lets
+; map_climates.tga use a custom pixel colour that resolves to the same base
+; climate.
+;
+; Examples:
+; climate arabian_desert sandy_desert
+; map_colour arabian_desert red 218 green 186 blue 92
+;
+; climate nile_delta temperate_grassland_fertile
+; map_colour nile_delta red 82 green 142 blue 95

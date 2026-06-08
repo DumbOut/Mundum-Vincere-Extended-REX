@@ -72,7 +72,7 @@ free_upkeep_cheap_first true
 ; 0 = full AI, 1 = skip AI movement controllers, 2 = full AI with instant movement/conquest.
 ; Level 2 keeps AI conquest/movement logic but skips visual waiting and uses fast economy caches
 ; for very large REX campaigns.
-fast_ai_end_turn_level 0
+fast_ai_end_turn_level 2
 
 ; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
 fast_ai_end_turn_keep_diplomacy true
@@ -86,11 +86,11 @@ fast_ai_end_turn_fast_economy true
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
 ; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 4
+fast_ai_end_turn_diplomacy_candidate_limit 12
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
 ; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 2
+fast_ai_end_turn_confederation_candidate_limit 8
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -107,19 +107,43 @@ hide_ui_hotkey_enable true
 ; Diplomacy.
 confederate_diplomacy_enable true
 dynastic_princess_enable true
+dynastic_princess_all_unmarried_females true
 
 ; Campaign mechanics.
 neutral_common_enemy_battles_enable true
 secondary_sack_options_enable true
 unlimited_superfactions_enable true
+client_kingdom_only_units_enable true
+regional_revolt_faction_enable true
+custom_climates_enable true
+tertiary_faction_colour_enable true
+
+; Multiplayer campaign. Enable this to start the RTW Multiplayer Campaign
+; framework from the normal imperial campaign flow. If multiplayer_campaign.json
+; is enabled, only its listed factions become human; otherwise playable factions
+; are used for a hotseat fallback.
+multiplayer_campaign_enabled true
+multiplayer_campaign_max_players 10
+multiplayer_campaign_debug_logs false
+multiplayer_campaign_checksums false
+multiplayer_campaign_allow_multi_faction_player true
+multiplayer_campaign_autoresolve_hvh_battles false
+multiplayer_campaign_dedicated_server false
+multiplayer_campaign_listen_server true
+multiplayer_campaign_allow_spectators true
+
+; Battle lobby/player cap for RTW multiplayer battles. The compiled ceiling is
+; MAX_FACTIONS_PER_BATTLE.
+multiplayer_battle_max_players 12
 
 ; Naval blockade trade-route raiding.
 naval_trade_route_raiding_enable true
-naval_trade_route_raiding_income_percent 10.0
+naval_trade_route_raiding_income_percent 5.0
+naval_trade_route_raiding_income_cap 20.0
 
 ; Settlement UI/display increments.
-population_growth_increment 1.04
-income_growth_increment 6.4
+population_growth_increment 0.1
+income_growth_increment 2.3
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -145,13 +169,32 @@ bribe_cost_settlement 1.0
 horde_enable true
 
 ; Initial XP for horde units (0-9, default 0)
-horde_initial_xp 1
+horde_initial_xp 0
 
 ; Initial armor upgrade level for horde units (0-3, default 0)
 horde_initial_armor 0
 
 ; Initial weapon upgrade level for horde units (0-3, default 0)
 horde_initial_weapon 0
+
+; Allow descr_strat horde_spawn_center / horde_spawn_fleet_start to place
+; hordes around scripted coordinates instead of only falling back to map-edge
+; style starts. Per-faction radius in descr_strat overrides this default.
+horde_spawn_anywhere_enable true
+horde_spawn_radius 4
+horde_fleet_spawn_enable true
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Settlement upgrade population overrides
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; 0 keeps the settlement level's vanilla descr_cultures.txt threshold.
+settlement_upgrade_population_village 0
+settlement_upgrade_population_town 0
+settlement_upgrade_population_large_town 0
+settlement_upgrade_population_city 0
+settlement_upgrade_population_large_city 0
+settlement_upgrade_population_huge_city 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Family / character ageing
@@ -162,10 +205,10 @@ horde_initial_weapon 0
 max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
-old_age 60
+old_age 150
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 150
+max_age 110
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -198,7 +241,7 @@ max_adoption_age 30
 max_age_for_conception 150
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 128
+max_num_ancillaries 256
 
 ; Max children a character can have (default 4)
 max_num_children 400
