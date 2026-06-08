@@ -13228,7 +13228,7 @@ settlement
 }
 
 ;	Hegra
-character	Malik Salih ibn Dathan, named character, leader, age 45, , x 482, y 325
+character	Malik Salih ibn Dathan, named character, leader, age 45, , x 483, y 322
 traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -13237,7 +13237,7 @@ unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Hegra
-character	Qaydar ibn Salih, named character, heir, age 22, , x 483, y 325
+character	Qaydar ibn Salih, named character, heir, age 22, , x 483, y 323
 traits GoodCommander 1 , GoodAdministrator 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -31897,25 +31897,6 @@ settlement
 settlement
 {
 	level town
-	region Hegra_R
-
-	year_founded 0
-	population 700
-	plan_set default_set
-	faction_creator thamud_01
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
 	region Eboda_R
 
 	year_founded 0
@@ -41224,19 +41205,6 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ;	Tema
 character,	sub_faction numidia, Tabat, general, age 20, , x 488, y 333
-
-army
-unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-
-;	Hegra
-character,	sub_faction numidia, Tabat, general, age 20, , x 483, y 322
 
 army
 unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
@@ -50803,11 +50771,6 @@ core_attitudes	romans_senate,	600		slave
 core_attitudes	cisra_01,		-10		romans_julii, romans_brutii, romans_scipii, romans_senate
 core_attitudes	cisra_01,		600		slave
 ;; thamud_01
-core_attitudes	romans_julii,	100		thamud_01
-core_attitudes	romans_brutii,	100		thamud_01
-core_attitudes	romans_scipii,	100		thamud_01
-core_attitudes	romans_senate,	100		thamud_01
-core_attitudes	thamud_01,		100		romans_julii, romans_brutii, romans_scipii, romans_senate
 core_attitudes	thamud_01,		600		slave
 core_attitudes	macedon,		90		romans_brutii
 core_attitudes	macedon,		600		slave
@@ -50882,13 +50845,6 @@ faction_relationships	romans_senate,		0		cisra_01
 faction_relationships	cisra_01,		0		romans_senate
 faction_relationships	cisra_01,		100		romans_julii, romans_brutii, romans_scipii
 faction_relationships	cisra_01,		600		slave
-;; thamud_01
-faction_relationships	romans_julii,		100		thamud_01
-faction_relationships	romans_brutii,		100		thamud_01
-faction_relationships	romans_scipii,		100		thamud_01
-faction_relationships	romans_senate,		0		thamud_01
-faction_relationships	thamud_01,		0		romans_senate
-faction_relationships	thamud_01,		100		romans_julii, romans_brutii, romans_scipii
 faction_relationships	thamud_01,		600		slave
 faction_relationships	macedon,			600		slave
 faction_relationships	egypt,			600		slave

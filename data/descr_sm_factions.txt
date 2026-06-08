@@ -564,15 +564,13 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; thamud_01 START
 faction						thamud_01
 culture						eastern
 symbol						models_strat/symbol_slaves.CAS
 rebel_symbol				models_strat/symbol_eastern_rebel.CAS
-primary_colour				red 194, green 155, blue 60
-secondary_colour			red 160, green 50, blue 35
-loading_logo				loading_screen/symbols/symbol128_slave.tga
+primary_colour				red 154, green 183, blue 140
+secondary_colour			red 211, green 199, blue 84
+loading_logo				loading_screen/symbols/symbol128_thamud_01.tga
 standard_index				38
 logo_index					FACTION_LOGO_THAMUD_01
 small_logo_index			SMALL_FACTION_LOGO_THAMUD_01
@@ -585,4 +583,3 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; thamud_01 END
