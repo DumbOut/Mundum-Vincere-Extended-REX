@@ -32,7 +32,7 @@ Hegra_R
 
 standard_index				38
 
-correct example: for descr_sm_factions.txt
+ example: for descr_sm_factions.txt
 
 faction						cisra_01
 culture						roman
@@ -56,8 +56,6 @@ prefers_naval_invasions		no
 try ujsing pre-existing settlement coordinates as a basis
 
 Specs:
-
-Make them a client kingdom of the SPQR and have the spqr not attack them
 
 Give them 2 speciifc temples for local relevant mythical heroes/rulers/nobles or local deiites or cthonic gods
 
@@ -198,7 +196,7 @@ UI FILES TO CREATE
 
 Unit Pool, don't include un-necessary units or unrelated 
 
-Arabic/Eastern (Persian)/Egyptian mix
+Roman/Greek/Gallic mix
 
 Only use pre-existing units
 
@@ -223,7 +221,7 @@ replace these too
 
 Also generate an extremely detailed faction description including tons of real world history up until 270 bc and mythic/folklore data if needed - 32 paragrpahs
 
-Don't add ; loc notes in /text strings files
+Don't add ; loc notes in any files besides descr_strat
 
 crlf 
 
@@ -231,6 +229,6 @@ Make sure to add the faction to the playable section in ds
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: thamud_01
-culture: eastern
+faction: ravenna_01
+culture: roman
 -----------------------------------------
