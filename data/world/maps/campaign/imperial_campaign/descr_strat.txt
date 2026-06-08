@@ -13237,28 +13237,26 @@ unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Hegra
-character	Qaydar ibn Salih, named character, heir, age 22, , x 483, y 323
+character	Qaydar Salih ibn Dathan, named character, heir, age 22, , x 483, y 323
 traits GoodCommander 1 , GoodAdministrator 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 
 ;	Outside Hegra
-character	Radif ibn Hawmal, diplomat, age 35, , x 484, y 326
+character	Radif, diplomat, age 35, , x 484, y 326
 traits GoodDiplomat 2
 
 ;	Outside Hegra
-character	Waddah al-Zariq, spy, age 27, , x 481, y 324
+character	Waddah, spy, age 27, , x 481, y 324
 traits GoodSpy 1
 
 character_record		Malik Salih ibn Dathan, 	male, command 2, influence 2, management 2, subterfuge 0, age 45, alive, never_a_leader
-character_record		Qaydar ibn Salih, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
+character_record		Qaydar Salih ibn Dathan, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
 character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
 character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
 
-relative 	Malik Salih ibn Dathan, 	Labna,		Qaydar ibn Salih,	Hind,	end
-
-;; thamud_01 END
+relative 	Malik Salih ibn Dathan, 	Labna,		Qaydar Salih ibn Dathan,	Hind,	end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
