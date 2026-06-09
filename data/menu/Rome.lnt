@@ -6238,10 +6238,41 @@
       </Parameters>
       <object_id>check_small</object_id>
     </UI piece>
+    <UI piece>mpwr_faction_map
+      <identifier>UIP_SELECT_FACTION_MAP</identifier>
+      <Parameters>
+        <x>805</x>
+        <y>150</y>
+        <width>190</width>
+        <height>136</height>
+        <tool_tip_id>tooltip_ex_faction_select_map</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_faction_name
+      <identifier>UIP_SELECT_FACTION_NAME</identifier>
+      <Parameters>
+        <x>805</x>
+        <y>296</y>
+        <width>190</width>
+        <height>26</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_faction_icon
+      <identifier>UIP_SELECT_FACTION_LEADER</identifier>
+      <Parameters>
+        <x>805</x>
+        <y>330</y>
+        <width>190</width>
+        <height>160</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
     <UI piece>mpwr_ready_toggle
       <identifier>UIP_MP_CAMPAIGN_READY_TOGGLE</identifier>
       <Parameters>
-        <x>700</x>
+        <x>610</x>
         <y>580</y>
         <width>180</width>
         <height>38</height>
@@ -6256,7 +6287,7 @@
     <UI piece>mpwr_start
       <identifier>UIP_MP_CAMPAIGN_START</identifier>
       <Parameters>
-        <x>700</x>
+        <x>610</x>
         <y>640</y>
         <width>180</width>
         <height>38</height>
@@ -6268,12 +6299,22 @@
       </Parameters>
       <object_id>empty_push_button</object_id>
     </UI piece>
+    <UI piece>mpwr_faction_info
+      <identifier>UIP_SELECT_FACTION_DESCRIPTION</identifier>
+      <Parameters>
+        <x>805</x>
+        <y>500</y>
+        <width>190</width>
+        <height>205</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
     <UI piece>mpwr_chat
       <identifier>UIP_LOBBY_CHAT_LIST</identifier>
       <Parameters>
         <x>62</x>
         <y>570</y>
-        <width>580</width>
+        <width>530</width>
         <height>100</height>
       </Parameters>
       <object_id>empty_art</object_id>
@@ -6283,7 +6324,7 @@
       <Parameters>
         <x>62</x>
         <y>680</y>
-        <width>580</width>
+        <width>530</width>
         <height>25</height>
       </Parameters>
       <object_id>empty_art</object_id>

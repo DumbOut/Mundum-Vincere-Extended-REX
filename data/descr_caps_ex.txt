@@ -59,7 +59,7 @@ sea_trade_max_mp             0
 ; fog_of_war_shroud - how unexplored campaign-map tiles are drawn:
 ;   black   = opaque black void over never-seen tiles, like M2 (default)
 ;   vanilla = the classic RTW lighter shroud
-fog_of_war_shroud  vanilla
+fog_of_war_shroud  black
 
 ; population_on_disband - when a unit is disbanded on a settlement of its own faction, hand its
 ; soldiers back to that settlement's population.

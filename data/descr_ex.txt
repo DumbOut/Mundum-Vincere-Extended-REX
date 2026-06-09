@@ -86,11 +86,11 @@ fast_ai_end_turn_fast_economy true
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
 ; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 12
+fast_ai_end_turn_diplomacy_candidate_limit 18
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
 ; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 8
+fast_ai_end_turn_confederation_candidate_limit 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -102,10 +102,11 @@ fast_ai_end_turn_confederation_candidate_limit 8
 ; Campaign faction-selection menu.
 faction_select_interactive_map_enable false
 faction_select_scrollbar_enable true
+faction_select_pharaoh_style_enable false ;; wip
 hide_ui_hotkey_enable true
 
 ; Diplomacy.
-confederate_diplomacy_enable true
+confederate_diplomacy_enable false
 dynastic_princess_enable true
 dynastic_princess_all_unmarried_females true
 
@@ -123,10 +124,10 @@ tertiary_faction_colour_enable true
 ; is enabled, only its listed factions become human; otherwise playable factions
 ; are used for a hotseat fallback.
 multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 10
+multiplayer_campaign_max_players 14
 multiplayer_campaign_debug_logs false
 multiplayer_campaign_checksums false
-multiplayer_campaign_allow_multi_faction_player false
+multiplayer_campaign_allow_multi_faction_player true
 multiplayer_campaign_autoresolve_hvh_battles false
 multiplayer_campaign_dedicated_server false
 multiplayer_campaign_listen_server true
@@ -134,16 +135,21 @@ multiplayer_campaign_allow_spectators true
 
 ; Battle lobby/player cap for RTW multiplayer battles. The compiled ceiling is
 ; MAX_FACTIONS_PER_BATTLE.
-multiplayer_battle_max_players 12
+multiplayer_battle_max_players 14
 
 ; Naval blockade trade-route raiding.
 naval_trade_route_raiding_enable true
-naval_trade_route_raiding_income_percent 5.0
-naval_trade_route_raiding_income_cap 20.0
+naval_trade_route_raiding_income_percent 10.0
+naval_trade_route_raiding_income_cap 100.0
 
 ; Settlement UI/display increments.
 population_growth_increment 0.1
-income_growth_increment 2.3
+income_growth_increment 2.5
+
+; Armor/weapon upgrade-cost multiplier for retraining.
+; Use one value for all cultures, or culture + value for a culture override.
+unit_upgrade_cost_multiplier 1.0
+; unit_upgrade_cost_multiplier eastern 1.25
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -205,10 +211,10 @@ settlement_upgrade_population_huge_city 0
 max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
-old_age 150
+old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 110
+max_age 150
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -238,7 +244,7 @@ min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 150
+max_age_for_conception 50
 
 ; Max ancillaries a single character can hold (default 8)
 max_num_ancillaries 256
