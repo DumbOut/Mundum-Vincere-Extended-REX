@@ -8253,25 +8253,26 @@ dictionary       greek_levy_pikemen_merc
 category         infantry
 class            spearmen
 voice_type       Light_1
-soldier          greek_levy_pikeman_merc, 60, 0, 2.8
-mount_effect     horse +5, camel +4, elephant +3
-attributes       sea_faring, hide_forest, can_sap, mercenary_unit, hardy
-formation        1, 1, 2, 2, 8, square,phalanx
+soldier          greek_levy_pikeman_merc, 60, 0, 2.5
+mount_effect     horse +3, camel +2, elephant +1
+attributes       sea_faring, hide_forest, can_sap, mercenary_unit
+formation        1.2, 1.2, 2, 2, 8, square, phalanx
 stat_health      1, 5
-stat_pri         14, 9, no, 0, 0, melee, blade, piercing, spear, 105 , 1
-stat_pri_attr    spear, long_pike, spear_bonus_12
-stat_sec         5, 2, no, 0, 0, melee, simple, piercing, sword, 75 , 1
+stat_pri         7, 3, no, 0, 0, melee, blade, piercing, spear, 35 ,0.6
+stat_pri_attr    light_spear, spear_bonus_6, long_pike
+stat_sec         5, 3, no, 0, 0, melee, simple, piercing, sword, 25 ,0.6
 stat_sec_attr    no
-stat_pri_armour  9, 10, 5, leather
-stat_sec_armour  0, 5, flesh
-stat_heat        0
-stat_ground      2, 0, 0, 0
-stat_mental      9, normal, highly_trained
-stat_charge_dist 2
+stat_pri_armour  4, 5, 2, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -2, -1, -4, -1
+stat_mental      7, normal, trained
+stat_charge_dist 25
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 730, 140, 70, 120, 730
+stat_cost        1, 430, 90, 50, 30, 430
 ownership        slave, greek_cities, egypt, seleucid, massilia_01
+
 
 type             barb infantry german
 dictionary       barb_infantry_german
