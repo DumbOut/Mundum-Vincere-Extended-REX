@@ -2482,102 +2482,6 @@
       </Parameters>
       <object_id>empty_push_button</object_id>
     </UI piece>
-    <UI piece>new_game_mp_campaign
-      <identifier>UIP_MENU_BUTTON</identifier>
-      <Parameters>
-        <x>256</x>
-        <y>510</y>
-        <width>512</width>
-        <height>38</height>
-        <menu_id>mp_campaign_setup</menu_id>
-        <UI text>UI_NEW_GAME_MULTIPLAYER_CAMPAIGN
-          <font_id>arial_split_CAF</font_id>
-          <align>centre</align>
-        </UI text>
-        <tool_tip_id>UI_NEW_GAME_MULTIPLAYER_CAMPAIGN_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_push_button</object_id>
-    </UI piece>
-  </lpage>
-  <lpage>mp_campaign_setup
-    <UI piece>mp_campaign_title
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>257</x>
-        <y>45</y>
-        <width>512</width>
-        <height>38</height>
-        <UI text>UI_MULTIPLAYER_CAMPAIGN_TITLE
-          <font_id>arial_split_CAF</font_id>
-          <align>centre</align>
-        </UI text>
-      </Parameters>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>mp_campaign_gold_bar
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>336</x>
-        <y>96</y>
-        <width>348</width>
-        <height>5</height>
-      </Parameters>
-      <object_id>gold_bar</object_id>
-    </UI piece>
-    <UI piece>mp_campaign_description
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>257</x>
-        <y>120</y>
-        <width>512</width>
-        <height>80</height>
-        <UI text>UI_MULTIPLAYER_CAMPAIGN_DESCRIPTION
-          <font_id>arial_split_CAF</font_id>
-          <align>centre</align>
-        </UI text>
-      </Parameters>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>mp_campaign_start_button
-      <identifier>UIP_MP_CAMPAIGN_LAUNCH</identifier>
-      <Parameters>
-        <x>257</x>
-        <y>320</y>
-        <width>512</width>
-        <height>38</height>
-        <UI text>UI_MP_CAMPAIGN_START
-          <font_id>arial_split_CAF</font_id>
-          <align>centre</align>
-        </UI text>
-        <tool_tip_id>UI_MP_CAMPAIGN_START_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>empty_push_button</object_id>
-    </UI piece>
-    <UI piece>mp_campaign_info
-      <identifier>UIP_STATIC_TOOLTIP</identifier>
-      <Parameters>
-        <x>130</x>
-        <y>725</y>
-        <width>768</width>
-        <height>26</height>
-        <UI text>EMPTY_TEXT
-          <font_id>arial_split_CAF</font_id>
-          <align>left</align>
-        </UI text>
-      </Parameters>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>mp_campaign_arrow_return
-      <identifier>UIP_BACK_BUTTON</identifier>
-      <Parameters>
-        <x>10</x>
-        <y>715</y>
-        <width>41</width>
-        <height>46</height>
-        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
-      </Parameters>
-      <object_id>arrow_return</object_id>
-    </UI piece>
   </lpage>
   <lpage>background
     <UI piece>backdrop
@@ -5819,7 +5723,7 @@
       <object_id>empty_push_button</object_id>
     </UI piece>
     <UI piece>mp_campaign_nav
-      <identifier>UIP_MENU_BUTTON</identifier>
+      <identifier>UIP_MULTIPLAYER_LAN</identifier>
       <Parameters>
         <x>256</x>
         <y>256</y>
@@ -5971,15 +5875,303 @@
       </Parameters>
       <object_id>gold_bar</object_id>
     </UI piece>
-    <UI piece>mpwr_player_list
-      <identifier>UIP_MP_CAMPAIGN_PLAYER_LIST</identifier>
+    <UI piece>mpwr_player_header
+      <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
-        <x>62</x>
-        <y>160</y>
-        <width>600</width>
-        <height>400</height>
+        <x>70</x>
+        <y>118</y>
+        <width>240</width>
+        <height>26</height>
+        <UI text>UI_MP_CAMPAIGN_PLAYER_COLUMN
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
       </Parameters>
       <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_faction_header
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>118</y>
+        <width>330</width>
+        <height>26</height>
+        <UI text>UI_MP_CAMPAIGN_FACTION_COLUMN
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_ready_header
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>720</x>
+        <y>118</y>
+        <width>100</width>
+        <height>26</height>
+        <UI text>UI_MP_CAMPAIGN_READY_COLUMN
+          <font_id>arial_split_CAF</font_id>
+          <align>centre</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_0
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>150</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_1
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>195</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_2
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>240</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_3
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>285</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_4
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>330</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_5
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>375</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_6
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>420</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_name_7
+      <identifier>UIP_LOBBY_PLAYER_NAME</identifier>
+      <Parameters>
+        <x>70</x>
+        <y>465</y>
+        <width>240</width>
+        <height>28</height>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_0
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>150</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_1
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>195</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_2
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>240</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_3
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>285</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_4
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>330</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_5
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>375</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_6
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>420</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_faction_7
+      <identifier>UIP_LOBBY_PLAYER_FACTION</identifier>
+      <Parameters>
+        <x>330</x>
+        <y>465</y>
+        <width>360</width>
+        <height>28</height>
+        <tool_tip_id>UI_MP_CAMPAIGN_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_0
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>154</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_1
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>199</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_2
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>244</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_3
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>289</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_4
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>334</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_5
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>379</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_6
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>424</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
+    </UI piece>
+    <UI piece>mpwr_player_ready_7
+      <identifier>UIP_LOBBY_PLAYER_READY</identifier>
+      <Parameters>
+        <x>760</x>
+        <y>469</y>
+        <width>20</width>
+        <height>20</height>
+        <tool_tip_id>UI_MP_LAN_LOBBY_PLAYER_READY</tool_tip_id>
+      </Parameters>
+      <object_id>check_small</object_id>
     </UI piece>
     <UI piece>mpwr_ready_toggle
       <identifier>UIP_MP_CAMPAIGN_READY_TOGGLE</identifier>
