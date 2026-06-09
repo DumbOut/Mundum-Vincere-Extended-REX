@@ -5785,13 +5785,53 @@
       </Parameters>
       <object_id>gold_bar</object_id>
     </UI piece>
+    <UI piece>mpclan_campaign_label
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>62</x>
+        <y>118</y>
+        <width>360</width>
+        <height>26</height>
+        <UI text>UI_IMPERIAL_CAMPAIGN_TITLE
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+        <tool_tip_id>UI_NEW_GAME_IMPERIAL_CAMPAIGN_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpclan_password_label
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>470</x>
+        <y>118</y>
+        <width>180</width>
+        <height>26</height>
+        <UI text>UI_MP_H_LAN_PASSWORD
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>mpclan_password_box
+      <identifier>UIP_HOST_PASSWORD</identifier>
+      <Parameters>
+        <x>470</x>
+        <y>140</y>
+        <width>300</width>
+        <height>28</height>
+        <tool_tip_id>UI_MULTIPLAYER_INFO_PASSWORD</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
     <UI piece>mpclan_game_list
       <identifier>UIP_MP_CAMPAIGN_SESSION_LIST</identifier>
       <Parameters>
         <x>62</x>
-        <y>160</y>
+        <y>185</y>
         <width>898</width>
-        <height>375</height>
+        <height>350</height>
       </Parameters>
       <object_id>game_list_button1</object_id>
     </UI piece>
