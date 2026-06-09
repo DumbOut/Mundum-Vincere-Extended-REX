@@ -6260,10 +6260,10 @@
       <object_id>empty_art</object_id>
     </UI piece>
     <UI piece>mpwr_faction_icon
-      <identifier>UIP_SELECT_FACTION_LEADER</identifier>
+      <identifier>UIP_SELECT_FACTION_SYMBOL</identifier>
       <Parameters>
         <x>805</x>
-        <y>330</y>
+        <y>352</y>
         <width>190</width>
         <height>160</height>
       </Parameters>
@@ -6298,16 +6298,6 @@
         <tool_tip_id>UI_MP_CAMPAIGN_START_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_push_button</object_id>
-    </UI piece>
-    <UI piece>mpwr_faction_info
-      <identifier>UIP_SELECT_FACTION_DESCRIPTION</identifier>
-      <Parameters>
-        <x>805</x>
-        <y>500</y>
-        <width>190</width>
-        <height>205</height>
-      </Parameters>
-      <object_id>empty_art</object_id>
     </UI piece>
     <UI piece>mpwr_chat
       <identifier>UIP_LOBBY_CHAT_LIST</identifier>
