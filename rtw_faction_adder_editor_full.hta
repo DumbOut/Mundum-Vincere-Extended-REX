@@ -1,4 +1,5 @@
 <!doctype html>
+<hta:application id="rtwFactionAdder" applicationname="RTW Faction Adder" border="thin" caption="yes" showintaskbar="yes" singleinstance="yes" sysmenu="yes" windowstate="normal">
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -9,34 +10,44 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #12100c;
-  --bg2: #19150f;
-  --panel: #211c14;
-  --panel2: #2b2419;
-  --panel3: #16120d;
-  --line: #403627;
-  --line2: #574a35;
-  --ink: #eee2cd;
-  --ink2: #bfb098;
-  --ink3: #83745b;
-  --gold: #cba45b;
-  --gold2: #e4c278;
-  --red: #9a342d;
-  --red2: #c95649;
-  --green: #6b9161;
-  --blue: #66839a;
+  --bg: #020812;
+  --bg2: #051735;
+  --panel: rgba(3, 18, 43, .82);
+  --panel2: rgba(10, 55, 115, .78);
+  --panel3: rgba(2, 10, 26, .72);
+  --line: rgba(116, 184, 255, .36);
+  --line2: rgba(210, 231, 255, .62);
+  --ink: #eef8ff;
+  --ink2: #b7dcff;
+  --ink3: #78a8d9;
+  --gold: #e7eef4;
+  --gold2: #ffffff;
+  --red: #c91f1f;
+  --red2: #ff4b3f;
+  --green: #67caff;
+  --blue: #2f9dff;
   --shadow: 0 10px 30px rgba(0,0,0,.45);
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
 body {
   background:
-    linear-gradient(180deg, rgba(154,52,45,.18), transparent 240px),
-    linear-gradient(90deg, rgba(102,131,154,.08), transparent 45%, rgba(107,145,97,.07)),
+    radial-gradient(circle at 50% 15%, rgba(62, 165, 255, .34), transparent 310px),
+    linear-gradient(180deg, rgba(15, 93, 173, .42), transparent 260px),
+    linear-gradient(90deg, rgba(255,255,255,.08), transparent 45%, rgba(200,232,255,.10)),
     var(--bg);
   color: var(--ink);
   font: 13px "EB Garamond", Georgia, serif;
   overflow: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: url("baktria.png") center center / 520px 520px no-repeat;
+  opacity: .16;
+  filter: saturate(1.35) hue-rotate(170deg);
 }
 button, input, select, textarea {
   font: 12px "IBM Plex Mono", Consolas, monospace;
@@ -90,10 +101,12 @@ header {
 .crest {
   width: 36px; height: 36px;
   display: grid; place-items: center;
-  border-radius: 4px;
-  background: linear-gradient(150deg, var(--gold2), #7d5520);
-  color: #211508;
+  border-radius: 50%;
+  background: url("baktria.png") center center / cover no-repeat;
+  color: transparent;
   font: 900 17px "Cinzel", serif;
+  border: 2px solid rgba(255,255,255,.82);
+  box-shadow: 0 0 0 2px rgba(23,132,255,.65), 0 8px 22px rgba(0,0,0,.48);
 }
 h1 { margin: 0; color: var(--gold2); font: 900 17px "Cinzel", serif; }
 .sub { color: var(--ink3); font: 11px "IBM Plex Mono", monospace; }
@@ -249,6 +262,27 @@ pre {
 }
 .filetoggle input { width: 15px; height: 15px; accent-color: var(--gold); }
 .pillrow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.temple-row {
+  display: grid;
+  grid-template-columns: 24px 1fr 88px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.temple-row input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--gold); }
+.temple-remove { padding: 7px 8px; }
+.icon-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink2);
+  font: 11px "IBM Plex Mono", monospace;
+}
+.icon-note img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
 .pill {
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -313,6 +347,34 @@ pre {
           </div>
         </details>
 
+
+        <details class="group" open>
+          <summary>Optional Temples</summary>
+          <div class="group-body">
+            <div class="hint">Leave blank temples disabled. Enabled temples are reused only as existing EDB names; blank fields never block writing.</div>
+            <div id="templeList"></div>
+            <button id="addTempleBtn" type="button" style="width:100%">Add Temple</button>
+          </div>
+        </details>
+
+        <details class="group" open>
+          <summary>Faction Defaults</summary>
+          <div class="group-body">
+            <div class="icon-note">
+              <img src="baktria.png" alt="Baktria icon">
+              <span>Tool icon and watermark use the Baktria icon. Generated faction art can still default to slave assets.</span>
+            </div>
+            <label class="checkrow"><input id="defaultSlaveSymbol" type="checkbox" checked>Default strategy/battle symbols to slave CAS</label>
+            <label class="checkrow"><input id="defaultSlaveUi" type="checkbox" checked>Default UI cards and unit info folders from slave</label>
+            <label class="checkrow"><input id="defaultSlaveBanners" type="checkbox" checked>Use slave placeholders for missing banner/icon files</label>
+            <div class="grid2">
+              <div class="field"><label>Strategy symbol CAS</label><input id="symbolCas" value="models_strat/symbol_slaves.CAS"></div>
+              <div class="field"><label>Rebel symbol CAS</label><input id="rebelSymbolCas" value="models_strat/symbol_slaves.CAS"></div>
+            </div>
+            <div class="field"><label>Fallback loading icon</label><input id="loadingLogo" value="loading_screen/symbols/symbol128_slaves.tga"></div>
+          </div>
+        </details>
+
         <details class="group" open>
           <summary>Campaign Start</summary>
           <div class="group-body">
@@ -360,18 +422,6 @@ al-Samudi</textarea></div>
           </div>
         </details>
 
-        <details class="group">
-          <summary>Temples, Climates, Endonyms</summary>
-          <div class="group-body">
-            <div class="grid2">
-              <div class="field"><label>Temple 1</label><input id="temple1" value="temple_of_ruqum"></div>
-              <div class="field"><label>Temple 2</label><input id="temple2" value="temple_of_dushara"></div>
-            </div>
-            <div class="field"><label>Custom climates</label><textarea id="climates">arabian_desert sandy_desert red 218 green 186 blue 92</textarea></div>
-            <div class="field"><label>Settlement endonyms</label><textarea id="endonyms">Hegra_R faction thamud_01 Hegra
-Hegra_R culture eastern Hegra</textarea></div>
-          </div>
-        </details>
       </div>
     </section>
 
@@ -443,8 +493,7 @@ const FILES = [
   ["regions", "data/world/maps/base/descr_regions.txt", "descr_regions"],
   ["names", "data/descr_names.txt", "descr_names"],
   ["namesText", "data/text/names.txt", "text/names"],
-  ["descrExClimates", "data/descr_ex_custom_climates.txt", "custom_climates"],
-  ["endonyms", "data/descr_ex_settlement_endonyms.txt", "settlement_endonyms"],
+  ["temples", "preview/optional_temples.txt", "optional_temples"],
   ["campaignDescriptions", "data/text/campaign_descriptions.txt", "campaign_descriptions"],
   ["win", "data/world/maps/campaign/imperial_campaign/descr_win_conditions.txt", "descr_win_conditions"]
 ];
@@ -455,8 +504,8 @@ const dom = {};
   "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
   "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
   "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
-  "units","maleNames","femaleNames","surnames","description","temple1","temple2",
-  "climates","endonyms","tabs","preview","previewPath","copyPreviewBtn","regenBtn",
+  "units","maleNames","femaleNames","surnames","description",
+  "tabs","preview","previewPath","copyPreviewBtn","regenBtn",
   "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
   "opUnits","opCards","opDescrEx"
 ].forEach(id => dom[id] = document.getElementById(id));
@@ -491,6 +540,9 @@ function init() {
   [...document.querySelectorAll("input, textarea, select")].forEach(el => {
     if (el.type !== "file" && !el.dataset.file) el.addEventListener("input", markDirty);
   });
+  dom.addTempleBtn.onclick = addTempleRow;
+  addTempleRow('temple_of_jupiter', true);
+  addTempleRow('temple_of_mars', true);
   dom.pickFolderBtn.onclick = pickFolder;
   dom.setPathBtn.onclick = setManualPath;
   dom.loadBtn.onclick = loadExisting;
@@ -536,6 +588,32 @@ function log(msg, cls = "") {
 }
 function clearLog() { dom.status.innerHTML = ""; }
 
+
+function addTempleRow(value = "", enabled = true) {
+  const count = dom.templeList.querySelectorAll(".temple-row").length;
+  if (count >= 10) {
+    log("Maximum 10 optional temples.", "bad");
+    return;
+  }
+  const row = document.createElement("div");
+  row.className = "temple-row";
+  row.innerHTML = `<input type="checkbox" ${enabled ? "checked" : ""} title="Enable temple">
+    <input class="temple-name" value="${String(value).replace(/"/g, "&quot;")}" placeholder="existing EDB temple, e.g. temple_of_mars">
+    <button type="button" class="temple-remove">Remove</button>`;
+  row.querySelector(".temple-remove").onclick = () => { row.remove(); markDirty(); generateAll(); };
+  row.querySelectorAll("input").forEach(el => el.addEventListener("input", markDirty));
+  row.querySelector('input[type="checkbox"]').addEventListener("change", markDirty);
+  dom.templeList.appendChild(row);
+  markDirty();
+}
+
+function temples() {
+  return [...dom.templeList.querySelectorAll(".temple-row")].map(row => ({
+    enabled: row.querySelector('input[type="checkbox"]').checked,
+    name: row.querySelector(".temple-name").value.trim()
+  })).filter(t => t.enabled && t.name).slice(0, 10);
+}
+
 function spec() {
   return {
     id: val("factionId"),
@@ -560,10 +638,13 @@ function spec() {
     females: lines("femaleNames"),
     surnames: lines("surnames"),
     description: val("description"),
-    temple1: val("temple1"),
-    temple2: val("temple2"),
-    climates: lines("climates"),
-    endonyms: lines("endonyms")
+    temples: temples(),
+    defaultSlaveSymbol: checked("defaultSlaveSymbol"),
+    defaultSlaveUi: checked("defaultSlaveUi"),
+    defaultSlaveBanners: checked("defaultSlaveBanners"),
+    symbolCas: val("symbolCas") || "models_strat/symbol_slaves.CAS",
+    rebelSymbolCas: val("rebelSymbolCas") || "models_strat/symbol_slaves.CAS",
+    loadingLogo: val("loadingLogo") || "loading_screen/symbols/symbol128_slaves.tga"
   };
 }
 
@@ -577,8 +658,7 @@ function generateAll() {
     regions: genRegionsNote(s),
     names: genNames(s),
     namesText: genNamesText(s),
-    descrExClimates: genClimates(s),
-    endonyms: genEndonyms(s),
+    temples: genTemplesNote(s),
     campaignDescriptions: genCampaignDescription(s),
     win: genWinConditions(s)
   };
@@ -679,27 +759,10 @@ function genNamesText(s) {
   return block(s.id, all.map(n => `{${n}}\t${n}`).join("\n"));
 }
 
-function genClimates(s) {
-  const rows = s.climates.map(row => {
-    const parts = row.split(/\s+/);
-    if (parts.length >= 2) {
-      const alias = parts[0], base = parts[1], rest = parts.slice(2).join(" ");
-      return `climate ${alias} ${base}${rest ? `\nmap_colour ${alias} ${rest}` : ""}`;
-    }
-    return row;
-  }).join("\n");
-  return block(s.id, rows);
-}
-
-function genEndonyms(s) {
-  const rows = s.endonyms.map(row => {
-    const parts = row.split(/\s+/);
-    if (parts.length >= 4 && parts[1] !== "faction" && parts[1] !== "culture") {
-      return `settlement_endonym ${row}`;
-    }
-    return row.startsWith("settlement_endonym ") || row.startsWith("endonym ") ? row : `settlement_endonym ${row}`;
-  }).join("\n");
-  return block(s.id, rows);
+function genTemplesNote(s) {
+  if (!s.temples.length) return "No optional temples enabled.";
+  return block(s.id, s.temples.map((t, i) => `optional_temple_${i + 1}	${t.name}`).join("
+"));
 }
 
 function genCampaignDescription(s) {
@@ -1111,9 +1174,10 @@ async function writeSelected() {
   const s = spec();
   const checkedFiles = [...dom.fileToggles.querySelectorAll("input[data-file]:checked")].map(i => i.dataset.file);
   try {
+    await validateExistingTemples(s);
     for (const [key, path] of FILES) {
       if (!checkedFiles.includes(key)) continue;
-      if (key === "regions") continue;
+      if (key === "regions" || key === "temples") continue;
       await appendMarked(path, generated[key], s);
     }
     if (dom.opPlayable.checked) await updatePlayable(s);
@@ -1128,6 +1192,31 @@ async function writeSelected() {
   } catch (err) {
     log(err.message || String(err), "bad");
   }
+}
+
+async function validateExistingTemples(s) {
+  const temples = (s.temples || []).map(t => t.name).filter(Boolean);
+  if (!temples.length) {
+    log("No optional temples enabled; skipping EDB temple validation.", "muted");
+    return;
+  }
+  let edb = "";
+  try {
+    edb = await readText(`${DATA}export_descr_buildings.txt`);
+  } catch (err) {
+    log(`Could not validate optional temples because export_descr_buildings.txt is missing: ${err.message || err}`, "muted");
+    return;
+  }
+  const missing = temples.filter(t => !new RegExp(`\b${escapeRegExp(t)}\b`, "i").test(edb));
+  if (missing.length) {
+    log(`Optional temple(s) not found in EDB and will be ignored: ${missing.join(", ")}`, "muted");
+  } else {
+    log(`Validated optional EDB temple(s): ${temples.join(", ")}`, "ok");
+  }
+}
+
+function escapeRegExp(text) {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 async function loadExisting() {
@@ -1151,11 +1240,12 @@ function planData() {
     "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
     "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
     "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
-    "description","temple1","temple2","climates","endonyms"
+    "description","symbolCas","rebelSymbolCas","loadingLogo"
   ];
   const data = {};
   ids.forEach(id => data[id] = dom[id].value);
-  ["useTertiary","hasFamilyTree","copySlaveCards"].forEach(id => data[id] = dom[id].checked);
+  ["useTertiary","hasFamilyTree","copySlaveCards","defaultSlaveSymbol","defaultSlaveUi","defaultSlaveBanners"].forEach(id => data[id] = dom[id].checked);
+  data.temples = [...dom.templeList.querySelectorAll(".temple-row")].map(row => ({ enabled: row.querySelector('input[type="checkbox"]').checked, name: row.querySelector(".temple-name").value }));
   return data;
 }
 function savePlan() {
@@ -1170,6 +1260,7 @@ async function openPlan() {
   const file = dom.jsonFile.files[0];
   if (!file) return;
   const data = JSON.parse(await file.text());
+  if (Array.isArray(data.temples)) { dom.templeList.innerHTML = ""; data.temples.slice(0,10).forEach(t => addTempleRow(t.name || "", t.enabled !== false)); }
   Object.entries(data).forEach(([id, value]) => {
     if (!dom[id]) return;
     if (typeof value === "boolean") dom[id].checked = value;
