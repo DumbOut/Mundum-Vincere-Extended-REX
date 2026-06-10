@@ -45,7 +45,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: url("baktria.png") center center / 520px 520px no-repeat;
+  background: radial-gradient(circle, rgba(201,31,31,.55) 0 34%, transparent 35%);
   opacity: .16;
   filter: saturate(1.35) hue-rotate(170deg);
 }
@@ -102,7 +102,7 @@ header {
   width: 36px; height: 36px;
   display: grid; place-items: center;
   border-radius: 50%;
-  background: url("baktria.png") center center / cover no-repeat;
+  background: radial-gradient(circle, #c91f1f 0 68%, transparent 70%);
   color: transparent;
   font: 900 17px "Cinzel", serif;
   border: 2px solid rgba(255,255,255,.82);
@@ -271,18 +271,6 @@ pre {
 }
 .temple-row input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--gold); }
 .temple-remove { padding: 7px 8px; }
-.icon-note {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--ink2);
-  font: 11px "IBM Plex Mono", monospace;
-}
-.icon-note img {
-  width: 52px;
-  height: 52px;
-  object-fit: contain;
-}
 .pill {
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -303,7 +291,7 @@ pre {
 <div class="app">
   <header>
     <div class="brand">
-      <div class="crest">SPQR</div>
+      <div class="crest"></div>
       <div>
         <h1>Faction Adder & Editor</h1>
         <div class="sub">RTW / REX mod-folder writer</div>
@@ -360,10 +348,6 @@ pre {
         <details class="group" open>
           <summary>Faction Defaults</summary>
           <div class="group-body">
-            <div class="icon-note">
-              <img src="baktria.png" alt="Baktria icon">
-              <span>Tool icon and watermark use the Baktria icon. Generated faction art can still default to slave assets.</span>
-            </div>
             <label class="checkrow"><input id="defaultSlaveSymbol" type="checkbox" checked>Default strategy/battle symbols to slave CAS</label>
             <label class="checkrow"><input id="defaultSlaveUi" type="checkbox" checked>Default UI cards and unit info folders from slave</label>
             <label class="checkrow"><input id="defaultSlaveBanners" type="checkbox" checked>Use slave placeholders for missing banner/icon files</label>
