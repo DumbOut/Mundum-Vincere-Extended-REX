@@ -44,7 +44,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(circle, rgba(201,31,31,.55) 0 34%, transparent 35%);
+  background: url("Rome_Icon.png") center center / 520px 520px no-repeat;
   opacity: .16;
   filter: saturate(1.35) hue-rotate(170deg);
 }
@@ -101,7 +101,7 @@ header {
   width: 36px; height: 36px;
   display: grid; place-items: center;
   border-radius: 50%;
-  background: radial-gradient(circle, #c91f1f 0 68%, transparent 70%);
+  background: url("Rome_Icon.png") center center / cover no-repeat;
   color: transparent;
   font: 900 17px "Cinzel", serif;
   border: 2px solid rgba(255,255,255,.82);
@@ -165,6 +165,8 @@ h1 { margin: 0; color: var(--gold2); font: 900 17px "Cinzel", serif; }
 .group-body { padding: 10px; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.row { display: flex; gap: 8px; margin: 8px 0; }
+.hint { color: var(--ink3); font: 11px "IBM Plex Mono", Consolas, monospace; line-height: 1.35; margin: 6px 0 10px; }
 .field { margin-bottom: 9px; }
 .checkrow {
   display: flex;
@@ -261,15 +263,6 @@ pre {
 }
 .filetoggle input { width: 15px; height: 15px; accent-color: var(--gold); }
 .pillrow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
-.temple-row {
-  display: grid;
-  grid-template-columns: 24px 1fr 88px;
-  gap: 8px;
-  align-items: center;
-  margin-bottom: 7px;
-}
-.temple-row input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--gold); }
-.temple-remove { padding: 7px 8px; }
 .pill {
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -290,7 +283,7 @@ pre {
 <div class="app">
   <header>
     <div class="brand">
-      <div class="crest"></div>
+      <div class="crest">SPQR</div>
       <div>
         <h1>Faction Adder & Editor</h1>
         <div class="sub">RTW / REX mod-folder writer</div>
@@ -331,30 +324,6 @@ pre {
             <label class="checkrow"><input id="useTertiary" type="checkbox" checked>Write tertiary_colour and enable descr_ex overlay flag</label>
             <label class="checkrow"><input id="hasFamilyTree" type="checkbox" checked>Faction uses family members</label>
             <label class="checkrow"><input id="copySlaveCards" type="checkbox" checked>Copy slave unit cards into faction UI folders</label>
-          </div>
-        </details>
-
-
-        <details class="group" open>
-          <summary>Optional Temples</summary>
-          <div class="group-body">
-            <div class="hint">Leave blank temples disabled. Enabled temples are reused only as existing EDB names; blank fields never block writing.</div>
-            <div id="templeList"></div>
-            <button id="addTempleBtn" type="button" style="width:100%">Add Temple</button>
-          </div>
-        </details>
-
-        <details class="group" open>
-          <summary>Faction Defaults</summary>
-          <div class="group-body">
-            <label class="checkrow"><input id="defaultSlaveSymbol" type="checkbox" checked>Default strategy/battle symbols to slave CAS</label>
-            <label class="checkrow"><input id="defaultSlaveUi" type="checkbox" checked>Default UI cards and unit info folders from slave</label>
-            <label class="checkrow"><input id="defaultSlaveBanners" type="checkbox" checked>Use slave placeholders for missing banner/icon files</label>
-            <div class="grid2">
-              <div class="field"><label>Strategy symbol CAS</label><input id="symbolCas" value="models_strat/symbol_slaves.CAS"></div>
-              <div class="field"><label>Rebel symbol CAS</label><input id="rebelSymbolCas" value="models_strat/symbol_slaves.CAS"></div>
-            </div>
-            <div class="field"><label>Fallback loading icon</label><input id="loadingLogo" value="loading_screen/symbols/symbol128_slaves.tga"></div>
           </div>
         </details>
 
@@ -405,6 +374,16 @@ al-Samudi</textarea></div>
           </div>
         </details>
 
+        <details class="group">
+          <summary>Temples</summary>
+          <div class="group-body">
+            <div class="grid2">
+              <div class="field"><label>Existing EDB temple 1</label><input id="temple1" value="temple_of_jupiter"></div>
+              <div class="field"><label>Existing EDB temple 2</label><input id="temple2" value="temple_of_mars"></div>
+            </div>
+            <div class="hint">Temple entries are validated against data/export_descr_buildings.txt and reused only if already present; this tool does not generate new temple bonus blocks.</div>
+          </div>
+        </details>
       </div>
     </section>
 
@@ -476,7 +455,6 @@ const FILES = [
   ["regions", "data/world/maps/base/descr_regions.txt", "descr_regions"],
   ["names", "data/descr_names.txt", "descr_names"],
   ["namesText", "data/text/names.txt", "text/names"],
-  ["temples", "preview/optional_temples.txt", "optional_temples"],
   ["campaignDescriptions", "data/text/campaign_descriptions.txt", "campaign_descriptions"],
   ["win", "data/world/maps/campaign/imperial_campaign/descr_win_conditions.txt", "descr_win_conditions"]
 ];
@@ -487,9 +465,9 @@ const dom = {};
   "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
   "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
   "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
-  "units","maleNames","femaleNames","surnames","description",
+  "units","maleNames","femaleNames","surnames","description","temple1","temple2",
   "tabs","preview","previewPath","copyPreviewBtn","regenBtn",
-  "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
+  "writeBtn","fileToggles","status","apiPill","dirtyPill","findCoordsBtn","loadTgaBtn","mapRegionsFile","opPlayable","opRegions",
   "opUnits","opCards","opDescrEx"
 ].forEach(id => dom[id] = document.getElementById(id));
 
@@ -523,9 +501,6 @@ function init() {
   [...document.querySelectorAll("input, textarea, select")].forEach(el => {
     if (el.type !== "file" && !el.dataset.file) el.addEventListener("input", markDirty);
   });
-  dom.addTempleBtn.onclick = addTempleRow;
-  addTempleRow('temple_of_jupiter', true);
-  addTempleRow('temple_of_mars', true);
   dom.pickFolderBtn.onclick = pickFolder;
   dom.setPathBtn.onclick = setManualPath;
   dom.loadBtn.onclick = loadExisting;
@@ -535,8 +510,11 @@ function init() {
   dom.saveJsonBtn.onclick = savePlan;
   dom.loadJsonBtn.onclick = () => dom.jsonFile.click();
   dom.jsonFile.onchange = openPlan;
+  dom.findCoordsBtn.onclick = findSettlementCoords;
+  dom.loadTgaBtn.onclick = () => dom.mapRegionsFile.click();
+  dom.mapRegionsFile.onchange = () => log(`Loaded map_regions.tga from file input: ${dom.mapRegionsFile.files[0]?.name || "none"}`, "ok");
   initialiseLocalFileAccess();
-  dom.apiPill.textContent = window.showDirectoryPicker ? "File API: ready" : (fso ? "ActiveX files: ready" : "File API: unavailable");
+  dom.apiPill.textContent = window.showDirectoryPicker ? "Browser File API: ready, except system folders" : (fso ? "ActiveX files: ready" : "File API: unavailable");
   dom.apiPill.className = (window.showDirectoryPicker || fso) ? "pill ok" : "pill bad";
   generateAll();
 }
@@ -571,32 +549,6 @@ function log(msg, cls = "") {
 }
 function clearLog() { dom.status.innerHTML = ""; }
 
-
-function addTempleRow(value = "", enabled = true) {
-  const count = dom.templeList.querySelectorAll(".temple-row").length;
-  if (count >= 10) {
-    log("Maximum 10 optional temples.", "bad");
-    return;
-  }
-  const row = document.createElement("div");
-  row.className = "temple-row";
-  row.innerHTML = `<input type="checkbox" ${enabled ? "checked" : ""} title="Enable temple">
-    <input class="temple-name" value="${String(value).replace(/"/g, "&quot;")}" placeholder="existing EDB temple, e.g. temple_of_mars">
-    <button type="button" class="temple-remove">Remove</button>`;
-  row.querySelector(".temple-remove").onclick = () => { row.remove(); markDirty(); generateAll(); };
-  row.querySelectorAll("input").forEach(el => el.addEventListener("input", markDirty));
-  row.querySelector('input[type="checkbox"]').addEventListener("change", markDirty);
-  dom.templeList.appendChild(row);
-  markDirty();
-}
-
-function temples() {
-  return [...dom.templeList.querySelectorAll(".temple-row")].map(row => ({
-    enabled: row.querySelector('input[type="checkbox"]').checked,
-    name: row.querySelector(".temple-name").value.trim()
-  })).filter(t => t.enabled && t.name).slice(0, 10);
-}
-
 function spec() {
   return {
     id: val("factionId"),
@@ -621,13 +573,8 @@ function spec() {
     females: lines("femaleNames"),
     surnames: lines("surnames"),
     description: val("description"),
-    temples: temples(),
-    defaultSlaveSymbol: checked("defaultSlaveSymbol"),
-    defaultSlaveUi: checked("defaultSlaveUi"),
-    defaultSlaveBanners: checked("defaultSlaveBanners"),
-    symbolCas: val("symbolCas") || "models_strat/symbol_slaves.CAS",
-    rebelSymbolCas: val("rebelSymbolCas") || "models_strat/symbol_slaves.CAS",
-    loadingLogo: val("loadingLogo") || "loading_screen/symbols/symbol128_slaves.tga"
+    temple1: val("temple1"),
+    temple2: val("temple2")
   };
 }
 
@@ -641,7 +588,6 @@ function generateAll() {
     regions: genRegionsNote(s),
     names: genNames(s),
     namesText: genNamesText(s),
-    temples: genTemplesNote(s),
     campaignDescriptions: genCampaignDescription(s),
     win: genWinConditions(s)
   };
@@ -742,12 +688,6 @@ function genNamesText(s) {
   return block(s.id, all.map(n => `{${n}}\t${n}`).join("\n"));
 }
 
-function genTemplesNote(s) {
-  if (!s.temples.length) return "No optional temples enabled.";
-  return block(s.id, s.temples.map((t, i) => `optional_temple_${i + 1}	${t.name}`).join("
-"));
-}
-
 function genCampaignDescription(s) {
   const key = `${s.id}_descr`;
   return block(s.id, `{${key}}\n${s.description}\n\n{${s.id}_short_descr}\n${s.name}`);
@@ -811,10 +751,17 @@ function setManualPath() {
 async function pickFolder() {
   rootPath = "";
   if (window.showDirectoryPicker) {
-    rootHandle = await window.showDirectoryPicker({ mode: "readwrite" });
-    dom.folderLabel.textContent = rootHandle.name;
-    log(`Selected mod folder: ${rootHandle.name}`, "ok");
-    return;
+    try {
+      rootHandle = await window.showDirectoryPicker({ mode: "readwrite", startIn: "documents" });
+      dom.folderLabel.textContent = rootHandle.name;
+      log(`Selected mod folder: ${rootHandle.name}`, "ok");
+      return;
+    } catch (err) {
+      const msg = err && err.message ? err.message : String(err);
+      log(`Browser folder picker refused that folder: ${msg}`, "bad");
+      log("Chrome/Edge/Opera block Program Files, Windows, root drives, and other system folders from normal HTML pages. This is a browser security rule, not a missing-file problem.", "bad");
+      log("Fix: copy/move the mod folder to a non-system workspace like Documents\RTW_Mods\mve_rex, or run the included .hta version as administrator and use the Manual Windows path.", "ok");
+    }
   }
   initialiseLocalFileAccess();
   if (typeof ActiveXObject !== "undefined") {
@@ -1160,7 +1107,7 @@ async function writeSelected() {
     await validateExistingTemples(s);
     for (const [key, path] of FILES) {
       if (!checkedFiles.includes(key)) continue;
-      if (key === "regions" || key === "temples") continue;
+      if (key === "regions") continue;
       await appendMarked(path, generated[key], s);
     }
     if (dom.opPlayable.checked) await updatePlayable(s);
@@ -1168,7 +1115,6 @@ async function writeSelected() {
     if (dom.opUnits.checked) await updateEduOwnership(s);
     if (dom.opCards.checked && dom.copySlaveCards.checked) await copySlaveCards(s);
     if (dom.opDescrEx.checked) {
-      await ensureLine(`${DATA}descr_ex.txt`, "custom_climates_enable true");
       if (s.useTertiary) await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
     }
     log("Write pass complete.", "ok");
@@ -1178,24 +1124,20 @@ async function writeSelected() {
 }
 
 async function validateExistingTemples(s) {
-  const temples = (s.temples || []).map(t => t.name).filter(Boolean);
-  if (!temples.length) {
-    log("No optional temples enabled; skipping EDB temple validation.", "muted");
-    return;
-  }
+  const temples = [s.temple1, s.temple2].map(t => (t || "").trim()).filter(Boolean);
+  if (!temples.length) return;
   let edb = "";
   try {
     edb = await readText(`${DATA}export_descr_buildings.txt`);
   } catch (err) {
-    log(`Could not validate optional temples because export_descr_buildings.txt is missing: ${err.message || err}`, "muted");
-    return;
+    log(`Could not validate temples against export_descr_buildings.txt: ${err.message || err}`, "bad");
+    throw err;
   }
-  const missing = temples.filter(t => !new RegExp(`\b${escapeRegExp(t)}\b`, "i").test(edb));
+  const missing = temples.filter(t => !new RegExp(`\\b${escapeRegExp(t)}\\b`, "i").test(edb));
   if (missing.length) {
-    log(`Optional temple(s) not found in EDB and will be ignored: ${missing.join(", ")}`, "muted");
-  } else {
-    log(`Validated optional EDB temple(s): ${temples.join(", ")}`, "ok");
+    throw new Error(`Temple(s) not found in existing EDB, refusing to create new bonuses: ${missing.join(", ")}`);
   }
+  log(`Validated existing EDB temple(s): ${temples.join(", ")}`, "ok");
 }
 
 function escapeRegExp(text) {
@@ -1223,12 +1165,11 @@ function planData() {
     "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
     "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
     "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
-    "description","symbolCas","rebelSymbolCas","loadingLogo"
+    "description","temple1","temple2"
   ];
   const data = {};
   ids.forEach(id => data[id] = dom[id].value);
-  ["useTertiary","hasFamilyTree","copySlaveCards","defaultSlaveSymbol","defaultSlaveUi","defaultSlaveBanners"].forEach(id => data[id] = dom[id].checked);
-  data.temples = [...dom.templeList.querySelectorAll(".temple-row")].map(row => ({ enabled: row.querySelector('input[type="checkbox"]').checked, name: row.querySelector(".temple-name").value }));
+  ["useTertiary","hasFamilyTree","copySlaveCards"].forEach(id => data[id] = dom[id].checked);
   return data;
 }
 function savePlan() {
@@ -1243,7 +1184,6 @@ async function openPlan() {
   const file = dom.jsonFile.files[0];
   if (!file) return;
   const data = JSON.parse(await file.text());
-  if (Array.isArray(data.temples)) { dom.templeList.innerHTML = ""; data.temples.slice(0,10).forEach(t => addTempleRow(t.name || "", t.enabled !== false)); }
   Object.entries(data).forEach(([id, value]) => {
     if (!dom[id]) return;
     if (typeof value === "boolean") dom[id].checked = value;
