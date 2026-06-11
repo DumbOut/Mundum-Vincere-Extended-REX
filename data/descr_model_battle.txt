@@ -369,6 +369,7 @@ type				horse_medium
 skeleton			fs_medium_horse
 scale				0.875
 indiv_range			40
+texture				slave, data/models_unit/textures/horse_medium_rebel.tga
 texture				romans_julii, data/models_unit/textures/horse_medium_julii.tga
 texture				armenia, data/models_unit/textures/horse_medium_armenia.tga
 texture				britons, data/models_unit/textures/horse_medium_briton.tga
@@ -390,7 +391,6 @@ texture				romans_scipii, data/models_unit/textures/horse_medium_scipii.tga
 texture				scythia, data/models_unit/textures/horse_medium_scythia.tga
 texture				seleucid, data/models_unit/textures/horse_medium_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_medium_senate.tga
-texture				slave, data/models_unit/textures/horse_medium_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				spain, data/models_unit/textures/horse_medium_spain.tga
@@ -429,6 +429,7 @@ type				horse_heavy
 skeleton			fs_horse
 scale				0.875
 indiv_range			40
+texture				slave, data/models_unit/textures/horse_medium_rebel.tga
 texture				romans_julii, data/models_unit/textures/horse_heavy_julii.tga
 texture				armenia, data/models_unit/textures/horse_heavy_armenia.tga
 texture				britons, data/models_unit/textures/horse_heavy_briton.tga
@@ -451,7 +452,6 @@ texture				seleucid, data/models_unit/textures/horse_heavy_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
-texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
@@ -488,6 +488,7 @@ type				generals_horse
 skeleton			fs_medium_horse
 scale				0.875
 indiv_range			40
+texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
 texture				romans_julii, data/models_unit/textures/horse_heavy_julii.tga
 texture				armenia, data/models_unit/textures/horse_heavy_armenia.tga
 texture				britons, data/models_unit/textures/horse_heavy_briton.tga
@@ -510,7 +511,6 @@ texture				seleucid, data/models_unit/textures/horse_heavy_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
-texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
