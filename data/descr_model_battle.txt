@@ -1960,6 +1960,7 @@ type				east_bedouin_archer
 skeleton			fs_hc_archer, fs_hc_swordsman
 indiv_range			40
 texture				merc, data/models_unit/textures/unit_east_bedouin_mercenary.tga
+texture				default, data/models_unit/textures/unit_east_bedouin_mercenary.tga
 model_flexi			data/models_unit/unit_east_bedouin_archer_300.cas, 8
 model_flexi			data/models_unit/unit_east_bedouin_archer_300.cas, 15
 model_flexi			data/models_unit/unit_east_bedouin_archer_200.cas, 30
@@ -2196,7 +2197,8 @@ texture				armenia, data/models_unit/textures/unit_eastern_hillmen_armenia.tga
 texture				parthia, data/models_unit/textures/unit_eastern_hillmen_parthia.tga
 texture				pontus, data/models_unit/textures/unit_eastern_hillmen_pontus.tga
 ;; thamud_01
-texture				thamud_01, data/models_unit/textures/unit_eastern_hillmen_parthia.tga
+texture				thamud_01, mve_rex/data/models_unit/textures/unit_eastern_hillmen_slave.tga
+texture				default, mve_rex/data/models_unit/textures/unit_eastern_hillmen_slave.tga
 model_flexi			data/models_unit/unit_east_hillmen_high.cas, 15
 model_flexi			data/models_unit/unit_east_hillmen_med.cas, 30
 model_flexi			data/models_unit/unit_east_hillmen_low.cas, 40

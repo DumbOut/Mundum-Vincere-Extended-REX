@@ -423,7 +423,7 @@ building barracks
                 recruit "warband spear scythian"  0  requires factions { scythia, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
-                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
+                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, thamud_01, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
@@ -484,8 +484,8 @@ building barracks
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "numidian desert warriors"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, thamud_01, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
@@ -575,8 +575,8 @@ building barracks
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, thamud_01, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
@@ -692,8 +692,8 @@ building barracks
                 recruit "numidian spears"  0  requires factions { numidia, } 
                 recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, thamud_01, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
@@ -828,8 +828,8 @@ building barracks
                 recruit "numidian spears"  0  requires factions { numidia, } 
                 recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, } 
+                recruit "east infantry"  0  requires factions { parthia, armenia, pontus, seleucid, kos_01, thamud_01, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
@@ -936,7 +936,7 @@ building equestrian
                 recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { armenia, parthia, } 
+                recruit "east horse archer"  0  requires factions { armenia, parthia, thamud_01, } 
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
                 recruit "barb getic steppe raiders"  0  requires factions { dacia, }
                 recruit "greek light lancer"  0  requires factions { macedon, } 
@@ -992,7 +992,7 @@ building equestrian
                 recruit "carthaginian elephant forest"  0  requires factions { carthage, }  and resource elephants
                 recruit "numidian camel riders"  0  requires factions { numidia, }  and resource camels
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { armenia, parthia, } 
+                recruit "east horse archer"  0  requires factions { armenia, parthia, thamud_01, } 
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -1058,7 +1058,7 @@ building equestrian
                 recruit "numidian camel riders"  0  requires factions { numidia, }  and resource camels
                 recruit "numidian noble cav"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { armenia, parthia, } 
+                recruit "east horse archer"  0  requires factions { armenia, parthia, thamud_01, } 
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -1140,7 +1140,7 @@ building equestrian
                 recruit "numidian noble cav"  0  requires factions { numidia, } 
                 recruit "carthaginian royal cavalry"  0  requires factions { carthage, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { armenia, parthia, } 
+                recruit "east horse archer"  0  requires factions { armenia, parthia, thamud_01, } 
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -1216,7 +1216,7 @@ building missiles
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
-                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
+                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, thamud_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
                 recruit "roman velite"  0  requires factions { romans_julii, romans_senate, cisra_01, romans_scipii, romans_brutii, }  and not marian_reforms 
@@ -1265,7 +1265,7 @@ building missiles
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
                 recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, } 
-                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
+                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, thamud_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
                 recruit "greek peltast"  0  requires factions { greek_cities, itanos_01, kos_01, cisra_01, massilia_01, seleucid, macedon, thrace, } 
@@ -1326,7 +1326,7 @@ building missiles
                 recruit "east heavy archer"  0  requires factions { armenia, } 
                 recruit "pontic peltast"  0  requires factions { pontus, } 
                 recruit "east onager"  0  requires factions { parthia, pontus, armenia, } 
-                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
+                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, thamud_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
                 recruit "egyptian archer elite"  0  requires factions { egypt, } 
@@ -1394,7 +1394,7 @@ building missiles
                 recruit "east heavy archer"  0  requires factions { armenia, } 
                 recruit "pontic peltast"  0  requires factions { pontus, } 
                 recruit "east onager"  0  requires factions { parthia, pontus, armenia, } 
-                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
+                recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, thamud_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
                 recruit "egyptian archer elite"  0  requires factions { egypt, } 
