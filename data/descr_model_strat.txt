@@ -101,9 +101,6 @@ texture				massilia_01, data/models_strat/textures/diplomat_slave.tga
 texture				itanos_01, data/models_strat/textures/diplomat_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/diplomat_slave.tga
-;; dioscorides_01
-texture				dioscorides_01, data/models_strat/textures/diplomat_slave.tga
-
 ;; thamud_01
 texture				thamud_01, data/models_strat/textures/diplomat_slave.tga
 model_flexi_m		data/models_strat/diplomat.cas, max
@@ -151,9 +148,6 @@ texture				massilia_01, data/models_strat/textures/spy_slave.tga
 texture				itanos_01, data/models_strat/textures/spy_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/spy_slave.tga
-;; dioscorides_01
-texture				dioscorides_01, data/models_strat/textures/spy_slave.tga
-
 ;; thamud_01
 texture				thamud_01, data/models_strat/textures/spy_slave.tga
 texture				qin_01, mve_rex/data/models_strat/textures/BI_strat_spy_qin_01.tga
@@ -197,9 +191,6 @@ texture				massilia_01, data/models_strat/textures/assassin_slave.tga
 texture				itanos_01, data/models_strat/textures/assassin_slave.tga
 ;; Kos
 texture				kos_01, data/models_strat/textures/assassin_slave.tga
-;; dioscorides_01
-texture				dioscorides_01, data/models_strat/textures/assassin_slave.tga
-
 ;; thamud_01
 texture				thamud_01, data/models_strat/textures/assassin_slave.tga
 texture				qin_01, data/models_strat/textures/assassin_slave.tga
@@ -383,6 +374,7 @@ texture				kos_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tg
 model_flexi_m		data/models_strat/strat_greek_lesser_general.CAS, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;ROMAN GENERALS
@@ -428,9 +420,6 @@ skeleton			strat_named_with_army
 scale				0.7
 indiv_range			40
 texture				slave, data/models_unit/textures/unit_rebel_greater_general.tga
-;; dioscorides_01
-texture				dioscorides_01, data/models_unit/textures/unit_rebel_greater_general.tga
-
 model_flexi_m		data/models_unit/unit_rebel_greater_general_high.cas, max
 shadow_model_flexi	data/models_strat/shadow_model_sword.cas, max
 
@@ -601,9 +590,6 @@ texture				itanos_01, data/models_strat/textures/navy_slave.tga
 texture				kos_01, data/models_strat/textures/navy_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_strat/textures/navy_slave.tga
-;; dioscorides_01
-texture				dioscorides_01, data/models_strat/textures/navy_slave.tga
-
 ;; thamud_01
 texture				thamud_01, data/models_strat/textures/navy_slave.tga
 model_flexi			data/models_strat/navy_roman.cas, max

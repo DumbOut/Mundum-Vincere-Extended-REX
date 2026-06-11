@@ -24,15 +24,15 @@ culture: <CULTURE_NAME>
 
 The faction in question:
 
-faction: dioscorides_01
+faction: thamud_01
 culture: eastern
 
 ONLY REGIONS TO OCCUPY no others:
-Dioskourea_R
+Hegra_R
 
 standard_index				38
 
-example structure for descr_sm_factions.txt, adjust per culture and faction id 
+ example: for descr_sm_factions.txt
 
 faction						cisra_01
 culture						roman
@@ -57,15 +57,11 @@ try ujsing pre-existing settlement coordinates as a basis
 
 Specs:
 
-Give them 3 speciifc temples for local relevant mythical heroes/rulers/nobles or local deiites or cthonic gods, append _xyz to the temples
+Give them 2 speciifc temples for local relevant mythical heroes/rulers/nobles or local deiites or cthonic gods
 
 Add temples in export_descr_buildings, descr_ui_buildings.txt, and export_buildings strings
 
 make the entries in edb, ui_buildings, and the buildings strings
-
-3 Named chracter general family members
-
-Add basic diplomacy entries
 
 -----------------------------------------
 GLOBAL RULES FOR ALL FILE EDITS
@@ -88,7 +84,7 @@ GLOBAL RULES FOR ALL FILE EDITS
 10. Create a new folder:
       data/ui/units/<faction>
       data/ui/unit_info/<faction>
-    Copy SLAVE unit cards into these folders, use the nearest slave card for units without a slave unit card
+    Copy SLAVE unit cards into these folders.
 11. When adding names:
     - Append a new namelist to descr_names.txt
     - Also append to text/names.txt
@@ -150,7 +146,6 @@ FILES TO EDIT (DATA FOLDER)
 - Add faction ownership to selected vanilla units.
 - Do NOT create new units.
 
-
 -----------------------------------------
 FILES TO EDIT (TEXT FOLDER)
 -----------------------------------------
@@ -194,18 +189,18 @@ UI FILES TO CREATE
 -----------------------------------------
 
 ### 20. data/ui/units/<faction>
-- Copy all SLAVE unit cards here (but only appropriate units owned by Dioscorides)
+- Copy all SLAVE unit cards here (but only appropriate units owned by Itanos)
 
 ### 21. data/ui/unit_info/<faction>
-- Copy all SLAVE unit_info cards here. (but only appropriate units owned by Dioscorides)
+- Copy all SLAVE unit_info cards here. (but only appropriate units owned by Itanos)
 
 Unit Pool, don't include un-necessary units or unrelated 
 
-Arabic/Hellenistic/Egyptian/Nubian UNIT mix, ONLY COPY UNIT CARDS FOR UNITS UNDER OWNERSHIP BASED OFF CULTURAL ROSTER TYPE
+Roman/Greek/Gallic mix
 
-Only use pre-existing units; merc units are ok to use
+Only use pre-existing units
 
-Make an extremely detailed namelists and export to names.txt at the bottom foolow convention, 45 names for men, 45for  women, and 14 surnames each (use or accurate endonyms like "id" for surnames that are eastern or greek for example, also sevveral "Of_XYZ")
+Make an extremely detailed namelists and export to names.txt at the bottom foolow convention, 50 names for men, women, and surnames each (use  or accurate endonyms like id or idae for surnames that are eastern or greek)
 
 Also for descr_strat make a correct family tree and follow convention already
 
@@ -224,7 +219,7 @@ small_logo_index
 
 replace these too
 
-Also generate an extremely detailed faction description including tons of real world history up until 270 bc and mythic/folklore data if needed - 42 paragrpahs
+Also generate an extremely detailed faction description including tons of real world history up until 270 bc and mythic/folklore data if needed - 32 paragrpahs
 
 Don't add ; loc notes in any files besides descr_strat
 
@@ -234,6 +229,6 @@ Make sure to add the faction to the playable section in ds
 
 -----------------------------------------
 BEGIN USING THE FOLLOWING EXAMPLE:
-faction: dioscorides_01
-culture: eastern
+faction: ravenna_01
+culture: roman
 -----------------------------------------
