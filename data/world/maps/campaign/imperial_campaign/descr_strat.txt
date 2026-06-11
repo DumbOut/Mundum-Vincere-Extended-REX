@@ -15278,6 +15278,33 @@ settlement
 settlement
 {
 	level town
+	region Troezen_R
+
+	year_founded 0
+	population 430
+	plan_set default_set
+	faction_creator greek_cities
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+
+settlement
+{
+	level town
 	region Melos_R
 
 	year_founded 0
