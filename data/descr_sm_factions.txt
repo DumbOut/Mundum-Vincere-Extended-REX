@@ -541,9 +541,7 @@ death_movie					fmv/death/death_julii_grass_320x240.wmv
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;CHECK WIP;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						qin_01
 culture						upper_chinese
@@ -564,6 +562,27 @@ custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; dioscorides_01
+faction						dioscorides_01
+culture						eastern
+symbol						models_strat/symbol_slaves.CAS
+rebel_symbol				models_strat/symbol_slaves.CAS
+primary_colour				red 111, green 167, blue 179
+secondary_colour			red 51, green 6, blue 4
+loading_logo				loading_screen/symbols/symbol128_dioscorides_01.tga
+standard_index				38
+logo_index					FACTION_LOGO_DIOSCORIDES_01
+small_logo_index			SMALL_FACTION_LOGO_DIOSCORIDES_01
+triumph_value				5
+intro_movie					fmv/intros/eastern_intro_640x480_bars.wmv
+victory_movie				fmv/victory/eastern_outro_320x240.wmv
+defeat_movie				fmv/lose/parthia_eliminated.wmv
+death_movie					fmv/death/death_parthia_sand_320x240.wmv
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		yes
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 faction						thamud_01
 culture						eastern
 symbol						models_strat/symbol_slaves.CAS

@@ -29,6 +29,7 @@ playable
 	kos_01
 	cisra_01
 	thamud_01
+	dioscorides_01
 end
 unlockable
 end
@@ -13021,7 +13022,7 @@ relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION ITANOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	itanos_01, balanced smith
+faction	itanos_01,
 denari	7000
 settlement
 {
@@ -13069,8 +13070,6 @@ unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 character	Diktys, spy, age 28, , x 357, y 408
 traits GoodSpy 1
 
-character_record		Itanios, 	male, command 2, influence 1, management 1, subterfuge 0, age 46, alive, never_a_leader
-character_record		Etearchos, 	male, command 1, influence 1, management 1, subterfuge 0, age 24, alive, never_a_leader
 character_record		Praisia, 	female, command 0, influence 0, management 0, subterfuge 0, age 44, alive, never_a_leader
 
 relative 	Itanios, 	Praisia,		Etearchos,	end
@@ -13081,7 +13080,7 @@ relative 	Itanios, 	Praisia,		Etearchos,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION KOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	kos_01, balanced smith
+faction	kos_01, 
 denari	7000
 settlement
 {
@@ -13089,7 +13088,7 @@ settlement
 	region Kos_R
 
 	year_founded 0
-	population 450
+	population 400
 	plan_set default_set
 	faction_creator kos_01
 	building
@@ -13128,8 +13127,6 @@ traits GoodDiplomat 1
 character	Praxagoras, spy, age 28, , x 366, y 430
 traits GoodSpy 1
 
-character_record		Hippokrates, 	male, command 2, influence 3, management 3, subterfuge 0, age 44, alive, never_a_leader
-character_record		Thessalos, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
 character_record		Phainarete, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Kallianeira, 	female, command 0, influence 0, management 0, subterfuge 0, age 17, alive, never_a_leader
 
@@ -13150,7 +13147,7 @@ settlement
 	region Cisra_R
 
 	year_founded 0
-	population 1300
+	population 1400
 	plan_set default_set
 	faction_creator cisra_01
 	building
@@ -13189,12 +13186,74 @@ traits GoodDiplomat 3
 character	Arnth, spy, age 28, , x 215, y 482
 traits GoodSpy 1
 
-character_record		Thefarie Caisranalia, 	male, command 2, influence 2, management 2, subterfuge 0, age 42, alive, never_a_leader
-character_record		Larth Spurinna, 	male, command 1, influence 1, management 1, subterfuge 0, age 23, alive, never_a_leader
 character_record		Ramtha, 	female, command 0, influence 1, management 1, subterfuge 0, age 39, alive, never_a_leader
 character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 17, alive, never_a_leader
 
 relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
+
+
+;; dioscorides_01
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	DIOSKOURIDES	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	dioscorides_01,
+denari	10000
+settlement
+{
+	level town
+	region Dioskourea_R
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator dioscorides_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type temple_of_dioskouroi_dioscorides temple_of_dioskouroi_dioscorides_shrine
+	}
+}
+
+;	Dioskourea
+character	Dioskourides Aietid, named character, leader, age 46, , x 652, y 186
+traits GoodCommander 3 , GoodAdministrator 2 , Intelligent 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+
+;	Dioskourea
+character	Akesandros Aietid, named character, heir, age 24, , x 653, y 187
+traits GoodCommander 4 , GoodAdministrator 3
+army
+unit		east generals cavalry early				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 1 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Dioskourea
+character	Apollonios, diplomat, age 31, , x 653, y 187
+traits GoodDiplomat 2
+
+;	Outside Dioskourea
+character	Medeios, spy, age 27, , x 653, y 187
+traits GoodSpy 1
+
+character_record		Dynamis, 	female, command 0, influence 1, management 1, subterfuge 0, age 42, alive, never_a_leader
+character_record		Medeia, 	female, command 0, influence 1, management 0, subterfuge 0, age 18, alive, never_a_leader
+
+relative 	Dioskourides Aietid, 	Dynamis,		Akesandros Aietid,	Medeia,	end
 
 
 ;; thamud_01 START
@@ -13203,7 +13262,7 @@ relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	thamud_01,
-denari	8000
+denari	10000
 settlement
 {
 	level town
@@ -13233,6 +13292,10 @@ traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -15197,6 +15260,29 @@ settlement
 
 settlement
 {
+	level town
+	region Thamondocana_R
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type temple_of_leukothea_dioscorides temple_of_leukothea_dioscorides_shrine
+	}
+}
+
+settlement
+{
 	level large_town
 	region Acragas_R
 
@@ -15318,21 +15404,6 @@ settlement
 		type core_building governors_house
 	}
 }
-settlement
-{
-	level town
-	region Dioskourea_R
-
-	year_founded 0
-	population 450
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building governors_house
-	}
-}
-
 settlement
 {
 	level town
@@ -16876,25 +16947,6 @@ settlement
 {
 	level town
 	region Cuphe_R
-
-	year_founded 0
-	population 600
-	plan_set default_set
-	faction_creator numidia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Thamondocana_R
 
 	year_founded 0
 	population 600
@@ -40122,6 +40174,15 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
+;	Thamondocana
+character	Hekataios Of_Thamondocana, named character, age 34, , x 21, y 176
+traits GoodCommander 1 , GoodTrader 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
 ;	Nautaca
 character,	sub_faction seleucid, Asphalion, general, age 20, , x 736, y 481
 
@@ -41363,17 +41424,6 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
-
-;	Dioskourea
-character,	sub_faction egypt, Isetnofet, general, age 20, , x 652, y 186
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 
 ;	Adulis
@@ -44113,18 +44163,6 @@ unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
 ;	Cuphe
 character,	sub_faction numidia, Akbar, general, age 20, , x 31, y 192
-
-army
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
-
-;	Thamondocana
-character,	sub_faction numidia, Akbar, general, age 20, , x 21, y 176
 
 army
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
@@ -50770,6 +50808,10 @@ core_attitudes	cisra_01,		-10		romans_julii, romans_brutii, romans_scipii, roman
 core_attitudes	cisra_01,		600		slave
 ;; thamud_01
 core_attitudes	thamud_01,		600		slave
+;; dioscorides_01
+core_attitudes	dioscorides_01,		100		egypt, seleucid, greek_cities
+core_attitudes	dioscorides_01,		600		slave
+
 core_attitudes	macedon,		90		romans_brutii
 core_attitudes	macedon,		600		slave
 core_attitudes	egypt,		410		numidia
@@ -50844,6 +50886,10 @@ faction_relationships	cisra_01,		0		romans_senate
 faction_relationships	cisra_01,		100		romans_julii, romans_brutii, romans_scipii
 faction_relationships	cisra_01,		600		slave
 faction_relationships	thamud_01,		600		slave
+;; dioscorides_01
+faction_relationships	dioscorides_01,		100		egypt, seleucid, greek_cities
+faction_relationships	dioscorides_01,		600		slave
+
 faction_relationships	macedon,			600		slave
 faction_relationships	egypt,			600		slave
 faction_relationships	seleucid,			600		slave

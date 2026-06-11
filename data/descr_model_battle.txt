@@ -1748,6 +1748,9 @@ indiv_range			40
 texture			carthage, data/models_unit/textures/unit_carthage_infantry.tga
 texture			spain, data/models_unit/textures/unit_carthage_infantry_spain.tga
 texture			slave, data/models_unit/textures/unit_carthage_infantry_rebel.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_carthage_infantry_rebel.tga
+;; dioscorides_01 END
 model_flexi		data/models_unit/unit_carthage_infantry_high.cas, 15
 model_flexi		data/models_unit/unit_carthage_infantry_med.cas, 30
 model_flexi		data/models_unit/unit_carthage_infantry_low.cas, 40
@@ -1781,6 +1784,9 @@ texture			carthage, data/models_unit/textures/unit_carthage_peasant.tga
 texture			spain, data/models_unit/textures/unit_carthage_peasant_spain.tga
 texture			numidia, data/models_unit/textures/unit_carthage_peasant_numidia.tga
 texture			slave, data/models_unit/textures/unit_carthage_peasant_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_carthage_peasant_slave.tga
+;; dioscorides_01 END
 model_flexi		data/models_unit/unit_carthage_peasant_high.cas, 15
 model_flexi		data/models_unit/unit_carthage_peasant_med.cas, 30
 model_flexi		data/models_unit/unit_carthage_peasant_low.cas, 40
@@ -1797,6 +1803,9 @@ indiv_range			40
 texture				carthage, data/models_unit/textures/unit_roman_slinger_carthage.tga
 texture				spain, data/models_unit/textures/unit_roman_slinger_spain.tga
 texture				numidia, data/models_unit/textures/unit_roman_slinger_numidia.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_roman_slinger_numidia.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_roman_slinger_high.cas, 8
 model_flexi			data/models_unit/unit_roman_slinger_med.cas, 15
 model_flexi			data/models_unit/unit_roman_slinger_low.cas, 30
@@ -1812,6 +1821,9 @@ indiv_range			40
 texture			carthage, data/models_unit/textures/unit_carthage_peltast.tga
 texture			spain, data/models_unit/textures/unit_carthage_peltast_spain.tga
 texture			slave, data/models_unit/textures/unit_carthage_peltast_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_carthage_peltast_slave.tga
+;; dioscorides_01 END
 model_flexi		data/models_unit/unit_carthage_peltast_high.cas, 15
 model_flexi		data/models_unit/unit_carthage_peltast_med.cas, 30
 model_flexi		data/models_unit/unit_carthage_peltast_low.cas, 40
@@ -1856,6 +1868,9 @@ skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman
 indiv_range			40
 texture				numidia, data/models_unit/textures/unit_egyptian_numidian.tga
 texture				default, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_egyptian_numidian_high.cas, 15
 model_flexi			data/models_unit/unit_egyptian_numidian_med.cas, 30
 model_flexi			data/models_unit/unit_egyptian_numidian_low.cas, 40
@@ -1869,6 +1884,9 @@ skeleton			fs_hc_javelinman, fs_hc_swordsman									; combat spear
 indiv_range			40
 texture				numidia, data/models_unit/textures/unit_egyptian_numidian.tga
 texture				default, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_egyptian_numidian_high.cas, 15
 model_flexi			data/models_unit/unit_egyptian_numidian_med.cas, 30
 model_flexi			data/models_unit/unit_egyptian_numidian_low.cas, 40
@@ -2043,6 +2061,9 @@ texture				armenia, data/models_unit/textures/unit_persian_elite_archer_armenia.
 texture				default, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_persian_elite_archer_high.cas, 15
 model_flexi			data/models_unit/unit_persian_elite_archer_med.cas, 30
 model_flexi			data/models_unit/unit_persian_elite_archer_low.cas, 40
@@ -2085,6 +2106,9 @@ indiv_range			40
 texture				armenia, data/models_unit/textures/unit_eastern_heavy_infantry_armenia.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/unit_eastern_heavy_infantry_armenia.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_eastern_heavy_infantry_armenia.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_eastern_heavy_infantry_high.cas, 15
 model_flexi			data/models_unit/unit_eastern_heavy_infantry_med.cas, 30
 model_flexi			data/models_unit/unit_eastern_heavy_infantry_low.cas, 40
@@ -2099,6 +2123,9 @@ texture				armenia, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_
 texture				parthia, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_parthia.tga
 texture				pontus, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_pontus.tga
 texture				default, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_slave.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_high.cas, 15
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_med.cas, 30
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_low.cas, 40
@@ -2113,6 +2140,9 @@ type				east_cavalry
 skeleton			fs_hc_javelinman, fs_hc_swordsman
 indiv_range			40
 texture				pontus, data/models_unit/textures/unit_eastern_peltast_pontus.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_eastern_peltast_pontus.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_eastern_peltast_high.cas, 15
 model_flexi			data/models_unit/unit_eastern_peltast_med.cas, 30
 model_flexi			data/models_unit/unit_eastern_peltast_low.cas, 40
@@ -2131,6 +2161,9 @@ texture				default, data/models_unit/textures/unit_eastern_peasant_slave.tga
 texture				kos_01, data/models_unit/textures/unit_eastern_peasant_slave.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/unit_eastern_peasant_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_eastern_peasant_slave.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_eastern_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_eastern_peasant_med.cas, 30
 model_flexi			data/models_unit/unit_eastern_peasant_low.cas, 40
@@ -2148,6 +2181,9 @@ texture				armenia, data/models_unit/textures/unit_persian_javelin_armenia.tga
 texture				pontus, data/models_unit/textures/unit_persian_javelin_pontus.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/unit_persian_javelin_armenia.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_persian_javelin_armenia.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_persian_javelineer_high.cas, 8
 model_flexi			data/models_unit/unit_persian_javelineer_medium.cas, 15
 model_flexi			data/models_unit/unit_persian_javelineer_low.cas, 30
@@ -2180,6 +2216,9 @@ texture				default, data/models_unit/textures/unit_persian_sparabara_rebel.tga
 texture				kos_01, data/models_unit/textures/unit_persian_sparabara_rebel.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/unit_persian_sparabara_rebel.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_persian_sparabara_rebel.tga
+;; dioscorides_01 END
 model_flexi_m		data/models_unit/unit_persian_sparabara_high.cas, 15
 model_flexi_m		data/models_unit/unit_persian_sparabara_med.cas, 30
 model_flexi_m		data/models_unit/unit_persian_sparabara_low.cas, 40
@@ -2284,6 +2323,9 @@ skeleton			fs_semi_fast_archer, fs_semi_fast_dagger
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_archer.tga
 texture				default, data/models_unit/textures/unit_egyption_archer_slave.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_egyption_archer_slave.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_egyption_archer_high.cas, 15
 model_flexi			data/models_unit/unit_egyption_archer_med.cas, 30
 model_flexi			data/models_unit/unit_egyption_archer_low.cas, 40
@@ -2444,6 +2486,9 @@ type				egyptian_nubian_infantry
 skeleton			fs_spearman, fs_swordsman
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_nubian_infantry.tga
+;; dioscorides_01 START
+texture			dioscorides_01, data/models_unit/textures/unit_egyption_nubian_infantry.tga
+;; dioscorides_01 END
 model_flexi			data/models_unit/unit_egyption_nubian_infantry_high.cas, 15
 model_flexi			data/models_unit/unit_egyption_nubian_infantry_med.cas, 30
 model_flexi			data/models_unit/unit_egyption_nubian_infantry_low.cas, 40

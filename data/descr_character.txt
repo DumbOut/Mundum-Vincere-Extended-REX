@@ -80,6 +80,14 @@ strat_model		sm_rebel_general
 battle_model	roman_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+;; dioscorides_01
+faction			dioscorides_01
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
 ;; thamud_01
 faction			thamud_01
 dictionary		2
@@ -270,6 +278,15 @@ strat_card		data/ui/roman/portraits/captain_card_julii.tga
 strat_model		sm_rebel_general
 battle_model	roman_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;; dioscorides_01
+faction			dioscorides_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 
 ;; thamud_01
 faction			thamud_01
@@ -475,6 +492,13 @@ faction			cisra_01
 dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
+
+;; dioscorides_01
+faction			dioscorides_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 
 ;; thamud_01
 faction			thamud_01
@@ -790,6 +814,13 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
 
+;; dioscorides_01
+faction			dioscorides_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+
 ;; thamud_01
 faction			thamud_01
 dictionary		2
@@ -1051,6 +1082,13 @@ faction			kos_01
 dictionary		2
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
+
+;; dioscorides_01
+faction			dioscorides_01
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
 
 ;; cisra_01
 faction			cisra_01

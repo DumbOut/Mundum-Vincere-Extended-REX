@@ -2050,7 +2050,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 120, 100, 20, 20, 120
-ownership        carthage, spain, numidia, slave
+ownership        carthage, spain, numidia, slave, dioscorides_01
 
 type             carthaginian peltast
 dictionary       carthaginian_peltast      ; Skirmishers
@@ -2075,7 +2075,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, dioscorides_01
 
 type             carthaginian slinger
 dictionary       carthaginian_slinger      ; Slingers
@@ -2099,7 +2099,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 170, 20, 30, 150
-ownership        carthage, spain, numidia
+ownership        carthage, spain, numidia, dioscorides_01
 
 type             carthaginian archer
 dictionary       carthaginian_archer      ; Archers
@@ -2321,7 +2321,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        numidia, slave
+ownership        numidia, slave, dioscorides_01
 
 type             numidian desert warriors
 dictionary       numidian_desert_warriors      ; Desert Infantry
@@ -2396,7 +2396,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 110, 40, 50, 330
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, dioscorides_01
 
 type             carthaginian medium cavalry
 dictionary       carthaginian_medium_cavalry      ; Long Shield Cavalry
@@ -2526,7 +2526,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 130, 50, 70, 420
-ownership        numidia, slave
+ownership        numidia, slave, dioscorides_01
 
 type             numidian camel riders
 dictionary       numidian_camel_riders      ; Numidian Camel Riders
@@ -2729,7 +2729,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 120, 100, 20, 20, 120
-ownership        parthia, pontus, armenia, slave, kos_01, thamud_01
+ownership        parthia, pontus, armenia, slave, kos_01, thamud_01, dioscorides_01
 
 type             east peltast
 dictionary       east_peltast      ; Peltasts
@@ -2754,7 +2754,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 180, 170, 20, 30, 180
-ownership        pontus, armenia, thamud_01
+ownership        pontus, armenia, thamud_01, dioscorides_01
 
 type             east slinger
 dictionary       east_slinger      ; Slingers
@@ -2802,7 +2802,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        parthia, pontus, armenia, slave, kos_01, thamud_01
+ownership        parthia, pontus, armenia, slave, kos_01, thamud_01, dioscorides_01
 
 type             east hillmen
 dictionary       east_hillmen      ; Hillmen
@@ -2850,7 +2850,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 330, 150, 40, 50, 330
-ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01
+ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01, dioscorides_01
 
 type             east heavy infantry
 dictionary       east_heavy_infantry      ; Heavy Spearmen
@@ -2875,7 +2875,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 170, 50, 70, 460
-ownership        armenia, thamud_01
+ownership        armenia, thamud_01, dioscorides_01
 
 type             east hoplite
 dictionary       east_hoplite      ; Phalanx Pikemen
@@ -2975,7 +2975,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 110, 40, 60, 370
-ownership        pontus
+ownership        pontus, dioscorides_01
 
 type             east heavy cavalry
 dictionary       east_heavy_cavalry      ; Pontic Heavy Cavalry
@@ -3261,7 +3261,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 960, 80, 100, 150, 960
-ownership        parthia, pontus, armenia, slave, thamud_01
+ownership        parthia, pontus, armenia, slave, thamud_01, dioscorides_01
 
 type             east generals cavalry
 dictionary       east_generals_cavalry      ; Armoured Eastern General
@@ -3435,7 +3435,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        egypt, slave
+ownership        egypt, slave, dioscorides_01
 
 type             egyptian archer elite
 dictionary       egyptian_archer_elite      ; Pharaoh's Bowmen
@@ -3484,7 +3484,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 230, 100, 30, 40, 230
-ownership        egypt
+ownership        egypt, dioscorides_01
 
 type             egyptian nile infantry
 dictionary       egyptian_nile_infantry      ; Nile Spearmen
