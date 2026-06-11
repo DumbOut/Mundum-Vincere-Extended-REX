@@ -330,7 +330,7 @@ texture				romans_scipii, data/models_unit/textures/horse_light_scipii.tga
 texture				scythia, data/models_unit/textures/mount_horse_light_scythia.tga
 texture				seleucid, data/models_unit/textures/mount_horse_light_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_light_senate.tga
-texture				default, data/models_unit/textures/mount_horse_light_rebel.tga
+texture				slave, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				massilia_01, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				qin_01, data/models_unit/textures/mount_horse_light_rebel.tga
 texture				spain, data/models_unit/textures/mount_horse_light_spain.tga
@@ -390,7 +390,7 @@ texture				romans_scipii, data/models_unit/textures/horse_medium_scipii.tga
 texture				scythia, data/models_unit/textures/horse_medium_scythia.tga
 texture				seleucid, data/models_unit/textures/horse_medium_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_medium_senate.tga
-texture				default, data/models_unit/textures/horse_medium_rebel.tga
+texture				slave, data/models_unit/textures/horse_medium_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_medium_rebel.tga
 texture				spain, data/models_unit/textures/horse_medium_spain.tga
@@ -451,7 +451,7 @@ texture				seleucid, data/models_unit/textures/horse_heavy_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
-texture				default, data/models_unit/textures/horse_heavy_rebel.tga
+texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
@@ -510,7 +510,7 @@ texture				seleucid, data/models_unit/textures/horse_heavy_seleucid.tga
 texture				romans_senate, data/models_unit/textures/horse_heavy_senate.tga
 texture				spain, data/models_unit/textures/horse_heavy_spain.tga
 texture				thrace, data/models_unit/textures/horse_heavy_thrace.tga
-texture				default, data/models_unit/textures/horse_heavy_rebel.tga
+texture				slave, data/models_unit/textures/horse_heavy_rebel.tga
 texture				qin_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				massilia_01, data/models_unit/textures/horse_heavy_rebel.tga
 texture				mercenary, data/models_unit/textures/horse_heavy_mercenary.tga
@@ -714,7 +714,7 @@ skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
 texture				carthage, data/models_unit/textures/officer_carthage_general_carthage.tga
-texture				default, data/models_unit/textures/officer_carthage_general_rebel.tga
+texture				slave, data/models_unit/textures/officer_carthage_general_rebel.tga
 texture				numidia, data/models_unit/textures/officer_carthaginian_general_numidia.tga
 texture				spain, data/models_unit/textures/officer_carthaginian_general_spain.tga
 model_flexi_m		data/models_unit/officer_carthage_general_high.cas, 15
@@ -732,7 +732,7 @@ skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
 texture				carthage, data/models_unit/textures/officer_carthage_lesser_general_carthage.tga
-texture				default, data/models_unit/textures/officer_carthage_lesser_general_rebel.tga
+texture				slave, data/models_unit/textures/officer_carthage_lesser_general_rebel.tga
 texture				numidia, data/models_unit/textures/officer_carthaginian_lesser_general_numidia.tga
 texture				spain, data/models_unit/textures/officer_carthaginian_lesser_general_spain.tga
 model_flexi_m		data/models_unit/officer_carthage_lesser_general_high.cas, 15
@@ -748,7 +748,7 @@ indiv_range			40
 texture				carthage, data/models_unit/textures/officer_carthage_standard.tga
 texture				spain, data/models_unit/textures/officer_carthage_standard_spain.tga
 texture				numidia, data/models_unit/textures/officer_carthage_standard_numidia.tga
-;texture				default, data/models_unit/textures/officer_carthage_standard_rebel.tga		;MISSING
+;texture				slave, data/models_unit/textures/officer_carthage_standard_rebel.tga		;MISSING
 model_flexi		data/models_unit/officer_carthage_standard_high.cas, 15
 model_flexi		data/models_unit/officer_carthage_standard_med.cas, 30
 model_flexi		data/models_unit/officer_carthage_standard_low.cas, 40
@@ -772,7 +772,7 @@ indiv_range			40
 texture				armenia, data/models_unit/textures/officer_eastern_general_armenia.tga
 texture				parthia, data/models_unit/textures/officer_eastern_general_parthia.tga
 texture				pontus, data/models_unit/textures/officer_eastern_general_pontus.tga
-texture				default, data/models_unit/textures/officer_eastern_general_rebel.tga
+texture				slave, data/models_unit/textures/officer_eastern_general_rebel.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/officer_eastern_general_rebel.tga
 model_flexi_m		data/models_unit/officer_eastern_general_high.cas, 15
@@ -792,7 +792,7 @@ indiv_range			40
 texture				armenia, data/models_unit/textures/officer_eastern_lesser_general_armenia.tga
 texture				parthia, data/models_unit/textures/officer_eastern_lesser_general_parthia.tga
 texture				pontus, data/models_unit/textures/officer_eastern_lesser_general_pontus.tga
-texture				default, data/models_unit/textures/officer_eastern_lesser_general_rebel.tga
+texture				slave, data/models_unit/textures/officer_eastern_lesser_general_rebel.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/officer_eastern_lesser_general_rebel.tga
 model_flexi_m		data/models_unit/officer_eastern_lesser_general_high.cas, 15
@@ -821,7 +821,7 @@ indiv_range			40
 texture				parthia, data/models_unit/textures/unit_east_light_standard_parthia.tga
 texture				pontus, data/models_unit/textures/unit_east_light_standard_pontus.tga
 texture				armenia, data/models_unit/textures/unit_east_light_standard_armenia.tga
-;texture				default, data/models_unit/textures/unit_east_light_standard_rebel.tga		;MISSING
+;texture				slave, data/models_unit/textures/unit_east_light_standard_rebel.tga		;MISSING
 model_flexi			data/models_unit/officer_east_standard_300.cas, 8
 model_flexi			data/models_unit/officer_east_standard_200.cas, 15
 model_flexi			data/models_unit/officer_east_standard_100.cas, 30
@@ -966,7 +966,7 @@ texture				macedon, data/models_unit/textures/officer_greek_hoplite_macedon.tga
 texture				seleucid, data/models_unit/textures/officer_greek_hoplite_seleucid.tga
 ;texture				greek_cities, data/models_unit/textures/officer_greek_hoplite_greece.tga ;MISSING
 texture				thrace, data/models_unit/textures/officer_greek_hoplite_thrace.tga
-;texture				default, data/models_unit/textures/officer_greek_hoplite_rebel.tga		;MISSING
+;texture				slave, data/models_unit/textures/officer_greek_hoplite_rebel.tga		;MISSING
 model_flexi_m		data/models_unit/officer_greek_hoplite_400.cas, 8
 model_flexi_m		data/models_unit/officer_greek_hoplite_300.cas, 15
 model_flexi			data/models_unit/officer_greek_hoplite_200.cas, 30
@@ -982,7 +982,7 @@ texture				macedon, data/models_unit/textures/officer_greek_standard_macedon.tga
 texture				seleucid, data/models_unit/textures/officer_greek_standard_seleucid.tga
 texture				greek_cities, data/models_unit/textures/officer_greek_standard_greece.tga
 texture				thrace, data/models_unit/textures/officer_greek_standard_thrace.tga
-;texture				default, data/models_unit/textures/officer_greek_hoplite_rebel.tga	;MISSING
+;texture				slave, data/models_unit/textures/officer_greek_hoplite_rebel.tga	;MISSING
 model_flexi_m		data/models_unit/officer_greek_standard_400.cas, 8
 model_flexi_m		data/models_unit/officer_greek_standard_300.cas, 15
 model_flexi			data/models_unit/officer_greek_standard_200.cas, 30
@@ -1010,7 +1010,7 @@ texture				romans_scipii, data/models_unit/textures/officer_roman_general_scipii
 texture				romans_senate, data/models_unit/textures/officer_roman_general_senate.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/officer_roman_general_senate.tga
-;texture				default, data/models_unit/textures/officer_roman_general_rebel.tga	;MISSING
+;texture				slave, data/models_unit/textures/officer_roman_general_rebel.tga	;MISSING
 model_flexi_m		data/models_unit/officer_roman_general_high.cas, 15
 model_flexi_m		data/models_unit/officer_roman_general_med.cas, 30
 model_flexi_m		data/models_unit/officer_roman_general_low.cas, 40
@@ -1098,7 +1098,7 @@ texture				romans_julii, data/models_unit/textures/officer_roman_early_standard_
 texture				romans_brutii, data/models_unit/textures/officer_roman_early_standard_brutii.tga
 texture				romans_scipii, data/models_unit/textures/officer_roman_early_standard_scipii.tga
 texture				romans_senate, data/models_unit/textures/officer_roman_early_standard_senate.tga
-;texture				default, data/models_unit/textures/officer_roman_early_standard_rebel.tga		;MISSING
+;texture				slave, data/models_unit/textures/officer_roman_early_standard_rebel.tga		;MISSING
 model_flexi_m		data/models_unit/officer_roman_early_standard_400.cas, 8
 model_flexi_m		data/models_unit/officer_roman_early_standard_300.cas, 15
 model_flexi_m		data/models_unit/officer_roman_early_standard_200.cas, 30
@@ -1117,7 +1117,7 @@ skeleton_elephant	fs_forest_elephant_rider
 skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
-texture				default, data/models_unit/textures/unit_rebel_greater_general.tga
+texture				slave, data/models_unit/textures/unit_rebel_greater_general.tga
 model_flexi_m		data/models_unit/unit_rebel_greater_general_high.cas, 15
 model_flexi_m		data/models_unit/unit_rebel_greater_general_med.cas, 30
 model_flexi_m		data/models_unit/unit_rebel_greater_general_low.cas, 40
@@ -1132,7 +1132,7 @@ skeleton_elephant	fs_forest_elephant_rider
 skeleton_chariot	fs_chariot_sword
 skeleton_camel		fs_hc_swordsman
 indiv_range			40
-texture				default, data/models_unit/textures/unit_rebel_lesser_general.tga
+texture				slave, data/models_unit/textures/unit_rebel_lesser_general.tga
 model_flexi_m		data/models_unit/unit_rebel_lesser_general_high.cas, 15
 model_flexi_m		data/models_unit/unit_rebel_lesser_general_med.cas, 30
 model_flexi_m		data/models_unit/unit_rebel_lesser_general_low.cas, 40
@@ -1151,7 +1151,7 @@ skeleton			fs_semi_fast_archer, fs_semi_fast_dagger
 indiv_range			40
 texture				dacia, data/models_unit/textures/unit_barb_warband_archer_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_warband_archer_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_warband_archer_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_warband_archer_slave.tga
 model_flexi			data/models_unit/unit_warband_archer_high.cas, 8
 model_flexi			data/models_unit/unit_warband_archer_med.cas, 15
 model_flexi			data/models_unit/unit_warband_archer_low.cas, 30
@@ -1169,7 +1169,7 @@ texture				germans, data/models_unit/textures/unit_barb_warband_german_.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_warband_sciria_01_.tga
 texture				dacia, data/models_unit/textures/unit_barb_warband_dacia_.tga
 texture				scythia, data/models_unit/textures/unit_barb_warband_scythia_.tga
-texture				default, data/models_unit/textures/unit_barb_warband_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_warband_slave.tga
 model_flexi			data/models_unit/unit_barb_warband_cavalry_high.cas, 8
 model_flexi			data/models_unit/unit_barb_warband_cavalry_med.cas, 15
 model_flexi			data/models_unit/unit_barb_warband_cavalry_low.cas, 30
@@ -1225,7 +1225,7 @@ type				barb_crew_heavy
 skeleton			fs_chariot_sword
 indiv_range			40
 texture				britons, data/models_unit/textures/unit_barb_heavy_crew_briton.tga
-texture				default, data/models_unit/textures/unit_barb_heavy_crew_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_heavy_crew_slave.tga
 model_flexi_m		data/models_unit/unit_barb_crew_heavy_400.cas, 8
 model_flexi_m		data/models_unit/unit_barb_crew_heavy_300.cas, 15
 model_flexi			data/models_unit/unit_barb_crew_heavy_200.cas, 30
@@ -1240,7 +1240,7 @@ skeleton			fs_spearman,			; combat spear
 indiv_range			40
 texture				britons, data/models_unit/textures/unit_barb_infantry_briton.tga
 texture				scythia, data/models_unit/textures/unit_barb_infantry_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_infantry_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_infantry_slave.tga
 model_flexi			data/models_unit/unit_barb_infantry_high.cas, 8
 model_flexi			data/models_unit/unit_barb_infantry_med.cas, 15
 model_flexi			data/models_unit/unit_barb_infantry_low.cas, 30
@@ -1283,7 +1283,7 @@ texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_noble_cavalry_
 texture				dacia, data/models_unit/textures/unit_barb_noble_cavalry_dacia.tga
 texture				thrace, data/models_unit/textures/unit_barb_noble_cavalry_thrace.tga
 texture				scythia, data/models_unit/textures/unit_barb_noble_cavalry_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_noble_cavalry_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_noble_cavalry_slave.tga
 model_flexi			data/models_unit/unit_barb_noble_cavalry_400.cas, 8
 model_flexi			data/models_unit/unit_barb_noble_cavalry_300.cas, 15
 model_flexi			data/models_unit/unit_barb_noble_cavalry_200.cas, 30
@@ -1306,7 +1306,7 @@ texture				germans, data/models_unit/textures/unit_barb_infantry_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/unit_barb_infantry_sciria_01.tga
 texture				dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				scythia, data/models_unit/textures/unit_barb_infantry_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_infantry_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_infantry_slave.tga
 model_flexi			data/models_unit/unit_barb_peasant_high.cas, 8
 model_flexi			data/models_unit/unit_barb_peasant_med.cas, 15
 model_flexi			data/models_unit/unit_barb_peasant_low.cas, 30
@@ -1482,7 +1482,7 @@ skeleton			fs_swordsman			; Really needs 1 handed axe skeleton
 indiv_range			40
 texture				britons, data/models_unit/textures/unit_barb_druid.tga
 texture				gauls, data/models_unit/textures/unit_gaul_druid.tga
-texture				default, data/models_unit/textures/unit_slave_druid.tga
+texture				slave, data/models_unit/textures/unit_slave_druid.tga
 model_flexi_m		data/models_unit/unit_barb_druid_high.cas, 8
 model_flexi_m		data/models_unit/unit_barb_druid_med.cas, 15
 model_flexi			data/models_unit/unit_barb_druid_low.cas, 30
@@ -1500,7 +1500,7 @@ texture				gauls, data/models_unit/textures/barb_gaestae_gaul.tga
 texture				germans, data/models_unit/textures/barb_gaestae_german.tga
 texture				sciria_01, mve_rex/data/models_unit/textures/barb_gaestae_sciria_01.tga
 texture				dacia, data/models_unit/textures/barb_gaestae_dacia.tga
-texture				default, data/models_unit/textures/barb_gaestae_slave.tga
+texture				slave, data/models_unit/textures/barb_gaestae_slave.tga
 model_flexi			data/models_unit/unit_barb_gaestae_high.cas, 8
 model_flexi			data/models_unit/unit_barb_gaestae_med.cas, 15
 model_flexi			data/models_unit/unit_barb_gaestae_low.cas, 30
@@ -1664,7 +1664,7 @@ type				barb_horse_archer
 skeleton			fs_hc_archer, fs_hc_swordsman
 indiv_range			40
 texture				scythia, data/models_unit/textures/unit_barb_warband_archer_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_warband_archer_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_warband_archer_slave.tga
 model_flexi			data/models_unit/unit_warband_archer_high.cas, 8
 model_flexi			data/models_unit/unit_warband_archer_med.cas, 15
 model_flexi			data/models_unit/unit_warband_archer_low.cas, 30
@@ -1855,7 +1855,7 @@ type				carthage_numidian_javelinman
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman										
 indiv_range			40
 texture				numidia, data/models_unit/textures/unit_egyptian_numidian.tga
-texture				default, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+texture				slave, data/models_unit/textures/unit_egyptian_numidian_slave.tga
 model_flexi			data/models_unit/unit_egyptian_numidian_high.cas, 15
 model_flexi			data/models_unit/unit_egyptian_numidian_med.cas, 30
 model_flexi			data/models_unit/unit_egyptian_numidian_low.cas, 40
@@ -1868,7 +1868,7 @@ type				carthage_numidian_cavalry
 skeleton			fs_hc_javelinman, fs_hc_swordsman									; combat spear
 indiv_range			40
 texture				numidia, data/models_unit/textures/unit_egyptian_numidian.tga
-texture				default, data/models_unit/textures/unit_egyptian_numidian_slave.tga
+texture				slave, data/models_unit/textures/unit_egyptian_numidian_slave.tga
 model_flexi			data/models_unit/unit_egyptian_numidian_high.cas, 15
 model_flexi			data/models_unit/unit_egyptian_numidian_med.cas, 30
 model_flexi			data/models_unit/unit_egyptian_numidian_low.cas, 40
@@ -1881,7 +1881,7 @@ type				desert_infantry
 skeleton			fs_spearman		
 indiv_range			40
 texture				numidia, data/models_unit/textures/unit_arab_light_infantry_numidia.tga
-texture				default, data/models_unit/textures/unit_arab_light_infantry_slave.tga
+texture				slave, data/models_unit/textures/unit_arab_light_infantry_slave.tga
 model_flexi			data/models_unit/unit_greek_arab_light_infantry_v2_high.cas, 15
 model_flexi			data/models_unit/unit_greek_arab_light_infantry_v2_med.cas, 30
 model_flexi			data/models_unit/unit_greek_arab_light_infantry_v2_low.cas, 40
@@ -1928,7 +1928,7 @@ skeleton			fs_spearman
 indiv_range			40
 texture				carthage, data/models_unit/textures/unit_carthage_town_militia_carthage.tga
 texture				spain, data/models_unit/textures/unit_carthage_town_militia_spain.tga
-texture				default, data/models_unit/textures/unit_carthage_town_militia_rebel.tga
+texture				slave, data/models_unit/textures/unit_carthage_town_militia_rebel.tga
 model_flexi			data/models_unit/unit_carthage_town_militia_high.cas, 15
 model_flexi			data/models_unit/unit_carthage_town_militia_med.cas, 30
 model_flexi			data/models_unit/unit_carthage_town_militia_low.cas, 40
@@ -1960,7 +1960,7 @@ type				east_bedouin_archer
 skeleton			fs_hc_archer, fs_hc_swordsman
 indiv_range			40
 texture				merc, data/models_unit/textures/unit_east_bedouin_mercenary.tga
-texture				default, data/models_unit/textures/unit_east_bedouin_mercenary.tga
+texture				slave, data/models_unit/textures/unit_east_bedouin_mercenary.tga
 model_flexi			data/models_unit/unit_east_bedouin_archer_300.cas, 8
 model_flexi			data/models_unit/unit_east_bedouin_archer_300.cas, 15
 model_flexi			data/models_unit/unit_east_bedouin_archer_200.cas, 30
@@ -2040,7 +2040,7 @@ indiv_range			40
 texture				parthia, data/models_unit/textures/unit_persian_elite_archer_parthia.tga
 texture				pontus, data/models_unit/textures/unit_persian_elite_archer_pontus.tga
 texture				armenia, data/models_unit/textures/unit_persian_elite_archer_armenia.tga
-texture				default, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
+texture				slave, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_persian_elite_archer_rebel.tga
 model_flexi			data/models_unit/unit_persian_elite_archer_high.cas, 15
@@ -2098,7 +2098,7 @@ indiv_range			40
 texture				armenia, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_armenia.tga
 texture				parthia, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_parthia.tga
 texture				pontus, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_pontus.tga
-texture				default, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_slave.tga
+texture				slave, data/models_unit/textures/unit_eastern_pontic_heavy_cavalry_slave.tga
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_high.cas, 15
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_med.cas, 30
 model_flexi			data/models_unit/unit_east_pontic_heavy_cav_low.cas, 40
@@ -2126,7 +2126,7 @@ indiv_range			40
 texture				parthia, data/models_unit/textures/unit_eastern_peasant_parthia.tga
 texture				pontus, data/models_unit/textures/unit_eastern_peasant_pontus.tga
 texture				armenia, data/models_unit/textures/unit_eastern_peasant_armenia.tga
-texture				default, data/models_unit/textures/unit_eastern_peasant_slave.tga
+texture				slave, data/models_unit/textures/unit_eastern_peasant_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_eastern_peasant_slave.tga
 ;; thamud_01
@@ -2175,7 +2175,7 @@ texture				armenia, data/models_unit/textures/unit_persian_sparabara_armenia.tga
 texture				parthia, data/models_unit/textures/unit_persian_sparabara_parthia.tga
 texture				pontus, data/models_unit/textures/unit_persian_sparabara_pontus.tga
 texture				seleucid, mve_rex/data/models_unit/NL/seleucid/textures/a_persian_sparabara_seleucid.tga
-texture				default, data/models_unit/textures/unit_persian_sparabara_rebel.tga
+texture				slave, data/models_unit/textures/unit_persian_sparabara_rebel.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_persian_sparabara_rebel.tga
 ;; thamud_01
@@ -2198,7 +2198,7 @@ texture				parthia, data/models_unit/textures/unit_eastern_hillmen_parthia.tga
 texture				pontus, data/models_unit/textures/unit_eastern_hillmen_pontus.tga
 ;; thamud_01
 texture				thamud_01, mve_rex/data/models_unit/textures/unit_eastern_hillmen_slave.tga
-texture				default, mve_rex/data/models_unit/textures/unit_eastern_hillmen_slave.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_eastern_hillmen_slave.tga
 model_flexi			data/models_unit/unit_east_hillmen_high.cas, 15
 model_flexi			data/models_unit/unit_east_hillmen_med.cas, 30
 model_flexi			data/models_unit/unit_east_hillmen_low.cas, 40
@@ -2224,7 +2224,7 @@ skeleton			fs_hc_archer, fs_hc_swordsman
 indiv_range			40
 texture				armenia, data/models_unit/textures/unit_persian_archer_armenia.tga
 texture				parthia, data/models_unit/textures/unit_persian_archer_parthia.tga
-texture				default, data/models_unit/textures/unit_persian_archer_slave.tga
+texture				slave, data/models_unit/textures/unit_persian_archer_slave.tga
 ;; thamud_01
 texture				thamud_01, data/models_unit/textures/unit_persian_archer_slave.tga
 model_flexi			data/models_unit/unit_persian_archer_high.cas, 15
@@ -2258,7 +2258,7 @@ type				egyptian_peasant
 skeleton			fs_spearman													; pitchfork
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_slinger.tga
-texture				default, data/models_unit/textures/unit_egyption_slinger_slave.tga
+texture				slave, data/models_unit/textures/unit_egyption_slinger_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_egyption_slinger_slave.tga
 model_flexi			data/models_unit/unit_egyptian_peasant_high.cas, 15
@@ -2283,7 +2283,7 @@ type				egyptian_archer
 skeleton			fs_semi_fast_archer, fs_semi_fast_dagger
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_archer.tga
-texture				default, data/models_unit/textures/unit_egyption_archer_slave.tga
+texture				slave, data/models_unit/textures/unit_egyption_archer_slave.tga
 model_flexi			data/models_unit/unit_egyption_archer_high.cas, 15
 model_flexi			data/models_unit/unit_egyption_archer_med.cas, 30
 model_flexi			data/models_unit/unit_egyption_archer_low.cas, 40
@@ -2361,7 +2361,7 @@ type				egyptian_chariot_crew
 skeleton			fs_chariot_sword
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyptian_chariot_crew.tga
-texture				default, data/models_unit/textures/unit_egyptian_chariot_crew_slave.tga
+texture				slave, data/models_unit/textures/unit_egyptian_chariot_crew_slave.tga
 model_flexi			data/models_unit/egypt_chariot_crew_high.cas, 15
 model_flexi			data/models_unit/egypt_chariot_crew_med.cas, 30
 model_flexi			data/models_unit/egypt_chariot_crew_low.cas, 40
@@ -2429,7 +2429,7 @@ type				egyptian_peltast
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman										; throwing spear
 indiv_range			40
 texture				egypt, data/models_unit/textures/unit_egyption_peltast.tga
-texture				default, data/models_unit/textures/unit_egyption_peltast_slave.tga
+texture				slave, data/models_unit/textures/unit_egyption_peltast_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_egyption_peltast_slave.tga
 model_flexi			data/models_unit/unit_egyption_peltast_high.cas, 15
@@ -2471,7 +2471,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_amazons
 skeleton			fs_chariot_archer, fs_chariot_sword
 indiv_range			40
-texture				default, data/models_unit/textures/greek_amazon_rebel.tga
+texture				slave, data/models_unit/textures/greek_amazon_rebel.tga
 model_flexi			data/models_unit/unit_greek_amazon_high.cas, 15
 model_flexi			data/models_unit/unit_greek_amazon_med.cas, 30
 model_flexi			data/models_unit/unit_greek_amazon_low.cas, 40
@@ -2528,7 +2528,7 @@ texture				macedon, data/models_unit/textures/unit_greek_peasant_macedon.tga
 texture				seleucid, data/models_unit/textures/unit_greek_peasant_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peasant_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peasant_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_peasant_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_peasant_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
 model_flexi			data/models_unit/unit_roman_peasant_med.cas, 30
@@ -2574,7 +2574,7 @@ texture				macedon, data/models_unit/textures/unit_greek_medium_cavalry_macedon.
 texture				seleucid, data/models_unit/textures/unit_greek_medium_cavalry_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_medium_cavalry_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_medium_cavalry_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_medium_cavalry_slave.tga
@@ -2600,7 +2600,7 @@ texture				macedon, data/models_unit/textures/unit_greek_militia_hoplite_macedon
 texture				seleucid, data/models_unit/textures/unit_greek_militia_hoplite_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
 texture				massilia_01, mve_rex/data/models_unit/textures/unit_greek_militia_hoplite_massilia_01.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_militia_hoplite_slave.tga
@@ -2622,7 +2622,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_hoplite
 skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
-texture				default, data/models_unit/textures/unit_greek_hoplite_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_hoplite_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_hoplite_slave.tga
@@ -2657,7 +2657,7 @@ texture				macedon, data/models_unit/textures/unit_greek_peasant_macedon.tga
 texture				seleucid, data/models_unit/textures/unit_greek_peasant_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peasant_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peasant_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_peasant_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_peasant_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_peasant_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_peasant_slave.tga
@@ -2699,7 +2699,7 @@ texture				macedon, data/models_unit/textures/unit_greek_peltast_macedon.tga
 texture				seleucid, data/models_unit/textures/unit_greek_peltast_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peltast_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peltast_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_peltast_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_peltast_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
@@ -2724,7 +2724,7 @@ indiv_range			40
 texture				seleucid, data/models_unit/textures/unit_greek_peltast_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_peltast_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_peltast_thrace.tga
-texture				default, data/models_unit/textures/unit_greek_peltast_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_peltast_slave.tga
 texture				massilia_01, data/models_unit/textures/unit_greek_peltast_slave.tga
 ; Itanos
 texture				itanos_01, data/models_unit/textures/unit_greek_peltast_slave.tga
@@ -2780,7 +2780,7 @@ type				greek_levy_pikeman
 skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
 texture				macedon, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_macedon.tga
-texture				default, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_slave.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_slave.tga
 texture				seleucid, mve_rex/data/models_unit/textures/unit_NL_greek_levy_phalangitai_seleucid.tga
 model_flexi_m			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, 8
 model_flexi_m			mve_rex/data/models_unit/unit_NL_levy_phalangitai_high.cas, 15
@@ -2825,7 +2825,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_slinger
 skeleton			fs_slinger_new, fs_slinger_new
 indiv_range			40
-texture				default, data/models_unit/textures/unit_roman_slinger_rebel.tga
+texture				slave, data/models_unit/textures/unit_roman_slinger_rebel.tga
 model_flexi			data/models_unit/unit_roman_slinger_high.cas, 8
 model_flexi			data/models_unit/unit_roman_slinger_med.cas, 15
 model_flexi			data/models_unit/unit_roman_slinger_low.cas, 30
@@ -2836,7 +2836,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_cilician_pirate
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman									; throwing spear
 indiv_range			40
-;texture				default, data/models_unit/textures/unit_cilician_pirate.tga	;Only have one unit here, so can't have both a merc and slave version
+;texture				slave, data/models_unit/textures/unit_cilician_pirate.tga	;Only have one unit here, so can't have both a merc and slave version
 texture				merc, data/models_unit/textures/unit_cilician_pirate_merc.tga
 model_flexi			data/models_unit/unit_cilician_pirate_high.cas, 15
 model_flexi			data/models_unit/unit_cilician_pirate_med.cas, 30
@@ -2862,7 +2862,7 @@ type				greek_heavy_peltast
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman
 indiv_range			40
 texture				greek_cities, data/models_unit/textures/unit_greek_heavy_peltast_greek.tga
-texture				default, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
+texture				slave, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
 ;; Kos
 texture				kos_01, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
 model_flexi			data/models_unit/greek_heavy_peltast_high.cas, 15
@@ -2921,7 +2921,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_peasant_julii.tga
 texture				romans_brutii, data/models_unit/textures/unit_roman_peasant_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_peasant_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_peasant_senate.tga
-texture				default, data/models_unit/textures/unit_roman_peasant_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_peasant_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/unit_roman_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_peasant_high.cas, 15
@@ -2976,7 +2976,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_light_infantry_jul
 texture				romans_brutii, data/models_unit/textures/unit_roman_light_infantry_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_light_infantry_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_light_infantry_senate.tga
-texture				default, data/models_unit/textures/unit_roman_light_infantry_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_light_infantry_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/unit_roman_light_infantry_slave.tga
 model_flexi			data/models_unit/unit_roman_light_infantry_high.cas, 15
@@ -3052,7 +3052,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_hastati_julii.tga
 texture				romans_brutii, data/models_unit/textures/unit_roman_hastati_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_hastati_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_hastati_senate.tga
-texture				default, data/models_unit/textures/unit_roman_hastati_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_hastati_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/unit_roman_hastati_slave.tga
 model_flexi_m			data/models_unit/unit_roman_hastati_high.cas, 15
@@ -3166,7 +3166,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_mirmillo_gladiator
 texture				romans_brutii, data/models_unit/textures/unit_roman_mirmillo_gladiator_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_mirmillo_gladiator_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_mirmillo_gladiator_senate.tga
-texture				default, data/models_unit/textures/unit_roman_mirmillo_gladiator_rebel.tga
+texture				slave, data/models_unit/textures/unit_roman_mirmillo_gladiator_rebel.tga
 model_flexi_m			data/models_unit/unit_roman_mirmillo_gladiator_400.cas, 8
 model_flexi_m			data/models_unit/unit_roman_mirmillo_gladiator_300.cas, 15
 model_flexi_m			data/models_unit/unit_roman_mirmillo_gladiator_200.cas, 30
@@ -3237,7 +3237,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_samnite_gladiator_
 texture				romans_brutii, data/models_unit/textures/unit_roman_samnite_gladiator_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_samnite_gladiator_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_samnite_gladiator_senate.tga
-texture				default, data/models_unit/textures/unit_roman_samnite_gladiator_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_samnite_gladiator_slave.tga
 model_flexi_m			data/models_unit/unit_roman_samnite_gladiator_400.cas, 8
 model_flexi_m			data/models_unit/unit_roman_samnite_gladiator_300.cas, 15
 model_flexi_m			data/models_unit/unit_roman_samnite_gladiator_200.cas, 30
@@ -3274,7 +3274,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_peasant_julii.tga
 texture				romans_brutii, data/models_unit/textures/unit_roman_peasant_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_peasant_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_peasant_senate.tga
-texture				default, data/models_unit/textures/unit_roman_peasant_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_peasant_slave.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/unit_roman_peasant_slave.tga
 model_flexi			data/models_unit/unit_roman_velite_high.cas, 8
@@ -3295,7 +3295,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_velite_gladiator_j
 texture				romans_brutii, data/models_unit/textures/unit_roman_velite_gladiator_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_velite_gladiator_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_velite_gladiator_senate.tga
-texture				default, data/models_unit/textures/unit_roman_velite_gladiator_slave.tga
+texture				slave, data/models_unit/textures/unit_roman_velite_gladiator_slave.tga
 model_flexi			data/models_unit/unit_roman_velite_gladiator_400.cas, 15
 model_flexi			data/models_unit/unit_roman_velite_gladiator_300.cas, 30
 model_flexi			data/models_unit/unit_roman_velite_gladiator_200.cas, 40
@@ -3314,7 +3314,7 @@ texture				romans_julii, data/models_unit/textures/unit_roman_city_militia_julii
 texture				romans_brutii, data/models_unit/textures/unit_roman_city_militia_brutii.tga
 texture				romans_scipii, data/models_unit/textures/unit_roman_city_militia_scipii.tga
 texture				romans_senate, data/models_unit/textures/unit_roman_city_militia_senate.tga
-texture				default, data/models_unit/textures/unit_roman_city_militia_rebel.tga
+texture				slave, data/models_unit/textures/unit_roman_city_militia_rebel.tga
 ;; cisra_01
 texture				cisra_01, data/models_unit/textures/unit_roman_city_militia_rebel.tga
 model_flexi			data/models_unit/roman_city_militia_high.cas, 15
@@ -3348,7 +3348,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				roman_samnite_warrior
 skeleton			fs_spearman
 indiv_range			40
-texture				default, mve_rex/data/models_unit/textures/unit_roman_samnite_rebel.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_roman_samnite_rebel.tga
 texture				merc, data/models_unit/textures/unit_roman_samnite_merc.tga
 texture				romans_brutii, mve_rex/data/models_unit/textures/unit_roman_samnite_brutii.tga
 texture				romans_julii, mve_rex/data/models_unit/textures/unit_roman_samnite_julii.tga
@@ -3485,7 +3485,7 @@ type				barb_horse_archer_merc
 skeleton			fs_hc_archer, fs_hc_swordsman
 indiv_range			40
 texture				scythia, data/models_unit/textures/unit_barb_warband_archer_scythia.tga
-texture				default, data/models_unit/textures/unit_barb_warband_archer_slave.tga
+texture				slave, data/models_unit/textures/unit_barb_warband_archer_slave.tga
 texture				mercs, data/models_unit/textures/unit_barb_warband_archer_merc.tga
 model_flexi			data/models_unit/unit_warband_archer_high.cas, 8
 model_flexi			data/models_unit/unit_warband_archer_med.cas, 15
@@ -4107,7 +4107,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				east_central_semitic_elite_mercswords
 skeleton			fs_s1_javelinman, fs_slow_swordsman
 indiv_range			40
-texture				default, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_slave.tga
+texture				slave, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_slave.tga
 texture				merc, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
 texture				seleucid, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
 texture				egypt, mve_rex/data/models_unit/NETW/textures/zxf_east_semitic_elitesword_merc.tga
@@ -4132,7 +4132,7 @@ type				greek_hoplite_late
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
 texture				greek_cities, mve_rex/data/models_unit/textures/greek_hoplite_late.tga
-texture				default, mve_rex/data/models_unit/textures/greek_hoplite_late_slave.tga
+texture				slave, mve_rex/data/models_unit/textures/greek_hoplite_late_slave.tga
 model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 15
 model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 30
 model_flexi			mve_rex/data/models_unit/greek_hoplite_late.cas, 40
@@ -4235,7 +4235,7 @@ type				barb_infantry_longshield_german
 skeleton			fs_spearman, fs_swordsman
 indiv_range			40
 texture				germans, mve_rex/data/models_unit/textures/unit_barb_warband_german.tga
-texture				default, mve_rex/data/models_unit/textures/unit_NL_barb_infantry_longshield_german_slave.tga
+texture				slave, mve_rex/data/models_unit/textures/unit_NL_barb_infantry_longshield_german_slave.tga
 model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_high.cas, 8
 model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_med.cas, 15
 model_flexi			mve_rex/data/models_unit/unit_NL_barb_infantry_longshield_german_low.cas, 30
@@ -4450,7 +4450,7 @@ type				ALEX_indian_javelin_men
 skeleton			fs_semi_fast_javelinman, fs_semi_fast_swordsman
 indiv_range			40
 ;;;	texture				greek_cities, data/models_unit/textures/unit_greek_heavy_peltast_greek.tga
-;;;	texture				default, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
+;;;	texture				slave, data/models_unit/textures/unit_greek_heavy_peltast_slave.tga
 texture				mauryans, mve_rex/data/models_unit/ALX/textures/unit_indian_javelinman.tga
 model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod1.cas, 15
 model_flexi			mve_rex/data/models_unit/ALX/ALEX_indian_javelinman_lod2.cas, 30
@@ -4599,7 +4599,7 @@ texture				armenia, mve_rex/data/characters/textures/unit_NL_median_takabara_arm
 texture				parthia, mve_rex/data/characters/textures/unit_NL_median_takabara_parthia.tga
 texture				pontus, mve_rex/data/characters/textures/unit_NL_median_takabara_pontus.tga
 texture				seleucid, mve_rex/data/characters/textures/unit_NL_median_takabara_seleucid.tga
-texture				default, mve_rex/data/characters/textures/unit_NL_median_takabara_slave.tga
+texture				slave, mve_rex/data/characters/textures/unit_NL_median_takabara_slave.tga
 texture				merc, mve_rex/data/characters/textures/unit_NL_median_takabara_merc.tga
 model_flexi			mve_rex/data/characters/unit_NL_median_takabara_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5
@@ -4666,7 +4666,7 @@ texture				romans_julii, mve_rex/data/characters/textures/unit_NL_roman_marian_l
 texture				romans_brutii, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_brutii.tga
 texture				romans_scipii, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_scipii.tga
 texture				romans_senate, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_senate.tga
-texture				default, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_slave.tga
+texture				slave, mve_rex/data/characters/textures/unit_NL_roman_marian_light_cavalry_slave.tga
 model_flexi                 mve_rex/data/characters/unit_NL_roman_marian_light_cavalry_high.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
