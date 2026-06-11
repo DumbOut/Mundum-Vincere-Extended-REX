@@ -68,8 +68,6 @@
     <sprite name="END_TURN_BUTTON_IMAGE" x="372" y="1" w="52" h="53" alpha="1"/>
     <sprite name="SEASON_ICON_SUMMER" x="215" y="456" w="32" h="32" alpha="1"/>
     <sprite name="SEASON_ICON_WINTER" x="182" y="456" w="33" h="32" alpha="1"/>
-    <sprite name="SEASON_ICON_SPRING" x="369" y="490" w="17" h="22" alpha="1"/>
-    <sprite name="SEASON_ICON_AUTUMN" x="404" y="492" w="13" h="19" alpha="1"/>
     <sprite name="FACTION_LOGO_EMPIRE_WEST" x="107" y="1" w="52" h="52" alpha="1"/>
     <sprite name="FACTION_LOGO_ALEMANNI" x="1" y="1" w="52" h="52" alpha="1"/>
     <sprite name="FACTION_LOGO_EMPIRE_EAST" x="54" y="1" w="52" h="52" alpha="1"/>
@@ -180,11 +178,6 @@
     <sprite name="LBC_BUTTON_IMAGE_DISABLED" x="380" y="423" w="32" h="32" alpha="1"/>
     <sprite name="DESTROY_BUILDING_BUTTON_IMAGE" x="413" y="423" w="32" h="32" alpha="1"/>
     <sprite name="DESTROY_BUILDING_BUTTON_IMAGE_DISABLED" x="446" y="423" w="32" h="32" alpha="1"/>
-    <!-- Downgrade reuses the new-constructions icon; sidegrade reuses the repair-buildings icon (Lanjane). -->
-    <sprite name="DOWNGRADE_BUILDING_BUTTON_IMAGE" x="466" y="375" w="28" h="28" alpha="1"/>
-    <sprite name="DOWNGRADE_BUILDING_BUTTON_IMAGE_DISABLED" x="466" y="404" w="28" h="28" alpha="1"/>
-    <sprite name="SIDEGRADE_BUILDING_BUTTON_IMAGE" x="466" y="433" w="28" h="28" alpha="1"/>
-    <sprite name="SIDEGRADE_BUILDING_BUTTON_IMAGE_DISABLED" x="284" y="230" w="28" h="28" alpha="1"/>
     <sprite name="SINGLE_RALLY_POINT_ICON" x="186" y="345" w="13" h="39" alpha="1"/>
     <sprite name="MULTIPLE_RALLY_POINTS_ICON" x="155" y="345" w="31" h="30" alpha="1"/>
     <sprite name="ANCILLARY_CHARACTER_DRAG_HANDLE" x="483" y="98" w="13" h="13" alpha="1"/>
