@@ -5972,7 +5972,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 130, 60, 80, 520
-ownership        slave, carthage
+ownership        slave, carthage, thamud_01, itanos_01
 
 type             merc arab cavalry
 dictionary       merc_arab_cavalry      ; Arab Cavalry
@@ -5998,7 +5998,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 120, 50, 80, 480
-ownership        slave, parthia, armenia
+ownership        slave, parthia, armenia, thamud_01
 
 type             merc bedouin
 dictionary       merc_bedouin      ; Bedouin Warriors
