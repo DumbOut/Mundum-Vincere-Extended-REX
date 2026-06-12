@@ -9,31 +9,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #020812;
-  --bg2: #051735;
-  --panel: rgba(3, 18, 43, .82);
-  --panel2: rgba(10, 55, 115, .78);
-  --panel3: rgba(2, 10, 26, .72);
-  --line: rgba(116, 184, 255, .36);
-  --line2: rgba(210, 231, 255, .62);
-  --ink: #eef8ff;
-  --ink2: #b7dcff;
-  --ink3: #78a8d9;
-  --gold: #e7eef4;
-  --gold2: #ffffff;
+  --bg: #120202;
+  --bg2: #260606;
+  --panel: rgba(43, 3, 3, .88);
+  --panel2: rgba(115, 10, 10, .82);
+  --panel3: rgba(26, 2, 2, .78);
+  --line: rgba(255, 116, 116, .38);
+  --line2: rgba(255, 210, 210, .64);
+  --ink: #fff1ed;
+  --ink2: #ffc0b7;
+  --ink3: #d97b78;
+  --gold: #f0c46a;
+  --gold2: #ffe6a3;
   --red: #c91f1f;
-  --red2: #ff4b3f;
-  --green: #67caff;
-  --blue: #2f9dff;
+  --red2: #ff5a4c;
+  --green: #ff9b67;
+  --blue: #ff4a3f;
   --shadow: 0 10px 30px rgba(0,0,0,.45);
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
 body {
   background:
-    radial-gradient(circle at 50% 15%, rgba(62, 165, 255, .34), transparent 310px),
-    linear-gradient(180deg, rgba(15, 93, 173, .42), transparent 260px),
-    linear-gradient(90deg, rgba(255,255,255,.08), transparent 45%, rgba(200,232,255,.10)),
+    radial-gradient(circle at 50% 15%, rgba(255, 62, 42, .24), transparent 310px),
+    linear-gradient(180deg, rgba(145, 18, 18, .56), transparent 260px),
+    linear-gradient(90deg, rgba(255,255,255,.06), transparent 45%, rgba(255,120,92,.10)),
     var(--bg);
   color: var(--ink);
   font: 13px "EB Garamond", Georgia, serif;
@@ -45,8 +45,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   background: url("Rome_Icon.png") center center / 520px 520px no-repeat;
-  opacity: .16;
-  filter: saturate(1.35) hue-rotate(170deg);
+  opacity: .20;
+  filter: none;
 }
 button, input, select, textarea {
   font: 12px "IBM Plex Mono", Consolas, monospace;
@@ -269,6 +269,18 @@ pre {
   color: var(--ink2);
   font: 11px "IBM Plex Mono", monospace;
 }
+
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.row button { flex: 1 1 150px; }
+.hint { color: var(--ink3); font: 11px "IBM Plex Mono", monospace; line-height: 1.35; margin: 5px 0 9px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; }
+.icon-card { display: grid; gap: 4px; place-items: center; padding: 8px 6px; border: 1px solid var(--line); border-radius: 7px; background: #160707; color: var(--ink2); font: 10px "IBM Plex Mono", monospace; cursor: pointer; }
+.icon-card:hover, .icon-card.active { border-color: var(--gold2); color: var(--gold2); background: rgba(160, 24, 24, .42); }
+.icon-card .emblem { width: 34px; height: 34px; border-radius: 50%; background: url("Rome_Icon.png") center/cover no-repeat; border: 1px solid var(--gold); filter: none; }
+.tool-output { min-height: 86px; white-space: pre-wrap; }
+.unit-picker { display: grid; gap: 6px; max-height: 180px; overflow: auto; padding-right: 3px; }
+.unit-row { display: grid; grid-template-columns: 18px 1fr auto; gap: 7px; align-items: center; padding: 6px 7px; border: 1px solid var(--line); border-radius: 5px; background: #120605; color: var(--ink2); font: 11px "IBM Plex Mono", monospace; }
+.unit-row small { color: var(--ink3); }
 @media (max-width: 1160px) {
   body { overflow: auto; }
   .app { min-height: 100vh; height: auto; }
@@ -293,6 +305,11 @@ pre {
       <button id="loadBtn">Load Existing</button>
       <button id="saveJsonBtn">Save Plan</button>
       <button id="loadJsonBtn">Open Plan</button>
+      <select id="uiSkin" title="UI skin">
+        <option value="red">Julii Red</option>
+        <option value="dark">Dark Red</option>
+        <option value="gold">Gold Red</option>
+      </select>
       <input id="jsonFile" type="file" accept="application/json,.json" hidden>
     </div>
   </header>
@@ -373,14 +390,57 @@ al-Samudi</textarea></div>
         </details>
 
         <details class="group">
-          <summary>Temples & Climates</summary>
+          <summary>Temples</summary>
           <div class="group-body">
             <div class="grid2">
               <div class="field"><label>Existing EDB temple 1</label><input id="temple1" value="temple_of_jupiter"></div>
               <div class="field"><label>Existing EDB temple 2</label><input id="temple2" value="temple_of_mars"></div>
             </div>
             <div class="hint">Temple entries are validated against data/export_descr_buildings.txt and reused only if already present; this tool does not generate new temple bonus blocks.</div>
-            <div class="field"><label>Custom climates</label><textarea id="climates">arabian_desert sandy_desert red 218 green 186 blue 92</textarea></div>
+          </div>
+        </details>
+
+        <details class="group" open>
+          <summary>EDU Unit Chooser</summary>
+          <div class="group-body">
+            <div class="row">
+              <button id="loadEduBtn" type="button">Load export_descr_unit.txt</button>
+              <button id="applyEduBtn" type="button">Use Checked Units</button>
+              <input id="eduFile" type="file" accept=".txt,text/plain" hidden>
+            </div>
+            <div class="field" style="margin-top:9px"><label>Filter by type, dictionary, category, or ownership</label><input id="eduSearch" placeholder="east, cavalry, arabs, roman..."></div>
+            <div id="eduPicker" class="unit-picker"><div class="hint">Load EDU from the selected mod folder or choose a TXT file to pick units.</div></div>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Faction Forge Masks & Recolors</summary>
+          <div class="group-body">
+            <div class="card-grid" id="iconPicker">
+              <div class="icon-card active" data-icon="Rome_Icon.png"><span class="emblem"></span><span>SPQR icon</span></div>
+              <div class="icon-card" data-icon="RTW_Faction_Forge.html"><span class="emblem"></span><span>Forge masks</span></div>
+              <div class="icon-card" data-icon="rtw_unit_importer_v24.html"><span class="emblem"></span><span>Unit importer</span></div>
+            </div>
+            <div class="hint">Open Faction Forge for texture recoloring, then use primary/secondary/tertiary colors here for faction coding. Mask creator helpers below produce channel notes you can paste into Forge.</div>
+            <div class="grid3">
+              <div class="field"><label>Mask strength</label><input id="maskStrength" type="number" min="0" max="100" value="85"></div>
+              <div class="field"><label>Edge cleanup</label><select id="maskCleanup"><option>grow/smooth</option><option>shrink/smooth</option><option>none</option></select></div>
+              <div class="field"><label>Export format</label><select id="forgeFormat"><option>DXT3 DDS</option><option>TGA</option><option>PNG preview</option></select></div>
+            </div>
+            <button id="makeMaskPlanBtn" type="button" style="width:100%">Create Mask/Recolor Plan</button>
+            <textarea id="maskPlan" class="tool-output" readonly></textarea>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Namelist & EDU Roster Makers</summary>
+          <div class="group-body">
+            <div class="row">
+              <button id="genNamesBtn" type="button">Generate Namelist</button>
+              <button id="genRosterBtn" type="button">Generate EDU Roster</button>
+            </div>
+            <div class="hint">Generators use faction description words and selected EDU units to draft quick modding blocks.</div>
+            <textarea id="makerOutput" class="tool-output" readonly></textarea>
           </div>
         </details>
       </div>
@@ -454,7 +514,6 @@ const FILES = [
   ["regions", "data/world/maps/base/descr_regions.txt", "descr_regions"],
   ["names", "data/descr_names.txt", "descr_names"],
   ["namesText", "data/text/names.txt", "text/names"],
-  ["descrExClimates", "data/descr_ex_custom_climates.txt", "custom_climates"],
   ["campaignDescriptions", "data/text/campaign_descriptions.txt", "campaign_descriptions"],
   ["win", "data/world/maps/campaign/imperial_campaign/descr_win_conditions.txt", "descr_win_conditions"]
 ];
@@ -466,9 +525,12 @@ const dom = {};
   "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
   "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
   "units","maleNames","femaleNames","surnames","description","temple1","temple2",
-  "climates","tabs","preview","previewPath","copyPreviewBtn","regenBtn",
+  "tabs","preview","previewPath","copyPreviewBtn","regenBtn",
   "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
-  "opUnits","opCards","opDescrEx"
+  "opUnits","opCards","opDescrEx","findCoordsBtn","loadTgaBtn","mapRegionsFile",
+  "uiSkin","loadEduBtn","applyEduBtn","eduFile","eduSearch","eduPicker",
+  "iconPicker","maskStrength","maskCleanup","forgeFormat","makeMaskPlanBtn","maskPlan",
+  "genNamesBtn","genRosterBtn","makerOutput"
 ].forEach(id => dom[id] = document.getElementById(id));
 
 let rootHandle = null;
@@ -477,6 +539,7 @@ let fso = null;
 let activeKey = "sm";
 let generated = {};
 let dirty = true;
+let loadedEduUnits = [];
 
 function init() {
   CULTURES.forEach(c => {
@@ -510,6 +573,19 @@ function init() {
   dom.saveJsonBtn.onclick = savePlan;
   dom.loadJsonBtn.onclick = () => dom.jsonFile.click();
   dom.jsonFile.onchange = openPlan;
+  dom.findCoordsBtn.onclick = findSettlementCoords;
+  dom.loadTgaBtn.onclick = () => dom.mapRegionsFile.click();
+  dom.mapRegionsFile.onchange = () => log(`Loaded map_regions.tga from file picker: ${dom.mapRegionsFile.files[0]?.name || "none"}`, "ok");
+  dom.uiSkin.onchange = applyUiSkin;
+  dom.loadEduBtn.onclick = loadEduUnits;
+  dom.eduFile.onchange = loadEduFile;
+  dom.eduSearch.oninput = renderEduPicker;
+  dom.applyEduBtn.onclick = applyCheckedEduUnits;
+  dom.makeMaskPlanBtn.onclick = makeMaskPlan;
+  dom.genNamesBtn.onclick = generateNameListFromDescription;
+  dom.genRosterBtn.onclick = generateEduRoster;
+  dom.iconPicker.onclick = handleIconPicker;
+  applyUiSkin();
   initialiseLocalFileAccess();
   dom.apiPill.textContent = window.showDirectoryPicker ? "File API: ready" : (fso ? "ActiveX files: ready" : "File API: unavailable");
   dom.apiPill.className = (window.showDirectoryPicker || fso) ? "pill ok" : "pill bad";
@@ -571,8 +647,7 @@ function spec() {
     surnames: lines("surnames"),
     description: val("description"),
     temple1: val("temple1"),
-    temple2: val("temple2"),
-    climates: lines("climates")
+    temple2: val("temple2")
   };
 }
 
@@ -586,7 +661,6 @@ function generateAll() {
     regions: genRegionsNote(s),
     names: genNames(s),
     namesText: genNamesText(s),
-    descrExClimates: genClimates(s),
     campaignDescriptions: genCampaignDescription(s),
     win: genWinConditions(s)
   };
@@ -687,16 +761,97 @@ function genNamesText(s) {
   return block(s.id, all.map(n => `{${n}}\t${n}`).join("\n"));
 }
 
-function genClimates(s) {
-  const rows = s.climates.map(row => {
-    const parts = row.split(/\s+/);
-    if (parts.length >= 2) {
-      const alias = parts[0], base = parts[1], rest = parts.slice(2).join(" ");
-      return `climate ${alias} ${base}${rest ? `\nmap_colour ${alias} ${rest}` : ""}`;
-    }
-    return row;
-  }).join("\n");
-  return block(s.id, rows);
+function applyUiSkin() {
+  const skin = dom.uiSkin.value;
+  const root = document.documentElement;
+  root.style.setProperty("--panel2", skin === "gold" ? "rgba(135, 70, 12, .82)" : skin === "dark" ? "rgba(70, 5, 5, .86)" : "rgba(115, 10, 10, .82)");
+  root.style.setProperty("--gold", skin === "gold" ? "#ffd36a" : "#f0c46a");
+  root.style.setProperty("--gold2", skin === "gold" ? "#fff0a6" : "#ffe6a3");
+}
+
+function parseEduUnits(text) {
+  return text.split(/(?=^type\s+)/m).map(block => {
+    const type = (block.match(/^type\s+(.+)$/m) || [])[1]?.trim();
+    if (!type) return null;
+    const get = key => (block.match(new RegExp(`^${key}\\s+(.+)$`, "m")) || [])[1]?.trim() || "";
+    return { type, dictionary: get("dictionary"), category: get("category"), className: get("class"), ownership: get("ownership"), block };
+  }).filter(Boolean);
+}
+async function loadEduUnits() {
+  clearLog();
+  try {
+    let text = "";
+    if (rootHandle || rootPath) text = await readText(`${DATA}export_descr_unit.txt`);
+    else { dom.eduFile.click(); return; }
+    loadedEduUnits = parseEduUnits(text);
+    renderEduPicker();
+    log(`Loaded ${loadedEduUnits.length} EDU units from mod folder.`, "ok");
+  } catch (err) {
+    log(`Could not load EDU from folder: ${err.message || err}. Pick export_descr_unit.txt manually.`, "bad");
+    dom.eduFile.click();
+  }
+}
+async function loadEduFile() {
+  const file = dom.eduFile.files && dom.eduFile.files[0];
+  if (!file) return;
+  loadedEduUnits = parseEduUnits(await file.text());
+  renderEduPicker();
+  log(`Loaded ${loadedEduUnits.length} EDU units from ${file.name}.`, "ok");
+}
+function renderEduPicker() {
+  const q = (dom.eduSearch.value || "").toLowerCase().trim();
+  const current = new Set(lines("units").map(u => u.toLowerCase()));
+  const filtered = loadedEduUnits.filter(u => !q || [u.type,u.dictionary,u.category,u.className,u.ownership].join(" ").toLowerCase().includes(q)).slice(0, 250);
+  dom.eduPicker.innerHTML = filtered.length ? filtered.map(u => `
+    <label class="unit-row">
+      <input type="checkbox" value="${escapeHtml(u.type)}" ${current.has(u.type.toLowerCase()) ? "checked" : ""}>
+      <span>${escapeHtml(u.type)}<br><small>${escapeHtml(u.dictionary || "no dictionary")} · ${escapeHtml(u.category || "category?")}</small></span>
+      <small>${escapeHtml(u.ownership || "")}</small>
+    </label>`).join("") : `<div class="hint">${loadedEduUnits.length ? "No units match the filter." : "Load export_descr_unit.txt to choose units."}</div>`;
+}
+function applyCheckedEduUnits() {
+  const picked = [...dom.eduPicker.querySelectorAll("input:checked")].map(i => i.value);
+  if (!picked.length) { log("No EDU units checked.", "bad"); return; }
+  dom.units.value = picked.join("\n");
+  markDirty();
+  generateAll();
+  log(`Starter roster set to ${picked.length} EDU unit(s).`, "ok");
+}
+function handleIconPicker(ev) {
+  const card = ev.target.closest(".icon-card");
+  if (!card) return;
+  [...dom.iconPicker.querySelectorAll(".icon-card")].forEach(c => c.classList.toggle("active", c === card));
+  const target = card.dataset.icon;
+  if (/\.html$/i.test(target)) window.open(target, "_blank");
+}
+function makeMaskPlan() {
+  const s = spec();
+  dom.maskPlan.value = [
+    `Faction Forge plan for ${s.id}`,
+    `Primary cloth channel: ${s.primary}`,
+    `Secondary shield/trim channel: ${s.secondary}`,
+    s.useTertiary ? `Tertiary accent channel: ${s.tertiary}` : "Tertiary disabled",
+    `Mask strength: ${val("maskStrength")}%`,
+    `Edge cleanup: ${val("maskCleanup")}`,
+    `Export: ${val("forgeFormat")}`,
+    "Protect skin/metal, auto-mask cloth first, then grow/smooth before exporting faction-coded textures."
+  ].join("\n");
+}
+function generateNameListFromDescription() {
+  const s = spec();
+  const words = s.description.split(/[^A-Za-z]+/).filter(w => w.length > 4).slice(0, 12);
+  const stems = words.length ? words : [s.name, s.culture, "Aurel", "Marcell", "Sabin"];
+  const males = stems.slice(0, 5).map(w => w[0].toUpperCase() + w.slice(1, 8).toLowerCase());
+  const females = stems.slice(2, 7).map(w => w[0].toUpperCase() + w.slice(1, 7).toLowerCase() + "a");
+  const surnames = stems.slice(4, 9).map(w => "of " + (w[0].toUpperCase() + w.slice(1).toLowerCase()));
+  dom.makerOutput.value = `faction: ${s.id}\ncharacters\n${males.map(n=>"\t"+n).join("\n")}\nwomen\n${females.map(n=>"\t"+n).join("\n")}\nsurnames\n${surnames.map(n=>"\t"+n).join("\n")}`;
+}
+function generateEduRoster() {
+  const s = spec();
+  dom.makerOutput.value = s.units.map((u, i) => `unit\t\t${u}\t\t\t\t\t\t\texp ${i ? 0 : 1} armour 0 weapon_lvl 0`).join("\n");
+}
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
 }
 
 function genCampaignDescription(s) {
@@ -759,12 +914,20 @@ function setManualPath() {
   dom.folderLabel.textContent = rootPath;
   log(`Selected mod folder path: ${rootPath}`, "ok");
 }
+async function verifyReadWrite(handle) {
+  if (!handle || !handle.queryPermission) return true;
+  const opts = { mode: "readwrite" };
+  if (await handle.queryPermission(opts) === "granted") return true;
+  return await handle.requestPermission(opts) === "granted";
+}
 async function pickFolder() {
   rootPath = "";
   if (window.showDirectoryPicker) {
-    rootHandle = await window.showDirectoryPicker({ mode: "readwrite" });
+    rootHandle = await window.showDirectoryPicker({ mode: "readwrite", startIn: "desktop" });
+    if (!(await verifyReadWrite(rootHandle))) throw new Error("Read/write permission was not granted for that folder.");
     dom.folderLabel.textContent = rootHandle.name;
-    log(`Selected mod folder: ${rootHandle.name}`, "ok");
+    log(`Selected mod folder with read/write permission: ${rootHandle.name}`, "ok");
+    log("Browser security may still block protected C:\\Program Files folders. If that happens, run as a trusted HTA/IE page with the manual C:\\ path, or export to an unprotected folder and copy into RTW as administrator.", "muted");
     return;
   }
   initialiseLocalFileAccess();
@@ -1118,9 +1281,8 @@ async function writeSelected() {
     if (dom.opRegions.checked) await updateRegionCreators(s);
     if (dom.opUnits.checked) await updateEduOwnership(s);
     if (dom.opCards.checked && dom.copySlaveCards.checked) await copySlaveCards(s);
-    if (dom.opDescrEx.checked) {
-      await ensureLine(`${DATA}descr_ex.txt`, "custom_climates_enable true");
-      if (s.useTertiary) await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
+    if (dom.opDescrEx.checked && s.useTertiary) {
+      await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
     }
     log("Write pass complete.", "ok");
   } catch (err) {
@@ -1170,7 +1332,7 @@ function planData() {
     "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
     "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
     "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
-    "description","temple1","temple2","climates"
+    "description","temple1","temple2","uiSkin","maskStrength","maskCleanup","forgeFormat"
   ];
   const data = {};
   ids.forEach(id => data[id] = dom[id].value);
