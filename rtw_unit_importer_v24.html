@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -3575,6 +3575,12 @@ async function exportModZip() {
   const suffix = state.renameSuffix || '';
   const modFolder = state.dmbModFolder || '';
   const renamedUnits = applyRename(units, prefix, suffix, modFolder);
+  const zip = new JSZip();
+  const dateSep = `; ═══ RTW Unit Importer — Appended ${new Date().toLocaleDateString()} ═══\n`;
+  const progress = document.getElementById('zipProgress');
+  const fill = document.getElementById('zipProgressFill');
+  const plabel = document.getElementById('zipProgressLabel');
+  progress?.classList.add('active');
 
   // Single yield to paint progress bar, then pack everything synchronously
   plabel.textContent = 'Preparing…'; fill.style.width = '5%';
@@ -3611,15 +3617,13 @@ async function exportModZip() {
   for (const { path, strictPath } of uniquePaths) {
     const asset = strictPath ? getAssetStrict(path) : getAsset(path);
     if (asset) {
-        zip.file(packPath, asset.buffer);
+      const packPath = (path.endsWith('.tga') && asset.name.toLowerCase().endsWith('.tga.dds')) ? path + '.dds' : path;
+      zip.file(packPath, asset.buffer);
 
-        // mirror UI cards into a recovery folder
-        if (packPath.startsWith('ui/')) {
-            zip.file(
-                'RECOVER_UI_CARDS/' + asset.name,
-                asset.buffer
-            );
-        }
+      // mirror UI cards into a recovery folder for manual recovery/debugging
+      if (packPath.startsWith('ui/')) {
+        zip.file('RECOVER_UI_CARDS/' + packPath.replace(/^ui\//, ''), asset.buffer);
+      }
     }
   }
 
