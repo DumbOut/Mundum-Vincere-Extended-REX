@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 2048.0
+camera_max_height 4096.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -78,7 +78,7 @@ fast_ai_end_turn_level 2
 fast_ai_end_turn_keep_diplomacy true
 
 ; Force AI campaign movement animations through the existing fast-forward path.
-fast_ai_end_turn_skip_animations true
+fast_ai_end_turn_skip_animations false
 
 ; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
 ; every AI settlement's projected finance report during the yearly pass.
