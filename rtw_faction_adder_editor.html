@@ -1,0 +1,1204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RTW Faction Adder & Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #020812;
+  --bg2: #051735;
+  --panel: rgba(3, 18, 43, .82);
+  --panel2: rgba(10, 55, 115, .78);
+  --panel3: rgba(2, 10, 26, .72);
+  --line: rgba(116, 184, 255, .36);
+  --line2: rgba(210, 231, 255, .62);
+  --ink: #eef8ff;
+  --ink2: #b7dcff;
+  --ink3: #78a8d9;
+  --gold: #e7eef4;
+  --gold2: #ffffff;
+  --red: #c91f1f;
+  --red2: #ff4b3f;
+  --green: #67caff;
+  --blue: #2f9dff;
+  --shadow: 0 10px 30px rgba(0,0,0,.45);
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background:
+    radial-gradient(circle at 50% 15%, rgba(62, 165, 255, .34), transparent 310px),
+    linear-gradient(180deg, rgba(15, 93, 173, .42), transparent 260px),
+    linear-gradient(90deg, rgba(255,255,255,.08), transparent 45%, rgba(200,232,255,.10)),
+    var(--bg);
+  color: var(--ink);
+  font: 13px "EB Garamond", Georgia, serif;
+  overflow: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: url("Rome_Icon.png") center center / 520px 520px no-repeat;
+  opacity: .16;
+  filter: saturate(1.35) hue-rotate(170deg);
+}
+button, input, select, textarea {
+  font: 12px "IBM Plex Mono", Consolas, monospace;
+}
+button {
+  border: 1px solid var(--line2);
+  background: linear-gradient(180deg, var(--panel2), var(--panel));
+  color: var(--ink);
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+button:hover { border-color: var(--gold); color: var(--gold2); }
+button.primary {
+  background: linear-gradient(180deg, var(--gold2), #9d7130);
+  border-color: #6e4d1c;
+  color: #1a1208;
+  font-weight: 700;
+}
+button.warn:hover { border-color: var(--red2); color: var(--red2); }
+button:disabled { opacity: .45; cursor: not-allowed; }
+input, select, textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: #0c0a07;
+  color: var(--ink);
+  border-radius: 5px;
+  padding: 7px 8px;
+  outline: none;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--gold); }
+textarea { resize: vertical; min-height: 72px; line-height: 1.35; }
+#maleNames, #femaleNames, #surnames { min-height: 100px; }
+label {
+  display: block;
+  color: var(--ink2);
+  font: 11px "IBM Plex Mono", Consolas, monospace;
+  margin: 0 0 5px;
+}
+.app { height: 100vh; display: flex; flex-direction: column; }
+header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--panel2), var(--panel));
+  box-shadow: var(--shadow);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 270px; }
+.crest {
+  width: 36px; height: 36px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: url("Rome_Icon.png") center center / cover no-repeat;
+  color: transparent;
+  font: 900 17px "Cinzel", serif;
+  border: 2px solid rgba(255,255,255,.82);
+  box-shadow: 0 0 0 2px rgba(23,132,255,.65), 0 8px 22px rgba(0,0,0,.48);
+}
+h1 { margin: 0; color: var(--gold2); font: 900 17px "Cinzel", serif; }
+.sub { color: var(--ink3); font: 11px "IBM Plex Mono", monospace; }
+.bar { display: flex; gap: 8px; margin-left: auto; align-items: center; flex-wrap: wrap; }
+.folder {
+  max-width: 420px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--ink2);
+  background: #0c0a07;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  padding: 7px 10px;
+  font: 11px "IBM Plex Mono", monospace;
+}
+.main {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 390px minmax(460px, 1fr) 360px;
+}
+.pane {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  background: rgba(25,21,15,.85);
+}
+.pane:last-child { border-right: none; border-left: 1px solid var(--line); }
+.pane-title {
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--line);
+  color: var(--gold2);
+  font: 700 13px "Cinzel", serif;
+  background: linear-gradient(180deg, rgba(203,164,91,.07), transparent);
+}
+.scroll { overflow: auto; padding: 12px; }
+.scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.scroll::-webkit-scrollbar-thumb { background: var(--line2); border-radius: 8px; border: 2px solid var(--bg2); }
+.group {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 7px;
+  margin: 0 0 11px;
+  overflow: hidden;
+}
+.group > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 9px 10px;
+  color: var(--gold);
+  font: 700 12px "Cinzel", serif;
+  background: rgba(255,255,255,.025);
+}
+.group > summary::-webkit-details-marker { display: none; }
+.group-body { padding: 10px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.field { margin-bottom: 9px; }
+.checkrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 0;
+  color: var(--ink2);
+  font: 12px "IBM Plex Mono", monospace;
+}
+.checkrow input { width: 16px; height: 16px; accent-color: var(--gold); }
+.swatches { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.swatch input { height: 36px; padding: 2px; }
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel3);
+  overflow-x: auto;
+}
+.tabs button {
+  white-space: nowrap;
+  padding: 6px 8px;
+  color: var(--ink2);
+  background: #0c0a07;
+}
+.tabs button.active { color: #1a1208; background: var(--gold); border-color: var(--gold2); }
+.preview {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.preview-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+}
+.preview-head code {
+  color: var(--ink2);
+  font: 11px "IBM Plex Mono", monospace;
+}
+pre {
+  margin: 0;
+  padding: 12px;
+  overflow: auto;
+  white-space: pre;
+  background: #0b0907;
+  color: #eadfc9;
+  font: 12px Consolas, "IBM Plex Mono", monospace;
+  line-height: 1.35;
+}
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+.status {
+  min-height: 160px;
+  max-height: 260px;
+  overflow: auto;
+  background: #0b0907;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px;
+  font: 11px "IBM Plex Mono", monospace;
+  color: var(--ink2);
+}
+.status div { padding: 2px 0; }
+.ok { color: #9fc88f; }
+.bad { color: #d26d62; }
+.muted { color: var(--ink3); }
+.filelist {
+  display: grid;
+  gap: 6px;
+  margin-top: 6px;
+}
+.filetoggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 8px;
+  background: #0c0a07;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  color: var(--ink2);
+  font: 11px "IBM Plex Mono", monospace;
+}
+.filetoggle input { width: 15px; height: 15px; accent-color: var(--gold); }
+.pillrow { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.pill {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 4px 6px;
+  background: #0c0a07;
+  color: var(--ink2);
+  font: 11px "IBM Plex Mono", monospace;
+}
+@media (max-width: 1160px) {
+  body { overflow: auto; }
+  .app { min-height: 100vh; height: auto; }
+  .main { grid-template-columns: 1fr; }
+  .pane { min-height: 520px; border-right: none; border-bottom: 1px solid var(--line); }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="crest">SPQR</div>
+      <div>
+        <h1>Faction Adder & Editor</h1>
+        <div class="sub">RTW / REX mod-folder writer</div>
+      </div>
+    </div>
+    <div id="folderLabel" class="folder">no mod folder selected</div>
+    <div class="bar">
+      <button id="pickFolderBtn" class="primary">Pick Mod Folder</button>
+      <button id="loadBtn">Load Existing</button>
+      <button id="saveJsonBtn">Save Plan</button>
+      <button id="loadJsonBtn">Open Plan</button>
+      <input id="jsonFile" type="file" accept="application/json,.json" hidden>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="pane">
+      <div class="pane-title">Faction Specification</div>
+      <div class="scroll">
+        <details class="group" open>
+          <summary>Identity</summary>
+          <div class="group-body">
+            <div class="grid2">
+              <div class="field"><label>Faction id</label><input id="factionId" value="thamud_01"></div>
+              <div class="field"><label>Culture</label><select id="culture"></select></div>
+            </div>
+            <div class="grid2">
+              <div class="field"><label>Display name</label><input id="displayName" value="Thamud"></div>
+              <div class="field"><label>Standard index</label><input id="standardIndex" type="number" value="38"></div>
+            </div>
+            <div class="field"><label>Logo index</label><input id="logoIndex" value="FACTION_LOGO_THAMUD_01"></div>
+            <div class="field"><label>Small logo index</label><input id="smallLogoIndex" value="SMALL_FACTION_LOGO_THAMUD_01"></div>
+            <div class="swatches">
+              <div class="field swatch"><label>Primary</label><input id="primaryColor" type="color" value="#7c6c04"></div>
+              <div class="field swatch"><label>Secondary</label><input id="secondaryColor" type="color" value="#aa9dbb"></div>
+              <div class="field swatch"><label>Tertiary</label><input id="tertiaryColor" type="color" value="#2e7895"></div>
+            </div>
+            <label class="checkrow"><input id="useTertiary" type="checkbox" checked>Write tertiary_colour and enable descr_ex overlay flag</label>
+            <label class="checkrow"><input id="hasFamilyTree" type="checkbox" checked>Faction uses family members</label>
+            <label class="checkrow"><input id="copySlaveCards" type="checkbox" checked>Copy slave unit cards into faction UI folders</label>
+          </div>
+        </details>
+
+        <details class="group" open>
+          <summary>Campaign Start</summary>
+          <div class="group-body">
+            <div class="field"><label>Starting regions, one per line</label><textarea id="regions">Hegra_R</textarea></div>
+            <div class="grid3">
+              <div class="field"><label>X</label><input id="startX" type="number" value="0"></div>
+              <div class="field"><label>Y</label><input id="startY" type="number" value="0"></div>
+              <div class="field"><label>Denarii</label><input id="denarii" type="number" value="10000"></div>
+            </div>
+            <div class="row">
+              <button id="findCoordsBtn" type="button">Find Settlement Coords</button>
+              <button id="loadTgaBtn" type="button">Open map_regions.tga</button>
+              <input id="mapRegionsFile" type="file" accept=".tga,image/x-tga" hidden>
+            </div>
+            <div class="hint">Reads descr_regions and scans map_regions.tga for the selected region's black settlement pixel, then flips Y once into map coordinates.</div>
+            <div class="grid2">
+              <div class="field"><label>Leader name</label><input id="leaderName" value="Ruqayy"></div>
+              <div class="field"><label>Heir name</label><input id="heirName" value="Malik"></div>
+            </div>
+            <div class="field"><label>Starter units, one EDU type per line</label><textarea id="units">east infantry
+arab cavalry
+east archers</textarea></div>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Names & Text</summary>
+          <div class="group-body">
+            <div class="field"><label>Male names</label><textarea id="maleNames">Ruqayy
+Malik
+Jadhima
+Hudhayfa
+Nabhan</textarea></div>
+            <div class="field"><label>Female names</label><textarea id="femaleNames">Layla
+Rabab
+Zaynab
+Hind
+Salma</textarea></div>
+            <div class="field"><label>Surnames</label><textarea id="surnames">al-Hijri
+al-Qurhawi
+al-Rumahi
+al-Harithi
+al-Samudi</textarea></div>
+            <div class="field"><label>Faction description</label><textarea id="description">A desert kingdom anchored by caravan cities, ancestral shrines, and the stone-cut routes between Arabia and the Levant.</textarea></div>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Temples & Climates</summary>
+          <div class="group-body">
+            <div class="grid2">
+              <div class="field"><label>Existing EDB temple 1</label><input id="temple1" value="temple_of_jupiter"></div>
+              <div class="field"><label>Existing EDB temple 2</label><input id="temple2" value="temple_of_mars"></div>
+            </div>
+            <div class="hint">Temple entries are validated against data/export_descr_buildings.txt and reused only if already present; this tool does not generate new temple bonus blocks.</div>
+            <div class="field"><label>Custom climates</label><textarea id="climates">arabian_desert sandy_desert red 218 green 186 blue 92</textarea></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="pane">
+      <div class="pane-title">Generated Inserts</div>
+      <div class="tabs" id="tabs"></div>
+      <div class="preview">
+        <div class="preview-head">
+          <code id="previewPath">descr_sm_factions.txt</code>
+          <button id="copyPreviewBtn">Copy</button>
+          <button id="regenBtn">Regenerate</button>
+        </div>
+        <pre id="preview"></pre>
+      </div>
+    </section>
+
+    <section class="pane">
+      <div class="pane-title">Mod Folder Writes</div>
+      <div class="scroll">
+        <div class="group">
+          <div class="group-body">
+            <button id="writeBtn" class="primary" style="width:100%">Write Selected Changes</button>
+            <div class="field" style="margin-top:9px">
+              <label>Manual Windows mod folder path (IE/HTA trusted mode only)</label>
+              <input id="manualPath" placeholder="C:\Program Files (x86)\Steam\steamapps\common\Rome Total War\rex">
+            </div>
+            <button id="setPathBtn" style="width:100%">Use Manual Path</button>
+            <div class="pillrow">
+              <span class="pill" id="apiPill">File API: checking</span>
+              <span class="pill" id="dirtyPill">not generated</span>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="group-body">
+            <label>Write set</label>
+            <div id="fileToggles" class="filelist"></div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="group-body">
+            <label>Operations</label>
+            <div class="filelist">
+              <label class="filetoggle"><input id="opPlayable" type="checkbox" checked>Add faction to descr_strat playable list</label>
+              <label class="filetoggle"><input id="opRegions" type="checkbox" checked>Set descr_regions creators for starting regions</label>
+              <label class="filetoggle"><input id="opUnits" type="checkbox" checked>Add EDU ownership for starter units</label>
+              <label class="filetoggle"><input id="opCards" type="checkbox" checked>Create UI card folders and copy slave cards</label>
+              <label class="filetoggle"><input id="opDescrEx" type="checkbox" checked>Ensure descr_ex feature flags</label>
+            </div>
+          </div>
+        </div>
+        <div class="status" id="status"></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+"use strict";
+
+const CULTURES = ["roman","greek","egyptian","eastern","carthaginian","barbarian","slave"];
+const DATA = "data/";
+const CAMPAIGN = "data/world/maps/campaign/imperial_campaign/";
+const FILES = [
+  ["sm", "data/descr_sm_factions.txt", "descr_sm_factions"],
+  ["banners", "data/descr_banners.txt", "descr_banners"],
+  ["buildingBattle", "data/descr_building_battle.txt", "descr_building_battle"],
+  ["strat", "data/world/maps/campaign/imperial_campaign/descr_strat.txt", "descr_strat"],
+  ["regions", "data/world/maps/base/descr_regions.txt", "descr_regions"],
+  ["names", "data/descr_names.txt", "descr_names"],
+  ["namesText", "data/text/names.txt", "text/names"],
+  ["descrExClimates", "data/descr_ex_custom_climates.txt", "custom_climates"],
+  ["campaignDescriptions", "data/text/campaign_descriptions.txt", "campaign_descriptions"],
+  ["win", "data/world/maps/campaign/imperial_campaign/descr_win_conditions.txt", "descr_win_conditions"]
+];
+
+const dom = {};
+[
+  "folderLabel","pickFolderBtn","loadBtn","saveJsonBtn","loadJsonBtn","jsonFile","manualPath","setPathBtn",
+  "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
+  "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
+  "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
+  "units","maleNames","femaleNames","surnames","description","temple1","temple2",
+  "climates","tabs","preview","previewPath","copyPreviewBtn","regenBtn",
+  "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
+  "opUnits","opCards","opDescrEx"
+].forEach(id => dom[id] = document.getElementById(id));
+
+let rootHandle = null;
+let rootPath = "";
+let fso = null;
+let activeKey = "sm";
+let generated = {};
+let dirty = true;
+
+function init() {
+  CULTURES.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c;
+    opt.textContent = c;
+    dom.culture.appendChild(opt);
+  });
+  dom.culture.value = "eastern";
+  FILES.forEach(([key, path, label]) => {
+    const btn = document.createElement("button");
+    btn.textContent = label;
+    btn.dataset.key = key;
+    btn.onclick = () => setActive(key);
+    dom.tabs.appendChild(btn);
+
+    const row = document.createElement("label");
+    row.className = "filetoggle";
+    row.innerHTML = `<input type="checkbox" data-file="${key}" checked>${path}`;
+    dom.fileToggles.appendChild(row);
+  });
+  [...document.querySelectorAll("input, textarea, select")].forEach(el => {
+    if (el.type !== "file" && !el.dataset.file) el.addEventListener("input", markDirty);
+  });
+  dom.pickFolderBtn.onclick = pickFolder;
+  dom.setPathBtn.onclick = setManualPath;
+  dom.loadBtn.onclick = loadExisting;
+  dom.writeBtn.onclick = writeSelected;
+  dom.regenBtn.onclick = generateAll;
+  dom.copyPreviewBtn.onclick = copyPreview;
+  dom.saveJsonBtn.onclick = savePlan;
+  dom.loadJsonBtn.onclick = () => dom.jsonFile.click();
+  dom.jsonFile.onchange = openPlan;
+  initialiseLocalFileAccess();
+  dom.apiPill.textContent = window.showDirectoryPicker ? "File API: ready" : (fso ? "ActiveX files: ready" : "File API: unavailable");
+  dom.apiPill.className = (window.showDirectoryPicker || fso) ? "pill ok" : "pill bad";
+  generateAll();
+}
+
+function val(id) { return dom[id].value.trim(); }
+function checked(id) { return dom[id].checked; }
+function lines(id) { return val(id).split(/\r?\n/).map(s => s.trim()).filter(Boolean); }
+function idUpper() { return val("factionId").toUpperCase().replace(/[^A-Z0-9]+/g, "_"); }
+function crlf(text) { return text.replace(/\r?\n/g, "\r\n"); }
+function hexParts(hex) {
+  const raw = hex.replace("#", "");
+  return [0,2,4].map(i => parseInt(raw.slice(i,i+2), 16));
+}
+function rgbLine(prefix, hex) {
+  const [r,g,b] = hexParts(hex);
+  return `${prefix}\t\t\t\tred ${r}, green ${g}, blue ${b}`;
+}
+function block(name, body) {
+  return `${body.trimEnd()}\n`;
+}
+function markDirty() {
+  dirty = true;
+  dom.dirtyPill.textContent = "dirty";
+  dom.dirtyPill.className = "pill bad";
+}
+function log(msg, cls = "") {
+  const div = document.createElement("div");
+  div.className = cls;
+  div.textContent = msg;
+  dom.status.appendChild(div);
+  dom.status.scrollTop = dom.status.scrollHeight;
+}
+function clearLog() { dom.status.innerHTML = ""; }
+
+function spec() {
+  return {
+    id: val("factionId"),
+    culture: val("culture"),
+    name: val("displayName"),
+    standard: val("standardIndex"),
+    logo: val("logoIndex") || `FACTION_LOGO_${idUpper()}`,
+    smallLogo: val("smallLogoIndex") || `SMALL_FACTION_LOGO_${idUpper()}`,
+    primary: dom.primaryColor.value,
+    secondary: dom.secondaryColor.value,
+    tertiary: dom.tertiaryColor.value,
+    useTertiary: checked("useTertiary"),
+    hasFamilyTree: checked("hasFamilyTree"),
+    regions: lines("regions"),
+    x: Number(val("startX") || 0),
+    y: Number(val("startY") || 0),
+    denarii: Number(val("denarii") || 0),
+    leader: val("leaderName") || "Leader",
+    heir: val("heirName") || "Heir",
+    units: lines("units"),
+    males: lines("maleNames"),
+    females: lines("femaleNames"),
+    surnames: lines("surnames"),
+    description: val("description"),
+    temple1: val("temple1"),
+    temple2: val("temple2"),
+    climates: lines("climates")
+  };
+}
+
+function generateAll() {
+  const s = spec();
+  generated = {
+    sm: genSm(s),
+    banners: genBanners(s),
+    buildingBattle: genBuildingBattle(s),
+    strat: genStrat(s),
+    regions: genRegionsNote(s),
+    names: genNames(s),
+    namesText: genNamesText(s),
+    descrExClimates: genClimates(s),
+    campaignDescriptions: genCampaignDescription(s),
+    win: genWinConditions(s)
+  };
+  dirty = false;
+  dom.dirtyPill.textContent = "generated";
+  dom.dirtyPill.className = "pill ok";
+  renderTabs();
+  showPreview();
+}
+
+function genSm(s) {
+  const tertiary = s.useTertiary ? `\n${rgbLine("tertiary_colour", s.tertiary)}` : "";
+  return block(s.id, `faction\t\t\t\t\t${s.id}
+culture\t\t\t\t\t${s.culture}
+symbol\t\t\t\t\tmodels_strat/symbol_slaves.CAS
+rebel_symbol\t\t\t\tmodels_strat/symbol_slaves.CAS
+${rgbLine("primary_colour", s.primary)}
+${rgbLine("secondary_colour", s.secondary)}${tertiary}
+loading_logo\t\t\t\tloading_screen/symbols/symbol128_${s.id}.tga
+standard_index\t\t\t\t${s.standard}
+logo_index\t\t\t\t${s.logo}
+small_logo_index\t\t\t${s.smallLogo}
+triumph_value\t\t\t\t5
+intro_movie\t\t\t\tfmv/intros/julii_intro_final.wmv
+victory_movie\t\t\t\tfmv/victory/julii_outro_320x240.wmv
+defeat_movie\t\t\t\tfmv/lose/julii_eliminated.wmv
+death_movie\t\t\t\tfmv/death/death_julii_grass_320x240.wmv
+custom_battle_availability\tyes
+can_sap\t\t\t\t\tyes
+prefers_naval_invasions\t\tno
+has_family_tree\t\t\t${s.hasFamilyTree ? "yes" : "no"}`);
+}
+
+function genBanners(s) {
+  return block(s.id, `banner ${s.id}_campaign
+texture data/models_strat/textures/${s.id}_campaign_banner.tga
+
+banner ${s.id}_battle
+texture data/models_strat/textures/${s.id}_battle_banner.tga`);
+}
+
+function genBuildingBattle(s) {
+  return block(s.id, `building_banner ${s.id}
+texture data/models_building/textures/${s.id}_building_banner.tga`);
+}
+
+function genStrat(s) {
+  const region = s.regions[0] || "REGION_LABEL";
+  const unitLines = s.units.map(u => `unit\t\t${u}\t\t\t\t\t\t\texp 0 armour 0 weapon_lvl 0`).join("\n");
+  const firstUnit = s.units[0] || "east infantry";
+  const family = s.hasFamilyTree ? `character\t${s.leader}, named character, leader, age 36, x ${s.x}, y ${s.y}
+traits GoodCommander 1
+army
+${unitLines}
+
+character\t${s.heir}, named character, heir, age 18, x ${s.x}, y ${s.y}
+traits GoodCommander 1
+army
+unit\t\t${firstUnit}\t\t\t\t\t\t\texp 0 armour 0 weapon_lvl 0` :
+`character\t${s.leader}, named character, age 36, x ${s.x}, y ${s.y}
+army
+${unitLines}`;
+  return block(s.id, `faction\t${s.id}, balanced smith
+denari\t${s.denarii}
+settlement
+{
+\tlevel large_town
+\tregion ${region}
+\tyear_founded 0
+\tpopulation 2400
+\tplan_set default_set
+\tfaction_creator ${s.id}
+\tbuilding
+\t{
+\t\ttype core_building governors_villa
+\t}
+}
+
+${family}`);
+}
+
+function genRegionsNote(s) {
+  return block(s.id, s.regions.map(r => `${r}\n<settlement label unchanged>\n${s.id}`).join("\n\n"));
+}
+
+function genNames(s) {
+  return block(s.id, `faction: ${s.id}
+characters
+${s.males.map(n => `\t${n}`).join("\n")}
+women
+${s.females.map(n => `\t${n}`).join("\n")}
+surnames
+${s.surnames.map(n => `\t${n}`).join("\n")}`);
+}
+
+function genNamesText(s) {
+  const all = [...s.males, ...s.females, ...s.surnames];
+  return block(s.id, all.map(n => `{${n}}\t${n}`).join("\n"));
+}
+
+function genClimates(s) {
+  const rows = s.climates.map(row => {
+    const parts = row.split(/\s+/);
+    if (parts.length >= 2) {
+      const alias = parts[0], base = parts[1], rest = parts.slice(2).join(" ");
+      return `climate ${alias} ${base}${rest ? `\nmap_colour ${alias} ${rest}` : ""}`;
+    }
+    return row;
+  }).join("\n");
+  return block(s.id, rows);
+}
+
+function genCampaignDescription(s) {
+  const key = `${s.id}_descr`;
+  return block(s.id, `{${key}}\n${s.description}\n\n{${s.id}_short_descr}\n${s.name}`);
+}
+
+function genWinConditions(s) {
+  const regionList = s.regions.join(" ");
+  return block(s.id, `${s.id}
+hold_regions ${regionList}
+short_campaign hold_regions ${regionList}`);
+}
+
+function renderTabs() {
+  [...dom.tabs.children].forEach(btn => btn.classList.toggle("active", btn.dataset.key === activeKey));
+}
+function setActive(key) { activeKey = key; renderTabs(); showPreview(); }
+function showPreview() {
+  const rec = FILES.find(f => f[0] === activeKey);
+  dom.previewPath.textContent = rec ? rec[1] : activeKey;
+  dom.preview.textContent = generated[activeKey] || "";
+}
+async function copyPreview() {
+  await navigator.clipboard.writeText(dom.preview.textContent);
+  log("Copied preview", "ok");
+}
+
+function initialiseLocalFileAccess() {
+  if (typeof ActiveXObject === "undefined") return;
+  try { fso = new ActiveXObject("Scripting.FileSystemObject"); } catch (err) { fso = null; }
+}
+function activeRootLabel() { return rootPath || (rootHandle ? rootHandle.name : ""); }
+function winPath(path) {
+  return [rootPath.replace(/[\\/]+$/, ""), path.replace(/^[\\/]+/, "").replace(/\//g, "\\")].filter(Boolean).join("\\");
+}
+function ensureParentFolder(fullPath) {
+  if (!fso) throw new Error("ActiveX FileSystemObject is unavailable. Use IE/HTA trusted mode or Pick Mod Folder in Chrome/Edge.");
+  ensureFolder(fso.GetParentFolderName(fullPath));
+}
+function ensureFolder(path) {
+  if (!path || fso.FolderExists(path)) return;
+  ensureFolder(fso.GetParentFolderName(path));
+  fso.CreateFolder(path);
+}
+function setManualPath() {
+  initialiseLocalFileAccess();
+  const path = val("manualPath");
+  if (!path) { log("Enter a Windows path first.", "bad"); return; }
+  if (!fso) {
+    log("Manual C:\\ / Program Files writes require IE/HTA trusted mode with ActiveX enabled. Modern browsers only allow the Pick Mod Folder permission flow.", "bad");
+    return;
+  }
+  if (!fso.FolderExists(path)) {
+    log(`Folder does not exist or is not accessible: ${path}`, "bad");
+    return;
+  }
+  rootPath = path;
+  rootHandle = null;
+  dom.folderLabel.textContent = rootPath;
+  log(`Selected mod folder path: ${rootPath}`, "ok");
+}
+async function pickFolder() {
+  rootPath = "";
+  if (window.showDirectoryPicker) {
+    rootHandle = await window.showDirectoryPicker({ mode: "readwrite" });
+    dom.folderLabel.textContent = rootHandle.name;
+    log(`Selected mod folder: ${rootHandle.name}`, "ok");
+    return;
+  }
+  initialiseLocalFileAccess();
+  if (typeof ActiveXObject !== "undefined") {
+    try {
+      const shell = new ActiveXObject("Shell.Application");
+      const folder = shell.BrowseForFolder(0, "Pick your RTW/REX mod folder", 0x11, 17);
+      if (folder) {
+        rootPath = folder.Self.Path;
+        rootHandle = null;
+        dom.folderLabel.textContent = rootPath;
+        log(`Selected mod folder path: ${rootPath}`, "ok");
+        return;
+      }
+    } catch (err) {}
+  }
+  log("No writable folder API is available. Use Chrome/Edge for Pick Mod Folder, or IE/HTA trusted mode for direct C:\\ / Program Files paths.", "bad");
+}
+
+async function getFileHandle(path, create = false) {
+  if (!rootHandle) throw new Error("No mod folder selected");
+  const parts = path.split("/").filter(Boolean);
+  const file = parts.pop();
+  let dir = rootHandle;
+  for (const part of parts) dir = await dir.getDirectoryHandle(part, { create });
+  return dir.getFileHandle(file, { create });
+}
+async function getDirHandle(path, create = false) {
+  if (!rootHandle) throw new Error("No mod folder selected");
+  let dir = rootHandle;
+  for (const part of path.split("/").filter(Boolean)) dir = await dir.getDirectoryHandle(part, { create });
+  return dir;
+}
+async function readText(path) {
+  if (rootPath) {
+    const full = winPath(path);
+    if (!fso.FileExists(full)) throw new Error(`Missing file: ${full}`);
+    const file = fso.OpenTextFile(full, 1, false, -2);
+    const text = file.ReadAll();
+    file.Close();
+    return text;
+  }
+  const handle = await getFileHandle(path, false);
+  const file = await handle.getFile();
+  return file.text();
+}
+async function writeText(path, text) {
+  if (rootPath) {
+    const full = winPath(path);
+    ensureParentFolder(full);
+    const file = fso.OpenTextFile(full, 2, true, -2);
+    file.Write(crlf(text));
+    file.Close();
+    return;
+  }
+  const handle = await getFileHandle(path, true);
+  const writable = await handle.createWritable();
+  await writable.write(crlf(text));
+  await writable.close();
+}
+async function readBytes(path) {
+  if (rootPath) {
+    throw new Error("ActiveX/manual path mode cannot safely read binary TGA files here; use Open map_regions.tga.");
+  }
+  const handle = await getFileHandle(path, false);
+  const file = await handle.getFile();
+  return new Uint8Array(await file.arrayBuffer());
+}
+
+async function backup(path, text) {
+  const stamp = new Date().toISOString().replace(/[-:T.Z]/g, "").slice(0, 14);
+  await writeText(`${path}.codex-backup-${stamp}`, text);
+}
+function hasFaction(text, s) {
+  return text.includes(`;; ${s.id} START`) ||
+    new RegExp(`(^|\\n)\\s*faction\\s*:?\\s+${escapeRe(s.id)}(\\s|,|$)`, "i").test(text) ||
+    new RegExp(`(^|\\n)\\s*banner\\s+${escapeRe(s.id)}_`, "i").test(text) ||
+    new RegExp(`(^|\\n)\\s*building_banner\\s+${escapeRe(s.id)}(\\s|$)`, "i").test(text) ||
+    new RegExp(`\\{${escapeRe(s.id)}_(short_)?descr\\}`, "i").test(text);
+}
+function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+
+function stripLegacyMarkerLines(text, s) {
+  const id = escapeRe(s.id);
+  return text.replace(new RegExp(String.raw`^\s*;{1,2}\s*${id}\s+(START|END)\s*$\r?\n?`, "gmi"), "");
+}
+
+function parseDescrRegions(text, regionName) {
+  const lines = text.split(/\r?\n/);
+  for (let i = 0; i < lines.length; ++i) {
+    const line = lines[i].trim();
+    if (!line || line.startsWith(";") || line.toLowerCase() !== regionName.toLowerCase()) continue;
+    const useful = [line];
+    for (let j = i + 1; j < lines.length && useful.length < 7; ++j) {
+      const next = lines[j].trim();
+      if (!next || next.startsWith(";")) continue;
+      useful.push(next);
+    }
+    const colorLine = useful.find(entry => /^\d+\s+\d+\s+\d+/.test(entry));
+    if (!colorLine) throw new Error(`No RGB colour line found for ${regionName} in descr_regions.txt`);
+    const rgb = colorLine.match(/\d+/g).slice(0, 3).map(Number);
+    return { region: useful[0], settlement: useful[1] || "", creator: useful[2] || "", rgb };
+  }
+  throw new Error(`Region ${regionName} was not found in descr_regions.txt`);
+}
+
+function parseTga(bytes) {
+  if (!bytes || bytes.length < 18) throw new Error("map_regions.tga is too small to be a TGA file");
+  const idLength = bytes[0];
+  const colorMapType = bytes[1];
+  const imageType = bytes[2];
+  const width = bytes[12] | (bytes[13] << 8);
+  const height = bytes[14] | (bytes[15] << 8);
+  const bpp = bytes[16];
+  const bytesPerPixel = bpp >> 3;
+  if (colorMapType !== 0 || imageType !== 2 || ![3, 4].includes(bytesPerPixel)) {
+    throw new Error("Only uncompressed 24/32-bit true-colour TGA map_regions files are supported");
+  }
+  const offset = 18 + idLength;
+  if (offset + width * height * bytesPerPixel > bytes.length) throw new Error("map_regions.tga is truncated");
+  return { bytes, offset, width, height, bytesPerPixel };
+}
+
+function tgaPixel(tga, x, y) {
+  const pos = tga.offset + ((y * tga.width + x) * tga.bytesPerPixel);
+  return [tga.bytes[pos + 2], tga.bytes[pos + 1], tga.bytes[pos]];
+}
+
+function colorDistanceSq(a, b) {
+  const dr = a[0] - b[0];
+  const dg = a[1] - b[1];
+  const db = a[2] - b[2];
+  return dr * dr + dg * dg + db * db;
+}
+
+function findBlackSettlementPixel(tga, regionRgb) {
+  const blackLimit = 8 * 8 * 3;
+  const regionLimit = 2 * 2 * 3;
+  let best = null;
+  for (let y = 0; y < tga.height; ++y) {
+    for (let x = 0; x < tga.width; ++x) {
+      if (colorDistanceSq(tgaPixel(tga, x, y), [0, 0, 0]) > blackLimit) continue;
+      let bestRadius = 999;
+      for (let radius = 1; radius <= 8 && bestRadius === 999; ++radius) {
+        for (let yy = Math.max(0, y - radius); yy <= Math.min(tga.height - 1, y + radius); ++yy) {
+          for (let xx = Math.max(0, x - radius); xx <= Math.min(tga.width - 1, x + radius); ++xx) {
+            if (Math.max(Math.abs(xx - x), Math.abs(yy - y)) !== radius) continue;
+            if (colorDistanceSq(tgaPixel(tga, xx, yy), regionRgb) <= regionLimit) {
+              bestRadius = radius;
+              break;
+            }
+          }
+          if (bestRadius !== 999) break;
+        }
+      }
+      if (bestRadius !== 999 && (!best || bestRadius < best.radius)) {
+        best = { x, y, radius: bestRadius };
+      }
+    }
+  }
+  if (!best) throw new Error("No black settlement pixel was found touching the region colour in map_regions.tga");
+  return { x: best.x, y: tga.height - 1 - best.y };
+}
+
+async function loadMapRegionsBytes() {
+  const file = dom.mapRegionsFile.files && dom.mapRegionsFile.files[0];
+  if (file) return new Uint8Array(await file.arrayBuffer());
+  return readBytes(`${DATA}world/maps/base/map_regions.tga`);
+}
+
+async function findSettlementCoords() {
+  clearLog();
+  try {
+    const region = lines("regions")[0];
+    if (!region) throw new Error("Enter at least one starting region first.");
+    const descr = await readText(`${DATA}world/maps/base/descr_regions.txt`);
+    const regionInfo = parseDescrRegions(descr, region);
+    const tga = parseTga(await loadMapRegionsBytes());
+    const coords = findBlackSettlementPixel(tga, regionInfo.rgb);
+    dom.startX.value = coords.x;
+    dom.startY.value = coords.y;
+    markDirty();
+    generateAll();
+    log(`Found ${regionInfo.settlement || region} settlement pixel at ${coords.x}, ${coords.y} after vertical flip.`, "ok");
+  } catch (err) {
+    log(err.message || String(err), "bad");
+  }
+}
+
+async function appendMarked(path, content, s) {
+  let text = "";
+  try { text = await readText(path); } catch { text = ""; }
+  const cleaned = stripLegacyMarkerLines(text, s);
+  if (cleaned !== text) {
+    if (text) await backup(path, text);
+    text = cleaned;
+    await writeText(path, text);
+    log(`Removed legacy START/END comments: ${path}`, "ok");
+  }
+  if (hasFaction(text, s)) {
+    log(`Skipped existing block: ${path}`, "muted");
+    return;
+  }
+  if (text) await backup(path, text);
+  const next = `${text.replace(/\s*$/, "")}\r\n\r\n${content}`;
+  await writeText(path, next);
+  log(`Appended: ${path}`, "ok");
+}
+
+async function ensureLine(path, line) {
+  let text = "";
+  try { text = await readText(path); } catch { text = ""; }
+  if (new RegExp(`^\\s*${escapeRe(line.split(/\s+/)[0])}\\s+`, "m").test(text) || text.includes(line)) return;
+  if (text) await backup(path, text);
+  await writeText(path, `${text.replace(/\s*$/, "")}\r\n${line}\r\n`);
+  log(`Ensured descr_ex line: ${line}`, "ok");
+}
+
+async function updatePlayable(s) {
+  const path = `${CAMPAIGN}descr_strat.txt`;
+  let text = await readText(path);
+  if (new RegExp(`(^|\\n)\\s*${escapeRe(s.id)}\\s*(\\n|$)`, "i").test(text)) {
+    log("Playable list already contains faction", "muted");
+    return;
+  }
+  const next = text.replace(/(playable\s*\r?\n)([\s\S]*?)(\r?\n\s*end\b)/i, (m, a, body, c) => `${a}${body.replace(/\s*$/, "")}\r\n\t${s.id}${c}`);
+  if (next !== text) {
+    await backup(path, text);
+    await writeText(path, next);
+    log("Updated descr_strat playable list", "ok");
+  } else {
+    log("Could not find playable block in descr_strat", "bad");
+  }
+}
+
+async function updateRegionCreators(s) {
+  const path = `${DATA}world/maps/base/descr_regions.txt`;
+  let text = await readText(path);
+  const eol = text.includes("\r\n") ? "\r\n" : "\n";
+  const arr = text.split(/\r?\n/);
+  let changed = false;
+  for (const region of s.regions) {
+    const idx = arr.findIndex(line => line.trim() === region);
+    if (idx < 0) {
+      log(`Region not found: ${region}`, "bad");
+      continue;
+    }
+    const useful = [];
+    for (let i = idx; i < Math.min(arr.length, idx + 12); i++) {
+      if (arr[i].trim() && !arr[i].trim().startsWith(";")) useful.push(i);
+      if (useful.length >= 3) break;
+    }
+    if (useful.length >= 3) {
+      const creatorLine = useful[2];
+      const indent = arr[creatorLine].match(/^\s*/)[0];
+      arr[creatorLine] = indent + s.id;
+      changed = true;
+      log(`Set ${region} creator to ${s.id}`, "ok");
+    }
+  }
+  if (changed) {
+    await backup(path, text);
+    await writeText(path, arr.join(eol));
+  }
+}
+
+async function updateEduOwnership(s) {
+  const path = `${DATA}export_descr_unit.txt`;
+  let text = await readText(path);
+  let changed = false;
+  const unitSet = new Set(s.units.map(u => u.toLowerCase()));
+  const blocks = text.split(/(?=^type\s+)/m);
+  const out = blocks.map(block => {
+    const m = block.match(/^type\s+(.+)$/m);
+    if (!m || !unitSet.has(m[1].trim().toLowerCase())) return block;
+    if (!/^ownership\s+/m.test(block)) return block;
+    return block.replace(/^ownership\s+(.+)$/m, (line, owners) => {
+      if (owners.split(/[, ]+/).includes(s.id)) return line;
+      changed = true;
+      return `ownership\t\t${owners.trim()}, ${s.id}`;
+    });
+  }).join("");
+  if (changed) {
+    await backup(path, text);
+    await writeText(path, out);
+    log("Updated export_descr_unit ownership", "ok");
+  } else {
+    log("No EDU ownership changes needed", "muted");
+  }
+}
+
+async function copySlaveCards(s) {
+  await copyDir(`${DATA}ui/units/slave`, `${DATA}ui/units/${s.id}`);
+  await copyDir(`${DATA}ui/unit_info/slave`, `${DATA}ui/unit_info/${s.id}`);
+}
+async function copyDir(srcPath, destPath) {
+  if (rootPath) {
+    const src = winPath(srcPath);
+    const dest = winPath(destPath);
+    if (!fso.FolderExists(src)) {
+      log(`Missing source folder: ${srcPath}`, "bad");
+      if (!fso.FolderExists(dest)) ensureFolder(dest);
+      return;
+    }
+    if (!fso.FolderExists(dest)) ensureFolder(dest);
+    const files = new Enumerator(fso.GetFolder(src).Files);
+    for (; !files.atEnd(); files.moveNext()) {
+      const file = files.item();
+      fso.CopyFile(file.Path, dest + "\\" + file.Name, true);
+    }
+    log(`Copied cards: ${destPath}`, "ok");
+    return;
+  }
+  let src;
+  try { src = await getDirHandle(srcPath, false); } catch {
+    log(`Missing source folder: ${srcPath}`, "bad");
+    await getDirHandle(destPath, true);
+    return;
+  }
+  const dest = await getDirHandle(destPath, true);
+  for await (const [name, handle] of src.entries()) {
+    if (handle.kind === "file") {
+      const file = await handle.getFile();
+      const out = await dest.getFileHandle(name, { create: true });
+      const writable = await out.createWritable();
+      await writable.write(await file.arrayBuffer());
+      await writable.close();
+    }
+  }
+  log(`Copied cards: ${destPath}`, "ok");
+}
+
+async function writeSelected() {
+  clearLog();
+  if (dirty) generateAll();
+  if (!rootHandle && !rootPath) {
+    log("Pick a mod folder first, or set a trusted manual Windows path.", "bad");
+    return;
+  }
+  const s = spec();
+  const checkedFiles = [...dom.fileToggles.querySelectorAll("input[data-file]:checked")].map(i => i.dataset.file);
+  try {
+    await validateExistingTemples(s);
+    for (const [key, path] of FILES) {
+      if (!checkedFiles.includes(key)) continue;
+      if (key === "regions") continue;
+      await appendMarked(path, generated[key], s);
+    }
+    if (dom.opPlayable.checked) await updatePlayable(s);
+    if (dom.opRegions.checked) await updateRegionCreators(s);
+    if (dom.opUnits.checked) await updateEduOwnership(s);
+    if (dom.opCards.checked && dom.copySlaveCards.checked) await copySlaveCards(s);
+    if (dom.opDescrEx.checked) {
+      await ensureLine(`${DATA}descr_ex.txt`, "custom_climates_enable true");
+      if (s.useTertiary) await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
+    }
+    log("Write pass complete.", "ok");
+  } catch (err) {
+    log(err.message || String(err), "bad");
+  }
+}
+
+async function validateExistingTemples(s) {
+  const temples = [s.temple1, s.temple2].map(t => (t || "").trim()).filter(Boolean);
+  if (!temples.length) return;
+  let edb = "";
+  try {
+    edb = await readText(`${DATA}export_descr_buildings.txt`);
+  } catch (err) {
+    log(`Could not validate temples against export_descr_buildings.txt: ${err.message || err}`, "bad");
+    throw err;
+  }
+  const missing = temples.filter(t => !new RegExp(`\\b${escapeRegExp(t)}\\b`, "i").test(edb));
+  if (missing.length) {
+    throw new Error(`Temple(s) not found in existing EDB, refusing to create new bonuses: ${missing.join(", ")}`);
+  }
+  log(`Validated existing EDB temple(s): ${temples.join(", ")}`, "ok");
+}
+
+function escapeRegExp(text) {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+async function loadExisting() {
+  clearLog();
+  if (!rootHandle && !rootPath) {
+    log("Pick a mod folder first, or set a trusted manual Windows path.", "bad");
+    return;
+  }
+  for (const [, path] of FILES) {
+    try {
+      const text = await readText(path);
+      log(`${path}: ${text.length} chars`, "ok");
+    } catch {
+      log(`${path}: missing`, "muted");
+    }
+  }
+}
+
+function planData() {
+  const ids = [
+    "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
+    "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
+    "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
+    "description","temple1","temple2","climates"
+  ];
+  const data = {};
+  ids.forEach(id => data[id] = dom[id].value);
+  ["useTertiary","hasFamilyTree","copySlaveCards"].forEach(id => data[id] = dom[id].checked);
+  return data;
+}
+function savePlan() {
+  const blob = new Blob([JSON.stringify(planData(), null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${val("factionId") || "faction"}_plan.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+async function openPlan() {
+  const file = dom.jsonFile.files[0];
+  if (!file) return;
+  const data = JSON.parse(await file.text());
+  Object.entries(data).forEach(([id, value]) => {
+    if (!dom[id]) return;
+    if (typeof value === "boolean") dom[id].checked = value;
+    else dom[id].value = value;
+  });
+  markDirty();
+  generateAll();
+}
+
+init();
+</script>
+</body>
+</html>
