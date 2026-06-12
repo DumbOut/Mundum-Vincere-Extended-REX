@@ -2389,11 +2389,11 @@ function renderUnitDetail(u) {
       <div class="files-section">
         <div class="files-section-title">File References</div>
         <div class="file-refs">
-          ${getBinaryPaths(u).map(({label,path,icon})=>{
-            const matched = hasAsset(path);
+          ${getBinaryPaths(u).map(ref=>{
+            const matched = assetAvailable(ref);
             return `<div class="file-ref">
-              <span class="file-ref-icon">${icon}</span>
-              <span class="file-ref-name">${path}</span>
+              <span class="file-ref-icon">${ref.icon}</span>
+              <span class="file-ref-name">${ref.path}</span>
               <span class="file-ref-status ${matched?'status-ok':'status-warn'}">${matched?'✓ loaded':'⚠ not loaded'}</span>
             </div>`;
           }).join('')}
@@ -2583,7 +2583,7 @@ function renderOutput() {
       <div class="code-block">${hl}</div>`;
   } else if (state.activeTab === 'files') {
     const paths = units.flatMap(u => getBinaryPaths(u));
-    const found  = paths.filter(p => hasAsset(p.path)).length;
+    const found  = paths.filter(p => assetAvailable(p)).length;
     const assetNote = state.assets.size === 0
       ? `<div style="padding:8px 12px;font-size:11px;color:var(--text-dim);font-style:italic">⚠ No binary assets loaded yet — drop .tga/.dds/.cas files in the left panel to match them</div>`
       : '';
@@ -2595,7 +2595,7 @@ function renderOutput() {
       ${assetNote}
       <div class="path-list">
         ${paths.map(p=>{
-          const ok = hasAsset(p.path);
+          const ok = assetAvailable(p);
           return `<div class="path-item-row ${ok?'found':'missing'}">
             <span class="${ok?'path-status-ok':'path-status-miss'}">${ok?'✓':'✗'}</span>
             <span class="path-type-label">${p.label}</span>
@@ -3042,6 +3042,10 @@ function hasAsset(p) {
          state.assets.has(name) || (nameDds && state.assets.has(nameDds));
 }
 
+function assetAvailable(ref) {
+  return ref.strictPath ? !!getAssetStrict(ref.path) : hasAsset(ref.path);
+}
+
 // Get a loaded asset — tries canonical full path, .tga.dds variant, then filename-only fallback
 // DMB references textures as .tga but files on disk are .tga.dds — both are checked
 function getAsset(p) {
@@ -3223,7 +3227,7 @@ async function exportZip() {
 
   // ── README ──
   steps.push({ label: 'Writing README…', fn: () => {
-    const missing = uniquePaths.filter(p => !hasAsset(p.path)).map(p=>p.path);
+    const missing = uniquePaths.filter(p => !assetAvailable(p)).map(p=>p.path);
     const readme = [
       'RTW Unit Importer — Export Package',
       '===================================',
@@ -3270,7 +3274,7 @@ async function exportZip() {
     a.click();
     URL.revokeObjectURL(url);
 
-    const matched = uniquePaths.filter(p => hasAsset(p.path)).length;
+    const matched = uniquePaths.filter(p => assetAvailable(p)).length;
     addLog('ok', `ZIP exported: ${units.length} unit(s), ${matched}/${uniquePaths.length} assets packed`);
     showToast('ZIP downloaded!');
   } catch(err) {
@@ -3630,7 +3634,7 @@ async function exportModZip() {
   // ── README ────────────────────────────────
   plabel.textContent = 'Generating ZIP…'; fill.style.width = '80%';
   await new Promise(r => setTimeout(r, 0));
-  const missing = uniquePaths.filter(p => !hasAsset(p.path)).map(p => p.path);
+  const missing = uniquePaths.filter(p => !assetAvailable(p)).map(p => p.path);
   zip.file('README_APPEND.txt', [
     'RTW Unit Importer — Mod Append Package',
     '=======================================',
