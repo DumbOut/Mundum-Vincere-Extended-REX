@@ -1,0 +1,45 @@
+<sprite_definitions version="7">
+  <page file="editor_strat01.tga" w="256" h="256">
+    <sprite name="CREATE_CHARACTER_BUTTON_IMAGE" x="1" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="ADD_UNIT_BUTTON_IMAGE" x="38" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_SETTLEMENT_BUTTON_IMAGE" x="75" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_RESOURCES_BUTTON_IMAGE" x="112" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="MOVE_PIECE_BUTTON_IMAGE" x="149" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="FAMILY_TREE_BUTTON_IMAGE" x="186" y="2" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_REGIONS_BUTTON_IMAGE" x="1" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CLIMATES_BUTTON_IMAGE" x="38" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_GROUND_TYPES_BUTTON_IMAGE" x="75" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_HEIGHTS_BUTTON_IMAGE" x="112" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_RIVERS_BUTTON_IMAGE" x="149" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_TRADE_ROUTES_BUTTON_IMAGE" x="186" y="39" w="36" h="36" alpha="1"/>
+    <sprite name="CREATE_CHARACTER_BUTTON_IMAGE_DISABLED" x="1" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="ADD_UNIT_BUTTON_IMAGE_DISABLED" x="38" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_SETTLEMENT_BUTTON_IMAGE_DISABLED" x="75" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_RESOURCES_BUTTON_IMAGE_DISABLED" x="112" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="MOVE_PIECE_BUTTON_IMAGE_DISABLED" x="149" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="FAMILY_TREE_BUTTON_IMAGE_DISABLED" x="186" y="76" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_REGIONS_BUTTON_IMAGE_DISABLED" x="1" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CLIMATES_BUTTON_IMAGE_DISABLED" x="38" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_GROUND_TYPES_BUTTON_IMAGE_DISABLED" x="75" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_HEIGHTS_BUTTON_IMAGE_DISABLED" x="112" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_RIVERS_BUTTON_IMAGE_DISABLED" x="149" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_TRADE_ROUTES_BUTTON_IMAGE_DISABLED" x="186" y="113" w="36" h="36" alpha="1"/>
+    <sprite name="CREATE_CHARACTER_RECORD_BUTTON_IMAGE" x="1" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="LINK_WIFE_BUTTON_IMAGE" x="38" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="LINK_CHILD_BUTTON_IMAGE" x="75" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="BREAK_LINK_BUTTON_IMAGE" x="112" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="CREATE_CHARACTER_RECORD_BUTTON_IMAGE_DISABLED" x="1" y="187" w="36" h="36" alpha="1"/>
+    <sprite name="LINK_WIFE_BUTTON_IMAGE_DISABLED" x="38" y="187" w="36" h="36" alpha="1"/>
+    <sprite name="LINK_CHILD_BUTTON_IMAGE_DISABLED" x="75" y="187" w="36" h="36" alpha="1"/>
+    <sprite name="BREAK_LINK_BUTTON_IMAGE_DISABLED" x="112" y="187" w="36" h="36" alpha="1"/>
+    <sprite name="PLACE_CHARACTER_MODIFIER" x="1" y="225" w="12" h="22" alpha="1"/>
+    <sprite name="PLACE_WATCHTOWER_MODIFIER" x="14" y="225" w="12" h="22" alpha="1"/>
+    <sprite name="PLACE_FORT_MODIFIER" x="27" y="225" w="26" h="18" alpha="1"/>
+    <sprite name="PLACE_RESOURCE_MODIFIER" x="54" y="225" w="26" h="15" alpha="1"/>
+    <sprite name="MOVE_PIECE_MODIFIER" x="81" y="225" w="23" h="24" alpha="1"/>
+    <sprite name="EDIT_ALLIANCES_BUTTON_IMAGE" x="149" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_ALLIANCES_BUTTON_IMAGE_DISABLED" x="149" y="187" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CHARACTER_TRAITS_BUTTON_IMAGE" x="186" y="150" w="36" h="36" alpha="1"/>
+    <sprite name="EDIT_CHARACTER_TRAITS_BUTTON_IMAGE_DISABLED" x="186" y="187" w="36" h="36" alpha="1"/>
+  </page>
+</sprite_definitions>
