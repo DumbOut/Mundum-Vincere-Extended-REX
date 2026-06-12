@@ -1,17 +1,5 @@
 {
   "enabled": true,
   "backend": "network",
-  "max_players": 14,
-  "players": [
-    {
-      "id": 0,
-      "name": "Player 1",
-      "factions": ["romans_julii"]
-    },
-    {
-      "id": 1,
-      "name": "Player 2",
-      "factions": ["romans_brutii"]
-    }
-  ]
+  "max_players": 14
 }
