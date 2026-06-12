@@ -9,31 +9,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=EB+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #020812;
-  --bg2: #051735;
-  --panel: rgba(3, 18, 43, .82);
-  --panel2: rgba(10, 55, 115, .78);
-  --panel3: rgba(2, 10, 26, .72);
-  --line: rgba(116, 184, 255, .36);
-  --line2: rgba(210, 231, 255, .62);
-  --ink: #eef8ff;
-  --ink2: #b7dcff;
-  --ink3: #78a8d9;
-  --gold: #e7eef4;
-  --gold2: #ffffff;
+  --bg: #120202;
+  --bg2: #260606;
+  --panel: rgba(43, 3, 3, .88);
+  --panel2: rgba(115, 10, 10, .82);
+  --panel3: rgba(26, 2, 2, .78);
+  --line: rgba(255, 116, 116, .38);
+  --line2: rgba(255, 210, 210, .64);
+  --ink: #fff1ed;
+  --ink2: #ffc0b7;
+  --ink3: #d97b78;
+  --gold: #f0c46a;
+  --gold2: #ffe6a3;
   --red: #c91f1f;
-  --red2: #ff4b3f;
-  --green: #67caff;
-  --blue: #2f9dff;
+  --red2: #ff5a4c;
+  --green: #ff9b67;
+  --blue: #ff4a3f;
   --shadow: 0 10px 30px rgba(0,0,0,.45);
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
 body {
   background:
-    radial-gradient(circle at 50% 15%, rgba(62, 165, 255, .34), transparent 310px),
-    linear-gradient(180deg, rgba(15, 93, 173, .42), transparent 260px),
-    linear-gradient(90deg, rgba(255,255,255,.08), transparent 45%, rgba(200,232,255,.10)),
+    radial-gradient(circle at 50% 15%, rgba(255, 62, 42, .24), transparent 310px),
+    linear-gradient(180deg, rgba(145, 18, 18, .56), transparent 260px),
+    linear-gradient(90deg, rgba(255,255,255,.06), transparent 45%, rgba(255,120,92,.10)),
     var(--bg);
   color: var(--ink);
   font: 13px "EB Garamond", Georgia, serif;
@@ -45,8 +45,8 @@ body::before {
   inset: 0;
   pointer-events: none;
   background: url("Rome_Icon.png") center center / 520px 520px no-repeat;
-  opacity: .16;
-  filter: saturate(1.35) hue-rotate(170deg);
+  opacity: .20;
+  filter: none;
 }
 button, input, select, textarea {
   font: 12px "IBM Plex Mono", Consolas, monospace;
@@ -269,6 +269,40 @@ pre {
   color: var(--ink2);
   font: 11px "IBM Plex Mono", monospace;
 }
+
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.row button { flex: 1 1 150px; }
+.hint { color: var(--ink3); font: 11px "IBM Plex Mono", monospace; line-height: 1.35; margin: 5px 0 9px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(92px, 1fr)); gap: 8px; }
+.icon-card { display: grid; gap: 4px; place-items: center; padding: 8px 6px; border: 1px solid var(--line); border-radius: 7px; background: #160707; color: var(--ink2); font: 10px "IBM Plex Mono", monospace; cursor: pointer; }
+.icon-card:hover, .icon-card.active { border-color: var(--gold2); color: var(--gold2); background: rgba(160, 24, 24, .42); }
+.icon-card .emblem { width: 34px; height: 34px; border-radius: 50%; background: url("Rome_Icon.png") center/cover no-repeat; border: 1px solid var(--gold); filter: none; }
+.tool-output { min-height: 86px; white-space: pre-wrap; }
+.unit-picker { display: grid; gap: 6px; max-height: 180px; overflow: auto; padding-right: 3px; }
+.unit-row { display: grid; grid-template-columns: 18px 1fr auto; gap: 7px; align-items: center; padding: 6px 7px; border: 1px solid var(--line); border-radius: 5px; background: #120605; color: var(--ink2); font: 11px "IBM Plex Mono", monospace; }
+.unit-row small { color: var(--ink3); }
+
+html.skin-brutii {
+  --bg: #081006; --bg2: #12200c; --panel: rgba(13, 32, 9, .9); --panel2: rgba(49, 92, 28, .84); --panel3: rgba(9, 24, 7, .8);
+  --line: rgba(146, 205, 100, .36); --line2: rgba(198, 232, 150, .62); --ink: #edf8dd; --ink2: #c8e5b0; --ink3: #7fa66a; --gold: #a8c95a; --gold2: #d9ef8e;
+}
+html.skin-britons {
+  --bg: #080b16; --bg2: #101530; --panel: rgba(15, 19, 45, .9); --panel2: rgba(65, 77, 140, .82); --panel3: rgba(8, 12, 30, .8);
+  --line: rgba(142, 163, 230, .40); --line2: rgba(205, 214, 255, .66); --ink: #eef1ff; --ink2: #cbd4ff; --ink3: #8f9bd8; --gold: #9aa8e0; --gold2: #dfe5ff;
+}
+.skin-switcher { position: relative; display: flex; align-items: center; }
+.skin-dd-trigger { display: flex; align-items: center; gap: 8px; min-width: 116px; padding: 4px 10px 4px 4px; }
+.skin-dd-current, .skin-dd-emblem { width: 30px; height: 30px; border-radius: 50%; background-size: cover; background-position: center; border: 1px solid var(--gold); flex: none; }
+.skin-dd-caret { color: var(--gold); font-size: 9px; margin-left: auto; }
+.skin-dd-panel { position: absolute; top: 42px; right: 0; z-index: 300; min-width: 220px; display: none; overflow: hidden; border: 1px solid var(--line2); background: var(--panel); box-shadow: var(--shadow); }
+.skin-dd-panel.open { display: block; }
+.skin-dd-header { padding: 8px 11px; border-bottom: 1px solid var(--line); color: var(--gold); font: 10px "Cinzel", serif; letter-spacing: 1.4px; text-transform: uppercase; }
+.skin-dd-item { display: flex; align-items: center; gap: 9px; padding: 8px 11px; cursor: pointer; border-bottom: 1px solid rgba(0,0,0,.22); }
+.skin-dd-item:hover, .skin-dd-item.active { background: rgba(255,255,255,.07); }
+.skin-dd-meta { display: flex; flex-direction: column; gap: 1px; }
+.skin-dd-name { color: var(--ink); font: 700 11px "Cinzel", serif; }
+.skin-dd-desc { color: var(--ink3); font-size: 10px; }
+.skin-dd-check { margin-left: auto; color: var(--gold2); }
 @media (max-width: 1160px) {
   body { overflow: auto; }
   .app { min-height: 100vh; height: auto; }
@@ -293,6 +327,24 @@ pre {
       <button id="loadBtn">Load Existing</button>
       <button id="saveJsonBtn">Save Plan</button>
       <button id="loadJsonBtn">Open Plan</button>
+      <select id="uiSkin" title="UI skin" hidden>
+        <option value="julii">Julii</option>
+        <option value="brutii">Brutii</option>
+        <option value="britons">Britons</option>
+      </select>
+      <div class="skin-switcher">
+        <button class="skin-dd-trigger" id="skinDdTrigger" type="button" title="Change UI faction skin">
+          <span class="skin-dd-current" id="skinDdCurrent"></span>
+          <span id="skinDdLabel">Julii</span>
+          <span class="skin-dd-caret">▼</span>
+        </button>
+        <div class="skin-dd-panel" id="skinDdPanel">
+          <div class="skin-dd-header">⚜ Choose UI Faction Skin</div>
+          <div class="skin-dd-item" data-skin="julii"><span class="skin-dd-emblem" data-emblem="julii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Julii</span><span class="skin-dd-desc">crimson SPQR red</span></span><span class="skin-dd-check" data-check="julii"></span></div>
+          <div class="skin-dd-item" data-skin="brutii"><span class="skin-dd-emblem" data-emblem="brutii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Brutii</span><span class="skin-dd-desc">olive green and gold</span></span><span class="skin-dd-check" data-check="brutii"></span></div>
+          <div class="skin-dd-item" data-skin="britons"><span class="skin-dd-emblem" data-emblem="britons"></span><span class="skin-dd-meta"><span class="skin-dd-name">Britons</span><span class="skin-dd-desc">periwinkle and woad</span></span><span class="skin-dd-check" data-check="britons"></span></div>
+        </div>
+      </div>
       <input id="jsonFile" type="file" accept="application/json,.json" hidden>
     </div>
   </header>
@@ -373,14 +425,59 @@ al-Samudi</textarea></div>
         </details>
 
         <details class="group">
-          <summary>Temples & Climates</summary>
+          <summary>Temples</summary>
           <div class="group-body">
             <div class="grid2">
               <div class="field"><label>Existing EDB temple 1</label><input id="temple1" value="temple_of_jupiter"></div>
               <div class="field"><label>Existing EDB temple 2</label><input id="temple2" value="temple_of_mars"></div>
             </div>
             <div class="hint">Temple entries are validated against data/export_descr_buildings.txt and reused only if already present; this tool does not generate new temple bonus blocks.</div>
-            <div class="field"><label>Custom climates</label><textarea id="climates">arabian_desert sandy_desert red 218 green 186 blue 92</textarea></div>
+          </div>
+        </details>
+
+        <details class="group" open>
+          <summary>EDU Unit Chooser</summary>
+          <div class="group-body">
+            <div class="row">
+              <button id="loadEduBtn" type="button">Load export_descr_unit.txt</button>
+              <button id="applyEduBtn" type="button">Use Checked Units</button>
+              <input id="eduFile" type="file" accept=".txt,text/plain" hidden>
+            </div>
+            <div class="field" style="margin-top:9px"><label>Filter by type, dictionary, category, or ownership</label><input id="eduSearch" placeholder="east, cavalry, arabs, roman..."></div>
+            <div id="eduPicker" class="unit-picker"><div class="hint">Load EDU from the selected mod folder or choose a TXT file to pick units.</div></div>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Faction Forge Masks & Recolors</summary>
+          <div class="group-body">
+            <div class="card-grid" id="iconPicker">
+              <div class="icon-card active" data-icon="Rome_Icon.png"><span class="emblem"></span><span>SPQR icon</span></div>
+              <div class="icon-card" data-icon="RTW_Faction_Forge.html"><span class="emblem"></span><span>Forge masks</span></div>
+              <div class="icon-card" data-icon="rtw_unit_importer_v24.html"><span class="emblem"></span><span>Unit importer</span></div>
+            </div>
+            <div class="hint">Open Faction Forge for texture recoloring, then use primary/secondary/tertiary colors here for faction coding. Mask creator helpers below produce channel notes you can paste into Forge.</div>
+            <div class="grid3">
+              <div class="field"><label>Mask strength</label><input id="maskStrength" type="number" min="0" max="100" value="85"></div>
+              <div class="field"><label>Edge cleanup</label><select id="maskCleanup"><option>grow/smooth</option><option>shrink/smooth</option><option>none</option></select></div>
+              <div class="field"><label>Export format</label><select id="forgeFormat"><option>DXT3 DDS</option><option>TGA</option><option>PNG preview</option></select></div>
+            </div>
+            <button id="makeMaskPlanBtn" type="button" style="width:100%">Create Mask/Recolor Plan</button>
+            <textarea id="maskPlan" class="tool-output" readonly></textarea>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Namelist & EDU Roster Makers</summary>
+          <div class="group-body">
+            <div class="field"><label>Roster prompt</label><input id="rosterPrompt" value="Greek/Numidian roster mix" placeholder="Greek/Numidian roster mix"></div>
+            <div class="field"><label>Namelist prompt</label><input id="namelistPrompt" value="Garamantian/Numidian namelist" placeholder="Garamantian/Numidian namelist"></div>
+            <div class="row">
+              <button id="genNamesBtn" type="button">Generate 100/100/100 Namelist</button>
+              <button id="genRosterBtn" type="button">Choose EDU Roster Mix</button>
+            </div>
+            <div class="hint">Roster prompts select matching loaded EDU units by ownership/culture (for example Greek/Numidian). Namelist prompts generate 100 character names, 100 women, and 100 surnames.</div>
+            <textarea id="makerOutput" class="tool-output" readonly></textarea>
           </div>
         </details>
       </div>
@@ -454,7 +551,6 @@ const FILES = [
   ["regions", "data/world/maps/base/descr_regions.txt", "descr_regions"],
   ["names", "data/descr_names.txt", "descr_names"],
   ["namesText", "data/text/names.txt", "text/names"],
-  ["descrExClimates", "data/descr_ex_custom_climates.txt", "custom_climates"],
   ["campaignDescriptions", "data/text/campaign_descriptions.txt", "campaign_descriptions"],
   ["win", "data/world/maps/campaign/imperial_campaign/descr_win_conditions.txt", "descr_win_conditions"]
 ];
@@ -466,9 +562,13 @@ const dom = {};
   "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
   "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
   "units","maleNames","femaleNames","surnames","description","temple1","temple2",
-  "climates","tabs","preview","previewPath","copyPreviewBtn","regenBtn",
+  "tabs","preview","previewPath","copyPreviewBtn","regenBtn",
   "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
-  "opUnits","opCards","opDescrEx"
+  "opUnits","opCards","opDescrEx","findCoordsBtn","loadTgaBtn","mapRegionsFile",
+  "uiSkin","loadEduBtn","applyEduBtn","eduFile","eduSearch","eduPicker",
+  "iconPicker","maskStrength","maskCleanup","forgeFormat","makeMaskPlanBtn","maskPlan",
+  "genNamesBtn","genRosterBtn","makerOutput","rosterPrompt","namelistPrompt",
+  "skinDdTrigger","skinDdCurrent","skinDdLabel","skinDdPanel"
 ].forEach(id => dom[id] = document.getElementById(id));
 
 let rootHandle = null;
@@ -477,6 +577,7 @@ let fso = null;
 let activeKey = "sm";
 let generated = {};
 let dirty = true;
+let loadedEduUnits = [];
 
 function init() {
   CULTURES.forEach(c => {
@@ -510,6 +611,22 @@ function init() {
   dom.saveJsonBtn.onclick = savePlan;
   dom.loadJsonBtn.onclick = () => dom.jsonFile.click();
   dom.jsonFile.onchange = openPlan;
+  dom.findCoordsBtn.onclick = findSettlementCoords;
+  dom.loadTgaBtn.onclick = () => dom.mapRegionsFile.click();
+  dom.mapRegionsFile.onchange = () => log(`Loaded map_regions.tga from file picker: ${dom.mapRegionsFile.files[0]?.name || "none"}`, "ok");
+  dom.uiSkin.onchange = applyUiSkin;
+  dom.skinDdTrigger.onclick = toggleSkinDropdown;
+  document.querySelectorAll(".skin-dd-item").forEach(item => item.onclick = () => pickUiSkin(item.dataset.skin));
+  document.addEventListener("click", closeSkinDropdownOnOutside);
+  dom.loadEduBtn.onclick = loadEduUnits;
+  dom.eduFile.onchange = loadEduFile;
+  dom.eduSearch.oninput = renderEduPicker;
+  dom.applyEduBtn.onclick = applyCheckedEduUnits;
+  dom.makeMaskPlanBtn.onclick = makeMaskPlan;
+  dom.genNamesBtn.onclick = generateNameListFromDescription;
+  dom.genRosterBtn.onclick = generateEduRoster;
+  dom.iconPicker.onclick = handleIconPicker;
+  restoreUiSkin();
   initialiseLocalFileAccess();
   dom.apiPill.textContent = window.showDirectoryPicker ? "File API: ready" : (fso ? "ActiveX files: ready" : "File API: unavailable");
   dom.apiPill.className = (window.showDirectoryPicker || fso) ? "pill ok" : "pill bad";
@@ -571,8 +688,7 @@ function spec() {
     surnames: lines("surnames"),
     description: val("description"),
     temple1: val("temple1"),
-    temple2: val("temple2"),
-    climates: lines("climates")
+    temple2: val("temple2")
   };
 }
 
@@ -586,7 +702,6 @@ function generateAll() {
     regions: genRegionsNote(s),
     names: genNames(s),
     namesText: genNamesText(s),
-    descrExClimates: genClimates(s),
     campaignDescriptions: genCampaignDescription(s),
     win: genWinConditions(s)
   };
@@ -687,16 +802,243 @@ function genNamesText(s) {
   return block(s.id, all.map(n => `{${n}}\t${n}`).join("\n"));
 }
 
-function genClimates(s) {
-  const rows = s.climates.map(row => {
-    const parts = row.split(/\s+/);
-    if (parts.length >= 2) {
-      const alias = parts[0], base = parts[1], rest = parts.slice(2).join(" ");
-      return `climate ${alias} ${base}${rest ? `\nmap_colour ${alias} ${rest}` : ""}`;
-    }
-    return row;
-  }).join("\n");
-  return block(s.id, rows);
+const SKIN_ICONS = {
+  julii: svgIcon("#8b1a1a", "#e8cc7a", "J"),
+  brutii: svgIcon("#315c1c", "#d9ef8e", "B"),
+  britons: svgIcon("#4c5bc0", "#dfe5ff", "B")
+};
+const SKIN_NAMES = { julii: "Julii", brutii: "Brutii", britons: "Britons" };
+function svgIcon(bg, fg, letter) {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="${bg}" stroke="${fg}" stroke-width="4"/><path d="M32 9l17 8v13c0 12-7 20-17 25-10-5-17-13-17-25V17z" fill="rgba(0,0,0,.22)" stroke="${fg}" stroke-width="2"/><text x="32" y="41" text-anchor="middle" font-family="Georgia" font-size="27" font-weight="700" fill="${fg}">${letter}</text></svg>`)}`;
+}
+function applyUiSkin() {
+  let skin = dom.uiSkin.value || "julii";
+  if (!SKIN_ICONS[skin]) skin = "julii";
+  document.documentElement.classList.toggle("skin-brutii", skin === "brutii");
+  document.documentElement.classList.toggle("skin-britons", skin === "britons");
+  dom.skinDdCurrent.style.backgroundImage = `url('${SKIN_ICONS[skin]}')`;
+  dom.skinDdLabel.textContent = SKIN_NAMES[skin];
+  document.querySelectorAll("[data-emblem]").forEach(el => el.style.backgroundImage = `url('${SKIN_ICONS[el.dataset.emblem]}')`);
+  document.querySelectorAll(".skin-dd-item").forEach(el => el.classList.toggle("active", el.dataset.skin === skin));
+  document.querySelectorAll(".skin-dd-check").forEach(el => el.textContent = el.dataset.check === skin ? "✓" : "");
+  try { localStorage.setItem("rtw_skin", skin); } catch {}
+}
+function pickUiSkin(skin) {
+  dom.uiSkin.value = SKIN_ICONS[skin] ? skin : "julii";
+  applyUiSkin();
+  dom.skinDdPanel.classList.remove("open");
+}
+function toggleSkinDropdown(ev) {
+  ev.stopPropagation();
+  dom.skinDdPanel.classList.toggle("open");
+}
+function closeSkinDropdownOnOutside(ev) {
+  const sw = ev.target.closest && ev.target.closest(".skin-switcher");
+  if (!sw) dom.skinDdPanel.classList.remove("open");
+}
+function restoreUiSkin() {
+  try {
+    const saved = localStorage.getItem("rtw_skin");
+    if (SKIN_ICONS[saved]) dom.uiSkin.value = saved;
+  } catch {}
+  applyUiSkin();
+}
+
+
+function parseEduUnits(text) {
+  return text.split(/(?=^type\s+)/m).map(block => {
+    const type = (block.match(/^type\s+(.+)$/m) || [])[1]?.trim();
+    if (!type) return null;
+    const get = key => (block.match(new RegExp(`^${key}\\s+(.+)$`, "m")) || [])[1]?.trim() || "";
+    return { type, dictionary: get("dictionary"), category: get("category"), className: get("class"), ownership: get("ownership"), block };
+  }).filter(Boolean);
+}
+async function loadEduUnits() {
+  clearLog();
+  try {
+    let text = "";
+    if (rootHandle || rootPath) text = await readText(`${DATA}export_descr_unit.txt`);
+    else { dom.eduFile.click(); return; }
+    loadedEduUnits = parseEduUnits(text);
+    renderEduPicker();
+    log(`Loaded ${loadedEduUnits.length} EDU units from mod folder.`, "ok");
+  } catch (err) {
+    log(`Could not load EDU from folder: ${err.message || err}. Pick export_descr_unit.txt manually.`, "bad");
+    dom.eduFile.click();
+  }
+}
+async function loadEduFile() {
+  const file = dom.eduFile.files && dom.eduFile.files[0];
+  if (!file) return;
+  loadedEduUnits = parseEduUnits(await file.text());
+  renderEduPicker();
+  log(`Loaded ${loadedEduUnits.length} EDU units from ${file.name}.`, "ok");
+}
+function renderEduPicker() {
+  const q = (dom.eduSearch.value || "").toLowerCase().trim();
+  const current = new Set(lines("units").map(u => u.toLowerCase()));
+  const filtered = loadedEduUnits.filter(u => !q || [u.type,u.dictionary,u.category,u.className,u.ownership].join(" ").toLowerCase().includes(q)).slice(0, 250);
+  dom.eduPicker.innerHTML = filtered.length ? filtered.map(u => `
+    <label class="unit-row">
+      <input type="checkbox" value="${escapeHtml(u.type)}" ${current.has(u.type.toLowerCase()) ? "checked" : ""}>
+      <span>${escapeHtml(u.type)}<br><small>${escapeHtml(u.dictionary || "no dictionary")} · ${escapeHtml(u.category || "category?")}</small></span>
+      <small>${escapeHtml(u.ownership || "")}</small>
+    </label>`).join("") : `<div class="hint">${loadedEduUnits.length ? "No units match the filter." : "Load export_descr_unit.txt to choose units."}</div>`;
+}
+function applyCheckedEduUnits() {
+  const picked = [...dom.eduPicker.querySelectorAll("input:checked")].map(i => i.value);
+  if (!picked.length) { log("No EDU units checked.", "bad"); return; }
+  dom.units.value = picked.join("\n");
+  markDirty();
+  generateAll();
+  log(`Starter roster set to ${picked.length} EDU unit(s).`, "ok");
+}
+function handleIconPicker(ev) {
+  const card = ev.target.closest(".icon-card");
+  if (!card) return;
+  [...dom.iconPicker.querySelectorAll(".icon-card")].forEach(c => c.classList.toggle("active", c === card));
+  const target = card.dataset.icon;
+  if (/\.html$/i.test(target)) window.open(target, "_blank");
+}
+function makeMaskPlan() {
+  const s = spec();
+  dom.maskPlan.value = [
+    `Faction Forge plan for ${s.id}`,
+    `Primary cloth channel: ${s.primary}`,
+    `Secondary shield/trim channel: ${s.secondary}`,
+    s.useTertiary ? `Tertiary accent channel: ${s.tertiary}` : "Tertiary disabled",
+    `Mask strength: ${val("maskStrength")}%`,
+    `Edge cleanup: ${val("maskCleanup")}`,
+    `Export: ${val("forgeFormat")}`,
+    "Protect skin/metal, auto-mask cloth first, then grow/smooth before exporting faction-coded textures."
+  ].join("\n");
+}
+const ROSTER_TOKEN_MAP = {
+  greek: ["greek", "greek_cities", "macedon", "seleucid", "spartan", "hoplite", "hellenic"],
+  numidian: ["numidia", "numidian", "numdian", "carthaginian", "carthage", "libyan", "african"],
+  numdian: ["numidia", "numidian", "carthaginian", "carthage", "libyan", "african"],
+  roman: ["roman", "romans_julii", "romans_brutii", "romans_scipii", "romans_senate", "legion", "praetorian"],
+  eastern: ["eastern", "parthia", "armenia", "pontus", "persian", "cataphract"],
+  barbarian: ["barbarian", "gauls", "germans", "britons", "dacia", "scythia", "spain", "thrace"],
+  egyptian: ["egyptian", "egypt", "nubian"],
+  carthaginian: ["carthaginian", "carthage", "punic", "libyan"]
+};
+const NAME_BANKS = {
+  garamantian: {
+    male: ["Aderbal","Ierna","Mazices","Tacfarinas","Massinissa","Gauda","Iampsas","Mastanabal","Gurzil","Mattan","Ayyur","Tifawt","Aksil","Badis","Yuba","Micipsa"],
+    female: ["Tin Hinan","Tanit","Dihya","Tafat","Tiziri","Lalla","Massiva","Sophonisba","Amastan","Tadla","Yamina","Ziri","Tayri","Kahina","Rihana","Tala"],
+    surname: ["of Garama","of Phazania","of Cydamus","of the Wadi","of the Fezzan","of the Oasis","of the Caravan Road","of the Black Stone","of the Salt Track","of the Palm Grove"]
+  },
+  numidian: {
+    male: ["Massinissa","Micipsa","Jugurtha","Adherbal","Hiempsal","Gulussa","Mastanabal","Oezalces","Capussa","Lacumazes","Naravas","Syphax","Vermina","Baga","Gauda","Arabio"],
+    female: ["Sophonisba","Salammbo","Tanit","Astarte","Zilalsan","Thana","Yzebel","Alyssa","Samira","Dido","Amara","Melqartia","Yamina","Thiziri","Ayla","Roxana"],
+    surname: ["Massylian","Masaesylian","of Cirta","of Zama","of Hippo","of the High Plains","of the Atlas","of the Horse Lords","of the Olive Hills","of the Royal House"]
+  },
+  numdian: null,
+  greek: {
+    male: ["Alexandros","Nikandros","Demetrios","Philotas","Menon","Leonidas","Kleon","Dion","Lysandros","Antigonos","Ptolemaios","Seleukos","Ariston","Perdikkas","Sostratos","Timoleon"],
+    female: ["Kleopatra","Berenike","Arsinoe","Eurydike","Thais","Olympias","Laodike","Philista","Damaris","Xanthe","Helena","Kallisto","Nikaia","Theophila","Stratonike","Athenais"],
+    surname: ["of Cyrene","of Syracuse","of Rhodes","of Massalia","of Sparta","of Macedon","of Ionia","of Corinth","of Alexandria","of the Agora"]
+  }
+};
+NAME_BANKS.numdian = NAME_BANKS.numidian;
+function promptTokens(text) {
+  return String(text || "").toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length > 2 && !["mix","roster","namelist","names","and","the","for"].includes(w));
+}
+function rosterNeedles(prompt) {
+  const tokens = promptTokens(prompt);
+  const out = new Set(tokens);
+  tokens.forEach(t => (ROSTER_TOKEN_MAP[t] || []).forEach(v => out.add(v)));
+  return [...out];
+}
+function unitSearchText(u) {
+  return [u.type, u.dictionary, u.category, u.className, u.ownership].join(" ").toLowerCase();
+}
+function scoreRosterUnit(u, needles) {
+  const hay = unitSearchText(u);
+  let score = 0;
+  needles.forEach(n => { if (hay.includes(n)) score += n.length > 5 ? 3 : 2; });
+  if (/general|officer|merc|naval|ship|animal|elephant/i.test(hay)) score -= 2;
+  if (/infantry|hoplite|phalanx|spearmen|peltast|archer|cavalry|numidian|greek/i.test(hay)) score += 1;
+  return score;
+}
+function chooseRosterUnits(prompt, max = 12) {
+  const needles = rosterNeedles(prompt);
+  if (!loadedEduUnits.length) return [];
+  const ranked = loadedEduUnits.map(u => ({ u, score: scoreRosterUnit(u, needles) })).filter(x => x.score > 0)
+    .sort((a,b) => b.score - a.score || a.u.type.localeCompare(b.u.type));
+  const byCategory = [];
+  const seen = new Set();
+  ["infantry","missile","cavalry","siege","handler"].forEach(cat => {
+    const hit = ranked.find(x => !seen.has(x.u.type) && (x.u.category || "").toLowerCase().includes(cat));
+    if (hit) { seen.add(hit.u.type); byCategory.push(hit.u); }
+  });
+  for (const hit of ranked) {
+    if (byCategory.length >= max) break;
+    if (!seen.has(hit.u.type)) { seen.add(hit.u.type); byCategory.push(hit.u); }
+  }
+  return byCategory;
+}
+function generateNameListFromDescription() {
+  const prompt = val("namelistPrompt") || `${val("displayName")} namelist`;
+  const tokens = promptTokens(prompt);
+  const banks = tokens.map(t => NAME_BANKS[t]).filter(Boolean);
+  if (!banks.length) banks.push(NAME_BANKS.numidian, NAME_BANKS.greek);
+  const pool = kind => banks.flatMap(b => b[kind]);
+  const males = buildNames(pool("male"), 100, false);
+  const females = buildNames(pool("female"), 100, true);
+  const surnames = buildSurnames(pool("surname"), tokens, 100);
+  dom.maleNames.value = males.join("\n");
+  dom.femaleNames.value = females.join("\n");
+  dom.surnames.value = surnames.join("\n");
+  dom.makerOutput.value = `; ${prompt}\nfaction: ${val("factionId")}\ncharacters\n${males.map(n=>"\t"+n).join("\n")}\nwomen\n${females.map(n=>"\t"+n).join("\n")}\nsurnames\n${surnames.map(n=>"\t"+n).join("\n")}`;
+  markDirty();
+  generateAll();
+}
+function buildNames(seed, count, feminine) {
+  const base = [...new Set(seed.filter(Boolean))];
+  const prefixes = ["A","Ba","Da","Ha","Ia","Ka","Ma","Na","Sa","Ta","Za","Bar","Mas","Ad","Hi","Nar"];
+  const suffixes = feminine ? ["a","ia","ina","issa","ara","ene","ila","una","yth","ara"] : ["al","an","as","ax","bal","bas","ion","or","os","ir","us","en"];
+  const out = [];
+  for (let i = 0; out.length < count; i++) {
+    const raw = i < base.length ? base[i] : prefixes[i % prefixes.length] + base[i % base.length].replace(/\s+/g, "").slice(1, 7).toLowerCase() + suffixes[Math.floor(i / prefixes.length) % suffixes.length];
+    const name = raw.split(/\s+/).map(w => w ? w[0].toUpperCase() + w.slice(1).toLowerCase() : w).join(" ");
+    if (!out.includes(name)) out.push(name);
+  }
+  return out;
+}
+function buildSurnames(seed, tokens, count) {
+  const base = [...new Set(seed.filter(Boolean))];
+  const cultures = tokens.length ? tokens : ["desert", "atlas", "oasis", "coast"];
+  const forms = ["of {x}", "{x}id", "{x}ian", "son of {x}", "house of {x}", "from {x}", "the {x}"];
+  const out = [];
+  for (let i = 0; out.length < count; i++) {
+    const x = (i < base.length ? base[i] : cultures[i % cultures.length] + " " + (i + 1)).replace(/^of\s+/i, "");
+    const surname = i < base.length ? base[i] : forms[i % forms.length].replace("{x}", x[0].toUpperCase() + x.slice(1));
+    if (!out.includes(surname)) out.push(surname);
+  }
+  return out;
+}
+function generateEduRoster() {
+  const prompt = val("rosterPrompt") || "Greek/Numidian roster mix";
+  const chosen = chooseRosterUnits(prompt, 12);
+  if (!chosen.length) {
+    dom.makerOutput.value = loadedEduUnits.length
+      ? `No EDU units matched "${prompt}". Try ownership/faction words like Greek, Numidian, Roman, Eastern, Barbarian.`
+      : "Load export_descr_unit.txt first, then generate the roster mix.";
+    return;
+  }
+  dom.units.value = chosen.map(u => u.type).join("\n");
+  renderEduPicker();
+  markDirty();
+  generateAll();
+  dom.makerOutput.value = `; ${prompt}\n; selected ${chosen.length} EDU units by ownership/culture\n` +
+    chosen.map((u, i) => `unit\t\t${u.type}\t\t\t\t\t\t\texp ${i < 2 ? 1 : 0} armour 0 weapon_lvl 0\t; ${u.ownership || "ownership?"}`).join("\n");
+  log(`Generated roster mix from prompt "${prompt}": ${chosen.length} unit(s).`, "ok");
+}
+
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
 }
 
 function genCampaignDescription(s) {
@@ -759,12 +1101,20 @@ function setManualPath() {
   dom.folderLabel.textContent = rootPath;
   log(`Selected mod folder path: ${rootPath}`, "ok");
 }
+async function verifyReadWrite(handle) {
+  if (!handle || !handle.queryPermission) return true;
+  const opts = { mode: "readwrite" };
+  if (await handle.queryPermission(opts) === "granted") return true;
+  return await handle.requestPermission(opts) === "granted";
+}
 async function pickFolder() {
   rootPath = "";
   if (window.showDirectoryPicker) {
-    rootHandle = await window.showDirectoryPicker({ mode: "readwrite" });
+    rootHandle = await window.showDirectoryPicker({ mode: "readwrite", startIn: "desktop" });
+    if (!(await verifyReadWrite(rootHandle))) throw new Error("Read/write permission was not granted for that folder.");
     dom.folderLabel.textContent = rootHandle.name;
-    log(`Selected mod folder: ${rootHandle.name}`, "ok");
+    log(`Selected mod folder with read/write permission: ${rootHandle.name}`, "ok");
+    log("Browser security may still block protected C:\\Program Files folders. If that happens, run as a trusted HTA/IE page with the manual C:\\ path, or export to an unprotected folder and copy into RTW as administrator.", "muted");
     return;
   }
   initialiseLocalFileAccess();
@@ -1057,9 +1407,84 @@ async function updateEduOwnership(s) {
   }
 }
 
+function selectedEduRecords(s) {
+  const wanted = new Set(s.units.map(u => u.toLowerCase()));
+  return loadedEduUnits.filter(u => wanted.has(u.type.toLowerCase()));
+}
+function uiOwnerFolders(ownership) {
+  const defaults = {
+    greek: ["greek_cities", "macedon", "seleucid"], greek_cities: ["greek_cities", "macedon", "seleucid"],
+    numidian: ["numidia"], carthaginian: ["carthage", "numidia"], carthage: ["carthage", "numidia"],
+    roman: ["romans_julii", "romans_brutii", "romans_scipii", "romans_senate"], romans: ["romans_julii", "romans_brutii", "romans_scipii", "romans_senate"],
+    eastern: ["parthia", "armenia", "pontus"], egyptian: ["egypt"], barbarian: ["gauls", "germans", "britons", "dacia", "scythia", "spain", "thrace"], slave: ["slave"]
+  };
+  const folders = [];
+  String(ownership || "slave").split(/[,\s]+/).map(x => x.trim().toLowerCase()).filter(Boolean).forEach(token => {
+    (defaults[token] || [token]).forEach(f => { if (!folders.includes(f)) folders.push(f); });
+  });
+  if (!folders.includes("slave")) folders.push("slave");
+  return folders;
+}
 async function copySlaveCards(s) {
-  await copyDir(`${DATA}ui/units/slave`, `${DATA}ui/units/${s.id}`);
-  await copyDir(`${DATA}ui/unit_info/slave`, `${DATA}ui/unit_info/${s.id}`);
+  const records = selectedEduRecords(s);
+  if (!records.length) {
+    log("No loaded EDU records for selected starter units; falling back to slave card folder copy.", "muted");
+    await copyDir(`${DATA}ui/units/slave`, `${DATA}ui/units/${s.id}`);
+    await copyDir(`${DATA}ui/unit_info/slave`, `${DATA}ui/unit_info/${s.id}`);
+    return;
+  }
+  let copied = 0;
+  await ensureUiDirs(s.id);
+  for (const u of records) copied += await copyCardsForUnit(s.id, u);
+  log(`Copied ${copied} selected UI card/info file(s) for ${records.length} roster unit(s).`, copied ? "ok" : "bad");
+}
+async function ensureUiDirs(factionId) {
+  if (rootPath) {
+    ensureFolder(winPath(`${DATA}ui/units/${factionId}`));
+    ensureFolder(winPath(`${DATA}ui/unit_info/${factionId}`));
+  } else {
+    await getDirHandle(`${DATA}ui/units/${factionId}`, true);
+    await getDirHandle(`${DATA}ui/unit_info/${factionId}`, true);
+  }
+}
+async function copyCardsForUnit(factionId, unit) {
+  const dict = unit.dictionary || unit.type.replace(/\s+/g, "_");
+  const candidates = [];
+  for (const owner of uiOwnerFolders(unit.ownership)) {
+    candidates.push([`${DATA}ui/units/${owner}/#${dict}.tga`, `${DATA}ui/units/${factionId}/#${dict}.tga`]);
+    candidates.push([`${DATA}ui/units/${owner}/#${dict}.tga.dds`, `${DATA}ui/units/${factionId}/#${dict}.tga.dds`]);
+    candidates.push([`${DATA}ui/unit_info/${owner}/${dict}_info.tga`, `${DATA}ui/unit_info/${factionId}/${dict}_info.tga`]);
+    candidates.push([`${DATA}ui/unit_info/${owner}/${dict}_info.tga.dds`, `${DATA}ui/unit_info/${factionId}/${dict}_info.tga.dds`]);
+  }
+  let copied = 0;
+  const done = new Set();
+  for (const [src, dest] of candidates) {
+    const key = dest.toLowerCase();
+    if (done.has(key)) continue;
+    if (await copyFileIfExists(src, dest)) { done.add(key); copied++; }
+  }
+  if (!copied) log(`No UI cards found for ${unit.type} (${dict}) in ${uiOwnerFolders(unit.ownership).join(", ")}`, "bad");
+  return copied;
+}
+async function copyFileIfExists(srcPath, destPath) {
+  if (rootPath) {
+    const src = winPath(srcPath), dest = winPath(destPath);
+    if (!fso.FileExists(src)) return false;
+    ensureParentFolder(dest);
+    fso.CopyFile(src, dest, true);
+    return true;
+  }
+  try {
+    const src = await getFileHandle(srcPath, false);
+    const file = await src.getFile();
+    const out = await getFileHandle(destPath, true);
+    const writable = await out.createWritable();
+    await writable.write(await file.arrayBuffer());
+    await writable.close();
+    return true;
+  } catch {
+    return false;
+  }
 }
 async function copyDir(srcPath, destPath) {
   if (rootPath) {
@@ -1098,6 +1523,7 @@ async function copyDir(srcPath, destPath) {
   log(`Copied cards: ${destPath}`, "ok");
 }
 
+
 async function writeSelected() {
   clearLog();
   if (dirty) generateAll();
@@ -1118,9 +1544,8 @@ async function writeSelected() {
     if (dom.opRegions.checked) await updateRegionCreators(s);
     if (dom.opUnits.checked) await updateEduOwnership(s);
     if (dom.opCards.checked && dom.copySlaveCards.checked) await copySlaveCards(s);
-    if (dom.opDescrEx.checked) {
-      await ensureLine(`${DATA}descr_ex.txt`, "custom_climates_enable true");
-      if (s.useTertiary) await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
+    if (dom.opDescrEx.checked && s.useTertiary) {
+      await ensureLine(`${DATA}descr_ex.txt`, "tertiary_faction_colour_enable true");
     }
     log("Write pass complete.", "ok");
   } catch (err) {
@@ -1170,7 +1595,8 @@ function planData() {
     "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
     "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
     "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
-    "description","temple1","temple2","climates"
+    "description","temple1","temple2","uiSkin","maskStrength","maskCleanup","forgeFormat",
+    "rosterPrompt","namelistPrompt"
   ];
   const data = {};
   ids.forEach(id => data[id] = dom[id].value);

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RTW Mod Tool</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --gold-light: #e8cc7a;
+    --gold-dark: #8a6f2e;
+    --crimson: #8b1a1a;
+    --crimson-light: #c0392b;
+    --bg-dark: #0d0b08;
+    --bg-panel: #13100c;
+    --bg-card: #1a1510;
+    --bg-hover: #1e1010;
+    --border: #3a2e1e;
+    --border-gold: #5a4520;
+    --text: #d4c5a0;
+    --text-dim: #8a7a5a;
+    --text-bright: #f0e4c0;
+    --green: #4a8c5c;
+    --green-light: #6ab87a;
+    --julii: #9e1a1a;
+    --julii-light: #c43030;
+    --julii-dark: #6a0f0f;
+    --julii-border: #7a2020;
+    --julii-glow: rgba(158,26,26,0.18);
+  }
+
+
+html.skin-brutii {
+  --gold:#9ab84a; --gold-light:#d9ef8e; --gold-dark:#6a8830; --bg-dark:#080c06; --bg-panel:#0d1209; --bg-card:#121a0d; --bg-hover:#162012; --border:#243518; --border-gold:#3a5022; --text:#c8d4b0; --text-dim:#6a8050; --text-bright:#edf8dd; --julii:#3d6020; --julii-light:#5a8a30; --julii-dark:#253d12; --julii-border:#3a5a1e; --julii-glow:rgba(61,96,32,.22);
+}
+html.skin-britons {
+  --gold:#9aa8e0; --gold-light:#dfe5ff; --gold-dark:#6670b0; --bg-dark:#0a0c14; --bg-panel:#0f111e; --bg-card:#15182a; --bg-hover:#1c2038; --border:#2e3556; --border-gold:#4a5488; --text:#cdd4f0; --text-dim:#7e88b8; --text-bright:#eef1ff; --julii:#6c7fd4; --julii-light:#8f9ee8; --julii-dark:#4854a0; --julii-border:#5a68b8; --julii-glow:rgba(108,127,212,.26);
+}
+.skin-switcher { position: relative; display: flex; align-items: center; }
+.skin-dd-trigger { display: flex; align-items: center; gap: 7px; min-width: 108px; padding: 4px 9px 4px 4px; }
+.skin-dd-current,.skin-dd-emblem { width: 28px; height: 28px; border-radius: 50%; background-size: cover; background-position: center; border: 1px solid var(--gold); flex: none; }
+.skin-dd-caret { color: var(--gold); font-size: 9px; margin-left: auto; }
+.skin-dd-panel { position: absolute; top: 40px; right: 0; z-index: 500; min-width: 220px; display: none; overflow: hidden; border: 1px solid var(--border-gold); background: var(--bg-panel); box-shadow: 0 8px 28px rgba(0,0,0,.7); }
+.skin-dd-panel.open { display: block; }
+.skin-dd-header { padding: 8px 11px; border-bottom: 1px solid var(--border); color: var(--gold); font: 10px 'Cinzel', serif; letter-spacing: 1.4px; text-transform: uppercase; }
+.skin-dd-item { display: flex; align-items: center; gap: 9px; padding: 8px 11px; cursor: pointer; border-bottom: 1px solid rgba(0,0,0,.25); }
+.skin-dd-item:hover,.skin-dd-item.active { background: var(--julii-glow); }
+.skin-dd-meta { display: flex; flex-direction: column; gap: 1px; }
+.skin-dd-name { color: var(--text-bright); font: 700 11px 'Cinzel', serif; }
+.skin-dd-desc { color: var(--text-dim); font-size: 10px; }
+.skin-dd-check { margin-left: auto; color: var(--gold-light); }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; }
+  body {
+    font-family: 'EB Garamond', Georgia, serif;
+    color: var(--text);
+    background:
+      radial-gradient(ellipse at 18% 0%, rgba(158,26,26,0.16) 0%, transparent 55%),
+      radial-gradient(ellipse at 80% 100%, rgba(201,168,76,0.10) 0%, transparent 58%),
+      repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(201,168,76,0.018) 40px, rgba(201,168,76,0.018) 41px),
+      repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(201,168,76,0.014) 40px, rgba(201,168,76,0.014) 41px),
+      var(--bg-dark);
+  }
+
+  header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 18px;
+    background: linear-gradient(180deg, #1b1410 0%, #0f0c09 52%, var(--bg-panel) 100%);
+    border-bottom: 2px solid var(--julii);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.7), 0 0 35px var(--julii-glow);
+  }
+
+  .eagle {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    border: 2px solid var(--border-gold);
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--bg-card) 0%, var(--bg-dark) 68%);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.35), 0 0 18px var(--julii-glow);
+    color: var(--gold-light);
+    font-size: 26px;
+  }
+
+  .brand { min-width: 290px; }
+  h1 {
+    margin: 0;
+    color: var(--gold-light);
+    font: 900 23px 'Cinzel Decorative', 'Cinzel', serif;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 0 #000, 0 0 16px var(--julii-glow);
+  }
+  .subtitle {
+    color: var(--text-dim);
+    font: 11px 'Cinzel', serif;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+  }
+
+  .tool-tabs {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+    min-width: 0;
+    flex: 1;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+  .tool-tab {
+    appearance: none;
+    border: 1px solid var(--border-gold);
+    background: var(--bg-card);
+    color: var(--text);
+    min-width: 150px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: .16s border-color, .16s background, .16s color, .16s transform;
+    text-align: left;
+  }
+  .tool-tab:hover { background: var(--bg-hover); border-color: var(--gold); transform: translateY(-1px); }
+  .tool-tab.active {
+    border-color: var(--gold-light);
+    background: linear-gradient(135deg, var(--julii-dark), var(--bg-card));
+    box-shadow: inset 0 0 0 1px rgba(232,204,122,.25), 0 0 12px var(--julii-glow);
+    color: var(--text-bright);
+  }
+  .tab-title { display: block; font: 700 12px 'Cinzel', serif; letter-spacing: .9px; }
+  .tab-desc { display: block; margin-top: 2px; font-size: 10px; color: var(--text-dim); }
+  .tool-tab.active .tab-desc { color: var(--gold-light); opacity: .88; }
+
+  .header-actions { display: flex; gap: 8px; align-items: center; }
+  .btn {
+    border: 1px solid var(--border-gold);
+    background: var(--bg-card);
+    color: var(--text);
+    padding: 8px 11px;
+    cursor: pointer;
+    font: 700 11px 'Cinzel', serif;
+    letter-spacing: .7px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .btn:hover { border-color: var(--gold); background: var(--bg-hover); color: var(--gold-light); }
+  .btn.primary { background: linear-gradient(135deg, var(--gold-dark), var(--gold)); color: #1a1208; border-color: var(--gold-light); }
+
+  main {
+    height: calc(100vh - 72px);
+    display: grid;
+    grid-template-columns: 285px minmax(0, 1fr);
+  }
+
+  aside {
+    min-height: 0;
+    overflow: auto;
+    background: rgba(19,16,12,.96);
+    border-right: 1px solid var(--border-gold);
+    padding: 14px;
+  }
+  .panel-card {
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    margin-bottom: 12px;
+    box-shadow: inset 0 0 30px rgba(0,0,0,.18);
+  }
+  .panel-card h2 {
+    margin: 0;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--gold);
+    font: 700 12px 'Cinzel', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .panel-body { padding: 11px 12px; font-size: 13px; line-height: 1.45; }
+  .status-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    padding: 5px 0;
+  }
+  .status-row:last-child { border-bottom: none; }
+  .status-label { color: var(--text-dim); }
+  .status-value { color: var(--text-bright); text-align: right; }
+  .workflow { margin: 0; padding-left: 18px; color: var(--text); }
+  .workflow li { margin: 6px 0; }
+  .hint {
+    margin: 10px 0 0;
+    color: var(--text-dim);
+    font-size: 12px;
+    border-left: 2px solid var(--julii-border);
+    padding-left: 9px;
+  }
+
+  .workspace {
+    min-width: 0;
+    min-height: 0;
+    display: grid;
+    grid-template-rows: 38px minmax(0, 1fr);
+    background: #050403;
+  }
+  .workspace-bar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(13,11,8,.96);
+    color: var(--text-dim);
+    font-size: 12px;
+  }
+  .workspace-bar strong { color: var(--gold-light); font-family: 'Cinzel', serif; letter-spacing: .8px; }
+  .path-pill {
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    padding: 3px 8px;
+    color: var(--text-dim);
+    font-family: Consolas, monospace;
+    font-size: 11px;
+  }
+  .frame-wrap { min-width: 0; min-height: 0; position: relative; }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: none;
+    background: #0d0b08;
+  }
+  iframe.active { display: block; }
+  .load-note {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    border: 1px solid var(--border-gold);
+    background: rgba(13,11,8,.92);
+    color: var(--text-dim);
+    padding: 7px 10px;
+    font-size: 11px;
+    pointer-events: none;
+  }
+
+  @media (max-width: 980px) {
+    html, body { overflow: auto; }
+    header { height: auto; flex-wrap: wrap; }
+    main { height: auto; min-height: calc(100vh - 120px); grid-template-columns: 1fr; }
+    aside { border-right: 0; border-bottom: 1px solid var(--border-gold); }
+    .workspace { min-height: 72vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="eagle">🦅</div>
+  <div class="brand">
+    <h1>RTW Mod Tool</h1>
+    <div class="subtitle">Unit importer first · faction forge · faction writer</div>
+  </div>
+  <nav class="tool-tabs" aria-label="RTW mod tool modules">
+    <button class="tool-tab active" data-tool="unit-importer" type="button">
+      <span class="tab-title">⚔ Unit Importer</span>
+      <span class="tab-desc">Primary workspace</span>
+    </button>
+    <button class="tool-tab" data-tool="faction-adder" type="button">
+      <span class="tab-title">🏛 Faction Adder</span>
+      <span class="tab-desc">Faction files & rosters</span>
+    </button>
+    <button class="tool-tab" data-tool="faction-forge" type="button">
+      <span class="tab-title">🎨 Faction Forge</span>
+      <span class="tab-desc">Masks & recolors</span>
+    </button>
+  </nav>
+  <div class="header-actions">
+    <div class="skin-switcher">
+      <button class="btn skin-dd-trigger" id="skinDdTrigger" type="button" title="Change UI faction skin">
+        <span class="skin-dd-current" id="skinDdCurrent"></span><span id="skinDdLabel">Julii</span><span class="skin-dd-caret">▼</span>
+      </button>
+      <div class="skin-dd-panel" id="skinDdPanel">
+        <div class="skin-dd-header">⚜ Choose UI Faction Skin</div>
+        <div class="skin-dd-item" data-skin="julii"><span class="skin-dd-emblem" data-emblem="julii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Julii</span><span class="skin-dd-desc">crimson SPQR red</span></span><span class="skin-dd-check" data-check="julii"></span></div>
+        <div class="skin-dd-item" data-skin="brutii"><span class="skin-dd-emblem" data-emblem="brutii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Brutii</span><span class="skin-dd-desc">olive green and gold</span></span><span class="skin-dd-check" data-check="brutii"></span></div>
+        <div class="skin-dd-item" data-skin="britons"><span class="skin-dd-emblem" data-emblem="britons"></span><span class="skin-dd-meta"><span class="skin-dd-name">Britons</span><span class="skin-dd-desc">periwinkle and woad</span></span><span class="skin-dd-check" data-check="britons"></span></div>
+      </div>
+    </div>
+    <button class="btn" id="reloadBtn" type="button">↻ Reload Tool</button>
+    <a class="btn primary" id="openStandalone" href="rtw_unit_importer_v24.html" target="_blank" rel="noopener">Open Standalone</a>
+  </div>
+</header>
+
+<main>
+  <aside>
+    <div class="panel-card">
+      <h2>Combined Workspace</h2>
+      <div class="panel-body">
+        <div class="status-row"><span class="status-label">Active tool</span><span class="status-value" id="activeName">Unit Importer</span></div>
+        <div class="status-row"><span class="status-label">Priority</span><span class="status-value">Importer UI</span></div>
+        <div class="status-row"><span class="status-label">Files</span><span class="status-value">3 tools / 1 shell</span></div>
+        <p class="hint">This shell keeps the Unit Importer as the default workflow and opens the Faction Adder and Faction Forge inside the same modding workspace.</p>
+      </div>
+    </div>
+
+    <div class="panel-card">
+      <h2>Recommended Flow</h2>
+      <div class="panel-body">
+        <ol class="workflow">
+          <li>Use <b>Unit Importer</b> to load EDU/DMB/EU files and package unit assets.</li>
+          <li>Use <b>Faction Forge</b> to prepare clean faction masks and recolors.</li>
+          <li>Use <b>Faction Adder</b> to write faction data, names, rosters, cards, and color flags.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="panel-card">
+      <h2>Write Permission Note</h2>
+      <div class="panel-body">
+        Chrome/Edge can write only after a folder picker grants read/write permission. Protected locations such as <code>C:\Program Files</code> may still be blocked by the browser; use ZIP export or a trusted/manual workflow for those paths.
+      </div>
+    </div>
+  </aside>
+
+  <section class="workspace">
+    <div class="workspace-bar">
+      <strong id="workspaceTitle">Unit Importer</strong>
+      <span>loaded from</span>
+      <span class="path-pill" id="workspacePath">rtw_unit_importer_v24.html</span>
+    </div>
+    <div class="frame-wrap">
+      <iframe class="active" id="frame-unit-importer" title="RTW Unit Importer" src="rtw_unit_importer_v24.html"></iframe>
+      <iframe id="frame-faction-adder" title="RTW Faction Adder" src="rtw_faction_adder_editor.html" loading="lazy"></iframe>
+      <iframe id="frame-faction-forge" title="RTW Faction Forge" src="RTW_Faction_Forge.html" loading="lazy"></iframe>
+      <div class="load-note" id="loadNote">Tip: use the tabs above to keep all three mod tools in one window.</div>
+    </div>
+  </section>
+</main>
+
+<script>
+const SKIN_ICONS = {
+  julii: svgIcon("#8b1a1a", "#e8cc7a", "J"),
+  brutii: svgIcon("#315c1c", "#d9ef8e", "B"),
+  britons: svgIcon("#4c5bc0", "#dfe5ff", "B")
+};
+const SKIN_NAMES = { julii: "Julii", brutii: "Brutii", britons: "Britons" };
+function svgIcon(bg, fg, letter) {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="${bg}" stroke="${fg}" stroke-width="4"/><path d="M32 9l17 8v13c0 12-7 20-17 25-10-5-17-13-17-25V17z" fill="rgba(0,0,0,.22)" stroke="${fg}" stroke-width="2"/><text x="32" y="41" text-anchor="middle" font-family="Georgia" font-size="27" font-weight="700" fill="${fg}">${letter}</text></svg>`)}`;
+}
+function setUiSkin(skin) {
+  if (!SKIN_ICONS[skin]) skin = "julii";
+  document.documentElement.classList.toggle("skin-brutii", skin === "brutii");
+  document.documentElement.classList.toggle("skin-britons", skin === "britons");
+  document.getElementById("skinDdCurrent").style.backgroundImage = `url('${SKIN_ICONS[skin]}')`;
+  document.getElementById("skinDdLabel").textContent = SKIN_NAMES[skin];
+  document.querySelectorAll("[data-emblem]").forEach(el => el.style.backgroundImage = `url('${SKIN_ICONS[el.dataset.emblem]}')`);
+  document.querySelectorAll(".skin-dd-item").forEach(el => el.classList.toggle("active", el.dataset.skin === skin));
+  document.querySelectorAll(".skin-dd-check").forEach(el => el.textContent = el.dataset.check === skin ? "✓" : "");
+  try { localStorage.setItem("rtw_skin", skin); } catch {}
+}
+function initSkinSwitcher() {
+  const panel = document.getElementById("skinDdPanel");
+  document.getElementById("skinDdTrigger").addEventListener("click", ev => { ev.stopPropagation(); panel.classList.toggle("open"); });
+  document.querySelectorAll(".skin-dd-item").forEach(el => el.addEventListener("click", () => { setUiSkin(el.dataset.skin); panel.classList.remove("open"); }));
+  document.addEventListener("click", ev => { if (!ev.target.closest || !ev.target.closest(".skin-switcher")) panel.classList.remove("open"); });
+  let saved = "julii"; try { saved = localStorage.getItem("rtw_skin") || "julii"; } catch {}
+  setUiSkin(saved);
+}
+
+const TOOLS = {
+  "unit-importer": { name: "Unit Importer", path: "rtw_unit_importer_v24.html", frame: "frame-unit-importer" },
+  "faction-adder": { name: "Faction Adder", path: "rtw_faction_adder_editor.html", frame: "frame-faction-adder" },
+  "faction-forge": { name: "Faction Forge", path: "RTW_Faction_Forge.html", frame: "frame-faction-forge" }
+};
+
+const tabs = [...document.querySelectorAll(".tool-tab")];
+const frames = [...document.querySelectorAll("iframe")];
+const activeName = document.getElementById("activeName");
+const title = document.getElementById("workspaceTitle");
+const path = document.getElementById("workspacePath");
+const standalone = document.getElementById("openStandalone");
+const reload = document.getElementById("reloadBtn");
+const note = document.getElementById("loadNote");
+function getStoredTool() {
+  try { return localStorage.getItem("rtwModTool.active"); } catch { return null; }
+}
+function storeTool(key) {
+  try { localStorage.setItem("rtwModTool.active", key); } catch {}
+}
+let activeTool = getStoredTool() || "unit-importer";
+
+function setTool(key) {
+  const tool = TOOLS[key] || TOOLS["unit-importer"];
+  activeTool = key in TOOLS ? key : "unit-importer";
+  storeTool(activeTool);
+  tabs.forEach(tab => tab.classList.toggle("active", tab.dataset.tool === activeTool));
+  frames.forEach(frame => frame.classList.toggle("active", frame.id === tool.frame));
+  activeName.textContent = tool.name;
+  title.textContent = tool.name;
+  path.textContent = tool.path;
+  standalone.href = tool.path;
+  note.textContent = `${tool.name} is running inside the combined RTW Mod Tool shell.`;
+}
+
+tabs.forEach(tab => tab.addEventListener("click", () => setTool(tab.dataset.tool)));
+reload.addEventListener("click", () => {
+  const tool = TOOLS[activeTool] || TOOLS["unit-importer"];
+  const frame = document.getElementById(tool.frame);
+  frame.src = tool.path;
+});
+
+initSkinSwitcher();
+setTool(activeTool);
+</script>
+</body>
+</html>
