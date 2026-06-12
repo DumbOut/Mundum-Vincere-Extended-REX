@@ -323,7 +323,7 @@ pre {
           <div class="group-body">
             <div class="grid2">
               <div class="field"><label>Faction id</label><input id="factionId" value="thamud_01"></div>
-              <div class="field"><label>Culture</label><select id="culture"></select></div>
+              <div class="field"><label>Culture</label><input id="culture" value="eastern" list="cultureHints" placeholder="custom culture name"><datalist id="cultureHints"><option value="roman"><option value="greek"><option value="egyptian"><option value="eastern"><option value="carthaginian"><option value="barbarian"><option value="slave"></datalist></div>
             </div>
             <div class="grid2">
               <div class="field"><label>Display name</label><input id="displayName" value="Thamud"></div>
@@ -346,6 +346,7 @@ pre {
           <summary>Campaign Start</summary>
           <div class="group-body">
             <div class="field"><label>Starting regions, one per line</label><textarea id="regions">Hegra_R</textarea></div>
+            <div class="field"><label>Settlements to create, one per line (region, x, y)</label><textarea id="settlements" placeholder="Hegra_R, 0, 0">Hegra_R, 0, 0</textarea></div>
             <div class="grid3">
               <div class="field"><label>X</label><input id="startX" type="number" value="0"></div>
               <div class="field"><label>Y</label><input id="startY" type="number" value="0"></div>
@@ -356,7 +357,7 @@ pre {
               <button id="loadTgaBtn" type="button">Open map_regions.tga</button>
               <input id="mapRegionsFile" type="file" accept=".tga,image/x-tga" hidden>
             </div>
-            <div class="hint">Reads descr_regions and scans map_regions.tga for the selected region's black settlement pixel, then flips Y once into map coordinates.</div>
+            <div class="hint">Reads descr_regions and scans map_regions.tga for each listed region's black settlement pixel, then converts the map_regions image axis into campaign map coordinates (bottom-origin TGA files are not flipped twice).</div>
             <div class="grid2">
               <div class="field"><label>Leader name</label><input id="leaderName" value="Ruqayy"></div>
               <div class="field"><label>Heir name</label><input id="heirName" value="Malik"></div>
@@ -443,6 +444,40 @@ al-Samudi</textarea></div>
             <textarea id="makerOutput" class="tool-output" readonly></textarea>
           </div>
         </details>
+
+        <details class="group" open>
+          <summary>EDU Unit Chooser</summary>
+          <div class="group-body">
+            <div class="row">
+              <button id="loadEduBtn" type="button">Load export_descr_unit.txt</button>
+              <button id="applyEduBtn" type="button">Use Checked Units</button>
+              <input id="eduFile" type="file" accept=".txt,text/plain" hidden>
+            </div>
+            <div class="field" style="margin-top:9px"><label>Filter by type, dictionary, category, or ownership</label><input id="eduSearch" placeholder="east, cavalry, arabs, roman..."></div>
+            <div id="eduPicker" class="unit-picker"><div class="hint">Load EDU from the selected mod folder or choose a TXT file to pick units.</div></div>
+          </div>
+        </details>
+
+        <details class="group">
+          <summary>Faction Forge Masks & Recolors</summary>
+          <div class="group-body">
+            <div class="card-grid" id="iconPicker">
+              <div class="icon-card active" data-icon="Rome_Icon.png"><span class="emblem"></span><span>SPQR icon</span></div>
+              <div class="icon-card" data-icon="RTW_Faction_Forge.html"><span class="emblem"></span><span>Forge masks</span></div>
+              <div class="icon-card" data-icon="rtw_unit_importer_v24.html"><span class="emblem"></span><span>Unit importer</span></div>
+            </div>
+            <div class="hint">Open Faction Forge for texture recoloring, then use primary/secondary/tertiary colors here for faction coding. Mask creator helpers below produce channel notes you can paste into Forge.</div>
+            <div class="grid3">
+              <div class="field"><label>Mask strength</label><input id="maskStrength" type="number" min="0" max="100" value="85"></div>
+              <div class="field"><label>Edge cleanup</label><select id="maskCleanup"><option>grow/smooth</option><option>shrink/smooth</option><option>none</option></select></div>
+              <div class="field"><label>Export format</label><select id="forgeFormat"><option>DXT3 DDS</option><option>TGA</option><option>PNG preview</option></select></div>
+            </div>
+            <button id="makeMaskPlanBtn" type="button" style="width:100%">Create Mask/Recolor Plan</button>
+            <textarea id="maskPlan" class="tool-output" readonly></textarea>
+          </div>
+        </details>
+
+
       </div>
     </section>
 
@@ -523,7 +558,7 @@ const dom = {};
   "folderLabel","pickFolderBtn","loadBtn","saveJsonBtn","loadJsonBtn","jsonFile","manualPath","setPathBtn",
   "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
   "primaryColor","secondaryColor","tertiaryColor","useTertiary","hasFamilyTree",
-  "copySlaveCards","regions","startX","startY","denarii","leaderName","heirName",
+  "copySlaveCards","regions","settlements","startX","startY","denarii","leaderName","heirName",
   "units","maleNames","femaleNames","surnames","description","temple1","temple2",
   "tabs","preview","previewPath","copyPreviewBtn","regenBtn",
   "writeBtn","fileToggles","status","apiPill","dirtyPill","opPlayable","opRegions",
@@ -542,13 +577,7 @@ let dirty = true;
 let loadedEduUnits = [];
 
 function init() {
-  CULTURES.forEach(c => {
-    const opt = document.createElement("option");
-    opt.value = c;
-    opt.textContent = c;
-    dom.culture.appendChild(opt);
-  });
-  dom.culture.value = "eastern";
+  if (!dom.culture.value) dom.culture.value = "eastern";
   FILES.forEach(([key, path, label]) => {
     const btn = document.createElement("button");
     btn.textContent = label;
@@ -595,6 +624,31 @@ function init() {
 function val(id) { return dom[id].value.trim(); }
 function checked(id) { return dom[id].checked; }
 function lines(id) { return val(id).split(/\r?\n/).map(s => s.trim()).filter(Boolean); }
+function parseSettlementLines() {
+  return val("settlements").split(/\r?\n/).map((line, index) => {
+    const parts = line.split(/[,\t ]+/).map(part => part.trim()).filter(Boolean);
+    if (!parts.length) return null;
+    return {
+      region: parts[0],
+      x: Number(parts[1] || (index === 0 ? val("startX") : 0) || 0),
+      y: Number(parts[2] || (index === 0 ? val("startY") : 0) || 0),
+      level: parts[3] || "large_town",
+      population: Number(parts[4] || 2400)
+    };
+  }).filter(Boolean);
+}
+function syncSettlementsFromRegions() {
+  const existing = new Map(parseSettlementLines().map(s => [s.region.toLowerCase(), s]));
+  const next = lines("regions").map((region, index) => {
+    const old = existing.get(region.toLowerCase());
+    const x = old ? old.x : (index === 0 ? Number(val("startX") || 0) : 0);
+    const y = old ? old.y : (index === 0 ? Number(val("startY") || 0) : 0);
+    const level = old ? old.level : "large_town";
+    const population = old ? old.population : 2400;
+    return `${region}, ${x}, ${y}, ${level}, ${population}`;
+  });
+  dom.settlements.value = next.join("\n");
+}
 function idUpper() { return val("factionId").toUpperCase().replace(/[^A-Z0-9]+/g, "_"); }
 function crlf(text) { return text.replace(/\r?\n/g, "\r\n"); }
 function hexParts(hex) {
@@ -636,6 +690,7 @@ function spec() {
     useTertiary: checked("useTertiary"),
     hasFamilyTree: checked("hasFamilyTree"),
     regions: lines("regions"),
+    settlements: parseSettlementLines(),
     x: Number(val("startX") || 0),
     y: Number(val("startY") || 0),
     denarii: Number(val("denarii") || 0),
@@ -708,36 +763,44 @@ texture data/models_building/textures/${s.id}_building_banner.tga`);
 }
 
 function genStrat(s) {
-  const region = s.regions[0] || "REGION_LABEL";
+  const settlements = (s.settlements && s.settlements.length ? s.settlements : s.regions.map((region, index) => ({
+    region,
+    x: index === 0 ? s.x : 0,
+    y: index === 0 ? s.y : 0,
+    level: "large_town",
+    population: 2400
+  }))).filter(entry => entry.region);
+  const home = settlements[0] || { region: "REGION_LABEL", x: s.x, y: s.y };
   const unitLines = s.units.map(u => `unit\t\t${u}\t\t\t\t\t\t\texp 0 armour 0 weapon_lvl 0`).join("\n");
   const firstUnit = s.units[0] || "east infantry";
-  const family = s.hasFamilyTree ? `character\t${s.leader}, named character, leader, age 36, x ${s.x}, y ${s.y}
-traits GoodCommander 1
-army
-${unitLines}
-
-character\t${s.heir}, named character, heir, age 18, x ${s.x}, y ${s.y}
-traits GoodCommander 1
-army
-unit\t\t${firstUnit}\t\t\t\t\t\t\texp 0 armour 0 weapon_lvl 0` :
-`character\t${s.leader}, named character, age 36, x ${s.x}, y ${s.y}
-army
-${unitLines}`;
-  return block(s.id, `faction\t${s.id}, balanced smith
-denari\t${s.denarii}
-settlement
+  const settlementBlocks = settlements.map(entry => `settlement
 {
-\tlevel large_town
-\tregion ${region}
+\tlevel ${entry.level || "large_town"}
+\tregion ${entry.region}
 \tyear_founded 0
-\tpopulation 2400
+\tpopulation ${entry.population || 2400}
 \tplan_set default_set
 \tfaction_creator ${s.id}
 \tbuilding
 \t{
 \t\ttype core_building governors_villa
 \t}
-}
+}`).join("\n\n");
+  const family = s.hasFamilyTree ? `character\t${s.leader}, named character, leader, age 36, x ${home.x}, y ${home.y}
+traits GoodCommander 1
+army
+${unitLines}
+
+character\t${s.heir}, named character, heir, age 18, x ${home.x}, y ${home.y}
+traits GoodCommander 1
+army
+unit\t\t${firstUnit}\t\t\t\t\t\t\texp 0 armour 0 weapon_lvl 0` :
+`character\t${s.leader}, named character, age 36, x ${home.x}, y ${home.y}
+army
+${unitLines}`;
+  return block(s.id, `faction\t${s.id}, balanced smith
+denari\t${s.denarii}
+${settlementBlocks}
 
 ${family}`);
 }
@@ -1043,13 +1106,15 @@ function parseTga(bytes) {
   const width = bytes[12] | (bytes[13] << 8);
   const height = bytes[14] | (bytes[15] << 8);
   const bpp = bytes[16];
+  const descriptor = bytes[17];
+  const originTop = Boolean(descriptor & 0x20);
   const bytesPerPixel = bpp >> 3;
   if (colorMapType !== 0 || imageType !== 2 || ![3, 4].includes(bytesPerPixel)) {
     throw new Error("Only uncompressed 24/32-bit true-colour TGA map_regions files are supported");
   }
   const offset = 18 + idLength;
   if (offset + width * height * bytesPerPixel > bytes.length) throw new Error("map_regions.tga is truncated");
-  return { bytes, offset, width, height, bytesPerPixel };
+  return { bytes, offset, width, height, bytesPerPixel, originTop };
 }
 
 function tgaPixel(tga, x, y) {
@@ -1090,7 +1155,7 @@ function findBlackSettlementPixel(tga, regionRgb) {
     }
   }
   if (!best) throw new Error("No black settlement pixel was found touching the region colour in map_regions.tga");
-  return { x: best.x, y: tga.height - 1 - best.y };
+  return { x: best.x, y: tga.originTop ? tga.height - best.y : best.y };
 }
 
 async function loadMapRegionsBytes() {
@@ -1102,17 +1167,22 @@ async function loadMapRegionsBytes() {
 async function findSettlementCoords() {
   clearLog();
   try {
-    const region = lines("regions")[0];
-    if (!region) throw new Error("Enter at least one starting region first.");
+    const regionNames = lines("regions");
+    if (!regionNames.length) throw new Error("Enter at least one starting region first.");
     const descr = await readText(`${DATA}world/maps/base/descr_regions.txt`);
-    const regionInfo = parseDescrRegions(descr, region);
     const tga = parseTga(await loadMapRegionsBytes());
-    const coords = findBlackSettlementPixel(tga, regionInfo.rgb);
-    dom.startX.value = coords.x;
-    dom.startY.value = coords.y;
+    const found = [];
+    for (const region of regionNames) {
+      const regionInfo = parseDescrRegions(descr, region);
+      const coords = findBlackSettlementPixel(tga, regionInfo.rgb);
+      found.push({ region, label: regionInfo.settlement || region, ...coords });
+      log(`Found ${regionInfo.settlement || region} settlement pixel at ${coords.x}, ${coords.y} after map_regions axis conversion.`, "ok");
+    }
+    dom.startX.value = found[0].x;
+    dom.startY.value = found[0].y;
+    dom.settlements.value = found.map(item => `${item.region}, ${item.x}, ${item.y}, large_town, 2400`).join("\n");
     markDirty();
     generateAll();
-    log(`Found ${regionInfo.settlement || region} settlement pixel at ${coords.x}, ${coords.y} after vertical flip.`, "ok");
   } catch (err) {
     log(err.message || String(err), "bad");
   }
@@ -1406,12 +1476,12 @@ async function loadExisting() {
 function planData() {
   const ids = [
     "factionId","culture","displayName","standardIndex","logoIndex","smallLogoIndex",
-    "primaryColor","secondaryColor","tertiaryColor","regions","startX","startY",
+    "primaryColor","secondaryColor","tertiaryColor","regions","settlements","startX","startY",
     "denarii","leaderName","heirName","units","maleNames","femaleNames","surnames",
     "description","temple1","temple2","uiSkin","maskStrength","maskCleanup","forgeFormat"
   ];
   const data = {};
-  ids.forEach(id => data[id] = dom[id].value);
+  ids.forEach(id => { if (dom[id]) data[id] = dom[id].value; });
   ["useTertiary","hasFamilyTree","copySlaveCards"].forEach(id => data[id] = dom[id].checked);
   return data;
 }
