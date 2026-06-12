@@ -67,6 +67,10 @@ button:disabled{opacity:.4;cursor:not-allowed;transform:none;border-color:var(--
 .btn.sm{padding:4px 8px;font-size:11px}
 .btn.tiny{padding:3px 6px;font-size:10px}
 
+
+html.skin-brutii{--bg:#081006;--bg2:#10190c;--panel:#172312;--panel2:#20351a;--line:#2d4522;--line2:#4a6a32;--ink:#edf8dd;--ink-dim:#aec995;--ink-faint:#72885f;--bronze:#a8c95a;--bronze-bright:#d9ef8e;--bronze-deep:#6d8d32;--blood:#315c1c;--blood-bright:#5a8a30}
+html.skin-britons{--bg:#080b16;--bg2:#10142a;--panel:#151a34;--panel2:#20284e;--line:#303a66;--line2:#5262a0;--ink:#eef1ff;--ink-dim:#b6c0ec;--ink-faint:#7c86ba;--bronze:#9aa8e0;--bronze-bright:#dfe5ff;--bronze-deep:#6570b2;--blood:#4c5bc0;--blood-bright:#8f9ee8}
+.skin-switcher{position:relative;display:flex;align-items:center}.skin-dd-trigger{display:flex;align-items:center;gap:7px;padding:3px 9px 3px 3px}.skin-dd-current,.skin-dd-emblem{width:28px;height:28px;border-radius:50%;background-size:cover;background-position:center;border:1px solid var(--bronze);flex:none}.skin-dd-caret{color:var(--bronze);font-size:9px;margin-left:auto}.skin-dd-panel{position:absolute;top:38px;right:0;z-index:300;display:none;min-width:220px;overflow:hidden;border:1px solid var(--line2);background:var(--panel);box-shadow:var(--shadow)}.skin-dd-panel.open{display:block}.skin-dd-header{padding:8px 11px;border-bottom:1px solid var(--line);color:var(--bronze);font:10px "Cinzel",serif;letter-spacing:1.4px;text-transform:uppercase}.skin-dd-item{display:flex;align-items:center;gap:9px;padding:8px 11px;cursor:pointer;border-bottom:1px solid rgba(0,0,0,.22)}.skin-dd-item:hover,.skin-dd-item.active{background:#ffffff10}.skin-dd-meta{display:flex;flex-direction:column;gap:1px}.skin-dd-name{color:var(--ink);font:700 11px "Cinzel",serif}.skin-dd-desc{color:var(--ink-dim);font-size:10px}.skin-dd-check{margin-left:auto;color:var(--bronze-bright)}
 /* ---------- MAIN GRID ---------- */
 .main{display:grid;grid-template-columns:288px 1fr 320px;flex:1;min-height:0}
 .col{display:flex;flex-direction:column;min-height:0;overflow:hidden}
@@ -190,6 +194,17 @@ input[type=file]{display:none}
     </div>
     <div class="filename" id="fileLabel">no texture loaded</div>
     <div class="topbtns">
+      <div class="skin-switcher">
+        <button class="btn sm skin-dd-trigger" id="skinDdTrigger" type="button" title="Change UI faction skin">
+          <span class="skin-dd-current" id="skinDdCurrent"></span><span id="skinDdLabel">Julii</span><span class="skin-dd-caret">▼</span>
+        </button>
+        <div class="skin-dd-panel" id="skinDdPanel">
+          <div class="skin-dd-header">⚜ Choose UI Faction Skin</div>
+          <div class="skin-dd-item" data-skin="julii"><span class="skin-dd-emblem" data-emblem="julii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Julii</span><span class="skin-dd-desc">crimson SPQR red</span></span><span class="skin-dd-check" data-check="julii"></span></div>
+          <div class="skin-dd-item" data-skin="brutii"><span class="skin-dd-emblem" data-emblem="brutii"></span><span class="skin-dd-meta"><span class="skin-dd-name">Brutii</span><span class="skin-dd-desc">olive green and gold</span></span><span class="skin-dd-check" data-check="brutii"></span></div>
+          <div class="skin-dd-item" data-skin="britons"><span class="skin-dd-emblem" data-emblem="britons"></span><span class="skin-dd-meta"><span class="skin-dd-name">Britons</span><span class="skin-dd-desc">periwinkle and woad</span></span><span class="skin-dd-check" data-check="britons"></span></div>
+        </div>
+      </div>
       <button class="btn" onclick="dom.fileInput.click()">⊕ Load Texture</button>
       <button class="btn sm" onclick="saveProject()">💾 Save Project</button>
       <button class="btn sm" onclick="dom.projInput.click()">📂 Open Project</button>
@@ -372,6 +387,32 @@ input[type=file]{display:none}
    ====================================================================== */
 "use strict";
 
+const SKIN_ICONS = {
+  julii: svgIcon("#8b1a1a", "#e8cc7a", "J"),
+  brutii: svgIcon("#315c1c", "#d9ef8e", "B"),
+  britons: svgIcon("#4c5bc0", "#dfe5ff", "B")
+};
+const SKIN_NAMES = { julii:"Julii", brutii:"Brutii", britons:"Britons" };
+function svgIcon(bg, fg, letter){return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="${bg}" stroke="${fg}" stroke-width="4"/><path d="M32 9l17 8v13c0 12-7 20-17 25-10-5-17-13-17-25V17z" fill="rgba(0,0,0,.22)" stroke="${fg}" stroke-width="2"/><text x="32" y="41" text-anchor="middle" font-family="Georgia" font-size="27" font-weight="700" fill="${fg}">${letter}</text></svg>`)}`}
+function setUiSkin(skin){
+  if(!SKIN_ICONS[skin]) skin="julii";
+  document.documentElement.classList.toggle("skin-brutii", skin==="brutii");
+  document.documentElement.classList.toggle("skin-britons", skin==="britons");
+  if(dom.skinDdCurrent) dom.skinDdCurrent.style.backgroundImage=`url('${SKIN_ICONS[skin]}')`;
+  if(dom.skinDdLabel) dom.skinDdLabel.textContent=SKIN_NAMES[skin];
+  document.querySelectorAll("[data-emblem]").forEach(el=>el.style.backgroundImage=`url('${SKIN_ICONS[el.dataset.emblem]}')`);
+  document.querySelectorAll(".skin-dd-item").forEach(el=>el.classList.toggle("active", el.dataset.skin===skin));
+  document.querySelectorAll(".skin-dd-check").forEach(el=>el.textContent=el.dataset.check===skin?"✓":"");
+  try{localStorage.setItem("rtw_skin",skin)}catch{}
+}
+function initSkinSwitcher(){
+  dom.skinDdTrigger.onclick=e=>{e.stopPropagation();dom.skinDdPanel.classList.toggle("open")};
+  document.querySelectorAll(".skin-dd-item").forEach(el=>el.onclick=()=>{setUiSkin(el.dataset.skin);dom.skinDdPanel.classList.remove("open")});
+  document.addEventListener("click",e=>{if(!e.target.closest||!e.target.closest(".skin-switcher"))dom.skinDdPanel.classList.remove("open")});
+  let saved="julii";try{saved=localStorage.getItem("rtw_skin")||"julii"}catch{}
+  setUiSkin(saved);
+}
+
 const CHANNELS = [
   {key:"primary",   label:"Primary",         desc:"main cloth / tunic", mode:"fabric"},
   {key:"secondary", label:"Secondary",       desc:"trim / cloak",       mode:"fabric"},
@@ -389,10 +430,12 @@ const dom = {};
 ["fileInput","projInput","stage","canvasWrap","emptyState","fileLabel","toast",
  "channels","factions","brushSize","brushVal","tolerance","tolVal","tolWrap",
  "globalStrength","globalStrengthVal","zoomMeta","sbSize","sbCursor","sbChannel","sbTool","sbFaction",
- "pattern","exportFormat","mips","llmPrompt","llmImport","kClusters","kVal","clusters","maskToggle"
+ "pattern","exportFormat","mips","llmPrompt","llmImport","kClusters","kVal","clusters","maskToggle",
+ "skinDdTrigger","skinDdCurrent","skinDdLabel","skinDdPanel"
 ].forEach(id=>dom[id]=document.getElementById(id));
 
 const ctx = dom.stage.getContext("2d");
+initSkinSwitcher();
 
 /* ---------------- STATE ---------------- */
 let state = {

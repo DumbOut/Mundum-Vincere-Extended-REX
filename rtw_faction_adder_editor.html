@@ -1220,9 +1220,84 @@ async function updateEduOwnership(s) {
   }
 }
 
+function selectedEduRecords(s) {
+  const wanted = new Set(s.units.map(u => u.toLowerCase()));
+  return loadedEduUnits.filter(u => wanted.has(u.type.toLowerCase()));
+}
+function uiOwnerFolders(ownership) {
+  const defaults = {
+    greek: ["greek_cities", "macedon", "seleucid"], greek_cities: ["greek_cities", "macedon", "seleucid"],
+    numidian: ["numidia"], carthaginian: ["carthage", "numidia"], carthage: ["carthage", "numidia"],
+    roman: ["romans_julii", "romans_brutii", "romans_scipii", "romans_senate"], romans: ["romans_julii", "romans_brutii", "romans_scipii", "romans_senate"],
+    eastern: ["parthia", "armenia", "pontus"], egyptian: ["egypt"], barbarian: ["gauls", "germans", "britons", "dacia", "scythia", "spain", "thrace"], slave: ["slave"]
+  };
+  const folders = [];
+  String(ownership || "slave").split(/[,\s]+/).map(x => x.trim().toLowerCase()).filter(Boolean).forEach(token => {
+    (defaults[token] || [token]).forEach(f => { if (!folders.includes(f)) folders.push(f); });
+  });
+  if (!folders.includes("slave")) folders.push("slave");
+  return folders;
+}
 async function copySlaveCards(s) {
-  await copyDir(`${DATA}ui/units/slave`, `${DATA}ui/units/${s.id}`);
-  await copyDir(`${DATA}ui/unit_info/slave`, `${DATA}ui/unit_info/${s.id}`);
+  const records = selectedEduRecords(s);
+  if (!records.length) {
+    log("No loaded EDU records for selected starter units; falling back to slave card folder copy.", "muted");
+    await copyDir(`${DATA}ui/units/slave`, `${DATA}ui/units/${s.id}`);
+    await copyDir(`${DATA}ui/unit_info/slave`, `${DATA}ui/unit_info/${s.id}`);
+    return;
+  }
+  let copied = 0;
+  await ensureUiDirs(s.id);
+  for (const u of records) copied += await copyCardsForUnit(s.id, u);
+  log(`Copied ${copied} selected UI card/info file(s) for ${records.length} roster unit(s).`, copied ? "ok" : "bad");
+}
+async function ensureUiDirs(factionId) {
+  if (rootPath) {
+    ensureFolder(winPath(`${DATA}ui/units/${factionId}`));
+    ensureFolder(winPath(`${DATA}ui/unit_info/${factionId}`));
+  } else {
+    await getDirHandle(`${DATA}ui/units/${factionId}`, true);
+    await getDirHandle(`${DATA}ui/unit_info/${factionId}`, true);
+  }
+}
+async function copyCardsForUnit(factionId, unit) {
+  const dict = unit.dictionary || unit.type.replace(/\s+/g, "_");
+  const candidates = [];
+  for (const owner of uiOwnerFolders(unit.ownership)) {
+    candidates.push([`${DATA}ui/units/${owner}/#${dict}.tga`, `${DATA}ui/units/${factionId}/#${dict}.tga`]);
+    candidates.push([`${DATA}ui/units/${owner}/#${dict}.tga.dds`, `${DATA}ui/units/${factionId}/#${dict}.tga.dds`]);
+    candidates.push([`${DATA}ui/unit_info/${owner}/${dict}_info.tga`, `${DATA}ui/unit_info/${factionId}/${dict}_info.tga`]);
+    candidates.push([`${DATA}ui/unit_info/${owner}/${dict}_info.tga.dds`, `${DATA}ui/unit_info/${factionId}/${dict}_info.tga.dds`]);
+  }
+  let copied = 0;
+  const done = new Set();
+  for (const [src, dest] of candidates) {
+    const key = dest.toLowerCase();
+    if (done.has(key)) continue;
+    if (await copyFileIfExists(src, dest)) { done.add(key); copied++; }
+  }
+  if (!copied) log(`No UI cards found for ${unit.type} (${dict}) in ${uiOwnerFolders(unit.ownership).join(", ")}`, "bad");
+  return copied;
+}
+async function copyFileIfExists(srcPath, destPath) {
+  if (rootPath) {
+    const src = winPath(srcPath), dest = winPath(destPath);
+    if (!fso.FileExists(src)) return false;
+    ensureParentFolder(dest);
+    fso.CopyFile(src, dest, true);
+    return true;
+  }
+  try {
+    const src = await getFileHandle(srcPath, false);
+    const file = await src.getFile();
+    const out = await getFileHandle(destPath, true);
+    const writable = await out.createWritable();
+    await writable.write(await file.arrayBuffer());
+    await writable.close();
+    return true;
+  } catch {
+    return false;
+  }
 }
 async function copyDir(srcPath, destPath) {
   if (rootPath) {
@@ -1260,6 +1335,7 @@ async function copyDir(srcPath, destPath) {
   }
   log(`Copied cards: ${destPath}`, "ok");
 }
+
 
 async function writeSelected() {
   clearLog();
