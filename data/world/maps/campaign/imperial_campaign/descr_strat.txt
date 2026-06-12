@@ -13161,6 +13161,10 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 ;	Cisra
@@ -15315,6 +15319,10 @@ settlement
 	{
 		type core_building governors_house
 	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
@@ -16013,6 +16021,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -30846,9 +30858,14 @@ settlement
 	{
 		type defenses stone_wall
 	}
+	
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
