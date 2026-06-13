@@ -9,8 +9,8 @@ effect_offset	-1.5
 damage		0
 radius		0.1
 affected_by_rain
-min_angle	-60
-max_angle	60
+min_angle	100
+max_angle	100
 velocity	48
 display		particle_trail
 triangle
@@ -22,14 +22,37 @@ tail_tex1	0 0.25
 head_tex	1 0.125
 end
 
+projectile arrow_new
+
+;effect			default_arrow_trail_set
+effect_offset	-1.5
+damage		0
+damage_to_troops 20
+radius		0.1
+accuracy_vs_units		0.10
+affected_by_rain
+min_angle	-60
+max_angle	60
+velocity	48
+display		particle_trail
+triangle
+texture		NL_2/data/textures/HD_Arrow.tga
+tail		0.3
+length		2.5
+tail_tex0	0 0.0 
+tail_tex1	0 0.25 
+head_tex	1 0.125
+end
+
 projectile arrow_fiery
 
-flaming		arrow
+flaming		arrow_new
 effect 		fiery_arrow_set
 end_effect	fiery_arrow_explosion_set
 effect_offset -0.85
 damage		0
 radius		0.1
+accuracy_vs_units		0.12
 affected_by_rain
 fiery
 min_angle	-60
@@ -37,7 +60,7 @@ max_angle	70
 velocity	48
 display		aimed
 triangle	
-texture		data/textures/arrow_test.tga
+texture		NL_2/data/textures/HD_Fiery_Arrow.tga
 tail		0.3
 length		2.5
 tail_tex0	0 0.0 
@@ -49,6 +72,8 @@ projectile head
 
 damage		0
 radius		0.1
+;accuracy_vs_units 0.1
+;accuracy_vs_buildings 0.1
 min_angle	-60
 max_angle	70
 velocity	25
@@ -66,8 +91,8 @@ damage_to_troops 8
 radius			0.3
 mass			0.1
 area			2.0
-accuracy_vs_units		0.09
-accuracy_vs_buildings	0.0625
+accuracy_vs_units		0.03
+accuracy_vs_buildings	0.0207
 min_angle		0
 max_angle		70
 velocity		61
@@ -91,8 +116,8 @@ damage_to_troops 30
 radius			0.3
 mass			0.1
 area			2.5
-accuracy_vs_units		0.35
-accuracy_vs_buildings	0.125
+accuracy_vs_units		0.12
+accuracy_vs_buildings	0.04
 fiery					; uncomment this to make all boulders fiery
 min_angle		0
 max_angle		70
@@ -117,8 +142,8 @@ damage_to_troops 10
 radius			0.3
 mass			0.1
 area			2.0
-accuracy_vs_units		0.09
-accuracy_vs_buildings	0.0625
+accuracy_vs_units		0.03
+accuracy_vs_buildings	0.0207
 min_angle		0
 max_angle		70
 velocity		61
@@ -142,8 +167,8 @@ damage_to_troops 40
 radius			0.30
 mass			0.1
 area			3.0
-accuracy_vs_units		0.35
-accuracy_vs_buildings	0.125
+accuracy_vs_units		0.12
+accuracy_vs_buildings	0.04
 fiery					; uncomment this to make all boulders fiery
 min_angle		0
 max_angle		70
@@ -184,7 +209,7 @@ model		data/models_missile/sling_stone.cas, max
 
 projectile bolt
 
-damage		3
+damage		13
 radius		0
 min_angle	-60
 max_angle	70
@@ -208,6 +233,8 @@ projectile javelin
 
 damage		0
 radius		0
+;accuracy_vs_units 0.1
+;accuracy_vs_buildings 0.1
 min_angle	-60
 max_angle	70
 velocity	30
@@ -215,11 +242,28 @@ display		aimed invert_model_z
 model		data/models_missile/weapon_javelin_high.cas, 40
 model		data/models_missile/weapon_javelin_low.cas,  max
 
+projectile arrow_new_heavy
+
+effect_offset	-1.5
+damage		0
+damage_to_troops 10
+radius		0.1
+;accuracy_vs_units 0.05
+;accuracy_vs_buildings 0.05
+affected_by_rain
+min_angle	-60
+max_angle	60
+velocity	48
+display		aimed invert_model_z 
+model		NL_2/data/models_missile/arrow_heavy_high.cas, 40
+model		NL_2/data/models_missile/arrow_heavy_high.cas,  max
 
 projectile pilum
 
 damage		0
 radius		0
+;accuracy_vs_units 0.1
+;accuracy_vs_buildings 0.1
 min_angle	-60
 max_angle	70
 velocity	25
@@ -227,29 +271,43 @@ display		aimed
 model		data/models_missile/weapon_pilum_high.cas, 40
 model		data/models_missile/weapon_pilum_low.cas,  max
 
-projectile plumbatari
+projectile dart
 
 damage		0
 radius		0
-min_angle	-60
-max_angle	60
-prefer_high
-velocity	30
-display		aimed invert_model_z
-model		bi/data/models_missile/BI_projectile_plumbata.CAS,  max
-
-projectile francisca
-
-damage		0
-radius		0
-mass		0.3
-;area		0.1
+;accuracy_vs_units 0.1
+;accuracy_vs_buildings 0.1
 min_angle	-60
 max_angle	70
-velocity	30
-bounce		0.3 0.4 0.7 0.9 erratic
-display		aimed spin
-model		bi/data/models_missile/BI_projectile_francisca.CAS,  max
+velocity	60
+display 
+triangle
+texture		data/textures/arrow_test.tga
+tail		0.2
+length		0.5
+tail_tex0	0 0 
+tail_tex1	0 0 
+head_tex	0 0 
+end
+
+projectile axe
+
+damage		0
+radius		0
+;accuracy_vs_units 0.1
+;accuracy_vs_buildings 0.1
+min_angle	-60
+max_angle	70
+velocity	60
+display 
+triangle
+texture		data/textures/arrow_test.tga
+tail		0.2
+length		0.5
+tail_tex0	0 0 
+tail_tex1	0 0 
+head_tex	0 0 
+end
 
 projectile ballista
 
@@ -258,7 +316,6 @@ end_effect   large_arrow_explode_set
 damage		24
 damage_to_troops 5
 radius		0
-mass		3
 min_angle	-30
 max_angle	70
 velocity	60
@@ -277,8 +334,7 @@ effect_offset 1.0
 damage		24
 damage_to_troops 5
 radius		0
-mass		3
-accuracy_vs_units		0.15
+accuracy_vs_units		0.05
 fiery
 min_angle	-60
 max_angle	70
@@ -300,8 +356,8 @@ end_effect   large_arrow_explode_set
 damage		12
 damage_to_troops 5
 radius		0
-min_angle	-30
-max_angle	70
+min_angle	100
+max_angle	100
 velocity	60
 ;bounce		0.5 0.6 0.5 0.4
 display		aimed particle_trail invert_model_z
@@ -318,11 +374,10 @@ effect_offset 1.0
 damage		12
 damage_to_troops 5
 radius		0
-mass		3
-accuracy_vs_units		0.15
+accuracy_vs_units		0.05
 fiery
-min_angle	-60
-max_angle	70
+min_angle	100
+max_angle	100
 velocity	60
 ;bounce		0.5 0.6 0.5 0.4
 display		aimed invert_model_z
@@ -334,10 +389,25 @@ projectile scorpion
 
 effect	    large_arrow_trail_set
 end_effect  large_arrow_explode_set
-damage		0
-damage_to_troops 2
+damage		12
+damage_to_troops 4
 radius		0
-mass		3
+min_angle	100
+max_angle	100
+velocity	90
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  40.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+projectile scorpion_new
+
+effect	    large_arrow_trail_set
+end_effect  large_arrow_explode_set
+damage		12
+damage_to_troops 4
+radius		0
+;mass		3
 min_angle	-30
 max_angle	70
 velocity	90
@@ -348,14 +418,14 @@ model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
 
 projectile flaming_scorpion
 
-flaming		scorpion
+flaming		scorpion_new
 effect	    	fiery_ballista_trail_set
 end_effect      fiery_ballista_explosion_set
 effect_offset	1.0
-damage		0
-damage_to_troops 2
+damage		12
+damage_to_troops 4
 radius		0
-mass		3
+;mass		3
 accuracy_vs_units		0.15
 fiery
 min_angle	-60
@@ -373,7 +443,6 @@ end_effect  large_arrow_explode_set
 damage		0
 damage_to_troops 2
 radius		0
-mass		3
 min_angle	-30
 max_angle	70
 velocity	60
@@ -381,18 +450,3 @@ display		aimed particle_trail
 model		data/models_missile/missile_scorpion_bolt_high.CAS,  40.0
 model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
 model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
-
-
-projectile crossbow
-
-destroy_after_max_range_percent_and_variation	120	15 ; // Destroyed after 120% of unit's max range, plus random value up to 15%
-damage		0
-radius		0.1
-affected_by_rain
-min_angle	-60
-max_angle	70
-velocity	110
-display		aimed particle_trail invert_model_z
-model		data/models_missile/Bolt_high.CAS,  40.0
-model		data/models_missile/Bolt_med.CAS,  80.0
-model		data/models_missile/Bolt_low.CAS,  max

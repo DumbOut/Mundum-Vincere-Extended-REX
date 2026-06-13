@@ -7068,13 +7068,21 @@ Euesperides_R
 ; *********************************************************
 ; *********************************************************
 ; 51. Africa
-; Number of Provinces: 12
+; Number of Provinces: 13
 
 Automalax_R
 	Automalax
 	carthage
 	Poeni
 	202 65 234
+	none
+	5
+	3
+Edorikos_R
+	Edorikos
+	carthage
+	Poeni
+	97 42 42
 	none
 	5
 	3
@@ -13501,6 +13509,15 @@ Apocopa_R
 	5
 	1
 
+Garacad_R
+	Garacad
+	egypt
+	Libyans
+	87 47 53
+	none
+	5
+	1
+
 ; *********************************************************
 ; *********************************************************
 ; 75. Japan
@@ -13678,7 +13695,7 @@ Nafa_R
 ; *********************************************************
 ; *********************************************************
 ; 76. Tungusic Lands
-; Number of Provinces: 1
+; Number of Provinces: 2
 
 
 Xulma_R
@@ -13686,6 +13703,15 @@ Xulma_R
 	parthia
 	Medes
 	17 29 47
+	none
+	5
+	1
+
+Tusima_R
+	Tusima
+	parthia
+	Medes
+	71 100 144
 	none
 	5
 	1

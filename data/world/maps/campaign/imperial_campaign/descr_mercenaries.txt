@@ -1,102 +1,102 @@
 
 pool Britain
-	regions	Britannia_Inferior Tribus_Silurii Britannia_Superior Hibernia			
+	regions	Britannia_Inferior Tribus_Silurii Britannia_Superior Hibernia Dumna_R Tarvodubron_R Tuesis_R Devana_R Orrea_R Lindum_R Eydin_R Rauatonium_R Carbantorigum_R Alauna_R Luguvalium_R Mona_R Rigodonum_R Seguntium_R Moridunum_R Cornoviorum_R Corinion_R Isca_R Durotrigorum_R Noviomagus_Reginorum_R Calleva_R Ratae_R Venta_Icenorum_R Camulodunum_R Durovernum_R Regia_R Dunum_R Rhaeba_R Macolicum_R Hibernis_R
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.06 - 0.19 max 2 initial 1
 
 pool Germany
-	regions Tribus_Saxones Germania_Inferior Tribus_Chattii Agri_Decumates Germania_Superior	
+	regions	Tribus_Saxones Germania_Inferior Tribus_Chattii Agri_Decumates Germania_Superior Suionium_R Chaedinium_R Castrum_Gautorum_R Gautum_R Ranium_R Favonium_R Hillevionum_R Firaesum_R Burgundium_R Augandzium_R Rugium_R Arochium_R Suardonium_R Nuithonium_R Finnium_R Tarodunum_R Mediomatricorum_R Borbetomagus_R Segodunum_Triboccia_R Setuacotum_R Sorviodurum_R Arctaunum_R Budoris_R Frisium_R Navalia_R Mattium_R Canduum_R Bicurgium_R Tulifurdum_R Phleum_R Fabiranum_R Leufana_R Lugidunum_R Sesudata_R Alisus_R Laciburgium_R Marionis_R Fundusium_R Chalium_R Scurgum_R Viritium_R Ascaucalis_R Setidava_R Leucaristus_R Budorigum_R Eburum_R Casurgis_R Furgisatis_R Mediolanium_Racataea_R Asanca_R Carrodunum_R Arsicua_R Meliodunum_R
 	unit merc barbarian infantry,			exp 1 cost 800 replenish 0.06 - 0.44 max 4 initial 2
 	unit merc barbarian cavalry,			exp 2 cost 800 replenish 0.06 - 0.19 max 1 initial 1
 
 pool Eastern_Europe
-	regions Locus_Gepidae Locus_Gothi Pripet, Hyperboria
+	regions	Locus_Gepidae Locus_Gothi Pripet Hyperboria Galindium_R Sudinium_R Soulonium_R Sargenai_R Venedium_R Veltaeum_R Firrium_R Aestium_R Osium_R Careotaeum_R Tiuri_R Borusci_Camp_R Arimphaei_Camp_R Carbonium_R Salium_R AndrophagiCamp_R Melanchlainopolis_R Stavanium_R Gerrhos_R Igyllionium_R
 	unit merc horse archers,			exp 0 cost 800 replenish 0.02 - 0.08 max 1 initial 0
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.06 - 0.19 max 2 initial 1
 	unit merc barbarian cavalry,			exp 0 cost 800 replenish 0.03 - 0.08 max 1 initial 0
 
 pool Steppes
-	regions Tribus_Sakae Tribus_Alanni Tribus_Sarmatae Maeotis Scythia Bosphorus			
+	regions	Tribus_Sakae Tribus_Alanni Tribus_Sarmatae Maeotis Scythia Bosphorus Nisa_R Chatracharta_R EresKala_R TokKala_R Urgench_R Aspabota_R Barange_R AntiochiaMargiana_R Tashkurghan_R Kasia_R Yarkand_R Ush_R Kumo_R Kucha_R Khotan_R Karadong_R Niya_R Qarqan_R Miran_R Kroran_R Karasahr_R Korla_R Dunhuang_R Yumen_R WusunCamp_R TuyuhunCamp_R YuezhiCamp_R Cumuda_R Yarkhoto_R Damna_R Usu_R Urabo_R JushiCamp_R Guqung_R HujieCamp_R GekunCamp_R KyrgyzCamp_R XinliCamp_R AshinaCamp_R QusheCamp_R Tegreg_R SamoyedCamp_R DinglingCamp_R HunyuCamp_R XubuXiongnuCamp_R LanXiongnuCamp_R ChubeiXiongnuCamp_R Kulja_R SakaCamp_R SakaRaukaCamp_R JiankunCamp_R MateriCamp_R Almatau_R Issedon_R Balasagun_R AspisiCamp_R MagyarCamp_R IastaeCamp_R AlanCamp_R ArggipaeiCamp_R ArimaspiCamp_R MassagetaeCamp_R Roksanaki_R Khavrana_R Davaba_R Auzacia_R Maetonium_R Clepidava_R Costobocum_R Eractum_R Tyras_R Olbia_R Sarbacum_R Sarum_R ScythianMetropolis_R Hygres_R Carcina_R Ojum_R Gelonus_R Cariscus_R ScythianCamp_R Panticapaeum_R Theodosia_R Cercinitis_R ScythianNeapolis_R ThyssagetaeCamp_R JazygesCamp_R IyrkaeCamp_R UpperAorsiCamp_R BoudiniCamp_R Hexopolis_R Navaris_R OudaeCamp_R Msandar_R Touschoiopolis_R Sanaraiopolis_R OlondaeCamp_R Seraca_R Abunis_R Uspe_R Gorgippia_R Phanagoria_R Azara_R SumpaCamp_R Jyekundo_R Qugar_R Diezhou_R ShaodangCamp_R Hekou_R LianchuanCamp_R Fuqi_R LushuihuCamp_R Khitan_R Murong_R Rouran_R Tuoba_R HuyanXiongnuCamp_R TegregCamp_R XunyuCamp_R LuandiXiongnu_R XubuXiongnu_R Dingling_R Qushe_R Ashina_R Tufa_R Qifu_R Luofan_R
 	unit merc sarmatian cavalry,			exp 0 cost 1200 replenish 0.1 - 0.15 max 1 initial 0
 	unit merc horse archers,			exp 1 cost 800 replenish 0.12 - 0.38 max 3 initial 1
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.03 - 0.05 max 1 initial 0
 
 pool Central_Europe
-	regions Regnum_Marcomannii Boihaemum Tribus_Iazyges Dacia				
+	regions	Regnum_Marcomannii Boihaemum Tribus_Iazyges Dacia Parienna_R Anduaetium_R Poetovium_R Mogentiana_R Sopianis_R Bormanum_R Trissum_R Sirmium_R Zurobara_R Argidava_R Napoca_R Sangidava_R Petrodava_R
 	unit merc illyrian,			exp 0 cost 700 replenish 0.25 - 0.38 max 3 initial 1
 	unit merc bastarnae,			exp 0 cost 1700 replenish 0.08 - 0.18 max 2 initial 0
 	unit merc sarmatian cavalry,			exp 0 cost 1200 replenish 0.1 - 0.15 max 1 initial 0
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.06 - 0.19 max 2 initial 1
 
 pool Gaul
-	regions Belgica Armorica Central_Gaul Aquitania Lugdinensis Transalpine_Gaul Narbonensis			
+	regions	Belgica Armorica Central_Gaul Aquitania Lugdinensis Transalpine_Gaul Narbonensis Atuatuca_R Menapium_R Bagacum_R Durocotorum_R Rotomagus_R Noviomagus_Lexoviorum_R Lutetia_Parisia_R Agedincum_R Vesontio_R Avaricum_R Bibracte_R Cabillonum_R Cenabum_R Crociatonum_R Vorgium_R Darioritum_R Condevincum_R Andecavium_R Mediolanum_Santonum_R Durotincum_R Gergovia_R Valentia_R Vesunna_R Segodunum_R Nemasus_R Tolosa_R Tarba_R Cossium_R
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.06 - 0.44 max 4 initial 1
 	unit merc barbarian cavalry,			exp 0 cost 450 replenish 0.06 - 0.19 max 1 initial 0
 
 pool Armenia
-	regions Colchis Atropatene Armenia Pontus Cappadocia			
+	regions	Colchis Atropatene Armenia Pontus Cappadocia Phasis_R Dioscurias_R Mtskheta_R Harmozica_R Teleda_R Khabala_R Tsunda_R Tzon_R Bagavan_R Thospia_R Manavazkert_R Naxouana_R Satala_R Kamacha_R Arsamosata_R Carcathiocerta_R Ashtishat_R Karin_R Arsarata_R
 	unit merc sarmatian cavalry,			exp 0 cost 1200 replenish 0.08 - 0.15 max 1 initial 0
 	unit merc horse archers,			exp 0 cost 800 replenish 0.1 - 0.18 max 1 initial 0
 	unit merc eastern infantry,			exp 0 cost 650 replenish 0.15 - 0.25 max 3 initial 1
 
 pool Cisapline_Gaul
-	regions Cisalpine_Gaul Venetia Noricum				
+	regions	Cisalpine_Gaul Venetia Noricum Heraclea_Caecabarea_R Nicaea_Monoicus_R Pergantion_R NicaeaLiguria_R Taurasia_R Segustero_R Geneva_R Octodurus_R Brenodurum_R Curia_R Tridentum_R Isarcium_R Lentia_R Noreia_R Cambodunum_R Tergeste_R Brixia_R Felsina_R Apua_R
 	unit merc barbarian cavalry,			exp 0 cost 800 replenish 0.06 - 0.15 max 1 initial 0
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.05 - 0.25 max 4 initial 0
 
 pool Illyria
-	regions Illyria Dalmatia Pannonia			
+	regions	Illyria Dalmatia Pannonia Senia_R Iader_R Salinae_R HedumOppidum_R Issa_R Delminium_R Rhizon_R Scodra_R Epidamnus_R Arsa_R Singidunum_R
 	unit merc illyrian,			exp 1 cost 650 replenish 0.125 - 0.37 max 3 initial 1
 
 pool Thrace
-	regions Thrace Propontis Tribus_Getae Bithynia			
+	regions	Thrace Propontis Tribus_Getae Bithynia Naissus_R Serdica_R Dunonia_R Kabyle_R Odryssa_R Maroneia_R Philippopolis_R Giridava_R Helis_R Odessus_R ApolloniaPontica_R Istros_R Malva_R Argedava_R Lysimachia_R Buridava_R Nentidava_R
 	unit merc peltast,			exp 1 cost 550 replenish 0.125 - 0.25 max 1 initial 0
 	unit merc thracian,			exp 1 cost 800 replenish 0.125 - 0.25 max 3 initial 1
 	unit merc bastarnae,			exp 0 cost 1700 replenish 0.05 - 0.08 max 1 initial 0
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.03 - 0.07 max 1 initial 0
 
 pool Spain
-	regions Gallaecia Celtiberia Taraconenis Lusitania Hispania Baetica				
+	regions	Gallaecia Celtiberia Taraconenis Lusitania Hispania Baetica Brigantium_R Bracara_R Noega_R Pallantia_R Aracillum_R Pompelo_R Salduba_R Tarraco_R Ilerda_R Brachile_R Emporium_R Dertosa_R Arse_R Turboleta_R Segobriga_R Toletum_R Cauca_R Helmantica_R Mirobriga_R Conimbriga_R Oxthraca_R Ebora_R Ossonoba_R Iulipa_R Carcuvium_R Libisosa_R Saiti_R Ilorci_R Castulo_R Abdera_R Hispalis_R Malaca_R Gadir_R
 	unit merc spanish infantry,			exp 0 cost 750 replenish 0.125 - 0.25 max 3 initial 1
 	unit merc balearic slingers,			exp 0 cost 750 replenish 0.05 - 0.07 max 1 initial 1
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.125 - 0.25 max 2 initial 0
 
 pool Liguria
-	regions Liguria				
+	regions	Liguria
 	unit merc barbarian infantry,			exp 0 cost 800 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Northern_Greece
-	regions Paionia Macedonia Thessalia ArgosOrestikon_R Pella_R Imbros_R		 	
+	regions	Paionia Macedonia Thessalia ArgosOrestikon_R Pella_R Imbros_R Amphipolis_R Cassandreia_R Lykhnidos_R Demetrias_R Skyros_R Karpathos_R Melos_R Andros_R Phoenice_R Corcyra_R Ambracia_R
 	unit merc peltast,			exp 0 cost 600 replenish 0.05 - 0.08 max 1 initial 0
 	unit merc illyrian,			exp 0 cost 650 replenish 0.05 - 0.08 max 1 initial 0
 	unit merc thracian,			exp 0 cost 800 replenish 0.05 - 0.08 max 1 initial 1
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Northern_Italy
-	regions Etruria Umbria Latium Minturnae_R Caeta_R Perusna_R Cisra_R Tarchna_R Visul_R				
+	regions	Etruria Umbria Latium Minturnae_R Caeta_R Perusna_R Cisra_R Tarchna_R Visul_R Rhegium_R Cosentia_R Brundisium_R Potentia_R Venusia_R Arpi_R Corfinium_R Asculum_R Volaterrae_R Volsinii_R Ilva_R Bovianum_R
 	unit merc samnite,			exp 0 cost 750 replenish 0.03 - 0.05 max 1 initial 0
 
 pool Persia
-	regions Media Elymais SeleuciaCalycadnum_R Bam_R Sigal_R Neh_R
+	regions	Media Elymais SeleuciaCalycadnum_R Bam_R Sigal_R Neh_R Morunda_R Cyropolis_R Atra_R Gazaca_R Aganzana_R Denabaran_R Chala_R Europus_R Kumandan_R Aspadana_R Issatis_R Artacana_R SeleuciaHedyphon_R AntiochiaPersis_R Siraf_R Persepolis_R Pasargadae_R Harmozeia_R AlexandriaCarmania_R Pantyene_R Arakia_R Kamtina_R Archiotis_R Tabai_R Hecatompylos_R Amol_R Zadracarta_R Assak_R Parbara_R Tastache_R Susia_R Sarakhs_R Iasonium_R Sabarz_R AlexandriaAriana_R AlexandriaProphthasia_R Zranka_R AlexandriaArachosia_R AlexandriaOpiana_R Kophen_R Bamiyan_R AlexandriaCaucasus_R Artoarta_R Bandara_R Cuni_R AlexandriaOrietai_R Fannazbur_R Bagisara_R Barna_R Tisa_R Pura_R
 	unit merc eastern infantry,			exp 0 cost 650 replenish 0.125 - 0.25 max 7 initial 1
 
 pool Galatia
-	regions Galatia				
+	regions	Galatia
 	unit merc barbarian infantry,			exp 2 cost 800 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc barbarian cavalry,			exp 0 cost 800 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Greece
-	regions Epirus Aetolia Attica Peloponnesus Mytilene_R Argos_R
+	regions	Epirus Aetolia Attica Peloponnesus Mytilene_R Argos_R Chalcis_R Orchomenus_R Troezen_R Megalopolis_R Aegium_R Elis_R Messene_R Same_R Naxos_R Itanos_R Knossos_R Lindos_R Kos_R
 	unit merc peltast,			exp 1 cost 600 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc cretan archers,			exp 0 cost 750 replenish 0.05 - 0.08 max 1 initial 0
 	unit merc greek hoplites,			exp 1 cost 850 replenish 0.1 - 0.15 max 2 initial 1
 
 pool Southern_Italy
-	regions Apulia Campania Bruttium			
+	regions	Apulia Campania Bruttium
 	unit merc samnite,			exp 1 cost 750 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Syria
-	regions Assyria Syria Babylonia Coele_Syria Phoenicia Judaea							
+	regions	Assyria Syria Babylonia Coele_Syria Phoenicia Judaea Laodicea_R ApameaOrontes_R Arethusa_R Hierapolis_R Arados_R Byblos_R Ptolemais_R Philadelphia_R Gaza_R Babylon_R Nineveh_R Arbela_R Orkhoe_R CharaxSpasinu_R Dura_R Isiopolis_R Birtha_R ApameaSittacene_R Opis_R Edessa_R Araban_R Nisibis_R Sareisa_R Nikephorion_R
 	unit merc peltast,			exp 0 cost 600 replenish 0.05 - 0.08 max 1 initial 0
 	unit merc eastern infantry,			exp 0 cost 650 replenish 0.125 - 0.25 max 3 initial 1
 	unit merc arab cavalry,			exp 0 cost 750 replenish 0.05 - 0.08 max 1 initial 0
@@ -105,45 +105,45 @@ pool Syria
 	unit merc elephants,				exp 0 cost 4000 replenish 0.005 - 0.015 max 1 initial 0
 
 pool Cilicia
-	regions Cilicia Cyprus				
+	regions	Cilicia Cyprus
 	unit merc cilician pirate,			exp 0 cost 620 replenish 0.05 - 0.08 max 1 initial 1
 
 pool Balearics
-	regions Baliares			
+	regions	Baliares Ebusus_R Mago_R
 	unit merc balearic slingers,			exp 2 cost 750 replenish 0.05 - 0.08 max 2 initial 1
 
 pool Sicily
-	regions Sicilia_Poeni Sicilia_Romanus Sicilia_Graecus Sardinia		
+	regions	Sicilia_Poeni Sicilia_Romanus Sicilia_Graecus Sardinia Sulci_R Macopsissa_R OlbiaSardinica_R Aleria_R Centurinum_R Acragas_R Panormus_R Enna_R Lipara_R Cossura_R Melita_R
 	unit merc peltast,			exp 0 cost 600 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.05 - 0.08 max 1 initial 1
 	unit merc balearic slingers,			exp 0 cost 750 replenish 0.03 - 0.05 max 1 initial 0
 
 pool North_Africa
-	regions Mauretania Numidia Gaetulia Sahara				
+	regions	Mauretania Numidia Gaetulia Sahara Thugga_R Sufetula_R Hippo_R Saldae_R Theveste_R Zabi_R Gemmelle_R Iol_R Auzia_R Cartenna_R Tingartia_R NigritaeCamp_R Siga_R Rusadir_R Altava_R Molochath_R Lixus_R Volubilis_R Sala_R Benta_R Rusibis_R Arambys_R Agadir_R Tamdoult_R Magura_R Thalubath_R Ifeyyey_R Tucrumuda_R OasisAghlan_R Cydamus_R Buata_R Uddita_R Garama_R Cufra_R Lynxama_R Ischeri_R Geva_R GiraMetropolis_R Abalessa_R Tagama_R Byntha_R Thabudis_R Malachath_R Cuphe_R Thamondocana_R NigiraMetropolis_R Domain_Of_Seth_R Adramyttium_R ApameaRagiana_R Aristobathara_R Arkaadu_R Arrapha_R Artemita_R Ausara_R Beroia_R Carsidava_R Catana_R Kaunos_R Chalcedon_R ComanaPontica_R Crocodilopolis_R Daucionum_R Dedigama_R Durostorum_R Eser_R Eudosium_R Gonakamaka_R Hephaistia_R Heraclea_R Hukande_R Indraprastha_R Kaballa_R Kalligeris_R Kepha_R Korkai_R Kory_R Kremnoi_R Kumari_R Kypsela_R Bizye_R Kythera_R Lamia_R LaodiceaMedia_R Locri_R Lycopolis_R Manapia_R Mayamana_R Mersovium_R Miletus_R Mina_R MirobrigaTurdulia_R Nemetobriga_R Nesactium_R Nippur_R Orcades_R Ormi_R Ozoana_R Panassa_R Parnassos_R Parnes_R Perinthus_R Pimolisa_R Pityus_R Podouke_R Poseidonia_R Pselchis_R Purushapura_R Sagalassos_R Samos_R Sarmizegetusa_R Scammos_R Scarbantia_R SeleuciaPieria_R Siatutanda_R Sisupalgarh_R Soloi_R Suidinum_R Taparura_R Thasos_R Thubactis_R Tripolis_R Turgalium_R Ulpiana_R Uxisame_R Vienna_R Iguvium_R Narmadapura_R Sanakanikapura_R Savarapura_R Tumxuk_R Banasa_R Icosium_R Igilgili_R Sitifis_R Madauros_R Tigit_R Raetinium_R Capedunum_R Parma_R Tharros_R Palliana_R RugiumBastarnia_R Devona_R Calisia_R Partiskon_R IsondaeCamp_R Shaka_R Prakasha_R Dvaravati_R Vindhyatavi_R Vijayapuri_R Davakapura_R Ioppe_R Dorylaeum_R Cius_R Erythrae_R Bithynium_R Karana_R Coracesium_R Anazarbus_R Antiochia_Taurus_R Ariarathia_R Olane_R Artageira_R Cyropolis_Sogdiana_R Callatis_R Heraclea_Sintike_R Serota_R Opitergium_R Nervium_R Glanum_R Ercavica_R Termes_R Camarina_R ThapsusCity_R Sicca_R Rucconium_R Tanis_R AntiochiaSittacene_R Iliberri_R Basti_R Segida_R Meidubriga_R Tarbellium_R Maroventum_R Darnis_R Apollinopolis_R Tamania_R Paroa_R KoloeAithiopia_R Sabai_R Karna_R Mondou_R Sadasara_R Zabram_R Abisama_R Badeo_R Hierakon_R Rhegma_R SabaiChattenia_R AntiochiaArabis_R Ubar_R Stobi_R HeracleaLyncestis_R Tricca_R Passaron_R Pautalia_R Seuthopolis_R Nikonion_R Cosa_R Maleventum_R Novaria_R Ingaunum_R Quiza_R Pharos_R Cibyra_R Stratonicea_R Peium_R Hemeroskopeion_R Amida_R Gorneae_R Archaeopolis_R Dasteira_R Koloussa_R Tios_R Montanesium_R Arubium_R Beroe_R Mlaundus_R AlexandriaTroas_R Syringis_R Nautaca_R MenapiaBactriane_R Marouka_R Andrapana_R Aristobathra_R Dertona_R AriminumCity_R Emona_R Thabraca_R Rucinatium_R Boiodurum_R Tricciana_R Agatha_R Ruessium_R Cadurcium_R Argentomagus_R Andematunnum_R Nasium_R Brocomagus_R Austricum_R BatavodurumCity_R Dumnoniorum_R LindumCorieltavia_R Ratostabius_R Stratos_R Barkeno_R Ilurcis_R Virovesca_R Kelin_R Carteia_R Onoba_R Ocelodurum_R Thurii_R Gortyna_R Amathous_R Limyra_R Isaura_R Garsaura_R Athribis_R DiospolisMikra_R Hypaton_R Moron_R Gorbatha_R Teredon_R Taryana_R Charmande_R Pasa_R Apauarktike_R HeracleaAchais_R Chadacha_R Kapouta_R GelonKome_R Amaktis_R Corusia_R Niossum_R KalosLimen_R Pataroue_R PalaiaAchaia_R Ophioussa_R Drobeta_R Ramidava_R Porolissum_R Arsonium_R Singone_R Bharhut_R Coridorgis_R Vindobona_R Turicum_R Tecelia_R Tulisurgium_R Helisium_R Cornacum_R Daorson_R Nivas_R Nelcynda_R Tondi_R Karur_R Polonnaruwa_R Sannathi_R DevPatan_R MinnagaraNammadus_R Tyrannosboas_R Karnasuvarna_R Sinhapura_R Champapura_R Sahastrarama_R Kampilya_R Kusapura_R Mau_R Rampurva_R Lakshmanapura_R Deogarh_R Badnurpura_R Narsinghpura_R Ropar_R Indupur_R Chutia_R Nagahara_R Bauterna_R Sippara_R Sidhapura_R Athiralanagara_R Souannagoura_R Korounkala_R Tiagoura_R Maracodra_R Zimana_R Gonaca_R Min_R Paracanaca_R Saura_R Rapsa_R Tagai_R Gabra_R Dyrta_R Pasikana_R Arana_R Gurgan_R Gauna_R AntiochiaScythia_R Sidak_R Alicodra_R Eboda_R Characmoba_R Gadara_R ApameaZeugma_R SakamurundaCamp_R Keladun_R Suoju_R Wensu_R Luntai_R Weili_R Yuni_R Katriyal_R Kerauge_R Pikendaka_R Pentapolis_R Alosygni_R Kottobara_R Peperine_R Bhokardan_R Kantakasola_R Thorax_R Nousaripa_R Bardaxema_R Kadapa_R Taenia_R Mysocaras_R Tamusiga_R Dorath_R Iarzitha_R Autolalae_R Sabae_R Hellenibriga_R Parau_R Sohar_R Ange_R NiceaNialia_R Salma_R Phoenicum_R Inapha_R Philotera_R BlemmyeKome_R Amadoca_R TaniataeCamp_R OphlonesCamp_R IdraeCamp_R PerierbidiCamp_R DerbicesKome_R AbiaeKome_R SakatigraxaudaKome_R ApasiacaeKome_R AsianiKome_R ChaenidesKome_R PhtheirophagiKome_R IaxamataeKome_R ModocaeKome_R BulanesKome_R ScymnitaeKome_R AcibiKome_R CoraxiKome_R AgathyrsiKome_R GeviniKome_R OssiKome_R HippopodesKome_R GepidaeKome_R SavariKome_R NasciKome_R Vellegia_R Gravionarium_R Asciburgium_R Stereontium_R Sacolche_R Aregelia_R Levonium_R Treva_R Colancorum_R Limisdunum_R Cheruscium_R Gutonium_R Hirrium_R Galacum_R Durovigutum_R Apsarus_R Monaoeda_R Osiorum_R Strevinta_R Candanum_R Ziridava_R TerraIncognita2_R TerraIncognita3_R Anabukis_R Dysopon_R
 	unit merc libyan infantry,			exp 0 cost 350 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc numidian cavalry,			exp 1 cost 750 replenish 0.1 - 0.15 max 2 initial 1
 	unit merc balearic slingers,			exp 0 cost 750 replenish 0.03 - 0.05 max 1 initial 0
 	unit merc elephants,				exp 0 cost 4000 replenish 0.005 - 0.015 max 1 initial 0
 
 pool Arabia
-	regions Regnum_Palmyrae Arabia Nabataea Sinai				
+	regions	Regnum_Palmyrae Arabia Nabataea Sinai Aila_R LeukeKome_R Tabawa_R Hegra_R Tema_R Yathrib_R Makoraba_R Charmutha_R Thomala_R Marma_R Negram_R Sanaa_R Mariba_R Tamna_R Sapphar_R Muza_R Adane_R Sabatha_R Cana_R Thialemath_R Abyssa_R Sarapis_R Nafun_R Appa_R KryptosLimen_R Omana_R Kathara_R Tylos_R Gerrha_R Itamos_R Khatt_R
 	unit merc arab cavalry,			exp 1 cost 750 replenish 0.1 - 0.15 max 1 initial 1
 	unit merc bedouin,			exp 0 cost 700 replenish 0.1 - 0.15 max 1 initial 0
 	unit merc bedouin archers,			exp 0 cost 750 replenish 0.1 - 0.15 max 1 initial 1
 
 pool Sparta
-	regions Laconia				
+	regions	Laconia
 	unit merc peltast,			exp 0 cost 600 replenish 0.1 - 0.15 max 1 initial 0
 	unit merc greek hoplites,			exp 3 cost 950 replenish 0.02 - 0.03 max 1 initial 0
 
 pool Libya
-	regions Africa Tripolitania Cyrenaica Libya Byzacium			
+	regions	Africa Tripolitania Cyrenaica Libya Byzacium Tetrapyrgia_R Paraetonium_R Barce_R Augila_R Euesperides_R Automalax_R Macomades_R Sabratha_R Thenteos_R Tacape_R Girba_R Cercinna_R Aspis_R Utica_R
 	unit merc libyan infantry,			exp 0 cost 350 replenish 0.125 - 0.25 max 4 initial 1
 	unit merc numidian cavalry,			exp 0 cost 750 replenish 0.06 - 0.125 max 2 initial 1
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.03 - 0.05 max 1 initial 0
 
 pool Aegean
-	regions Rhodos Crete Lycia Phrygia Ionia				
+	regions	Rhodos Crete Lycia Phrygia Ionia Knidos_R Ephesus_R Samosata_R Adana_R NeaPaphos_R Patara_R Perge_R Side_R Cyzicus_R Chios_R Smyrna_R Nicaea_R HeracleaPontica_R Abydos_R Dascylium_R Amastris_R Amisus_R Amaseia_R Gaziura_R Gangra_R Comana_R Pessinus_R Tavium_R Iconium_R Cotyaeum_R LaodiceaLycus_R ApameaMaeandrum_R Philomelion_R Laranda_R Trapezus_R Cotyora_R Melitene_R Tyana_R
 	unit merc peltast,			exp 0 cost 600 replenish 0.06 - 0.125 max 2 initial 1
 	unit merc thracian,			exp 0 cost 800 replenish 0.05 - 0.1 max 1 initial 0
 	unit merc rhodian slingers,			exp 1 cost 750 replenish 0.06 - 0.125 max 2 initial 1
@@ -151,7 +151,7 @@ pool Aegean
 	unit merc greek hoplites,			exp 0 cost 850 replenish 0.08 - 0.15 max 2 initial 1
 
 pool Egypt
-	regions Nile_Delta Middle_Egypt Thebais				
+	regions	Nile_Delta Middle_Egypt Thebais PtolemaisHermeiou_R Pelusium_R Rhaithou_R Naucratis_R Thmuis_R Oxyrhynchus_R Hermopolis_R Syene_R MyosHormos_R BereniceTroglodytica_R Hibis_R Parva_R Pachoras_R BerenicePanchrysos_R ArsinoeClysma_R PtolemaisTheron_R Napata_R Patinga_R Meroe_R Maste_R Daron_R Roha_R Axum_R Adulis_R Primis_R Araba_R Premis_R Koloe_R Morou_R Arsinoe_R Gey_R Aualites_R Malao_R Mosyllum_R Opone_R Tamrida_R Sybene_Aethiopis_R Temopus_Aethiopis_R Dioskourea_R Raas_Xoor_R Apocopa_R
 	unit merc libyan infantry,			exp 0 cost 350 replenish 0.06 - 0.125 max 2 initial 1
 	unit merc bedouin,			exp 0 cost 700 replenish 0.005 - 0.15 max 1 initial 0
 	unit merc bedouin archers,			exp 0 cost 750 replenish 0.005 - 0.15 max 1 initial 0
@@ -159,3 +159,35 @@ pool Egypt
 
 
 
+
+; *********************************************************
+; Added pools for descr_regions entries that had no suitable existing pool
+
+pool Bactria
+	regions	Bactra_R Drapsaka_R AlexandriaOxiana_R Tarmita_R Gazaba_R Nakhshab_R Zamm_R Tribactra_R Maracanda_R Varakhsha_R Nur_R AlexandriaEschate_R Akhsikath_R Shurabashat_R Parab_R Isfijab_R Chach_R Baharak_R Eshkashem_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1
+	unit merc horse archers,			exp 0 cost 800 replenish 0.05 - 0.12 max 1 initial 0
+
+pool India
+	regions	Pushkalavati_R Taxila_R Bucephala_R Sagala_R Prasthala_R Trigarta_R Labokla_R Varnu_R Sibipura_R Tulamba_R AlexandriaIndus_R Mulasthana_R Cottabara_R Kamigara_R Sindomana_R Minnagara_R Naagramma_R Patala_R Barbaricum_R Skardu_R Loha_R Rutog_R Kimpurusha_R Aiaka_R Srinagara_R Jumla_R Paro_R Shigatse_R Gyantse_R Tsetang_R Lhasa_R KagyuCamp_R ChangtangCamp_R KadamCamp_R Pragjyotishpura_R Durjaya_R Monyul_R Salariga_R Pundranagara_R Kelydna_R Aganagara_R Pertalis_R Tamralipta_R Haritakivan_R Bamanghati_R Sthanishvara_R Dronanagari_R Khokhrakot_R Hastinapura_R Mathura_R Ahichchhatra_R Kanyakubja_R Karvirpur_R Kaushambi_R Varanasi_R Saketa_R Sravasti_R Kapilavastu_R Kushinara_R Devanapatana_R Rajagriha_R Champa_R Vaishali_R Mithila_R Pataliputra_R Saharsa_R Naimisha_R Viratanagara_R Mrittikavati_R Kantipura_R Padmavati_R Erakaksa_R Pulindanagara_R Suktimati_R Tripuri_R Vidisha_R Mahishmati_R Ujjain_R Dashapura_R Madhyamika_R Pushkara_R Kanthi_R Vamanasthali_R Vallabhipura_R Saudrabatva_R Ajabpura_R Bharukaccha_R Sopara_R Mandagara_R Govapuri_R Olochoira_R Ezhimala_R Vanchi_R Kuzhumur_R Navashikh_R Junnar_R Pratishthana_R Vatsagulma_R Kundinapuri_R Nandivardhana_R Bilaspura_R Sripura_R Asurgarh_R Samapa_R Pauni_R Sabbinadu_R Podanapura_R Kondapur_R Tagara_R Hippokoura_R Raichore_R Suvarnagiri_R Yerragudi_R Uccashringi_R Banavasi_R Tagadur_R Mahishapura_R Kodumanam_R Tosali_R Jaugada_R Dantapura_R Pishtapura_R Amaravathi_R Vengipuram_R Ongole_R Melange_R Kanchi_R Uraiyur_R Thiruvarur_R Madurai_R Aykudi_R Yalpanapattinam_R Anuradhapura_R Panduwasnuwara_R Dighavapi_R Magampura_R Nagqu_R Yarlung_R Qamdo_R Deqen_R Bainang_R Lithang_R Garze_R Glingtshang_R Derge_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1
+	unit merc peltast,			exp 0 cost 600 replenish 0.03 - 0.08 max 1 initial 0
+
+pool Southeast_Asia
+	regions	Lauhiti_R Haruppeswara_R Lanka_R Kangleipak_R Indica_Pentapolis_R Srihatta_R Dhannavati_R Pinle_Pyu_R Sri_Ksetra_R Beikthano_R Binnaka_R Bagan_R Maingmaw_R Halingyi_R Tagaung_R Pong_R Mongmao_R Jianwei_R Yuesui_R Yunnan_R Mengzhang_R Dianchi_R Zangke_R Xinggu_R Mongnai_R Pu_R Jianning_R Yelang_R Mengdaguang_R Wulian_R Ailao_R Vesunga_R Verapatha_R Haripunjaya_R Prabang_R Lavapura_R Nagarjaysri_R Vajrapura_R Candanapura_R Bhimapura_R Sresthapura_R Hariharalaya_R Isanapura_R Bhavapura_R Vyadhapura_R Cattigara_R Simhapura_R Vijaya_R Virapura_R Baigaur_R Cahaya_R Takola_R Tambralinga_R Langkasuka_R Kadaram_R Raktamaritika_R Pahang_R Gelanggi_R Srideva_R Srimahosata_R U_Thong_R Fa_Daet_R Sri_Gotapura_R Tigumpa_R Gangganagara_R Lusong_R Lamuri_R Aru_R Barus_R Sambas_R Barbarikon_R Cerava_R Musa_R Lahad_R Berau_R Banaue_R Mai_R Lemuria_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1
+	unit merc peltast,			exp 0 cost 600 replenish 0.03 - 0.08 max 1 initial 0
+
+pool Korea_Manchuria
+	regions	Tangna_R Silla_R Gaya_R Mahan_R Jinhan_R Honam_R Yemaek_R Baekje_R Tongni_R Daifang_R Qian_Xuantu_R Okjeo_R Lelang_R Gungnae_R Gaogouli_R Haengin_R Sushan_Tribe_R Buyeo_R Yilou_Tribe_R Wuji_Tribe_R Shiwei_Tribe_R Duan_Tribe_R Yuwen_Tribe_R Tshushima_R Xulma_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1
+	unit merc horse archers,			exp 0 cost 800 replenish 0.03 - 0.08 max 1 initial 0
+
+pool China
+	regions	Liaodong_R Hou_Xuantu_R Changli_R Liaoxi_R Youbeiping_R Guangyang_R Zhuo_R Dai_R Gu_R Zhongshan_R Bohai_R Anping_R Wei_R Qinghe_R Pingyuan_R Dong_R Hedong_R Puban_R Linghu_R Pingyang_R Duanshi_R Henei_R Yanmen_R Taiyuan_R Shangdang_R Xuanshi_R Nie_R Yishi_R Shanggu_R Yuyang_R Hengshan_R Zhangwu_R Hejian_R Julu_R Zhao_R Laoling_R Xinxing_R Leping_R Linshui_R Xihe_R Zhongmou_R Chaoge_R Jinan_R Qi_R Beihai_R Donglai_R Changguang_R Chengyang_R Donghai_R Xiapi_R Dongyang_R Taishan_R Chenliu_R Xue_R Qiao_R Liang_R Yingchuan_R Runan_R Anfeng_R Jiujiang_R Sanchuan_R Mi_R Juancheng_R Langya_R Pengcheng_R Huaiyang_R Shanyang_R Jiyin_R Sishui_R Xiyang_R Ruyin_R Hongnong_R Weinan_R Heshang_R Shaoliang_R Gaoling_R Gaonu_R Anding_R Fushi_R Beidi_R Hefei_R Dingxiang_R Yunzhong_R Wuyuan_R Shuofang_R Tianshui_R Longxi_R Wudu_R Wuwei_R Jincheng_R Xiping_R Zhangye_R Jiuquan_R Xihai_R Mingan Zhongdi_R Hanxing_R Xi_R Hanzhong_R Guling_R Quren_R Baxi_R Zitong_R Yinping_R Wenshan_R Shu_R Hanjia_R Jiangyang_R Ba_R Dangqu_R Guanghan_R Qianwei_R Badong_R Bie_R Xicheng_R Fangling_R Nanyang_R Luyang_R Xiangyang_R Jiangxia_R Nan_R Wuqian_R Wuchang_R Wuling_R Changsha_R Xiangnan_R Zhaoling_R Lingling_R Guiyang_R Qujiang_R Shangyong_R Nanxiang_R Zhangling_R Cigu_R Linjiang_R Shian_R Hengyang_R Qianling_R Qianzhong_R Guangling_R Lujiang_R Qichun_R Pengze_R Danyang_R Piling_R Wu_R Xindu_R Poyang_R Yuzhang_R Luling_R Nan_Luling_R Lingyang_R Qian_R Zhang_R Ancheng_R Wushang_R Huiji_R Linhai_R JianAn_R Yizhou_R Houguan_R Yongning_R Dongan_R Nanhai_R Cangwu_R Gaoliang_R Xuwen_R Hepu_R Guilin_R Jiaozhi_R Jiuzhen_R Jiude_R Rinan_R Zhuya_R Sihui_R Tanzhong_R Lingfang_R Jieyang_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1
+	unit merc horse archers,			exp 0 cost 800 replenish 0.03 - 0.08 max 1 initial 0
+
+pool Japan
+	regions	Iki_R Fuzitu_R Matusura_R Kasasa_R Kipotuki_R Naka_R Napoiri_R Para_R Katasu_R Tikuma_R Atumi_R Nakapa_R Mito_R Kikuti_R Pena_R Pirota_R Nafa_R
+	unit merc eastern infantry,			exp 0 cost 650 replenish 0.08 - 0.18 max 3 initial 1

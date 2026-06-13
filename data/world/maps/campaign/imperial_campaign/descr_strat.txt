@@ -8888,6 +8888,41 @@ settlement
 
 settlement
 {
+	level large_town
+	region Edorikos_R
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
 	level town
 	region Sardinia
 
@@ -8902,6 +8937,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -9090,6 +9129,10 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
@@ -9131,6 +9174,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -9639,6 +9686,25 @@ unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
 
+
+;	Edorikos
+character	Edorubal, named character, heir, age 45, , x 53, y 396
+traits NaturalMilitarySkill 3 , GoodAdministrator 1 , Intelligent 1 , Energetic 1 , GoodAmbusher 2
+ancillaries Herald
+army
+unit		carthaginian general's cavalry early				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 3 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+
 ;	outside Lilybaeum
 character	Aqhat, spy, age 27, , x 227, y 428
 traits GoodSpy 4
@@ -9659,7 +9725,7 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 ;	Hadrumentum
 character	Burrhus, named character, age 41, , x 204, y 404
-traits GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
+traits GoodAdministrator 3 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
 ancillaries priest_of_Tanit, merchant
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -9963,6 +10029,7 @@ relative 	Hasdrubal, 	Althaia,		Bisaltes,	Muttunbaal,	end
 relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
 relative 	Mytonnes,		end
+relative 	Edorubal,		end
 
 
 faction	parthia, balanced genghis
@@ -17260,6 +17327,31 @@ settlement
 settlement
 {
 	level town
+	region Garacad_R
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator egypt
+	garrisoned_army
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	unit		numidian javelinmen
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
 	region Apocopa_R
 
 	year_founded 0
@@ -17790,6 +17882,33 @@ settlement
 		type defenses wooden_pallisade
 	}
 }
+
+settlement
+{
+	level town
+	region Tusima_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+	garrisoned_army
+	unit	east infantry		exp 2 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	unit	east infantry		exp 0 armour 0 weapon_lvl 0
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 
 settlement
 {
@@ -51247,3 +51366,5 @@ faction_relationships	qin_01,		600		slave
 faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
+turns_per_year 12
+seasons  winter winter spring spring summer summer summer summer autumn autumn winter winter
