@@ -78,7 +78,7 @@ fast_ai_end_turn_level 2
 fast_ai_end_turn_keep_diplomacy true
 
 ; Force AI campaign movement animations through the existing fast-forward path.
-fast_ai_end_turn_skip_animations false
+fast_ai_end_turn_skip_animations true
 
 ; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
 ; every AI settlement's projected finance report during the yearly pass.

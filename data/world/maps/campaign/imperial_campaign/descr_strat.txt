@@ -13140,8 +13140,6 @@ unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 character	Diktys, spy, age 28, , x 357, y 408
 traits GoodSpy 1
 
-character_record		Itanios, 	male, command 2, influence 1, management 1, subterfuge 0, age 46, alive, never_a_leader
-character_record		Etearchos, 	male, command 1, influence 1, management 1, subterfuge 0, age 24, alive, never_a_leader
 character_record		Praisia, 	female, command 0, influence 0, management 0, subterfuge 0, age 44, alive, never_a_leader
 
 relative 	Itanios, 	Praisia,		Etearchos,	end
@@ -13199,8 +13197,6 @@ traits GoodDiplomat 1
 character	Praxagoras, spy, age 28, , x 366, y 430
 traits GoodSpy 1
 
-character_record		Hippokrates, 	male, command 2, influence 3, management 3, subterfuge 0, age 44, alive, never_a_leader
-character_record		Thessalos, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
 character_record		Phainarete, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Kallianeira, 	female, command 0, influence 0, management 0, subterfuge 0, age 17, alive, never_a_leader
 
@@ -13264,10 +13260,8 @@ traits GoodDiplomat 3
 character	Arnth, spy, age 28, , x 215, y 482
 traits GoodSpy 1
 
-character_record		Thefarie Caisranalia, 	male, command 2, influence 2, management 2, subterfuge 0, age 42, alive, never_a_leader
-character_record		Larth Spurinna, 	male, command 1, influence 1, management 1, subterfuge 0, age 23, alive, never_a_leader
 character_record		Ramtha, 	female, command 0, influence 1, management 1, subterfuge 0, age 39, alive, never_a_leader
-character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 17, alive, never_a_leader
+character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 16, alive, never_a_leader
 
 relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 
@@ -13326,8 +13320,6 @@ traits GoodDiplomat 2
 character	Waddah, spy, age 27, , x 481, y 324
 traits GoodSpy 1
 
-character_record		Malik Salih_ibn_Datha, 	male, command 2, influence 2, management 2, subterfuge 0, age 45, alive, never_a_leader
-character_record		Qaydar Salih_ibn_Datha, 	male, command 1, influence 1, management 1, subterfuge 0, age 22, alive, never_a_leader
 character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
 character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
 
