@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 4096.0
+camera_max_height 2048.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -85,12 +85,12 @@ fast_ai_end_turn_skip_animations true
 fast_ai_end_turn_fast_economy true
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
-; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 18
+; 0 = unlimited full scan; small values rotate through huge faction lists over multiple turns.
+fast_ai_end_turn_diplomacy_candidate_limit 2
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
-; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 2
+; 0 = unlimited full scan; small values keep huge campaigns responsive while rotating candidates each turn.
+fast_ai_end_turn_confederation_candidate_limit 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -124,12 +124,12 @@ tertiary_faction_colour_enable true
 ; is enabled, only its listed factions become human; otherwise playable factions
 ; are used for a hotseat fallback.
 multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 12
-multiplayer_campaign_debug_logs true
+multiplayer_campaign_max_players 14
+multiplayer_campaign_debug_logs false
 multiplayer_campaign_checksums false
 multiplayer_campaign_allow_multi_faction_player true
 multiplayer_campaign_autoresolve_hvh_battles false
-multiplayer_campaign_simultaneous_turns false
+multiplayer_campaign_simultaneous_turns true
 multiplayer_campaign_disable_ai_auto_sally true
 multiplayer_campaign_dedicated_server false
 multiplayer_campaign_listen_server true
@@ -146,7 +146,7 @@ naval_trade_route_raiding_income_cap 100.0
 
 ; Settlement UI/display increments.
 population_growth_increment 0.1
-income_growth_increment 2.8
+income_growth_increment 2.5
 
 ; Armor/weapon upgrade-cost multiplier for retraining.
 ; Use one value for all cultures, or culture + value for a culture override.
@@ -213,7 +213,7 @@ settlement_upgrade_population_huge_city 0
 max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
-old_age 85
+old_age 60
 
 ; Elderly-age threshold used by the UI (default 120)
 max_age 150
@@ -249,11 +249,11 @@ max_adoption_age 30
 max_age_for_conception 50
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 512
+max_num_ancillaries 256
 
 ; Max children a character can have (default 4)
-max_num_children 450
+max_num_children 400
 
-; Show every independent family root in the family-tree scroll.
-; The next-family button cycles roots; roots without a surname display as House of <first name>.
+; Show every independent family root in the family-tree dropdown.
+; The house dropdown selects roots; roots without a surname display as House of <first name>.
 multiple_family_trees_enable true
