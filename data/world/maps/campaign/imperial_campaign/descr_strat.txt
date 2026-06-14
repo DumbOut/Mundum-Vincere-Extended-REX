@@ -4053,29 +4053,6 @@ settlement
 
 settlement
 {
-	level town
-	region Coele_Syria
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
 	level large_town
 	region Pelusium_R
 
@@ -5206,13 +5183,6 @@ army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
-;	Damascus
-character	Minmose, general, age 20, , x 458, y 398
-
-army
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-
 ;	Philadelphia
 character	Minmose, general, age 20, , x 457, y 380
 
@@ -5547,6 +5517,36 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Coele_Syria
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator seleucid
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type defenses stone_wall
 	}
 }
 
