@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 2048.0
+camera_max_height 8192.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -125,7 +125,7 @@ tertiary_faction_colour_enable true
 ; are used for a hotseat fallback.
 multiplayer_campaign_enabled true
 multiplayer_campaign_max_players 14
-multiplayer_campaign_debug_logs false
+multiplayer_campaign_debug_logs true
 multiplayer_campaign_checksums false
 multiplayer_campaign_allow_multi_faction_player true
 multiplayer_campaign_autoresolve_hvh_battles false
@@ -164,10 +164,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 1.0
+bribe_cost_army 5.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 1.0
+bribe_cost_settlement 5.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
