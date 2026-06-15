@@ -9026,3 +9026,17 @@ model_flexi			data/models_unit/unit_greek_hoplite_low.cas, 40
 model_flexi			data/models_unit/unit_greek_hoplite_lowest.cas, max
 model_sprite		60.0, data/sprites/greek_hoplite_merc_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
+type		2horse
+skeleton	fs_cataphract_horse
+scale		0.875
+indiv_range	40
+texture		slave,			bi/zhanguo/data/models_unit/textures/Hhorse.tga
+texture		default,			bi/zhanguo/data/models_unit/textures/Hhorse.tga
+texture		qin_01,			bi/zhanguo/data/models_unit/textures/Hhorse.tga
+model_flexi				bi/zhanguo/data/models_unit/2horse.CAS, 15
+model_flexi				bi/zhanguo/data/models_unit/2horse.CAS, 30
+model_flexi				bi/zhanguo/data/models_unit/2horse.CAS, 60
+model_flexi				bi/zhanguo/data/models_unit/2horse.CAS, 80
+model_flexi				bi/zhanguo/data/models_unit/2horse.CAS, max
+model_tri	700, 0.3f, 0.3f, 0.3f
