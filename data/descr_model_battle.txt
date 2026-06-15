@@ -914,7 +914,7 @@ indiv_range			40
 texture			scythia, Data/models_unit/textures/BARB_HEADHUNTING_MAIDEN_SCYTHIA.TGA
 texture			merc,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_MERC.TGA
 texture			slave,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_OFFICER_SLAVE.TGA
-texture			default,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_OFFICER_SLAVE.TGA
+texture			Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_OFFICER_SLAVE.TGA
 texture			germans,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_OFFICER_GERMAN.TGA
 texture			britons,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_OFFICER_BRITON.TGA
 model_flexi_m			data/models_unit/unit_NL_barb_headhunting_maiden_high.cas, 8
@@ -2652,6 +2652,7 @@ model_sprite		britons, 60.0, data/sprites/britons_barb_peasant_sprite.spr
 model_sprite		germans, 60.0, data/sprites/germans_barb_peasant_sprite.spr
 model_sprite		gauls, 60.0, data/sprites/gauls_barb_peasant_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
 type				barb_peasant_gaul
 skeleton			fs_s1_fast_javelinman, fs_fast_dagger
 indiv_range			40
@@ -3164,7 +3165,7 @@ indiv_range			40
 texture			scythia, Data/models_unit/textures/BARB_HEADHUNTING_MAIDEN_SCYTHIA.TGA
 texture			merc,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_MERC.TGA
 texture			slave,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_SLAVE.TGA
-texture			default,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_SLAVE.TGA
+texture			Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_SLAVE.TGA
 texture			britons,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_BRITON.TGA
 texture			germans,	Data/models_unit/textures/UNIT_NL_BARB_HEADHUNTING_MAIDEN_GERMAN.TGA
 model_flexi_m			data/models_unit/unit_NL_barb_headhunting_maiden_high.cas, 8
