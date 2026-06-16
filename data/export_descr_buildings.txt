@@ -12,7 +12,6 @@ building core_building
         {
             capability
             {
-                taxable_income_bonus bonus -3.95 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -38,7 +37,6 @@ building core_building
         {
             capability
             {
-                taxable_income_bonus bonus -4 requires factions { slave, }
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -109,8 +107,7 @@ building core_building
         governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
         {
             capability
-            {
-                taxable_income_bonus bonus -1 requires factions { slave, }             
+            {          
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -337,7 +334,6 @@ building defenses
         {
             capability
             {
-				taxable_income_bonus bonus -3 requires factions { slave, }
                 wall_level 0
                 tower_level 1
             }
@@ -353,7 +349,6 @@ building defenses
         {
             capability
             {
-                taxable_income_bonus bonus -1 requires factions { slave, }
                 wall_level 1
                 gate_strength 1
                 tower_level 1
@@ -370,7 +365,6 @@ building defenses
         {
             capability
             {
-                taxable_income_bonus bonus -4 requires factions { slave, }
                 wall_level 2
                 tower_level 1
                 gate_defences 1
@@ -405,8 +399,6 @@ building defenses
         {
             capability
             {
-                taxable_income_bonus bonus -0.070
-                taxable_income_bonus bonus -5 requires factions { slave, }
                 wall_level 4
                 tower_level 2
                 gate_defences 2
@@ -432,7 +424,6 @@ building barracks
         {
             capability
             {
-                taxable_income_bonus bonus -3 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -478,7 +469,6 @@ building barracks
         {
             capability
             {
-                taxable_income_bonus bonus -2 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -1260,7 +1250,6 @@ building equestrian
         {
             capability
             {
-                taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, spain, } 
                 recruit "Indian Light Cavalry"  0  requires factions { mauryans, }

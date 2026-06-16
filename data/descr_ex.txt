@@ -63,7 +63,7 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first true
+free_upkeep_cheap_first false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; AI end-turn speed
@@ -140,7 +140,7 @@ multiplayer_campaign_allow_spectators true
 multiplayer_battle_max_players 14
 
 ; Naval blockade trade-route raiding.
-naval_trade_route_raiding_enable true
+naval_trade_route_raiding_enable false
 naval_trade_route_raiding_income_percent 10.0
 naval_trade_route_raiding_income_cap 100.0
 
@@ -199,6 +199,10 @@ settlement_upgrade_population_large_town 0
 settlement_upgrade_population_city 0
 settlement_upgrade_population_large_city 0
 settlement_upgrade_population_huge_city 0
+
+; Settlement UI/display increments.
+population_growth_increment 1.0
+income_growth_increment 1.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Family / character ageing
