@@ -72,17 +72,17 @@ free_upkeep_cheap_first true
 ; 0 = full AI, 1 = skip AI movement controllers, 2 = full AI with instant movement/conquest.
 ; Level 2 keeps AI conquest/movement logic but skips visual waiting and uses fast economy caches
 ; for very large REX campaigns.
-fast_ai_end_turn_level 2
+fast_ai_end_turn_level 0
 
 ; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
-fast_ai_end_turn_keep_diplomacy true
+fast_ai_end_turn_keep_diplomacy false
 
 ; Force AI campaign movement animations through the existing fast-forward path.
-fast_ai_end_turn_skip_animations true
+fast_ai_end_turn_skip_animations false
 
 ; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
 ; every AI settlement's projected finance report during the yearly pass.
-fast_ai_end_turn_fast_economy true
+fast_ai_end_turn_fast_economy false
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
 ; 0 = unlimited full scan; small values rotate through huge faction lists over multiple turns.
@@ -143,10 +143,6 @@ multiplayer_battle_max_players 14
 naval_trade_route_raiding_enable true
 naval_trade_route_raiding_income_percent 10.0
 naval_trade_route_raiding_income_cap 100.0
-
-; Settlement UI/display increments.
-population_growth_increment 0.1
-income_growth_increment 0.05
 
 ; Armor/weapon upgrade-cost multiplier for retraining.
 ; Use one value for all cultures, or culture + value for a culture override.
