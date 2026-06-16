@@ -998,7 +998,24 @@ building barracks
                 recruit "egyptian guards"  0  requires factions { egypt, thrace, macedon, seleucid, } 
                 recruit "barb warguard briton2"  0  requires factions { britons, gauls, } 
                 recruit "barb warguard dacian2"  0  requires factions { dacia, germans, thrace, } 
-                recruit "greek hellenothracian pikemen"  0  requires factions { thrace, } 
+                recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
+                recruit "phrygian axemen"  0  requires factions { pontus, } 
+                recruit "barb bastarnae"  0  requires factions { thrace, } 
+                recruit "briton longsword"  0  requires factions { britons, } 
+                recruit "heavy infantry briton"  0  requires factions { britons, } 
+                recruit "heavy infantry gaul"  0  requires factions { gauls, spain, } 
+                recruit "heavy infantry dacian"  0  requires factions { dacia, } 
+                recruit "carthaginian elite sacred band infantry"  0  requires factions { carthage, } 
+                recruit "numidian legionary"  0  requires factions { numidia, } 
+                recruit "numidian legionaries 2"  0  requires factions { numidia, } 
+                recruit "greek atg brz spartan"  0  requires factions { greek_cities, } 
+                recruit "greek elite sacred band"  0  requires factions { greek_cities, } 
+                recruit "ME greek city guard1"  0  requires factions { greek_cities, } 
+                recruit "ME greek city guard"  0  requires factions { seleucid, egypt, } 
+                recruit "macedon greek city guard"  0  requires factions { macedon, } 
+                recruit "macedon dimachae"  0  requires factions { macedon, } 
+                recruit "spain legionary"  0  requires factions { spain, roman, } 
+                recruit "greek classical hoplites"  0  requires factions { all, } 
             }
             construction  7 
             cost  9600 
