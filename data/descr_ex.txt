@@ -63,7 +63,7 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first false
+free_upkeep_cheap_first true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; AI end-turn speed
@@ -85,12 +85,12 @@ fast_ai_end_turn_skip_animations false
 fast_ai_end_turn_fast_economy false
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
-; 0 = unlimited full scan; small values rotate through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 2
+; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
+fast_ai_end_turn_diplomacy_candidate_limit 16
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
-; 0 = unlimited full scan; small values keep huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 1
+; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
+fast_ai_end_turn_confederation_candidate_limit 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -124,7 +124,7 @@ tertiary_faction_colour_enable true
 ; is enabled, only its listed factions become human; otherwise playable factions
 ; are used for a hotseat fallback.
 multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 14
+multiplayer_campaign_max_players 12
 multiplayer_campaign_debug_logs true
 multiplayer_campaign_checksums false
 multiplayer_campaign_allow_multi_faction_player true
@@ -137,12 +137,16 @@ multiplayer_campaign_allow_spectators true
 
 ; Battle lobby/player cap for RTW multiplayer battles. The compiled ceiling is
 ; MAX_FACTIONS_PER_BATTLE.
-multiplayer_battle_max_players 14
+multiplayer_battle_max_players 12
 
 ; Naval blockade trade-route raiding.
-naval_trade_route_raiding_enable false
+naval_trade_route_raiding_enable true
 naval_trade_route_raiding_income_percent 10.0
 naval_trade_route_raiding_income_cap 100.0
+
+; Settlement UI/display increments.
+population_growth_increment 0.1
+income_growth_increment 1.0
 
 ; Armor/weapon upgrade-cost multiplier for retraining.
 ; Use one value for all cultures, or culture + value for a culture override.
@@ -160,10 +164,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 5.0
+bribe_cost_army 1.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 5.0
+bribe_cost_settlement 1.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
@@ -199,10 +203,6 @@ settlement_upgrade_population_large_town 0
 settlement_upgrade_population_city 0
 settlement_upgrade_population_large_city 0
 settlement_upgrade_population_huge_city 0
-
-; Settlement UI/display increments.
-population_growth_increment 1.0
-income_growth_increment 1.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Family / character ageing
@@ -254,6 +254,6 @@ max_num_ancillaries 256
 ; Max children a character can have (default 4)
 max_num_children 400
 
-; Show every independent family root in the family-tree dropdown.
-; The house dropdown selects roots; roots without a surname display as House of <first name>.
+; Show every independent family root in the family-tree scroll.
+; The next-family button cycles roots; roots without a surname display as House of <first name>.
 multiple_family_trees_enable true
