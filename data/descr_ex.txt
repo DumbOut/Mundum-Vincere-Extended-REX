@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 8192.0
+camera_max_height 10219.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -63,7 +63,7 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first true
+free_upkeep_cheap_first false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; AI end-turn speed
@@ -86,7 +86,7 @@ fast_ai_end_turn_fast_economy false
 
 ; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
 ; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 16
+fast_ai_end_turn_diplomacy_candidate_limit 10
 
 ; In level 2, cap confederation AI candidate checks per faction per turn.
 ; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
@@ -117,7 +117,7 @@ unlimited_superfactions_enable true
 client_kingdom_only_units_enable true
 regional_revolt_faction_enable true
 custom_climates_enable true
-tertiary_faction_colour_enable true
+tertiary_faction_colour_enable false ;;old
 
 ; Multiplayer campaign. Enable this to start the RTW Multiplayer Campaign
 ; framework from the normal imperial campaign flow. If multiplayer_campaign.json
@@ -164,10 +164,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 1.0
+bribe_cost_army 3.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 1.0
+bribe_cost_settlement 3.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
@@ -256,4 +256,4 @@ max_num_children 400
 
 ; Show every independent family root in the family-tree scroll.
 ; The next-family button cycles roots; roots without a surname display as House of <first name>.
-multiple_family_trees_enable true
+multiple_family_trees_enable false ;;old
