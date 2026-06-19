@@ -1,0 +1,64 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; general
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+enable_gloom
+
+sun_below_horizon_night_lighting_out		-7.0
+sun_below_horizon_night_lighting_full		2.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; lighting
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+min_light_intensity 			0.5
+max_light_intensity 			1.2
+ambient_reduce_proportion 		0.85
+ambient_red_increase_proportion 		0.3
+ambient_green_increase_proportion 		0.3
+ambient_blue_increase_proportion 	0.38
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; unit lighting
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+unit_min_light_intensity					0.8
+unit_max_light_intensity					1.4
+unit_ambient_reduce_proportion				0.8
+unit_ambient_red_increase_proportion		0.34
+unit_ambient_green_increase_proportion		0.32
+unit_ambient_blue_increase_proportion		0.35
+unit_ambient_multiplier						1.1
+unit_diffuse_multiplier						1.1
+
+unit_night_min_light_intensity					0.5
+unit_night_max_light_intensity					0.8
+unit_night_ambient_reduce_proportion			0.35
+unit_night_ambient_red_increase_proportion		0.25
+unit_night_ambient_green_increase_proportion		0.30
+unit_night_ambient_blue_increase_proportion		0.35
+unit_night_ambient_multiplier					0.5
+unit_night_diffuse_multiplier					0.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; fog
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+settlement_exponential_modifier				0.0002			
+camera_height_exponential_modifier			-0.00025		
+camera_exponential_modifier_max_height		100.0
+min_fog_exponential							0.00015
+min_fog_intensity							0.0001
+haze_to_fog_transition_exponential			0.0001
+haze_to_fog_transition_exponential_range	0.00015
+gloom_fog_exponential						0.0001
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

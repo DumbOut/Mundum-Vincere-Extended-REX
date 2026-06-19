@@ -1,0 +1,1536 @@
+;
+;	descr_water_types.txt
+;	---------------------
+;       
+;       Special edition water for Roma Surrectum II, by DVK901, April 26, 2008
+;       May only be used with explicit permission.
+;
+;
+;
+;	Defines the water surface and depth effects for the sea and rivers. The records are 
+;	organised by:
+;
+;		water_type		- <sea, river>
+;		climate_type	- as listed in descr_landscape_ground_types.txt
+;		season_type		- <summer, winter>
+;
+;	The game will request the appropriate record based upon the settings of the current battle.
+;	A fully described record is shown in "sea default", with each of the record entries commented
+;	regarding their use and acceptable input bounds.
+;
+;	The records also support inheritance by defining a "parent" record. This is illustrated in
+;	the "sea test_climate summer" record, which has "sea default" as a parent. Any entries in the
+;	record not specified in "sea test_climate summer" will take their values from "sea default".
+;	Subsequently, unnecessary repetition may be avoided by linking to a parent and specifying 
+;	only the relevent changes. This is done in "sea test_climate summer" which substitutes the
+;	textures for surface layers 0 and 1.
+;
+
+;**************************************************************************************************
+;*                                           DEFAULT                                              *
+;**************************************************************************************************
+
+sea default
+{
+	surface
+	{
+		layer 0										; maximum of 4 layers (0 to 3)
+		{
+			type				diffuse				; <diffuse, specular>
+			texture				chivalry/data/terrain/battlefield/water/river/atlantic.tga
+			opacity				1.0					; <0.0 to 1.0>
+			scale				40.0	40.0		; <metres>
+			offset				0.0		0.0			; <metres>
+			rotation			-10.0					; <degrees>  was set to '0'
+			scroll_speed			1.5					; <metres / second>
+			scroll_direction		-10.0					; <degrees>
+
+		}
+
+		layer 1										; maximum of 4 layers (0 to 3)
+		{
+                        type				diffuse			; <diffuse, specular>
+			texture				chivalry/data/terrain/battlefield/water/river/atlantic.tga
+			opacity				0.6					; <0.0 to 1.0>
+			scale				25.0	25.0		; <metres>
+			offset				0.0		0.0			; <metres>
+			rotation			0.0					; <degrees>
+			scroll_speed			0.97				; <metres / second>
+			scroll_direction		0.0					; <degrees>
+		}
+
+
+		layer 2										; maximum of 4 layers (0 to 3)
+		{
+			type				specular				; <diffuse, specular>
+			texture				chivalry/data/terrain/battlefield/water/New_shader.tga   ;;ocean_under2.tga
+                        ;texture				chivalry/data/terrain/battlefield/water/ocean_under.tga           ;;the game will use this second layer
+			opacity				1.0					; <0.0 to 1.0>
+			min_sharpness			4.0					; specular sharpness at noon
+			max_sharpness			11.0				; specular sharpness at dawn/dusk
+			scale				10.0	10.0		; <metres>
+			offset				0.0	0.0			; <metres>
+			rotation			-10.0				; <degrees>
+			scroll_speed			0.97				; <metres / second>
+			scroll_direction		-30.0				; <degrees>
+		}
+
+		layer 3										; maximum of 4 layers (0 to 3)
+		{
+			type				specular			; <diffuse, specular>
+			texture				chivalry/data/terrain/battlefield/water/New_shader_1.tga  ;;specular_01d.tga
+                        ;texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity				1.0					; <0.0 to 1.0>
+			min_sharpness			4.0					; specular sharpness at noon
+			max_sharpness			11.0			; specular sharpness at dawn/dusk, was set to 17
+			scale				20.0	20.0		; <metres>
+			offset				0.0	0.0			; <metres>
+			rotation			2.0					; <degrees>
+			scroll_speed			1.2					; <metres / second>
+			scroll_direction		-10					; <degrees>
+		}
+
+		colour			160 160 190				; <r g b>
+		colour_factor		4.0					; rate to fade to colour with depth
+		min_alpha		0.4					; alpha at shoreline
+		max_alpha		1.0					; alpha at max water depth
+		max_depth		10.0					; maximum visible water depth
+		max_refraction		0.3     ;;was  0.15					; **** depricated *****
+	}
+
+	shore
+	{
+		min_dist		150.0	;was 130				; start of shore fade out
+		max_dist		350.0	;was 380				; end of shore fade out
+		normal_factor		0.5   ;;was 0.1					; refraction power
+		
+		;											BREADTH
+		;											=======
+		;
+		;							wide		medium		narrow		verry_narrow
+		;						+---------------------------------------------------+
+		;			long		|	X			X			.			.			|
+		;	LENGTH		medium		|	X			X			X			.			|
+		;	======		short		|	.			X			X			X			|
+		;			very_short	|	.			.			X			X			|
+		;						+----------------------------------------------------
+		;
+		;	NOTE: options marked with 'X' are present and valid.
+
+
+		; ************************************** long length **************************************************
+
+		segment long, wide							; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				80					; <metres>
+			breadth				80					; <metres>
+		
+			max_bend			25					; <degrees>
+			max_slope			25					; <degrees>
+		
+			shore_ratio			0.20				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		3					;
+				cycle_time		30.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.75,	255			; <progress>, <alpha>
+				keyframe		0.9,	255			; <progress>, <alpha>
+				keyframe		1.3,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment long, medium						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				80					; <metres>
+			breadth				40					; <metres>
+		
+			max_bend			25					; <degrees>
+			max_slope			30					; <degrees>
+		
+			shore_ratio			0.25				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		3					;
+				cycle_time		20.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.95,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		; ************************************* medium length **************************************************
+
+		segment medium, wide						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				40					; <metres>
+			breadth				80					; <metres>
+		
+			max_bend			35					; <degrees>
+			max_slope			25					; <degrees>
+		
+			shore_ratio			0.20				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		3					;
+				cycle_time		30.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.75,	255			; <progress>, <alpha>
+				keyframe		0.9,	255			; <progress>, <alpha>
+				keyframe		1.3,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment medium, medium						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				40					; <metres>
+			breadth				40					; <metres>
+		
+			max_bend			35					; <degrees>
+			max_slope			30					; <degrees>
+		
+			shore_ratio			0.25				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		20.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.95,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment medium, narrow						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				40					; <metres>
+			breadth				20					; <metres>
+		
+			max_bend			35					; <degrees>
+			max_slope			35					; <degrees>
+		
+			shore_ratio			0.15				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		10.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.9,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		; ************************************** short length **************************************************
+
+		segment short, medium						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				20					; <metres>
+			breadth				40					; <metres>
+		
+			max_bend			45					; <degrees>
+			max_slope			30					; <degrees>
+		
+			shore_ratio			0.25				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		20.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.95,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment short, narrow						; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				20					; <metres>
+			breadth				20					; <metres>
+		
+			max_bend			45					; <degrees>
+			max_slope			35					; <degrees>
+		
+			shore_ratio			0.15				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		10.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.9,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment short, very_narrow					; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				20					; <metres>
+			breadth				10					; <metres>
+		
+			max_bend			45					; <degrees>
+			max_slope			40					; <degrees>
+		
+			shore_ratio			0.05				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		7.0					; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>>
+				keyframe		0.8,	255			; <progress>, <alpha>
+				keyframe		1.0,	0			; <progress>, <alpha>
+			}
+		}
+
+		; ************************************** very_short length *********************************************
+
+		segment very_short, narrow					; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				10					; <metres>
+			breadth				20					; <metres>
+		
+			max_bend			135					; <degrees>
+			max_slope			35					; <degrees>
+		
+			shore_ratio			0.15				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		10.0				; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.9,	255			; <progress>, <alpha>
+				keyframe		1.2,	0			; <progress>, <alpha>
+			}
+		}
+
+		segment very_short, very_narrow				; <long, medium, short, very_short>, <wide, medium, narrow, very_narrow>
+		{
+			length				10					; <metres>
+			breadth				10					; <metres>
+		
+			max_bend			170					; <degrees>
+			max_slope			40					; <degrees>
+		
+			shore_ratio			0.05				; <0.0 to 1.0>
+			wave_ratio			0.5					; <0.0 to 1.0>
+		
+			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			;texture			...					; <filename> - additional variant
+			;texture			...					; <filename> - additional variant
+		
+			lapping
+			{
+				num_layers		2					;
+				cycle_time		7.0					; <seconds>
+				max_delay		0.0					; <seconds>
+		
+				keyframe		0.0,	0			; <progress>, <alpha>
+				keyframe		0.5,	200			; <progress>, <alpha>
+				keyframe		0.8,	255			; <progress>, <alpha>
+				keyframe		1.0,	0			; <progress>, <alpha>
+			}
+		}
+
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+;---------------(you can create new rivers, but you cannot create a new sea. You can only use different textures.)
+;;test climate
+river default
+{
+	surface
+	{
+		layer 0
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/terrainbravilbase03.tga   ;;Medi_river_ground2.tga
+			opacity			0.7
+			scale			10.0	10.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+		layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/desert_river4.tga
+			opacity			0.35
+			scale			80.0	80.0             ;;;was 25.0
+			offset			0.0	0.0
+			rotation		0.0
+			scroll_speed		1.10
+			scroll_direction	20.0  ;;-15.0
+		}
+		
+		layer 2
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/medi_river_top_black.tga
+			opacity			0.15
+			scale			80.0	80.0             ;;;was 25.0
+			offset			0.0	0.0
+			rotation		0.0
+			scroll_speed		0.50
+			scroll_direction	-45.0
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader_5.tga   ;;specular_01med.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			30.0		30.0   ;;;was7.5
+			offset			0.0		0.0
+			rotation		-10.0    ;;was 0.0
+			scroll_speed		0.96
+			scroll_direction	0.0
+		}
+
+		layer 4
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader_4.tga  ;;specular_01med2.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			20.0	20.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		1.35
+			scroll_direction	6.0
+		}
+
+		colour			0 0 0	;;64 69 82
+		colour_factor		0.0
+		min_alpha		0.8
+		max_alpha		1.0
+		max_depth		9.0
+		max_refraction		0.2   ;;was 0.4
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor		0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+;;perfect, this is a fast moving Alpine climate river using five textures. It has a stationary greenish\rocky bottom and three specular layers that criss-cross
+;;to give the impression of the water bouncing off the banks of the river and creating cross currents.
+river alpine
+{
+	surface
+	{
+		layer 0
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/river_rock_small2.tga  ;;stationary river bottom for shallow river.
+			opacity			1.0
+			scale			20.0		20.0     ;;;was 7.5
+			offset			0.0		0.0
+			rotation		-10.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+
+		}
+
+		layer 1
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/river_alpine.tga
+			opacity			0.4                                                            ;;this setting is lowered until water is crystal clear.
+			scale			20.0		20.0     ;;;was 7.5                            ;;which allows seeing the bottom. The purpose of this
+			offset			0.0		0.0                                            ;;texture is to provide a sort of 'shader' looking away
+			rotation		-10.0                                                          ;;from the light.
+			scroll_speed		3.75
+			scroll_direction	-30.0
+		}
+
+		layer 2
+		{
+			type				specular
+			texture				chivalry/data/terrain/battlefield/water/specular_01b.tga
+			opacity			0.7
+                        min_sharpness		4.0
+			max_sharpness		11.0
+			scale			8.0	8.0             ;;;was 25.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		3.5
+			scroll_direction	-45.0
+		}
+
+		layer 3
+		{
+			type				specular
+			texture				chivalry/data/terrain/battlefield/water/New_shader.tga
+                        ;texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			10.0	10.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		3.8
+			scroll_direction	6.0
+		}
+		
+		layer 4                          ;;;I do not know what the limit is, but this is one layer beyond anything RTW Vanilla provided for.
+		{
+			type				specular
+			texture				chivalry/data/terrain/battlefield/water/New_shader_1.tga
+                        texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			10.0	10.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		3.8
+			scroll_direction	30.0
+		}
+
+		colour				0 0 0   ;;64 69 82
+		colour_factor			0.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			4.0
+		max_refraction			0.4
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+;;as good as it gets, in this climate there is 'grass' (reeds) in the water as well. It's murky, and has a stationary mud bottom.
+river swamp
+{
+	surface
+	{
+		layer 0
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/swamp_bottom.tga  ;;non-moving layer than subs as river bottom.
+			opacity			0.8
+			scale			5.0		5.0     ;;;was 7.5
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+
+		}
+
+		layer 1
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/desert_river.tga   ;;swamp_top.tga
+			opacity			0.5
+			scale			10.0		10.0     ;;;was 7.5
+			offset			0.0		0.0
+			rotation		-10.0
+			scroll_speed		0.65
+			scroll_direction	-30.0
+		}
+
+		layer 2
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			0.5
+			min_sharpness		4.0
+			max_sharpness		9.0
+			scale			30.0		30.0   ;;;was7.5
+			offset			0.0		0.0
+			rotation		-10.0    ;;was 0.0
+			scroll_speed		0.96
+			scroll_direction	0.0
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			0.4
+			min_sharpness		4.0
+			max_sharpness		9.0
+			scale			30.0	30.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		1.35
+			scroll_direction	6.0
+		}
+
+		colour				0 0 0   ;;64 69 82
+		colour_factor			0.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			4.0
+		max_refraction			0.1
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+;;This forest river is crystal clear water that looks beautiful with a rocky\vegetation bottom.
+river fertile
+{
+	surface
+	{
+		layer 0
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/desert_river_ground3.tga
+			opacity				0.9
+			scale				10.0		10.0     ;;;was 7.5
+			offset				0.0		0.0
+			rotation			-10.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+
+		}
+
+		layer 1
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			opacity				0.6
+			scale				50.0	50.0             ;;;was 25.0
+			offset				0.0		0.0
+			rotation			0.0
+			scroll_speed		0.65
+			scroll_direction	-45.0
+		}
+
+		layer 2
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			30.0		30.0   ;;;was7.5
+			offset			0.0		0.0
+			rotation		-10.0    ;;was 0.0
+			scroll_speed		0.96
+			scroll_direction	0.0
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med2.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			30.0	30.0
+			offset			0.0	0.0
+			rotation		2.0
+			scroll_speed		1.35
+			scroll_direction	6.0
+		}
+
+		colour				0 0 0  ;;64 69 82
+		colour_factor			0.0    ;;was 1.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			10.0
+		max_refraction			0.2  ;;was 0.15
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor		0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+;;This river has a rock bottom
+river forest
+{
+	surface
+	{
+		layer 0
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/fertile_river_ground.tga
+			opacity			0.9
+			scale			10.0	10.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+                layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			opacity			0.6
+			scale			50.0	50.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.50
+			scroll_direction	-35.0
+		}
+		
+		layer 2
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/river_alpine.tga
+			opacity			0.2                                                            ;;this setting is lowered until water is crystal clear.
+			scale			20.0		20.0                                           ;;which allows seeing the bottom. The purpose of this
+			offset			0.0		0.0                                            ;;texture is to provide a sort of 'shader' looking away
+			rotation		-10.0                                                          ;;from the light
+			scroll_speed		2.00
+			scroll_direction	-30.0
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		11.0
+			scale			7.5		7.5
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		2.50
+			scroll_direction	0.30
+		}
+
+		layer 4
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader_1.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			opacity			1.0
+			min_sharpness		7.0
+			max_sharpness		17.0
+			scale			10.0	10.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.65
+			scroll_direction	6.0
+		}
+
+		colour				0 0 0   ;;64 69 82
+		colour_factor			0.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			3.0
+		max_refraction			0.4
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+
+river desert      ;;perfect
+{
+	surface
+	{
+		layer 0
+		{
+			type				diffuse
+			texture				chivalry/data/terrain/battlefield/water/river/silotown_dirt01.tga  ;;stationary river bottom for shallow river.
+			opacity			1.0
+			scale			40.0		40.0     ;;;was 7.5
+			offset			0.0		0.0
+			rotation		-10.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+                layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			opacity			0.7
+			scale			200.0	200.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.00
+			scroll_direction	-35.0
+		}
+
+		layer 2
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		8.0
+			scale			80.0		80.0
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		1.50
+			scroll_direction	0.30
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			opacity			1.0
+			min_sharpness		4.0
+			max_sharpness		8.0
+			scale			80.0	80.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.20
+			scroll_direction	6.0
+		}
+
+		colour				0 0 0 ;;44 40 30
+		colour_factor			0.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			3.0
+		max_refraction			0.1
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			450.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+
+river infertile
+{
+	surface
+	{
+		layer 0
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/rock.tga
+			opacity			0.6
+			scale			20.0	20.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+                layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/infertile_river_top.tga
+			opacity			0.5
+			scale			180.0	180.0             ;;;was 25.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.30
+			scroll_direction	-35.0
+		}
+
+		layer 2
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			opacity			1.0
+			min_sharpness		6.0
+			max_sharpness		15.0
+			scale			25.0		25.0
+			offset			0.0		0.0
+			rotation		0.0
+			scroll_speed		1.40
+			scroll_direction	-30.0
+		}
+
+		layer 3
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/New_shader_1.tga
+                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			opacity			1.0
+			min_sharpness		7.0
+			max_sharpness		17.0
+			scale			10.0	10.0
+			offset			0.0		0.0
+			rotation		2.0
+			scroll_speed		1.50
+			scroll_direction	6.0
+		}
+
+		colour				44 40 30
+		colour_factor			0.0
+		min_alpha			0.8
+		max_alpha			1.0
+		max_depth			4.0
+		max_refraction			0.4
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+
+river winter_north          ;;this is a frozen ice\snow-covered river for a colder climate
+{
+	surface
+	{
+		layer 0
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/river02.tga  ;;river_forest.tga
+			opacity			0.7
+			scale			7.5	7.5
+			offset			0.0	0.0
+			rotation		-10.0
+			scroll_speed		0.05
+			scroll_direction	-30.0
+
+		}
+
+		layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/ice_winter_north.tga
+			opacity			1.0
+			scale			50.0	50.0
+			offset			0.0	0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+		colour				0 0 0      ;;;;64 69 82
+		colour_factor			0.0
+		min_alpha			0.1
+		max_alpha			1.0
+		max_depth			4.0
+		max_refraction			0.3
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;--------------------------------------------------------------------------------------------------
+
+river winter_med                   ;;this is a frozen ice-covered river
+{
+	surface
+	{
+		layer 0
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/river02.tga    ;;river_forest.tga
+			opacity			0.5
+			scale			20.0	20.0
+			offset			0.0	0.0
+			rotation		-10.0
+			scroll_speed		0.02
+			scroll_direction	-30.0
+
+		}
+
+		layer 1
+		{
+			type			diffuse
+			texture			chivalry/data/terrain/battlefield/water/river/ice_med.tga
+			opacity			0.8
+                        scale			20.0	20.0
+			offset			0.0	0.0
+			rotation		1.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+		layer 2
+		{
+			type			specular
+			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+			opacity			1.0
+			min_sharpness		7.0
+			max_sharpness		17.0
+			scale			5.0	5.0
+			offset			0.0	0.0
+			rotation		0.0
+			scroll_speed		0.0
+			scroll_direction	0.0
+		}
+
+		colour				0 0 0      ;;;;64 69 82
+		colour_factor			0.0
+		min_alpha			0.9
+		max_alpha			1.0
+		max_depth			4.0
+		max_refraction			0.3
+	}
+
+	shore
+	{
+		min_dist			50.0
+		max_dist			250.0
+		normal_factor			0.1	
+	}
+}
+
+;**************************************************************************************************
+;*                                         TEST_CLIMATE                                           *
+;**************************************************************************************************
+
+sea test_climate summer
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean1.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+sea test_climate winter
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean1.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+river test_climate summer
+{
+	parent	river default
+}
+
+river test_climate winter
+{
+	parent	river default
+}
+
+;**************************************************************************************************
+;*                                         SANDY_DESERT                                           *
+;**************************************************************************************************
+
+sea sandy_desert summer
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+sea sandy_desert winter
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+river sandy_desert summer
+{
+	parent	river desert
+}
+
+river sandy_desert winter
+{
+	parent	river desert
+}
+
+;**************************************************************************************************
+;*                                         ROCKY_DESERT                                           *
+;**************************************************************************************************
+
+sea rocky_desert summer
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+sea rocky_desert winter
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+river rocky_desert summer
+{
+	parent	river desert
+}
+
+river rocky_desert winter
+{
+	parent	river desert
+}
+
+;**************************************************************************************************
+;*                                         MEDITERRANEAN                                          *
+;**************************************************************************************************
+
+;sea mediterranean summer
+;{
+;	parent	sea default
+;}
+
+;sea mediterranean winter
+;{
+;	parent	sea default
+;}
+
+;river mediterranean summer
+;{
+;	parent	river default
+;}
+
+;river mediterranean winter
+;{
+;	parent	river default
+;}
+
+;**************************************************************************************************
+;*                                   TEMPERATE_GRASSLAND_FERTILE                                  *
+;**************************************************************************************************
+
+sea temperate_grassland_fertile summer
+{
+	parent	sea default
+}
+
+sea temperate_grassland_fertile winter
+{
+	parent	sea default
+}
+
+river temperate_grassland_fertile summer
+{
+	parent	river fertile
+}
+
+river temperate_grassland_fertile winter
+{
+	parent	river winter_med
+}
+
+;**************************************************************************************************
+;*                                  TEMPERATE_GRASSLAND_INFERTILE                                 *
+;**************************************************************************************************
+
+sea temperate_grassland_infertile summer
+{
+	parent	sea default
+}
+
+sea temperate_grassland_infertile winter
+{
+	parent	sea default
+}
+
+river temperate_grassland_infertile summer
+{
+	parent	river infertile
+}
+
+river temperate_grassland_infertile winter
+{
+	parent	river winter_north
+}
+
+;**************************************************************************************************
+;*                                      TEMPERATE_FOREST_OPEN                                     *
+;**************************************************************************************************
+
+sea temperate_forest_open summer
+{
+	parent	sea default
+}
+
+sea temperate_forest_open winter
+{
+	parent	sea default
+}
+
+river temperate_forest_open summer
+{
+	parent	river forest
+}
+
+river temperate_forest_open winter
+{
+	parent	river winter_north
+}
+
+;**************************************************************************************************
+;*                                      TEMPERATE_FOREST_DEEP                                     *
+;**************************************************************************************************
+
+sea temperate_forest_deep summer
+{
+	parent	sea default
+}
+
+sea temperate_forest_deep winter
+{
+	parent	sea default
+}
+
+river temperate_forest_deep summer
+{
+	parent	river forest
+}
+
+river temperate_forest_deep winter
+{
+	parent	river winter_north
+}
+
+;**************************************************************************************************
+;*                                             SWAMP                                              *
+;**************************************************************************************************
+
+sea swamp summer
+{
+	parent	sea default
+}
+
+sea swamp winter
+{
+	parent	sea default
+}
+
+river swamp summer
+{
+	parent	river swamp
+}
+
+river swamp winter
+{
+	parent	river winter_north
+}
+
+;**************************************************************************************************
+;*                                            HIGHLAND                                            *
+;**************************************************************************************************
+
+sea highland summer
+{
+	parent	sea default
+}
+
+sea highland winter
+{
+	parent	sea default
+}
+
+river highland summer
+{
+	parent	river alpine
+}
+
+river highland winter
+{
+	parent	river winter_north
+}
+
+;**************************************************************************************************
+;*                                             ALPINE                                             *
+;**************************************************************************************************
+
+sea alpine summer
+{
+	parent	sea default
+}
+
+sea alpine winter
+{
+	parent	sea default
+}
+
+river alpine summer
+{
+	parent	river alpine
+}
+
+river alpine winter
+{
+	parent	river alpine
+}
+
+;**************************************************************************************************
+;*                                            SUB_ARTIC                                           *
+;**************************************************************************************************
+
+sea sub_arctic summer
+{
+	parent	sea default
+}
+
+sea sub_arctic winter
+{
+	parent	sea default
+}
+
+river sub_arctic summer
+{
+	parent	river desert
+}
+
+river sub_arctic winter
+{
+	parent	river desert
+}
+
+;**************************************************************************************************
+;*                                            VOLCANIC                                            *
+;**************************************************************************************************
+
+;sea volcanic summer
+;{
+;	parent	sea default
+;}
+
+;sea volcanic winter
+;{
+;	parent	sea default
+;}
+
+;river volcanic summer
+;{
+;	parent	river default
+;}
+
+;river volcanic winter
+;{
+;	parent	river default
+;}
+
+;**************************************************************************************************
+;*                                            SEMI_ARID                                           *
+;**************************************************************************************************
+
+sea semi_arid summer
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+sea semi_arid winter
+{
+	parent	sea default
+
+	surface
+	{
+		layer 0
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+
+		layer 1
+		{
+			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+		}
+	}
+}
+
+river semi_arid summer
+{
+	parent	river desert
+}
+
+river semi_arid winter
+{
+	parent	river desert
+}
+

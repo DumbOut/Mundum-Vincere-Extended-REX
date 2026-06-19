@@ -1,0 +1,475 @@
+
+pool Britain
+	regions	Tribus_Brigantes Tribus_Ordovices Tribus_Trinovantes Tribus_Dumnonii Caledonia Connachta Erain			
+	unit merc barbarian infantry,			exp 0 cost 1400 replenish 0.02 - 0.063 max 2 initial 0
+    unit barb archer merc,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc sword bigshield gaul,			exp 1 cost 2100 replenish 0.007 - 0.017 max 3 initial 0
+    unit celtic heavy infantry,			exp 1 cost 2300 replenish 0.003 - 0.08 max 2 initial 0
+
+pool Germany
+	regions Boihaemum Tribus_Chattii Tribus_Volcae Tribus_Suebi Tribus_Cherusci Locus_Lugii Tribus_Nervii Sequania
+	unit merc barbarian infantry,			exp 1 cost 1200 replenish 0.02 - 0.15 max 4 initial 0
+	unit merc barbarian cavalry,			exp 2 cost 1500 replenish 0.02 - 0.06 max 1 initial 0
+    unit barb archer merc,			        exp 0 cost 1400 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc axemen,			      exp 1 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc barb infantry german,			      exp 0 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+
+pool Northern_Europe
+	regions	Scandia Locus_Gepidae Cimbrica Tribus_Chauci Locus_Rugii
+	unit merc barbarian infantry,			exp 0 cost 1400 replenish 0.01 - 0.027 max 1 initial 0
+    unit merc axemen,			exp 1 cost 1300 replenish 0.02 - 0.04 max 2 initial 0
+    unit barb archer merc,			exp 0 cost 1700 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc axemen,			exp 2 cost 1600 replenish 0.03 - 0.1 max 2 initial 0
+	unit barb gothic swordsman,			exp 0 cost 2400 replenish 0.017 - 0.08 max 2 initial 0
+    unit merc barb infantry german,			      exp 0 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+
+pool Eastern_Europe
+	regions Tribus_Neuri Locus_Venedae Locus_Aestii
+	unit merc barbarian infantry,			exp 0 cost 1400 replenish 0.02 - 0.063 max 2 initial 0
+	unit merc barbarian cavalry,			exp 0 cost 1500 replenish 0.01 - 0.027 max 1 initial 0
+    unit barb archer merc,			        exp 0 cost 1400 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc axemen,			      exp 1 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc barb infantry german,			      exp 0 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+
+pool Steppes
+	regions Scythia Tribus_Iazyges Tribus_Budinai
+	unit merc sarmatian cavalry,			exp 1 cost 2400 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc noblewomen,			exp 1 cost 2800 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc horse archers,			exp 1 cost 1200 replenish 0.04 - 0.13 max 3 initial 0
+	unit merc bastarnae,			exp 1 cost 1700 replenish 0.016 - 0.027 max 1 initial 0
+    unit merc steppe archer,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc steppe axemen,			exp 0 cost 1200 replenish 0.06 - 0.13 max 4 initial 0	
+
+pool Bosporan
+	regions Maeotis Taurica Regnum_Bosphoranum Heraclea_Chersonesus
+	unit merc sarmatian cavalry,			exp 1 cost 2400 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc noblewomen,			exp 1 cost 2800 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc horse archers,			exp 1 cost 1200 replenish 0.04 - 0.13 max 3 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc peltast thrace,			exp 0 cost 1200 replenish 0.08 - 0.13 max 3 initial 0
+    unit merc steppe archer,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc steppe axemen,			exp 0 cost 1200 replenish 0.06 - 0.13 max 4 initial 0
+	unit merc greek cavalry,			exp 0 cost 1200 replenish 0.06 - 0.13 max 1 initial 0
+	unit merc colchian archer,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2800 replenish 0.02 - 0.04 max 1 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Central_Europe
+	regions Dacia Getia Tribus_Bastarnae Tribus_Cotini Tribus_Eravisci				
+	unit merc bastarnae,			exp 1 cost 1900 replenish 0.03 - 0.06 max 2 initial 0
+    unit merc peltast thrace,			exp 0 cost 1200 replenish 0.08 - 0.13 max 3 initial 0
+    unit merc illyrian slingers,			exp 0 cost 1200 replenish 0.04 - 0.08 max 2 initial 0
+	unit merc barbarian infantry,			exp 0 cost 1400 replenish 0.02 - 0.06 max 2 initial 0
+    unit barb archer merc,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc barb javelin cavalry,			        exp 0 cost 2100 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc barb noble cavalry,			        exp 0 cost 2800 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc axemen,			      exp 1 cost 1000 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc warband falx,			      exp 1 cost 2200 replenish 0.02 - 0.04 max 2 initial 0
+
+pool Gaul
+	regions Aquitania Arvernia Biturigia Aulercia Belgica Armorica Aeduia Lemovicia Lugdinensis Narbonensis			
+	unit merc barbarian infantry,			exp 0 cost 1300 replenish 0.02 - 0.15 max 6 initial 0
+    unit celtic heavy infantry,			exp 0 cost 2100 replenish 0.003 - 0.15 max 2 initial 0
+    unit merc sword bigshield gaul,			exp 0 cost 1500 replenish 0.02 - 0.06 max 1 initial 0
+	unit merc barbarian cavalry,			exp 0 cost 1900 replenish 0.02 - 0.06 max 2 initial 0
+    unit merc barb javelin cavalry,			        exp 0 cost 1600 replenish 0.01 - 0.017 max 2 initial 0
+    unit merc barb noble cavalry,			        exp 0 cost 2100 replenish 0.01 - 0.017 max 2 initial 0
+    unit barb archer merc,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+
+pool Cisapline_Gaul
+	regions Cisalpine_Gaul Venetia Noricum Rhaetia Transalpine_Gaul Liguria				
+	unit merc barbarian cavalry,			exp 0 cost 1900 replenish 0.02 - 0.05 max 1 initial 0
+    unit merc sword bigshield gaul,			exp 0 cost 1500 replenish 0.02 - 0.06 max 1 initial 0
+	unit merc barbarian infantry,			exp 0 cost 1400 replenish 0.017 - 0.08 max 4 initial 0
+    unit barb archer merc,			        exp 0 cost 1500 replenish 0.01 - 0.017 max 1 initial 0
+    unit celtic heavy infantry,			exp 1 cost 2300 replenish 0.003 - 0.15 max 2 initial 0
+    unit merc barb javelin cavalry,			        exp 0 cost 2300 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc barb noble cavalry,			        exp 0 cost 2800 replenish 0.01 - 0.017 max 2 initial 0
+    unit merc barb rhaetian swordsmen,			        exp 0 cost 2400 replenish 0.01 - 0.017 max 2 initial 0
+
+pool Galatia
+	regions Galatia Phrygia				
+	unit merc barbarian infantry,			exp 2 cost 1400 replenish 0.03 - 0.05 max 2 initial 0
+    unit merc sword bigshield gaul,			exp 0 cost 1600 replenish 0.02 - 0.063 max 1 initial 0
+	unit merc barbarian cavalry,			exp 0 cost 1800 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc barb javelin cavalry,			        exp 0 cost 1700 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc barb noble cavalry,			        exp 0 cost 2500 replenish 0.01 - 0.017 max 2 initial 0
+   	unit barb archer merc,			        exp 0 cost 1700 replenish 0.01 - 0.017 max 1 initial 0
+    unit celtic heavy infantry,			exp 1 cost 2300 replenish 0.003 - 0.15 max 2 initial 0
+
+pool Armenia
+	regions Colchis Atropatene Armenia Iberia Albania Armenia_Maior Armenia_Minor Gordyene Sophene
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc kurdish javelinmen,			exp 0 cost 1300 replenish 0.03 - 0.06 max 4 initial 0
+	unit merc eastern infantry,			exp 0 cost 1500 replenish 0.05 - 0.08 max 2 initial 0
+	unit east heavy spearmen merc,			exp 0 cost 2500 replenish 0.01 - 0.02 max 2 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 1 initial 0
+	unit merc east slinger,			exp 0 cost 1200 replenish 0.022 - 0.066 max 2 initial 0
+	unit merc syrian cavalry,			exp 0 cost 2500 replenish 0.022 - 0.066 max 2 initial 0
+	unit merc east infantry,			exp 0 cost 1300 replenish 0.03 - 0.06 max 2 initial 0
+	unit merc east elite machairophoroi,			exp 0 cost 3500 replenish 0.01 - 0.02 max 1 initial 0
+	unit east horse archer merc,			exp 0 cost 1300 replenish 0.06 - 0.12 max 2 initial 0
+	unit merc colchian archer,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc east cavalry,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+
+pool Pontus
+	regions Pontus Paphlagonia Cappadocia	
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.05 - 0.08 max 2 initial 0
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc greek medium cavalry,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc colchian archer,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.01 - 0.023 max 1 initial 0
+	unit east heavy spearmen merc,			exp 0 cost 2500 replenish 0.01 - 0.02 max 1 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 1 initial 0
+	unit merc kurdish javelinmen,			exp 0 cost 1300 replenish 0.03 - 0.06 max 4 initial 0
+	unit merc east infantry,			exp 0 cost 1300 replenish 0.03 - 0.06 max 2 initial 0
+	unit east phrygian takabara merc,			exp 0 cost 1700 replenish 0.03 - 0.06 max 2 initial 0
+	unit merc greek light thureophoroi,			exp 0 cost 1400 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc greek thureophoroi,			exp 0 cost 1500 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc east heavy cavalry,			exp 0 cost 1700 replenish 0.03 - 0.06 max 3 initial 0
+	unit merc east cavalry,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east kardaka thorakitai,			exp 0 cost 2300 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+
+pool West_Syria
+	regions Syria Coele_Syria Phoenicia Judaea  
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.04 - 0.08 max 3 initial 0
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+    unit merc syrian archer,			        exp 0 cost 1800 replenish 0.03 - 0.06 max 1 initial 0
+    unit merc peltast,			exp 0 cost 1500 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc peltast thrace,			exp 0 cost 1300 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc rhodian slingers,			exp 1 cost 1800 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc cretan archers,			exp 1 cost 2100 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.027 - 0.05 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc syrian cavalry,			exp 0 cost 2500 replenish 0.022 - 0.066 max 2 initial 0
+	unit east heavy spearmen merc,			exp 0 cost 2500 replenish 0.01 - 0.02 max 1 initial 0
+	unit merc thracian,			exp 0 cost 1800 replenish 0.017 - 0.03 max 1 initial 0
+	unit merc greek thureophoroi,			exp 0 cost 1500 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc east heavy cavalry,			exp 0 cost 1700 replenish 0.03 - 0.06 max 3 initial 0
+	unit merc east cavalry,			exp 0 cost 1300 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east kardaka thorakitai,			exp 0 cost 2300 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	
+pool East_Syria
+	regions Osrhoene Babylonia Characene Regnum_Palmyrae  							
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.04 - 0.08 max 3 initial 0
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+    unit merc syrian archer,			        exp 0 cost 1800 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc arab cavalry,			exp 0 cost 1400 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc bedouin,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc bedouin warriors,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc bedouin archers,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.01 - 0.023 max 1 initial 0
+	unit desert tribesmen,			exp 0 cost 700 replenish 0.01 - 0.017 max 1 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 1 initial 0
+	unit merc east slinger,			exp 0 cost 1200 replenish 0.022 - 0.066 max 2 initial 0
+	unit merc east infantry,			exp 0 cost 1300 replenish 0.03 - 0.06 max 4 initial 0
+	unit east horse archer merc,			exp 0 cost 1300 replenish 0.1 - 0.24 max 2 initial 0
+	unit merc elephant cataphract,			exp 0 cost 4500 replenish 0.01 - 0.04 max 1 initial 0
+	unit merc east kardaka thorakitai,			exp 0 cost 2300 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Arabia
+	regions Nabataea Kindah Lihyan Sinai Locus_Iatrippa Himyar Locus_Gerraei Maketa Zufar Hadramaut Qataban Saba Main				
+	unit merc arab cavalry,			exp 1 cost 1500 replenish 0.0017 - 0.005 max 1 initial 0
+	unit merc bedouin,			exp 0 cost 1300 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc bedouin warriors,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc bedouin archers,			exp 0 cost 1200 replenish 0.03 - 0.05 max 3 initial 0
+	unit desert tribesmen,			exp 0 cost 700 replenish 0.02 - 0.03 max 1 initial 0
+	unit merc east infantry,			exp 0 cost 1300 replenish 0.03 - 0.06 max 4 initial 0
+
+pool Persia
+	regions Media Elymais Hyrcania Persis Tabiena Choarene Parthyene				
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.04 - 0.08 max 5 initial 0
+	unit merc east infantry,			exp 0 cost 1200 replenish 0.03 - 0.06 max 4 initial 0
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+	unit merc east camel cataphract,		exp 2 cost 4000 replenish 0.01 - 0.017 max 1 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 1 initial 0
+	unit merc east slinger,			exp 0 cost 1200 replenish 0.04 - 0.08 max 2 initial 0
+	unit merc persian sparabara,			exp 0 cost 1700 replenish 0.04 - 0.08 max 2 initial 0
+	unit merc east elite machairophoroi,			exp 0 cost 3500 replenish 0.01 - 0.02 max 1 initial 0
+	unit merc iranian sparabara,			exp 0 cost 1200 replenish 0.05 - 0.08 max 2 initial 0
+	unit iranian archer spearmen,			exp 0 cost 2400 replenish 0.05 - 0.08 max 2 initial 0
+	unit east horse archer merc,			exp 0 cost 1300 replenish 0.1 - 0.24 max 2 initial 0
+	unit merc hyrcanian cavalry,			exp 0 cost 1600 replenish 0.1 - 0.24 max 2 initial 0
+	unit merc elephant cataphract,			exp 0 cost 4500 replenish 0.01 - 0.04 max 1 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Baktria
+	regions Aria Bactria Paropamisadae 
+    unit greek bactrian hoplites,			exp 2 cost 4100 replenish 0.003 - 0.006 max 1 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 1 initial 0
+	unit merc east infantry,			exp 0 cost 1200 replenish 0.03 - 0.06 max 4 initial 0
+	unit merc iranian sparabara,			exp 0 cost 1200 replenish 0.05 - 0.08 max 2 initial 0
+	unit iranian archer spearmen,			exp 0 cost 2400 replenish 0.05 - 0.08 max 2 initial 0
+	unit east horse archer merc,			exp 0 cost 1300 replenish 0.1 - 0.24 max 2 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 4 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Sarmatia
+	regions Tribus_Roxolani Tribus_Aorsi Tribus_Sakae Tribus_Sarmatae Tribus_Massagetae Tribus_Siracae Tribus_Legae
+	unit merc sarmatian cavalry,			exp 1 cost 2400 replenish 0.03 - 0.05 max 3 initial 0
+	unit merc noblewomen,			exp 1 cost 2800 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc horse archers,			exp 1 cost 1600 replenish 0.04 - 0.13 max 3 initial 0
+	unit merc steppe axemen,			exp 0 cost 1200 replenish 0.06 - 0.13 max 4 initial 0
+
+pool Eastern_Steppes
+	regions Scythia_Asiatica Wusun Tribus_Yuezhi Amyrgia Chach Tocharia			
+	unit merc horse archers,			exp 1 cost 1400 replenish 0.04 - 0.13 max 3 initial 0
+    unit merc sarmatian cavalry,			exp 1 cost 2400 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc noblewomen,			exp 1 cost 2800 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc steppe axemen,			exp 0 cost 1200 replenish 0.06 - 0.13 max 4 initial 0
+
+pool Parthia
+	regions Tribus_Dahae Margiana Astauene Chorasmia Sogdiana
+	unit merc horse archers,			exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+    unit merc sarmatian cavalry,			exp 1 cost 2400 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.05 - 0.08 max 2 initial 0
+	unit merc east heavy archer,			        exp 0 cost 1600 replenish 0.03 - 0.06 max 1 initial 0
+    unit greek bactrian hoplites,			exp 2 cost 4100 replenish 0.01 - 0.017 max 1 initial 0
+	unit east takabara merc,			exp 0 cost 2300 replenish 0.012 - 0.024 max 2 initial 0
+	unit merc east slinger,			exp 0 cost 1200 replenish 0.022 - 0.066 max 2 initial 0
+	unit east horse archer merc,			exp 0 cost 1300 replenish 0.14 - 0.3 max 4 initial 0
+	unit merc east light cavalry,			exp 0 cost 1200 replenish 0.04 - 0.1 max 4 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Ariana
+	regions Arachosia Carmania Gedrosia Drangiana
+	unit merc east slinger,			exp 0 cost 1200 replenish 0.022 - 0.066 max 2 initial 0
+	unit merc eastern infantry,			exp 0 cost 1600 replenish 0.05 - 0.08 max 2 initial 0
+	unit persian archer merc,			exp 0 cost 1800 replenish 0.05 - 0.08 max 2 initial 0
+	unit merc iranian sparabara,			exp 0 cost 1200 replenish 0.05 - 0.08 max 2 initial 0
+	unit iranian archer spearmen,			exp 0 cost 2400 replenish 0.05 - 0.08 max 2 initial 0
+	unit merc elephant cataphract,			exp 0 cost 4500 replenish 0.01 - 0.04 max 1 initial 0
+	unit merc east light cavalry,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc east peltast,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	
+pool India
+	regions Gandhara Sind Sattagydia			
+	unit merc elephants,				exp 0 cost 6000 replenish 0.0017 - 0.005 max 3 initial 0
+    unit merc elephant indian cataphract,		exp 0 cost 8000 replenish 0.0017 - 0.005 max 3 initial 0
+	unit east heavy cavalry2,			exp 0 cost 2400 replenish 0.027 - 0.05 max 3 initial 0
+    unit merc indian archer,			exp 0 cost 1627 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc horse archers,			exp 0 cost 1800 replenish 0.017 - 0.027 max 1 initial 0
+    unit greek bactrian hoplites,			exp 2 cost 4100 replenish 0.003 - 0.006 max 1 initial 0
+    unit indian heavy infantry,			exp 0 cost 2400 replenish 0.027 - 0.05 max 3 initial 0
+    unit merc indian ksatriya maceman,			exp 0 cost 2400 replenish 0.027 - 0.05 max 1 initial 0
+    unit merc indian ksatriya spearmen,			exp 0 cost 1900 replenish 0.027 - 0.05 max 2 initial 0
+    unit merc indian light clubmen,			exp 0 cost 1000 replenish 0.027 - 0.05 max 4 initial 0
+    unit merc indian noble skirmishers,			exp 0 cost 2200 replenish 0.027 - 0.05 max 3 initial 0
+    unit merc indian skirmishers,			exp 0 cost 800 replenish 0.027 - 0.05 max 4 initial 0
+
+pool Illyria
+	regions Illyria Dalmatia Pannonia Tribus_Scordisci			
+	unit merc illyrian,			exp 1 cost 1100 replenish 0.04 - 0.123 max 3 initial 0
+    unit merc greek hoplites,			exp 0 cost 1600 replenish 0.01 - 0.023 max 1 initial 0
+   	unit merc illyrian slingers,			exp 0 cost 1200 replenish 0.04 - 0.08 max 2 initial 0
+	unit merc peltast,			exp 1 cost 1100 replenish 0.04 - 0.08 max 1 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Thrace
+	regions Moesia Thrace Propontis Bithynia Scythia_Parva
+	unit merc peltast,			exp 1 cost 1100 replenish 0.04 - 0.08 max 1 initial 0
+    unit merc peltast thrace,			exp 0 cost 1000 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc thracian,			exp 1 cost 1600 replenish 0.04 - 0.08 max 3 initial 0
+	unit merc greek hoplites,			exp 0 cost 1700 replenish 0.01 - 0.023 max 1 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.01 - 0.023 max 1 initial 0
+    unit merc illyrian slingers,			exp 0 cost 1200 replenish 0.04 - 0.08 max 2 initial 0
+    unit merc warband falx,			      exp 1 cost 2200 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Spain
+	regions Gallaecia Celtiberia Ceretania Lusitania Bastetania Baetica Celtica Beribracia Cantabria Turdetania Asturia				
+	unit merc spanish infantry,			exp 0 cost 1500 replenish 0.04 - 0.08 max 4 initial 0
+	unit merc carthaginian infantry,			exp 0 cost 1500 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc carthaginian cavalry,			exp 0 cost 1800 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc balearic slingers,			exp 0 cost 1700 replenish 0.017 - 0.023 max 1 initial 0
+
+pool Northern_Greece
+	regions Epirus Dardania Macedonia Thessalia			
+	unit merc peltast,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc illyrian,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc peltast thrace,			exp 0 cost 1100 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc thracian,			exp 0 cost 1400 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc greek hoplites,			exp 0 cost 1900 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc greek heavy hoplites,				exp 1 cost 3000 replenish 0.003 - 0.007 max 1 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc greek medium cavalry,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Northern_Italy
+	regions Etruria Umbria Latium				
+	unit merc samnite,			exp 0 cost 1900 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc samnite spearmen,			exp 0 cost 1200 replenish 0.1 - 0.17 max 1 initial 0
+	unit merc italic skirmisher,			exp 0 cost 1600 replenish 0.03 - 0.07 max 1 initial 0
+       
+pool Greece
+	regions Aetolia Attica Achaia Euboea		
+	unit merc peltast,			exp 1 cost 1200 replenish 0.03 - 0.05 max 2 initial 0
+    unit merc peltast thrace,			exp 0 cost 1100 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc cretan archers,			exp 0 cost 2100 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc greek hoplites,			exp 1 cost 1800 replenish 0.03 - 0.05 max 2 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1400 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc greek heavy hoplites,				exp 1 cost 3000 replenish 0.003 - 0.007 max 1 initial 0
+    unit pergamene heitaroi,			exp 2 cost 1500 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc greek medium cavalry,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.06 - 0.12 max 4 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Southern_Italy
+	regions Apulia Campania Bruttium Calabria			
+	unit merc samnite,			exp 1 cost 1900 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc samnite spearmen,			exp 0 cost 1200 replenish 0.1 - 0.17 max 1 initial 0
+	unit merc italic skirmisher,			exp 1 cost 1700 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc peltast,			exp 1 cost 1400 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc greek medium cavalry,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Cilicia
+	regions Cilicia Cyprus Pamphylia				
+	unit merc cilician pirate,			exp 0 cost 1400 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc peltast thrace,			exp 0 cost 1100 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.007 - 0.023 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1600 replenish 0.003 - 0.006 max 1 initial 0
+
+pool Balearics
+	regions Baliares			
+	unit merc balearic slingers,			exp 2 cost 1700 replenish 0.017 - 0.027 max 2 initial 0
+    unit merc spanish infantry,			exp 0 cost 1700 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc carthaginian infantry,			exp 0 cost 1500 replenish 0.06 - 0.12 max 1 initial 0
+
+pool Sicily
+	regions Sicilia_Poeni Sicilia_Romanus Sicilia_Graecus Sardinia Corsica		
+	unit merc peltast,			exp 0 cost 1600 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc balearic slingers,			exp 0 cost 2000 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc carthaginian archer,	                exp 1 cost 1800 replenish 0.023 - 0.05 max 2 initial 0
+    unit merc spanish infantry,			exp 0 cost 1700 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc carthaginian infantry,			exp 0 cost 1500 replenish 0.06 - 0.12 max 1 initial 0
+	unit merc greek medium cavalry,			exp 0 cost 1800 replenish 0.01 - 0.017 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool North_Africa
+	regions Mauretania_Tingitana Numidia Mauretania_Massaesili Mauretania_Campestris Hipponensis Tripolitania Zeugitana Byzacium Mauretania Numidia_Massylia
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc numidian cavalry,			exp 1 cost 1200 replenish 0.03 - 0.05 max 2 initial 0
+	unit merc elephants,				exp 0 cost 6000 replenish 0.0017 - 0.005 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1600 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc carthaginian archer,	                exp 1 cost 1300 replenish 0.023 - 0.05 max 2 initial 0
+    unit merc libyan spearmen,	                exp 1 cost 1000 replenish 0.023 - 0.05 max 2 initial 0
+    unit merc elephant forest tower,	                exp 0 cost 3000 replenish 0.003 - 0.05 max 2 initial 0
+
+pool Sparta
+	regions Laconia				
+	unit merc peltast,			exp 0 cost 1200 replenish 0.03 - 0.05 max 1 initial 0
+	unit merc greek hoplites,			exp 3 cost 1900 replenish 0.007 - 0.01 max 1 initial 0
+	unit merc greek heavy hoplites,				exp 1 cost 3000 replenish 0.003 - 0.007 max 1 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 1 cost 2100 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 2 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 1 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 1 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Cyrenaica
+	regions Cyrenaica Marmarica			
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.04 - 0.08 max 3 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.01 - 0.017 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1300 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc carthaginian archer,	                exp 1 cost 1800 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.01 - 0.04 max 1 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Aegean
+	regions Rhodos Crete Caria Mysia Lydia Lesbos				
+	unit merc peltast,			exp 0 cost 1200 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc peltast thrace,			exp 0 cost 1300 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc rhodian slingers,			exp 1 cost 1900 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc cretan archers,			exp 1 cost 1900 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.027 - 0.05 max 2 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.01 - 0.023 max 1 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 600 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1100 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Egypt
+	regions Nile_Delta Middle_Egypt Thebais				
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc peltast,			exp 0 cost 1400 replenish 0.02 - 0.04 max 2 initial 0
+    unit merc peltast thrace,			exp 0 cost 1500 replenish 0.08 - 0.13 max 3 initial 0
+	unit merc thracian,			exp 0 cost 1800 replenish 0.017 - 0.03 max 1 initial 0
+	unit merc rhodian slingers,			exp 1 cost 1900 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc cretan archers,			exp 1 cost 2100 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc greek hoplites,			exp 0 cost 1800 replenish 0.027 - 0.05 max 2 initial 0
+	unit merc greek ekdromoi hoplite,			exp 0 cost 800 replenish 0.04 - 0.1 max 2 initial 0
+    unit greek levy pikemen merc,			exp 0 cost 1500 replenish 0.027 - 0.05 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1000 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc sword bigshield gaul,	                exp 0 cost 1800 replenish 0.02 - 0.06 max 1 initial 0
+	unit merc nubian archer,	                exp 0 cost 1000 replenish 0.003 - 0.017 max 1 initial 0
+    unit celtic heavy infantry,			exp 1 cost 2300 replenish 0.003 - 0.15 max 2 initial 0
+	unit merc machimoi infantry,		exp 0 cost 2000 replenish 0.03 - 0.04 max 2 initial 0
+	unit merc machimoi archer,			exp 0 cost 2000 replenish 0.03 - 0.04 max 2 initial 0
+	unit merc greek thorakitai machairophoroi,			exp 0 cost 2400 replenish 0.02 - 0.04 max 2 initial 0
+	unit merc greek akontistai,			exp 0 cost 900 replenish 0.04 - 0.1 max 2 initial 0
+	unit merc greek archer,			exp 0 cost 1400 replenish 0.04 - 0.1 max 2 initial 0
+
+pool Sahara
+	regions Gaetulia Cydamae Phasania	
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.03 - 0.05 max 1 initial 0
+	unit desert tribesmen,			exp 0 cost 700 replenish 0.01 - 0.017 max 1 initial 0
+	unit merc numidian cavalry,			exp 0 cost 1300 replenish 0.03 - 0.05 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc nubian archer,	                exp 0 cost 1000 replenish 0.003 - 0.017 max 1 initial 0
+
+pool Libya
+	regions Libya Augila Oasis_Magna Nubia	
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.03 - 0.05 max 2 initial 0
+    unit merc egyptian archer,			exp 0 cost 1000 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc nubian archer,	                exp 0 cost 1100 replenish 0.003 - 0.017 max 1 initial 0
+	unit desert tribesmen,			exp 0 cost 700 replenish 0.01 - 0.017 max 1 initial 0
+
+pool Central_Africa
+	regions Kush Ethiopia Macuria	
+	unit merc libyan infantry,			exp 0 cost 700 replenish 0.03 - 0.05 max 3 initial 0
+	unit merc elephants,				exp 0 cost 6000 replenish 0.0017 - 0.005 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+    unit merc carthaginian archer,	                exp 1 cost 1500 replenish 0.023 - 0.05 max 2 initial 0
+	unit merc nubian archer,	                exp 0 cost 1100 replenish 0.003 - 0.017 max 2 initial 0
+	unit desert tribesmen,			exp 0 cost 700 replenish 0.01 - 0.017 max 1 initial 0
+
+pool Blemmye
+	regions Locus_Blemmye	
+	unit merc bedouin,			exp 1 cost 1100 replenish 0.1 - 0.17 max 1 initial 0
+	unit merc bedouin warriors,			exp 0 cost 1200 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc bedouin archers,			exp 0 cost 1200 replenish 0.1 - 0.17 max 1 initial 0
+    unit merc egyptian archer,			exp 0 cost 1100 replenish 0.017 - 0.027 max 1 initial 0
+	unit merc nubian archer,	                exp 0 cost 1000 replenish 0.003 - 0.017 max 1 initial 0

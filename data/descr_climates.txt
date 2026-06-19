@@ -1,0 +1,295 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	heat	range 1-4 (zero would mean no armour effects to fatigue at all)
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+climates
+{
+	test_climate
+	sandy_desert
+	rocky_desert
+	temperate_grassland_fertile
+	temperate_grassland_infertile
+	temperate_forest_open
+	temperate_forest_deep
+	swamp
+	highland
+	alpine
+	sub_arctic
+	semi_arid
+}
+
+climate test_climate         ;;done
+{
+	colour	236 0 140
+	heat	3
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+	
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+
+	battle_vegetation
+	dense_forest		rs_medi_forest
+	dense_scrub		rs_sparse_medi_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_medi_forest_win
+	dense_scrub		rs_sparse_medi_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_infertile   ;;done
+{
+	colour	237 28 36
+	heat	2
+	winter
+	
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a.cas						1
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
+
+	battle_vegetation
+	dense_forest		rs_infertile_grass_forest
+	dense_scrub		rs_sparse_infert_grass_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_infertile_grass_forest_win
+	dense_scrub		rs_sparse_infert_grass_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_fertile        ;;;done
+{
+	colour	237 20 91
+	heat	2
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a.cas						1
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
+
+	battle_vegetation
+	dense_forest		rs_fertile_grass_forest
+	dense_scrub		rs_sparse_fert_grass_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_fertile_grass_forest_win
+	dense_scrub		rs_sparse_fert_grass_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sandy_desert             ;;done
+{
+	colour	102 45 145
+	heat	4
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_a.cas	8
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_b.cas	9
+
+	battle_vegetation
+	dense_forest		rs_sandy_desert
+	dense_scrub		rs_sandy_desert_shrub
+
+	battle_winter_vegetation
+	dense_forest		rs_sandy_desert
+	dense_scrub		rs_sandy_desert_shrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate rocky_desert              ;;done
+{
+	colour	146 39 143
+	heat	4
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_a.cas	8
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_b.cas	9
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_b.cas	5
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_a.cas			5
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_b.cas			5
+
+	battle_vegetation
+	dense_forest		rs_rocky_desert
+	dense_scrub		rs_rocky_desert_shrub
+
+	battle_winter_vegetation
+	dense_forest		rs_rocky_desert
+	dense_scrub		rs_rocky_desert_shrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_open   ;;done
+{
+	colour	242 101 34
+	heat	2
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas						1
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_impassable.cas			0
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_canopy_winter.cas		13
+
+	battle_vegetation
+	dense_forest		rs_forest_open
+	dense_scrub		rs_sparse_forest_open
+
+	battle_winter_vegetation
+	dense_forest		rs_forest_open_win
+	dense_scrub		rs_sparse_forest_open_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_deep       ;;done
+{
+	colour	247 148 29
+	heat	2
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+
+	battle_vegetation
+	dense_forest		rs_forest_deep
+	dense_scrub		rs_sparse_forest_deep
+
+	battle_winter_vegetation
+	dense_forest		rs_forest_deep_win
+	dense_scrub		rs_sparse_forest_deep_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate swamp                    ;;done
+{
+	colour	255 242 0
+	heat	2
+	winter
+
+	battle_vegetation
+	dense_forest		rs_swamp_forest
+	dense_scrub		rs_swamp_sparse_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_swamp_forest_win
+	dense_scrub		rs_swamp_sparse_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate highland    ;;done for now
+{
+	colour	141 198 63
+	heat	3
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+		
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+	
+	battle_vegetation
+	dense_forest		rs_highland_forest
+	dense_scrub		rs_sparse_highland_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_highland_forest_win
+	dense_scrub		rs_sparse_highland_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate alpine                 ;;;done
+{
+	colour	57 181 74
+	heat	2
+	winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+
+	battle_vegetation
+	dense_forest		rs_alpine_forest
+	dense_scrub		rs_alpine_sparse_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_alpine_forest_win
+	dense_scrub		rs_alpine_sparse_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sub_arctic        ;;Now a Mid-east\African coastal climate
+{
+	colour	0 166 81
+	heat	4
+;        winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+
+	battle_vegetation
+	dense_forest		rs_arctic_forest
+	dense_scrub		rs_sparse_arctic_forest
+
+	battle_winter_vegetation
+	dense_forest		rs_arctic_forest_win
+	dense_scrub		rs_sparse_arctic_forest_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate semi_arid             ;;;done for now
+{
+	colour	0 114 188
+	heat	4
+        winter
+
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas	8
+	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
+	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				8
+	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
+	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		10
+
+
+	battle_vegetation
+	dense_forest		rs_arid_forest
+	dense_scrub		rs_arid_shrub
+
+	battle_winter_vegetation
+	dense_forest		rs_arid_forest_win
+	dense_scrub		rs_arid_shrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+

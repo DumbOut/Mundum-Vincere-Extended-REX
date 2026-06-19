@@ -1,0 +1,222 @@
+;
+;
+;
+;	cultivated_low			
+;	cultivated_medium	
+;	cultivated_high		
+;	fertility_low		
+;	fertility_medium	
+;	fertility_high		
+;	forest_dense		
+;	forest_sparse		
+;	hills				
+;	mountains_high		
+;	mountains_low		
+;	swamp				
+;	beach				
+;	scorched			
+;
+;
+; 	
+
+climate default
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2Snow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1Snow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHillsSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwampSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+
+climate temperate_forest_open
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm1.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm2.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm3.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate temperate_forest_deep
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm1LightSnow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm2LightSnow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthFarm3LightSnow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1LightSnow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2LightSnow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	   	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3LightSnow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2Snow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1Snow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHillsSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwampSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+
+climate highland
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2Snow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1Snow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHillsSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwampSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate temperate_grassland_infertile 
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1Snow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2Snow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3Snow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2Snow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1Snow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHillsSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains1Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwampSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate alpine
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2Snow.tga
+;	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+;	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate sub_arctic
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass1.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass2.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthGrass3.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthForest1.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga	
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthHills.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2.tga	            ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthMountains2Snow.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNorthSwamp.tga	                ../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyNewSnow.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate semi_arid
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm1.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm2.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm3.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass1.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass2.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass3.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedForest2.tga					
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedForest1.tga					
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedHills.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains1.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedSwamp.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate test_climate
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm1.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm2.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedFarm3.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass1.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass2.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedGrass3.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedForest2.tga					
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedForest1.tga					
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedHills.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains2.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedMountains1.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyMedSwamp.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate rocky_desert
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertHills.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertMountains.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertMountains.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}
+
+climate sandy_desert
+{
+	cultivated_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	cultivated_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	cultivated_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	fertility_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	fertility_medium	../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	fertility_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	forest_dense		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	forest_sparse		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert2.tga
+	hills				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertHills.tga
+	mountains_high		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertMountains.tga
+	mountains_low		../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesertMountains.tga
+	swamp				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyDesert1.tga
+	beach				../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyBeach.tga
+	scorched			../../../../chivalry/Data/terrain/new_campaign_map/land_textures/MyAshes.tga
+}

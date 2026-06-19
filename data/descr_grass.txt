@@ -1,0 +1,798 @@
+; grass descriptions for the different climates
+; spacing is the density of the grass
+; present_in_winter is true for warmer climates that dont cover the terrain in snow
+; the height of each grass type is an average and varies by 25%
+; the different grass types are drawn as strips on the texture page
+; so only a vertical start and end texture coord is required for each grass type
+; density is between 0-100
+; falloff is how early the grass fades out, higher the falloff the earlier the fade
+; colour is added to the ground colour to make the grass colour
+; correction is not used currently
+
+; valid climates types are
+;	sandy_desert
+;	rocky_desert
+;	temperate_grassland_fertile
+;	temperate_grassland_infertile
+;	temperate_forest_open
+;	temperate_forest_deep
+;	swamp
+;	highland
+;	alpine
+;	sub_arctic
+;	semi_arid
+
+; valid ground types are
+;	-grass_short,
+;	-grass_long,
+;	-sand,
+;	-rock,
+;	-forest_dense,
+;	-scrub_dense,
+;   -swamp,
+;	-mud,
+;	-mud_road,
+;	-stone_road,
+;	-water,
+;	-ice,
+;	-snow,
+;	-wood,
+;   -dirt,
+
+
+ 
+
+climate semi_arid
+{
+	texture					chivalry/data/textures/semi_arid.tga
+	spacing					0.5	
+	present_in_winter		true
+	ground_type grass_short
+	{
+		avg_height			0.8			
+		width				2.0				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type mud
+	{
+		avg_height			0.8			
+		width				2.0				
+		density				60
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.2			
+		width				1.8				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			0.2			
+		width				1.0				
+		density				70
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate swamp
+{
+	texture					chivalry/data/textures/swamp.tga
+	spacing					0.5	
+	present_in_winter		true
+
+	ground_type swamp
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				60
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.1			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			0.6			
+		width				2.0				
+		density				40
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type sand
+	{
+		avg_height			0.8			
+		width				2.0				
+		density				60
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_short
+	{
+		avg_height			1.3			
+		width				2.0				
+		density				40
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate rocky_desert
+{
+	texture					chivalry/data/textures/rocky_desert.tga
+	spacing					0.5	
+	present_in_winter		        true
+
+	ground_type grass_short
+	{
+		avg_height			0.6			
+		width				2.2				
+		density				15
+		tex_v1				0.0			
+		tex_v2				0.23			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			0.6			
+		width				2.2				
+		density				15
+		tex_v1				0.25			
+		tex_v2				0.6			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			0.6			
+		width				1.8				
+		density				15
+		tex_v1				0.6			
+		tex_v2				0.98			
+		falloff				0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate sandy_desert
+{
+	texture					chivalry/data/textures/sandy_desert.tga
+	spacing					0.5	
+	present_in_winter		        false
+
+	ground_type grass_short
+	{
+		avg_height			0.1			
+		width				2.2				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.23			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			0.1			
+		width				2.2				
+		density				60
+		tex_v1				0.25			
+		tex_v2				0.6			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			0.1			
+		width				1.8				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.98			
+		falloff				0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate test_climate
+{
+	texture					chivalry/data/textures/mediterranean.tga
+	spacing					0.5	
+	present_in_winter		true
+
+	ground_type grass_short
+	{
+		avg_height			0.6			
+		width				2.0				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.3			
+		width				2.0				
+		density				60
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.3			
+		width				2.0				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.1			
+		width				1.8				
+		density				40
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate temperate_grassland_fertile
+{
+	texture					chivalry/data/textures/grassland_fertile2.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type forest_dense
+	{
+		avg_height			0.9			
+		width				2.0				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			0.9			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				60
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_short
+	{
+		avg_height			0.7			
+		width				2.0				
+		density				50
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate temperate_grassland_infertile
+{
+	texture					chivalry/data/textures/infertile_grass.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type grass_short
+	{
+		avg_height			0.7			
+		width				1.8				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.19			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			0.9			
+		width				1.2				
+		density				40
+		tex_v1				0.2			
+		tex_v2				0.39			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.0			
+		width				1.8				
+		density				50
+		tex_v1				0.4			
+		tex_v2				0.59			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.2			
+		width				2.0				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.79			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.2			
+		width				2.0				
+		density				40
+		tex_v1				0.8			
+		tex_v2				0.99			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate temperate_forest_open
+{
+	texture					chivalry/data/textures/forest_open.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type grass_short
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.0			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.2			
+		width				2.0				
+		density				60
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.2			
+		width				2.0				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			0.7			
+		width				2.0				
+		density				50
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate temperate_forest_deep
+{
+	texture					chivalry/data/textures/deep_woods.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type grass_short
+	{
+		avg_height			0.8			
+		width				2.0				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type mud
+	{
+		avg_height			0.9			
+		width				2.0				
+		density				50
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.1			
+		width				2.0				
+		density				50
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			0.9			
+		width				2.0				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.1			
+		width				2.0				
+		density				40
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate highland
+{
+	texture					chivalry/data/textures/highland.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type grass_long
+	{
+		avg_height			1.1			
+		width				1.3				
+		density				40
+		tex_v1				0.0			
+		tex_v2				0.25			
+		falloff				0.3  ;;was 0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_short
+	{
+		avg_height			0.7			
+		width				0.9				
+		density				40
+		tex_v1				0.26			
+		tex_v2				0.5			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.3			
+		width				1.0				
+		density				40
+		tex_v1				0.26			
+		tex_v2				0.5			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.2			
+		width				1.2				
+		density				40
+		tex_v1				0.51			
+		tex_v2				0.75			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense 
+	{
+		avg_height			0.8			
+		width				1.5				
+		density				40
+		tex_v1				0.76			
+		tex_v2				0.99			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate alpine
+{
+	texture					chivalry/data/textures/alpine.tga
+	spacing					0.5	
+	present_in_winter		false
+
+	ground_type grass_short
+	{
+		avg_height			0.7			
+		width				1.2				
+		density				30
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.3  ;;was 0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			0.6			
+		width				1.0				
+		density				40
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				0.3  ;;was 0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type  mud
+	{
+		avg_height			1.0			
+		width				1.0				
+		density				50
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.0			
+		width				1.4				
+		density				30
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			1.0			
+		width				1.0				
+		density				50
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.3  ;;was 0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate sub_arctic
+{
+	texture					chivalry/data/textures/subarctic.tga
+	spacing					0.5	
+	present_in_winter		true
+
+	ground_type grass_short
+	{
+		avg_height			0.7			
+		width				1.5				
+		density				35
+		tex_v1				0.0			
+		tex_v2				0.18			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type mud
+	{
+		avg_height			0.6			
+		width				2.0				
+		density				15
+		tex_v1				0.2			
+		tex_v2				0.38			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			0.8			
+		width				2.0				
+		density				50
+		tex_v1				0.4			
+		tex_v2				0.58			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			0.8			
+		width				1.7				
+		density				40
+		tex_v1				0.6			
+		tex_v2				0.78			
+		falloff				0.4
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			0.7			
+		width				1.0				
+		density				50
+		tex_v1				0.8			
+		tex_v2				0.98			
+		falloff				0.5
+		colour				0,0,0
+		correction			0.1
+	}
+}
