@@ -26,15 +26,15 @@ climate test_climate         ;;done
 	heat	3
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
 	
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
 
 	battle_vegetation
 	dense_forest		rs_medi_forest
@@ -52,13 +52,13 @@ climate temperate_grassland_infertile   ;;done
 	heat	2
 	winter
 	
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a.cas						1
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a.cas						1
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
 
 	battle_vegetation
 	dense_forest		rs_infertile_grass_forest
@@ -76,13 +76,13 @@ climate temperate_grassland_fertile        ;;;done
 	heat	2
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a.cas						1
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a.cas						1
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_impassable.cas			0
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_canopy.cas				12
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/birch_a_canopy_winter.cas		13
 
 	battle_vegetation
 	dense_forest		rs_fertile_grass_forest
@@ -99,8 +99,8 @@ climate sandy_desert             ;;done
 	colour	102 45 145
 	heat	4
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_a.cas	8
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_b.cas	9
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/palm_a.cas	8
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/palm_b.cas	9
 
 	battle_vegetation
 	dense_forest		rs_sandy_desert
@@ -117,11 +117,11 @@ climate rocky_desert              ;;done
 	colour	146 39 143
 	heat	4
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_a.cas	8
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/palm_b.cas	9
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_b.cas	5
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_a.cas			5
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/tropical_group_b.cas			5
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/palm_a.cas	8
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/palm_b.cas	9
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/tropical_group_b.cas	5
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/tropical_group_a.cas			5
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/tropical_group_b.cas			5
 
 	battle_vegetation
 	dense_forest		rs_rocky_desert
@@ -139,13 +139,13 @@ climate temperate_forest_open   ;;done
 	heat	2
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas						1
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_impassable.cas			0
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_canopy.cas				12
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a.cas						1
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a_impassable.cas			0
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a_canopy.cas				12
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_winter.cas				5
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_impassable_winter.cas	4
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a_canopy_winter.cas		13
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a_winter.cas				5
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a_impassable_winter.cas	4
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a_canopy_winter.cas		13
 
 	battle_vegetation
 	dense_forest		rs_forest_open
@@ -163,13 +163,13 @@ climate temperate_forest_deep       ;;done
 	heat	2
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
 
 	battle_vegetation
 	dense_forest		rs_forest_deep
@@ -203,13 +203,13 @@ climate highland    ;;done for now
 	heat	3
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
 		
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
 	
 	battle_vegetation
 	dense_forest		rs_highland_forest
@@ -227,13 +227,13 @@ climate alpine                 ;;;done
 	heat	2
 	winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a.cas						2
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a.cas						2
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable.cas			3
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy.cas				14
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
-	strategy	winter	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_winter.cas				7
+	strategy	winter	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/conifer_a_canopy_winter.cas			15
 
 	battle_vegetation
 	dense_forest		rs_alpine_forest
@@ -251,10 +251,10 @@ climate sub_arctic        ;;Now a Mid-east\African coastal climate
 	heat	4
 ;        winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				10
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
-	strategy	summer	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a.cas				10
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	summer	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		12
 
 	battle_vegetation
 	dense_forest		rs_arctic_forest
@@ -272,15 +272,15 @@ climate semi_arid             ;;;done for now
 	heat	4
         winter
 
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas	8
-	strategy	summer	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
-	strategy	summer	dense_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a.cas	8
+	strategy	summer	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
+	strategy	summer	dense_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_impassable.cas	10
 
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/cypress_a.cas			11
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a.cas				8
-	strategy	winter	sparse_tree	../../../../chivalry/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
-	strategy	winter	canopy		../../../../chivalry/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		10
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/cypress_a.cas			11
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a.cas				8
+	strategy	winter	sparse_tree	../../../../mve_rex/data/terrain/aerial_map/tree_models/deciduous_a.cas	9
+	strategy	winter	canopy		../../../../mve_rex/data/terrain/aerial_map/tree_models/olive_a_canopy.cas		10
 
 
 	battle_vegetation

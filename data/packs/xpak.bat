@@ -1,0 +1,2 @@
+xpak.exe -mkdir mod_0.pak mod_1.pak battle_open.pak game_init.pak models_buildings_textures.pak models_units_textures.pak patch_0.pak sprites_0.pak sprites_1.pak ui_0.pak ui_1.pak
+xpak.exe  mod_0.pak mod_1.pak battle_open.pak game_init.pak models_buildings_textures.pak models_units_textures.pak patch_0.pak sprites_0.pak sprites_1.pak ui_0.pak ui_1.pak

@@ -5406,7 +5406,7 @@ Trigger trigger_priest_of_Zeus6
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
           and SettlementBuildingExists >= temple_of_governors_temple
-          and FactionType baktria
+          and FactionType greek_cities
           and IsGeneral
 
     AcquireAncillary priest_of_Zeus6 chance  15 
@@ -5450,7 +5450,7 @@ Trigger trigger_priest_of_Shiva
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
           and SettlementBuildingExists >= temple_of_battle_temple
-          and FactionType baktria
+          and FactionType greek_cities
           and IsGeneral
 
     AcquireAncillary priest_of_Shiva chance  15 
@@ -5461,7 +5461,7 @@ Trigger trigger_priest_of_Brahma
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
           and SettlementBuildingExists >= temple_of_fertility_temple
-          and FactionType baktria
+          and FactionType greek_cities
           and IsGeneral
 
     AcquireAncillary priest_of_Brahma chance  15 
@@ -5472,7 +5472,7 @@ Trigger trigger_priest_of_Vishnu
     Condition EndedInSettlement
           and RemainingMPPercentage = 100
           and SettlementBuildingExists >= temple_of_governors_temple
-          and FactionType baktria
+          and FactionType greek_cities
           and IsGeneral
 
     AcquireAncillary priest_of_Vishnu chance  15 

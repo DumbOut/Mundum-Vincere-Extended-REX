@@ -36,7 +36,7 @@ max_angle	60
 velocity	48
 display		particle_trail
 triangle
-texture		NL_2/data/textures/HD_Arrow.tga
+texture		data/textures/HD_Arrow.tga
 tail		0.3
 length		2.5
 tail_tex0	0 0.0 
@@ -60,7 +60,7 @@ max_angle	70
 velocity	48
 display		aimed
 triangle	
-texture		NL_2/data/textures/HD_Fiery_Arrow.tga
+texture		data/textures/HD_Fiery_Arrow.tga
 tail		0.3
 length		2.5
 tail_tex0	0 0.0 
@@ -255,8 +255,8 @@ min_angle	-60
 max_angle	60
 velocity	48
 display		aimed invert_model_z 
-model		NL_2/data/models_missile/arrow_heavy_high.cas, 40
-model		NL_2/data/models_missile/arrow_heavy_high.cas,  max
+model		data/models_missile/arrow_heavy_high.cas, 40
+model		data/models_missile/arrow_heavy_high.cas,  max
 
 projectile pilum
 

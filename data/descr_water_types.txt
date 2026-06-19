@@ -32,7 +32,7 @@ sea default
 		layer 0										; maximum of 4 layers (0 to 3)
 		{
 			type				diffuse				; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/diffuse_01_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/diffuse_01_128.tga
 			opacity				0.7					; <0.0 to 1.0>
 			scale				100.0	100.0		; <metres>
 			offset				0.0		0.0			; <metres>
@@ -45,7 +45,7 @@ sea default
 		layer 1										; maximum of 4 layers (0 to 3)
 		{
 			type				diffuse				; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/diffuse_01_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/diffuse_01_128.tga
 			opacity				0.4					; <0.0 to 1.0>
 			scale				25.0	25.0		; <metres>
 			offset				0.0		0.0			; <metres>
@@ -58,7 +58,7 @@ sea default
 		layer 2										; maximum of 4 layers (0 to 3)
 		{
 			type				specular			; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/specular_01.tga
+			texture				mve_rex/data/terrain/battlefield/water/specular_01.tga
 			opacity				1.0					; <0.0 to 1.0>
 			min_sharpness		7.0					; specular sharpness at noon
 			max_sharpness		25.0				; specular sharpness at dawn/dusk
@@ -72,7 +72,7 @@ sea default
 		layer 3										; maximum of 4 layers (0 to 3)
 		{
 			type				specular			; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/specular_02_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/specular_02_128.tga
 			opacity				1.0					; <0.0 to 1.0>
 			min_sharpness		7.0					; specular sharpness at noon
 			max_sharpness		17.0				; specular sharpness at dawn/dusk
@@ -124,7 +124,7 @@ sea default
 			shore_ratio			0.20				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -153,7 +153,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -183,7 +183,7 @@ sea default
 			shore_ratio			0.20				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -212,7 +212,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -240,7 +240,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -270,7 +270,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -298,7 +298,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -326,7 +326,7 @@ sea default
 			shore_ratio			0.05				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -356,7 +356,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -384,7 +384,7 @@ sea default
 			shore_ratio			0.05				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -413,7 +413,7 @@ river default
 		layer 0
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/river02.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/river02.tga
 			opacity				0.7
 			scale				2.0		2.0
 			offset				0.0		0.0
@@ -426,7 +426,7 @@ river default
 		layer 1
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/river02.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/river02.tga
 			opacity				0.4
 			scale				0.5		0.5
 			offset				0.0		0.0
@@ -439,7 +439,7 @@ river default
 		layer 2
 		{
 			type				specular
-			texture				chivalry/data/terrain/battlefield/water/specular_01.tga
+			texture				mve_rex/data/terrain/battlefield/water/specular_01.tga
 			opacity				1.0
 			min_sharpness		7.0
 			max_sharpness		25.0
@@ -453,7 +453,7 @@ river default
 		layer 3
 		{
 			type				specular
-			texture				chivalry/data/terrain/battlefield/water/specular_02_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/specular_02_128.tga
 			opacity				1.0
 			min_sharpness		7.0
 			max_sharpness		17.0
@@ -492,12 +492,12 @@ sea test_climate summer
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/river02.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/river02.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/river02.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/river02.tga
 		}
 	}
 }

@@ -28,7 +28,7 @@ effect soldier_foot_water_trail
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/ripple_01.tga ;; pink.tga ; trail_01.tga 
+				texture mve_rex/data/battlefield/water/ripple_01.tga ;; pink.tga ; trail_01.tga 
 		}
 }
 
@@ -50,7 +50,7 @@ effect soldier_water_trail
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail.tga ;trail.tga
+				texture mve_rex/data/battlefield/water/trail.tga ;trail.tga
 
 				tex_anim
 				{
@@ -79,7 +79,7 @@ effect soldier_water_trail_simple
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail_01.tga 
+				texture mve_rex/data/battlefield/water/trail_01.tga 
 		}
 }
 
@@ -101,7 +101,7 @@ effect horse_water_trail
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail.tga ; trail.tga
+				texture mve_rex/data/battlefield/water/trail.tga ; trail.tga
 
 				tex_anim
 				{
@@ -130,7 +130,7 @@ effect horse_water_trail_simple
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail_01.tga 
+				texture mve_rex/data/battlefield/water/trail_01.tga 
 		}
 }
  
@@ -154,7 +154,7 @@ effect elephant_water_trail
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail.tga ;trail.tga
+				texture mve_rex/data/battlefield/water/trail.tga ;trail.tga
 
 				tex_anim
 				{
@@ -187,7 +187,7 @@ effect chariot_water_trail
 					keyframe		1.0		0   255 255 255
 				}
 		
-				texture chivalry/data/battlefield/water/trail.tga ;trail.tga
+				texture mve_rex/data/battlefield/water/trail.tga ;trail.tga
 
 				tex_anim
 				{
@@ -216,7 +216,7 @@ effect arrow_ripple ; <effect_name>
 					keyframe		1.0		0   255 255 255
 				}
 
-				texture			chivalry/data/battlefield/water/ripple_01.tga
+				texture			mve_rex/data/battlefield/water/ripple_01.tga
 	   }			   
 }
 
@@ -236,7 +236,7 @@ effect arrow_ripple ; <effect_name>
 					keyframe		1.0		0   255 255 255
 				}
 
-				texture			chivalry/data/battlefield/water/ripple_01.tga
+				texture			mve_rex/data/battlefield/water/ripple_01.tga
 	   }			   
 }
 
@@ -255,7 +255,7 @@ effect footstep_ripple
 					keyframe		1.0		0   255 255 255
 				}
 
-				texture			chivalry/data/battlefield/water/ripple_01.tga
+				texture			mve_rex/data/battlefield/water/ripple_01.tga
 	   }			   
 }
 
@@ -366,7 +366,7 @@ effect_set camel_water_trail
 ;; 			width		0.5 	; <meters>
 ;; 			height 		0.5		; <meters>
 	
-;; 			texture		chivalry/data/battlefield/water/ripple_01.tga
+;; 			texture		mve_rex/data/battlefield/water/ripple_01.tga
 ;; 		}
 	
 ;; 		modifier colour_lookup
@@ -396,7 +396,7 @@ effect_set camel_water_trail
 
 ;; 		modifier static_texture
 ;; 		{
-;; 			texture chivalry/data/battlefield/water/ripple_01.tga
+;; 			texture mve_rex/data/battlefield/water/ripple_01.tga
 ;; 		}
 ;; 	}
 ;; }

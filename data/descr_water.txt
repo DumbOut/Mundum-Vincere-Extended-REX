@@ -37,7 +37,7 @@ sea default
 		layer 0										; maximum of 4 layers (0 to 3)
 		{
 			type				diffuse				; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/river/atlantic.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/atlantic.tga
 			opacity				1.0					; <0.0 to 1.0>
 			scale				40.0	40.0		; <metres>
 			offset				0.0		0.0			; <metres>
@@ -50,7 +50,7 @@ sea default
 		layer 1										; maximum of 4 layers (0 to 3)
 		{
                         type				diffuse			; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/river/atlantic.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/atlantic.tga
 			opacity				0.6					; <0.0 to 1.0>
 			scale				25.0	25.0		; <metres>
 			offset				0.0		0.0			; <metres>
@@ -63,8 +63,8 @@ sea default
 		layer 2										; maximum of 4 layers (0 to 3)
 		{
 			type				specular				; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/New_shader.tga   ;;ocean_under2.tga
-                        ;texture				chivalry/data/terrain/battlefield/water/ocean_under.tga           ;;the game will use this second layer
+			texture				mve_rex/data/terrain/battlefield/water/New_shader.tga   ;;ocean_under2.tga
+                        ;texture				mve_rex/data/terrain/battlefield/water/ocean_under.tga           ;;the game will use this second layer
 			opacity				1.0					; <0.0 to 1.0>
 			min_sharpness			4.0					; specular sharpness at noon
 			max_sharpness			11.0				; specular sharpness at dawn/dusk
@@ -78,8 +78,8 @@ sea default
 		layer 3										; maximum of 4 layers (0 to 3)
 		{
 			type				specular			; <diffuse, specular>
-			texture				chivalry/data/terrain/battlefield/water/New_shader_1.tga  ;;specular_01d.tga
-                        ;texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture				mve_rex/data/terrain/battlefield/water/New_shader_1.tga  ;;specular_01d.tga
+                        ;texture				mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity				1.0					; <0.0 to 1.0>
 			min_sharpness			4.0					; specular sharpness at noon
 			max_sharpness			11.0			; specular sharpness at dawn/dusk, was set to 17
@@ -131,7 +131,7 @@ sea default
 			shore_ratio			0.20				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -160,7 +160,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -190,7 +190,7 @@ sea default
 			shore_ratio			0.20				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -219,7 +219,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -247,7 +247,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -277,7 +277,7 @@ sea default
 			shore_ratio			0.25				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_256_128.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_256_128.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -305,7 +305,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -333,7 +333,7 @@ sea default
 			shore_ratio			0.05				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -363,7 +363,7 @@ sea default
 			shore_ratio			0.15				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -391,7 +391,7 @@ sea default
 			shore_ratio			0.05				; <0.0 to 1.0>
 			wave_ratio			0.5					; <0.0 to 1.0>
 		
-			texture				chivalry/data/terrain/battlefield/water/waves/waves_128_64.tga
+			texture				mve_rex/data/terrain/battlefield/water/waves/waves_128_64.tga
 			;texture			...					; <filename> - additional variant
 			;texture			...					; <filename> - additional variant
 		
@@ -421,7 +421,7 @@ river default
 		layer 0
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/terrainbravilbase03.tga   ;;Medi_river_ground2.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/terrainbravilbase03.tga   ;;Medi_river_ground2.tga
 			opacity			0.7
 			scale			10.0	10.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -433,7 +433,7 @@ river default
 		layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/desert_river4.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/desert_river4.tga
 			opacity			0.35
 			scale			80.0	80.0             ;;;was 25.0
 			offset			0.0	0.0
@@ -445,7 +445,7 @@ river default
 		layer 2
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/medi_river_top_black.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/medi_river_top_black.tga
 			opacity			0.15
 			scale			80.0	80.0             ;;;was 25.0
 			offset			0.0	0.0
@@ -457,8 +457,8 @@ river default
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader_5.tga   ;;specular_01med.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader_5.tga   ;;specular_01med.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -472,8 +472,8 @@ river default
 		layer 4
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader_4.tga  ;;specular_01med2.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader_4.tga  ;;specular_01med2.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -510,7 +510,7 @@ river alpine
 		layer 0
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/river_rock_small2.tga  ;;stationary river bottom for shallow river.
+			texture				mve_rex/data/terrain/battlefield/water/river/river_rock_small2.tga  ;;stationary river bottom for shallow river.
 			opacity			1.0
 			scale			20.0		20.0     ;;;was 7.5
 			offset			0.0		0.0
@@ -523,7 +523,7 @@ river alpine
 		layer 1
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/river_alpine.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/river_alpine.tga
 			opacity			0.4                                                            ;;this setting is lowered until water is crystal clear.
 			scale			20.0		20.0     ;;;was 7.5                            ;;which allows seeing the bottom. The purpose of this
 			offset			0.0		0.0                                            ;;texture is to provide a sort of 'shader' looking away
@@ -535,7 +535,7 @@ river alpine
 		layer 2
 		{
 			type				specular
-			texture				chivalry/data/terrain/battlefield/water/specular_01b.tga
+			texture				mve_rex/data/terrain/battlefield/water/specular_01b.tga
 			opacity			0.7
                         min_sharpness		4.0
 			max_sharpness		11.0
@@ -549,8 +549,8 @@ river alpine
 		layer 3
 		{
 			type				specular
-			texture				chivalry/data/terrain/battlefield/water/New_shader.tga
-                        ;texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture				mve_rex/data/terrain/battlefield/water/New_shader.tga
+                        ;texture				mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -564,8 +564,8 @@ river alpine
 		layer 4                          ;;;I do not know what the limit is, but this is one layer beyond anything RTW Vanilla provided for.
 		{
 			type				specular
-			texture				chivalry/data/terrain/battlefield/water/New_shader_1.tga
-                        texture				chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture				mve_rex/data/terrain/battlefield/water/New_shader_1.tga
+                        texture				mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -601,7 +601,7 @@ river swamp
 		layer 0
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/swamp_bottom.tga  ;;non-moving layer than subs as river bottom.
+			texture				mve_rex/data/terrain/battlefield/water/river/swamp_bottom.tga  ;;non-moving layer than subs as river bottom.
 			opacity			0.8
 			scale			5.0		5.0     ;;;was 7.5
 			offset			0.0		0.0
@@ -614,7 +614,7 @@ river swamp
 		layer 1
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/desert_river.tga   ;;swamp_top.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/desert_river.tga   ;;swamp_top.tga
 			opacity			0.5
 			scale			10.0		10.0     ;;;was 7.5
 			offset			0.0		0.0
@@ -626,8 +626,8 @@ river swamp
 		layer 2
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			0.5
 			min_sharpness		4.0
 			max_sharpness		9.0
@@ -641,8 +641,8 @@ river swamp
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			0.4
 			min_sharpness		4.0
 			max_sharpness		9.0
@@ -678,7 +678,7 @@ river fertile
 		layer 0
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/desert_river_ground3.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/desert_river_ground3.tga
 			opacity				0.9
 			scale				10.0		10.0     ;;;was 7.5
 			offset				0.0		0.0
@@ -691,7 +691,7 @@ river fertile
 		layer 1
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/desert_river.tga
 			opacity				0.6
 			scale				50.0	50.0             ;;;was 25.0
 			offset				0.0		0.0
@@ -703,8 +703,8 @@ river fertile
 		layer 2
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -718,8 +718,8 @@ river fertile
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med2.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med2.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -755,7 +755,7 @@ river forest
 		layer 0
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/fertile_river_ground.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/fertile_river_ground.tga
 			opacity			0.9
 			scale			10.0	10.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -767,7 +767,7 @@ river forest
                 layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/desert_river.tga
 			opacity			0.6
 			scale			50.0	50.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -779,7 +779,7 @@ river forest
 		layer 2
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/river_alpine.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/river_alpine.tga
 			opacity			0.2                                                            ;;this setting is lowered until water is crystal clear.
 			scale			20.0		20.0                                           ;;which allows seeing the bottom. The purpose of this
 			offset			0.0		0.0                                            ;;texture is to provide a sort of 'shader' looking away
@@ -791,8 +791,8 @@ river forest
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		11.0
@@ -806,8 +806,8 @@ river forest
 		layer 4
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader_1.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader_1.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
 			opacity			1.0
 			min_sharpness		7.0
 			max_sharpness		17.0
@@ -843,7 +843,7 @@ river desert      ;;perfect
 		layer 0
 		{
 			type				diffuse
-			texture				chivalry/data/terrain/battlefield/water/river/silotown_dirt01.tga  ;;stationary river bottom for shallow river.
+			texture				mve_rex/data/terrain/battlefield/water/river/silotown_dirt01.tga  ;;stationary river bottom for shallow river.
 			opacity			1.0
 			scale			40.0		40.0     ;;;was 7.5
 			offset			0.0		0.0
@@ -855,7 +855,7 @@ river desert      ;;perfect
                 layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/desert_river.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/desert_river.tga
 			opacity			0.7
 			scale			200.0	200.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -867,8 +867,8 @@ river desert      ;;perfect
 		layer 2
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/specular_01e.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		8.0
@@ -882,8 +882,8 @@ river desert      ;;perfect
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/oceantest_shader1.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			texture			mve_rex/data/terrain/battlefield/water/oceantest_shader1.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/specular_01e.tga
 			opacity			1.0
 			min_sharpness		4.0
 			max_sharpness		8.0
@@ -919,7 +919,7 @@ river infertile
 		layer 0
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/rock.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/rock.tga
 			opacity			0.6
 			scale			20.0	20.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -931,7 +931,7 @@ river infertile
                 layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/infertile_river_top.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/infertile_river_top.tga
 			opacity			0.5
 			scale			180.0	180.0             ;;;was 25.0
 			offset			0.0		0.0
@@ -943,8 +943,8 @@ river infertile
 		layer 2
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/specular_01e.tga
 			opacity			1.0
 			min_sharpness		6.0
 			max_sharpness		15.0
@@ -958,8 +958,8 @@ river infertile
 		layer 3
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/New_shader_1.tga
-                        ;texture			chivalry/data/terrain/battlefield/water/specular_01e.tga
+			texture			mve_rex/data/terrain/battlefield/water/New_shader_1.tga
+                        ;texture			mve_rex/data/terrain/battlefield/water/specular_01e.tga
 			opacity			1.0
 			min_sharpness		7.0
 			max_sharpness		17.0
@@ -995,7 +995,7 @@ river winter_north          ;;this is a frozen ice\snow-covered river for a cold
 		layer 0
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/river02.tga  ;;river_forest.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/river02.tga  ;;river_forest.tga
 			opacity			0.7
 			scale			7.5	7.5
 			offset			0.0	0.0
@@ -1008,7 +1008,7 @@ river winter_north          ;;this is a frozen ice\snow-covered river for a cold
 		layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/ice_winter_north.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/ice_winter_north.tga
 			opacity			1.0
 			scale			50.0	50.0
 			offset			0.0	0.0
@@ -1042,7 +1042,7 @@ river winter_med                   ;;this is a frozen ice-covered river
 		layer 0
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/river02.tga    ;;river_forest.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/river02.tga    ;;river_forest.tga
 			opacity			0.5
 			scale			20.0	20.0
 			offset			0.0	0.0
@@ -1055,7 +1055,7 @@ river winter_med                   ;;this is a frozen ice-covered river
 		layer 1
 		{
 			type			diffuse
-			texture			chivalry/data/terrain/battlefield/water/river/ice_med.tga
+			texture			mve_rex/data/terrain/battlefield/water/river/ice_med.tga
 			opacity			0.8
                         scale			20.0	20.0
 			offset			0.0	0.0
@@ -1067,7 +1067,7 @@ river winter_med                   ;;this is a frozen ice-covered river
 		layer 2
 		{
 			type			specular
-			texture			chivalry/data/terrain/battlefield/water/specular_01med.tga
+			texture			mve_rex/data/terrain/battlefield/water/specular_01med.tga
 			opacity			1.0
 			min_sharpness		7.0
 			max_sharpness		17.0
@@ -1106,12 +1106,12 @@ sea test_climate summer
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean1.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean1.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1124,12 +1124,12 @@ sea test_climate winter
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean1.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean1.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1156,12 +1156,12 @@ sea sandy_desert summer
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1174,12 +1174,12 @@ sea sandy_desert winter
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1206,12 +1206,12 @@ sea rocky_desert summer
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1224,12 +1224,12 @@ sea rocky_desert winter
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1496,12 +1496,12 @@ sea semi_arid summer
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
@@ -1514,12 +1514,12 @@ sea semi_arid winter
 	{
 		layer 0
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 
 		layer 1
 		{
-			texture				chivalry/data/terrain/battlefield/water/river/mediter_ocean.tga
+			texture				mve_rex/data/terrain/battlefield/water/river/mediter_ocean.tga
 		}
 	}
 }
