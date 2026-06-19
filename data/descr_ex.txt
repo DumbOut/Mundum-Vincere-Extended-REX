@@ -27,7 +27,7 @@ superfaction_min_regions 29
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 10219.0
+camera_max_height 12000.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -63,34 +63,7 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first false
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; AI end-turn speed
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; 0 = full AI, 1 = skip AI movement controllers, 2 = full AI with instant movement/conquest.
-; Level 2 keeps AI conquest/movement logic but skips visual waiting and uses fast economy caches
-; for very large REX campaigns.
-fast_ai_end_turn_level 0
-
-; Keep vanilla AI diplomacy proposals in fast mode. Confederate AI still runs even when this is false.
-fast_ai_end_turn_keep_diplomacy false
-
-; Force AI campaign movement animations through the existing fast-forward path.
-fast_ai_end_turn_skip_animations false
-
-; Let AI factions reuse cached denarii-per-turn in fast mode instead of recalculating
-; every AI settlement's projected finance report during the yearly pass.
-fast_ai_end_turn_fast_economy false
-
-; In level 2, cap vanilla diplomacy mission candidates per faction per turn.
-; 0 = unlimited full scan; 64 rotates through huge faction lists over multiple turns.
-fast_ai_end_turn_diplomacy_candidate_limit 10
-
-; In level 2, cap confederation AI candidate checks per faction per turn.
-; 0 = unlimited full scan; 24 keeps huge campaigns responsive while rotating candidates each turn.
-fast_ai_end_turn_confederation_candidate_limit 2
+free_upkeep_cheap_first true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; EX feature toggles
@@ -116,15 +89,13 @@ secondary_sack_options_enable true
 unlimited_superfactions_enable true
 client_kingdom_only_units_enable true
 regional_revolt_faction_enable true
-custom_climates_enable true
-tertiary_faction_colour_enable false ;;old
 
 ; Multiplayer campaign. Enable this to start the RTW Multiplayer Campaign
 ; framework from the normal imperial campaign flow. If multiplayer_campaign.json
 ; is enabled, only its listed factions become human; otherwise playable factions
 ; are used for a hotseat fallback.
 multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 12
+multiplayer_campaign_max_players 14
 multiplayer_campaign_debug_logs true
 multiplayer_campaign_checksums false
 multiplayer_campaign_allow_multi_faction_player true
@@ -137,7 +108,7 @@ multiplayer_campaign_allow_spectators true
 
 ; Battle lobby/player cap for RTW multiplayer battles. The compiled ceiling is
 ; MAX_FACTIONS_PER_BATTLE.
-multiplayer_battle_max_players 12
+multiplayer_battle_max_players 14
 
 ; Naval blockade trade-route raiding.
 naval_trade_route_raiding_enable true
@@ -146,7 +117,7 @@ naval_trade_route_raiding_income_cap 100.0
 
 ; Settlement UI/display increments.
 population_growth_increment 0.1
-income_growth_increment 1.0
+income_growth_increment 1.5
 
 ; Armor/weapon upgrade-cost multiplier for retraining.
 ; Use one value for all cultures, or culture + value for a culture override.
@@ -253,7 +224,3 @@ max_num_ancillaries 256
 
 ; Max children a character can have (default 4)
 max_num_children 400
-
-; Show every independent family root in the family-tree scroll.
-; The next-family button cycles roots; roots without a surname display as House of <first name>.
-multiple_family_trees_enable false ;;old

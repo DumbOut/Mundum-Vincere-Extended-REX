@@ -78,6 +78,10 @@
 {ST_HIGH}					High
 {ST_SUPER_HIGH}					Super high
 {ST_SCREENMODE}					Screen mode
+{ST_DISPLAY_MODE}					Display mode
+{ST_DISPLAY_FULLSCREEN}					Fullscreen
+{ST_DISPLAY_BORDERLESS}					Borderless
+{ST_DISPLAY_WINDOWED}					Windowed
 {ST_LOAD_SUCCESS}					Game load succeeded
 {ST_LOAD_FAILED}					Game load failed
 {ST_SAVE_SUCCESS}					Game save succeeded
@@ -718,7 +722,10 @@
 {ST_GFX_HIGH}	High
 {ST_PAUSE_DIFFICULTY}	Difficulty:
 {ST_PAUSE_DIFFICULTY_TOOLTIP}	Campaign / Battle difficulty
+{ST_DIFFICULTY_VERY_EASY}	Very Easy
 {ST_DIFFICULTY_EASY}	Easy
 {ST_DIFFICULTY_MEDIUM}	Medium
 {ST_DIFFICULTY_HARD}	Hard
 {ST_DIFFICULTY_VERY_HARD}	Very Hard
+{ST_DIFFICULTY_EXTREME}	Extreme
+{ST_DIFFICULTY_HELL}	Hell

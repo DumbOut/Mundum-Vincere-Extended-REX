@@ -3386,6 +3386,31 @@
       </Parameters>
       <object_id>empty_art</object_id>
     </UI piece>
+    <UI piece>video_display_mode_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>706</x>
+        <y>212</y>
+        <width>256</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_DISPLAY_MODE
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_display_mode
+      <identifier>UIP_VIDEO_DISPLAY_MODE_DROPDOWN</identifier>
+      <Parameters>
+        <x>706</x>
+        <y>240</y>
+        <width>256</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_INFO_RESOLUTION</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
     <UI piece>res_dropdown2
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
@@ -5118,6 +5143,18 @@
         <height>59</height>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
+    </UI piece>
+    <UI piece>custom_faction_select_vertical_slider
+      <identifier>UIP_CUSTOM_FACTION_SLIDER</identifier>
+      <Parameters>
+        <x>997</x>
+        <y>250</y>
+        <width>17</width>
+        <height>377</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+      <edit_group_id>factions</edit_group_id>
     </UI piece>
   </lpage>
   <lpage>provincial_campaign
@@ -9323,6 +9360,18 @@
       </Parameters>
       <object_id>empty_toggle_button</object_id>
     </UI piece>
+    <UI piece>custom_faction_select_vertical_slider
+      <identifier>UIP_CUSTOM_FACTION_SLIDER</identifier>
+      <Parameters>
+        <x>997</x>
+        <y>186</y>
+        <width>17</width>
+        <height>381</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
     <UI piece>arrow_large_left_mp_cf_1
       <identifier>UIP_EMPTY_PUSH_BUTTON</identifier>
       <Parameters>
@@ -11101,6 +11150,18 @@
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>custom_faction_select_vertical_slider
+      <identifier>UIP_CUSTOM_FACTION_SLIDER</identifier>
+      <Parameters>
+        <x>997</x>
+        <y>158</y>
+        <width>17</width>
+        <height>380</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
       <edit_group_id>factions</edit_group_id>
     </UI piece>
     <UI piece>arrow_large_left_mp_cf_1
@@ -14382,6 +14443,18 @@
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
       </Parameters>
       <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>custom_faction_select_vertical_slider
+      <identifier>UIP_CUSTOM_FACTION_SLIDER</identifier>
+      <Parameters>
+        <x>997</x>
+        <y>148</y>
+        <width>17</width>
+        <height>380</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
       <edit_group_id>factions</edit_group_id>
     </UI piece>
     <UI piece>arrow_large_left_mp_cf_1
