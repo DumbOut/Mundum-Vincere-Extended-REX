@@ -3386,6 +3386,31 @@
       </Parameters>
       <object_id>empty_art</object_id>
     </UI piece>
+    <UI piece>video_display_mode_text
+      <identifier>UIP_STATIC_TEXT</identifier>
+      <Parameters>
+        <x>706</x>
+        <y>212</y>
+        <width>256</width>
+        <height>26</height>
+        <UI text>UI_VIDEO_DISPLAY_MODE
+          <font_id>arial_split_CAF</font_id>
+          <align>left</align>
+        </UI text>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
+    <UI piece>video_display_mode
+      <identifier>UIP_VIDEO_DISPLAY_MODE_DROPDOWN</identifier>
+      <Parameters>
+        <x>706</x>
+        <y>240</y>
+        <width>256</width>
+        <height>32</height>
+        <tool_tip_id>UI_VIDEO_INFO_RESOLUTION</tool_tip_id>
+      </Parameters>
+      <object_id>empty_art</object_id>
+    </UI piece>
     <UI piece>res_dropdown2
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
@@ -17995,7 +18020,7 @@
     <UI piece>ImpCam_arrow_continue
       <identifier>UIP_START_IMPERIAL_CAMPAIGN</identifier>
       <Parameters>
-        <x>956</x>
+        <x>963</x>
         <y>722</y>
         <width>57</width>
         <height>33</height>
@@ -18006,7 +18031,7 @@
     <UI piece>choose_faction_arrow_return
       <identifier>UIP_BACK_BUTTON</identifier>
       <Parameters>
-        <x>10</x>
+        <x>5</x>
         <y>715</y>
         <width>41</width>
         <height>46</height>
@@ -18108,8 +18133,8 @@
     <UI piece>CFP_symbol48_1
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>156</y>
+        <x>730</x>
+        <y>50</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18120,8 +18145,8 @@
     <UI piece>CFP_symbol48_2
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>156</y>
+        <x>788</x>
+        <y>50</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18132,8 +18157,8 @@
     <UI piece>CFP_symbol48_3
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>156</y>
+        <x>846</x>
+        <y>50</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18144,8 +18169,8 @@
     <UI piece>CFP_symbol48_4
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>156</y>
+        <x>904</x>
+        <y>50</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18156,8 +18181,8 @@
     <UI piece>CFP_symbol48_5
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>209</y>
+        <x>962</x>
+        <y>50</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18168,8 +18193,8 @@
     <UI piece>CFP_symbol48_6
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>209</y>
+        <x>730</x>
+        <y>110</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18180,8 +18205,8 @@
     <UI piece>CFP_symbol48_7
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>209</y>
+        <x>788</x>
+        <y>110</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18192,8 +18217,8 @@
     <UI piece>CFP_symbol48_8
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>209</y>
+        <x>846</x>
+        <y>110</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18204,8 +18229,8 @@
     <UI piece>CFP_symbol48_9
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>264</y>
+        <x>904</x>
+        <y>110</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18216,8 +18241,8 @@
     <UI piece>CFP_symbol48_10
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>264</y>
+        <x>962</x>
+        <y>110</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18228,8 +18253,8 @@
     <UI piece>CFP_symbol48_11
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>264</y>
+        <x>730</x>
+        <y>170</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18240,8 +18265,8 @@
     <UI piece>CFP_symbol48_12
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>264</y>
+        <x>788</x>
+        <y>170</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18252,8 +18277,8 @@
     <UI piece>CFP_symbol48_13
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>318</y>
+        <x>846</x>
+        <y>170</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18264,8 +18289,8 @@
     <UI piece>CFP_symbol48_14
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>318</y>
+        <x>904</x>
+        <y>170</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18276,8 +18301,8 @@
     <UI piece>CFP_symbol48_15
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>318</y>
+        <x>962</x>
+        <y>170</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18288,8 +18313,8 @@
     <UI piece>CFP_symbol48_16
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>318</y>
+        <x>730</x>
+        <y>230</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18300,8 +18325,8 @@
     <UI piece>CFP_symbol48_17
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>374</y>
+        <x>788</x>
+        <y>230</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18312,8 +18337,8 @@
     <UI piece>CFP_symbol48_18
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>374</y>
+        <x>846</x>
+        <y>230</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18324,8 +18349,8 @@
     <UI piece>CFP_symbol48_19
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>374</y>
+        <x>904</x>
+        <y>230</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18336,8 +18361,8 @@
     <UI piece>CFP_symbol48_20
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>374</y>
+        <x>962</x>
+        <y>230</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18348,8 +18373,8 @@
 	 <UI piece>CFP_symbol48_21
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>430</y>
+        <x>730</x>
+        <y>290</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18360,8 +18385,8 @@
 	<UI piece>CFP_symbol48_22
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>430</y>
+        <x>788</x>
+        <y>290</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18372,8 +18397,8 @@
 	<UI piece>CFP_symbol48_23
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861/x>
-        <y>430</y>
+        <x>846</x>
+        <y>290</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18384,8 +18409,8 @@
 	<UI piece>CFP_symbol48_24
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>430</y>
+        <x>904</x>
+        <y>290</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18396,8 +18421,8 @@
 	<UI piece>CFP_symbol48_25
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>486</y>
+        <x>962</x>
+        <y>290</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18408,8 +18433,8 @@
 	<UI piece>CFP_symbol48_26
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>486</y>
+        <x>730</x>
+        <y>350</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18420,8 +18445,8 @@
 	<UI piece>CFP_symbol48_27
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>486</y>
+        <x>788</x>
+        <y>350</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18432,8 +18457,8 @@
 	<UI piece>CFP_symbol48_28
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>486</y>
+        <x>846</x>
+        <y>350</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18444,8 +18469,8 @@
 	<UI piece>CFP_symbol48_29
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>542</y>
+        <x>904</x>
+        <y>350</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18456,8 +18481,8 @@
 	<UI piece>CFP_symbol48_30
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>542</y>
+        <x>962</x>
+        <y>350</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18468,8 +18493,8 @@
 	<UI piece>CFP_symbol48_31
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>542</y>
+        <x>730</x>
+        <y>410</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18480,8 +18505,8 @@
 	<UI piece>CFP_symbol48_32
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>542</y>
+        <x>788</x>
+        <y>410</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18492,8 +18517,8 @@
 	<UI piece>CFP_symbol48_33
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>598</y>
+        <x>846</x>
+        <y>410</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18504,8 +18529,8 @@
 	<UI piece>CFP_symbol48_34
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>598</y>
+        <x>904</x>
+        <y>410</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18516,8 +18541,8 @@
 	<UI piece>CFP_symbol48_35
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>598</y>
+        <x>962</x>
+        <y>410</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18528,8 +18553,8 @@
 	<UI piece>CFP_symbol48_36
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>598</y>
+        <x>730</x>
+        <y>470</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18540,8 +18565,8 @@
 	<UI piece>CFP_symbol48_37
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>745</x>
-        <y>654</y>
+        <x>788</x>
+        <y>470</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18552,8 +18577,8 @@
 	<UI piece>CFP_symbol48_38
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>803</x>
-        <y>654</y>
+        <x>846</x>
+        <y>470</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18564,8 +18589,8 @@
 	<UI piece>CFP_symbol48_39
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>861</x>
-        <y>654</y>
+        <x>904</x>
+        <y>470</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18576,8 +18601,8 @@
 	<UI piece>CFP_symbol48_40
       <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>919</x>
-        <y>654</y>
+        <x>962</x>
+        <y>470</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -18585,6 +18610,486 @@
       <object_id>empty_art</object_id>
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
+	<UI piece>CFP_symbol48_41
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>730</x>
+    <y>530</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_42
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>788</x>
+    <y>530</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_43
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>846</x>
+    <y>530</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_44
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>904</x>
+    <y>530</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_45
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>962</x>
+    <y>530</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_46
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>730</x>
+    <y>590</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_47
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>788</x>
+    <y>590</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_48
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>846</x>
+    <y>590</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_49
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>904</x>
+    <y>590</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_50
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>962</x>
+    <y>590</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_51
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>730</x>
+    <y>650</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_52
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>788</x>
+    <y>650</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_53
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>846</x>
+    <y>650</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_54
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>904</x>
+    <y>650</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_55
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>962</x>
+    <y>650</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_56
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>730</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_57
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>788</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_58
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>846</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_59
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>904</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_60
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>672</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_61
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>614</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_62
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>556</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_63
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>498</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_64
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>440</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_65
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>382</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_66
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>324</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_67
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>266</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_68
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>208</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_69
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>150</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_70
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>92</x>
+    <y>708</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_71
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>5</x>
+    <y>570</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_72
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>63</x>
+    <y>570</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_73
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>121</x>
+    <y>570</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_74
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>179</x>
+    <y>570</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_75
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>237</x>
+    <y>570</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_76
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>5</x>
+    <y>630</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_77
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>63</x>
+    <y>630</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_78
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>121</x>
+    <y>630</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_79
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>179</x>
+    <y>630</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
+	<UI piece>CFP_symbol48_80
+  <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+  <Parameters>
+    <x>237</x>
+    <y>630</y>
+    <width>59</width>
+    <height>59</height>
+    <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+  </Parameters>
+  <object_id>empty_art</object_id>
+  <edit_group_id>symbols</edit_group_id>
+	</UI piece>
     <UI piece>faction_name_title
       <identifier>UIP_SELECT_FACTION_NAME</identifier>
       <Parameters>
@@ -18678,8 +19183,8 @@
     <UI piece>factions
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
-        <x>780</x>
-        <y>117</y>
+        <x>796</x>
+        <y>20</y>
         <width>164</width>
         <height>26</height>
         <UI text>UI_FACTIONS_SELECT_FACTION
