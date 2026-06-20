@@ -7758,11 +7758,11 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 type				greek_hoplite_militia_sel_01
 skeleton			fs_s1_hoplite								; combat spear
 indiv_range			40
-texture			seleucid, data/models_unit/seleucid/textures/A_greek_militia_hoplite_seleucid.tga
-model_flexi			data/models_unit/seleucid/unit_NL_greek_hoplite_militia_high.cas, 15
-model_flexi			data/models_unit/seleucid/unit_NL_greek_hoplite_militia_med.cas, 30
-model_flexi			data/models_unit/seleucid/unit_NL_greek_hoplite_militia_low.cas, 40
-model_flexi			data/models_unit/seleucid/unit_NL_greek_hoplite_militia_lowest.cas, max
+texture			seleucid, data/models_unit/textures/A_greek_militia_hoplite_seleucid.tga
+model_flexi			data/models_unit/unit_NL_greek_hoplite_militia_high.cas, 15
+model_flexi			data/models_unit/unit_NL_greek_hoplite_militia_med.cas, 30
+model_flexi			data/models_unit/unit_NL_greek_hoplite_militia_low.cas, 40
+model_flexi			data/models_unit/unit_NL_greek_hoplite_militia_lowest.cas, max
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 ; ovhspear / xiphos
