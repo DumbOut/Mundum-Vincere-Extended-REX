@@ -1678,7 +1678,7 @@ Trait Deranged
 ;== 11) Commander Traits ==
 ;===============================================================
 
-;------------------------------------------		
+------------------------------------------
 Trait GoodCommander
     Characters family
     NoGoingBackLevel  6 
@@ -1691,7 +1691,7 @@ Trait GoodCommander
         Threshold  1 
 
         Effect Influence  1 
-		Effect MovementPoints 2
+        Effect MovementPoints  2 
 
     Level Good_Commander
         Description Good_Commander_desc
@@ -1700,7 +1700,7 @@ Trait GoodCommander
         Threshold  2 
 
         Effect Influence  2 
-		Effect MovementPoints 4
+        Effect MovementPoints  4 
 
     Level Superior_Commander
         Description Superior_Commander_desc
@@ -1709,7 +1709,7 @@ Trait GoodCommander
         Threshold  4 
 
         Effect Influence  3 
-		Effect MovementPoints 6
+        Effect MovementPoints  6 
 
     Level Great_Commander
         Description Great_Commander_desc
@@ -1718,17 +1718,31 @@ Trait GoodCommander
         Threshold  10 
 
         Effect Influence  4 
-		Effect MovementPoints 8
+        Effect MovementPoints  8 
 
     Level Legendary_Commander
         Description Legendary_Commander_desc
         EffectsDescription Legendary_Commander_effects_desc
         GainMessage Legendary_Commander_gain_desc
         Epithet Legendary_Commander_epithet_desc
+;------------------------------------------
+;------------------------------------------
         Threshold  18 
 
         Effect Influence  5 
-		Effect MovementPoints 10
+        Effect MovementPoints  10 
+        Effect Command  5 
+
+    Level Transcendent_Commander
+        Description GoodCommander_Level6_desc
+        EffectsDescription GoodCommander_Level6_effects_desc
+        GainMessage Transcendent_Commander_gain_desc
+        Threshold  36 
+
+        Effect Command  7 
+        Effect Authority  5 
+        Effect Influence  5 
+        Effect MovementPoints  12
 
 
 
