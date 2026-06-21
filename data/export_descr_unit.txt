@@ -3922,7 +3922,7 @@ category         infantry
 class            spearmen
 voice_type       Light_1
 soldier          greek_hoplite_militia_01, 60, 0, 1
-attributes       sea_faring, hide_forest, can_sap
+attributes       sea_faring, hide_forest, can_sap, expendable
 formation        1, 1, 2, 2, 5, square, phalanx
 stat_health      1, 0
 stat_pri         3, 1, no, 0, 0, melee, simple, piercing, spear, 25, 1
