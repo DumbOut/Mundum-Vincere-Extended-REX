@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<root>
+   <!--
+      Settlement population-level thresholds for RTW.
+
+      Each <level> sets the population breakpoints for one settlement level:
+         base    - population a settlement is seeded with on reaching this level
+         upgrade - population needed before it may upgrade to the next level
+                   (omit on the top level, which cannot upgrade)
+         min     - minimum population the level will hold
+         max     - maximum population the level can hold (overcrowding sets in past this)
+
+	The values below ARE the vanilla defaults, provided as an editable starting point.
+
+      Note: unlike Medieval II, RTW has a single settlement type, so there are no
+      castle levels here.
+   -->
+   <population_levels>
+      <level name="village"    base="400"   upgrade="400"   min="400" max="1500"/>
+      <level name="town"       base="400"   upgrade="2000"  min="400" max="3500"/>
+      <level name="large_town" base="2000"  upgrade="6000"  min="400" max="9000"/>
+      <level name="city"       base="6000"  upgrade="12000" min="400" max="18000"/>
+      <level name="large_city" base="12000" upgrade="24000" min="400" max="36000"/>
+      <!-- huge_city is the top level: no upgrade threshold -->
+      <level name="huge_city"  base="24000"                 min="400" max="72000"/>
+   </population_levels>
+
+   <!--
+      Per-factor pip modifiers. Each <factor> scales (and optionally clamps) one
+      settlement factor's contribution to population growth, public order, or income:
+
+         modifier - multiplier on the factor's value (1.0 = unchanged)
+         min      - lower clamp applied after the multiplier (optional)
+         max      - upper clamp applied after the multiplier (optional)
+
+      Every factor is listed below at modifier="1.0" (vanilla). Edit a number to tune
+      it, e.g. modifier="0.5" to halve squalor's unrest, or add min="0" max="16" to
+      re-clamp. Deleting a <factor>, or the whole file, leaves it at the engine default.
+      Positive factors add to the total; negative factors subtract.
+   -->
+   <factor_modifiers>
+      <!-- population growth: positive -->
+      <factor name="SPF_FARMING_LEVEL"   modifier="1.0"/>
+      <factor name="SPF_FARMS_BUILT"     modifier="1.0"/>
+      <factor name="SPF_FOOD_IMPORTS"    modifier="1.0"/>
+      <factor name="SPF_HEALTH"          modifier="1.0"/>
+      <factor name="SPF_BUILDINGS"       modifier="1.0"/>
+      <factor name="SPF_TAX_RATE_BONUS"  modifier="1.0"/>
+      <factor name="SPF_SLAVES_GAINED"   modifier="1.0"/>
+      <!-- population growth: negative -->
+      <factor name="SPF_SQUALOUR"        modifier="1.0"/>
+      <factor name="SPF_PLAGUE"          modifier="1.0"/>
+      <factor name="SPF_TAX_RATE_PENALTY" modifier="1.0"/>
+
+      <!-- public order: positive -->
+      <factor name="SOF_GARRISON"            modifier="1.0"/>
+      <factor name="SOF_BUILDINGS_LAW"       modifier="1.0"/>
+      <factor name="SOF_BUILDINGS_FUN"       modifier="1.0"/>
+      <factor name="SOF_GOVERNORS_INFLUENCE" modifier="1.0"/>
+      <factor name="SOF_TAX_BONUS"           modifier="1.0"/>
+      <factor name="SOF_TRIUMPH"             modifier="1.0"/>
+      <factor name="SOF_WONDER"              modifier="1.0"/>
+      <factor name="SOF_BOOM"                modifier="1.0"/>
+      <factor name="SOF_ENTERTAINED"         modifier="1.0"/>
+      <factor name="SOF_HEALTH"              modifier="1.0"/>
+      <!-- public order: negative -->
+      <factor name="SOF_SQUALOUR"            modifier="1.0"/>
+      <factor name="SOF_DISTANCE_TO_CAPITAL" modifier="1.0"/>
+      <factor name="SOF_CULTURE_PENALTY"     modifier="1.0"/>
+      <factor name="SOF_NO_GOVERNANCE"       modifier="1.0"/>
+      <factor name="SOF_TAX_PENALTY"         modifier="1.0"/>
+      <factor name="SOF_TURMOIL"             modifier="1.0"/>
+      <factor name="SOF_UNDERPOPULATION"     modifier="1.0"/>
+      <factor name="SOF_BESIEGED"            modifier="1.0"/>
+      <factor name="SOF_BLOCKADED"           modifier="1.0"/>
+      <factor name="SOF_RECESSION"           modifier="1.0"/>
+      <factor name="SOF_GOVERNOR_RELIGION_UNREST"       modifier="1.0"/>
+      <factor name="SOF_FACTION_LEADER_RELIGION_UNREST" modifier="1.0"/>
+
+      <!-- income: positive -->
+      <factor name="SIF_FARMS"      modifier="1.0"/>
+      <factor name="SIF_TAXES"      modifier="1.0"/>
+      <factor name="SIF_MINING"     modifier="1.0"/>
+      <factor name="SIF_TRADE"      modifier="1.0"/>
+      <factor name="SIF_BUILDINGS"  modifier="1.0"/>
+      <factor name="SIF_ADMIN"      modifier="1.0"/>
+      <!-- income: negative -->
+      <factor name="SIF_WAGES"         modifier="1.0"/>
+      <factor name="SIF_UPKEEP"        modifier="1.0"/>
+      <factor name="SIF_CORRUPTION"    modifier="1.0"/>
+      <factor name="SIF_ENTERTAINMENT" modifier="1.0"/>
+      <factor name="SIF_DEVASTATION"   modifier="1.0"/>
+   </factor_modifiers>
+</root>
