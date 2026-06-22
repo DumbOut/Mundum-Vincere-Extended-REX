@@ -3211,6 +3211,7 @@ model_sprite		germans, 60.0, data/sprites/germans_barb_naked_fanatic_sprite.spr
 model_sprite		gauls, 60.0, data/sprites/gauls_barb_naked_fanatic_sprite.spr
 model_sprite		britons, 60.0, Data/sprites/britons_barb_naked_fanatic_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
 type				barb_gothic_cavalry
 skeleton			fs_hc_spearman
 indiv_range			40
@@ -3241,6 +3242,7 @@ model_sprite		60.0, data/sprites/slave_barb_gothic_cavalry_sprite.spr
 model_sprite		romans_brutii, 60.0, data/sprites/romans_brutii_barb_gothic_cavalry_sprite.spr
 model_sprite		gauls, 60.0, data/sprites/gauls_barb_gothic_cavalry_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
+
 type			barb_heavy_cavalry_dacian
 skeleton		fs_hc_spearman, fs_hc_swordsman
 indiv_range		40
@@ -8649,7 +8651,6 @@ model_flexi                 data/characters/unit_NL_thracian_medium_skirmisher_h
 model_tri			400, 0.5f, 0.5f, 0.5
 
 type						roman_marian_light_cavalry
-
 skeleton					fs_hc_spearman, fs_hc_swordsman
 indiv_range			40
 texture				all, data/characters/textures/unit_NL_roman_marian_light_cavalry_slave.tga
