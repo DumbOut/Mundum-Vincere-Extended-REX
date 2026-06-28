@@ -7,10 +7,6 @@ hidden_resources sparta rome italy
 ;; exclusivity tags
 ;#######################################################################################>
 ;;used for the "no_building_tagged" condition
-tags
-{
-	temple
-}
 ;#######################################################################################<
 
 ;; aliases
@@ -23,12 +19,6 @@ tags
 ;; 	;; if display_string isn't included it will just display the strings for the events normally
 ;; }
 
-alias no_other_temple
-{
-	requires no_building_tagged temple queued
-
-	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
-}
 
 building core_building
 {
@@ -339,7 +329,7 @@ building core_building
                 recruit "ellins general's guard cavalry early"  0  requires factions { seleucid, } 
                 recruit "macedon general's guard cavalry"  0  requires factions { macedon, } 
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, } 
-                recruit "roman_evocatius"  0  requires factions { roman, }               
+                recruit "roman evocatius"  0  requires factions { roman, }               
             }
             construction  6 
             cost  6400 
@@ -651,7 +641,6 @@ building barracks
                 recruit "merc greek heavy hoplites"  0  requires factions { all, } 
                 recruit "greek bactrian hoplites"  0  requires factions { all, } 
                 recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
-                recruit "merc greek thureophoroi"  0  requires factions { all, } 
                 recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
                 recruit "merc greek light thureophoroi"  0  requires factions { all, } 
                 recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
@@ -997,7 +986,6 @@ building barracks
                 recruit "merc greek heavy hoplites"  0  requires factions { all, } 
                 recruit "greek bactrian hoplites"  0  requires factions { all, } 
                 recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
-                recruit "merc greek thureophoroi"  0  requires factions { all, } 
                 recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
                 recruit "merc greek light thureophoroi"  0  requires factions { all, } 
                 recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
@@ -1343,7 +1331,6 @@ building barracks
                 recruit "greek bactrian hoplites"  0  requires factions { all, } 
                 recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
                 recruit "egyptian basilikon guard"  0  requires factions { egypt, } 
-                recruit "merc greek thureophoroi"  0  requires factions { all, } 
                 recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
                 recruit "merc greek light thureophoroi"  0  requires factions { all, } 
                 recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
@@ -1704,7 +1691,6 @@ building barracks
                 recruit "greek bactrian hoplites"  0  requires factions { all, } 
                 recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
                 recruit "egyptian basilikon guard"  0  requires factions { egypt, } 
-                recruit "merc greek thureophoroi"  0  requires factions { all, } 
                 recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
                 recruit "merc greek light thureophoroi"  0  requires factions { all, } 
                 recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
