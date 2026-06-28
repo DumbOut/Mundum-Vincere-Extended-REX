@@ -4,6 +4,32 @@
 
 hidden_resources sparta rome italy
 
+;; exclusivity tags
+;#######################################################################################>
+;;used for the "no_building_tagged" condition
+tags
+{
+	temple
+}
+;#######################################################################################<
+
+;; aliases
+;#######################################################################################>
+;; give multiple conditions a string (or allow conditions with normally no string to display one)
+;; alias roman_marian_reforms_triggered
+;; {
+;;
+;; 	display_string roman_marian_reforms ;;gets a string from expanded_bi
+;; 	;; if display_string isn't included it will just display the strings for the events normally
+;; }
+
+alias no_other_temple
+{
+	requires no_building_tagged temple queued
+
+	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
+}
+
 building core_building
 {
     levels governors_house governors_villa governors_palace proconsuls_palace imperial_palace 
@@ -313,6 +339,7 @@ building core_building
                 recruit "ellins general's guard cavalry early"  0  requires factions { seleucid, } 
                 recruit "macedon general's guard cavalry"  0  requires factions { macedon, } 
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, } 
+                recruit "roman_evocatius"  0  requires factions { roman, }               
             }
             construction  6 
             cost  6400 
@@ -456,6 +483,19 @@ building barracks
                 recruit "carthaginian city militia2"  0  requires factions { slave, } 
                 recruit "numidian city militia"  0  requires factions { numidia, } 
                 recruit "numidian nubian spearmen"  0  requires factions { numidia, egypt, } 
+                recruit "iberian city militia"  0  requires factions { spain, } 
+                recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
+                recruit "armenian militia"  0  requires factions { armenia, } 
+                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "greek levy pikemen merc"  0  requires factions { greek_cities, egypt, seleucid, massilia_01, }
+                recruit "carthaginian levy pike"  0  requires factions { carthage, }
+                recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, }
+                recruit "macedon levy pikemen"  0  requires factions { macedon, }
+                recruit "thrace levy pikemen"  0  requires factions { thrace, }
+                recruit "greek greek light infantry"  0  requires factions { greek_cities, }
+                recruit "egypt greek light infantry"  0  requires factions { egypt, }
+                recruit "eastern greek light infantry"  0  requires factions { parthia, pontus, armenia, }
+                recruit "eastern hoplite militia"  0  requires factions { parthia, pontus, armenia, }
             }
             construction  2 
             cost  600 
@@ -578,6 +618,167 @@ building barracks
                 recruit "carthaginian city militia2"  0  requires factions { slave, } 
                 recruit "numidian city militia"  0  requires factions { numidia, } 
                 recruit "numidian nubian spearmen"  0  requires factions { numidia, egypt, } 
+                recruit "merc barb infantry german"  0  requires factions { all, } 
+                recruit "germanic heavy spearmen"  0  requires factions { germans, } 
+                recruit "merc warband falx"  0  requires factions { all, } 
+                recruit "merc barb rhaetian swordsmen"  0  requires factions { all, } 
+                recruit "warband sword rhaetian"  0  requires factions { barbarian, thrace, } 
+                recruit "iberian city militia"  0  requires factions { spain, } 
+                recruit "merc carthaginian infantry"  0  requires factions { all, } 
+                recruit "merc libyan spearmen"  0  requires factions { all, } 
+                recruit "iberian heavy spearmen"  0  requires factions { spain, } 
+                recruit "asturian axemen"  0  requires factions { carthage, spain, } 
+                recruit "east armenian hillmen"  0  requires factions { armenia, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy spearmen merc"  0  requires factions { all, } 
+                recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
+                recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
+                recruit "greek hoplite spartan hippeis"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
+                recruit "merc greek thorakitai machairophoroi"  0  requires factions { all, } 
+                recruit "roman socii extraordinarii"  0  requires factions { romans_julii, } 
+                recruit "greek hypaspist"  0  requires factions { seleucid, macedon, romans_brutii, greek_cities, egypt, } 
+                recruit "greek hypaspist agema"  0  requires factions { macedon, greek_cities, } 
+                recruit "macedon agema hypaspist"  0  requires factions { macedon, } 
+                recruit "heavy samnite"  0  requires factions { carthage, romans_julii, romans_brutii, } 
+                recruit "italic hastati"  0  requires factions { roman, romans_brutii, carthage, } 
+                recruit "roman legionary cohort 2"  0  requires factions { romans_julii, } 
+                recruit "imperial armored legionary"  0  requires factions { romans_julii, } 
+                recruit "syrian infantry"  0  requires factions { pontus, armenia, egypt, seleucid, parthia, numidia, romans_julii, } 
+                recruit "merc samnite spearmen"  0  requires factions { all, } 
+                recruit "celtic heavy infantry"  0  requires factions { all, } 
+                recruit "merc steppe axemen"  0  requires factions { all, } 
+                recruit "merc greek heavy hoplites"  0  requires factions { all, } 
+                recruit "greek bactrian hoplites"  0  requires factions { all, } 
+                recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
+                recruit "merc greek thureophoroi"  0  requires factions { all, } 
+                recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
+                recruit "merc greek light thureophoroi"  0  requires factions { all, } 
+                recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
+                recruit "greek heavy iphicratean"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "indian light clubmen"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian light clubmen"  0  requires factions { all, } 
+                recruit "indian heavy infantry"  0  requires factions { all, } 
+                recruit "indian ksatriya maceman"  0  requires factions { seleucid, parthia, scythia, parthia, } 
+                recruit "merc indian ksatriya maceman"  0  requires factions { all, } 
+                recruit "indian ksatriya spearmen"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian ksatriya spearmen"  0  requires factions { all, } 
+                recruit "greek colonists"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "tribal warriors"  0  requires factions { numidia, } 
+                recruit "tribal clansmen"  0  requires factions { numidia, } 
+                recruit "desert tribesmen"  0  requires factions { all, } 
+                recruit "machimoi infantry"  0  requires factions { egyptian, } 
+                recruit "merc machimoi infantry"  0  requires factions { all, } 
+                recruit "greek epilektoi hoplite"  0  requires factions { greek_cities, } 
+                recruit "greek ionian hoplite"  0  requires factions { greek_cities, } 
+                recruit "barb gothic swordsman"  0  requires factions { all, } 
+                recruit "carthaginian libyphoenician assault infantry"  0  requires factions { carthaginian, } 
+                recruit "libyphoenician heavy infantry"  0  requires factions { carthage, } 
+                recruit "libyphoenician ekdromoi"  0  requires factions { carthage, } 
+                recruit "carthaginian civic hoplite"  0  requires factions { carthage, } 
+                recruit "libyphoenician pikemen"  0  requires factions { carthage, } 
+                recruit "libyphoenician heavy pikemen"  0  requires factions { carthage, } 
+                recruit "carthage citizen phalangitai"  0  requires factions { carthage, } 
+                recruit "armenian militia"  0  requires factions { armenia, } 
+                recruit "merc east kardaka thorakitai"  0  requires factions { all, } 
+                recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
+                recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
+                recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "east takabara merc"  0  requires factions { all, } 
+                recruit "east phrygian takabara merc"  0  requires factions { all, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "merc iranian sparabara"  0  requires factions { all, } 
+                recruit "merc east infantry"  0  requires factions { all, } 
+                recruit "merc persian sparabara"  0  requires factions { all, } 
+                recruit "warband woad briton"  0  requires factions { britons, }
+                recruit "barb night raiders german"  0  requires factions { germans, sciria_01, }
+                recruit "barb screeching women german"  0  requires factions { germans, }
+                recruit "carthaginian heavy infantry"  0  requires factions { carthage, }
+                recruit "spanish scutarii"  0  requires factions { spain, }
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, }
+                recruit "numidian legionaries"  0  requires factions { numidia, }
+                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, }
+                recruit "east hoplite"  0  requires factions { pontus, }
+                recruit "east hoplite brazen shield"  0  requires factions { pontus, }
+                recruit "east legionary"  0  requires factions { armenia, }
+                recruit "egyptian infantry"  0  requires factions { egypt, }
+                recruit "greek hoplite spartan"  0  requires factions { greek_cities, }
+                recruit "greek pikemen"  0  requires factions { macedon, seleucid, thrace, }
+                recruit "greek bastarnae"  0  requires factions { thrace, }
+                recruit "roman princeps"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman triarii"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman legionary cohort i"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman legionary cohort ii"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, }
+                recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, }
+                recruit "merc cilician pirate"  0  requires factions { pontus, }
+                recruit "carthaginian heavy swords"  0  requires factions { carthage, }
+                recruit "celtic warrior briton"  0  requires factions { britons, }
+                recruit "celtic warrior gaul"  0  requires factions { gauls, }
+                recruit "desert swordsman"  0  requires factions { numidia, }
+                recruit "east immortal"  0  requires factions { parthia, }
+                recruit "east spearbearer"  0  requires factions { parthia, }
+                recruit "east swordbearer"  0  requires factions { parthia, }
+                recruit "egyptian heavy infantry"  0  requires factions { egypt, }
+                recruit "egyptian medium infantry"  0  requires factions { egypt, }
+                recruit "greek swordsman"  0  requires factions { macedon, seleucid, }
+                recruit "kartli axemen"  0  requires factions { armenia, }
+                recruit "maiden spears"  0  requires factions { scythia, }
+                recruit "numidian spears"  0  requires factions { numidia, }
+                recruit "pontic heavy swords"  0  requires factions { pontus, }
+                recruit "pontic swordsman"  0  requires factions { pontus, }
+                recruit "shield warrior"  0  requires factions { spain, }
+                recruit "sword warrior"  0  requires factions { germans, }
+                recruit "thorakitai"  0  requires factions { greek_cities, }
+                recruit "thracian warrior"  0  requires factions { thrace, }
+                recruit "thureophoroi"  0  requires factions { greek_cities, }
+                recruit "galatian swordsmen"  0  requires factions { pontus, }
+                recruit "phrygian axemen"  0  requires factions { pontus, }
+                recruit "greek new hoplite spartan"  0  requires factions { greek_cities, }
+                recruit "gaul revenger"  0  requires factions { gauls, }
+                recruit "parthian immortal"  0  requires factions { parthia, }
+                recruit "thrace pikemen"  0  requires factions { thrace, }
+                recruit "greek levy pikemen merc"  0  requires factions { greek_cities, egypt, seleucid, massilia_01, }
+                recruit "barb infantry german"  0  requires factions { germans, }
+                recruit "scythia hoplite"  0  requires factions { scythia, }
+                recruit "carthaginian heavy infantry 02"  0  requires factions { carthage, }
+                recruit "baltic warband"  0  requires factions { germans, }
+                recruit "china swords infantry"  0  requires factions { qin_01, }
+                recruit "china heavy infantry"  0  requires factions { qin_01, }
+                recruit "china suicide squad"  0  requires factions { qin_01, }
+                recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
+                recruit "warband sword thrace"  0  requires factions { greek, egypt, }
+                recruit "barb bastarnae"  0  requires factions { thrace, }
+                recruit "briton longsword"  0  requires factions { britons, }
+                recruit "heavy infantry briton"  0  requires factions { britons, }
+                recruit "heavy infantry gaul"  0  requires factions { gauls, spain, }
+                recruit "heavy infantry dacian"  0  requires factions { dacia, }
+                recruit "warband sword bigshield gaul"  0  requires factions { gauls, dacia, germans, spain, britons, }
+                recruit "numidian legionary"  0  requires factions { numidia, }
+                recruit "numidian legionaries 2"  0  requires factions { numidia, }
+                recruit "seleucid heavy infantry"  0  requires factions { seleucid, }
+                recruit "greek atg brz spartan"  0  requires factions { greek_cities, }
+                recruit "macedon pikemen"  0  requires factions { macedon, greek_cities, }
+                recruit "macedon astegetair"  0  requires factions { macedon, }
+                recruit "thrace heavy infantry"  0  requires factions { thrace, }
+                recruit "macedon dimachae"  0  requires factions { macedon, }
+                recruit "merc sword bigshield gaul"  0  requires factions { all, }
+                recruit "merc axemen"  0  requires factions { all, }
+                recruit "roman east heavy infantry aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman barb heavy infantry aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "ellins east heavy infantry aux"  0  requires factions { egypt, greek_cities, thrace, }
+                recruit "macedon east heavy infantry aux"  0  requires factions { macedon, }
+                recruit "greek barb heavy infantry aux"  0  requires factions { egypt, greek_cities, seleucid, }
+                recruit "macedon barb heavy infantry aux"  0  requires factions { macedon, }
+                recruit "east barb heavy infantry aux"  0  requires factions { parthia, pontus, armenia, }
+                recruit "carthage east heavy infantry aux"  0  requires factions { carthage, numidia, }
+                recruit "carthage barb heavy infantry aux"  0  requires factions { carthage, numidia, }
+                recruit "spain legionary"  0  requires factions { spain, roman, }
+                recruit "greek classical hoplites"  0  requires factions { all, }
+                recruit "roman allied infantry"  0  requires factions { roman, }
+                recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
             construction  3 
             cost  1200 
@@ -763,6 +964,122 @@ building barracks
                 recruit "celtic spearmen gaul"  0  requires factions { gauls, britons, } 
                 recruit "illyrian hoplite"  0  requires factions { greek_cities, gauls, macedon, thrace, dacia, } 
                 recruit "illyrian brigands"  0  requires factions { dacia, gauls, thrace, greek_cities, macedon, } 
+                recruit "merc barb infantry german"  0  requires factions { all, } 
+                recruit "germanic heavy spearmen"  0  requires factions { germans, } 
+                recruit "merc warband falx"  0  requires factions { all, } 
+                recruit "merc barb rhaetian swordsmen"  0  requires factions { all, } 
+                recruit "warband sword rhaetian"  0  requires factions { barbarian, thrace, } 
+                recruit "iberian city militia"  0  requires factions { spain, } 
+                recruit "merc carthaginian infantry"  0  requires factions { all, } 
+                recruit "merc libyan spearmen"  0  requires factions { all, } 
+                recruit "iberian heavy spearmen"  0  requires factions { spain, } 
+                recruit "asturian axemen"  0  requires factions { carthage, spain, } 
+                recruit "east armenian hillmen"  0  requires factions { armenia, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy spearmen merc"  0  requires factions { all, } 
+                recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
+                recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
+                recruit "greek hoplite spartan hippeis"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
+                recruit "merc greek thorakitai machairophoroi"  0  requires factions { all, } 
+                recruit "roman socii extraordinarii"  0  requires factions { romans_julii, } 
+                recruit "greek hypaspist"  0  requires factions { seleucid, macedon, romans_brutii, greek_cities, egypt, } 
+                recruit "greek hypaspist agema"  0  requires factions { macedon, greek_cities, } 
+                recruit "macedon agema hypaspist"  0  requires factions { macedon, } 
+                recruit "heavy samnite"  0  requires factions { carthage, romans_julii, romans_brutii, } 
+                recruit "italic hastati"  0  requires factions { roman, romans_brutii, carthage, } 
+                recruit "roman legionary cohort 2"  0  requires factions { romans_julii, } 
+                recruit "imperial armored legionary"  0  requires factions { romans_julii, } 
+                recruit "syrian infantry"  0  requires factions { pontus, armenia, egypt, seleucid, parthia, numidia, romans_julii, } 
+                recruit "merc samnite spearmen"  0  requires factions { all, } 
+                recruit "celtic heavy infantry"  0  requires factions { all, } 
+                recruit "merc steppe axemen"  0  requires factions { all, } 
+                recruit "merc greek heavy hoplites"  0  requires factions { all, } 
+                recruit "greek bactrian hoplites"  0  requires factions { all, } 
+                recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
+                recruit "merc greek thureophoroi"  0  requires factions { all, } 
+                recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
+                recruit "merc greek light thureophoroi"  0  requires factions { all, } 
+                recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
+                recruit "greek heavy iphicratean"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "indian light clubmen"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian light clubmen"  0  requires factions { all, } 
+                recruit "indian heavy infantry"  0  requires factions { all, } 
+                recruit "indian ksatriya maceman"  0  requires factions { seleucid, parthia, scythia, parthia, } 
+                recruit "merc indian ksatriya maceman"  0  requires factions { all, } 
+                recruit "indian ksatriya spearmen"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian ksatriya spearmen"  0  requires factions { all, } 
+                recruit "greek colonists"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "tribal warriors"  0  requires factions { numidia, } 
+                recruit "tribal clansmen"  0  requires factions { numidia, } 
+                recruit "desert tribesmen"  0  requires factions { all, } 
+                recruit "machimoi infantry"  0  requires factions { egyptian, } 
+                recruit "merc machimoi infantry"  0  requires factions { all, } 
+                recruit "greek epilektoi hoplite"  0  requires factions { greek_cities, } 
+                recruit "greek ionian hoplite"  0  requires factions { greek_cities, } 
+                recruit "barb gothic swordsman"  0  requires factions { all, } 
+                recruit "carthaginian libyphoenician assault infantry"  0  requires factions { carthaginian, } 
+                recruit "libyphoenician heavy infantry"  0  requires factions { carthage, } 
+                recruit "libyphoenician ekdromoi"  0  requires factions { carthage, } 
+                recruit "carthaginian civic hoplite"  0  requires factions { carthage, } 
+                recruit "libyphoenician pikemen"  0  requires factions { carthage, } 
+                recruit "libyphoenician heavy pikemen"  0  requires factions { carthage, } 
+                recruit "carthage citizen phalangitai"  0  requires factions { carthage, } 
+                recruit "armenian militia"  0  requires factions { armenia, } 
+                recruit "merc east kardaka thorakitai"  0  requires factions { all, } 
+                recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
+                recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
+                recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "east takabara merc"  0  requires factions { all, } 
+                recruit "east phrygian takabara merc"  0  requires factions { all, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "merc iranian sparabara"  0  requires factions { all, } 
+                recruit "merc east infantry"  0  requires factions { all, } 
+                recruit "merc persian sparabara"  0  requires factions { all, } 
+                recruit "warband woad briton"  0  requires factions { britons, }
+                recruit "barb night raiders german"  0  requires factions { germans, sciria_01, }
+                recruit "barb screeching women german"  0  requires factions { germans, }
+                recruit "carthaginian heavy infantry"  0  requires factions { carthage, }
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, }
+                recruit "numidian legionaries"  0  requires factions { numidia, }
+                recruit "east hoplite brazen shield"  0  requires factions { pontus, }
+                recruit "greek hoplite spartan"  0  requires factions { greek_cities, }
+                recruit "greek bastarnae"  0  requires factions { thrace, }
+                recruit "roman triarii"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman legionary cohort ii"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, }
+                recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, }
+                recruit "carthaginian heavy swords"  0  requires factions { carthage, }
+                recruit "celtic warrior briton"  0  requires factions { britons, }
+                recruit "celtic warrior gaul"  0  requires factions { gauls, }
+                recruit "east immortal"  0  requires factions { parthia, }
+                recruit "east swordbearer"  0  requires factions { parthia, }
+                recruit "egyptian heavy infantry"  0  requires factions { egypt, }
+                recruit "egyptian medium infantry"  0  requires factions { egypt, }
+                recruit "kartli axemen"  0  requires factions { armenia, }
+                recruit "numidian spears"  0  requires factions { numidia, }
+                recruit "pontic heavy swords"  0  requires factions { pontus, }
+                recruit "thorakitai"  0  requires factions { greek_cities, }
+                recruit "phrygian axemen"  0  requires factions { pontus, }
+                recruit "gaul revenger"  0  requires factions { gauls, }
+                recruit "parthian immortal"  0  requires factions { parthia, }
+                recruit "baltic warband"  0  requires factions { germans, }
+                recruit "china suicide squad"  0  requires factions { qin_01, }
+                recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
+                recruit "barb bastarnae"  0  requires factions { thrace, }
+                recruit "briton longsword"  0  requires factions { britons, }
+                recruit "heavy infantry briton"  0  requires factions { britons, }
+                recruit "heavy infantry gaul"  0  requires factions { gauls, spain, }
+                recruit "heavy infantry dacian"  0  requires factions { dacia, }
+                recruit "numidian legionary"  0  requires factions { numidia, }
+                recruit "numidian legionaries 2"  0  requires factions { numidia, }
+                recruit "greek atg brz spartan"  0  requires factions { greek_cities, }
+                recruit "macedon dimachae"  0  requires factions { macedon, }
+                recruit "spain legionary"  0  requires factions { spain, roman, }
+                recruit "greek classical hoplites"  0  requires factions { all, }
+                recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
             construction  4 
             cost  2400 
@@ -987,6 +1304,125 @@ building barracks
                 recruit "carthage east heavy infantry aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage barb heavy infantry aux"  0  requires factions { carthage, numidia, } 
                 recruit "roman allied infantry"  0  requires factions { roman, } 
+                recruit "merc barb infantry german"  0  requires factions { all, } 
+                recruit "germanic heavy spearmen"  0  requires factions { germans, } 
+                recruit "merc warband falx"  0  requires factions { all, } 
+                recruit "merc barb rhaetian swordsmen"  0  requires factions { all, } 
+                recruit "warband sword rhaetian"  0  requires factions { barbarian, thrace, } 
+                recruit "iberian city militia"  0  requires factions { spain, } 
+                recruit "merc carthaginian infantry"  0  requires factions { all, } 
+                recruit "merc libyan spearmen"  0  requires factions { all, } 
+                recruit "iberian heavy spearmen"  0  requires factions { spain, } 
+                recruit "asturian axemen"  0  requires factions { carthage, spain, } 
+                recruit "east armenian hillmen"  0  requires factions { armenia, } 
+                recruit "east armenian colchis nobles"  0  requires factions { armenia, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "merc east elite machairophoroi"  0  requires factions { all, } 
+                recruit "east heavy spearmen merc"  0  requires factions { all, } 
+                recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
+                recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
+                recruit "greek hoplite spartan hippeis"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
+                recruit "thracian elite pikemen"  0  requires factions { thrace, } 
+                recruit "merc greek thorakitai machairophoroi"  0  requires factions { all, } 
+                recruit "greek molossian nobles"  0  requires factions { romans_brutii, } 
+                recruit "roman socii extraordinarii"  0  requires factions { romans_julii, } 
+                recruit "greek hypaspist"  0  requires factions { seleucid, macedon, romans_brutii, greek_cities, egypt, } 
+                recruit "greek hypaspist agema"  0  requires factions { macedon, greek_cities, } 
+                recruit "trallian guard"  0  requires factions { macedon, } 
+                recruit "macedon agema hypaspist"  0  requires factions { macedon, } 
+                recruit "heavy samnite"  0  requires factions { carthage, romans_julii, romans_brutii, } 
+                recruit "italic hastati"  0  requires factions { roman, romans_brutii, carthage, } 
+                recruit "roman legionary cohort 2"  0  requires factions { romans_julii, } 
+                recruit "imperial armored legionary"  0  requires factions { romans_julii, } 
+                recruit "syrian infantry"  0  requires factions { pontus, armenia, egypt, seleucid, parthia, numidia, romans_julii, } 
+                recruit "merc samnite spearmen"  0  requires factions { all, } 
+                recruit "celtic heavy infantry"  0  requires factions { all, } 
+                recruit "merc steppe axemen"  0  requires factions { all, } 
+                recruit "merc greek heavy hoplites"  0  requires factions { all, } 
+                recruit "greek bactrian hoplites"  0  requires factions { all, } 
+                recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
+                recruit "egyptian basilikon guard"  0  requires factions { egypt, } 
+                recruit "merc greek thureophoroi"  0  requires factions { all, } 
+                recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
+                recruit "merc greek light thureophoroi"  0  requires factions { all, } 
+                recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
+                recruit "greek heavy iphicratean"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "indian light clubmen"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian light clubmen"  0  requires factions { all, } 
+                recruit "indian heavy infantry"  0  requires factions { all, } 
+                recruit "indian ksatriya maceman"  0  requires factions { seleucid, parthia, scythia, parthia, } 
+                recruit "merc indian ksatriya maceman"  0  requires factions { all, } 
+                recruit "indian ksatriya spearmen"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian ksatriya spearmen"  0  requires factions { all, } 
+                recruit "greek colonists"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "tribal warriors"  0  requires factions { numidia, } 
+                recruit "tribal clansmen"  0  requires factions { numidia, } 
+                recruit "desert tribesmen"  0  requires factions { all, } 
+                recruit "meroite guard"  0  requires factions { egypt, } 
+                recruit "machimoi infantry"  0  requires factions { egyptian, } 
+                recruit "merc machimoi infantry"  0  requires factions { all, } 
+                recruit "greek epilektoi hoplite"  0  requires factions { greek_cities, } 
+                recruit "greek ionian hoplite"  0  requires factions { greek_cities, } 
+                recruit "barb gothic swordsman"  0  requires factions { all, } 
+                recruit "carthaginian libyphoenician assault infantry"  0  requires factions { carthaginian, } 
+                recruit "libyphoenician heavy infantry"  0  requires factions { carthage, } 
+                recruit "libyphoenician ekdromoi"  0  requires factions { carthage, } 
+                recruit "carthaginian civic hoplite"  0  requires factions { carthage, } 
+                recruit "libyphoenician pikemen"  0  requires factions { carthage, } 
+                recruit "libyphoenician heavy pikemen"  0  requires factions { carthage, } 
+                recruit "carthage citizen phalangitai"  0  requires factions { carthage, } 
+                recruit "armenian militia"  0  requires factions { armenia, } 
+                recruit "merc east kardaka thorakitai"  0  requires factions { all, } 
+                recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
+                recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
+                recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "east takabara merc"  0  requires factions { all, } 
+                recruit "east phrygian takabara merc"  0  requires factions { all, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "merc iranian sparabara"  0  requires factions { all, } 
+                recruit "merc east infantry"  0  requires factions { all, } 
+                recruit "merc persian sparabara"  0  requires factions { all, } 
+                recruit "warband woad briton"  0  requires factions { britons, }
+                recruit "barb naked fanatics dacian"  0  requires factions { dacia, }
+                recruit "barb naked fanatics gauls"  0  requires factions { gauls, }
+                recruit "barb naked fanatics german"  0  requires factions { germans, sciria_01, }
+                recruit "barb naked fanatics spain"  0  requires factions { spain, }
+                recruit "barb druids briton"  0  requires factions { britons, }
+                recruit "barb druids gaul"  0  requires factions { gauls, }
+                recruit "barb night raiders german"  0  requires factions { germans, sciria_01, }
+                recruit "barb berserker german"  0  requires factions { germans, sciria_01, }
+                recruit "barb screeching women german"  0  requires factions { germans, }
+                recruit "carthaginian sacred band infantry"  0  requires factions { carthage, }
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, }
+                recruit "greek argyraspid"  0  requires factions { seleucid, }
+                recruit "roman legionary first cohort ii"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman praetorian cohort urban i"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman velite gladiator"  0  requires factions { romans_brutii, }
+                recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, }
+                recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, }
+                recruit "roman praetorian spear cohort i"  0  requires factions { romans_brutii, romans_scipii, romans_senate, romans_julii, }
+                recruit "celtic warrior briton"  0  requires factions { britons, }
+                recruit "celtic warrior gaul"  0  requires factions { gauls, }
+                recruit "pontic royal guard"  0  requires factions { pontus, }
+                recruit "royal swordsman"  0  requires factions { macedon, }
+                recruit "thracian noble"  0  requires factions { thrace, }
+                recruit "gaul revenger"  0  requires factions { gauls, }
+                recruit "silver swordsman"  0  requires factions { seleucid, }
+                recruit "carthaginian imperial guard"  0  requires factions { carthage, }
+                recruit "baltic warband"  0  requires factions { germans, }
+                recruit "china elite infantry"  0  requires factions { qin_01, }
+                recruit "china suicide squad"  0  requires factions { qin_01, }
+                recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
+                recruit "ME macedon agema hypaspist"  0  requires factions { macedon, }
+                recruit "greek silver shield agema"  0  requires factions { seleucid, }
+                recruit "greek elite guards"  0  requires factions { greek_cities, }
+                recruit "egyptian guards"  0  requires factions { egypt, thrace, macedon, seleucid, }
+                recruit "barb warguard briton2"  0  requires factions { britons, gauls, }
+                recruit "barb warguard dacian2"  0  requires factions { dacia, germans, thrace, }
+                recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
             construction  6 
             cost  4800 
@@ -1229,6 +1665,108 @@ building barracks
                 recruit "carthage east heavy infantry aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage barb heavy infantry aux"  0  requires factions { carthage, numidia, } 
                 recruit "roman allied infantry"  0  requires factions { roman, } 
+                recruit "merc barb infantry german"  0  requires factions { all, } 
+                recruit "germanic heavy spearmen"  0  requires factions { germans, } 
+                recruit "merc warband falx"  0  requires factions { all, } 
+                recruit "merc barb rhaetian swordsmen"  0  requires factions { all, } 
+                recruit "warband sword rhaetian"  0  requires factions { barbarian, thrace, } 
+                recruit "iberian city militia"  0  requires factions { spain, } 
+                recruit "merc carthaginian infantry"  0  requires factions { all, } 
+                recruit "merc libyan spearmen"  0  requires factions { all, } 
+                recruit "iberian heavy spearmen"  0  requires factions { spain, } 
+                recruit "asturian axemen"  0  requires factions { carthage, spain, } 
+                recruit "east armenian hillmen"  0  requires factions { armenia, } 
+                recruit "east armenian colchis nobles"  0  requires factions { armenia, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "merc east elite machairophoroi"  0  requires factions { all, } 
+                recruit "east heavy spearmen merc"  0  requires factions { all, } 
+                recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
+                recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
+                recruit "greek hoplite spartan hippeis"  0  requires factions { greek_cities, } 
+                recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
+                recruit "thracian elite pikemen"  0  requires factions { thrace, } 
+                recruit "merc greek thorakitai machairophoroi"  0  requires factions { all, } 
+                recruit "greek molossian nobles"  0  requires factions { romans_brutii, } 
+                recruit "roman socii extraordinarii"  0  requires factions { romans_julii, } 
+                recruit "greek hypaspist"  0  requires factions { seleucid, macedon, romans_brutii, greek_cities, egypt, } 
+                recruit "greek hypaspist agema"  0  requires factions { macedon, greek_cities, } 
+                recruit "trallian guard"  0  requires factions { macedon, } 
+                recruit "macedon agema hypaspist"  0  requires factions { macedon, } 
+                recruit "heavy samnite"  0  requires factions { carthage, romans_julii, romans_brutii, } 
+                recruit "italic hastati"  0  requires factions { roman, romans_brutii, carthage, } 
+                recruit "roman legionary cohort 2"  0  requires factions { romans_julii, } 
+                recruit "imperial armored legionary"  0  requires factions { romans_julii, } 
+                recruit "syrian infantry"  0  requires factions { pontus, armenia, egypt, seleucid, parthia, numidia, romans_julii, } 
+                recruit "merc samnite spearmen"  0  requires factions { all, } 
+                recruit "celtic heavy infantry"  0  requires factions { all, } 
+                recruit "merc steppe axemen"  0  requires factions { all, } 
+                recruit "merc greek heavy hoplites"  0  requires factions { all, } 
+                recruit "greek bactrian hoplites"  0  requires factions { all, } 
+                recruit "greek thorakitai"  0  requires factions { greek_cities, seleucid, romans_brutii, macedon, egypt, pontus, } 
+                recruit "egyptian basilikon guard"  0  requires factions { egypt, } 
+                recruit "merc greek thureophoroi"  0  requires factions { all, } 
+                recruit "greek light thureophoroi"  0  requires factions { greek_cities, romans_brutii, seleucid, macedon, egypt, pontus, } 
+                recruit "merc greek light thureophoroi"  0  requires factions { all, } 
+                recruit "greek iphicratean"  0  requires factions { greek_cities, romans_brutii, carthage, } 
+                recruit "greek heavy iphicratean"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "indian light clubmen"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian light clubmen"  0  requires factions { all, } 
+                recruit "indian heavy infantry"  0  requires factions { all, } 
+                recruit "indian ksatriya maceman"  0  requires factions { seleucid, parthia, scythia, parthia, } 
+                recruit "merc indian ksatriya maceman"  0  requires factions { all, } 
+                recruit "indian ksatriya spearmen"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian ksatriya spearmen"  0  requires factions { all, } 
+                recruit "greek colonists"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "tribal warriors"  0  requires factions { numidia, } 
+                recruit "tribal clansmen"  0  requires factions { numidia, } 
+                recruit "desert tribesmen"  0  requires factions { all, } 
+                recruit "meroite guard"  0  requires factions { egypt, } 
+                recruit "machimoi infantry"  0  requires factions { egyptian, } 
+                recruit "merc machimoi infantry"  0  requires factions { all, } 
+                recruit "greek epilektoi hoplite"  0  requires factions { greek_cities, } 
+                recruit "greek ionian hoplite"  0  requires factions { greek_cities, } 
+                recruit "barb gothic swordsman"  0  requires factions { all, } 
+                recruit "carthaginian libyphoenician assault infantry"  0  requires factions { carthaginian, } 
+                recruit "libyphoenician heavy infantry"  0  requires factions { carthage, } 
+                recruit "libyphoenician ekdromoi"  0  requires factions { carthage, } 
+                recruit "carthaginian civic hoplite"  0  requires factions { carthage, } 
+                recruit "libyphoenician pikemen"  0  requires factions { carthage, } 
+                recruit "libyphoenician heavy pikemen"  0  requires factions { carthage, } 
+                recruit "carthage citizen phalangitai"  0  requires factions { carthage, } 
+                recruit "armenian militia"  0  requires factions { armenia, } 
+                recruit "merc east kardaka thorakitai"  0  requires factions { all, } 
+                recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
+                recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
+                recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "east takabara merc"  0  requires factions { all, } 
+                recruit "east phrygian takabara merc"  0  requires factions { all, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "merc iranian sparabara"  0  requires factions { all, } 
+                recruit "merc east infantry"  0  requires factions { all, } 
+                recruit "merc persian sparabara"  0  requires factions { all, } 
+                recruit "warband woad briton"  0  requires factions { britons, }
+                recruit "barb naked fanatics dacian"  0  requires factions { dacia, }
+                recruit "barb naked fanatics gauls"  0  requires factions { gauls, }
+                recruit "barb naked fanatics german"  0  requires factions { germans, sciria_01, }
+                recruit "barb naked fanatics spain"  0  requires factions { spain, }
+                recruit "barb druids briton"  0  requires factions { britons, }
+                recruit "barb druids gaul"  0  requires factions { gauls, }
+                recruit "barb night raiders german"  0  requires factions { germans, sciria_01, }
+                recruit "barb berserker german"  0  requires factions { germans, sciria_01, }
+                recruit "barb screeching women german"  0  requires factions { germans, }
+                recruit "carthaginian sacred band infantry"  0  requires factions { carthage, }
+                recruit "spanish bull warriors"  0  requires factions { spain, carthage, }
+                recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman velite gladiator"  0  requires factions { romans_brutii, }
+                recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, }
+                recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, }
+                recruit "roman praetorian spear cohort i"  0  requires factions { romans_brutii, romans_scipii, romans_senate, romans_julii, }
+                recruit "celtic warrior briton"  0  requires factions { britons, }
+                recruit "celtic warrior gaul"  0  requires factions { gauls, }
+                recruit "gaul revenger"  0  requires factions { gauls, }
+                recruit "baltic warband"  0  requires factions { germans, }
+                recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
             }
             construction  7 
             cost  9600 
@@ -1282,6 +1820,26 @@ building equestrian
                 recruit "barb cavalry slave"  0  requires factions { slave, } 
                 recruit "merc horse archers"  0  requires factions { dacia, } 
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
+                recruit "barb horse archers scythian"  0  requires factions { scythia, }
+                recruit "barb noble horse archers scythian"  0  requires factions { scythia, }
+                recruit "east cataphract archer"  0  requires factions { armenia, }
+                recruit "east chariot archer"  0  requires factions { pontus, }
+                recruit "egyptian bedouin"  0  requires factions { egypt, }
+                recruit "egyptian chariot archer"  0  requires factions { egypt, }
+                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, }
+                recruit "roman marian light cavalry"  0  requires factions { roman, }
+                recruit "getae horse archers"  0  requires factions { dacia, thrace, scythia, germans, }
+                recruit "east light cavalry"  0  requires factions { parthia, pontus, armenia, }
+                recruit "east cataphract archer1"  0  requires factions { parthia, }
+                recruit "east horse heavy archer"  0  requires factions { armenia, }
+                recruit "east horse archer2"  0  requires factions { pontus, armenia, pontus, scythia, numidia, }
+                recruit "horse archers greek"  0  requires factions { greek_cities, thrace, }
+                recruit "horse archers ellins"  0  requires factions { seleucid, egypt, }
+                recruit "horse archers macedon"  0  requires factions { macedon, }
+                recruit "roman light cavalry2"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman horse archers aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "hellenic horse archers aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
+                recruit "carthage horse archers aux"  0  requires factions { carthage, numidia, }
             }
             construction  3 
             cost  1200 
@@ -1354,6 +1912,124 @@ building equestrian
                 recruit "barb cavalry slave"  0  requires factions { slave, } 
                 recruit "merc horse archers"  0  requires factions { dacia, } 
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
+                recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
+                recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
+                recruit "merc barb javelin cavalry"  0  requires factions { all, } 
+                recruit "barb medium cavalry scythian"  0  requires factions { scythia, } 
+                recruit "merc carthaginian cavalry"  0  requires factions { all, } 
+                recruit "carthaginian citizen cavalry"  0  requires factions { carthage, } 
+                recruit "elephant forest"  0  requires factions { carthage, numidia, } 
+                recruit "elephant forest tower"  0  requires factions { carthage, numidia, } 
+                recruit "merc elephant forest tower"  0  requires factions { all, } 
+                recruit "merc east cavalry"  0  requires factions { all, } 
+                recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "merc east light cavalry"  0  requires factions { all, } 
+                recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east armenian lancer"  0  requires factions { armenia, } 
+                recruit "east armenian nakharar"  0  requires factions { armenia, } 
+                recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
+                recruit "east horse archer merc"  0  requires factions { all, } 
+                recruit "merc greek cavalry"  0  requires factions { all, } 
+                recruit "greek hippotoxotai"  0  requires factions { seleucid, egypt, } 
+                recruit "merc greek medium cavalry"  0  requires factions { all, } 
+                recruit "aspidophoroi hetairoi"  0  requires factions { macedon, } 
+                recruit "aetolian cavalry"  0  requires factions { greek_cities, thrace, macedon, romans_brutii, } 
+                recruit "pergamene heitaroi"  0  requires factions { all, } 
+                recruit "thracian heavy cavalry"  0  requires factions { thrace, } 
+                recruit "elephant african"  0  requires factions { seleucid, macedon, egypt, romans_brutii, carthage, numidia, parthia, greek_cities, } 
+                recruit "elephant asian"  0  requires factions { seleucid, macedon, egypt, romans_brutii, pontus, armenia, parthia, carthage, numidia, greek_cities, } 
+                recruit "elephant indian"  0  requires factions { seleucid, } 
+                recruit "italian heavy cavalry"  0  requires factions { romans_julii, } 
+                recruit "merc syrian cavalry"  0  requires factions { all, } 
+                recruit "merc bedouin warriors"  0  requires factions { all, } 
+                recruit "alan cavalry"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "tocharian horse archers"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc east heavy cavalry"  0  requires factions { all, } 
+                recruit "barb chariot light briton"  0  requires factions { britons, }
+                recruit "barb chariot heavy briton"  0  requires factions { britons, }
+                recruit "barb horse archers scythian"  0  requires factions { scythia, }
+                recruit "barb head hunting maidens scythian"  0  requires factions { scythia, }
+                recruit "barb chieftain cavalry early dacian"  0  requires factions { dacia, }
+                recruit "barb chieftain cavalry early gaul"  0  requires factions { gauls, }
+                recruit "barb chieftain cavalry early german"  0  requires factions { germans, sciria_01, }
+                recruit "barb chieftain cavalry early scythian"  0  requires factions { scythia, }
+                recruit "barb british general briton"  0  requires factions { britons, }
+                recruit "carthaginian elephant african"  0  requires factions { carthage, }
+                recruit "east cappodocian cavalry"  0  requires factions { pontus, }
+                recruit "east elephant"  0  requires factions { parthia, }
+                recruit "east scythed chariot"  0  requires factions { pontus, }
+                recruit "east chariot archer"  0  requires factions { pontus, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "egyptian cleruch"  0  requires factions { egypt, }
+                recruit "egyptian bedouin"  0  requires factions { egypt, }
+                recruit "egyptian chariot"  0  requires factions { egypt, }
+                recruit "egyptian chariot archer"  0  requires factions { egypt, }
+                recruit "greek heavy cavalry"  0  requires factions { macedon, }
+                recruit "greek elephant african"  0  requires factions { seleucid, }
+                recruit "greek incendiary pigs"  0  requires factions { greek_cities, }
+                recruit "greek chariot scythed"  0  requires factions { seleucid, }
+                recruit "roman pigs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman heavy cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "merc elephants"  0  requires factions { numidia, }
+                recruit "Indian General"  0  requires factions { mauryans, }
+                recruit "roman marian light cavalry"  0  requires factions { roman, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china generals early"  0  requires factions { qin_01, }
+                recruit "barb cavalry briton"  0  requires factions { britons, }
+                recruit "barb cavalry thrace"  0  requires factions { thrace, }
+                recruit "dacian javelin cavalry"  0  requires factions { dacia, }
+                recruit "gaul javelin cavalry"  0  requires factions { gauls, }
+                recruit "german javelin cavalry"  0  requires factions { germans, }
+                recruit "barb chief cavalry german"  0  requires factions { germans, }
+                recruit "barb chariot heavy gaul"  0  requires factions { gauls, }
+                recruit "getae horse archers"  0  requires factions { dacia, thrace, scythia, germans, }
+                recruit "scythian heavy cavalry"  0  requires factions { scythia, }
+                recruit "carthage javelin cavalry"  0  requires factions { carthage, }
+                recruit "spain javelin cavalry"  0  requires factions { spain, }
+                recruit "carthaginian medium cavalry2"  0  requires factions { spain, carthage, }
+                recruit "numidian elephant forest"  0  requires factions { numidia, }
+                recruit "east light cavalry"  0  requires factions { parthia, pontus, armenia, }
+                recruit "seleucid cappodocian cavalry"  0  requires factions { seleucid, }
+                recruit "east cataphract archer1"  0  requires factions { parthia, }
+                recruit "east horse heavy archer"  0  requires factions { armenia, }
+                recruit "east horse archer2"  0  requires factions { pontus, armenia, pontus, scythia, numidia, }
+                recruit "horse archers greek"  0  requires factions { greek_cities, thrace, }
+                recruit "horse archers ellins"  0  requires factions { seleucid, egypt, }
+                recruit "horse archers macedon"  0  requires factions { macedon, }
+                recruit "greek medium cavalry3"  0  requires factions { thrace, }
+                recruit "greek medium cavalry2"  0  requires factions { roman, }
+                recruit "macedon thesalian cavalry"  0  requires factions { macedon, }
+                recruit "greek etolian cavalry"  0  requires factions { greek_cities, }
+                recruit "greek seleucid cavalry"  0  requires factions { seleucid, egypt, }
+                recruit "medium cavalry seleucid"  0  requires factions { seleucid, }
+                recruit "ptolemaic heavy cavalry"  0  requires factions { egypt, seleucid, }
+                recruit "macedon agema cavalry"  0  requires factions { macedon, }
+                recruit "roman light cavalry2"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman crew carriage"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman barb cavalry aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman horse archers aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman cappodocian cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman javelin cavalry aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "hellenic barb cavalry aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, }
+                recruit "hellenic horse archers aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
+                recruit "hellenic cappodocian cavalry"  0  requires factions { greek_cities, egypt, thrace, }
+                recruit "macedon cappodocian cavalry"  0  requires factions { macedon, }
+                recruit "hellenic javelin cavalry aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
+                recruit "carthage barb cavalry aux"  0  requires factions { carthage, numidia, }
+                recruit "carthage horse archers aux"  0  requires factions { carthage, numidia, }
+                recruit "carthaginian elephant forest2"  0  requires factions { carthage, numidia, }
+                recruit "carthaginian elephant african2"  0  requires factions { carthage, }
+                recruit "east elephant2"  0  requires factions { parthia, armenia, }
+                recruit "greek elephant small2"  0  requires factions { seleucid, macedon, greek_cities, egypt, }
+                recruit "greek elephant african2"  0  requires factions { seleucid, macedon, greek_cities, egypt, }
+                recruit "merc elephants2"  0  requires factions { all, }
+                recruit "barb celtogermanic cavalry"  0  requires factions { gauls, britons, germans, dacia, spain, roman, carthage, }
+                recruit "numidian elephant forest2"  0  requires factions { all, }
+                recruit "east heavy cavalry2"  0  requires factions { all, }
             }
             construction  4 
             cost  2400 
@@ -1437,7 +2113,7 @@ building equestrian
                 recruit "roman heavy cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }  and marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman pigs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
-                stage_races 1 requires factions { roman,}
+                stage_races 1 requires factions { roman, }
                 recruit "barb chariot heavy slave"  0  requires factions { slave, } 
                 recruit "merc sarmatian cavalry"  0  requires factions { slave, } 
                 recruit "barb cavalry briton"  0  requires factions { britons, } 
@@ -1486,6 +2162,127 @@ building equestrian
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
                 recruit "barb horse archers slave"  0  requires factions { slave, } 
+                recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
+                recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
+                recruit "merc barb javelin cavalry"  0  requires factions { all, } 
+                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, } 
+                recruit "merc barb noble cavalry"  0  requires factions { all, } 
+                recruit "barb medium cavalry scythian"  0  requires factions { scythia, } 
+                recruit "merc carthaginian cavalry"  0  requires factions { all, } 
+                recruit "carthaginian citizen cavalry"  0  requires factions { carthage, } 
+                recruit "elephant forest"  0  requires factions { carthage, numidia, } 
+                recruit "elephant forest tower"  0  requires factions { carthage, numidia, } 
+                recruit "merc elephant forest tower"  0  requires factions { all, } 
+                recruit "merc east cavalry"  0  requires factions { all, } 
+                recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "merc east light cavalry"  0  requires factions { all, } 
+                recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east armenian lancer"  0  requires factions { armenia, } 
+                recruit "east armenian nakharar"  0  requires factions { armenia, } 
+                recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
+                recruit "east horse archer merc"  0  requires factions { all, } 
+                recruit "merc greek cavalry"  0  requires factions { all, } 
+                recruit "greek hippotoxotai"  0  requires factions { seleucid, egypt, } 
+                recruit "merc greek medium cavalry"  0  requires factions { all, } 
+                recruit "aspidophoroi hetairoi"  0  requires factions { macedon, } 
+                recruit "aetolian cavalry"  0  requires factions { greek_cities, thrace, macedon, romans_brutii, } 
+                recruit "pergamene heitaroi"  0  requires factions { all, } 
+                recruit "thracian heavy cavalry"  0  requires factions { thrace, } 
+                recruit "elephant african"  0  requires factions { seleucid, macedon, egypt, romans_brutii, carthage, numidia, parthia, greek_cities, } 
+                recruit "elephant asian"  0  requires factions { seleucid, macedon, egypt, romans_brutii, pontus, armenia, parthia, carthage, numidia, greek_cities, } 
+                recruit "elephant indian"  0  requires factions { seleucid, } 
+                recruit "italian heavy cavalry"  0  requires factions { romans_julii, } 
+                recruit "merc syrian cavalry"  0  requires factions { all, } 
+                recruit "merc bedouin warriors"  0  requires factions { all, } 
+                recruit "alan cavalry"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "tocharian horse archers"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc east heavy cavalry"  0  requires factions { all, } 
+                recruit "barb chariot light briton"  0  requires factions { britons, }
+                recruit "barb chariot heavy briton"  0  requires factions { britons, }
+                recruit "barb horse archers scythian"  0  requires factions { scythia, }
+                recruit "barb head hunting maidens scythian"  0  requires factions { scythia, }
+                recruit "barb scythian noblewomen scythian"  0  requires factions { scythia, }
+                recruit "barb chieftain cavalry early dacian"  0  requires factions { dacia, }
+                recruit "barb chieftain cavalry early gaul"  0  requires factions { gauls, }
+                recruit "barb chieftain cavalry early german"  0  requires factions { germans, sciria_01, }
+                recruit "barb chieftain cavalry early scythian"  0  requires factions { scythia, }
+                recruit "barb chieftain cavalry dacian"  0  requires factions { dacia, }
+                recruit "barb chieftain cavalry gaul"  0  requires factions { gauls, }
+                recruit "barb chieftain cavalry german"  0  requires factions { germans, sciria_01, }
+                recruit "barb british general briton"  0  requires factions { britons, }
+                recruit "barb scythian general scythian"  0  requires factions { scythia, }
+                recruit "carthaginian general's cavalry early"  0  requires factions { carthage, spain, numidia, }
+                recruit "carthaginian general's cavalry"  0  requires factions { carthage, spain, numidia, }
+                recruit "carthaginian royal cavalry"  0  requires factions { carthage, }
+                recruit "carthaginian elephant african cataphract"  0  requires factions { carthage, }
+                recruit "east camel cataphract"  0  requires factions { parthia, }
+                recruit "east scythed chariot"  0  requires factions { pontus, }
+                recruit "east chariot archer"  0  requires factions { pontus, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east generals cavalry"  0  requires factions { parthia, armenia, }
+                recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "egyptian chariot"  0  requires factions { egypt, }
+                recruit "egyptian chariot archer"  0  requires factions { egypt, }
+                recruit "egyptian general's bodyguard early"  0  requires factions { egyptian, }
+                recruit "egyptian general's bodyguard"  0  requires factions { egyptian, }
+                recruit "greek royal cavalry"  0  requires factions { macedon, seleucid, }
+                recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, itanos_01, seleucid, macedon, massilia_01, kos_01, }
+                recruit "greek general's guard cavalry"  0  requires factions { greek_cities, seleucid, macedon, }
+                recruit "thracian bodyguard early"  0  requires factions { thrace, }
+                recruit "thracian bodyguard"  0  requires factions { thrace, }
+                recruit "greek elephant cataphract"  0  requires factions { seleucid, }
+                recruit "greek chariot scythed"  0  requires factions { seleucid, }
+                recruit "roman praetorian cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman generals guard cavalry early"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, }
+                recruit "roman generals guard cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "merc elephants"  0  requires factions { numidia, }
+                recruit "Indian General"  0  requires factions { mauryans, }
+                recruit "roman marian light cavalry"  0  requires factions { roman, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china generals early"  0  requires factions { qin_01, }
+                recruit "barb guard cavalry gaul"  0  requires factions { gauls, }
+                recruit "thracian noble cavalry"  0  requires factions { thrace, }
+                recruit "barb guard cavalry dacian"  0  requires factions { dacia, }
+                recruit "barb chief cavalry german"  0  requires factions { germans, }
+                recruit "barb chariot heavy gaul"  0  requires factions { gauls, }
+                recruit "barb cataphract scythian"  0  requires factions { scythia, }
+                recruit "dacian cataphract"  0  requires factions { dacia, pontus, }
+                recruit "numidian royal cavalry"  0  requires factions { numidia, }
+                recruit "spain elite cavalry"  0  requires factions { spain, }
+                recruit "numidian elephant forest"  0  requires factions { numidia, }
+                recruit "carthaginian heavy elephant cataphract"  0  requires factions { carthage, }
+                recruit "seleucid heavy cataphract"  0  requires factions { seleucid, }
+                recruit "east heavy cataphract2"  0  requires factions { armenia, }
+                recruit "seleucid cappodocian cavalry"  0  requires factions { seleucid, }
+                recruit "east cataphract archer1"  0  requires factions { parthia, }
+                recruit "east horse archer2"  0  requires factions { pontus, armenia, pontus, scythia, numidia, }
+                recruit "macedon royal cavalry"  0  requires factions { macedon, greek_cities, }
+                recruit "macedon cataphract"  0  requires factions { macedon, }
+                recruit "greek cataphract"  0  requires factions { seleucid, }
+                recruit "macedon agema cavalry"  0  requires factions { macedon, }
+                recruit "macedon general's guard cavalry early"  0  requires factions { macedon, }
+                recruit "ellins general's guard cavalry early"  0  requires factions { seleucid, }
+                recruit "macedon general's guard cavalry"  0  requires factions { macedon, }
+                recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
+                recruit "roman light cavalry2"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman crew carriage"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman cappodocian cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "hellenic cappodocian cavalry"  0  requires factions { greek_cities, egypt, thrace, }
+                recruit "macedon cappodocian cavalry"  0  requires factions { macedon, }
+                recruit "merc east camel cataphract"  0  requires factions { all, }
+                recruit "carthaginian elephant forest2"  0  requires factions { carthage, numidia, }
+                recruit "carthaginian elephant african2"  0  requires factions { carthage, }
+                recruit "carthaginian elephant african cataphract2"  0  requires factions { carthage, }
+                recruit "carthaginian heavy elephant cataphract2"  0  requires factions { carthage, }
+                recruit "east elephant2"  0  requires factions { parthia, armenia, }
+                recruit "greek elephant small2"  0  requires factions { seleucid, macedon, greek_cities, egypt, }
+                recruit "greek elephant african2"  0  requires factions { seleucid, macedon, greek_cities, egypt, }
+                recruit "greek elephant cataphract2"  0  requires factions { seleucid, macedon, greek_cities, egypt, }
+                recruit "merc elephants2"  0  requires factions { all, }
+                recruit "numidian elephant forest2"  0  requires factions { all, }
             }
             construction  6 
             cost  4800 
@@ -1575,7 +2372,7 @@ building equestrian
                 recruit "roman praetorian cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }  and marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman pigs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
-                stage_races 2 requires factions { roman,}
+                stage_races 2 requires factions { roman, }
                 recruit "merc elephants"  0  requires factions { numidia, } 
                 recruit "cheat oliphants"  0  requires factions { slave, } 
                 recruit "barb guard cavalry gaul"  0  requires factions { gauls, } 
@@ -1663,6 +2460,90 @@ building equestrian
                 recruit "merc noblewomen"  0  requires factions { all, } 
                 recruit "barb celtogermanic cavalry"  0  requires factions { gauls, britons, germans, dacia, spain, roman, carthage, } 
                 recruit "east heavy cavalry2"  0  requires factions { all, } 
+                recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
+                recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
+                recruit "merc barb javelin cavalry"  0  requires factions { all, } 
+                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, } 
+                recruit "merc barb noble cavalry"  0  requires factions { all, } 
+                recruit "barb medium cavalry scythian"  0  requires factions { scythia, } 
+                recruit "merc carthaginian cavalry"  0  requires factions { all, } 
+                recruit "carthaginian citizen cavalry"  0  requires factions { carthage, } 
+                recruit "carthaginian iberian royal cavalry"  0  requires factions { carthage, spain, } 
+                recruit "elephant forest"  0  requires factions { carthage, numidia, } 
+                recruit "elephant forest tower"  0  requires factions { carthage, numidia, } 
+                recruit "merc elephant forest tower"  0  requires factions { all, } 
+                recruit "merc east cavalry"  0  requires factions { all, } 
+                recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "merc east light cavalry"  0  requires factions { all, } 
+                recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east armenian lancer"  0  requires factions { armenia, } 
+                recruit "east armenian nakharar"  0  requires factions { armenia, } 
+                recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
+                recruit "east horse archer merc"  0  requires factions { all, } 
+                recruit "east cataphract bodyguard"  0  requires factions { parthia, } 
+                recruit "east armenian royal boduguard"  0  requires factions { armenia, } 
+                recruit "merc greek cavalry"  0  requires factions { all, } 
+                recruit "greek hippotoxotai"  0  requires factions { seleucid, egypt, } 
+                recruit "merc greek medium cavalry"  0  requires factions { all, } 
+                recruit "aspidophoroi hetairoi"  0  requires factions { macedon, } 
+                recruit "aetolian cavalry"  0  requires factions { greek_cities, thrace, macedon, romans_brutii, } 
+                recruit "pergamene heitaroi"  0  requires factions { all, } 
+                recruit "thracian heavy cavalry"  0  requires factions { thrace, } 
+                recruit "elephant african"  0  requires factions { seleucid, macedon, egypt, romans_brutii, carthage, numidia, parthia, greek_cities, } 
+                recruit "elephant asian"  0  requires factions { seleucid, macedon, egypt, romans_brutii, pontus, armenia, parthia, carthage, numidia, greek_cities, } 
+                recruit "elephant indian"  0  requires factions { seleucid, } 
+                recruit "elephant cataphract"  0  requires factions { seleucid, macedon, egypt, romans_brutii, greek_cities, carthage, parthia, armenia, } 
+                recruit "merc elephant cataphract"  0  requires factions { all, } 
+                recruit "elephant royal cataphract"  0  requires factions { seleucid, } 
+                recruit "italian heavy cavalry"  0  requires factions { romans_julii, } 
+                recruit "merc syrian cavalry"  0  requires factions { all, } 
+                recruit "merc bedouin warriors"  0  requires factions { all, } 
+                recruit "merc elephant indian cataphract"  0  requires factions { all, } 
+                recruit "alan cavalry"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "tocharian horse archers"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc east heavy cavalry"  0  requires factions { all, } 
+                recruit "barb chariot light briton"  0  requires factions { britons, }
+                recruit "barb chariot heavy briton"  0  requires factions { britons, }
+                recruit "barb horse archers scythian"  0  requires factions { scythia, }
+                recruit "barb head hunting maidens scythian"  0  requires factions { scythia, }
+                recruit "barb scythian noblewomen scythian"  0  requires factions { scythia, }
+                recruit "barb chieftain cavalry early dacian"  0  requires factions { dacia, }
+                recruit "barb chieftain cavalry early gaul"  0  requires factions { gauls, }
+                recruit "barb chieftain cavalry early german"  0  requires factions { germans, sciria_01, }
+                recruit "barb chieftain cavalry early scythian"  0  requires factions { scythia, }
+                recruit "barb chieftain cavalry dacian"  0  requires factions { dacia, }
+                recruit "barb chieftain cavalry gaul"  0  requires factions { gauls, }
+                recruit "barb chieftain cavalry german"  0  requires factions { germans, sciria_01, }
+                recruit "barb british general briton"  0  requires factions { britons, }
+                recruit "barb scythian general scythian"  0  requires factions { scythia, }
+                recruit "carthaginian general's cavalry early"  0  requires factions { carthage, spain, numidia, }
+                recruit "carthaginian general's cavalry"  0  requires factions { carthage, spain, numidia, }
+                recruit "east scythed chariot"  0  requires factions { pontus, }
+                recruit "east chariot archer"  0  requires factions { pontus, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east generals cavalry"  0  requires factions { parthia, armenia, }
+                recruit "east pontic general"  0  requires factions { pontus, }
+                recruit "egyptian chariot"  0  requires factions { egypt, }
+                recruit "egyptian chariot archer"  0  requires factions { egypt, }
+                recruit "egyptian general's bodyguard early"  0  requires factions { egyptian, }
+                recruit "egyptian general's bodyguard"  0  requires factions { egyptian, }
+                recruit "greek general's guard cavalry early"  0  requires factions { greek_cities, itanos_01, seleucid, macedon, massilia_01, kos_01, }
+                recruit "greek general's guard cavalry"  0  requires factions { greek_cities, seleucid, macedon, }
+                recruit "thracian bodyguard early"  0  requires factions { thrace, }
+                recruit "thracian bodyguard"  0  requires factions { thrace, }
+                recruit "greek chariot scythed"  0  requires factions { seleucid, }
+                recruit "roman generals guard cavalry early"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, }
+                recruit "roman generals guard cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "Indian General"  0  requires factions { mauryans, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "china generals early"  0  requires factions { qin_01, }
+                recruit "macedon general's guard cavalry early"  0  requires factions { macedon, }
+                recruit "ellins general's guard cavalry early"  0  requires factions { seleucid, }
+                recruit "macedon general's guard cavalry"  0  requires factions { macedon, }
+                recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
             }
             construction  7 
             cost  9600 
@@ -1724,6 +2605,58 @@ building missiles
                 recruit "roman slinger"  0  requires factions { roman, } 
                 recruit "roman east peltast aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman barb peltast aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
+                recruit "barb skirmisher"  0  requires factions { barbarian, romans_julii, romans_brutii, } 
+                recruit "barb getic skirmisher"  0  requires factions { dacia, thrace, pontus, scythia, germans, } 
+                recruit "merc east peltast"  0  requires factions { all, } 
+                recruit "armenian slinger"  0  requires factions { armenia, pontus, } 
+                recruit "roman heavy skirmisher auxilia"  0  requires factions { romans_julii, } 
+                recruit "merc east slinger"  0  requires factions { all, } 
+                recruit "merc illyrian slingers"  0  requires factions { all, } 
+                recruit "merc italic skirmisher"  0  requires factions { all, } 
+                recruit "indian skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian skirmishers"  0  requires factions { all, } 
+                recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
+                recruit "warband archer dacian"  0  requires factions { dacia, }
+                recruit "warband archer german"  0  requires factions { germans, sciria_01, }
+                recruit "warband archer scythian"  0  requires factions { scythia, }
+                recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, }
+                recruit "numidian javelinmen"  0  requires factions { numidia, }
+                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, }
+                recruit "egyptian archer"  0  requires factions { egypt, }
+                recruit "egyptian archer elite"  0  requires factions { egypt, }
+                recruit "greek archer"  0  requires factions { greek, }
+                recruit "greek heavy peltast"  0  requires factions { greek_cities, kos_01, }
+                recruit "roman archer"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman archer auxillia"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "merc rhodian slingers"  0  requires factions { greek_cities, }
+                recruit "merc cretan archers"  0  requires factions { greek_cities, macedon, }
+                recruit "merc balearic slingers"  0  requires factions { carthage, spain, }
+                recruit "east heavy archer"  0  requires factions { armenia, }
+                recruit "pontic peltast"  0  requires factions { pontus, }
+                recruit "Indian Slingers"  0  requires factions { mauryans, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
+                recruit "carthage archer"  0  requires factions { carthage, }
+                recruit "east heavy peltast"  0  requires factions { pontus, armenia, }
+                recruit "eastern archer"  0  requires factions { pontus, armenia, pontus, }
+                recruit "thracian peltast"  0  requires factions { thrace, roman, }
+                recruit "greek heavy peltast2"  0  requires factions { greek_cities, macedon, thrace, dacia, gauls, }
+                recruit "thrace heavy peltast"  0  requires factions { thrace, }
+                recruit "macedon heavy peltast"  0  requires factions { macedon, }
+                recruit "elite archers macedon"  0  requires factions { macedon, }
+                recruit "elite archers"  0  requires factions { greek_cities, seleucid, thrace, }
+                recruit "merc peltast thrace"  0  requires factions { all, }
+                recruit "merc east archer"  0  requires factions { all, }
+                recruit "merc egyptian archer"  0  requires factions { all, }
+                recruit "barb archer merc"  0  requires factions { all, }
+                recruit "merc carthaginian archer"  0  requires factions { all, }
+                recruit "roman eastern archer aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "greek eastern archer aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
+                recruit "carthage eastern archer"  0  requires factions { carthage, numidia, }
+                recruit "nubian archer"  0  requires factions { egypt, numidia, }
+                recruit "merc nubian archer"  0  requires factions { all, }
+                recruit "egyptian archer pharaoh"  0  requires factions { egypt, }
+                recruit "celt archer"  0  requires factions { britons, }
+                recruit "italic skirmisher"  0  requires factions { all, }
             }
             construction  3 
             cost  1200 
@@ -1823,6 +2756,88 @@ building missiles
                 recruit "roman slinger"  0  requires factions { roman, } 
                 recruit "roman east peltast aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman barb peltast aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
+                recruit "barb skirmisher"  0  requires factions { barbarian, romans_julii, romans_brutii, } 
+                recruit "barb getic skirmisher"  0  requires factions { dacia, thrace, pontus, scythia, germans, } 
+                recruit "barb archer"  0  requires factions { dacia, scythia, britons, germans, gauls, thrace, pontus, } 
+                recruit "warband huntsman barb"  0  requires factions { barbarian, thrace, } 
+                recruit "carthaginian medium archer"  0  requires factions { carthage, } 
+                recruit "merc east peltast"  0  requires factions { all, } 
+                recruit "armenian slinger"  0  requires factions { armenia, pontus, } 
+                recruit "armenian archer"  0  requires factions { armenia, pontus, } 
+                recruit "merc east heavy archer"  0  requires factions { all, } 
+                recruit "east immortal archer"  0  requires factions { parthia, } 
+                recruit "greek akontistai"  0  requires factions { greek_cities, macedon, seleucid, roman, romans_brutii, } 
+                recruit "merc greek akontistai"  0  requires factions { all, } 
+                recruit "greek hemithorakitai peltophoroi"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "merc greek archer"  0  requires factions { all, } 
+                recruit "greek neocretan archer"  0  requires factions { greek, pontus, egypt, } 
+                recruit "roman heavy skirmisher auxilia"  0  requires factions { romans_julii, } 
+                recruit "merc syrian archer"  0  requires factions { all, } 
+                recruit "merc east slinger"  0  requires factions { all, } 
+                recruit "merc illyrian slingers"  0  requires factions { all, } 
+                recruit "indian archer"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian archer"  0  requires factions { all, } 
+                recruit "merc steppe archer"  0  requires factions { all, } 
+                recruit "merc italic skirmisher"  0  requires factions { all, } 
+                recruit "indian skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian skirmishers"  0  requires factions { all, } 
+                recruit "gaetulian infantry"  0  requires factions { numidia, } 
+                recruit "machimoi archer"  0  requires factions { egyptian, } 
+                recruit "merc machimoi archer"  0  requires factions { all, } 
+                recruit "baltic hunter"  0  requires factions { germans, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "armenian archer spearmen"  0  requires factions { armenia, } 
+                recruit "iranian archer spearmen"  0  requires factions { all, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "carthaginian light infantry"  0  requires factions { carthage, } 
+                recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
+                recruit "persian archer merc"  0  requires factions { all, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "merc kurdish javelinmen"  0  requires factions { all, } 
+                recruit "merc colchian archer"  0  requires factions { all, } 
+                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "warband hurler briton"  0  requires factions { britons, }
+                recruit "numidian javelinmen"  0  requires factions { numidia, }
+                recruit "carthaginian onager"  0  requires factions { carthage, spain, numidia, }
+                recruit "carthaginian heavy onager"  0  requires factions { carthage, }
+                recruit "east onager"  0  requires factions { pontus, armenia, parthia, }
+                recruit "egyptian archer elite"  0  requires factions { egypt, }
+                recruit "egyptian onager"  0  requires factions { egypt, }
+                recruit "egyptian heavy onager"  0  requires factions { egypt, }
+                recruit "greek heavy peltast"  0  requires factions { greek_cities, kos_01, }
+                recruit "greek onager"  0  requires factions { greek, }
+                recruit "greek heavy onager"  0  requires factions { greek_cities, macedon, seleucid, thrace, }
+                recruit "east heavy onager"  0  requires factions { pontus, armenia, parthia, }
+                recruit "roman scorpion"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman onager"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman heavy onager"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman repeating ballista"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "east heavy archer"  0  requires factions { armenia, }
+                recruit "pontic peltast"  0  requires factions { pontus, }
+                recruit "Indian Longbowmen"  0  requires factions { mauryans, }
+                recruit "Indian Slingers"  0  requires factions { mauryans, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
+                recruit "warband huntsman briton"  0  requires factions { gauls, spain, germans, britons, dacia, thrace, }
+                recruit "carthage ballista"  0  requires factions { carthaginian, spain, }
+                recruit "east javelineer"  0  requires factions { armenia, parthia, }
+                recruit "eastern archer"  0  requires factions { pontus, armenia, pontus, }
+                recruit "greek gastraphetes"  0  requires factions { seleucid, }
+                recruit "macedon gastraphetes"  0  requires factions { macedon, }
+                recruit "macedon cleruch"  0  requires factions { macedon, }
+                recruit "greek cleruch"  0  requires factions { seleucid, egypt, greek_cities, }
+                recruit "macedon ballista"  0  requires factions { macedon, }
+                recruit "macedon onager"  0  requires factions { macedon, }
+                recruit "macedon heavy onager"  0  requires factions { macedon, }
+                recruit "macedon repeating ballistas"  0  requires factions { macedon, }
+                recruit "greek scorpion"  0  requires factions { greek_cities, }
+                recruit "greek repeating ballistas"  0  requires factions { greek_cities, seleucid, }
+                recruit "merc east archer"  0  requires factions { all, }
+                recruit "roman eastern archer aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "greek eastern archer aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
+                recruit "carthage eastern archer"  0  requires factions { carthage, numidia, }
+                recruit "palintone"  0  requires factions { all, }
+                recruit "large lithobolos"  0  requires factions { all, }
+                recruit "egyptian archer pharaoh"  0  requires factions { egypt, }
             }
             construction  4 
             cost  2400 
@@ -1941,6 +2956,72 @@ building missiles
                 recruit "poeni sailor"  0  requires factions { carthage, } 
                 recruit "celt archer"  0  requires factions { britons, } 
                 recruit "italic skirmisher"  0  requires factions { all, } 
+                recruit "barb skirmisher"  0  requires factions { barbarian, romans_julii, romans_brutii, } 
+                recruit "barb getic skirmisher"  0  requires factions { dacia, thrace, pontus, scythia, germans, } 
+                recruit "barb archer"  0  requires factions { dacia, scythia, britons, germans, gauls, thrace, pontus, } 
+                recruit "warband huntsman barb"  0  requires factions { barbarian, thrace, } 
+                recruit "carthaginian medium archer"  0  requires factions { carthage, } 
+                recruit "merc east peltast"  0  requires factions { all, } 
+                recruit "armenian slinger"  0  requires factions { armenia, pontus, } 
+                recruit "armenian archer"  0  requires factions { armenia, pontus, } 
+                recruit "merc east heavy archer"  0  requires factions { all, } 
+                recruit "east immortal archer"  0  requires factions { parthia, } 
+                recruit "greek akontistai"  0  requires factions { greek_cities, macedon, seleucid, roman, romans_brutii, } 
+                recruit "merc greek akontistai"  0  requires factions { all, } 
+                recruit "greek hemithorakitai peltophoroi"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "merc greek archer"  0  requires factions { all, } 
+                recruit "greek neocretan archer"  0  requires factions { greek, pontus, egypt, } 
+                recruit "roman heavy skirmisher auxilia"  0  requires factions { romans_julii, } 
+                recruit "merc syrian archer"  0  requires factions { all, } 
+                recruit "merc east slinger"  0  requires factions { all, } 
+                recruit "merc illyrian slingers"  0  requires factions { all, } 
+                recruit "indian archer"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian archer"  0  requires factions { all, } 
+                recruit "merc steppe archer"  0  requires factions { all, } 
+                recruit "merc italic skirmisher"  0  requires factions { all, } 
+                recruit "indian skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian skirmishers"  0  requires factions { all, } 
+                recruit "indian noble skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian noble skirmishers"  0  requires factions { all, } 
+                recruit "gaetulian infantry"  0  requires factions { numidia, } 
+                recruit "machimoi archer"  0  requires factions { egyptian, } 
+                recruit "merc machimoi archer"  0  requires factions { all, } 
+                recruit "baltic hunter"  0  requires factions { germans, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "armenian archer spearmen"  0  requires factions { armenia, } 
+                recruit "iranian archer spearmen"  0  requires factions { all, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "carthaginian light infantry"  0  requires factions { carthage, } 
+                recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
+                recruit "persian archer merc"  0  requires factions { all, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "merc kurdish javelinmen"  0  requires factions { all, } 
+                recruit "merc colchian archer"  0  requires factions { all, } 
+                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "warband hurler briton"  0  requires factions { britons, }
+                recruit "numidian javelinmen"  0  requires factions { numidia, }
+                recruit "carthaginian heavy onager"  0  requires factions { carthage, }
+                recruit "egyptian heavy onager"  0  requires factions { egypt, }
+                recruit "greek heavy onager"  0  requires factions { greek_cities, macedon, seleucid, thrace, }
+                recruit "east heavy onager"  0  requires factions { pontus, armenia, parthia, }
+                recruit "roman heavy onager"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "roman repeating ballista"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
+                recruit "Indian Longbowmen"  0  requires factions { mauryans, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
+                recruit "warband huntsman briton"  0  requires factions { gauls, spain, germans, britons, dacia, thrace, }
+                recruit "carthage ballista"  0  requires factions { carthaginian, spain, }
+                recruit "east javelineer"  0  requires factions { armenia, parthia, }
+                recruit "macedon cleruch"  0  requires factions { macedon, }
+                recruit "greek cleruch"  0  requires factions { seleucid, egypt, greek_cities, }
+                recruit "macedon ballista"  0  requires factions { macedon, }
+                recruit "macedon onager"  0  requires factions { macedon, }
+                recruit "macedon heavy onager"  0  requires factions { macedon, }
+                recruit "macedon repeating ballistas"  0  requires factions { macedon, }
+                recruit "greek scorpion"  0  requires factions { greek_cities, }
+                recruit "greek repeating ballistas"  0  requires factions { greek_cities, seleucid, }
+                recruit "palintone"  0  requires factions { all, }
+                recruit "large lithobolos"  0  requires factions { all, }
+                recruit "egyptian archer pharaoh"  0  requires factions { egypt, }
             }
             construction  6 
             cost  4800 
@@ -2078,6 +3159,53 @@ building missiles
                 recruit "roman eastern archer aux"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "greek eastern archer aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, } 
                 recruit "carthage eastern archer"  0  requires factions { carthage, numidia, } 
+                recruit "barb skirmisher"  0  requires factions { barbarian, romans_julii, romans_brutii, } 
+                recruit "barb getic skirmisher"  0  requires factions { dacia, thrace, pontus, scythia, germans, } 
+                recruit "barb archer"  0  requires factions { dacia, scythia, britons, germans, gauls, thrace, pontus, } 
+                recruit "warband huntsman barb"  0  requires factions { barbarian, thrace, } 
+                recruit "carthaginian medium archer"  0  requires factions { carthage, } 
+                recruit "merc east peltast"  0  requires factions { all, } 
+                recruit "armenian slinger"  0  requires factions { armenia, pontus, } 
+                recruit "armenian archer"  0  requires factions { armenia, pontus, } 
+                recruit "merc east heavy archer"  0  requires factions { all, } 
+                recruit "east immortal archer"  0  requires factions { parthia, } 
+                recruit "greek akontistai"  0  requires factions { greek_cities, macedon, seleucid, roman, romans_brutii, } 
+                recruit "merc greek akontistai"  0  requires factions { all, } 
+                recruit "greek hemithorakitai peltophoroi"  0  requires factions { greek_cities, romans_brutii, } 
+                recruit "merc greek archer"  0  requires factions { all, } 
+                recruit "greek neocretan archer"  0  requires factions { greek, pontus, egypt, } 
+                recruit "roman heavy skirmisher auxilia"  0  requires factions { romans_julii, } 
+                recruit "merc syrian archer"  0  requires factions { all, } 
+                recruit "merc east slinger"  0  requires factions { all, } 
+                recruit "merc illyrian slingers"  0  requires factions { all, } 
+                recruit "indian archer"  0  requires factions { scythia, parthia, seleucid, } 
+                recruit "merc indian archer"  0  requires factions { all, } 
+                recruit "merc steppe archer"  0  requires factions { all, } 
+                recruit "merc italic skirmisher"  0  requires factions { all, } 
+                recruit "indian skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian skirmishers"  0  requires factions { all, } 
+                recruit "indian noble skirmishers"  0  requires factions { seleucid, parthia, scythia, } 
+                recruit "merc indian noble skirmishers"  0  requires factions { all, } 
+                recruit "gaetulian infantry"  0  requires factions { numidia, } 
+                recruit "machimoi archer"  0  requires factions { egyptian, } 
+                recruit "merc machimoi archer"  0  requires factions { all, } 
+                recruit "baltic hunter"  0  requires factions { germans, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "armenian archer spearmen"  0  requires factions { armenia, } 
+                recruit "iranian archer spearmen"  0  requires factions { all, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "carthaginian light infantry"  0  requires factions { carthage, } 
+                recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
+                recruit "persian archer merc"  0  requires factions { all, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "merc kurdish javelinmen"  0  requires factions { all, } 
+                recruit "merc colchian archer"  0  requires factions { all, } 
+                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "warband hurler briton"  0  requires factions { britons, }
+                recruit "numidian javelinmen"  0  requires factions { numidia, }
+                recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
+                recruit "macedon cleruch"  0  requires factions { macedon, }
+                recruit "greek cleruch"  0  requires factions { seleucid, egypt, greek_cities, }
             }
             construction  7 
             cost  9600 
@@ -2668,7 +3796,7 @@ building amphitheatres
             capability
             {
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
-                stage_games 1 requires factions { roman,}
+                stage_games 1 requires factions { roman, }
                 happiness_bonus bonus 1
             }
             construction  3 
@@ -2685,7 +3813,7 @@ building amphitheatres
             {
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
                 recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, } 
-                stage_games 2 requires factions { roman,}
+                stage_games 2 requires factions { roman, }
                 happiness_bonus bonus 2
             }
             construction  5 
@@ -2703,7 +3831,7 @@ building amphitheatres
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
                 recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, } 
                 recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, } 
-                stage_games 3 requires factions { roman,}
+                stage_games 3 requires factions { roman, }
                 happiness_bonus bonus 3
             }
             construction  6 
@@ -3045,7 +4173,7 @@ building temple_of_battleforge
                 temple_of_battleforge_awesome_temple
             }
         }
-        temple_of_battleforge_awesome_temple requires factions {  armenia, } 
+        temple_of_battleforge_awesome_temple requires factions { armenia, } 
         {
             capability
             {
@@ -3570,7 +4698,7 @@ building temple_of_healing
                 temple_of_healing_pantheon
             }
         }
-        temple_of_healing_pantheon requires factions { egyptian, seleucid,  romans_brutii, } 
+        temple_of_healing_pantheon requires factions { egyptian, seleucid, romans_brutii, } 
         {
             capability
             {
@@ -5529,11 +6657,11 @@ building temple_of_allat_thamud
         {
             capability
             {
-                happiness_bonus bonus 4
-                recruits_morale_bonus bonus 5
+                happiness_bonus bonus 6
+                recruits_morale_bonus bonus 6
             }
             construction  6
-            cost  7020
+            cost  7030
             settlement_min huge_city
             upgrades
             {
