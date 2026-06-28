@@ -50,21 +50,21 @@ anim		dying											data/animations/engine/ballista/onager_dying_anim.CAS				-
 
 type		catapult																									
 
-anim		idle											NL_2/data/animations/engine/catapult/catapult_idle.CAS						
-anim		idle_to_moving								   	NL_2/data/animations/engine/catapult/catapult_idle.CAS			 	
-anim		moving										   	NL_2/data/animations/engine/catapult/catapult_idle.CAS			  			-evt:NL_2/data/animations/engine/catapult/catapult_idle.evt
-anim		moving_to_idle								   	NL_2/data/animations/engine/catapult/catapult_idle.CAS			   		
-anim		idle_to_crank									NL_2/data/animations/engine/catapult/catapult_idle.CAS				  		
-anim		crank											NL_2/data/animations/engine/catapult/catapult_fire_recover.CAS					   			-evt:NL_2/data/animations/engine/catapult/catapult_fire_recover.evt
-anim		crank_to_attack_idle						 	NL_2/data/animations/engine/catapult/catapult_attack_idle.CAS					   		
-anim		attack_prepare								   	NL_2/data/animations/engine/catapult/catapult_attack_idle.CAS									
-anim		attack_idle									  	NL_2/data/animations/engine/catapult/catapult_attack_idle.CAS			
-anim		attack_commence								  	NL_2/data/animations/engine/catapult/catapult_fire.CAS			-if:45,	-evt:NL_2/data/animations/engine/catapult/catapult_fire.evt
-anim		attack_recover								   	NL_2/data/animations/engine/catapult/catapult_idle.CAS			
+anim		idle											data/animations/engine/catapult/catapult_idle.CAS						
+anim		idle_to_moving								   	data/animations/engine/catapult/catapult_idle.CAS			 	
+anim		moving										   	data/animations/engine/catapult/catapult_idle.CAS			  			-evt:data/animations/engine/catapult/catapult_idle.evt
+anim		moving_to_idle								   	data/animations/engine/catapult/catapult_idle.CAS			   		
+anim		idle_to_crank									data/animations/engine/catapult/catapult_idle.CAS				  		
+anim		crank											data/animations/engine/catapult/catapult_fire_recover.CAS					   			-evt:data/animations/engine/catapult/catapult_fire_recover.evt
+anim		crank_to_attack_idle						 	data/animations/engine/catapult/catapult_attack_idle.CAS					   		
+anim		attack_prepare								   	data/animations/engine/catapult/catapult_attack_idle.CAS									
+anim		attack_idle									  	data/animations/engine/catapult/catapult_attack_idle.CAS			
+anim		attack_commence								  	data/animations/engine/catapult/catapult_fire.CAS			-if:45,	-evt:data/animations/engine/catapult/catapult_fire.evt
+anim		attack_recover								   	data/animations/engine/catapult/catapult_idle.CAS			
 
 type		catapult_dying
 
-anim		dying											NL_2/data/animations/engine/ballista/onager_dying_anim.CAS	-evt:data/animations/engine/ballista/onager_dying_anim.evt
+anim		dying											data/animations/engine/ballista/onager_dying_anim.CAS	-evt:data/animations/engine/ballista/onager_dying_anim.evt
 
 type		scorpion																										
 																															

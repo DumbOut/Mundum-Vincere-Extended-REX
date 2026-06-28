@@ -1,0 +1,54 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+;
+; JNF 2021-04-15 - Include parameters for width and offset so any large modded animals aren't squished against the handlers
+;
+;	This file contains the animal linkages; it gets parsed on application 
+;	startup but is not otherwise referred to. The data format is thus:
+;
+;	Fields should be entered in the order shown.
+;
+;	;						indicates a comment ;-)
+;	[]						indicates optional
+;
+;	type					indicates a new mount type, must be followed by id name string
+;	class					animal class (current possibilities - wardog, pig, hound)
+;	model					model id from descr_model_battle 
+;	radius					animal radius
+;	[ x_radius ]			animal x axis radius for elliptical mounts (radius is y radius in this case) 
+;	height					animal height
+;	width					space used per animal in the line in front of the handler
+;	offset					the distance in front of the handler the animals should stand
+;	mass					animal mass
+
+type		wardog
+class		wardog
+model		wardog
+radius		0.75
+x_radius	0.35
+height		1.0
+mass		1.0
+
+type		hound
+class		wardog
+model		hounds_of_culann_dog
+radius		0.75
+x_radius	0.35
+height		1.0
+mass		1.0
+
+type		pictish_wolfhound
+class		wardog
+model		pictish_wolfhound
+radius		0.75
+x_radius	0.35
+height		1.0
+mass		1.0
+
+type		langobard_wardog
+class		wardog
+model		langobard_wardog
+radius		0.75
+x_radius	0.35
+height		1.0
+mass		0.5
+

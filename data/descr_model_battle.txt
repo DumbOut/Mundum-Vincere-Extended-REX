@@ -581,6 +581,7 @@ model_sprite		romans_scipii, 100.0, data/sprites/romans_scipii_horse_heavy_sprit
 model_sprite		romans_brutii, 100.0, data/sprites/romans_brutii_horse_heavy_sprite.spr
 model_sprite		romans_julii, 100.0, data/sprites/romans_julii_horse_heavy_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
+
 type				generals_horse
 skeleton			fs_fast_horse
 scale				0.875
@@ -643,6 +644,7 @@ model_sprite		romans_scipii, 100.0, data/sprites/romans_scipii_generals_horse_sp
 model_sprite		romans_brutii, 100.0, data/sprites/romans_brutii_generals_horse_sprite.spr
 model_sprite		romans_julii, 100.0, data/sprites/romans_julii_generals_horse_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
+
 type				horse_cataphract
 skeleton			fs_cataphract_horse
 scale				0.875
@@ -697,46 +699,6 @@ model_sprite		parthia, 100.0, Data/sprites/parthia_armoured_horse_sprite.spr
 model_sprite		pontus, 100.0, Data/sprites/pontus_armoured_horse_sprite.spr
 model_sprite		scythia, 100.0, Data/sprites/scythia_armoured_horse_sprite.spr
 model_sprite		100.0, Data/sprites/slave_armoured_horse_sprite.spr
-model_tri			700, 0.3f, 0.3f, 0.3f
-
-type				horse_half_cataphract
-skeleton			fs_horse
-scale				0.875
-indiv_range			40
-texture				all, Data/models_unit/textures/unit_NL_horse_half_cataphract_merc.TGA
-texture			default, Data/models_unit/textures/unit_NL_horse_half_cataphract_merc.TGA
-texture			slave, Data/models_unit/textures/unit_NL_horse_half_cataphract_merc.TGA
-texture		 	armenia, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_ARMENIA.TGA
-texture		  	parthia, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_PARTHIA.TGA
-texture		  	pontus, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_PONTUS.TGA
-texture			seleucid, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_SELEUCID.TGA
-texture			greek_cities, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_GREEK.TGA
-texture			macedon, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_MACEDON.TGA
-texture			thrace, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_THRACE.TGA
-texture			egypt, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_EGYPT.TGA
-texture			romans_brutii, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_BRUTII.TGA
-texture			romans_julii, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_JULII.TGA
-texture			romans_scipii, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_SCIPII.TGA
-texture			romans_senate, Data/models_unit/textures/ME_HORSE_HALF_CATAPHRACT_SENATE.TGA
-texture			merc, Data/models_unit/textures/unit_NL_horse_half_cataphract_merc.TGA
-model_flexi_m			Data/models_unit/NL_horse_half_cataphract_high.cas, 15
-model_flexi			Data/models_unit/NL_horse_half_cataphract_med.CAS, 30
-model_flexi			Data/models_unit/NL_horse_half_cataphract_low.CAS, 60
-model_flexi			Data/models_unit/ME_horse_half_cataphract_lowest.cas, 80
-model_flexi			Data/models_unit/ME_horse_half_cataphract_null.cas, max
-model_sprite		100.0, Data/sprites/horse_half_cataphract_sprite.spr
-model_sprite		armenia, 100.0, Data/sprites/armenia_horse_half_cataphract_sprite.spr
-model_sprite		parthia, 100.0, Data/sprites/parthia_horse_half_cataphract_sprite.spr
-model_sprite		pontus, 100.0, Data/sprites/pontus_horse_half_cataphract_sprite.spr
-model_sprite		seleucid, 100.0, Data/sprites/seleucid_horse_half_cataphract_sprite.spr
-model_sprite		greek_cities, 100.0, Data/sprites/greek_cities_horse_half_cataphract_sprite.spr
-model_sprite		macedon, 100.0, Data/sprites/macedon_horse_half_cataphract_sprite.spr
-model_sprite		thrace, 100.0, Data/sprites/thrace_horse_half_cataphract_sprite.spr
-model_sprite		egypt, 100.0, Data/sprites/egypt_horse_half_cataphract_sprite.spr
-model_sprite		romans_senate, 100.0, Data/sprites/romans_senate_horse_half_cataphract_sprite.spr
-model_sprite		romans_scipii, 100.0, Data/sprites/romans_scipii_horse_half_cataphract_sprite.spr
-model_sprite		romans_brutii, 100.0, Data/sprites/romans_brutii_horse_half_cataphract_sprite.spr
-model_sprite		romans_julii, 100.0, Data/sprites/romans_julii_horse_half_cataphract_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
 type			horse_half_cataphract_steppes
@@ -4223,7 +4185,7 @@ model_sprite		60.0, Data/sprites/slave_east_crew_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				syrian_light_infantry
-skeleton			fs_s1_semi_fast_swordsman
+skeleton			fs_s1_semi_fast_javelinman, fs_s1_semi_fast_swordsman
 indiv_range			40
 texture				all, data/models_unit/textures/UNIT_NL_SYRIAN_INFANTRY_SLAVE.TGA
 texture			slave, data/models_unit/textures/UNIT_NL_SYRIAN_INFANTRY_SLAVE.TGA
@@ -4428,7 +4390,7 @@ model_sprite		pontus, 60.0, Data/sprites/pontus_persian_sparabara2_sprite.spr
 model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				east_hillmen
-skeleton			fs_semi_fast_spearman, fs_s1_semi_fast_swordsman
+skeleton			fs_fast_spearman, fs_s1_semi_fast_swordsman
 indiv_range			40
 texture				all, Data/models_unit/textures/ME_EAST_HILLMEN_ARMENIA.TGA
 texture			armenia, Data/models_unit/textures/ME_EAST_HILLMEN_ARMENIA.TGA
@@ -6137,7 +6099,7 @@ model_sprite		romans_julii, 60.0, data/sprites/romans_julii_roman_velite_sprite.
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				roman_velite_gladiator
-skeleton			fs_semi_fast_spearman, fs_semi_fast_dagger
+skeleton			fs_fast_spearman, fs_semi_fast_dagger
 indiv_range			40
 texture				all, data/models_unit/textures/UNIT_NL_ROMAN_VELITE_GLADIATOR_SLAVE.tga
 texture			slave, data/models_unit/textures/UNIT_NL_ROMAN_VELITE_GLADIATOR_SLAVE.tga
@@ -6512,7 +6474,7 @@ model_tri			400, 0.5f, 0.5f, 0.5f
 
 
 type				greek_thureophoroi
-skeleton			fs_semi_fast_spearman
+skeleton			fs_fast_spearman
 indiv_range			40
 texture				all, Data/models_unit/textures/UNIT_NL_DORYPHOROI_SLAVE.TGA
 texture			slave, Data/models_unit/textures/UNIT_NL_DORYPHOROI_SLAVE.TGA
@@ -6967,18 +6929,6 @@ model_sprite			armenia, 60.0, Data/sprites/armenia_east_takabara_sprite.spr
 model_sprite			pontus, 60.0, Data/sprites/pontus_east_takabara_sprite.spr
 model_sprite			parthia, 60.0, Data/sprites/parthia_east_takabara_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
-
-type			garamant_infantry
-skeleton		fs_s1_fast_javelinman, fs_fast_spearman
-indiv_range		40
-texture				all, Data/models_unit/textures/A_unit_numidian_garamants_infantry.tga
-texture			numidia, Data/models_unit/textures/A_unit_numidian_garamants_infantry.tga
-model_flexi		Data/models_unit/A_unit_numidian_garamants_infantry_high.cas, 15
-model_flexi		Data/models_unit/A_unit_numidian_garamants_infantry_med.cas, 30
-model_flexi		Data/models_unit/A_unit_numidian_garamants_infantry_low.cas, 40
-model_flexi		Data/models_unit/A_unit_numidian_garamants_infantry_lowest.cas, max
-model_sprite		numidia, 60.0, Data/sprites/numidia_garamants_infantry_sprite.spr
-model_tri		400, 0.5f, 0.5f, 0.5f
 
 type			carthaginian_slinger_merc
 skeleton		fs_slinger_new, fs_slinger_new
@@ -10302,27 +10252,6 @@ model_flexi			data/models_unit/unit_NL_thrace_agema_lowest.cas, max
 model_sprite		thrace, 60.0, data/sprites/thrace_thracian_elite_pikemen_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
-type				thracian_peltast				; 
-skeleton			fs_s1_fast_javelinman, fs_s1_fast_swordsman				
-indiv_range			40
-texture				thrace, data/models_unit/textures/UNIT_NL_THRACIAN_PELTAST_THRACE.tga
-texture				romans_brutii, data/models_unit/textures/UNIT_NL_THRACIAN_PELTAST_EPIRUS.tga
-texture				pontus, data/models_unit/textures/UNIT_NL_THRACIAN_PELTAST_PONTUS.tga
-texture				slave, data/models_unit/textures/UNIT_NL_THRACIAN_PELTAST_SLAVE.tga
-texture				dacia, data/models_unit/textures/unit_NL_thracian_peltast_dacia.tga
-texture				merc, data/models_unit/textures/UNIT_NL_THRACIAN_PELTAST_MERC.tga
-model_flexi			data/models_unit/unit_NL_thracian_peltast_high.CAS, 15
-model_flexi			data/models_unit/unit_NL_thracian_peltast_med.CAS, 30
-model_flexi			data/models_unit/unit_NL_thracian_peltast_low.CAS, 40
-model_flexi			data/models_unit/unit_NL_thracian_peltast_low.cas, max
-model_sprite		60.0, data/sprites/thracian_peltast_merc_sprite.spr
-model_sprite		dacia, 60.0, data/sprites/dacia_thracian_peltast_sprite.spr
-model_sprite		thrace, 60.0, data/sprites/thrace_thracian_peltast_sprite.spr
-model_sprite		romans_brutii, 60.0, data/sprites/romans_brutii_thracian_peltast_sprite.spr
-model_sprite		pontus, 60.0, data/sprites/pontus_thracian_peltast_sprite.spr
-model_sprite		slave, 60.0, data/sprites/slave_thracian_peltast_sprite.spr
-model_tri			400, 0.5f, 0.5f, 0.5f
-
 type				scythian_general
 skeleton			fs_dagger
 skeleton_horse		fs_hc_swordsman
@@ -10766,17 +10695,6 @@ model_flexi			data/models_unit/unit_NL_numidian_javelinman_lowest.cas, max
 model_sprite		slave, 60.0, data/sprites/slave_numidian_javelinman_sprite.spr
 model_sprite		numidia, 60.0, data/sprites/numidia_numidian_javelinman_sprite.spr
 model_sprite		carthage, 60.0, data/sprites/carthage_numidian_javelinman_sprite.spr
-model_tri			400, 0.5f, 0.5f, 0.5f
-
-type				numidian_light_infantry	;   NEW
-skeleton			fs_s1_semi_fast_javelinman, fs_s1_swordsman
-indiv_range			40
-texture				numidia, data/models_unit/textures/unit_NL_numidian_light_infantry.tga
-model_flexi			data/models_unit/unit_NL_numidian_infantry_high.cas, 15
-model_flexi			data/models_unit/unit_NL_numidian_infantry_med.cas, 30
-model_flexi			data/models_unit/unit_NL_numidian_infantry_low.cas, 40
-model_flexi			data/models_unit/unit_NL_numidian_infantry_lowest.cas, max
-model_sprite		numidia, 60.0, data/sprites/numidia_numidian_light_infantry_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				garamant_infantry	;   NEW
@@ -12248,7 +12166,7 @@ model_sprite		egypt, 60.0, data/sprites/egypt_greek_phrygian_hoplite_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
 type				greek_doryphoroi		
-skeleton			fs_semi_fast_spearman
+skeleton			fs_fast_spearman
 indiv_range			40
 texture				armenia, data/models_unit/textures/unit_NL_doryphoroi_armenia.tga
 texture				parthia, data/models_unit/textures/unit_NL_doryphoroi_parthia.tga
