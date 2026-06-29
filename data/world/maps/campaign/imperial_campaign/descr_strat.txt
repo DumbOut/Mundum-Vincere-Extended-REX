@@ -33,6 +33,7 @@ end
 unlockable
 end
 nonplayable
+	lapicinia_01
 	slave
 ;	caledonians_01
 ;	voluntii_01
@@ -13266,13 +13267,63 @@ character_record		Tanaquil, 	female, command 0, influence 1, management 1, subte
 relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 
 
+faction	lapicinia_01, balanced smith
+denari	5950
+settlement
+{
+	level large_town
+	region Lapicinia_R
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator lapicinia_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+}
+
+;	Cisra
+character	Numerius Tarchonid, named character, leader, age 42, , x 199, y 262
+traits GoodCommander 2 , GoodAdministrator 2 , Intelligent 1
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 0 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Cisra
+character	Larth Tarchonid, named character, heir, age 23, , x 198, y 262
+traits GoodCommander 2 , GoodAdministrator 1
+army
+unit		roman generals guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		roman city militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+;	Outside Cisra
+character	Velthur, diplomat, age 32, , x 199, y 262
+traits GoodDiplomat 3
+
+
+character_record		Ramtha, 	female, command 0, influence 1, management 1, subterfuge 0, age 39, alive, never_a_leader
+character_record		Tanaquil, 	female, command 0, influence 1, management 1, subterfuge 0, age 16, alive, never_a_leader
+
+relative 	Numerius Tarchonid, 	Ramtha,		Larth Tarchonid,	Tanaquil,	end
+
+
 ;; thamud_01 START
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	thamud_01,
-denari	8000
+faction	thamud_01, balanced smith
+denari	11000
 settlement
 {
 	level town
@@ -14054,8 +14105,8 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
-faction	sciria_01, 
-denari	19810
+faction	sciria_01, balanced napoleon 
+denari	19830
 settlement
 {
 	level large_town
@@ -14088,7 +14139,7 @@ settlement
 	region Sudinium_R
 
 	year_founded 0
-	population 700
+	population 900
 	plan_set default_set
 	faction_creator sciria_01
 	building
@@ -14148,7 +14199,7 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 
 ;	Maurya Empire
-faction	mauryans, 
+faction	mauryans,
 denari	 42090
 settlement
 {
@@ -14234,7 +14285,7 @@ settlement
 	region Pundranagara_R
 
 	year_founded 0
-	population 800
+	population 500
 	plan_set default_set
 	faction_creator mauryans
 	building
