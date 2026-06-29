@@ -58,7 +58,8 @@ sea_trade_max_mp             0
 
 ; fog_of_war_shroud - how unexplored campaign-map tiles are drawn:
 ;   black   = opaque black void over never-seen tiles, like M2 (default)
-;   vanilla = the classic RTW lighter shroud
+;   vanilla = the classic RTW lighter shroud (see-through: terrain stays visible but dimmed)
+;   cloudy  = uniform grey haze that hides terrain detail (only what's currently in sight stays clear)
 fog_of_war_shroud  vanilla
 
 ; population_on_disband - when a unit is disbanded on a settlement of its own faction, hand its
@@ -67,9 +68,58 @@ fog_of_war_shroud  vanilla
 ;   false = disbanding just removes the unit (Medieval-style)
 population_on_disband  true
 
+; population_on_recruit - whether recruiting a unit costs settlement population, and whether
+; cancelling a queued unit refunds it. Independent of population_on_disband: set on_recruit true
+; and on_disband false to make recruiting cost population that disbanding never gives back.
+;   true  = vanilla RTW; recruiting draws down population, cancelling returns it
+;   false = recruiting costs no population
+population_on_recruit  true
+
+; population_normalise - base the population cost/return on a unit base size instead of the
+; on-field size inflated by the unit-size setting (small/normal/large/huge). Keeps the campaign
+; population economy independent of that battlefield choice: a 60-man peasant costs 60 at any size.
+;   false = vanilla; the unit-size multiplier scales the cost (a huge 240-man unit costs 240)
+;   true  = always use the base size (that 240-man unit costs 60)
+population_normalise  false
+
 ; brigand_order_scaling - tie brigand (rebel) spawn chance to a province's public order, so banditry
 ; reflects bad governance instead of appearing at random.
 ;   true  = well-governed provinces see far fewer brigands, poorly-governed ones see roughly the
 ;           vanilla rate (capped so it never exceeds vanilla). (default)
 ;   false = vanilla: brigand spawns ignore public order
 brigand_order_scaling  true
+
+; annual_events - how often per-year campaign events (character ageing, harvest income, old-age death) fire.
+;   false = legacy cadence: ageing/harvest every other turn and old-age death every turn, like vanilla,
+;           independent of turns-per-year. A mod running 4 turns/year ages characters ~twice per displayed
+;           year (what the old hand-tuned scripts expect). (default)
+;   true  = once per displayed game-year. Correct for mods updated to the turns_per_year / seasons calendar
+;           (death rolls twice a year so its rate stays turns-per-year-independent).
+annual_events  false
+
+; building_dismantle - how demolishing one of your own buildings works:
+;   instant  = vanilla: the building comes down the same turn (refunds a third of its build cost)
+;   timed    = demolition is a construction-queue job that takes a turn or more (refunds two thirds)
+;   disabled = no demolish button at all
+building_dismantle  timed
+
+; building_downgrade - allow demoting a building one tier (its own queue job; costs money and takes turns).
+building_downgrade  enabled
+
+; building_sidegrade - allow re-culturing a foreign-built building to the owner at the same tier.
+building_sidegrade  enabled
+
+; convert_culture - allow converting the whole settlement to its owner's culture (re-skins the town and walls).
+convert_culture  enabled
+
+; convert_culture_cost_factor - scales the convert price; 1.0 = the core building's full cost.
+; A per-building convert_cost in export_descr_buildings overrides it.
+convert_culture_cost_factor  1.0
+
+; downgrade_cost_factor - scales the downgrade price; 1.0 = the removed tier's full cost.
+; A per-building downgrade_cost in export_descr_buildings overrides it.
+downgrade_cost_factor  1.0
+
+; sidegrade_cost_factor - scales the sidegrade price; 1.0 = full.
+; A per-building sidegrade_cost in export_descr_buildings overrides it.
+sidegrade_cost_factor  1.0

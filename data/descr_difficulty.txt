@@ -1,0 +1,23 @@
+battle_difficulty
+{
+	easy
+	{
+		fatigue_modifier 1
+		morale_modifier 6
+	}
+	normal
+	{
+		fatigue_modifier 1
+		morale_modifier 0
+	}
+	hard
+	{
+		fatigue_modifier 1
+		morale_modifier -4
+	}
+	very_hard
+	{
+		fatigue_modifier 1
+		morale_modifier -7
+	}
+}
