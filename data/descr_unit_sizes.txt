@@ -1,0 +1,14 @@
+; Unit-size steps for the battle options "unit size" dropdown.
+;
+; One line per dropdown entry, top to bottom:
+;   unit_size <text_key> <multiplier>
+;     text_key    a key in the front-end text table, used as the dropdown label
+;     multiplier  size multiplier - a unit's men = its export_descr_unit "soldiers" x this
+;
+; The four lines below reproduce the vanilla Small/Normal/Large/Huge. You can add,
+; remove or reorder lines as you like. For a custom label, point text_key at your own string entry.
+
+unit_size UI_VIDEO_UNIT_SCALE_SMALL   0.5
+unit_size UI_VIDEO_UNIT_SCALE_NORMAL  1.0
+unit_size UI_VIDEO_UNIT_SCALE_LARGE   2.0
+unit_size UI_VIDEO_UNIT_SCALE_HUGE    4.0

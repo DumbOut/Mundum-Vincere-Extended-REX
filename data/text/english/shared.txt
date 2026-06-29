@@ -65,7 +65,7 @@
 {ST_GFX_OPTIONS}					Graphics Options
 {ST_GFX_UNIT_DETAIL}					Unit Detail
 {ST_GFX_BUILDING_DETAIL}					Building Detail
-{ST_GFX_ANTIALIASING}					Anti-Aliasing
+{ST_GFX_ANTIALIASING}					MSAA
 {ST_GFX_WIDESCREEN}					Widescreen
 {ST_GFX_SMOKE}					Smoke
 {ST_GFX_USE_TNL}					Use TNL
@@ -78,6 +78,10 @@
 {ST_HIGH}					High
 {ST_SUPER_HIGH}					Super high
 {ST_SCREENMODE}					Screen mode
+{ST_DISPLAY_MODE}					Display mode
+{ST_DISPLAY_FULLSCREEN}					Fullscreen
+{ST_DISPLAY_BORDERLESS}					Borderless
+{ST_DISPLAY_WINDOWED}					Windowed
 {ST_LOAD_SUCCESS}					Game load succeeded
 {ST_LOAD_FAILED}					Game load failed
 {ST_SAVE_SUCCESS}					Game save succeeded
@@ -694,6 +698,7 @@
 
 {ST_RECRUITED_GENERAL}	General
 {ST_GAME_OPTIONS_RAW_INPUT}	Raw Input
+{ST_GAME_OPTIONS_BLOOD_POOLS}	Blood Pools
 {ST_GAME_OPTIONS_NO_CAMERA_TILT}	No Camera Tilt
 {ST_SHARED_DEPLOYMENT}	Shared Deployment
 {UA_SHIELD_PIERCING_ATTACK}		Effective against shields
@@ -722,3 +727,4 @@
 {ST_DIFFICULTY_MEDIUM}	Medium
 {ST_DIFFICULTY_HARD}	Hard
 {ST_DIFFICULTY_VERY_HARD}	Very Hard
+{ST_GAME_OPTIONS_RANGE_INDICATOR}	Range Indicator
