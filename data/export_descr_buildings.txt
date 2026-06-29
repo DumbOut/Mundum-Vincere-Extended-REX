@@ -26,7 +26,6 @@ building core_building
                 recruit "roman peasant"  0  requires factions { roman, cisra_01, }
                 recruit "barb peasant slave"  0  requires factions { slave, }
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min village
@@ -97,7 +96,6 @@ building core_building
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
                 recruit "barb peasant slave"  0  requires factions { slave, }
             }
-            material wooden
             construction  2 
             cost  900 
             settlement_min town
@@ -169,7 +167,6 @@ building core_building
                 recruit "macedon general's guard cavalry"  0  requires factions { macedon, }
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min large_town
@@ -241,7 +238,6 @@ building core_building
                 recruit "macedon general's guard cavalry"  0  requires factions { macedon, }
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
             }
-            material wooden
             construction  4 
             cost  3200 
             settlement_min city
@@ -316,7 +312,6 @@ building core_building
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
                 recruit "roman evocatius"  0  requires factions { roman, }
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min large_city
@@ -340,7 +335,6 @@ building defenses
                 wall_level 0
                 tower_level 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -357,7 +351,6 @@ building defenses
                 gate_strength 1
                 tower_level 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -375,7 +368,6 @@ building defenses
                 gate_defences 1
                 gate_strength 1
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -393,7 +385,6 @@ building defenses
                 gate_defences 2
                 gate_strength 2
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -411,7 +402,6 @@ building defenses
                 gate_defences 2
                 gate_strength 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -428,7 +418,6 @@ building defenses
                 gate_defences 4
                 gate_strength 5
             }
-            material stone
             construction  9 
             cost  10200 
             settlement_min huge_city
@@ -495,7 +484,6 @@ building barracks
                 recruit "eastern greek light infantry"  0  requires factions { parthia, pontus, armenia, }
                 recruit "eastern hoplite militia"  0  requires factions { parthia, pontus, armenia, }
             }
-            material wooden
             construction  2 
             cost  600 
             settlement_min town
@@ -778,7 +766,6 @@ building barracks
                 recruit "roman allied infantry"  0  requires factions { roman, }
                 recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -1079,7 +1066,6 @@ building barracks
                 recruit "greek classical hoplites"  0  requires factions { all, }
                 recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -1422,7 +1408,6 @@ building barracks
                 recruit "barb warguard dacian2"  0  requires factions { dacia, germans, thrace, }
                 recruit "greek hellenothracian pikemen"  0  requires factions { thrace, }
             }
-            material wooden
             construction  6 
             cost  4800 
             settlement_min large_city
@@ -1766,7 +1751,6 @@ building barracks
                 recruit "baltic warband"  0  requires factions { germans, }
                 recruit "warband sword bigshield scythia"  0  requires factions { scythia, }
             }
-            material wooden
             construction  7 
             cost  9600 
             settlement_min huge_city
@@ -1840,7 +1824,6 @@ building equestrian
                 recruit "hellenic horse archers aux"  0  requires factions { greek_cities, egypt, macedon, seleucid, thrace, }
                 recruit "carthage horse archers aux"  0  requires factions { carthage, numidia, }
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -2031,7 +2014,6 @@ building equestrian
                 recruit "numidian elephant forest2"  0  requires factions { all, }
                 recruit "east heavy cavalry2"  0  requires factions { all, }
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -2285,7 +2267,6 @@ building equestrian
                 recruit "merc elephants2"  0  requires factions { all, }
                 recruit "numidian elephant forest2"  0  requires factions { all, }
             }
-            material wooden
             construction  6 
             cost  4800 
             settlement_min large_city
@@ -2547,7 +2528,6 @@ building equestrian
                 recruit "macedon general's guard cavalry"  0  requires factions { macedon, }
                 recruit "ellins general's guard cavalry"  0  requires factions { egypt, seleucid, }
             }
-            material wooden
             construction  7 
             cost  9600 
             settlement_min huge_city
@@ -2661,7 +2641,6 @@ building missiles
                 recruit "celt archer"  0  requires factions { britons, }
                 recruit "italic skirmisher"  0  requires factions { all, }
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -2843,7 +2822,6 @@ building missiles
                 recruit "large lithobolos"  0  requires factions { all, }
                 recruit "egyptian archer pharaoh"  0  requires factions { egypt, }
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -3028,7 +3006,6 @@ building missiles
                 recruit "large lithobolos"  0  requires factions { all, }
                 recruit "egyptian archer pharaoh"  0  requires factions { egypt, }
             }
-            material wooden
             construction  6 
             cost  4800 
             settlement_min large_city
@@ -3213,7 +3190,6 @@ building missiles
                 recruit "macedon cleruch"  0  requires factions { macedon, }
                 recruit "greek cleruch"  0  requires factions { seleucid, egypt, greek_cities, }
             }
-            material wooden
             construction  7 
             cost  9600 
             settlement_min huge_city
@@ -3237,7 +3213,6 @@ building market
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  600 
             settlement_min town
@@ -3259,7 +3234,6 @@ building market
                 trade_base_income_bonus bonus 2
                 population_growth_bonus bonus 1
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -3287,7 +3261,6 @@ building market
                 trade_base_income_bonus bonus 3
                 population_growth_bonus bonus 1
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -3315,7 +3288,6 @@ building market
                 trade_base_income_bonus bonus 4
                 population_growth_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  4800 
             settlement_min large_city
@@ -3344,7 +3316,6 @@ building market
                 population_growth_bonus bonus 2
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  7 
             cost  9600 
             settlement_min huge_city
@@ -3373,7 +3344,6 @@ building smith
                 weapon_simple 1
                 weapon_bladed 1
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -3399,7 +3369,6 @@ building smith
                 weapon_missile 1
                 armour 1
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -3425,7 +3394,6 @@ building smith
                 weapon_missile 2
                 armour 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -3454,7 +3422,6 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, }
                 trade_fleet 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -3482,7 +3449,6 @@ building port_buildings
                 trade_fleet 2
                 recruit "naval big triremes"  0  requires factions { barbarian, }
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3517,7 +3483,6 @@ building port_buildings
                 recruit "naval hepteres"  0  requires factions { greek, egyptian, }
                 recruit "naval big triremes"  0  requires factions { barbarian, }
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3540,7 +3505,6 @@ building health
             {
                 population_health_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -3555,7 +3519,6 @@ building health
             {
                 population_health_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3570,7 +3533,6 @@ building health
             {
                 population_health_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3585,7 +3547,6 @@ building health
             {
                 population_health_bonus bonus 4
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -3608,7 +3569,6 @@ building hinterland_farms
             {
                 farming_level 1
             }
-            material wooden
             construction  2 
             cost  600 
             settlement_min town
@@ -3623,7 +3583,6 @@ building hinterland_farms
             {
                 farming_level 2
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -3638,7 +3597,6 @@ building hinterland_farms
             {
                 farming_level 3
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -3653,7 +3611,6 @@ building hinterland_farms
             {
                 farming_level 4
             }
-            material wooden
             construction  6 
             cost  4800 
             settlement_min large_city
@@ -3668,7 +3625,6 @@ building hinterland_farms
             {
                 farming_level 5
             }
-            material wooden
             construction  7 
             cost  9600 
             settlement_min huge_city
@@ -3691,7 +3647,6 @@ building hinterland_roads
             {
                 road_level 0
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -3706,7 +3661,6 @@ building hinterland_roads
             {
                 road_level 1
             }
-            material wooden
             construction  3 
             cost  1200 
             settlement_min large_town
@@ -3721,7 +3675,6 @@ building hinterland_roads
             {
                 road_level 2
             }
-            material wooden
             construction  4 
             cost  2400 
             settlement_min city
@@ -3744,7 +3697,6 @@ building hinterland_mines
             {
                 mine_resource 4
             }
-            material wooden
             construction  2 
             cost  2000 
             settlement_min town
@@ -3759,7 +3711,6 @@ building hinterland_mines
             {
                 mine_resource 7
             }
-            material wooden
             construction  3 
             cost  3500 
             settlement_min large_town
@@ -3781,7 +3732,6 @@ building academic
             capability
             {
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3795,7 +3745,6 @@ building academic
             capability
             {
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3809,7 +3758,6 @@ building academic
             capability
             {
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -3834,7 +3782,6 @@ building amphitheatres
                 stage_games 1
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3852,7 +3799,6 @@ building amphitheatres
                 stage_games 2
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3871,7 +3817,6 @@ building amphitheatres
                 stage_games 3
                 happiness_bonus bonus 3
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -3894,7 +3839,6 @@ building theatres
             {
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3909,7 +3853,6 @@ building theatres
             {
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3924,7 +3867,6 @@ building theatres
             {
                 happiness_bonus bonus 3
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -3947,7 +3889,6 @@ building despotic_law
             {
                 law_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -3962,7 +3903,6 @@ building despotic_law
             {
                 law_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -3977,7 +3917,6 @@ building despotic_law
             {
                 law_bonus bonus 4
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4000,7 +3939,6 @@ building caravans
             {
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4015,7 +3953,6 @@ building caravans
             {
                 trade_base_income_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4030,7 +3967,6 @@ building caravans
             {
                 trade_base_income_bonus bonus 4
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4053,7 +3989,6 @@ building taverns
             {
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4069,7 +4004,6 @@ building taverns
                 recruit "barb night raiders german"  0  requires factions { germans, sciria_01, }
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4092,7 +4026,6 @@ building temple_of_battle
             {
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4109,7 +4042,6 @@ building temple_of_battle
                 happiness_bonus bonus 2
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4126,7 +4058,6 @@ building temple_of_battle
                 happiness_bonus bonus 3
                 recruits_morale_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4143,7 +4074,6 @@ building temple_of_battle
                 happiness_bonus bonus 4
                 recruits_morale_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4160,7 +4090,6 @@ building temple_of_battle
                 happiness_bonus bonus 7
                 recruits_morale_bonus bonus 4
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4184,7 +4113,6 @@ building temple_of_battleforge
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4202,7 +4130,6 @@ building temple_of_battleforge
                 weapon_simple bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4221,7 +4148,6 @@ building temple_of_battleforge
                 weapon_simple bonus 1
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4241,7 +4167,6 @@ building temple_of_battleforge
                 recruits_exp_bonus bonus 2
                 armour bonus 1
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4265,7 +4190,6 @@ building temple_of_farming
                 happiness_bonus bonus 1
                 farming_level bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4281,7 +4205,6 @@ building temple_of_farming
                 happiness_bonus bonus 2
                 farming_level bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4297,7 +4220,6 @@ building temple_of_farming
                 happiness_bonus bonus 3
                 farming_level bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4313,7 +4235,6 @@ building temple_of_farming
                 happiness_bonus bonus 4
                 farming_level bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4331,7 +4252,6 @@ building temple_of_farming
                 law_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4356,7 +4276,6 @@ building temple_of_fertility
                 happiness_bonus bonus 1
                 population_growth_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4373,7 +4292,6 @@ building temple_of_fertility
                 happiness_bonus bonus 2
                 population_growth_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4390,7 +4308,6 @@ building temple_of_fertility
                 happiness_bonus bonus 3
                 population_growth_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4407,7 +4324,6 @@ building temple_of_fertility
                 happiness_bonus bonus 4
                 population_growth_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4425,7 +4341,6 @@ building temple_of_fertility
                 population_growth_bonus bonus 5
                 law_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4449,7 +4364,6 @@ building temple_of_forge
                 happiness_bonus bonus 1
                 weapon_simple bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4466,7 +4380,6 @@ building temple_of_forge
                 weapon_simple bonus 1
                 weapon_bladed bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4484,7 +4397,6 @@ building temple_of_forge
                 weapon_bladed bonus 1
                 armour bonus 1
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4503,7 +4415,6 @@ building temple_of_forge
                 armour bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4523,7 +4434,6 @@ building temple_of_forge
                 recruits_exp_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4546,7 +4456,6 @@ building temple_of_fun
             {
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4561,7 +4470,6 @@ building temple_of_fun
             {
                 happiness_bonus bonus 4
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4576,7 +4484,6 @@ building temple_of_fun
             {
                 happiness_bonus bonus 6
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4591,7 +4498,6 @@ building temple_of_fun
             {
                 happiness_bonus bonus 8
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4608,7 +4514,6 @@ building temple_of_fun
                 population_growth_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4632,7 +4537,6 @@ building temple_of_governors
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4648,7 +4552,6 @@ building temple_of_governors
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4664,7 +4567,6 @@ building temple_of_governors
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4680,7 +4582,6 @@ building temple_of_governors
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4699,7 +4600,6 @@ building temple_of_governors
                 recruits_exp_bonus bonus 2
                 weapon_missile bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4723,7 +4623,6 @@ building temple_of_healing
                 happiness_bonus bonus 1
                 population_health_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4740,7 +4639,6 @@ building temple_of_healing
                 happiness_bonus bonus 2
                 population_health_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4758,7 +4656,6 @@ building temple_of_healing
                 happiness_bonus bonus 3
                 population_health_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4776,7 +4673,6 @@ building temple_of_healing
                 happiness_bonus bonus 4
                 population_health_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4796,7 +4692,6 @@ building temple_of_healing
                 trade_base_income_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4820,7 +4715,6 @@ building temple_of_horse
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4836,7 +4730,6 @@ building temple_of_horse
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4852,7 +4745,6 @@ building temple_of_horse
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4876,7 +4768,6 @@ building temple_of_hunting
                 happiness_bonus bonus 1
                 weapon_missile bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4892,7 +4783,6 @@ building temple_of_hunting
                 happiness_bonus bonus 2
                 weapon_missile bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4908,7 +4798,6 @@ building temple_of_hunting
                 happiness_bonus bonus 3
                 weapon_missile bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -4924,7 +4813,6 @@ building temple_of_hunting
                 happiness_bonus bonus 5
                 weapon_missile bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -4942,7 +4830,6 @@ building temple_of_hunting
                 law_bonus bonus 2
                 farming_level bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -4966,7 +4853,6 @@ building temple_of_justice
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -4984,7 +4870,6 @@ building temple_of_justice
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5004,7 +4889,6 @@ building temple_of_justice
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5025,7 +4909,6 @@ building temple_of_justice
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5048,7 +4931,6 @@ building temple_of_justice
                 population_growth_bonus bonus 2
                 population_health_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5072,7 +4954,6 @@ building temple_of_law
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5088,7 +4969,6 @@ building temple_of_law
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5104,7 +4984,6 @@ building temple_of_law
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5121,7 +5000,6 @@ building temple_of_law
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5141,7 +5019,6 @@ building temple_of_law
                 weapon_bladed bonus 1
                 armour bonus 1
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5165,7 +5042,6 @@ building temple_of_leadership
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5181,7 +5057,6 @@ building temple_of_leadership
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5197,7 +5072,6 @@ building temple_of_leadership
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5214,7 +5088,6 @@ building temple_of_leadership
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5232,7 +5105,6 @@ building temple_of_leadership
                 law_bonus bonus 5
                 population_growth_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5256,7 +5128,6 @@ building temple_of_love
                 happiness_bonus bonus 1
                 population_growth_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5273,7 +5144,6 @@ building temple_of_love
                 happiness_bonus bonus 2
                 population_growth_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5291,7 +5161,6 @@ building temple_of_love
                 happiness_bonus bonus 3
                 population_growth_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5309,7 +5178,6 @@ building temple_of_love
                 happiness_bonus bonus 4
                 population_growth_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5330,7 +5198,6 @@ building temple_of_love
                 trade_base_income_bonus bonus 2
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5353,7 +5220,6 @@ building temple_of_naval
             {
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5368,7 +5234,6 @@ building temple_of_naval
             {
                 happiness_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5383,7 +5248,6 @@ building temple_of_naval
             {
                 happiness_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5399,7 +5263,6 @@ building temple_of_naval
                 recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, }
                 happiness_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5420,7 +5283,6 @@ building temple_of_naval
                 weapon_bladed bonus 1
                 armour bonus 1
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5444,7 +5306,6 @@ building temple_of_one_god
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5460,7 +5321,6 @@ building temple_of_one_god
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5476,7 +5336,6 @@ building temple_of_one_god
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5492,7 +5351,6 @@ building temple_of_one_god
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5508,7 +5366,6 @@ building temple_of_one_god
                 happiness_bonus bonus 5
                 law_bonus bonus 5
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5532,7 +5389,6 @@ building temple_of_trade
                 happiness_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5548,7 +5404,6 @@ building temple_of_trade
                 happiness_bonus bonus 2
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5564,7 +5419,6 @@ building temple_of_trade
                 happiness_bonus bonus 3
                 trade_base_income_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5580,7 +5434,6 @@ building temple_of_trade
                 happiness_bonus bonus 4
                 trade_base_income_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5598,7 +5451,6 @@ building temple_of_trade
                 population_health_bonus bonus 2
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5622,7 +5474,6 @@ building temple_of_victory
                 recruit "warband woad briton"  0  requires factions { britons, }
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5640,7 +5491,6 @@ building temple_of_victory
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5658,7 +5508,6 @@ building temple_of_victory
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5676,7 +5525,6 @@ building temple_of_victory
                 happiness_bonus bonus 4
                 recruits_exp_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5697,7 +5545,6 @@ building temple_of_victory
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5720,7 +5567,6 @@ building temple_of_violence
             {
                 happiness_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5736,7 +5582,6 @@ building temple_of_violence
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5753,7 +5598,6 @@ building temple_of_violence
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5771,7 +5615,6 @@ building temple_of_violence
                 happiness_bonus bonus 4
                 recruits_exp_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -5792,7 +5635,6 @@ building temple_of_violence
                 trade_base_income_bonus bonus 2
                 population_health_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  6400 
             settlement_min huge_city
@@ -5816,7 +5658,6 @@ building temple_of_viking
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5833,7 +5674,6 @@ building temple_of_viking
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5851,7 +5691,6 @@ building temple_of_viking
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5875,7 +5714,6 @@ building temple_of_horse_2
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5891,7 +5729,6 @@ building temple_of_horse_2
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5907,7 +5744,6 @@ building temple_of_horse_2
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5932,7 +5768,6 @@ building temple_of_alexander
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -5951,7 +5786,6 @@ building temple_of_alexander
                 law_bonus bonus 1
                 taxable_income_bonus bonus 3
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -5970,7 +5804,6 @@ building temple_of_alexander
                 law_bonus bonus 2
                 taxable_income_bonus bonus 4
             }
-            material wooden
             construction  3 
             cost  1600 
             settlement_min city
@@ -5989,7 +5822,6 @@ building temple_of_alexander
                 law_bonus bonus 2
                 taxable_income_bonus bonus 5
             }
-            material wooden
             construction  4 
             cost  3370 
             settlement_min large_city
@@ -6008,7 +5840,6 @@ building temple_of_alexander
                 law_bonus bonus 6
                 taxable_income_bonus bonus 6
             }
-            material wooden
             construction  9 
             cost  6995 
             settlement_min huge_city
@@ -6032,7 +5863,6 @@ building temple_of_argeadai
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6048,7 +5878,6 @@ building temple_of_argeadai
                 happiness_bonus bonus 1
                 law_bonus bonus 3
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6065,7 +5894,6 @@ building temple_of_argeadai
                 weapon_missile bonus 1
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6082,7 +5910,6 @@ building temple_of_argeadai
                 weapon_missile bonus 2
                 law_bonus bonus 2
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6103,7 +5930,6 @@ building temple_of_argeadai
                 trade_base_income_bonus bonus 2
                 farming_level bonus 2
             }
-            material wooden
             construction  6 
             cost  6910 
             settlement_min huge_city
@@ -6127,7 +5953,6 @@ building temple_of_nikaea_massilia
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6143,7 +5968,6 @@ building temple_of_nikaea_massilia
                 happiness_bonus bonus 1
                 law_bonus bonus 3
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6161,7 +5985,6 @@ building temple_of_nikaea_massilia
                 weapon_missile bonus 1
                 law_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6179,7 +6002,6 @@ building temple_of_nikaea_massilia
                 weapon_missile bonus 2
                 law_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6200,7 +6022,6 @@ building temple_of_nikaea_massilia
                 trade_base_income_bonus bonus 3
                 farming_level bonus 4
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6224,7 +6045,6 @@ building temple_of_aita_cisra
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6240,7 +6060,6 @@ building temple_of_aita_cisra
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6257,7 +6076,6 @@ building temple_of_aita_cisra
                 law_bonus bonus 3
                 population_health_bonus bonus 1
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6274,7 +6092,6 @@ building temple_of_aita_cisra
                 law_bonus bonus 4
                 population_health_bonus bonus 2
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6292,7 +6109,6 @@ building temple_of_aita_cisra
                 population_health_bonus bonus 3
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6316,7 +6132,6 @@ building temple_of_tarchon_cisra
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6333,7 +6148,6 @@ building temple_of_tarchon_cisra
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6350,7 +6164,6 @@ building temple_of_tarchon_cisra
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6367,7 +6180,6 @@ building temple_of_tarchon_cisra
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6385,7 +6197,6 @@ building temple_of_tarchon_cisra
                 recruits_morale_bonus bonus 4
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6409,7 +6220,6 @@ building temple_of_thessalidai_kos
                 happiness_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6426,7 +6236,6 @@ building temple_of_thessalidai_kos
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6443,7 +6252,6 @@ building temple_of_thessalidai_kos
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6461,7 +6269,6 @@ building temple_of_thessalidai_kos
                 recruits_morale_bonus bonus 3
                 trade_base_income_bonus bonus 1
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6479,7 +6286,6 @@ building temple_of_thessalidai_kos
                 recruits_morale_bonus bonus 4
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6503,7 +6309,6 @@ building temple_of_velchanos_itanos
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6520,7 +6325,6 @@ building temple_of_velchanos_itanos
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6537,7 +6341,6 @@ building temple_of_velchanos_itanos
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6554,7 +6357,6 @@ building temple_of_velchanos_itanos
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6572,7 +6374,6 @@ building temple_of_velchanos_itanos
                 recruits_morale_bonus bonus 4
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6596,7 +6397,6 @@ building temple_of_diktynna_itanos
                 happiness_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6612,7 +6412,6 @@ building temple_of_diktynna_itanos
                 happiness_bonus bonus 2
                 trade_base_income_bonus bonus 1
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6629,7 +6428,6 @@ building temple_of_diktynna_itanos
                 law_bonus bonus 1
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6646,7 +6444,6 @@ building temple_of_diktynna_itanos
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 3
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6664,7 +6461,6 @@ building temple_of_diktynna_itanos
                 trade_base_income_bonus bonus 4
                 population_health_bonus bonus 1
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6688,7 +6484,6 @@ building temple_of_dushara_thamud
                 law_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6705,7 +6500,6 @@ building temple_of_dushara_thamud
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6722,7 +6516,6 @@ building temple_of_dushara_thamud
                 law_bonus bonus 3
                 trade_base_income_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6739,7 +6532,6 @@ building temple_of_dushara_thamud
                 law_bonus bonus 4
                 trade_base_income_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6757,7 +6549,6 @@ building temple_of_dushara_thamud
                 trade_base_income_bonus bonus 5
                 population_health_bonus bonus 1
             }
-            material wooden
             construction  6 
             cost  7020 
             settlement_min huge_city
@@ -6780,7 +6571,6 @@ building temple_of_allat_thamud
             {
                 recruits_morale_bonus bonus 1
             }
-            material wooden
             construction  1 
             cost  400 
             settlement_min town
@@ -6796,7 +6586,6 @@ building temple_of_allat_thamud
                 happiness_bonus bonus 1
                 recruits_morale_bonus bonus 2
             }
-            material wooden
             construction  2 
             cost  800 
             settlement_min large_town
@@ -6812,7 +6601,6 @@ building temple_of_allat_thamud
                 happiness_bonus bonus 2
                 recruits_morale_bonus bonus 3
             }
-            material wooden
             construction  3 
             cost  1500 
             settlement_min city
@@ -6828,7 +6616,6 @@ building temple_of_allat_thamud
                 happiness_bonus bonus 3
                 recruits_morale_bonus bonus 4
             }
-            material wooden
             construction  5 
             cost  3200 
             settlement_min large_city
@@ -6844,7 +6631,6 @@ building temple_of_allat_thamud
                 happiness_bonus bonus 6
                 recruits_morale_bonus bonus 6
             }
-            material wooden
             construction  6 
             cost  7030 
             settlement_min huge_city
