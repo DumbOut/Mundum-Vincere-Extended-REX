@@ -382,7 +382,7 @@ standard_index				34
 logo_index					FACTION_LOGO_MASSILIA_01
 small_logo_index			SMALL_FACTION_LOGO_MASSILIA_01
 triumph_value				5
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -398,7 +398,7 @@ standard_index				38
 logo_index					FACTION_LOGO_ITANOS_01
 small_logo_index			SMALL_FACTION_LOGO_ITANOS_01
 triumph_value				5
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -414,7 +414,7 @@ standard_index				38
 logo_index					FACTION_LOGO_KOS_01
 small_logo_index			SMALL_FACTION_LOGO_KOS_01
 triumph_value				5
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -430,7 +430,7 @@ standard_index				38
 logo_index					FACTION_LOGO_CISRA_01
 small_logo_index			SMALL_FACTION_LOGO_CISRA_01
 triumph_value				5
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -462,6 +462,22 @@ loading_logo				loading_screen/symbols/symbol128_thamud_01.tga
 standard_index				38
 logo_index					FACTION_LOGO_THAMUD_01
 small_logo_index			SMALL_FACTION_LOGO_THAMUD_01
+triumph_value				5
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						lapicinia_01
+culture						roman
+symbol						models_strat/symbol_slaves.CAS
+rebel_symbol				models_strat/symbol_slaves.CAS
+primary_colour				red 51, green 0, blue 0
+secondary_colour			red 191, green 173, blue 156
+tertiary_colour			red 90, green 38, blue 38
+loading_logo				loading_screen/symbols/symbol128_lapicinia_01.tga
+logo_index					FACTION_LOGO_SLAVES
+small_logo_index			SMALL_FACTION_LOGO_SLAVES
 triumph_value				5
 custom_battle_availability	no
 can_sap						yes

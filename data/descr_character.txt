@@ -178,6 +178,12 @@ strat_model		sm_rebel_general
 battle_model	slave_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			lapicinia_01
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 ;; Kos
 faction			kos_01
 dictionary		2
@@ -265,6 +271,14 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 ;; cisra_01
 faction			cisra_01
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;; cisra_01
+faction			lapicinia_01
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
 strat_model		sm_rebel_general
@@ -476,6 +490,12 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+;; cisra_01
+faction			lapicinia_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 ;; thamud_01
 faction			thamud_01
 dictionary		2
@@ -633,6 +653,12 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+;; cisra_01
+faction			lapicinia_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 ;; thamud_01
 faction			thamud_01
 dictionary		2
@@ -786,6 +812,12 @@ strat_model		diplomat
 
 ;; cisra_01
 faction			cisra_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+;; cisra_01
+faction			lapicinia_01
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
@@ -1054,6 +1086,11 @@ strat_model		slave_admiral
 
 ;; cisra_01
 faction			cisra_01
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
+faction			lapicinia_01
 dictionary		15
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral
