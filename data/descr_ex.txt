@@ -175,6 +175,11 @@ settlement_upgrade_population_city 0
 settlement_upgrade_population_large_city 0
 settlement_upgrade_population_huge_city 0
 
+
+; Show extra post-capture settlement choices: sack and leave, sack and return,
+; liberate, raze to village, and three occupy variants. Set true to enable.
+expanded_settlement_capture_options true
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Family / character ageing
 ; All values in years. (M2 uses descr_campaign_db for these instead.)
