@@ -17,17 +17,17 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 2048
+max_factions 12000
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 29
+superfaction_min_regions 36
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 12000.0
+camera_max_height 5200000.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -42,17 +42,32 @@ hide_upgrade_pop false
 ; Disable the player console (tilde key). Scripts still work. (default false)
 disable_console false
 
+; Show expanded post-capture settlement options on the capture scroll.
+; Set false to keep vanilla Loot / Enslave / Exterminate only.
+expanded_settlement_capture_options true
+
 ; Minimum seconds the main loading screen must stay visible before closing.
 ; Useful so players can finish reading quote / tip text on fast machines.
 ; 0 disables the delay entirely. Fractional values allowed.
 minimum_load_time 0
+
+; RTW multiplayer campaign. When enabled, multiplayer_campaign.json defines
+; player/faction ownership; if that file cannot be used, playable factions become
+; a hotseat fallback.
+multiplayer_campaign_enabled true
+multiplayer_campaign_max_players 14
+multiplayer_campaign_debug_logs true
+multiplayer_campaign_checksums false
+multiplayer_campaign_allow_multi_faction_player true
+multiplayer_campaign_allow_all_factions true
+multiplayer_campaign_autoresolve_hvh_battles false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Gameplay
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight true
+easy_nightfight false
 
 ; Limit each general to building/removing one watchtower per turn (default false)
 one_watchtower_per_general_per_turn false
@@ -66,65 +81,6 @@ one_fort_per_general_per_turn false
 free_upkeep_cheap_first true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; EX feature toggles
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; All options here are vanilla-safe. Set false to disable the runtime feature.
-; Parser-only data extensions stay off unless their tokens are used in EDU/EDB.
-
-; Campaign faction-selection menu.
-faction_select_interactive_map_enable false
-faction_select_scrollbar_enable true
-faction_select_pharaoh_style_enable false ;; wip
-hide_ui_hotkey_enable true
-
-; Diplomacy.
-confederate_diplomacy_enable false
-dynastic_princess_enable true
-dynastic_princess_all_unmarried_females true
-
-; Campaign mechanics.
-neutral_common_enemy_battles_enable true
-secondary_sack_options_enable true
-unlimited_superfactions_enable true
-client_kingdom_only_units_enable true
-regional_revolt_faction_enable true
-
-; Multiplayer campaign. Enable this to start the RTW Multiplayer Campaign
-; framework from the normal imperial campaign flow. If multiplayer_campaign.json
-; is enabled, only its listed factions become human; otherwise playable factions
-; are used for a hotseat fallback.
-multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 14
-multiplayer_campaign_debug_logs true
-multiplayer_campaign_checksums false
-multiplayer_campaign_allow_multi_faction_player true
-multiplayer_campaign_autoresolve_hvh_battles false
-multiplayer_campaign_simultaneous_turns true
-multiplayer_campaign_disable_ai_auto_sally true
-multiplayer_campaign_dedicated_server false
-multiplayer_campaign_listen_server true
-multiplayer_campaign_allow_spectators true
-
-; Battle lobby/player cap for RTW multiplayer battles. The compiled ceiling is
-; MAX_FACTIONS_PER_BATTLE.
-multiplayer_battle_max_players 14
-
-; Naval blockade trade-route raiding.
-naval_trade_route_raiding_enable true
-naval_trade_route_raiding_income_percent 10.0
-naval_trade_route_raiding_income_cap 100.0
-
-; Settlement UI/display increments.
-population_growth_increment 0.3
-income_growth_increment 3.5
-
-; Armor/weapon upgrade-cost multiplier for retraining.
-; Use one value for all cultures, or culture + value for a culture override.
-unit_upgrade_cost_multiplier 1.0
-; unit_upgrade_cost_multiplier eastern 1.25
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -135,17 +91,14 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 3.0
+bribe_cost_army 1.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 3.0
+bribe_cost_settlement 1.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; Master toggle for BI-style horde mechanics in vanilla Rome data (default true)
-horde_enable true
 
 ; Initial XP for horde units (0-9, default 0)
 horde_initial_xp 0
@@ -156,43 +109,19 @@ horde_initial_armor 0
 ; Initial weapon upgrade level for horde units (0-3, default 0)
 horde_initial_weapon 0
 
-; Allow descr_strat horde_spawn_center / horde_spawn_fleet_start to place
-; hordes around scripted coordinates instead of only falling back to map-edge
-; style starts. Per-faction radius in descr_strat overrides this default.
-horde_spawn_anywhere_enable true
-horde_spawn_radius 4
-horde_fleet_spawn_enable true
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Settlement upgrade population overrides
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; 0 keeps the settlement level's vanilla descr_cultures.txt threshold.
-settlement_upgrade_population_village 0
-settlement_upgrade_population_town 0
-settlement_upgrade_population_large_town 0
-settlement_upgrade_population_city 0
-settlement_upgrade_population_large_city 0
-settlement_upgrade_population_huge_city 0
-
-
-; Show extra post-capture settlement choices: sack and leave, sack and return,
-; liberate, raze to village, and three occupy variants. Set true to enable.
-expanded_settlement_capture_options true
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Family / character ageing
 ; All values in years. (M2 uses descr_campaign_db for these instead.)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 150
+max_age_before_death 127
 
 ; Age the random old-age death check begins (default 60)
-old_age 60
+old_age 100
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 150
+max_age 120
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -222,10 +151,29 @@ min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 50
+max_age_for_conception 100
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 256
+max_num_ancillaries 8000
 
 ; Max children a character can have (default 4)
-max_num_children 400
+max_num_children 4000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Battle range indicator
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Disc colour, r g b (0-255)
+range_indicator_colour 60 200 255
+
+; Alpha at the edge (0-1)
+range_indicator_peak_alpha 0.67
+
+; Alpha of the inside (0-1)
+range_indicator_floor_alpha 0.02
+
+; Inward fade width from the edge as a fraction of the radius (0-1)
+range_indicator_falloff 0.30
+
+; Outer-edge softness; small = crisp (0-1)
+range_indicator_fuzz 0.008
