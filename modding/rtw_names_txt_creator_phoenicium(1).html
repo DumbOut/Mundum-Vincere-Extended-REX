@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RTW Names.txt Creator - Hellenized Phoenician / Arabic</title>
+<style>
+  body{font-family:Arial,Helvetica,sans-serif;background:#111;color:#eee;margin:0;padding:24px}
+  h1{margin-top:0;color:#f5d08a}
+  .wrap{max-width:1200px;margin:auto}
+  .card{background:#1b1b1b;border:1px solid #333;border-radius:10px;padding:16px;margin:14px 0}
+  label{display:block;margin:10px 0 6px;color:#ddd;font-weight:bold}
+  input,textarea,select{width:100%;box-sizing:border-box;background:#0d0d0d;color:#eee;border:1px solid #444;border-radius:6px;padding:10px;font-family:Consolas,monospace}
+  textarea{min-height:170px;white-space:pre;resize:vertical}
+  button{background:#b8893b;color:#111;border:0;border-radius:7px;padding:10px 14px;margin:6px 6px 6px 0;font-weight:bold;cursor:pointer}
+  button:hover{background:#d9aa58}
+  .row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+  .small{color:#aaa;font-size:13px}
+  .out{min-height:520px}
+  .pill{display:inline-block;background:#292929;border:1px solid #444;border-radius:999px;padding:4px 10px;margin:3px;color:#f5d08a}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>RTW Names.txt Creator</h1>
+<p class="small">Hellenized Phoenician / Punic / Pre-Islamic Arabic modular namelist generator. Outputs both Rome: Total War <code>descr_names.txt</code> faction blocks and <code>data/text/names.txt</code> localization strings.</p>
+<div class="card">
+  <label>Faction key</label>
+  <input id="faction" value="phoenicium" />
+  <div>
+    <button onclick="generateDescrNames()">Generate descr_names.txt block</button>
+    <button onclick="generateLocalizationNames()">Generate names.txt strings</button>
+    <button onclick="copyOutput()">Copy output</button>
+    <button onclick="downloadDescrTxt()">Download descr_names.txt</button>
+    <button onclick="downloadLocTxt()">Download names.txt</button>
+    <button onclick="dedupeInputs()">Remove duplicates from inputs</button>
+  </div>
+  <span class="pill" id="maleCount">0 characters</span>
+  <span class="pill" id="surnameCount">0 surnames</span>
+  <span class="pill" id="womenCount">0 women</span>
+</div>
+<div class="row">
+  <div class="card"><label>Characters / male names</label><textarea id="characters"></textarea></div>
+  <div class="card"><label>Surnames</label><textarea id="surnames"></textarea></div>
+  <div class="card"><label>Women names</label><textarea id="women"></textarea></div>
+</div>
+<div class="card">
+  <label>Output</label>
+  <p class="small">For <code>names.txt</code> localization: keys stay exact, display text converts underscores to spaces, e.g. <code>{Bar_Malik}Bar Malik</code>.</p>
+  <textarea id="output" class="out" readonly></textarea>
+</div>
+</div>
+<script>
+const defaultCharacters = `Abd
+Amm
+Amr
+Amru
+Aws
+Bahr
+Barak
+Bashir
+Dathan
+Daws
+Dhabin
+Fadl
+Ghayth
+Ghawth
+Habib
+Hakam
+Hamdan
+Harith
+Hashim
+Hud
+Iyad
+Jadhima
+Jasim
+Juhaym
+Kahil
+Kahf
+Kathir
+Khalid
+Labid
+Lakhm
+Lihyan
+Luqman
+Malik
+Mudar
+Nabigh
+Nadir
+Nashir
+Nasr
+Nizar
+Qasim
+Qaydar
+Qusayy
+Rabi
+Radif
+Raqim
+Rayyan
+Rizam
+Rufaq
+Sabiq
+Sahl
+Salih
+Shalaf
+Suwayb
+Talib
+Tarif
+Tayyi
+Thabit
+Thamim
+Walid
+Wathil
+Waddah
+Wabr
+Yazid
+Zafir
+Zamil
+Zayd
+Zariq
+Ablaq
+Adnan
+Bahir
+Damir
+Hawmal
+Abdon
+Ammon
+Amron
+Amruios
+Aousas
+Bahros
+Barakios
+Bashiros
+Datanon
+Daousos
+Dabines
+Fadlios
+Gaytos
+Gaouton
+Habibon
+Hakamon
+Hamdanios
+Haritos
+Hashimes
+Hudes
+Iyadas
+Jadimaes
+Jasimios
+Juhaymios
+Kahilios
+Kahfas
+Katires
+Khalidon
+Labidios
+Lakhmon
+Lihyanas
+Lukmanon
+Malikes
+Mudaron
+Nabigios
+Nadiros
+Nashiros
+Nasres
+Nizaras
+Kasimes
+Kaydaros
+Kusaios
+Rabies
+Radifon
+Rakimon
+Raianon
+Rizames
+Rufakes
+Sabikes
+Sahlios
+Salihas
+Shalafon
+Suouaybas
+Talibos
+Tarifios
+Taiios
+Tabiton
+Tamimos
+Oualidos
+Ouatilios
+Ouaddahas
+Ouabrios
+Yazidon
+Zafiras
+Zamilon
+Zaydios
+Zarikas
+Ablakas
+Adnanios
+Bahiron
+Damiron
+Haoumalos
+Abdmelqart
+Adonibaal
+Ahirom
+Azorbaal
+Baalyaton
+Baalhanno
+Baalshillek
+Bodashtart
+Bostar
+Eshmunazar
+Gerbaal
+Germelqart
+Hamilkar
+Hannibal
+Hanno
+Hasdrubal
+Himilko
+Ithobaal
+Maharbal
+Mattan
+Melqartshama
+Milkiram
+Pumayaton
+Sikarbaal
+Tabnit
+Yatonbaal
+Yehawmilk
+Zimrida
+Alexandros
+Andronikos
+Antigonos
+Apollodoros
+Apollonios
+Ariston
+Demetrios
+Dionysios
+Diodoros
+Diogenes
+Eudamos
+Eukrates
+Herakleides
+Kleon
+Kleandros
+Lysandros
+Menandros
+Nikandros
+Nikanor
+Philinos
+Philiskos
+Philokles
+Ptolemaios
+Seleukos
+Straton
+Theodoros
+Timaios
+Zenon
+Abdmelkartas
+Adonibaalas
+Ahiromios
+Azorbaalon
+Baalhannoes
+Baalshillekes
+Bodashtartas
+Bostaron
+Eshmunazarios
+Gerbaales
+Germelkartios
+Hamilkarios
+Hannibalos
+Hannoios
+Hasdrubalon
+Himilkoon
+Itobaalios
+Maharbalos
+Mattanos
+Melkartshamaios
+Milkiramas
+Abdos
+Abdios
+Abdas
+Ammos
+Ammios
+Ammas
+Amros
+Amrios
+Amras
+Awsos
+Awsios
+Awsas
+Bahrios
+Bahras
+Barakos
+Barakas
+Bashirios
+Bashiras
+Dathanos
+Dathanios
+Dathanas
+Dawsos
+Dawsios
+Dawsas
+Dhabinos
+Dhabinios
+Dhabinas
+Fadlos
+Fadlas
+Amruon
+Aouses
+Bashires
+Datanes
+Dabinas
+Gaoutos
+Hakamas
+Hamdanos
+Hariton
+Hashimios
+Hudos
+Iyadios
+Jadimaas
+Jasimon
+Juhaymon
+Kahfon
+Labides
+Lakhmios
+Lihyanes
+Lukmanes
+Malikios
+Nabigos
+Nadirios
+Nasros
+Kasimas
+Kaydares
+Kusayyon
+Rabias
+Radifas
+Rayyanios
+Rizamos
+Sabikios
+Sahles
+Salihos
+Shalafos
+Talibas
+Tarifes
+Tayyion
+Tamimes
+Oualidon
+Ouatilos
+Ouaddahos
+Ouabras
+Zamilios
+Zaydes
+Zarikos
+Ablakos
+Bahirios
+Haoumalios
+Adonibaalon
+Azorbaalios
+Baalhannoios
+Baalshillekon
+Bodashtartes
+Bostaros
+Eshmunazaras
+Gerbaalas
+Germelkartos
+Hamilkaras
+Hannibales
+Himilkoos
+Itobaalas
+Melkartshamaas
+Milkiramos
+Sikarbaalios
+Yatonbaalos
+Yehaoumilkon
+Zimridaas
+Nikanores
+Teodoros
+Aousos
+Aousios
+Datanos
+Datanios
+Datanas
+Daousios
+Daousas
+Dabinios
+Abdbaal
+Abdeshmun
+Abdashtart
+Abdshamash
+Abdqos
+Abdwadd
+Abdshara
+Abddushara
+Barbaal
+Barmelqart
+Bareshmun
+Barashtart
+Barshamash
+Barqos
+Barwadd
+Barshara
+Bardushara
+Hannobaal
+Hannomelqart
+Hannoeshmun
+Hannoashtart
+Hannoshamash`;
+const defaultSurnames = `Salih_ibn_Datha
+Zayd
+Bar_Malik
+Bar_Salih
+Bar_Qaydar
+Bar_Lihyan
+Bar_Nasr
+Bar_Harith
+Bar_Hanno
+Bar_Mattan
+Bar_Melqart
+Bar_Eshmun
+Ben_Baal
+Ben_Milk
+Ben_Adon
+Ben_Abdmelqart
+Baalid
+Melqartid
+Eshmunid
+Nasrid
+Lihyanid
+Qaydarid
+Thamudid
+Adonid
+Hannid
+Mattanid
+Zaydid
+Malikid
+Salihid
+Harithid
+Acamadid
+Dathanid
+Rabiid
+Nizarid
+Amrid
+Waddid
+Bar_Abd
+Bar_Amm
+Bar_Amr
+Bar_Amru
+Bar_Aws
+Bar_Bahr
+Bar_Barak
+Bar_Bashir
+Bar_Dathan
+Bar_Daws`;
+const defaultWomen = `Labna
+Hasna
+Rima
+Suhayla
+Nashwa
+Layla
+Hind
+Rawda
+Ghusun
+Dalila
+Sabra
+Nura
+Wafa
+Badra
+Haifa
+Thuraya
+Asila
+Khawla
+Amina
+Zahra
+Afra
+Samira
+Lina
+Tamara
+Salma
+Rahma
+Wardah
+Hana
+Lubna
+Maryam
+Khadija
+Nadia
+Ruba
+Dina
+Haya
+Abla
+Tarfah
+Shamsa
+Nuha
+Yasmin
+Sawsan
+Nabila
+Raniya
+Warda
+Siham
+Basma
+Arwa
+Nayla
+Munia
+Sawdah
+Elissa
+Dido
+Sophonisba
+Arishat
+Ashtart
+Tinnit
+Tanit
+Batnoam
+Bodashtartia
+Amashtart
+Abibaalat
+Yatonbat
+Melqartia
+Eshmunia
+Adonia
+Baalat
+Hannibaala
+Mattanat
+Zimrida
+Amatbaal
+Alexandra
+Apollonia
+Arsinoe
+Berenike
+Dione
+Eukleia
+Kleopatra
+Laodike
+Nikaia
+Philista
+Stratonike
+Theodora
+Timandra
+Zenobia
+Helena
+Kallista
+Eirene
+Thais
+Melitta
+Phoibe
+Labnaa
+Hasnae
+Rimae
+Suhaylaia
+Nashouaas
+Laylaia
+Hindia
+Raoudaona
+Gusuna
+Dalilaona`;
+function lines(id){return document.getElementById(id).value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean)}
+function unique(arr){let seen=new Set();return arr.filter(x=>{let k=x.toLowerCase(); if(seen.has(k))return false; seen.add(k); return true;});}
+function fmtSection(title, arr){return `\n\t${title}\n\n` + arr.map(n=>`\t\t${n}`).join('\n') + '\n';}
+function getData(){
+ const chars=unique(lines('characters'));
+ const surn=unique(lines('surnames'));
+ const wom=unique(lines('women'));
+ document.getElementById('maleCount').textContent=chars.length+' characters';
+ document.getElementById('surnameCount').textContent=surn.length+' surnames';
+ document.getElementById('womenCount').textContent=wom.length+' women';
+ return {chars, surn, wom};
+}
+function generateDescrNames(){
+ const faction=document.getElementById('faction').value.trim()||'phoenicium';
+ const {chars, surn, wom}=getData();
+ const out=`faction: ${faction}\n`+fmtSection('characters',chars)+fmtSection('surnames',surn)+fmtSection('women',wom);
+ document.getElementById('output').value=out;
+ return out;
+}
+function displayName(key){return key.replace(/_/g,' ').replace(/\s+/g,' ').trim();}
+function localizationLine(key){return `{${key}}${displayName(key)}`;}
+function generateLocalizationNames(){
+ const {chars, surn, wom}=getData();
+ const all=unique([...chars, ...surn, ...wom]);
+ const out=all.map(localizationLine).join('\n')+'\n';
+ document.getElementById('output').value=out;
+ return out;
+}
+function dedupeInputs(){['characters','surnames','women'].forEach(id=>{document.getElementById(id).value=unique(lines(id)).join('\n')});generateDescrNames();}
+async function copyOutput(){ if(!document.getElementById('output').value.trim()) generateLocalizationNames(); await navigator.clipboard.writeText(document.getElementById('output').value); alert('Copied output');}
+function downloadFile(filename, text){const blob=new Blob([text],{type:'text/plain'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=filename; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);}
+function downloadDescrTxt(){downloadFile('descr_names.txt', generateDescrNames());}
+function downloadLocTxt(){downloadFile('names.txt', generateLocalizationNames());}
+window.onload=()=>{document.getElementById('characters').value=defaultCharacters;document.getElementById('surnames').value=defaultSurnames;document.getElementById('women').value=defaultWomen;generateLocalizationNames();};
+</script>
+</body>
+</html>
