@@ -468,3 +468,17 @@ can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+faction						phoenicium
+culture						eastern
+symbol						models_strat/symbol_phoenicium.CAS
+rebel_symbol				models_strat/symbol_eastern_rebel.CAS
+primary_colour				red 20, green 53, blue 3
+secondary_colour			red 138, green 108, blue 147
+loading_logo				loading_screen/symbols/symbol128_phoenicium.tga
+standard_index				38
+logo_index					FACTION_LOGO_PHOENICIUM
+small_logo_index			SMALL_FACTION_LOGO_PHOENICIUM
+triumph_value				5
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no

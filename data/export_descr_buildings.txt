@@ -24,7 +24,7 @@ building core_building
 {
     levels governors_house governors_villa governors_palace proconsuls_palace imperial_palace 
     {
-        governors_house requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        governors_house requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -35,7 +35,7 @@ building core_building
                 recruit "barb peasant german"  0  requires factions { germans, sciria_01, } 
                 recruit "barb peasant scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 recruit "greek peasant"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
                 recruit "roman peasant"  0  requires factions { roman, cisra_01, } 
@@ -49,7 +49,7 @@ building core_building
                 governors_villa
             }
         }
-        governors_villa requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        governors_villa requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -62,8 +62,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
@@ -90,7 +90,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
 				recruit "carthaginian general's cavalry early"  1  requires factions { carthage, spain, numidia, }  and not marian_reforms
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
-				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }  and not marian_reforms
+				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }  and not marian_reforms
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
 				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
@@ -120,7 +120,7 @@ building core_building
                 governors_palace
             }
         }
-        governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {          
@@ -133,8 +133,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
@@ -161,7 +161,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
 				recruit "carthaginian general's cavalry early"  1  requires factions { carthage, spain, numidia, }  and not marian_reforms
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
-				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }  and not marian_reforms
+				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }  and not marian_reforms
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
 				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
@@ -192,7 +192,7 @@ building core_building
                 proconsuls_palace
             }
         }
-        proconsuls_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        proconsuls_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -205,8 +205,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
@@ -233,7 +233,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
 				recruit "carthaginian general's cavalry early"  1  requires factions { carthage, spain, numidia, }  and not marian_reforms
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
-				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }  and not marian_reforms
+				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }  and not marian_reforms
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
 				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
@@ -264,7 +264,7 @@ building core_building
                 imperial_palace
             }
         }
-        imperial_palace requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        imperial_palace requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -277,8 +277,8 @@ building core_building
                 agent diplomat  0  requires factions { barbarian, } 
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 agent diplomat  0  requires factions { carthage, numidia, } 
-                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, } 
-                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east peasant"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, } 
+                agent diplomat  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "egyptian peasant"  0  requires factions { egypt, itanos_01, } 
                 agent diplomat  0  requires factions { egypt, } 
                 recruit "greek peasant"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
@@ -305,7 +305,7 @@ building core_building
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
 				recruit "carthaginian general's cavalry early"  1  requires factions { carthage, spain, numidia, }  and not marian_reforms
 				recruit "carthaginian general's cavalry"  1  requires factions { carthage, spain, numidia, }  and marian_reforms
-				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }  and not marian_reforms
+				recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }  and not marian_reforms
 				recruit "east generals cavalry"  0  requires factions { parthia, armenia, }  and marian_reforms
 				recruit "east pontic general"  0  requires factions { pontus, } and marian_reforms
                 recruit "china generals early"  0  requires factions { qin_01, } and marian_reforms
@@ -347,7 +347,7 @@ building defenses
 {
     levels wooden_pallisade wooden_wall stone_wall large_stone_wall epic_stone_wall 
     {
-        wooden_pallisade requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        wooden_pallisade requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -362,7 +362,7 @@ building defenses
                 wooden_wall
             }
         }
-        wooden_wall requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        wooden_wall requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -378,7 +378,7 @@ building defenses
                 stone_wall
             }
         }
-        stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -395,7 +395,7 @@ building defenses
                 large_stone_wall
             }
         }
-        large_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        large_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -412,7 +412,7 @@ building defenses
                 epic_stone_wall
             }
         }
-        epic_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, } 
+        epic_stone_wall requires factions { carthage, numidia, eastern, upper_chinese, parthia, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -437,7 +437,7 @@ building barracks
 {
     levels muster_field militia_barracks city_barracks army_barracks royal_barracks 
     {
-        muster_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        muster_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -461,7 +461,7 @@ building barracks
                 recruit "warband spear scythian"  0  requires factions { scythia, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
-                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, } 
+                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, phoenicium, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egypt, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, itanos_01, kos_01, cisra_01, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
@@ -495,7 +495,7 @@ building barracks
                 militia_barracks
             }
         }
-        militia_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        militia_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -538,8 +538,8 @@ building barracks
                 recruit "numidia sacredband"  0  requires factions { numidia, }
                 recruit "long shield spear"  0  requires factions { numidia, }
                 recruit "numidian desert warriors"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, phoenicium, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
@@ -573,7 +573,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
-                recruit "east infantry2"  0  requires factions { eastern, } 
+                recruit "east infantry2"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
                 recruit "greek hoplite militia2"  0  requires factions { slave, } 
@@ -597,7 +597,7 @@ building barracks
                 recruit "carthage spearmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage hillmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage warband sword barb aux"  0  requires factions { carthage, numidia, } 
-                recruit "east takabara"  0  requires factions { eastern, } 
+                recruit "east takabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "garamant infantry"  0  requires factions { numidia, } 
                 recruit "numidian infantry"  0  requires factions { numidia, } 
                 recruit "celtic spearmen gaul"  0  requires factions { gauls, britons, } 
@@ -619,7 +619,7 @@ building barracks
                 recruit "iberian heavy spearmen"  0  requires factions { spain, } 
                 recruit "asturian axemen"  0  requires factions { carthage, spain, } 
                 recruit "east armenian hillmen"  0  requires factions { armenia, } 
-                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, phoenicium, } 
                 recruit "east heavy spearmen merc"  0  requires factions { all, } 
                 recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
                 recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
@@ -673,10 +673,10 @@ building barracks
                 recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
                 recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
                 recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
-                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, phoenicium, } 
                 recruit "east takabara merc"  0  requires factions { all, } 
                 recruit "east phrygian takabara merc"  0  requires factions { all, } 
-                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc iranian sparabara"  0  requires factions { all, } 
                 recruit "merc east infantry"  0  requires factions { all, } 
                 recruit "merc persian sparabara"  0  requires factions { all, } 
@@ -687,7 +687,7 @@ building barracks
                 recruit "spanish scutarii"  0  requires factions { spain, }
                 recruit "spanish bull warriors"  0  requires factions { spain, carthage, }
                 recruit "numidian legionaries"  0  requires factions { numidia, }
-                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, }
+                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, phoenicium, }
                 recruit "east hoplite"  0  requires factions { pontus, }
                 recruit "east hoplite brazen shield"  0  requires factions { pontus, }
                 recruit "east legionary"  0  requires factions { armenia, }
@@ -777,7 +777,7 @@ building barracks
                 city_barracks
             }
         }
-        city_barracks requires factions { barbarian, carthage, numidia, eastern, upper_chinese, egyptian, greek, roman, } 
+        city_barracks requires factions { barbarian, carthage, numidia, eastern, upper_chinese, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -835,13 +835,13 @@ building barracks
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "numidian desert warriors"  1  requires factions { numidia, } 
                 recruit "desert swordsman"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, phoenicium, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  0  requires factions { parthia, } 
-                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, }
+                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, phoenicium, }
                 recruit "carthaginian heavy infantry 02"  0  requires factions { carthage, }
                 recruit "east legionary"  0  requires factions { armenia, } 
                 recruit "pontic swordsman"  0  requires factions { pontus, } 
@@ -923,7 +923,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
-                recruit "east infantry2"  0  requires factions { eastern, } 
+                recruit "east infantry2"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
                 recruit "greek hoplite militia2"  0  requires factions { slave, } 
@@ -947,7 +947,7 @@ building barracks
                 recruit "carthage spearmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage hillmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage warband sword barb aux"  0  requires factions { carthage, numidia, } 
-                recruit "east takabara"  0  requires factions { eastern, } 
+                recruit "east takabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "garamant infantry"  0  requires factions { numidia, } 
                 recruit "numidian infantry"  0  requires factions { numidia, } 
                 recruit "celtic spearmen gaul"  0  requires factions { gauls, britons, } 
@@ -964,7 +964,7 @@ building barracks
                 recruit "iberian heavy spearmen"  0  requires factions { spain, } 
                 recruit "asturian axemen"  0  requires factions { carthage, spain, } 
                 recruit "east armenian hillmen"  0  requires factions { armenia, } 
-                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, phoenicium, } 
                 recruit "east heavy spearmen merc"  0  requires factions { all, } 
                 recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
                 recruit "merc greek ekdromoi hoplite"  0  requires factions { all, } 
@@ -1018,10 +1018,10 @@ building barracks
                 recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
                 recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
                 recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
-                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, phoenicium, } 
                 recruit "east takabara merc"  0  requires factions { all, } 
                 recruit "east phrygian takabara merc"  0  requires factions { all, } 
-                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc iranian sparabara"  0  requires factions { all, } 
                 recruit "merc east infantry"  0  requires factions { all, } 
                 recruit "merc persian sparabara"  0  requires factions { all, } 
@@ -1077,7 +1077,7 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, }
+        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, }
         {
             capability
             {
@@ -1140,15 +1140,15 @@ building barracks
                 recruit "numidian spears"  0  requires factions { numidia, } 
                 recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, phoenicium, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  1  requires factions { parthia, } 
                 recruit "east swordbearer"  0  requires factions { parthia, } 
                 recruit "east immortal"  0  requires factions { parthia, } 
-                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, }
+                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, phoenicium, }
                 recruit "carthaginian heavy infantry 02"  0  requires factions { carthage, }
                 recruit "pontic swordsman"  0  requires factions { pontus, } 
                 recruit "east hoplite"  0  requires factions { pontus, } 
@@ -1235,7 +1235,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
-                recruit "east infantry2"  0  requires factions { eastern, } 
+                recruit "east infantry2"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
                 recruit "greek hoplite militia2"  0  requires factions { slave, } 
@@ -1259,7 +1259,7 @@ building barracks
                 recruit "carthage spearmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage hillmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage warband sword barb aux"  0  requires factions { carthage, numidia, } 
-                recruit "east takabara"  0  requires factions { eastern, } 
+                recruit "east takabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "garamant infantry"  0  requires factions { numidia, } 
                 recruit "numidian infantry"  0  requires factions { numidia, } 
                 recruit "celtic spearmen gaul"  0  requires factions { gauls, britons, } 
@@ -1304,7 +1304,7 @@ building barracks
                 recruit "asturian axemen"  0  requires factions { carthage, spain, } 
                 recruit "east armenian hillmen"  0  requires factions { armenia, } 
                 recruit "east armenian colchis nobles"  0  requires factions { armenia, } 
-                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc east elite machairophoroi"  0  requires factions { all, } 
                 recruit "east heavy spearmen merc"  0  requires factions { all, } 
                 recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
@@ -1364,10 +1364,10 @@ building barracks
                 recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
                 recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
                 recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
-                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, phoenicium, } 
                 recruit "east takabara merc"  0  requires factions { all, } 
                 recruit "east phrygian takabara merc"  0  requires factions { all, } 
-                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc iranian sparabara"  0  requires factions { all, } 
                 recruit "merc east infantry"  0  requires factions { all, } 
                 recruit "merc persian sparabara"  0  requires factions { all, } 
@@ -1419,7 +1419,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, } 
+        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, } 
         {
             capability
             {
@@ -1486,15 +1486,15 @@ building barracks
                 recruit "numidian spears"  0  requires factions { numidia, } 
                 recruit "scythia hoplite"  0  requires factions { scythia, }
                 recruit "numidian legionaries"  0  requires factions { numidia, } 
-                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, } 
-                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, } 
+                recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, kos_01, thamud_01, phoenicium, } 
+                recruit "east hillmen"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, } 
                 recruit "east persian infantry"  0  requires factions { parthia, }
                 recruit "merc greek pikemen"  0  requires factions { greek_cities, egypt, seleucid, carthage, }
                 recruit "east axemen"  0  requires factions { armenia, pontus, } 
                 recruit "east spearbearer"  1  requires factions { parthia, } 
                 recruit "east swordbearer"  0  requires factions { parthia, } 
                 recruit "east immortal"  0  requires factions { parthia, } 
-                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, }
+                recruit "east heavy infantry"  0  requires factions { armenia, thamud_01, phoenicium, }
                 recruit "carthaginian heavy infantry 02"  0  requires factions { carthage, }
                 recruit "pontic swordsman"  0  requires factions { pontus, } 
                 recruit "east hoplite"  0  requires factions { pontus, } 
@@ -1595,7 +1595,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
-                recruit "east infantry2"  0  requires factions { eastern, } 
+                recruit "east infantry2"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
                 recruit "greek hoplite militia2"  0  requires factions { slave, } 
@@ -1619,7 +1619,7 @@ building barracks
                 recruit "carthage spearmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage hillmen aux"  0  requires factions { carthage, numidia, } 
                 recruit "carthage warband sword barb aux"  0  requires factions { carthage, numidia, } 
-                recruit "east takabara"  0  requires factions { eastern, } 
+                recruit "east takabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "garamant infantry"  0  requires factions { numidia, } 
                 recruit "numidian infantry"  0  requires factions { numidia, } 
                 recruit "celtic spearmen gaul"  0  requires factions { gauls, britons, } 
@@ -1664,7 +1664,7 @@ building barracks
                 recruit "asturian axemen"  0  requires factions { carthage, spain, } 
                 recruit "east armenian hillmen"  0  requires factions { armenia, } 
                 recruit "east armenian colchis nobles"  0  requires factions { armenia, } 
-                recruit "east heavy assault infantry"  0  requires factions { eastern, } 
+                recruit "east heavy assault infantry"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc east elite machairophoroi"  0  requires factions { all, } 
                 recruit "east heavy spearmen merc"  0  requires factions { all, } 
                 recruit "east armenian nakharar spearmen"  0  requires factions { armenia, } 
@@ -1724,10 +1724,10 @@ building barracks
                 recruit "machimoi thureophoroi"  0  requires factions { egypt, seleucid, carthage, greek_cities, macedon, } 
                 recruit "syrian spearmen"  0  requires factions { egypt, armenia, pontus, seleucid, carthage, parthia, } 
                 recruit "hellenic spearmen auxilia"  0  requires factions { romans_julii, } 
-                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, } 
+                recruit "greek colonial thureophoroi"  0  requires factions { greek, egyptian, eastern, carthaginian, phoenicium, } 
                 recruit "east takabara merc"  0  requires factions { all, } 
                 recruit "east phrygian takabara merc"  0  requires factions { all, } 
-                recruit "iranian sparabara"  0  requires factions { eastern, } 
+                recruit "iranian sparabara"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc iranian sparabara"  0  requires factions { all, } 
                 recruit "merc east infantry"  0  requires factions { all, } 
                 recruit "merc persian sparabara"  0  requires factions { all, } 
@@ -1770,7 +1770,7 @@ building equestrian
 {
     levels stables cavalry_barracks hippodrome circus_maximus 
     {
-        stables requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        stables requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -1793,9 +1793,9 @@ building equestrian
                 recruit "eastern 01 cappodocian cavalry"  0  requires factions { armenia, parthia, pontus, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, } 
-                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, }
+                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, phoenicium, } 
+                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, phoenicium, }
                 recruit "egyptian cavalry"  0  requires factions { egypt, } 
                 recruit "barb getic steppe raiders"  0  requires factions { dacia, }
                 recruit "greek light lancer"  0  requires factions { macedon, } 
@@ -1812,7 +1812,7 @@ building equestrian
                 recruit "east chariot archer"  0  requires factions { pontus, }
                 recruit "egyptian bedouin"  0  requires factions { egypt, }
                 recruit "egyptian chariot archer"  0  requires factions { egypt, }
-                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, }
+                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
                 recruit "roman marian light cavalry"  0  requires factions { roman, }
                 recruit "getae horse archers"  0  requires factions { dacia, thrace, scythia, germans, }
                 recruit "east light cavalry"  0  requires factions { parthia, pontus, armenia, }
@@ -1835,7 +1835,7 @@ building equestrian
                 cavalry_barracks
             }
         }
-        cavalry_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        cavalry_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -1873,11 +1873,11 @@ building equestrian
                 recruit "carthaginian elephant forest"  0  requires factions { carthage, }  and resource elephants
                 recruit "numidian camel riders"  0  requires factions { numidia, }  and resource camels
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, } 
-                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, }
-                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, }
+                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, phoenicium, } 
+                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, phoenicium, }
+                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -1909,10 +1909,10 @@ building equestrian
                 recruit "merc elephant forest tower"  0  requires factions { all, } 
                 recruit "merc east cavalry"  0  requires factions { all, } 
                 recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
-                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, phoenicium, } 
                 recruit "merc east light cavalry"  0  requires factions { all, } 
                 recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
-                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, phoenicium, } 
                 recruit "east armenian lancer"  0  requires factions { armenia, } 
                 recruit "east armenian nakharar"  0  requires factions { armenia, } 
                 recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
@@ -1947,7 +1947,7 @@ building equestrian
                 recruit "east elephant"  0  requires factions { parthia, }
                 recruit "east scythed chariot"  0  requires factions { pontus, }
                 recruit "east chariot archer"  0  requires factions { pontus, }
-                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }
                 recruit "east pontic general"  0  requires factions { pontus, }
                 recruit "egyptian cleruch"  0  requires factions { egypt, }
                 recruit "egyptian bedouin"  0  requires factions { egypt, }
@@ -2025,7 +2025,7 @@ building equestrian
                 hippodrome
             }
         }
-        hippodrome requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        hippodrome requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -2065,11 +2065,11 @@ building equestrian
                 recruit "numidian camel riders"  0  requires factions { numidia, }  and resource camels
                 recruit "numidian noble cav"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, } 
-                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, }
-                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, }
+                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, phoenicium, } 
+                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, phoenicium, }
+                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -2151,7 +2151,7 @@ building equestrian
                 recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
                 recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
                 recruit "merc barb javelin cavalry"  0  requires factions { all, } 
-                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, } 
+                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, phoenicium, } 
                 recruit "merc barb noble cavalry"  0  requires factions { all, } 
                 recruit "barb medium cavalry scythian"  0  requires factions { scythia, } 
                 recruit "merc carthaginian cavalry"  0  requires factions { all, } 
@@ -2161,10 +2161,10 @@ building equestrian
                 recruit "merc elephant forest tower"  0  requires factions { all, } 
                 recruit "merc east cavalry"  0  requires factions { all, } 
                 recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
-                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, phoenicium, } 
                 recruit "merc east light cavalry"  0  requires factions { all, } 
                 recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
-                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, phoenicium, } 
                 recruit "east armenian lancer"  0  requires factions { armenia, } 
                 recruit "east armenian nakharar"  0  requires factions { armenia, } 
                 recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
@@ -2206,7 +2206,7 @@ building equestrian
                 recruit "east camel cataphract"  0  requires factions { parthia, }
                 recruit "east scythed chariot"  0  requires factions { pontus, }
                 recruit "east chariot archer"  0  requires factions { pontus, }
-                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }
                 recruit "east generals cavalry"  0  requires factions { parthia, armenia, }
                 recruit "east pontic general"  0  requires factions { pontus, }
                 recruit "egyptian chariot"  0  requires factions { egypt, }
@@ -2278,7 +2278,7 @@ building equestrian
                 circus_maximus
             }
         }
-        circus_maximus requires factions { carthaginian, parthia, macedon, seleucid, roman, greek, eastern, upper_chinese, egyptian, barbarian, } 
+        circus_maximus requires factions { carthaginian, parthia, macedon, seleucid, roman, greek, eastern, upper_chinese, egyptian, barbarian, phoenicium, } 
         {
             capability
             {
@@ -2319,11 +2319,11 @@ building equestrian
                 recruit "numidian noble cav"  0  requires factions { numidia, } 
                 recruit "carthaginian royal cavalry"  0  requires factions { carthage, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
-                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, } 
-                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, }
-                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, }
-                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, }
+                recruit "east horse archer"  0  requires factions { parthia, armenia, thamud_01, phoenicium, } 
+                recruit "merc arab cavalry"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc numidian cavalry"  0  requires factions { carthage, thamud_01, itanos_01, phoenicium, }
+                recruit "merc bedouin"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
+                recruit "merc bedouin archers"  0  requires factions { parthia, armenia, thamud_01, phoenicium, }
                 recruit "east heavy cavalry"  0  requires factions { pontus, } 
                 recruit "sarmatian cavalry"  0  requires factions { pontus, } 
                 recruit "east persian cavalry"  0  requires factions { parthia, } 
@@ -2376,7 +2376,7 @@ building equestrian
                 recruit "east heavy cataphract2"  0  requires factions { armenia, } 
                 recruit "seleucid cappodocian cavalry"  0  requires factions { seleucid, } 
                 recruit "east cataphract archer1"  0  requires factions { parthia, } 
-                recruit "east horse archer2"  0  requires factions { eastern, scythia, numidia, } 
+                recruit "east horse archer2"  0  requires factions { eastern, scythia, numidia, phoenicium, } 
                 recruit "macedon royal cavalry"  0  requires factions { macedon, greek_cities, } 
                 recruit "macedon cataphract"  0  requires factions { macedon, } 
                 recruit "greek cataphract"  0  requires factions { seleucid, } 
@@ -2449,7 +2449,7 @@ building equestrian
                 recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
                 recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
                 recruit "merc barb javelin cavalry"  0  requires factions { all, } 
-                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, } 
+                recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, phoenicium, } 
                 recruit "merc barb noble cavalry"  0  requires factions { all, } 
                 recruit "barb medium cavalry scythian"  0  requires factions { scythia, } 
                 recruit "merc carthaginian cavalry"  0  requires factions { all, } 
@@ -2460,10 +2460,10 @@ building equestrian
                 recruit "merc elephant forest tower"  0  requires factions { all, } 
                 recruit "merc east cavalry"  0  requires factions { all, } 
                 recruit "merc hyrcanian cavalry"  0  requires factions { all, } 
-                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, } 
+                recruit "east hyrcanian cavalry"  0  requires factions { eastern, scythia, seleucid, phoenicium, } 
                 recruit "merc east light cavalry"  0  requires factions { all, } 
                 recruit "armenian heavy cavalry"  0  requires factions { armenia, } 
-                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, } 
+                recruit "east cappadocian cavalry"  0  requires factions { eastern, romans_julii, greek, egyptian, phoenicium, } 
                 recruit "east armenian lancer"  0  requires factions { armenia, } 
                 recruit "east armenian nakharar"  0  requires factions { armenia, } 
                 recruit "armenian horse archer"  0  requires factions { armenia, pontus, seleucid, romans_julii, } 
@@ -2508,7 +2508,7 @@ building equestrian
                 recruit "carthaginian general's cavalry"  0  requires factions { carthage, spain, numidia, }
                 recruit "east scythed chariot"  0  requires factions { pontus, }
                 recruit "east chariot archer"  0  requires factions { pontus, }
-                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, }
+                recruit "east generals cavalry early"  0  requires factions { parthia, pontus, armenia, thamud_01, phoenicium, }
                 recruit "east generals cavalry"  0  requires factions { parthia, armenia, }
                 recruit "east pontic general"  0  requires factions { pontus, }
                 recruit "egyptian chariot"  0  requires factions { egypt, }
@@ -2547,7 +2547,7 @@ building missiles
 {
     levels practice_field archery_range catapult_range siege_engineer 
     {
-        practice_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        practice_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -2560,7 +2560,7 @@ building missiles
                 recruit "barb archer scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "carthaginian archer"  0  requires factions { numidia, } 
-                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, }
+                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, phoenicium, }
                 recruit "east slinger"  0  requires factions { parthia, } 
                 recruit "china archer"  0  requires factions { qin_01, }
                 recruit "china light chariot"  0  requires factions { qin_01, }
@@ -2607,7 +2607,7 @@ building missiles
                 recruit "warband archer scythian"  0  requires factions { scythia, }
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, }
-                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, }
+                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, }
                 recruit "egyptian archer"  0  requires factions { egypt, }
                 recruit "egyptian archer elite"  0  requires factions { egypt, }
                 recruit "greek archer"  0  requires factions { greek, }
@@ -2652,7 +2652,7 @@ building missiles
                 archery_range
             }
         }
-        archery_range requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        archery_range requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -2675,7 +2675,7 @@ building missiles
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "carthaginian archer"  0  requires factions { numidia, } 
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
-                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, }
+                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, phoenicium, }
                 recruit "east slinger"  0  requires factions { parthia, } 
                 recruit "china archer"  0  requires factions { qin_01, }
                 recruit "china light chariot"  0  requires factions { qin_01, }
@@ -2685,7 +2685,7 @@ building missiles
                 recruit "Indian Javelin Men" 0  requires factions { mauryans, }
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
-                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, }
+                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, }
                 recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
@@ -2771,17 +2771,17 @@ building missiles
                 recruit "machimoi archer"  0  requires factions { egyptian, } 
                 recruit "merc machimoi archer"  0  requires factions { all, } 
                 recruit "baltic hunter"  0  requires factions { germans, } 
-                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "armenian archer spearmen"  0  requires factions { armenia, } 
                 recruit "iranian archer spearmen"  0  requires factions { all, } 
-                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "carthaginian light infantry"  0  requires factions { carthage, } 
                 recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
                 recruit "persian archer merc"  0  requires factions { all, } 
-                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc kurdish javelinmen"  0  requires factions { all, } 
                 recruit "merc colchian archer"  0  requires factions { all, } 
-                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "colchian archer"  0  requires factions { eastern, phoenicium, } 
                 recruit "warband hurler briton"  0  requires factions { britons, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, }
                 recruit "carthaginian onager"  0  requires factions { carthage, spain, numidia, }
@@ -2833,7 +2833,7 @@ building missiles
                 catapult_range
             }
         }
-        catapult_range requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        catapult_range requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -2857,7 +2857,7 @@ building missiles
                 recruit "carthaginian archer"  0  requires factions { numidia, } 
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian onager"  0  requires factions { carthage, spain, numidia, } 
-                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, }
+                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, phoenicium, }
                 recruit "east slinger"  0  requires factions { parthia, } 
                 recruit "china archer"  0  requires factions { qin_01, }
                 recruit "china light chariot"  0  requires factions { qin_01, }
@@ -2869,10 +2869,10 @@ building missiles
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
                 recruit "Indian Slingers"  0  requires factions { mauryans, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
-                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, }
+                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, }
                 recruit "east heavy archer"  0  requires factions { armenia, } 
                 recruit "pontic peltast"  0  requires factions { pontus, } 
-                recruit "east onager"  0  requires factions { eastern, } 
+                recruit "east onager"  0  requires factions { eastern, phoenicium, } 
                 recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
@@ -2890,7 +2890,7 @@ building missiles
                 recruit "roman ballista"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman scorpion"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "roman onager"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
-                recruit "eastern archer"  0  requires factions { eastern, } 
+                recruit "eastern archer"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek gastraphetes"  0  requires factions { seleucid, } 
                 recruit "macedon gastraphetes"  0  requires factions { macedon, } 
                 recruit "merc east archer"  0  requires factions { all, } 
@@ -2973,17 +2973,17 @@ building missiles
                 recruit "machimoi archer"  0  requires factions { egyptian, } 
                 recruit "merc machimoi archer"  0  requires factions { all, } 
                 recruit "baltic hunter"  0  requires factions { germans, } 
-                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "armenian archer spearmen"  0  requires factions { armenia, } 
                 recruit "iranian archer spearmen"  0  requires factions { all, } 
-                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "carthaginian light infantry"  0  requires factions { carthage, } 
                 recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
                 recruit "persian archer merc"  0  requires factions { all, } 
-                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc kurdish javelinmen"  0  requires factions { all, } 
                 recruit "merc colchian archer"  0  requires factions { all, } 
-                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "colchian archer"  0  requires factions { eastern, phoenicium, } 
                 recruit "warband hurler briton"  0  requires factions { britons, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, }
                 recruit "carthaginian heavy onager"  0  requires factions { carthage, }
@@ -3017,7 +3017,7 @@ building missiles
                 siege_engineer
             }
         }
-        siege_engineer requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        siege_engineer requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3042,7 +3042,7 @@ building missiles
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian onager"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian heavy onager"  0  requires factions { carthage, } 
-                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, }
+                recruit "east peltast"  0  requires factions { pontus, armenia, thamud_01, phoenicium, }
                 recruit "east slinger"  0  requires factions { parthia, } 
                 recruit "china archer"  0  requires factions { qin_01, }
                 recruit "china light chariot"  0  requires factions { qin_01, }
@@ -3054,10 +3054,10 @@ building missiles
                 recruit "thracian medium skirmishers"  0  requires factions { thrace, }
                 recruit "Indian Longbowmen" 0 requires factions { mauryans, }
                 recruit "Indian Levy Archers"  0  requires factions { mauryans, }
-                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, }
+                recruit "east archer"  0  requires factions { parthia, pontus, armenia, kos_01, thamud_01, phoenicium, }
                 recruit "east heavy archer"  0  requires factions { armenia, } 
                 recruit "pontic peltast"  0  requires factions { pontus, } 
-                recruit "east onager"  0  requires factions { eastern, } 
+                recruit "east onager"  0  requires factions { eastern, phoenicium, } 
                 recruit "egyptian peltast"  0  requires factions { egypt, itanos_01, } 
                 recruit "egyptian slingers"  0  requires factions { egypt, } 
                 recruit "egyptian archer"  0  requires factions { egypt, } 
@@ -3138,7 +3138,7 @@ building missiles
                 recruit "celt archer"  0  requires factions { britons, } 
                 recruit "italic skirmisher"  0  requires factions { all, } 
                 recruit "Indian Slingers"  0  requires factions { mauryans, }
-                recruit "eastern archer"  0  requires factions { eastern, } 
+                recruit "eastern archer"  0  requires factions { eastern, phoenicium, } 
                 recruit "greek gastraphetes"  0  requires factions { seleucid, } 
                 recruit "macedon gastraphetes"  0  requires factions { macedon, } 
                 recruit "merc east archer"  0  requires factions { all, } 
@@ -3176,17 +3176,17 @@ building missiles
                 recruit "machimoi archer"  0  requires factions { egyptian, } 
                 recruit "merc machimoi archer"  0  requires factions { all, } 
                 recruit "baltic hunter"  0  requires factions { germans, } 
-                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "armenian archer spearmen"  0  requires factions { armenia, } 
                 recruit "iranian archer spearmen"  0  requires factions { all, } 
-                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, } 
+                recruit "east heavy archer spearmen"  0  requires factions { eastern, seleucid, phoenicium, } 
                 recruit "carthaginian light infantry"  0  requires factions { carthage, } 
                 recruit "barb allied skirmisher"  0  requires factions { romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, } 
                 recruit "persian archer merc"  0  requires factions { all, } 
-                recruit "kurdish javelinmen"  0  requires factions { eastern, } 
+                recruit "kurdish javelinmen"  0  requires factions { eastern, phoenicium, } 
                 recruit "merc kurdish javelinmen"  0  requires factions { all, } 
                 recruit "merc colchian archer"  0  requires factions { all, } 
-                recruit "colchian archer"  0  requires factions { eastern, } 
+                recruit "colchian archer"  0  requires factions { eastern, phoenicium, } 
                 recruit "warband hurler briton"  0  requires factions { britons, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, }
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -3209,7 +3209,7 @@ building market
 {
     levels trader market forum great_forum curia 
     {
-        trader requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        trader requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3224,7 +3224,7 @@ building market
                 market
             }
         }
-        market requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        market requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3245,7 +3245,7 @@ building market
                 forum
             }
         }
-        forum requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        forum requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3272,7 +3272,7 @@ building market
                 great_forum
             }
         }
-        great_forum requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        great_forum requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -3299,7 +3299,7 @@ building market
                 curia
             }
         }
-        curia requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        curia requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -3335,7 +3335,7 @@ building smith
 {
     levels blacksmith smiths_workshop foundry 
     {
-        blacksmith requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market trader
+        blacksmith requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } and building_present_min_level market trader
         {
             capability
             {
@@ -3355,7 +3355,7 @@ building smith
                 smiths_workshop
             }
         }
-        smiths_workshop requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and building_present_min_level market market
+        smiths_workshop requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } and building_present_min_level market market
         {
             capability
             {
@@ -3380,7 +3380,7 @@ building smith
                 foundry
             }
         }
-        foundry requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
+        foundry requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }  and building_present_min_level market great_forum
         {
             capability
             {
@@ -3413,16 +3413,16 @@ building port_buildings
 {
     levels port shipwright dockyard 
     {
-        port requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        port requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
                 recruit "naval boats"  0  requires factions { barbarian, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
                 trade_fleet 1 ;trade_base_income_bonus bonus 1 
             }
             construction  2 
@@ -3433,22 +3433,22 @@ building port_buildings
                 shipwright
             }
         }
-        shipwright requires factions { barbarian, carthage, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        shipwright requires factions { barbarian, carthage, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
                 recruit "naval boats"  0  requires factions { barbarian, } 
                 recruit "naval large boats"  0  requires factions { barbarian, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
                 trade_fleet 2 ;trade_base_income_bonus bonus 2
                 recruit "naval big triremes"  0  requires factions { barbarian, } 
             }
@@ -3460,27 +3460,27 @@ building port_buildings
                 dockyard
             }
         }
-        dockyard requires factions { carthage, eastern, upper_chinese, parthia, greek, roman, } 
+        dockyard requires factions { carthage, eastern, upper_chinese, parthia, greek, roman, phoenicium, } 
         {
             capability
             {
                 recruit "naval boats"  0  requires factions { barbarian, } 
                 recruit "naval large boats"  0  requires factions { barbarian, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
-                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval biremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval triremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
+                recruit "naval quinquiremes"  0  requires factions { roman, greek, itanos_01, carthaginian, eastern, egyptian, kos_01, cisra_01, phoenicium, } 
                 trade_fleet 3 ;trade_base_income_bonus bonus 2
                 recruit "naval carthage quinquiremes"  0  requires factions { carthage, } 
                 recruit "naval hepteres"  0  requires factions { greek, egyptian, } 
@@ -3566,7 +3566,7 @@ building hinterland_farms
 {
     levels farms farms+1 farms+2 farms+3 farms+4 
     {
-        farms requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        farms requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3580,7 +3580,7 @@ building hinterland_farms
                 farms+1
             }
         }
-        farms+1 requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        farms+1 requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3594,7 +3594,7 @@ building hinterland_farms
                 farms+2
             }
         }
-        farms+2 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        farms+2 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -3608,7 +3608,7 @@ building hinterland_farms
                 farms+3
             }
         }
-        farms+3 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } 
+        farms+3 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } 
         {
             capability
             {
@@ -3644,7 +3644,7 @@ building hinterland_roads
 {
     levels roads paved_roads highways 
     {
-        roads requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }
+        roads requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }
         {
             capability
             {
@@ -3694,7 +3694,7 @@ building hinterland_mines
 {
     levels mines mines+1 
     {
-        mines requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, } and resource silver or resource gold
+        mines requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, } and resource silver or resource gold
         {
             capability
             {
@@ -3708,7 +3708,7 @@ building hinterland_mines
                 mines+1
             }
         }
-        mines+1 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and resource silver or resource gold
+        mines+1 requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }  and resource silver or resource gold
         {
             capability
             {
@@ -3730,7 +3730,7 @@ building academic
 {
     levels academy scriptorium ludus_magnus 
     {
-        academy requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market market
+        academy requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }  and building_present_min_level market market
         {
             capability
             {
@@ -3743,7 +3743,7 @@ building academic
                 scriptorium
             }
         }
-        scriptorium requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market forum
+        scriptorium requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }  and building_present_min_level market forum
         {
             capability
             {
@@ -3756,7 +3756,7 @@ building academic
                 ludus_magnus
             }
         }
-        ludus_magnus requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, }  and building_present_min_level market great_forum
+        ludus_magnus requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, }  and building_present_min_level market great_forum
         {
             capability
             {
@@ -3886,7 +3886,7 @@ building despotic_law
 {
     levels execution_square secret_police_hq secret_police_network 
     {
-        execution_square requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
+        execution_square requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, phoenicium, } 
         {
             capability
             {
@@ -3900,7 +3900,7 @@ building despotic_law
                 secret_police_hq
             }
         }
-        secret_police_hq requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
+        secret_police_hq requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, phoenicium, } 
         {
             capability
             {
@@ -3914,7 +3914,7 @@ building despotic_law
                 secret_police_network
             }
         }
-        secret_police_network requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, } 
+        secret_police_network requires factions { carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, phoenicium, } 
         {
             capability
             {
@@ -3936,7 +3936,7 @@ building caravans
 {
     levels caravan frankincense_rd silk_rd 
     {
-        caravan requires factions { eastern, upper_chinese, parthia, } 
+        caravan requires factions { eastern, upper_chinese, parthia, phoenicium, } 
         {
             capability
             {
@@ -3950,7 +3950,7 @@ building caravans
                 frankincense_rd
             }
         }
-        frankincense_rd requires factions { eastern, upper_chinese, parthia, } 
+        frankincense_rd requires factions { eastern, upper_chinese, parthia, phoenicium, } 
         {
             capability
             {
@@ -3964,7 +3964,7 @@ building caravans
                 silk_rd
             }
         }
-        silk_rd requires factions { eastern, upper_chinese, parthia, } 
+        silk_rd requires factions { eastern, upper_chinese, parthia, phoenicium, } 
         {
             capability
             {
@@ -5263,7 +5263,7 @@ building temple_of_naval
         {
             capability
             {
-                recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
+                recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, phoenicium, } 
                 happiness_bonus bonus 4
             }
             construction  5 
@@ -5278,8 +5278,8 @@ building temple_of_naval
         {
             capability
             {
-                recruit "naval deceres"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
-                recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
+                recruit "naval deceres"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, phoenicium, } 
+                recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, phoenicium, } 
                 happiness_bonus bonus 5
                 law_bonus bonus 2
                 weapon_simple bonus 1
@@ -6491,7 +6491,7 @@ building temple_of_dushara_thamud
 {
     levels temple_of_dushara_thamud_shrine temple_of_dushara_thamud_temple temple_of_dushara_thamud_large_temple temple_of_dushara_thamud_awesome_temple temple_of_dushara_thamud_pantheon
     {
-        temple_of_dushara_thamud_shrine requires factions { thamud_01, }
+        temple_of_dushara_thamud_shrine requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6506,7 +6506,7 @@ building temple_of_dushara_thamud
                 temple_of_dushara_thamud_temple
             }
         }
-        temple_of_dushara_thamud_temple requires factions { thamud_01, }
+        temple_of_dushara_thamud_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6522,7 +6522,7 @@ building temple_of_dushara_thamud
                 temple_of_dushara_thamud_large_temple
             }
         }
-        temple_of_dushara_thamud_large_temple requires factions { thamud_01, }
+        temple_of_dushara_thamud_large_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6538,7 +6538,7 @@ building temple_of_dushara_thamud
                 temple_of_dushara_thamud_awesome_temple
             }
         }
-        temple_of_dushara_thamud_awesome_temple requires factions { thamud_01, }
+        temple_of_dushara_thamud_awesome_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6554,7 +6554,7 @@ building temple_of_dushara_thamud
                 temple_of_dushara_thamud_pantheon
             }
         }
-        temple_of_dushara_thamud_pantheon requires factions { thamud_01, }
+        temple_of_dushara_thamud_pantheon requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6580,7 +6580,7 @@ building temple_of_allat_thamud
 {
     levels temple_of_allat_thamud_shrine temple_of_allat_thamud_temple temple_of_allat_thamud_large_temple temple_of_allat_thamud_awesome_temple temple_of_allat_thamud_pantheon
     {
-        temple_of_allat_thamud_shrine requires factions { thamud_01, }
+        temple_of_allat_thamud_shrine requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6594,7 +6594,7 @@ building temple_of_allat_thamud
                 temple_of_allat_thamud_temple
             }
         }
-        temple_of_allat_thamud_temple requires factions { thamud_01, }
+        temple_of_allat_thamud_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6609,7 +6609,7 @@ building temple_of_allat_thamud
                 temple_of_allat_thamud_large_temple
             }
         }
-        temple_of_allat_thamud_large_temple requires factions { thamud_01, }
+        temple_of_allat_thamud_large_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6624,7 +6624,7 @@ building temple_of_allat_thamud
                 temple_of_allat_thamud_awesome_temple
             }
         }
-        temple_of_allat_thamud_awesome_temple requires factions { thamud_01, }
+        temple_of_allat_thamud_awesome_temple requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6639,7 +6639,7 @@ building temple_of_allat_thamud
                 temple_of_allat_thamud_pantheon
             }
         }
-        temple_of_allat_thamud_pantheon requires factions { thamud_01, }
+        temple_of_allat_thamud_pantheon requires factions { thamud_01, phoenicium, }
         {
             capability
             {
