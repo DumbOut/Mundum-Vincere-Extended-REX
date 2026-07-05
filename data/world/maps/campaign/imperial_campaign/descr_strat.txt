@@ -13353,7 +13353,7 @@ settlement
 }
 
 ;	Phoenicum
-character	Melkartshamaas Dathanid, named character, leader, age 40, , x 469, y 459
+character	Melkartshamaas Dathanid, named character, leader, age 42, , x 469, y 459
 traits GoodCommander 4 , GoodAdministrator 3 , Intelligent 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -13378,16 +13378,6 @@ unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-
-;	Phoenicum
-character	Radif, diplomat, age 35, , x 469, y 459
-traits GoodDiplomat 2
-
-;	Phoenicum
-character	Waddah, spy, age 27, , x 469, y 459
-traits GoodSpy 1
 
 character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
 character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
@@ -18277,25 +18267,6 @@ settlement
 {
 	level town
 	region Salma_R
-
-	year_founded 0
-	population 600
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Phoenicum_R
 
 	year_founded 0
 	population 600
@@ -46214,17 +46185,6 @@ unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
 
 ;	Salma
 character,	sub_faction parthia, Rashne, general, age 20, , x 520, y 335
-
-army
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-
-;	Phoenicum
-character,	sub_faction parthia, Rashne, general, age 20, , x 469, y 315
 
 army
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
