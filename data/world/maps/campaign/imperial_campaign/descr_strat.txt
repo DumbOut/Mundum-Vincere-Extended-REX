@@ -13356,7 +13356,12 @@ settlement
 character	Melkartshamaas Dathanid, named character, leader, age 42, , x 469, y 315
 traits GoodCommander 4 , GoodAdministrator 3 , Intelligent 1
 army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 4 armour 3 weapon_lvl 3
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
@@ -13370,7 +13375,7 @@ unit		east peltast				exp 0 armour 0 weapon_lvl 0
 character	Zimridaas Dathanid, named character, heir, age 22, , x 470, y 315
 traits GoodCommander 4 , GoodAdministrator 4 , Intelligent 1
 army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 4 armour 3 weapon_lvl 3
 unit		east infantry				exp 3 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -13378,6 +13383,10 @@ unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
 
 character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
 character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
