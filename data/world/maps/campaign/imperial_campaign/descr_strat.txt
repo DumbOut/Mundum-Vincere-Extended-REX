@@ -30,6 +30,7 @@ playable
 	cisra_01
 	thamud_01
 	phoenicium
+	arados
 end
 unlockable
 end
@@ -5300,7 +5301,7 @@ relative 	Sekhmetsekhemkhet, 	Padibastet,		Sabast,	end
 
 
 faction	seleucid, balanced stalin
-denari	32295
+denari	132295
 settlement
 {
 	level city
@@ -13326,11 +13327,6 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 
 relative 	Malik Salih_ibn_Datha, 	Labna,		Qaydar Salih_ibn_Datha,	Hind,	end
 
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 faction	phoenicium, balanced smith
 denari	20000
 settlement
@@ -13393,19 +13389,98 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 
 relative 	Melkartshamaas Dathanid, 	Labna,		Zimridaas Dathanid,	Hind,	end
 
+
+faction	arados, balanced smith
+denari	30000
+settlement
+{
+	level large_town
+	region Arados_R
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator arados
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+;	Arados
+character	Strato, named character, leader, age 36, , x 450, y 362
+traits GoodCommander 5 , GoodAdministrator 3 , Intelligent 2
+army
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Arados 1
+character	Ashtartyaton, named character, heir, age 16, , x 450, y 361
+traits GoodCommander 5 , GoodAdministrator 4 , Intelligent 1
+army
+unit		east generals cavalry early				exp 5 armour 3 weapon_lvl 3
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character_record		Thyia, 	female, command 0, influence 1, management 1, subterfuge 0, age 36, alive, never_a_leader
+character_record		Althaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+
+relative 	Strato, 	Thyia,		Ashtartyaton,	Althaia,	end
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	numidia, balanced henry
-denari	17900
+denari	18910
 settlement
 {
 	level large_town
 	region Numidia
 
 	year_founded 0
-	population 3200
+	population 3300
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -15238,6 +15313,7 @@ traits GoodCommander 4, GoodAdministrator 3
 army
 unit		greek general's guard cavalry early				exp 4 armour 1 weapon_lvl 2
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
@@ -15245,6 +15321,7 @@ unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
 unit		greek hoplite militia				exp 4 armour 0 weapon_lvl 2
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
@@ -31216,38 +31293,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Arados_R
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
 	level town
 	region Thurii_R
 
@@ -34076,7 +34121,7 @@ settlement
 	region Parab_R
 
 	year_founded 0
-	population 1200
+	population 1000
 	plan_set default_set
 	faction_creator parthia
 	building
@@ -42528,20 +42573,7 @@ unit		merc greek hoplites				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 0 armour 0 weapon_lvl 0
 unit		roman light cavalry				exp 1 armour 0 weapon_lvl 0
-unit		roman velite				exp 1 armour 0 weapon_lvl 0
-
-;	arados
-;	Strato was a historical king of arados
-character,	sub_faction carthage, Strato, named character, age 40, , x 450, y 412
-traits NaturalMilitarySkill 1 , StrategicSkill 1 , Intelligent 1 , PublicFaith 1
-ancillaries famous_warrior, merchant
-army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0\
 
 ;	Tosali
 character,	sub_faction parthia, Caspar, general, age 50, , x 974, y 347
