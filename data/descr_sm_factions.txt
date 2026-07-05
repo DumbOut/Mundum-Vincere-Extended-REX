@@ -498,3 +498,20 @@ triumph_value				5
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		yes
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						memnones
+culture						egyptian
+symbol						models_strat/symbol_egypt_rebel.CAS
+rebel_symbol				models_strat/symbol_egypt_rebel.CAS
+primary_colour				red 91, green 190, blue 183
+secondary_colour			red 192, green 178, blue 109
+tertiary_colour			red 233, green 205, blue 205
+loading_logo				loading_screen/symbols/symbol128_memnones.tga
+standard_index				45
+logo_index					FACTION_LOGO_MEMNONES
+small_logo_index			SMALL_FACTION_LOGO_MEMNONES
+triumph_value				5
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no

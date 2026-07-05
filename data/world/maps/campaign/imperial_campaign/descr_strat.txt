@@ -31,6 +31,7 @@ playable
 	thamud_01
 	phoenicium
 	arados
+	memnones
 end
 unlockable
 end
@@ -51,11 +52,11 @@ nonplayable
 end
 
 start_date	-316 summer
-end_date	1180 summer
+end_date	1205 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 48
+brigand_spawn_value 56
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13392,15 +13393,15 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 relative 	Melkartshamaas Dathanid, 	Labna,		Zimridaas Dathanid,	Hind,	end
 
 
-faction	arados, balanced smith
-denari	30000
+faction	memnones, balanced napoleon
+denari	20000
 settlement
 {
 	level large_town
-	region Arados_R
+	region Memnonia_R
 
 	year_founded 0
-	population 4000
+	population 3000
 	plan_set default_set
 	faction_creator arados
 	building
@@ -13418,57 +13419,56 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
-	}
-	building
-	{
 		type hinterland_farms farms
 	}
 }
 
-;	Arados
-character	Strato, named character, leader, age 36, , x 450, y 362
+;	Memnonia
+character	Ptahotem, named character, leader, age 36, , x 457, y 180
 traits GoodCommander 5 , GoodAdministrator 3 , Intelligent 2
 army
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen			exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
 
-;	Arados 1
-character	Ashtartyaton, named character, heir, age 16, , x 450, y 361
+;	Memnonia 1
+character	Sekhemwy, named character, heir, age 16, ,  x 458, y 180
 traits GoodCommander 5 , GoodAdministrator 4 , Intelligent 1
 army
-unit		east generals cavalry early				exp 5 armour 3 weapon_lvl 3
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east generals cavalry early				exp 9 armour 5 weapon_lvl 5
-unit		east infantry				exp 3 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		egyptian general's bodyguard early				exp 5 armour 3 weapon_lvl 3
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
+unit		egyptian nubian spearmen				exp 3 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 2 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character_record		Thyia, 	female, command 0, influence 1, management 1, subterfuge 0, age 36, alive, never_a_leader
-character_record		Althaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+character_record		Hebeny, 	female, command 0, influence 1, management 1, subterfuge 0, age 36, alive, never_a_leader
+character_record		Berenike, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
 
-relative 	Strato, 	Thyia,		Ashtartyaton,	Althaia,	end
+relative 	Ptahotem, 	Hebeny,		Sekhemwy,	Berenike,	end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15461,6 +15461,35 @@ settlement
 	plan_set default_set
 	faction_creator seleucid
 	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Memnonia_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator seleucid
+	garrisoned_army
+	unit		greek hoplite militia
 	unit		greek hoplite militia
 	unit		greek hoplite militia
 	unit		greek hoplite militia
@@ -51550,6 +51579,10 @@ unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
@@ -51564,6 +51597,9 @@ unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
 
 ;	Costobocum
@@ -51573,6 +51609,9 @@ army
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
