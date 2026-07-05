@@ -30,7 +30,6 @@ playable
 	cisra_01
 	thamud_01
 	phoenicium
-	arados
 	memnones
 end
 unlockable
@@ -5507,6 +5506,38 @@ settlement
 	population 2000
 	plan_set default_set
 	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arados_R
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator carthage
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
 	building
 	{
 		type core_building governors_villa
@@ -13403,7 +13434,7 @@ settlement
 	year_founded 0
 	population 3000
 	plan_set default_set
-	faction_creator arados
+	faction_creator memnones
 	building
 	{
 		type core_building governors_villa
