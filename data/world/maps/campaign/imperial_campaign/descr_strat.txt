@@ -15482,34 +15482,6 @@ settlement
 settlement
 {
 	level town
-	region Memnonia_R
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator seleucid
-	garrisoned_army
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	unit		greek hoplite militia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
 	region Ravenna_R
 
 	year_founded 0
