@@ -29,6 +29,7 @@ playable
 	kos_01
 	cisra_01
 	thamud_01
+	phoenicium
 end
 unlockable
 end
@@ -13271,7 +13272,7 @@ relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	thamud_01,
+faction	thamud_01, balanced smith
 denari	8000
 settlement
 {
@@ -13325,12 +13326,80 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 
 relative 	Malik Salih_ibn_Datha, 	Labna,		Qaydar Salih_ibn_Datha,	Hind,	end
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	phoenicium, balanced smith
+denari	20000
+settlement
+{
+	level town
+	region Phoenicum_R
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator thamud_01
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+;	Phoenicum
+character	Melkartshamaas Dathanid, named character, leader, age 40, , x 469, y 459
+traits GoodCommander 4 , GoodAdministrator 3 , Intelligent 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+;	Phoenicum 01
+character	Zimridaas Dathanid, named character, heir, age 22, , x 470, y 459
+traits GoodCommander 4 , GoodAdministrator 4 , Intelligent 1
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 3 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+
+;	Phoenicum
+character	Radif, diplomat, age 35, , x 469, y 459
+traits GoodDiplomat 2
+
+;	Phoenicum
+character	Waddah, spy, age 27, , x 469, y 459
+traits GoodSpy 1
+
+character_record		Labna, 	female, command 0, influence 1, management 1, subterfuge 0, age 41, alive, never_a_leader
+character_record		Hind, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+
+relative 	Melkartshamaas Dathanid, 	Labna,		Zimridaas Dathanid,	Hind,	end
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	numidia, balanced henry
-denari	15900
+denari	17900
 settlement
 {
 	level large_town
@@ -14607,8 +14676,8 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, age 42, , x 1280, y 540
 
-faction	qin_01, balanced napoleon
-denari	180000
+faction	qin_01, balanced smith
+denari	190000
 settlement
 {
     level town

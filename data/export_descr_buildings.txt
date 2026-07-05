@@ -441,11 +441,11 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, }
                 recruit "italic spearmen"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
                 recruit "iberian spears"  0  requires factions { spain, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, } 
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "Minbin Wei"  0  requires factions { qin_01, }
@@ -499,14 +499,14 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
                 recruit "iberian spears"  0  requires factions { spain, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, } 
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "Minbin Wei"  0  requires factions { qin_01, }
                 recruit "qin_maoshou"  0  requires factions { qin_01, }
@@ -781,14 +781,14 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
                 recruit "iberian spears"  0  requires factions { spain, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, } 
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, } 
                 recruit "unit nl egyptian machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
@@ -796,7 +796,7 @@ building barracks
                 recruit "spanish scutarii"  0  requires factions { spain, } 
                 recruit "shield warrior"  0  requires factions { spain, } 
                 recruit "galatian swordsmen"  0  requires factions { pontus, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "Minbin Wei"  0  requires factions { qin_01, }
                 recruit "qin_maoshou"  0  requires factions { qin_01, }
@@ -1081,14 +1081,14 @@ building barracks
         {
             capability
             {
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
                 recruit "iberian spears"  0  requires factions { spain, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, } 
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, } 
                 recruit "unit nl egyptian machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
@@ -1096,7 +1096,7 @@ building barracks
                 recruit "spanish scutarii"  0  requires factions { spain, } 
                 recruit "shield warrior"  0  requires factions { spain, } 
                 recruit "galatian swordsmen"  0  requires factions { pontus, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, } 
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } 
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
@@ -1424,14 +1424,14 @@ building barracks
             capability
             {
 				taxable_income_bonus bonus -1 requires factions { slave, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
                 recruit "iberian spears"  0  requires factions { spain, }
-                recruit "carthaginian city militia"  0  requires factions { carthage, spain, } 
+                recruit "carthaginian city militia"  0  requires factions { carthage, spain, phoenicium, } 
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, }
                 recruit "carthaginian infantry"  0  requires factions { carthage, spain, } 
                 recruit "unit nl egyptian machimoi thureophoroi 01" 0 requires factions { numidia, }
                 recruit "numidia sacredband"  0  requires factions { numidia, }
@@ -1439,7 +1439,7 @@ building barracks
                 recruit "spanish scutarii"  0  requires factions { spain, } 
                 recruit "shield warrior"  0  requires factions { spain, } 
                 recruit "galatian swordsmen"  0  requires factions { pontus, }
-                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, } 
+                recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, phoenicium, } 
                 recruit "carthaginian heavy infantry"  0  requires factions { carthage, } 
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 

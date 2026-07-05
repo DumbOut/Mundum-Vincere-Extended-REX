@@ -2317,7 +2317,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, phoenicium
 
 
 
@@ -2370,7 +2370,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 220, 50, 20, 20, 120
-ownership        carthage, numidia, spain
+ownership        carthage, numidia, spain, phoenicium
 
 
 
@@ -2427,7 +2427,6 @@ stat_cost        1, 500, 110, 40, 40, 260
 ownership        carthage
 
 
-
 type             spanish scutarii
 dictionary       scutarii      ; Scutarii
 category         infantry
@@ -2454,7 +2453,6 @@ stat_cost        1, 440, 95, 30, 40, 230
 ownership        spain
 
 
-
 type             spanish bull warriors
 dictionary       bull_warriors      ; Bull Warriors
 category         infantry
@@ -2477,7 +2475,7 @@ stat_mental      8, impetuous, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 590, 130, 40, 50, 310
+stat_cost        1, 610, 130, 40, 50, 610
 ownership        spain, carthage
 
 
@@ -21675,8 +21673,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 20, 30, 190
 ownership        eastern, slave, phoenicium
-
-
 
 
 type             roman evocatius
