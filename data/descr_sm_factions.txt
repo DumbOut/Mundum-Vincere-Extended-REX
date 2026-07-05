@@ -482,3 +482,20 @@ triumph_value				5
 custom_battle_availability	yes
 can_sap						yes
 prefers_naval_invasions		no
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction						ravenna
+culture						roman
+symbol						models_strat/symbol_slaves.cas
+rebel_symbol				models_strat/symbol_slaves.cas
+primary_colour				red 88, green 63, blue 90
+secondary_colour			red 63, green 64, blue 90
+tertiary_colour			red 0, green 0, blue 0
+loading_logo				loading_screen/symbols/symbol128_ravenna.tga
+standard_index				42
+logo_index					FACTION_LOGO_RAVENNA
+small_logo_index			SMALL_FACTION_LOGO_RAVENNA
+triumph_value				5
+custom_battle_availability	yes
+can_sap						yes
+prefers_naval_invasions		no
