@@ -199,7 +199,7 @@ resource	camels	460	,	410		;	Arethusa
 resource	elephants	455	,	433		;	Antioch
 resource	wine	453	,	412		;	Laodicea Paralos
 resource	timber	457	,	415		;	Arethusa
-resource	purple_dye	449	,	412		;	Arados
+resource	purple_dye	449	,	412		;	arados
 resource	elephants	532	,	405		;	Seleucia
 resource	camels	518	,	409		;	Isiopolis
 resource	tin	451	,	402		;	Byblos
@@ -1831,7 +1831,7 @@ resource	slaves	447	,	389		;	Ptolemais
 resource	slaves	449	,	397		;	Sidon
 resource	slaves	450	,	404		;	Byblos
 resource	slaves	458	,	398		;	Damascus
-resource	slaves	450	,	412		;	Arados
+resource	slaves	450	,	412		;	arados
 resource	slaves	460	,	414		;	Arethusa
 resource	slaves	476	,	413		;	Palmyra
 resource	slaves	450	,	421		;	Laodicea
@@ -42519,8 +42519,8 @@ unit		roman hastati				exp 0 armour 0 weapon_lvl 0
 unit		roman light cavalry				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
-;	Arados
-;	Strato was a historical king of Arados
+;	arados
+;	Strato was a historical king of arados
 character,	sub_faction carthage, Strato, named character, age 40, , x 450, y 412
 traits NaturalMilitarySkill 1 , StrategicSkill 1 , Intelligent 1 , PublicFaith 1
 ancillaries famous_warrior, merchant

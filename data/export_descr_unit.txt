@@ -27,6 +27,7 @@ ownership        britons
 
 
 
+
 type             barb peasant dacian
 dictionary       barb_peasant_dacian      ; Barbarian Peasants
 category         infantry
@@ -50,6 +51,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        dacia
+
 
 
 
@@ -85,6 +87,7 @@ ownership        gauls
 
 
 
+
 type             barb peasant german
 dictionary       barb_peasant_german      ; Barbarian Peasants
 category         infantry
@@ -108,6 +111,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        germans, sciria_01
+
 
 
 
@@ -143,6 +147,7 @@ ownership        scythia
 
 
 
+
 type             barb peasant slave
 dictionary       barb_peasant_slave      ; Barbarian Peasants
 category         infantry
@@ -166,6 +171,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        slave
+
 
 
 
@@ -202,6 +208,7 @@ ownership        gauls
 
 
 
+
 type             barb peltast german
 dictionary       barb_peltast_german      ; Skirmisher Warband
 category         infantry
@@ -226,6 +233,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 70, 20, 30, 170
 ownership        germans, sciria_01
+
 
 
 
@@ -261,6 +269,7 @@ ownership        britons
 
 
 
+
 type             barb archer dacian
 dictionary       barb_archer_dacian      ; Archer Warband
 category         infantry
@@ -284,6 +293,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
 ownership        dacia
+
 
 
 
@@ -319,6 +329,7 @@ ownership        scythia
 
 
 
+
 type             barb archer slave
 dictionary       barb_archer_slave      ; Archer Warband
 category         infantry
@@ -342,6 +353,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
 ownership        slave
+
 
 
 
@@ -378,6 +390,7 @@ ownership        dacia
 
 
 
+
 type             warband archer german
 dictionary       warband_archer_german      ; Chosen Archer Warband
 category         infantry
@@ -402,6 +415,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 100, 30, 40, 230
 ownership        germans, sciria_01
+
 
 
 
@@ -438,6 +452,7 @@ ownership        scythia
 
 
 
+
 type             warband huntsman gaul
 dictionary       warband_huntsman_gaul      ; Forester Warband
 category         infantry
@@ -467,6 +482,7 @@ ownership        gauls
 
 
 
+
 type             warband hurler briton
 dictionary       warband_hurler_briton      ; Head Hurlers
 category         infantry
@@ -490,6 +506,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        britons
+
 
 
 
@@ -526,6 +543,7 @@ ownership        britons
 
 
 
+
 type             barb infantry dacian
 dictionary       barb_infantry_dacian      ; Warband
 category         infantry
@@ -550,6 +568,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
 ownership        dacia
+
 
 
 
@@ -586,6 +605,7 @@ ownership        gauls
 
 
 
+
 type             barb infantry slave
 dictionary       barb_infantry_slave      ; Warband
 category         infantry
@@ -609,6 +629,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
 ownership        slave
+
 
 
 
@@ -645,6 +666,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             warband sword briton
 dictionary       warband_sword_briton      ; Swordsmen
 category         infantry
@@ -669,6 +691,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        britons
+
 
 
 
@@ -705,6 +728,7 @@ ownership        gauls
 
 
 
+
 type             warband axe german
 dictionary       warband_axe_german      ; Axemen
 category         infantry
@@ -729,6 +753,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        germans, sciria_01
+
 
 
 
@@ -765,6 +790,7 @@ ownership        scythia
 
 
 
+
 type             warband falx dacian
 dictionary       warband_falx_dacian      ; Falxmen
 category         infantry
@@ -789,6 +815,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        dacia
+
 
 
 
@@ -825,6 +852,7 @@ ownership        thrace
 
 
 
+
 type             warband dhaxe german
 dictionary       warband_dhaxe_german      ; Chosen Axemen
 category         infantry
@@ -849,6 +877,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 85, 30, 30, 200
 ownership        germans, sciria_01
+
 
 
 
@@ -885,6 +914,7 @@ ownership        britons
 
 
 
+
 type             barb warguard dacian
 dictionary       barb_warguard_dacian      ; Chosen Swordsmen
 category         infantry
@@ -909,6 +939,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        dacia
+
 
 
 
@@ -945,6 +976,7 @@ ownership        gauls
 
 
 
+
 type             warband woad briton
 dictionary       warband_woad_briton      ; Woad Warriors
 category         infantry
@@ -969,6 +1001,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        britons
+
 
 
 
@@ -1004,6 +1037,7 @@ ownership        dacia
 
 
 
+
 type             barb naked fanatics gauls
 dictionary       naked_fanatics_gaul      ; Naked Fanatics
 category         infantry
@@ -1027,6 +1061,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        gauls
+
 
 
 
@@ -1062,6 +1097,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb naked fanatics slave
 dictionary       naked_fanatics_slave      ; Naked Fanatics
 category         infantry
@@ -1085,6 +1121,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        slave
+
 
 
 
@@ -1120,6 +1157,7 @@ ownership        spain
 
 
 
+
 type             barb druids briton
 dictionary       druids_briton      ; Druids
 category         infantry
@@ -1143,6 +1181,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
 ownership        britons
+
 
 
 
@@ -1178,6 +1217,7 @@ ownership        gauls
 
 
 
+
 type             barb druids slave
 dictionary       druids_slave      ; Druids
 category         infantry
@@ -1201,6 +1241,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
 ownership        slave
+
 
 
 
@@ -1236,6 +1277,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb berserker german
 dictionary       barb_berserker_german      ; Berserkers
 category         infantry
@@ -1265,6 +1307,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb screeching women german
 dictionary       screeching_women_german      ; Screeching Women
 category         infantry
@@ -1288,6 +1331,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 240, 55, 20, 20, 120
 ownership        germans
+
 
 
 
@@ -1324,6 +1368,7 @@ ownership        britons
 
 
 
+
 type             barb wardogs dacian
 dictionary       barb_wardogs_dacian      ; Warhounds
 category         handler
@@ -1348,6 +1393,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        dacia
+
 
 
 
@@ -1384,6 +1430,7 @@ ownership        gauls
 
 
 
+
 type             barb wardogs german
 dictionary       barb_wardogs_german      ; Warhounds
 category         handler
@@ -1414,6 +1461,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb wardogs scythian
 dictionary       barb_wardogs_scythian      ; Warhounds
 category         handler
@@ -1438,6 +1486,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        scythia
+
 
 
 
@@ -1475,6 +1524,7 @@ ownership        dacia
 
 
 
+
 type             barb cavalry gaul
 dictionary       barb_cavalry_gaul      ; Barbarian Cavalry
 category         cavalry
@@ -1500,6 +1550,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 410, 90, 30, 40, 210
 ownership        gauls
+
 
 
 
@@ -1537,6 +1588,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb cavalry scythian
 dictionary       barb_cavalry_scythian      ; Barbarian Cavalry
 category         cavalry
@@ -1562,6 +1614,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 410, 90, 30, 40, 210
 ownership        scythia
+
 
 
 
@@ -1599,6 +1652,7 @@ ownership        slave
 
 
 
+
 type             barb noble cavalry dacian
 dictionary       barb_noble_cavalry_dacian      ; Barbarian Noble Cavalry
 category         cavalry
@@ -1624,6 +1678,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 510, 110, 40, 50, 270
 ownership        dacia
+
 
 
 
@@ -1661,6 +1716,7 @@ ownership        gauls
 
 
 
+
 type             barb noble cavalry german
 dictionary       barb_noble_cavalry_german      ; Barbarian Noble Cavalry
 category         cavalry
@@ -1686,6 +1742,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 510, 110, 40, 50, 270
 ownership        germans, sciria_01
+
 
 
 
@@ -1723,6 +1780,7 @@ ownership        slave
 
 
 
+
 type             barb gothic cavalry german
 dictionary       gothic_cavalry_german      ; Gothic Cavalry
 category         cavalry
@@ -1748,6 +1806,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 130, 40, 50, 310
 ownership        germans, sciria_01
+
 
 
 
@@ -1785,6 +1844,7 @@ ownership        britons
 
 
 
+
 type             barb chariot heavy briton
 dictionary       barb_chariot_heavy_briton      ; British Heavy Chariots
 category         cavalry
@@ -1810,6 +1870,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1010, 220, 70, 90, 530
 ownership        britons
+
 
 
 
@@ -1847,6 +1908,7 @@ ownership        slave
 
 
 
+
 type             barb horse archers scythian
 dictionary       barb_horse_archers_scythian      ; Scythian Horse Archers
 category         cavalry
@@ -1872,6 +1934,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        scythia
+
 
 
 
@@ -1909,6 +1972,7 @@ ownership        slave
 
 
 
+
 type             barb noble horse archers scythian
 dictionary       barb_noble_horse_archers_scythian      ; Scythian Noble Archers
 category         cavalry
@@ -1934,6 +1998,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 650, 145, 50, 60, 340
 ownership        scythia
+
 
 
 
@@ -1971,6 +2036,7 @@ ownership        scythia
 
 
 
+
 type             barb scythian nobles scythian
 dictionary       scythian_nobles_scythian      ; Scythian Nobles
 category         cavalry
@@ -1996,6 +2062,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 40, 50, 290
 ownership        scythia
+
 
 
 
@@ -2033,6 +2100,7 @@ ownership        scythia
 
 
 
+
 type             barb ballista dacian
 dictionary       barb_ballistas_dacian      ; Ballistas
 category         siege
@@ -2057,6 +2125,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 70, 20, 30, 170
 ownership        dacia
+
 
 
 
@@ -2093,6 +2162,7 @@ ownership        dacia
 
 
 
+
 type             barb onager scythian
 dictionary       barb_onagers_scythian      ; Onagers
 category         siege
@@ -2117,6 +2187,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 70, 20, 30, 170
 ownership        scythia
+
 
 
 
@@ -2154,6 +2225,7 @@ ownership        dacia
 
 
 
+
 type             barb chieftain cavalry early gaul
 dictionary       barb_chieftain_cavalry_early_gaul      ; Barbarian Warlord
 category         cavalry
@@ -2179,6 +2251,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 630, 140, 40, 60, 330
 ownership        gauls
+
 
 
 
@@ -2216,6 +2289,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb chieftain cavalry early scythian
 dictionary       barb_chieftain_cavalry_early_scythian      ; Barbarian Warlord
 category         cavalry
@@ -2247,6 +2321,7 @@ ownership        scythia
 
 
 
+
 type             barb chieftain cavalry early slave
 dictionary       barb_chieftain_cavalry_early_slave      ; Barbarian Warlord
 category         cavalry
@@ -2271,7 +2346,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 630, 140, 40, 60, 330
-ownership        slave, new_faction, ravenna
+ownership        slave, arados
+
 
 
 
@@ -2309,6 +2385,7 @@ ownership        dacia
 
 
 
+
 type             barb chieftain cavalry gaul
 dictionary       barb_chieftain_cavalry_gaul      ; Barbarian Chosen Warlord
 category         cavalry
@@ -2334,6 +2411,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 145, 50, 60, 340
 ownership        gauls
+
 
 
 
@@ -2371,6 +2449,7 @@ ownership        germans, sciria_01
 
 
 
+
 type             barb british general briton
 dictionary       barb_british_general_briton      ; Barbarian Warlord
 category         cavalry
@@ -2396,6 +2475,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1010, 220, 70, 90, 530
 ownership        britons
+
 
 
 
@@ -2433,6 +2513,7 @@ ownership        scythia
 
 
 
+
 type             carthaginian peasant
 dictionary       carthaginian_peasant      ; Peasants
 category         infantry
@@ -2455,7 +2536,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
-ownership        carthage, spain, numidia, slave
+ownership        carthage, spain, numidia, slave, arados
+
 
 
 
@@ -2485,7 +2567,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, arados
+
 
 
 
@@ -2514,7 +2597,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
-ownership        carthage, spain, numidia
+ownership        carthage, spain, numidia, arados
+
 
 
 
@@ -2550,6 +2634,7 @@ ownership        numidia
 
 
 
+
 type             carthaginian city militia
 dictionary       carthaginian_city_militia      ; Town Militia
 category         infantry
@@ -2572,7 +2657,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        carthage, spain, slave, phoenicium
+ownership        carthage, spain, slave, phoenicium, arados
+
 
 
 
@@ -2601,7 +2687,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, arados
+
 
 
 
@@ -2631,7 +2718,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 220, 50, 20, 20, 120
-ownership        carthage, numidia, spain, phoenicium
+ownership        carthage, numidia, spain, phoenicium, arados
+
 
 
 
@@ -2661,7 +2749,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -2691,7 +2780,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -2726,6 +2816,7 @@ ownership        spain
 
 
 
+
 type             spanish bull warriors
 dictionary       bull_warriors      ; Bull Warriors
 category         infantry
@@ -2749,7 +2840,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 610, 130, 40, 50, 610
-ownership        spain, carthage
+ownership        spain, carthage, arados
+
 
 
 
@@ -2786,6 +2878,7 @@ ownership        numidia, slave
 
 
 
+
 type             numidian desert warriors
 dictionary       numidian_desert_warriors      ; Desert Infantry
 category         infantry
@@ -2809,6 +2902,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 300, 65, 20, 30, 160
 ownership        numidia
+
 
 
 
@@ -2845,6 +2939,7 @@ ownership        numidia
 
 
 
+
 type             carthaginian cavalry
 dictionary       carthaginian_cavalry      ; Round Shield Cavalry
 category         cavalry
@@ -2869,7 +2964,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, arados
+
 
 
 
@@ -2900,7 +2996,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
-ownership        carthage, spain, numidia, slave
+ownership        carthage, spain, numidia, slave, arados
+
 
 
 
@@ -2931,7 +3028,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 140, 40, 60, 330
-ownership        carthage, spain, numidia, slave
+ownership        carthage, spain, numidia, slave, arados
+
 
 
 
@@ -2962,7 +3060,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 150, 50, 60, 350
-ownership        carthage, spain, numidia
+ownership        carthage, spain, numidia, arados
+
 
 
 
@@ -2993,7 +3092,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 130, 40, 50, 310
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -3031,6 +3131,7 @@ ownership        numidia, slave
 
 
 
+
 type             numidian camel riders
 dictionary       numidian_camel_riders      ; Numidian Camel Riders
 category         cavalry
@@ -3056,6 +3157,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 105, 30, 40, 250
 ownership        numidia
+
 
 
 
@@ -3092,6 +3194,7 @@ ownership        spain
 
 
 
+
 type             carthaginian elephant forest
 dictionary       carthaginian_elephant_forest      ; Elephants
 category         cavalry
@@ -3116,7 +3219,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1220, 240, 90, 110, 630
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -3147,7 +3251,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1430, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -3178,7 +3283,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1510, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -3208,7 +3314,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
-ownership        carthage, spain, numidia
+ownership        carthage, spain, numidia, arados
+
 
 
 
@@ -3238,7 +3345,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -3268,6 +3376,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        parthia, pontus, armenia, slave, kos_01, thamud_01, phoenicium
+
 
 
 
@@ -3304,6 +3413,7 @@ ownership        pontus, armenia, thamud_01, phoenicium
 
 
 
+
 type             east slinger
 dictionary       east_slinger      ; Slingers
 category         infantry
@@ -3327,6 +3437,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        parthia
+
 
 
 
@@ -3362,6 +3473,7 @@ ownership        parthia, pontus, armenia, slave, kos_01, thamud_01, phoenicium
 
 
 
+
 type             east hillmen
 dictionary       east_hillmen      ; Hillmen
 category         infantry
@@ -3391,6 +3503,7 @@ ownership        parthia, pontus, armenia, thamud_01, phoenicium
 
 
 
+
 type             east infantry
 dictionary       east_infantry      ; Eastern Infantry
 category         infantry
@@ -3413,7 +3526,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01, phoenicium
+ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01, phoenicium, arados
+
 
 
 
@@ -3450,6 +3564,7 @@ ownership        armenia, thamud_01, phoenicium
 
 
 
+
 type             east hoplite
 dictionary       east_hoplite      ; Phalanx Pikemen
 category         infantry
@@ -3473,6 +3588,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 300, 65, 20, 30, 160
 ownership        pontus
+
 
 
 
@@ -3509,6 +3625,7 @@ ownership        pontus
 
 
 
+
 type             east legionary
 dictionary       armenian_legionaries      ; Armenian Legionaries
 category         infantry
@@ -3533,6 +3650,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        armenia
+
 
 
 
@@ -3570,6 +3688,7 @@ ownership        pontus
 
 
 
+
 type             east heavy cavalry
 dictionary       east_heavy_cavalry      ; Pontic Heavy Cavalry
 category         cavalry
@@ -3595,6 +3714,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 140, 40, 60, 330
 ownership        pontus, slave, phoenicium
+
 
 
 
@@ -3632,6 +3752,7 @@ ownership        parthia, armenia, seleucid
 
 
 
+
 type             east cappodocian cavalry
 dictionary       east_cappodocian_cavalry      ; Cappadocian Cavalry
 category         cavalry
@@ -3657,6 +3778,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 610, 135, 40, 50, 320
 ownership        pontus
+
 
 
 
@@ -3694,6 +3816,7 @@ ownership        parthia
 
 
 
+
 type             east cataphract archer
 dictionary       east_cataphract_archer      ; Cataphract Archers
 category         cavalry
@@ -3719,6 +3842,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 650, 145, 50, 60, 340
 ownership        armenia
+
 
 
 
@@ -3756,6 +3880,7 @@ ownership        parthia, armenia, slave, thamud_01, phoenicium
 
 
 
+
 type             east camel cataphract
 dictionary       east_camel_cataphract      ; Cataphract Camels
 category         cavalry
@@ -3781,6 +3906,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 580, 130, 40, 50, 300
 ownership        parthia
+
 
 
 
@@ -3818,6 +3944,7 @@ ownership        parthia
 
 
 
+
 type             east scythed chariot
 dictionary       east_chariot      ; Scythed Chariots
 category         cavalry
@@ -3843,6 +3970,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 920, 200, 60, 80, 480
 ownership        pontus
+
 
 
 
@@ -3880,6 +4008,7 @@ ownership        pontus
 
 
 
+
 type             east generals cavalry early
 dictionary       east_generals_cavalry_early      ; Eastern General
 category         cavalry
@@ -3904,7 +4033,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
-ownership        parthia, pontus, armenia, slave, thamud_01, phoenicium
+ownership        parthia, pontus, armenia, slave, thamud_01, phoenicium, arados
+
 
 
 
@@ -3942,6 +4072,7 @@ ownership        parthia, armenia
 
 
 
+
 type             east pontic general
 dictionary       east_pontic_generals      ; Eastern General
 category         cavalry
@@ -3967,6 +4098,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 700, 155, 50, 60, 360
 ownership        pontus
+
 
 
 
@@ -4003,6 +4135,7 @@ ownership        pontus, armenia, parthia
 
 
 
+
 type             egyptian peasant
 dictionary       egyptian_peasant      ; Peasants
 category         infantry
@@ -4026,6 +4159,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        egypt, slave, itanos_01
+
 
 
 
@@ -4062,6 +4196,7 @@ ownership        egypt, slave, itanos_01
 
 
 
+
 type             egyptian slingers
 dictionary       egyptian_slingers      ; Slingers
 category         infantry
@@ -4091,6 +4226,7 @@ ownership        egypt
 
 
 
+
 type             egyptian archer
 dictionary       egyptian_archer      ; Bowmen
 category         infantry
@@ -4114,6 +4250,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        egypt, slave
+
 
 
 
@@ -4150,6 +4287,7 @@ ownership        egypt
 
 
 
+
 type             egyptian nubian spearmen
 dictionary       egyptian_nubian_spearmen      ; Nubian Spearmen
 category         infantry
@@ -4179,6 +4317,7 @@ ownership        egypt
 
 
 
+
 type             egyptian nile infantry
 dictionary       egyptian_nile_infantry      ; Nile Spearmen
 category         infantry
@@ -4202,6 +4341,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        egypt
+
 
 
 
@@ -4238,6 +4378,7 @@ ownership        egypt
 
 
 
+
 type             egyptian elite guards
 dictionary       egyptian_elite_guards      ; Pharaoh's Guards
 category         infantry
@@ -4262,6 +4403,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        egypt
+
 
 
 
@@ -4299,6 +4441,7 @@ ownership        egypt
 
 
 
+
 type             egyptian nubian cavalry
 dictionary       egyptian_nile_cavalry      ; Nubian Cavalry
 category         cavalry
@@ -4324,6 +4467,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        egypt
+
 
 
 
@@ -4361,6 +4505,7 @@ ownership        egypt
 
 
 
+
 type             egyptian bedouin
 dictionary       egyptian_camel_archers      ; Camel Archers
 category         cavalry
@@ -4386,6 +4531,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 95, 30, 40, 230
 ownership        egypt
+
 
 
 
@@ -4423,6 +4569,7 @@ ownership        egypt, slave
 
 
 
+
 type             egyptian chariot archer
 dictionary       egyptian_chariot_archer      ; Egyptian Chariot Archers
 category         cavalry
@@ -4448,6 +4595,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 980, 215, 70, 90, 510
 ownership        egypt
+
 
 
 
@@ -4484,6 +4632,7 @@ ownership        egypt
 
 
 
+
 type             egyptian heavy onager
 dictionary       egyptian_heavy_onagers      ; Heavy Onagers
 category         siege
@@ -4508,6 +4657,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
 ownership        egypt
+
 
 
 
@@ -4545,6 +4695,7 @@ ownership        egyptian, slave
 
 
 
+
 type             egyptian general's bodyguard
 dictionary       egyptian_generals_bodyguard      ; Egyptian Cavalry General
 category         cavalry
@@ -4576,6 +4727,7 @@ ownership        egyptian
 
 
 
+
 type             greek peasant
 dictionary       greek_peasant      ; Peasants
 category         infantry
@@ -4599,6 +4751,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        greek, slave, itanos_01, kos_01, cisra_01
+
 
 
 
@@ -4635,6 +4788,7 @@ ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 
 
+
 type             greek archer
 dictionary       greek_archer      ; Archers
 category         infantry
@@ -4658,6 +4812,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        greek
+
 
 
 
@@ -4694,6 +4849,7 @@ ownership        greek_cities, slave, kos_01
 
 
 
+
 type             greek hoplite militia
 dictionary       greek_hoplite_militia      ; Militia Hoplites
 category         infantry
@@ -4723,6 +4879,7 @@ ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 
 
+
 type             greek hoplite
 dictionary       greek_hoplite      ; Hoplites
 category         infantry
@@ -4746,6 +4903,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
 ownership        greek_cities, massilia_01, slave, kos_01, cisra_01
+
 
 
 
@@ -4782,6 +4940,7 @@ ownership        greek_cities
 
 
 
+
 type             greek hoplite spartan
 dictionary       greek_hoplite_spartan      ; Spartan Hoplites
 category         infantry
@@ -4805,6 +4964,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        greek_cities
+
 
 
 
@@ -4840,6 +5000,7 @@ ownership        macedon, seleucid, slave
 
 
 
+
 type             greek pikemen
 dictionary       greek_pikemen      ; Phalanx Pikemen
 category         infantry
@@ -4863,6 +5024,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
 ownership        macedon, seleucid, thrace
+
 
 
 
@@ -4899,6 +5061,7 @@ ownership        macedon
 
 
 
+
 type             greek silver shield pikemen
 dictionary       greek_silver_shields      ; Silver Shield Pikemen
 category         infantry
@@ -4923,6 +5086,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        seleucid
+
 
 
 
@@ -4959,6 +5123,7 @@ ownership        seleucid
 
 
 
+
 type             greek bastarnae
 dictionary       greek_bastarnae      ; Bastarnae
 category         infantry
@@ -4982,6 +5147,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        thrace
+
 
 
 
@@ -5019,6 +5185,7 @@ ownership        macedon
 
 
 
+
 type             greek cavalry
 dictionary       greek_cavalry      ; Militia Cavalry
 category         cavalry
@@ -5044,6 +5211,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 105, 30, 40, 250
 ownership        greek_cities, itanos_01, seleucid, thrace, slave, kos_01, cisra_01
+
 
 
 
@@ -5081,6 +5249,7 @@ ownership        greek, slave, itanos_01, kos_01, cisra_01
 
 
 
+
 type             greek heavy cavalry
 dictionary       greek_heavy_cavalry      ; Macedonian Cavalry
 category         cavalry
@@ -5106,6 +5275,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        macedon
+
 
 
 
@@ -5143,6 +5313,7 @@ ownership        macedon, seleucid
 
 
 
+
 type             greek general's guard cavalry early
 dictionary       greek_generals_guard_cavalry_early      ; General's Bodyguard
 category         cavalry
@@ -5168,6 +5339,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 40, 50, 290
 ownership        greek_cities, itanos_01, seleucid, macedon, slave, massilia_01, kos_01
+
 
 
 
@@ -5205,6 +5377,7 @@ ownership        greek_cities, seleucid, macedon
 
 
 
+
 type             thracian bodyguard early
 dictionary       thracian_generals_guard_cavalry_early      ; General's Bodyguard
 category         cavalry
@@ -5230,6 +5403,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 40, 50, 290
 ownership        thrace
+
 
 
 
@@ -5267,6 +5441,7 @@ ownership        thrace
 
 
 
+
 type             greek elephant small
 dictionary       greek_elephant_small      ; Elephants
 category         cavalry
@@ -5292,6 +5467,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1150, 240, 80, 100, 600
 ownership        seleucid
+
 
 
 
@@ -5329,6 +5505,7 @@ ownership        seleucid
 
 
 
+
 type             greek elephant cataphract
 dictionary       greek_elephant_armoured      ; Armoured Elephants
 category         cavalry
@@ -5354,6 +5531,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1510, 240, 90, 120, 700
 ownership        seleucid
+
 
 
 
@@ -5390,6 +5568,7 @@ ownership        greek_cities
 
 
 
+
 type             greek ballista
 dictionary       greek_ballistas      ; Ballistas
 category         siege
@@ -5414,6 +5593,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
 ownership        greek_cities, macedon
+
 
 
 
@@ -5450,6 +5630,7 @@ ownership        greek
 
 
 
+
 type             greek heavy onager
 dictionary       greek_heavy_onagers      ; Heavy Onagers
 category         siege
@@ -5480,6 +5661,7 @@ ownership        greek_cities, macedon, seleucid, thrace
 
 
 
+
 type             east heavy onager
 dictionary       east_heavy_onagers      ; Heavy Onagers
 category         siege
@@ -5504,6 +5686,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
 ownership        pontus, armenia, parthia
+
 
 
 
@@ -5541,6 +5724,7 @@ ownership        seleucid
 
 
 
+
 type             roman peasant
 dictionary       roman_peasant      ; Peasants
 category         infantry
@@ -5570,6 +5754,7 @@ ownership        roman, cisra_01
 
 
 
+
 type             roman archer
 dictionary       roman_archer      ; Roman Archers
 category         infantry
@@ -5593,6 +5778,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -5629,6 +5815,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman velite
 dictionary       roman_velite      ; Velites
 category         infantry
@@ -5653,6 +5840,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        roman, cisra_01
+
 
 
 
@@ -5690,6 +5878,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman city militia
 dictionary       roman_city_militia      ; Town Watch
 category         infantry
@@ -5713,6 +5902,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
 ownership        roman, cisra_01
+
 
 
 
@@ -5748,6 +5938,7 @@ ownership        roman, cisra_01
 
 
 
+
 type             roman princeps
 dictionary       roman_principes      ; Principes
 category         infantry
@@ -5772,6 +5963,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -5809,6 +6001,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman infantry auxillia
 dictionary       roman_infantry_auxillia      ; Auxilia
 category         infantry
@@ -5839,6 +6032,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman legionary cohort i
 dictionary       roman_legionary_cohort_i      ; Early Legionary Cohort
 category         infantry
@@ -5863,6 +6057,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -5900,6 +6095,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman legionary cohort ii
 dictionary       roman_legionary_cohort_ii      ; Legionary Cohort
 category         infantry
@@ -5924,6 +6120,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 580, 130, 40, 50, 300
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -5961,6 +6158,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman praetorian cohort i
 dictionary       roman_praetorian_cohort_i      ; Praetorian Cohort
 category         infantry
@@ -5985,6 +6183,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 630, 140, 40, 60, 330
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6022,6 +6221,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman arcani
 dictionary       roman_arcani      ; Arcani
 category         infantry
@@ -6045,6 +6245,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6081,6 +6282,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman pigs
 dictionary       roman_incendiary_pigs      ; Incendiary Pigs
 category         handler
@@ -6111,6 +6313,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman velite gladiator
 dictionary       roman_velite_gladiator      ; Velite Gladiators
 category         infantry
@@ -6133,7 +6336,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
-ownership        romans_brutii, slave, ravenna
+ownership        romans_brutii, slave
+
 
 
 
@@ -6162,7 +6366,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 90, 30, 40, 220
-ownership        romans_julii, romans_senate, slave, ravenna
+ownership        romans_julii, romans_senate, slave
+
 
 
 
@@ -6191,7 +6396,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 85, 30, 30, 200
-ownership        romans_scipii, slave, ravenna
+ownership        romans_scipii, slave
+
 
 
 
@@ -6229,6 +6435,7 @@ ownership        roman, cisra_01
 
 
 
+
 type             roman cavalry auxillia
 dictionary       roman_cavalry_auxillia      ; Cavalry Auxilia
 category         cavalry
@@ -6254,6 +6461,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 125, 40, 50, 290
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6291,6 +6499,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman heavy cavalry
 dictionary       roman_heavy_cavalry      ; Legionary Cavalry
 category         cavalry
@@ -6316,6 +6525,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 570, 125, 40, 50, 300
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6353,6 +6563,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman generals guard cavalry early
 dictionary       roman_generals_guard_cavalry_early      ; Roman General
 category         cavalry
@@ -6377,7 +6588,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 140, 40, 60, 330
-ownership        romans_julii, romans_brutii, romans_scipii, romans_senate, slave, cisra_01, ravenna
+ownership        romans_julii, romans_brutii, romans_scipii, romans_senate, slave, cisra_01
+
 
 
 
@@ -6415,6 +6627,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman ballista
 dictionary       roman_ballista      ; Ballistas
 category         siege
@@ -6439,6 +6652,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 85, 30, 30, 200
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6475,6 +6689,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman onager
 dictionary       roman_onager      ; Onagers
 category         siege
@@ -6499,6 +6714,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 85, 30, 30, 200
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -6535,6 +6751,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman repeating ballista
 dictionary       roman_repeating_ballistae      ; Repeating Ballistas
 category         siege
@@ -6565,6 +6782,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             generic rebel general
 dictionary       generic_rebel_general      ; Rebel General
 category         cavalry
@@ -6589,7 +6807,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 580, 130, 40, 50, 300
-ownership        slave, ravenna
+ownership        slave
+
 
 
 
@@ -6620,7 +6839,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
-ownership        slave, phoenicium
+ownership        slave, phoenicium, arados
+
 
 
 
@@ -6651,7 +6871,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 630, 140, 40, 60, 330
-ownership        slave
+ownership        slave, arados
+
 
 
 
@@ -6689,6 +6910,7 @@ ownership        slave
 
 
 
+
 type             rebel judaean zealots
 dictionary       judean_zealots      ; Judean Zealots
 category         infantry
@@ -6712,6 +6934,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
 ownership        slave, phoenicium
+
 
 
 
@@ -6748,6 +6971,7 @@ ownership        slave
 
 
 
+
 type             merc illyrian
 dictionary       merc_illyrian      ; Illyrian Mercenaries
 category         infantry
@@ -6778,6 +7002,7 @@ ownership        slave, macedon, thrace, massilia_01
 
 
 
+
 type             merc samnite
 dictionary       merc_samnite      ; Samnite Mercenaries
 category         infantry
@@ -6800,7 +7025,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 210, 45, 20, 20, 120
-ownership        slave, carthage, ravenna
+ownership        slave, carthage, arados
+
 
 
 
@@ -6836,6 +7062,7 @@ ownership        slave, pontus
 
 
 
+
 type             merc thracian
 dictionary       merc_thracian      ; Thracian Mercenaries
 category         infantry
@@ -6865,6 +7092,7 @@ ownership        slave, pontus
 
 
 
+
 type             merc bastarnae
 dictionary       merc_bastarnae      ; Bastarnae Mercenaries
 category         infantry
@@ -6888,6 +7116,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        slave
+
 
 
 
@@ -6925,6 +7154,7 @@ ownership        slave
 
 
 
+
 type             merc horse archers
 dictionary       merc_horse_archers      ; Scythian Mercenaries
 category         cavalry
@@ -6956,6 +7186,7 @@ ownership        slave, dacia
 
 
 
+
 type             merc spanish infantry
 dictionary       merc_spanish_infantry      ; Spanish Mercenaries
 category         infantry
@@ -6978,7 +7209,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
-ownership        slave, carthage
+ownership        slave, carthage, arados
+
 
 
 
@@ -7007,7 +7239,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        slave, phoenicium
+ownership        slave, phoenicium, arados
+
 
 
 
@@ -7043,6 +7276,7 @@ ownership        slave, greek_cities
 
 
 
+
 type             merc cretan archers
 dictionary       merc_cretan_archers      ; Cretan Archers
 category         infantry
@@ -7072,6 +7306,7 @@ ownership        slave, greek_cities, macedon
 
 
 
+
 type             merc greek hoplites
 dictionary       merc_greek_hoplites      ; Mercenary Hoplites
 category         infantry
@@ -7094,7 +7329,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
-ownership        slave, thrace, greek_cities, carthage
+ownership        slave, thrace, greek_cities, carthage, arados
+
 
 
 
@@ -7131,6 +7367,7 @@ ownership        slave
 
 
 
+
 type             merc numidian cavalry
 dictionary       merc_numidian_cavalry      ; Numidian Mercenaries
 category         cavalry
@@ -7155,7 +7392,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 580, 130, 40, 50, 300
-ownership        slave, carthage, thamud_01, itanos_01, phoenicium
+ownership        slave, carthage, thamud_01, itanos_01, phoenicium, arados
+
 
 
 
@@ -7193,6 +7431,7 @@ ownership        slave, parthia, armenia, thamud_01, phoenicium
 
 
 
+
 type             merc bedouin
 dictionary       merc_bedouin      ; Bedouin Warriors
 category         cavalry
@@ -7218,6 +7457,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
 ownership        slave, parthia, armenia, thamud_01, phoenicium
+
 
 
 
@@ -7255,6 +7495,7 @@ ownership        slave, parthia, armenia, thamud_01, phoenicium
 
 
 
+
 type             merc balearic slingers
 dictionary       merc_balearic_slingers      ; Balearic Slingers
 category         infantry
@@ -7277,7 +7518,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
-ownership        slave, carthage, spain
+ownership        slave, carthage, spain, arados
+
 
 
 
@@ -7306,7 +7548,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
-ownership        slave, thrace, carthage
+ownership        slave, thrace, carthage, arados
+
 
 
 
@@ -7344,6 +7587,7 @@ ownership        slave, britons
 
 
 
+
 type             merc elephants
 dictionary       merc_elephants      ; Mercenary War Elephants
 category         cavalry
@@ -7369,6 +7613,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1430, 240, 90, 120, 700
 ownership        slave, numidia
+
 
 
 
@@ -7406,6 +7651,7 @@ ownership        slave
 
 
 
+
 type             naval biremes
 dictionary       naval_bireme      ; Bireme
 category         ship
@@ -7430,6 +7676,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 240, 55, 20, 20, 120
 ownership        roman, greek, itanos_01, carthaginian, pontus, armenia, pontus, egyptian, kos_01, cisra_01
+
 
 
 
@@ -7466,6 +7713,7 @@ ownership        roman, greek, itanos_01, carthaginian, pontus, armenia, pontus,
 
 
 
+
 type             naval quinquiremes
 dictionary       naval_quinquireme      ; Quinquireme
 category         ship
@@ -7490,6 +7738,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        roman, greek, itanos_01, carthaginian, pontus, armenia, pontus, egyptian, kos_01, cisra_01
+
 
 
 
@@ -7526,6 +7775,7 @@ ownership        roman, greek, carthaginian, pontus, armenia, pontus, egyptian
 
 
 
+
 type             naval deceres
 dictionary       naval_decere      ; Decere
 category         ship
@@ -7550,6 +7800,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        roman, greek, carthaginian, pontus, armenia, pontus, egyptian
+
 
 
 
@@ -7586,6 +7837,7 @@ ownership        barbarian
 
 
 
+
 type             naval large boats
 dictionary       naval_large_boats      ; Large Boats
 category         ship
@@ -7610,6 +7862,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        barbarian
+
 
 
 
@@ -7646,6 +7899,7 @@ ownership        slave
 
 
 
+
 type             barbarian civ peasant
 dictionary       barbarian_civ_peasant      ; Barbarian Tribesmen
 category         non_combatant
@@ -7669,6 +7923,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        barbarian
+
 
 
 
@@ -7704,6 +7959,7 @@ ownership        barbarian
 
 
 
+
 type             carthaginian civ peasant
 dictionary       carthaginian_civ_peasant      ; Carthaginian Civilians
 category         non_combatant
@@ -7726,7 +7982,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -7755,7 +8012,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -7791,6 +8049,7 @@ ownership        pontus, armenia, parthia
 
 
 
+
 type             eastern female peasant
 dictionary       eastern_female_peasant      ; Eastern Workers
 category         non_combatant
@@ -7814,6 +8073,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        pontus, armenia, parthia
+
 
 
 
@@ -7849,6 +8109,7 @@ ownership        egyptian
 
 
 
+
 type             egyptian female peasant
 dictionary       egyptian_female_peasant      ; Egyptian Workers
 category         non_combatant
@@ -7872,6 +8133,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        egyptian
+
 
 
 
@@ -7907,6 +8169,7 @@ ownership        greek
 
 
 
+
 type             greek female peasant
 dictionary       greek_female_peasant      ; Greek Citizens
 category         non_combatant
@@ -7930,6 +8193,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        greek
+
 
 
 
@@ -7965,6 +8229,7 @@ ownership        roman
 
 
 
+
 type             roman female peasant
 dictionary       roman_female_peasant      ; Roman Civilians
 category         non_combatant
@@ -7988,6 +8253,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 35, 20, 20, 120
 ownership        roman
+
 
 
 
@@ -8024,6 +8290,7 @@ ownership        numidia
 
 
 
+
 type             roman praetorian spear cohort i
 dictionary       roman_praetorian_spear_cohort_i      ; roman praetorian spear cohort i
 category         infantry
@@ -8047,6 +8314,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 620, 135, 40, 60, 320
 ownership        romans_brutii, romans_scipii, romans_senate, romans_julii
+
 
 
 
@@ -8084,6 +8352,7 @@ ownership        spain
 
 
 
+
 type             carthaginian heavy swords
 dictionary       carthaginian_heavy_swords      ; Libyan Swordsmen
 category         infantry
@@ -8107,7 +8376,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 125, 40, 50, 290
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -8144,6 +8414,7 @@ ownership        britons
 
 
 
+
 type             celtic warrior gaul
 dictionary       celtic_warrior_gaul      ; Celtic Warriors
 category         infantry
@@ -8168,6 +8439,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
 ownership        gauls
+
 
 
 
@@ -8205,6 +8477,7 @@ ownership        greek_cities
 
 
 
+
 type             dacian warrior
 dictionary       dacian_warrior      ; Dacian Warriors
 category         infantry
@@ -8229,6 +8502,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        dacia
+
 
 
 
@@ -8264,6 +8538,7 @@ ownership        numidia
 
 
 
+
 type             east heavy archer
 dictionary       east_heavy_archer      ; Heavy Archers
 category         infantry
@@ -8287,6 +8562,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 350, 75, 20, 30, 180
 ownership        armenia
+
 
 
 
@@ -8324,6 +8600,7 @@ ownership        parthia
 
 
 
+
 type             east spearbearer
 dictionary       east_spearbearer      ; Spear Bearers
 category         infantry
@@ -8348,6 +8625,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
 ownership        parthia
+
 
 
 
@@ -8384,6 +8662,7 @@ ownership        parthia
 
 
 
+
 type             egyptian heavy infantry
 dictionary       egyptian_heavy_infantry      ; Nile Infantry
 category         infantry
@@ -8408,6 +8687,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        egypt
+
 
 
 
@@ -8444,6 +8724,7 @@ ownership        egypt
 
 
 
+
 type             greek swordsman
 dictionary       greek_swordsman      ; Swordsmen
 category         infantry
@@ -8468,6 +8749,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        macedon, seleucid
+
 
 
 
@@ -8505,6 +8787,7 @@ ownership        macedon, seleucid
 
 
 
+
 type             kartli axemen
 dictionary       kartli_axemen      ; Kartli Axemen
 category         infantry
@@ -8529,6 +8812,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 125, 40, 50, 290
 ownership        armenia
+
 
 
 
@@ -8565,6 +8849,7 @@ ownership        scythia
 
 
 
+
 type             noble swordsmen
 dictionary       noble_swordsmen      ; Noble Swordsmen
 category         infantry
@@ -8595,6 +8880,7 @@ ownership        scythia
 
 
 
+
 type             numidian spears
 dictionary       numidian_spears      ; Numidian Spearmen
 category         infantry
@@ -8618,6 +8904,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 70, 20, 30, 170
 ownership        numidia
+
 
 
 
@@ -8655,6 +8942,7 @@ ownership        numidia
 
 
 
+
 type             pontic heavy swords
 dictionary       pontic_heavy_swords      ; Pontic Heavy Swordsmen
 category         infantry
@@ -8679,6 +8967,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        pontus
+
 
 
 
@@ -8715,6 +9004,7 @@ ownership        pontus
 
 
 
+
 type             pontic royal guard
 dictionary       pontic_royal_guard      ; Pontic Royal Guard
 category         infantry
@@ -8745,6 +9035,7 @@ ownership        pontus
 
 
 
+
 type             pontic swordsman
 dictionary       pontic_swordsman      ; Pontic Swordsmen
 category         infantry
@@ -8769,6 +9060,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        pontus
+
 
 
 
@@ -8806,6 +9098,7 @@ ownership        scythia
 
 
 
+
 type             royal swordsman
 dictionary       royal_swordsman      ; Royal Swordsmen
 category         infantry
@@ -8830,6 +9123,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 125, 40, 50, 290
 ownership        macedon
+
 
 
 
@@ -8867,6 +9161,7 @@ ownership        pontus
 
 
 
+
 type             scythian spearman
 dictionary       scythian_spearman      ; Spearmen
 category         infantry
@@ -8891,6 +9186,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
 ownership        scythia
+
 
 
 
@@ -8928,6 +9224,7 @@ ownership        spain
 
 
 
+
 type             shield warrior
 dictionary       shield_warrior      ; Shield Warriors
 category         infantry
@@ -8952,6 +9249,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 530, 115, 40, 50, 280
 ownership        spain
+
 
 
 
@@ -8988,6 +9286,7 @@ ownership        britons
 
 
 
+
 type             spear warrior dacia
 dictionary       spear_warrior      ; Spear Warriors
 category         infantry
@@ -9012,6 +9311,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 300, 65, 20, 30, 160
 ownership        dacia
+
 
 
 
@@ -9048,6 +9348,7 @@ ownership        gauls
 
 
 
+
 type             spear warrior german
 dictionary       spear_warrior      ; Spear Warriors
 category         infantry
@@ -9072,6 +9373,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        germans
+
 
 
 
@@ -9108,6 +9410,7 @@ ownership        germans
 
 
 
+
 type             thorakitai
 dictionary       thorakitai      ; Thorakites
 category         infantry
@@ -9132,6 +9435,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        greek_cities
+
 
 
 
@@ -9169,6 +9473,7 @@ ownership        thrace
 
 
 
+
 type             thracian noble
 dictionary       thracian_noble      ; Thracian Nobles
 category         infantry
@@ -9199,6 +9504,7 @@ ownership        thrace
 
 
 
+
 type             thracian warrior
 dictionary       thracian_warrior      ; Thracian Warriors
 category         infantry
@@ -9223,6 +9529,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        thrace
+
 
 
 
@@ -9260,6 +9567,7 @@ ownership        greek_cities
 
 
 
+
 type             tribesmen
 dictionary       tribesmen      ; Tribesmen
 category         infantry
@@ -9283,6 +9591,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 45, 20, 20, 120
 ownership        scythia
+
 
 
 
@@ -9319,6 +9628,7 @@ ownership        pontus
 
 
 
+
 type             phrygian axemen
 dictionary       phrygian_axemen      ; Phrygian Axemen
 category         infantry
@@ -9349,6 +9659,7 @@ ownership        pontus
 
 
 
+
 type             greek new hoplite spartan
 dictionary       greek_new_spartan      ; Spartan Hoplites
 category         infantry
@@ -9372,6 +9683,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
 ownership        greek_cities
+
 
 
 
@@ -9408,6 +9720,7 @@ ownership        numidia
 
 
 
+
 type             greek thureophoroi
 dictionary       greek_thureophoroi      ; Light Infantry
 category         infantry
@@ -9437,6 +9750,7 @@ ownership        greek_cities, macedon, seleucid, egypt
 
 
 
+
 type             east axe 01
 dictionary       east_axe_01      ; Axemen
 category         infantry
@@ -9460,6 +9774,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        parthia, armenia
+
 
 
 
@@ -9496,6 +9811,7 @@ ownership        gauls
 
 
 
+
 type             briton longbow
 dictionary       briton_longbow      ; Briton Longbowmen
 category         infantry
@@ -9525,6 +9841,7 @@ ownership        britons
 
 
 
+
 type             greek hoplite late
 dictionary       greek_hoplite_late      ; Armoured Hoplites Late
 category         infantry
@@ -9548,6 +9865,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        greek_cities, slave
+
 
 
 
@@ -9585,6 +9903,7 @@ ownership        slave, seleucid, egypt, phoenicium
 
 
 
+
 type             east axemen
 dictionary       east_axemen      ; Axemen
 category         infantry
@@ -9608,6 +9927,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 220, 50, 20, 20, 120
 ownership        armenia, pontus
+
 
 
 
@@ -9638,6 +9958,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 250, 55, 20, 20, 130
 ownership        numidia
+
 
 
 
@@ -9676,6 +9997,7 @@ ownership        numidia
 
 
 
+
 type             greek hoplite militia sel 01
 dictionary       greek_hoplite_militia_sel_01      ; Militia Hoplites
 category         infantry
@@ -9699,6 +10021,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
 ownership        seleucid
+
 
 
 
@@ -9735,6 +10058,7 @@ ownership        seleucid
 
 
 
+
 type             iberian spears
 dictionary       iberian_spears      ; Scutarii Spears
 category         infantry
@@ -9759,6 +10083,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        spain
+
 
 
 
@@ -9790,6 +10115,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 340, 75, 20, 30, 180
 ownership        pontus
+
 
 
 
@@ -9828,6 +10154,7 @@ ownership        parthia
 
 
 
+
 type             thrace pikemen
 dictionary       thrace_pike      ; Thracian Pikemen
 category         infantry
@@ -9852,6 +10179,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        thrace
+
 
 
 
@@ -9891,6 +10219,7 @@ ownership        armenia, parthia, pontus
 
 
 
+
 type             greek levy pikemen merc
 dictionary       greek_levy_pikemen_merc      ; greek levy pikemen merc
 category         infantry
@@ -9915,6 +10244,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
 ownership        slave, greek_cities, egypt, seleucid, massilia_01
+
 
 
 
@@ -9952,6 +10282,7 @@ ownership        germans, slave
 
 
 
+
 type             scythia hoplite
 dictionary       scythia_hoplite      ; scythia hoplite
 category         infantry
@@ -9975,6 +10306,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        scythia
+
 
 
 
@@ -10013,6 +10345,7 @@ ownership        scythia
 
 
 
+
 type             carthaginian imperial guard
 dictionary       carthaginian_imperial_guard      ; carthaginian imperial guard
 category         infantry
@@ -10038,7 +10371,8 @@ stat_charge_dist 20
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -10069,7 +10403,8 @@ stat_charge_dist 20
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -10099,7 +10434,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 310, 70, 20, 30, 160
-ownership        parthia, pontus, armenia, slave, phoenicium
+ownership        parthia, pontus, armenia, slave, phoenicium, arados
+
 
 
 
@@ -10137,6 +10473,7 @@ ownership        mauryans
 
 
 
+
 type             Indian Elephants
 dictionary       indian_elephants      ; Elephants
 category         cavalry
@@ -10162,6 +10499,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1470, 240, 90, 120, 700
 ownership        mauryans
+
 
 
 
@@ -10222,6 +10560,7 @@ ownership        mauryans
 
 
 
+
 type             Indian General
 dictionary       indian_general      ; General
 category         cavalry
@@ -10247,6 +10586,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1430, 240, 90, 120, 700
 ownership        mauryans
+
 
 
 
@@ -10283,6 +10623,7 @@ ownership        mauryans
 
 
 
+
 type             Indian Levy Archers
 dictionary       indian_levy_archers      ; Levy Archers
 category         infantry
@@ -10306,6 +10647,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        mauryans
+
 
 
 
@@ -10343,6 +10685,7 @@ ownership        mauryans
 
 
 
+
 type             Indian Longbowmen
 dictionary       indian_longbowmen      ; Indian Longbowmen
 category         infantry
@@ -10366,6 +10709,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        mauryans
+
 
 
 
@@ -10403,6 +10747,7 @@ ownership        mauryans
 
 
 
+
 type             Indian Slingers
 dictionary       indian_slingers      ; Indian Slingers
 category         infantry
@@ -10426,6 +10771,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 20, 140
 ownership        mauryans
+
 
 
 
@@ -10462,6 +10808,7 @@ ownership        mauryans
 
 
 
+
 type             celtic foot nobles
 dictionary       celtic_foot_nobles      ; celtic foot nobles
 category         infantry
@@ -10491,6 +10838,7 @@ ownership        germans, britons, dacia, gauls, slave
 
 
 
+
 type             median takabara
 dictionary       median_takabara      ; median takabara
 category         infantry
@@ -10514,6 +10862,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        armenia, parthia, pontus, seleucid, slave
+
 
 
 
@@ -10551,6 +10900,7 @@ ownership        dacia
 
 
 
+
 type             barb getic noble cavalry
 dictionary       barb_getic_noble_cavalry      ; barb getic noble cavalry
 category         cavalry
@@ -10576,6 +10926,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 750, 165, 50, 70, 390
 ownership        dacia
+
 
 
 
@@ -10611,6 +10962,7 @@ ownership        germans, slave
 
 
 
+
 type             baltic warband
 dictionary       baltic_warband      ; baltic warband
 category         infantry
@@ -10634,6 +10986,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        germans, slave
+
 
 
 
@@ -10671,6 +11024,7 @@ ownership        thrace
 
 
 
+
 type             roman marian light cavalry
 dictionary       roman_marian_light_cavalry      ; roman marian light cavalry
 category         cavalry
@@ -10696,6 +11050,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 570, 125, 40, 50, 300
 ownership        roman
+
 
 
 
@@ -10731,6 +11086,7 @@ ownership        dacia
 
 
 
+
 type             libyan light infantry
 dictionary       libyan_light_infantry      ; libyan light infantry
 category         infantry
@@ -10754,7 +11110,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
-ownership        numidia, carthage, slave
+ownership        numidia, carthage, slave, arados
+
 
 
 
@@ -10790,6 +11147,7 @@ ownership        qin_01
 
 
 
+
 type             qin_maoshou
 dictionary       qin_maoshou      ; qin_maoshou
 category         infantry
@@ -10819,6 +11177,7 @@ ownership        qin_01
 
 
 
+
 type             china swords infantry
 dictionary       china_swords_infantry      ; china swords infantry
 category         infantry
@@ -10842,6 +11201,7 @@ stat_fire_delay  0
 stat_food        30, 300
 stat_cost        1, 450, 100, 30, 40, 230
 ownership        qin_01
+
 
 
 
@@ -10878,6 +11238,7 @@ ownership        qin_01
 
 
 
+
 type             china phalanx
 dictionary       china_phalanx      ; china phalanx
 category         infantry
@@ -10902,6 +11263,7 @@ stat_fire_delay  0
 stat_food        30, 300
 stat_cost        1, 290, 65, 20, 30, 150
 ownership        qin_01
+
 
 
 
@@ -10938,6 +11300,7 @@ ownership        qin_01
 
 
 
+
 type             china elite infantry
 dictionary       china_elite_infantry      ; china elite infantry
 category         infantry
@@ -10962,6 +11325,7 @@ stat_fire_delay  0
 stat_food        40, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        qin_01
+
 
 
 
@@ -10998,6 +11362,7 @@ ownership        qin_01
 
 
 
+
 type             china crossbow
 dictionary       china_crossbow      ; china crossbow
 category         infantry
@@ -11022,6 +11387,7 @@ stat_fire_delay  0
 stat_food        30, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        qin_01
+
 
 
 
@@ -11059,6 +11425,7 @@ ownership        qin_01
 
 
 
+
 type             china horse archer
 dictionary       china_horse_archer      ; china horse archer
 category         cavalry
@@ -11090,6 +11457,7 @@ ownership        qin_01
 
 
 
+
 type             china armoured crossbow
 dictionary       china_armoured_crossbow      ; china armoured crossbow
 category         infantry
@@ -11113,6 +11481,7 @@ stat_fire_delay  0
 stat_food        30, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        qin_01
+
 
 
 
@@ -11150,6 +11519,7 @@ ownership        qin_01
 
 
 
+
 type             china heavy crossbow chariot
 dictionary       china_heavy_crossbow_chariot      ; china heavy crossbow chariot
 category         cavalry
@@ -11175,6 +11545,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1060, 235, 70, 100, 550
 ownership        qin_01
+
 
 
 
@@ -11212,6 +11583,7 @@ ownership        qin_01
 
 
 
+
 type             china suicide squad
 dictionary       china_suicide_squad      ; china suicide squad
 category         infantry
@@ -11236,6 +11608,7 @@ stat_fire_delay  0
 stat_food        30, 300
 stat_cost        1, 600, 130, 40, 50, 310
 ownership        qin_01
+
 
 
 
@@ -11272,6 +11645,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             east persian infantry
 dictionary       east_persian_infantry      ; east persian infantry
 category         infantry
@@ -11302,6 +11676,7 @@ ownership        parthia
 
 
 
+
 type             merc greek pikemen
 dictionary       merc_greek_pikemen      ; merc greek pikemen
 category         infantry
@@ -11324,7 +11699,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 350, 75, 20, 30, 180
-ownership        slave, greek_cities, egypt, seleucid, carthage
+ownership        slave, greek_cities, egypt, seleucid, carthage, arados
+
 
 
 
@@ -11363,6 +11739,7 @@ ownership        scythia
 
 
 
+
 type             greek polis hoplite old
 dictionary       greek_polis_hoplite_old      ; Armoured Hoplites Late
 category         infantry
@@ -11386,6 +11763,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
 ownership        greek_cities, slave
+
 
 
 
@@ -11426,6 +11804,7 @@ ownership        gauls
 
 
 
+
 type             barb peltast dacian
 dictionary       barb_peltast_dacian      ; barb peltast dacian
 category         infantry
@@ -11451,6 +11830,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 490, 110, 30, 40, 250
 ownership        dacia
+
 
 
 
@@ -11488,6 +11868,7 @@ ownership        scythia, gauls, germans, slave
 
 
 
+
 type             barb peltast dacia
 dictionary       barb_peltast_dacia      ; barb peltast dacia
 category         infantry
@@ -11519,6 +11900,7 @@ ownership        dacia
 
 
 
+
 type             barb levy slinger german
 dictionary       barb_levy_slinger      ; barb levy slinger german
 category         infantry
@@ -11543,6 +11925,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        germans, slave
+
 
 
 
@@ -11580,6 +11963,7 @@ ownership        britons
 
 
 
+
 type             barb archer german heavy
 dictionary       barb_archer_german_heavy      ; barb archer german heavy
 category         infantry
@@ -11605,6 +11989,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 470, 105, 30, 40, 240
 ownership        germans
+
 
 
 
@@ -11642,6 +12027,7 @@ ownership        gauls
 
 
 
+
 type             warband huntsman briton
 dictionary       warband_huntsman_briton      ; warband huntsman briton
 category         infantry
@@ -11667,6 +12053,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 490, 110, 30, 40, 250
 ownership        gauls, spain, germans, britons, dacia, thrace
+
 
 
 
@@ -11706,6 +12093,7 @@ ownership        scythia, slave
 
 
 
+
 type             warband spear dacian
 dictionary       warband_spear_dacian      ; warband spear dacian
 category         infantry
@@ -11733,6 +12121,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 510, 110, 40, 50, 270
 ownership        dacia
+
 
 
 
@@ -11770,6 +12159,7 @@ ownership        greek, egypt, slave
 
 
 
+
 type             barb bastarnae
 dictionary       barb_bastarnae      ; barb bastarnae
 category         infantry
@@ -11795,6 +12185,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 710, 155, 50, 60, 370
 ownership        thrace
+
 
 
 
@@ -11833,6 +12224,7 @@ ownership        britons, slave
 
 
 
+
 type             heavy infantry briton
 dictionary       heavy_infantry_briton      ; heavy infantry briton
 category         infantry
@@ -11859,6 +12251,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 620, 135, 40, 60, 320
 ownership        britons
+
 
 
 
@@ -11897,6 +12290,7 @@ ownership        gauls, spain, slave
 
 
 
+
 type             heavy infantry dacian
 dictionary       heavy_infantry_dacian      ; heavy infantry dacian
 category         infantry
@@ -11929,6 +12323,7 @@ ownership        dacia
 
 
 
+
 type             warband sword bigshield gaul
 dictionary       warband_sword_bigshield_gaul      ; warband sword bigshield gaul
 category         infantry
@@ -11955,6 +12350,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 610, 135, 40, 50, 320
 ownership        gauls, dacia, germans, spain, britons, slave
+
 
 
 
@@ -11995,6 +12391,7 @@ ownership        britons
 
 
 
+
 type             barb cavalry thrace
 dictionary       barb_cavalry_thrace      ; barb cavalry thrace
 category         cavalry
@@ -12022,6 +12419,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
 ownership        thrace
+
 
 
 
@@ -12062,6 +12460,7 @@ ownership        dacia
 
 
 
+
 type             gaul javelin cavalry
 dictionary       gaul_javelin_cavalry      ; gaul javelin cavalry
 category         cavalry
@@ -12090,6 +12489,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 690, 150, 50, 60, 360
 ownership        gauls, slave
+
 
 
 
@@ -12130,6 +12530,7 @@ ownership        germans
 
 
 
+
 type             barb noble cavalry briton
 dictionary       barb_noble_cavalry_briton      ; barb noble cavalry briton
 category         cavalry
@@ -12158,6 +12559,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 690, 150, 50, 60, 360
 ownership        britons
+
 
 
 
@@ -12197,6 +12599,7 @@ ownership        thrace
 
 
 
+
 type             thracian noble cavalry
 dictionary       thracian_noble_cavalry      ; thracian noble cavalry
 category         cavalry
@@ -12224,6 +12627,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 730, 160, 50, 70, 380
 ownership        thrace
+
 
 
 
@@ -12264,6 +12668,7 @@ ownership        dacia
 
 
 
+
 type             barb chief cavalry german
 dictionary       chief_cavalry_german      ; barb chief cavalry german
 category         cavalry
@@ -12292,6 +12697,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
 ownership        germans
+
 
 
 
@@ -12329,6 +12735,7 @@ ownership        gauls
 
 
 
+
 type             getae horse archers
 dictionary       getae_horse_archers      ; getae horse archers
 category         cavalry
@@ -12354,6 +12761,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 145, 50, 60, 340
 ownership        dacia, thrace, scythia, germans, slave
+
 
 
 
@@ -12394,6 +12802,7 @@ ownership        scythia, slave
 
 
 
+
 type             barb cataphract scythian
 dictionary       barb_cataphract_scythian      ; barb cataphract scythian
 category         cavalry
@@ -12422,6 +12831,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 820, 180, 60, 70, 430
 ownership        scythia, slave
+
 
 
 
@@ -12462,6 +12872,7 @@ ownership        dacia, pontus
 
 
 
+
 type             spain archer
 dictionary       spain_archer      ; spain archer
 category         infantry
@@ -12486,6 +12897,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 95, 30, 40, 230
 ownership        spain
+
 
 
 
@@ -12517,7 +12929,8 @@ stat_charge_dist 160
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 490, 110, 30, 40, 250
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12549,7 +12962,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 65, 20, 30, 150
-ownership        slave
+ownership        slave, arados
+
 
 
 
@@ -12588,6 +13002,7 @@ ownership        numidia
 
 
 
+
 type             carthaginian infantry2
 dictionary       african_infantry      ; carthaginian infantry2
 category         infantry
@@ -12612,7 +13027,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 85, 30, 30, 200
-ownership        slave, spain, carthaginian
+ownership        slave, spain, carthaginian, arados
+
 
 
 
@@ -12644,7 +13060,8 @@ stat_charge_dist 2
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 95, 30, 40, 230
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12676,7 +13093,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12715,6 +13133,7 @@ ownership        numidia
 
 
 
+
 type             spain medium infantry
 dictionary       spain_medium_infantry      ; spain medium infantry
 category         infantry
@@ -12747,6 +13166,7 @@ ownership        spain, slave
 
 
 
+
 type             Carthaginian Scutarii
 dictionary       armored_scutarii      ; Carthaginian Scutarii
 category         infantry
@@ -12771,7 +13191,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 710, 155, 50, 60, 370
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12809,6 +13230,7 @@ ownership        spain
 
 
 
+
 type             carthaginian elite sacred band infantry
 dictionary       carthaginian_elite_sacred_band      ; carthaginian elite sacred band infantry
 category         infantry
@@ -12834,7 +13256,8 @@ stat_charge_dist 20
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12872,6 +13295,7 @@ ownership        numidia
 
 
 
+
 type             numidian legionaries 2
 dictionary       numidian_legionaries_2      ; numidian legionaries 2
 category         infantry
@@ -12897,6 +13321,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 710, 155, 50, 60, 370
 ownership        numidia
+
 
 
 
@@ -12929,7 +13354,8 @@ stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 680, 150, 50, 60, 350
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -12969,6 +13395,7 @@ ownership        spain
 
 
 
+
 type             carthaginian cavalry2
 dictionary       carthaginian_cavalry      ; carthaginian cavalry2
 category         cavalry
@@ -13002,6 +13429,7 @@ ownership        slave
 
 
 
+
 type             carthaginian medium cavalry2
 dictionary       spanish_medium_cavalry      ; carthaginian medium cavalry2
 category         cavalry
@@ -13028,7 +13456,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
-ownership        spain, carthage
+ownership        spain, carthage, arados
+
 
 
 
@@ -13068,6 +13497,7 @@ ownership        numidia
 
 
 
+
 type             spain elite cavalry
 dictionary       spain_elite_cavalry      ; spain elite cavalry
 category         cavalry
@@ -13095,6 +13525,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 810, 180, 60, 70, 420
 ownership        spain
+
 
 
 
@@ -13132,6 +13563,7 @@ ownership        numidia
 
 
 
+
 type             carthaginian heavy elephant cataphract
 dictionary       carthaginian_heavy_elephant_cataphract      ; carthaginian heavy elephant cataphract
 category         cavalry
@@ -13156,7 +13588,8 @@ stat_charge_dist 160
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1770, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -13195,6 +13628,7 @@ ownership        carthaginian, spain, slave
 
 
 
+
 type             east heavy peltast
 dictionary       east_heavy_peltast      ; east heavy peltast
 category         infantry
@@ -13221,6 +13655,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 40, 50, 290
 ownership        pontus, armenia
+
 
 
 
@@ -13259,6 +13694,7 @@ ownership        armenia, parthia
 
 
 
+
 type             eastern archer
 dictionary       eastern_archer      ; eastern archer
 category         infantry
@@ -13284,7 +13720,8 @@ stat_charge_dist 180
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 105, 30, 40, 250
-ownership        pontus, armenia, pontus, slave, phoenicium
+ownership        pontus, armenia, pontus, slave, phoenicium, arados
+
 
 
 
@@ -13323,6 +13760,7 @@ ownership        pontus, armenia, parthia
 
 
 
+
 type             seleucid heavy infantry
 dictionary       east_heavy_infantry      ; seleucid heavy infantry
 category         infantry
@@ -13349,6 +13787,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        seleucid
+
 
 
 
@@ -13389,6 +13828,7 @@ ownership        parthia, pontus, armenia
 
 
 
+
 type             seleucid heavy cataphract
 dictionary       east_heavy_cataphract      ; seleucid heavy cataphract
 category         cavalry
@@ -13423,6 +13863,7 @@ ownership        seleucid
 
 
 
+
 type             east heavy cataphract2
 dictionary       east_heavy_cataphract      ; east heavy cataphract2
 category         cavalry
@@ -13450,6 +13891,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 810, 180, 60, 70, 420
 ownership        armenia
+
 
 
 
@@ -13490,6 +13932,7 @@ ownership        seleucid
 
 
 
+
 type             east cataphract archer1
 dictionary       east_cataphract_archer      ; east cataphract archer1
 category         cavalry
@@ -13517,6 +13960,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 810, 180, 60, 70, 420
 ownership        parthia
+
 
 
 
@@ -13556,6 +14000,7 @@ ownership        armenia
 
 
 
+
 type             east horse archer2
 dictionary       sarmatian_horse_archer      ; east horse archer2
 category         cavalry
@@ -13583,6 +14028,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 790, 175, 60, 70, 410
 ownership        pontus, armenia, pontus, slave, scythia, numidia, phoenicium
+
 
 
 
@@ -13618,6 +14064,7 @@ ownership        greek, gauls
 
 
 
+
 type             thrace peltast
 dictionary       thrace_peltast      ; thrace peltast
 category         infantry
@@ -13642,6 +14089,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        thrace
+
 
 
 
@@ -13681,6 +14129,7 @@ ownership        thrace, roman
 
 
 
+
 type             greek heavy peltast2
 dictionary       illyrian_infantry      ; greek heavy peltast2
 category         infantry
@@ -13707,6 +14156,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 120, 40, 50, 290
 ownership        slave, greek_cities, macedon, thrace, dacia, gauls
+
 
 
 
@@ -13744,6 +14194,7 @@ ownership        thrace
 
 
 
+
 type             macedon heavy peltast
 dictionary       greek_heavy_peltast      ; macedon heavy peltast
 category         infantry
@@ -13769,6 +14220,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 125, 40, 50, 290
 ownership        macedon
+
 
 
 
@@ -13807,6 +14259,7 @@ ownership        macedon
 
 
 
+
 type             arquero cretense
 dictionary       arquero_cretense      ; arquero cretense
 category         infantry
@@ -13832,6 +14285,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 105, 30, 40, 250
 ownership        seleucid, greek_cities
+
 
 
 
@@ -13869,6 +14323,7 @@ ownership        macedon
 
 
 
+
 type             elite archers macedon
 dictionary       elite_archers_macedon      ; elite archers macedon
 category         infantry
@@ -13894,6 +14349,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 580, 130, 40, 50, 300
 ownership        macedon
+
 
 
 
@@ -13931,6 +14387,7 @@ ownership        greek_cities, seleucid, thrace
 
 
 
+
 type             greek gastraphetes
 dictionary       ME_greek_gastraphetes      ; greek gastraphetes
 category         infantry
@@ -13956,6 +14413,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        seleucid
+
 
 
 
@@ -13993,6 +14451,7 @@ ownership        macedon
 
 
 
+
 type             greek swordsman thrace
 dictionary       greek_swordsman_thrace      ; greek swordsman thrace
 category         infantry
@@ -14024,6 +14483,7 @@ ownership        thrace, macedon
 
 
 
+
 type             greek light infantry
 dictionary       greek_thureophoroi      ; greek light infantry
 category         infantry
@@ -14049,6 +14509,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 280, 60, 20, 30, 150
 ownership        macedon, seleucid, roman
+
 
 
 
@@ -14087,6 +14548,7 @@ ownership        slave
 
 
 
+
 type             greek hoplite2
 dictionary       greek_hoplite2      ; greek hoplite2
 category         infantry
@@ -14119,6 +14581,7 @@ ownership        greek_cities, macedon, egypt, seleucid, thrace, pontus, roman
 
 
 
+
 type             greek atg brz spartan
 dictionary       greek_atg_brz_spartan      ; greek atg brz spartan
 category         infantry
@@ -14145,6 +14608,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        greek_cities
+
 
 
 
@@ -14184,6 +14648,7 @@ ownership        greek_cities
 
 
 
+
 type             macedon levy pikemen
 dictionary       greek_levy_pikemen      ; macedon levy pikemen
 category         infantry
@@ -14211,6 +14676,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 470, 105, 30, 40, 240
 ownership        macedon
+
 
 
 
@@ -14250,6 +14716,7 @@ ownership        thrace
 
 
 
+
 type             macedon pikemen
 dictionary       macedon_pikemen      ; macedon pikemen
 category         infantry
@@ -14277,6 +14744,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
 ownership        macedon, greek_cities
+
 
 
 
@@ -14316,6 +14784,7 @@ ownership        macedon
 
 
 
+
 type             macedon cleruch
 dictionary       ME_greek_javeline_sword      ; macedon cleruch
 category         infantry
@@ -14342,6 +14811,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 145, 50, 60, 340
 ownership        macedon
+
 
 
 
@@ -14380,6 +14850,7 @@ ownership        seleucid, egypt, greek_cities
 
 
 
+
 type             thrace heavy infantry
 dictionary       thrace_heavy_infantry      ; thrace heavy infantry
 category         infantry
@@ -14405,6 +14876,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 670, 145, 50, 60, 350
 ownership        thrace
+
 
 
 
@@ -14443,6 +14915,7 @@ ownership        greek_cities
 
 
 
+
 type             ME greek city guard
 dictionary       ME_greek_city_guard      ; ME greek city guard
 category         infantry
@@ -14469,6 +14942,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        seleucid, egypt
+
 
 
 
@@ -14507,6 +14981,7 @@ ownership        macedon
 
 
 
+
 type             macedon dimachae
 dictionary       ME_greek_dimachae      ; macedon dimachae
 category         infantry
@@ -14533,6 +15008,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 670, 145, 50, 60, 350
 ownership        macedon
+
 
 
 
@@ -14572,6 +15048,7 @@ ownership        macedon
 
 
 
+
 type             greek silver shield agema
 dictionary       ME_greek_silvershield      ; greek silver shield agema
 category         infantry
@@ -14599,6 +15076,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 710, 155, 50, 60, 370
 ownership        seleucid
+
 
 
 
@@ -14638,6 +15116,7 @@ ownership        greek_cities, thrace
 
 
 
+
 type             horse archers ellins
 dictionary       horse_archers_greek      ; horse archers ellins
 category         cavalry
@@ -14665,6 +15144,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 690, 150, 50, 60, 360
 ownership        seleucid, egypt
+
 
 
 
@@ -14704,6 +15184,7 @@ ownership        macedon
 
 
 
+
 type             greek medium cavalry3
 dictionary       greek_medium_cavalry      ; greek medium cavalry3
 category         cavalry
@@ -14731,6 +15212,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
 ownership        thrace
+
 
 
 
@@ -14770,6 +15252,7 @@ ownership        roman, slave
 
 
 
+
 type             macedon thesalian cavalry
 dictionary       greek_thesalian_cavalry      ; macedon thesalian cavalry
 category         cavalry
@@ -14797,6 +15280,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 680, 150, 50, 60, 350
 ownership        macedon
+
 
 
 
@@ -14836,6 +15320,7 @@ ownership        greek_cities
 
 
 
+
 type             greek seleucid cavalry
 dictionary       greek_seleucid_cavalry      ; greek seleucid cavalry
 category         cavalry
@@ -14863,6 +15348,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 630, 140, 40, 60, 330
 ownership        seleucid, egypt
+
 
 
 
@@ -14902,6 +15388,7 @@ ownership        seleucid
 
 
 
+
 type             ptolemaic heavy cavalry
 dictionary       ptolemaic_heavy_cavalry      ; ptolemaic heavy cavalry
 category         cavalry
@@ -14929,6 +15416,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 770, 170, 50, 70, 400
 ownership        egypt, seleucid
+
 
 
 
@@ -14968,6 +15456,7 @@ ownership        macedon, greek_cities
 
 
 
+
 type             macedon cataphract
 dictionary       greek_cataphract      ; macedon cataphract
 category         cavalry
@@ -14995,6 +15484,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 790, 175, 60, 70, 410
 ownership        macedon
+
 
 
 
@@ -15034,6 +15524,7 @@ ownership        seleucid
 
 
 
+
 type             macedon agema cavalry
 dictionary       macedon_heavy_cavalry      ; macedon agema cavalry
 category         cavalry
@@ -15061,6 +15552,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 820, 180, 60, 70, 430
 ownership        macedon
+
 
 
 
@@ -15100,6 +15592,7 @@ ownership        macedon
 
 
 
+
 type             ellins general's guard cavalry early
 dictionary       greek_generals_guard_cavalry_early      ; ellins general's guard cavalry early
 category         cavalry
@@ -15127,6 +15620,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
 ownership        seleucid
+
 
 
 
@@ -15166,6 +15660,7 @@ ownership        macedon
 
 
 
+
 type             ellins general's guard cavalry
 dictionary       greek_generals_guard_cavalry      ; ellins general's guard cavalry
 category         cavalry
@@ -15193,6 +15688,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 860, 190, 60, 80, 450
 ownership        egypt, seleucid
+
 
 
 
@@ -15231,6 +15727,7 @@ ownership        macedon
 
 
 
+
 type             macedon onager
 dictionary       greek_onagers      ; macedon onager
 category         siege
@@ -15257,6 +15754,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 95, 30, 40, 230
 ownership        macedon
+
 
 
 
@@ -15295,6 +15793,7 @@ ownership        macedon
 
 
 
+
 type             macedon repeating ballistas
 dictionary       greek_repeating_ballistas      ; macedon repeating ballistas
 category         siege
@@ -15321,6 +15820,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 95, 30, 40, 230
 ownership        macedon
+
 
 
 
@@ -15359,6 +15859,7 @@ ownership        greek_cities
 
 
 
+
 type             greek repeating ballistas
 dictionary       greek_repeating_ballistas      ; greek repeating ballistas
 category         siege
@@ -15391,6 +15892,7 @@ ownership        greek_cities, seleucid
 
 
 
+
 type             roman slinger
 dictionary       roman_slinger      ; roman slinger
 category         infantry
@@ -15416,6 +15918,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 95, 30, 40, 220
 ownership        roman
+
 
 
 
@@ -15454,6 +15957,7 @@ ownership        roman
 
 
 
+
 type             roman legionary first cohort 2
 dictionary       roman_legionary_first_cohort_2      ; roman legionary first cohort 2
 category         infantry
@@ -15480,6 +15984,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 700, 155, 50, 60, 360
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -15519,6 +16024,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman crew carriage
 dictionary       roman_crew_carriage      ; roman crew carriage
 category         siege
@@ -15543,6 +16049,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -15580,6 +16087,7 @@ ownership        all
 
 
 
+
 type             merc east archer
 dictionary       ME_east_heavy_archer      ; merc east archer
 category         infantry
@@ -15611,6 +16119,7 @@ ownership        all
 
 
 
+
 type             merc egyptian archer
 dictionary       merc_egyptian_archer      ; merc egyptian archer
 category         infantry
@@ -15636,6 +16145,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 100, 30, 40, 230
 ownership        all
+
 
 
 
@@ -15674,6 +16184,7 @@ ownership        all
 
 
 
+
 type             barb archer merc
 dictionary       barb_archer_merc      ; barb archer merc
 category         infantry
@@ -15706,6 +16217,7 @@ ownership        all
 
 
 
+
 type             merc carthaginian archer
 dictionary       merc_carthaginian_archer      ; merc carthaginian archer
 category         infantry
@@ -15731,6 +16243,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        all
+
 
 
 
@@ -15769,6 +16282,7 @@ ownership        all
 
 
 
+
 type             naval carthage quinquiremes
 dictionary       naval_carthage_quinquiremes      ; naval carthage quinquiremes
 category         ship
@@ -15792,7 +16306,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -15823,6 +16338,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 80, 30, 30, 190
 ownership        greek, egyptian
+
 
 
 
@@ -15862,6 +16378,7 @@ ownership        greek_cities
 
 
 
+
 type             roman spearmen aux
 dictionary       greek_heavy_spear      ; roman spearmen aux
 category         infantry
@@ -15888,6 +16405,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -15926,6 +16444,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman east heavy infantry aux
 dictionary       east_heavy_infantry_aux      ; roman east heavy infantry aux
 category         infantry
@@ -15952,6 +16471,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -15992,6 +16512,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman horse archers aux
 dictionary       horse_archers_aux      ; roman horse archers aux
 category         cavalry
@@ -16020,6 +16541,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 145, 50, 60, 340
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -16060,6 +16582,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman east peltast aux
 dictionary       east_peltast_aux      ; roman east peltast aux
 category         infantry
@@ -16086,6 +16609,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 100, 30, 40, 230
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -16124,6 +16648,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman barb heavy infantry aux
 dictionary       helenic_heavy_infantry_aux      ; roman barb heavy infantry aux
 category         infantry
@@ -16150,6 +16675,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 140, 40, 60, 330
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -16190,6 +16716,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman barb infantry aux
 dictionary       ME_barb_alied_infantry      ; roman barb infantry aux
 category         infantry
@@ -16222,6 +16749,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman warband sword barb aux
 dictionary       warband_sword_barb_aux      ; roman warband sword barb aux
 category         infantry
@@ -16248,6 +16776,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 130, 40, 50, 310
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -16288,6 +16817,7 @@ ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
 
 
 
+
 type             roman barb peltast aux
 dictionary       barb_peltast_aux      ; roman barb peltast aux
 category         infantry
@@ -16314,6 +16844,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 100, 30, 40, 230
 ownership        romans_julii, romans_brutii, romans_scipii, romans_senate
+
 
 
 
@@ -16352,6 +16883,7 @@ ownership        greek_cities
 
 
 
+
 type             egypt greek light infantry
 dictionary       greek_thureophoroi      ; egypt greek light infantry
 category         infantry
@@ -16383,6 +16915,7 @@ ownership        egypt
 
 
 
+
 type             hellenic spearmen aux
 dictionary       greek_heavy_spear      ; hellenic spearmen aux
 category         infantry
@@ -16408,6 +16941,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
 ownership        greek_cities, egypt, macedon, seleucid
+
 
 
 
@@ -16446,6 +16980,7 @@ ownership        greek_cities, egypt, macedon, seleucid, thrace
 
 
 
+
 type             ellins east heavy infantry aux
 dictionary       east_heavy_infantry_aux      ; ellins east heavy infantry aux
 category         infantry
@@ -16478,6 +17013,7 @@ ownership        egypt, greek_cities, thrace
 
 
 
+
 type             macedon east heavy infantry aux
 dictionary       east_heavy_infantry_aux      ; macedon east heavy infantry aux
 category         infantry
@@ -16504,6 +17040,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        macedon
+
 
 
 
@@ -16544,6 +17081,7 @@ ownership        greek_cities, egypt, macedon, seleucid
 
 
 
+
 type             hellenic horse archers aux
 dictionary       horse_archers_aux      ; hellenic horse archers aux
 category         cavalry
@@ -16572,6 +17110,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 670, 145, 50, 60, 350
 ownership        greek_cities, egypt, macedon, seleucid, thrace
+
 
 
 
@@ -16612,6 +17151,7 @@ ownership        greek_cities, egypt, thrace
 
 
 
+
 type             macedon cappodocian cavalry
 dictionary       east_cappodocian_cavalry      ; macedon cappodocian cavalry
 category         cavalry
@@ -16640,6 +17180,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 770, 170, 50, 70, 400
 ownership        macedon
+
 
 
 
@@ -16678,6 +17219,7 @@ ownership        greek_cities, egypt, macedon, seleucid, thrace
 
 
 
+
 type             greek barb heavy infantry aux
 dictionary       helenic_heavy_infantry_aux      ; greek barb heavy infantry aux
 category         infantry
@@ -16710,6 +17252,7 @@ ownership        egypt, greek_cities, seleucid
 
 
 
+
 type             macedon barb heavy infantry aux
 dictionary       helenic_heavy_infantry_aux      ; macedon barb heavy infantry aux
 category         infantry
@@ -16735,6 +17278,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 140, 40, 60, 330
 ownership        macedon
+
 
 
 
@@ -16775,6 +17319,7 @@ ownership        greek_cities, egypt, macedon, seleucid, thrace
 
 
 
+
 type             hellenic barb infantry aux
 dictionary       ME_barb_alied_infantry      ; hellenic barb infantry aux
 category         infantry
@@ -16801,6 +17346,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        greek_cities, egypt, macedon, seleucid, thrace
+
 
 
 
@@ -16838,6 +17384,7 @@ ownership        egypt, thrace, greek_cities, seleucid
 
 
 
+
 type             macedon warband sword barb aux
 dictionary       warband_sword_barb_aux      ; macedon warband sword barb aux
 category         infantry
@@ -16863,6 +17410,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 130, 40, 50, 310
 ownership        macedon
+
 
 
 
@@ -16902,6 +17450,7 @@ ownership        greek_cities, egypt, seleucid
 
 
 
+
 type             macedon barb noble cavalry aux
 dictionary       barb_noble_cavalry_aux      ; macedon barb noble cavalry aux
 category         cavalry
@@ -16929,6 +17478,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 710, 155, 50, 60, 370
 ownership        macedon
+
 
 
 
@@ -16967,6 +17517,7 @@ ownership        parthia, pontus, armenia
 
 
 
+
 type             eastern barb infantry aux
 dictionary       ME_barb_alied_infantry      ; eastern barb infantry aux
 category         infantry
@@ -16993,6 +17544,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
 ownership        parthia, pontus, armenia
+
 
 
 
@@ -17031,6 +17583,7 @@ ownership        parthia, pontus, armenia
 
 
 
+
 type             eastern hoplite militia
 dictionary       eastern_hoplite_militia      ; eastern hoplite militia
 category         infantry
@@ -17057,6 +17610,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 370, 80, 30, 30, 190
 ownership        parthia, pontus, armenia
+
 
 
 
@@ -17094,6 +17648,7 @@ ownership        parthia, pontus, armenia
 
 
 
+
 type             east warband sword barb aux
 dictionary       warband_sword_barb_aux      ; east warband sword barb aux
 category         infantry
@@ -17119,6 +17674,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 590, 130, 40, 50, 310
 ownership        parthia, pontus, armenia, scythia
+
 
 
 
@@ -17159,6 +17715,7 @@ ownership        parthia, pontus, armenia
 
 
 
+
 type             carthage spearmen aux
 dictionary       greek_heavy_spear      ; carthage spearmen aux
 category         infantry
@@ -17184,7 +17741,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17216,7 +17774,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 390, 85, 30, 40, 200
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17248,7 +17807,8 @@ stat_charge_dist 3
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17282,7 +17842,8 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 115, 40, 50, 270
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17316,7 +17877,8 @@ stat_charge_dist 150
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 660, 145, 50, 60, 340
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17348,7 +17910,8 @@ stat_charge_dist 180
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 480, 105, 30, 40, 250
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17380,7 +17943,8 @@ stat_charge_dist 35
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 620, 135, 40, 60, 320
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17412,7 +17976,8 @@ stat_charge_dist 60
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 110, 40, 40, 260
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17444,7 +18009,8 @@ stat_charge_dist 35
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 610, 135, 40, 50, 320
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17478,7 +18044,8 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 700, 155, 50, 60, 360
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -17519,6 +18086,7 @@ ownership        all
 
 
 
+
 type             spain legionary
 dictionary       spain_legionary      ; spain legionary
 category         infantry
@@ -17544,6 +18112,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 680, 150, 50, 60, 350
 ownership        spain, roman
+
 
 
 
@@ -17580,6 +18149,7 @@ ownership        all
 
 
 
+
 type             large lithobolos
 dictionary       large_lithobolos      ; large lithobolos
 category         siege
@@ -17604,6 +18174,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 920, 200, 60, 80, 480
 ownership        all
+
 
 
 
@@ -17643,6 +18214,7 @@ ownership        pontus, armenia, parthia
 
 
 
+
 type             garamant infantry
 dictionary       garamant_infantry      ; garamant infantry
 category         infantry
@@ -17667,6 +18239,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 530, 115, 40, 50, 280
 ownership        numidia
+
 
 
 
@@ -17705,6 +18278,7 @@ ownership        numidia
 
 
 
+
 type             celtic spearmen gaul
 dictionary       celtic_spearmen_gaul      ; celtic spearmen gaul
 category         infantry
@@ -17731,6 +18305,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 540, 120, 40, 50, 280
 ownership        gauls, britons, slave
+
 
 
 
@@ -17769,6 +18344,7 @@ ownership        numidia, egypt, slave
 
 
 
+
 type             nubian archer
 dictionary       nubian_archer      ; nubian archer
 category         infantry
@@ -17801,6 +18377,7 @@ ownership        egypt, numidia, slave
 
 
 
+
 type             merc nubian archer
 dictionary       merc_nubian_archer      ; merc nubian archer
 category         infantry
@@ -17826,6 +18403,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 90, 30, 40, 220
 ownership        all
+
 
 
 
@@ -17865,6 +18443,7 @@ ownership        scythia, germans, britons, slave
 
 
 
+
 type             greek classical hoplites
 dictionary       greek_classical_hoplites      ; greek classical hoplites
 category         infantry
@@ -17891,6 +18470,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        all
+
 
 
 
@@ -17929,6 +18509,7 @@ ownership        egypt, thrace, macedon, seleucid
 
 
 
+
 type             egyptian archer pharaoh
 dictionary       egyptian_archer_pharaoh      ; egyptian archer pharaoh
 category         infantry
@@ -17952,6 +18533,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 130, 40, 50, 310
 ownership        egypt
+
 
 
 
@@ -17990,6 +18572,7 @@ ownership        britons, gauls, slave
 
 
 
+
 type             barb warguard dacian2
 dictionary       dacian_warguard      ; barb warguard dacian2
 category         infantry
@@ -18022,6 +18605,7 @@ ownership        dacia, germans, thrace, slave
 
 
 
+
 type             poeni sailor
 dictionary       poeni_sailor      ; poeni sailor
 category         infantry
@@ -18046,7 +18630,8 @@ stat_charge_dist 150
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 470, 105, 30, 40, 240
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -18083,6 +18668,7 @@ ownership        barbarian
 
 
 
+
 type             celt archer
 dictionary       celt_archer      ; celt archer
 category         infantry
@@ -18106,6 +18692,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 100, 30, 40, 240
 ownership        britons, slave
+
 
 
 
@@ -18144,6 +18731,7 @@ ownership        roman
 
 
 
+
 type             italic skirmisher
 dictionary       italic_skirmisher      ; italic skirmisher
 category         infantry
@@ -18169,6 +18757,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 510, 110, 40, 50, 270
 ownership        all
+
 
 
 
@@ -18209,6 +18798,7 @@ ownership        all
 
 
 
+
 type             carthaginian elephant forest2
 dictionary       carthaginian_elephant_forest      ; carthaginian elephant forest2
 category         cavalry
@@ -18233,7 +18823,8 @@ stat_charge_dist 100
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1300, 240, 90, 120, 680
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -18264,7 +18855,8 @@ stat_charge_dist 150
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1620, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -18295,7 +18887,8 @@ stat_charge_dist 150
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1710, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -18326,7 +18919,8 @@ stat_charge_dist 160
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1760, 240, 90, 120, 700
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -18364,6 +18958,7 @@ ownership        parthia, armenia
 
 
 
+
 type             greek elephant small2
 dictionary       greek_elephant_small      ; greek elephant small2
 category         cavalry
@@ -18389,6 +18984,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1300, 240, 90, 120, 680
 ownership        seleucid, macedon, greek_cities, egypt
+
 
 
 
@@ -18426,6 +19022,7 @@ ownership        seleucid, macedon, greek_cities, egypt
 
 
 
+
 type             greek elephant cataphract2
 dictionary       greek_elephant_armoured      ; greek elephant cataphract2
 category         cavalry
@@ -18451,6 +19048,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1720, 240, 90, 120, 700
 ownership        seleucid, macedon, greek_cities, egypt
+
 
 
 
@@ -18488,6 +19086,7 @@ ownership        all
 
 
 
+
 type             barb celtogermanic cavalry
 dictionary       barb_celtogermanic_cavalry      ; barb celtogermanic cavalry
 category         cavalry
@@ -18515,7 +19114,8 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 160, 50, 60, 370
-ownership        gauls, britons, germans, dacia, spain, roman, carthage, slave
+ownership        gauls, britons, germans, dacia, spain, roman, carthage, slave, arados
+
 
 
 
@@ -18555,6 +19155,7 @@ ownership        thrace
 
 
 
+
 type             illyrian hoplite
 dictionary       illyrian_hoplite      ; illyrian hoplite
 category         infantry
@@ -18580,6 +19181,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 30, 40, 210
 ownership        greek_cities, gauls, slave, macedon, thrace, dacia
+
 
 
 
@@ -18618,6 +19220,7 @@ ownership        dacia, gauls, thrace, slave, greek_cities, macedon
 
 
 
+
 type             numidian elephant forest2
 dictionary       indian_elephants      ; numidian elephant forest2
 category         cavalry
@@ -18643,6 +19246,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1760, 240, 90, 120, 700
 ownership        all
+
 
 
 
@@ -18680,6 +19284,7 @@ ownership        all
 
 
 
+
 type             barb skirmisher
 dictionary       barb_skirmisher      ; barb skirmisher
 category         infantry
@@ -18705,6 +19310,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 30, 140
 ownership        barbarian, slave, romans_julii, romans_brutii
+
 
 
 
@@ -18742,6 +19348,7 @@ ownership        dacia, thrace, pontus, scythia, germans, slave
 
 
 
+
 type             barb archer
 dictionary       barb_archer      ; barb archer
 category         infantry
@@ -18766,6 +19373,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 30, 40, 190
 ownership        dacia, scythia, britons, germans, slave, gauls, thrace, pontus
+
 
 
 
@@ -18804,6 +19412,7 @@ ownership        barbarian, thrace, slave
 
 
 
+
 type             merc barb infantry german
 dictionary       merc_barb_infantry_german      ; merc barb infantry german
 category         infantry
@@ -18830,6 +19439,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -18868,6 +19478,7 @@ ownership        germans, slave
 
 
 
+
 type             merc warband falx
 dictionary       merc_warband_falx      ; merc warband falx
 category         infantry
@@ -18894,6 +19505,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -18932,6 +19544,7 @@ ownership        all
 
 
 
+
 type             warband sword rhaetian
 dictionary       warband_sword_rhaetian      ; warband sword rhaetian
 category         infantry
@@ -18958,6 +19571,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        barbarian, thrace, slave
+
 
 
 
@@ -18998,6 +19612,7 @@ ownership        barbarian, slave, romans_julii, carthaginian, greek, egyptian
 
 
 
+
 type             barb javelin cavalry
 dictionary       barb_javelin_cavalry      ; barb javelin cavalry
 category         cavalry
@@ -19026,6 +19641,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        roman, barbarian, greek, egyptian
+
 
 
 
@@ -19066,6 +19682,7 @@ ownership        all
 
 
 
+
 type             barb noble cavalry
 dictionary       barb_noble_cavalry      ; barb noble cavalry
 category         cavalry
@@ -19094,6 +19711,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
 ownership        barbarian, roman, eastern, carthaginian, egyptian, greek
+
 
 
 
@@ -19134,6 +19752,7 @@ ownership        all
 
 
 
+
 type             barb medium cavalry scythian
 dictionary       barb_medium_cavalry_scythian      ; barb medium cavalry scythian
 category         cavalry
@@ -19168,6 +19787,7 @@ ownership        scythia, slave
 
 
 
+
 type             carthaginian medium archer
 dictionary       carthaginian_medium_archer      ; carthaginian medium archer
 category         infantry
@@ -19192,7 +19812,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -19230,6 +19851,7 @@ ownership        spain, slave
 
 
 
+
 type             merc carthaginian infantry
 dictionary       merc_iberian_caetrati      ; merc carthaginian infantry
 category         infantry
@@ -19261,6 +19883,7 @@ ownership        all
 
 
 
+
 type             merc libyan spearmen
 dictionary       merc_libyan_spearmen      ; merc libyan spearmen
 category         infantry
@@ -19286,6 +19909,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -19324,6 +19948,7 @@ ownership        spain, slave
 
 
 
+
 type             asturian axemen
 dictionary       asturian_axemen      ; asturian axemen
 category         infantry
@@ -19349,7 +19974,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
-ownership        carthage, spain, slave
+ownership        carthage, spain, slave, arados
+
 
 
 
@@ -19389,6 +20015,7 @@ ownership        all
 
 
 
+
 type             carthaginian citizen cavalry
 dictionary       carthaginian_citizen_cavalry      ; carthaginian citizen cavalry
 category         cavalry
@@ -19415,7 +20042,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -19446,7 +20074,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
-ownership        carthage, slave, spain
+ownership        carthage, slave, spain, arados
+
 
 
 
@@ -19477,7 +20106,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -19508,7 +20138,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
-ownership        carthage, numidia
+ownership        carthage, numidia, arados
+
 
 
 
@@ -19546,6 +20177,7 @@ ownership        all
 
 
 
+
 type             merc east peltast
 dictionary       merc_east_peltast      ; merc east peltast
 category         infantry
@@ -19570,6 +20202,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 20, 30, 190
 ownership        all
+
 
 
 
@@ -19608,6 +20241,7 @@ ownership        armenia, pontus, slave, phoenicium
 
 
 
+
 type             armenian archer
 dictionary       armenian_archer      ; armenian archer
 category         infantry
@@ -19632,6 +20266,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 20, 30, 190
 ownership        armenia, pontus, slave, phoenicium
+
 
 
 
@@ -19670,6 +20305,7 @@ ownership        armenia, slave, phoenicium
 
 
 
+
 type             east armenian colchis nobles
 dictionary       east_armenian_colchis_nobles      ; east armenian colchis nobles
 category         infantry
@@ -19696,6 +20332,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 140, 40, 50, 340
 ownership        armenia
+
 
 
 
@@ -19733,6 +20370,7 @@ ownership        eastern, slave, phoenicium
 
 
 
+
 type             merc east elite machairophoroi
 dictionary       merc_east_elite_machairophoroi      ; merc east elite machairophoroi
 category         infantry
@@ -19758,6 +20396,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 140, 40, 50, 340
 ownership        all
+
 
 
 
@@ -19796,6 +20435,7 @@ ownership        all
 
 
 
+
 type             east heavy spearmen merc
 dictionary       east_heavy_spearmen_merc      ; east heavy spearmen merc
 category         infantry
@@ -19822,6 +20462,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -19860,6 +20501,7 @@ ownership        armenia, slave, phoenicium
 
 
 
+
 type             east immortal archer
 dictionary       east_immortal_archer      ; east immortal archer
 category         infantry
@@ -19886,6 +20528,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        parthia, slave, phoenicium
+
 
 
 
@@ -19926,6 +20569,7 @@ ownership        all
 
 
 
+
 type             merc hyrcanian cavalry
 dictionary       east_hyrcanian_cavalry_merc      ; merc hyrcanian cavalry
 category         cavalry
@@ -19954,6 +20598,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -19994,6 +20639,7 @@ ownership        eastern, slave, scythia, seleucid, phoenicium
 
 
 
+
 type             merc east light cavalry
 dictionary       merc_east_light_cavalry      ; merc east light cavalry
 category         cavalry
@@ -20022,6 +20668,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -20062,6 +20709,7 @@ ownership        armenia
 
 
 
+
 type             greek baktrian cataphract
 dictionary       greek_baktrian_cataphract      ; greek baktrian cataphract
 category         cavalry
@@ -20090,6 +20738,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
 ownership        slave
+
 
 
 
@@ -20129,6 +20778,7 @@ ownership        eastern, romans_julii, greek, egyptian, slave, phoenicium
 
 
 
+
 type             east armenian lancer
 dictionary       east_armenian_lancer      ; east armenian lancer
 category         cavalry
@@ -20162,6 +20812,7 @@ ownership        armenia
 
 
 
+
 type             east armenian nakharar
 dictionary       east_armenian_nakharar      ; east armenian nakharar
 category         cavalry
@@ -20189,6 +20840,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        armenia
+
 
 
 
@@ -20229,6 +20881,7 @@ ownership        armenia, pontus, seleucid, romans_julii, slave
 
 
 
+
 type             east horse archer merc
 dictionary       east_horse_archer_merc      ; east horse archer merc
 category         cavalry
@@ -20257,6 +20910,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -20297,6 +20951,7 @@ ownership        parthia
 
 
 
+
 type             east armenian royal boduguard
 dictionary       east_armenian_royal_boduguard      ; east armenian royal boduguard
 category         cavalry
@@ -20325,6 +20980,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
 ownership        armenia
+
 
 
 
@@ -20361,6 +21017,7 @@ ownership        greek_cities, macedon, seleucid, roman, romans_brutii
 
 
 
+
 type             merc greek akontistai
 dictionary       merc_greek_akontistai      ; merc greek akontistai
 category         infantry
@@ -20385,6 +21042,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 20, 30, 190
 ownership        all
+
 
 
 
@@ -20422,6 +21080,7 @@ ownership        greek_cities, romans_brutii
 
 
 
+
 type             merc greek archer
 dictionary       merc_greek_archer      ; merc greek archer
 category         infantry
@@ -20453,6 +21112,7 @@ ownership        all
 
 
 
+
 type             greek neocretan archer
 dictionary       greek_neocretan_archer      ; greek neocretan archer
 category         infantry
@@ -20478,6 +21138,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
 ownership        greek, pontus, egypt, slave
+
 
 
 
@@ -20516,6 +21177,7 @@ ownership        all
 
 
 
+
 type             greek hoplite spartan hippeis
 dictionary       greek_hoplite_spartan_hippeis      ; greek hoplite spartan hippeis
 category         infantry
@@ -20542,6 +21204,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        greek_cities, slave
+
 
 
 
@@ -20580,6 +21243,7 @@ ownership        seleucid, egypt, slave, macedon, thrace, greek_cities, romans_b
 
 
 
+
 type             thracian elite pikemen
 dictionary       thracian_elite_pikemen      ; thracian elite pikemen
 category         infantry
@@ -20606,6 +21270,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 650, 140, 40, 50, 340
 ownership        thrace
+
 
 
 
@@ -20644,6 +21309,7 @@ ownership        all
 
 
 
+
 type             greek molossian nobles
 dictionary       greek_molossian_nobles      ; greek molossian nobles
 category         infantry
@@ -20676,6 +21342,7 @@ ownership        romans_brutii
 
 
 
+
 type             roman socii extraordinarii
 dictionary       roman_socii_extraordinarii      ; roman socii extraordinarii
 category         infantry
@@ -20702,6 +21369,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        romans_julii
+
 
 
 
@@ -20741,6 +21409,7 @@ ownership        seleucid, macedon, romans_brutii, greek_cities, egypt
 
 
 
+
 type             greek hypaspist agema
 dictionary       greek_hypaspist_agema      ; greek hypaspist agema
 category         infantry
@@ -20774,6 +21443,7 @@ ownership        macedon, greek_cities
 
 
 
+
 type             trallian guard
 dictionary       trallian_guard      ; trallian guard
 category         infantry
@@ -20800,6 +21470,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        macedon
+
 
 
 
@@ -20839,6 +21510,7 @@ ownership        macedon, slave
 
 
 
+
 type             merc greek cavalry
 dictionary       merc_greek_cavalry      ; merc greek cavalry
 category         cavalry
@@ -20866,6 +21538,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -20905,6 +21578,7 @@ ownership        seleucid, egypt, slave
 
 
 
+
 type             merc greek medium cavalry
 dictionary       merc_greek_medium_cavalry      ; merc greek medium cavalry
 category         cavalry
@@ -20932,6 +21606,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -20971,6 +21646,7 @@ ownership        macedon
 
 
 
+
 type             aetolian cavalry
 dictionary       aetolian_cavalry      ; aetolian cavalry
 category         cavalry
@@ -21004,6 +21680,7 @@ ownership        greek_cities, slave, thrace, macedon, romans_brutii, phoenicium
 
 
 
+
 type             pergamene heitaroi
 dictionary       pergamene_heitaroi      ; pergamene heitaroi
 category         cavalry
@@ -21029,6 +21706,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -21068,6 +21746,7 @@ ownership        thrace, slave
 
 
 
+
 type             elephant african
 dictionary       elephant_african      ; elephant african
 category         cavalry
@@ -21092,7 +21771,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
-ownership        seleucid, macedon, egypt, romans_brutii, carthage, numidia, parthia, greek_cities
+ownership        seleucid, macedon, egypt, romans_brutii, carthage, numidia, parthia, greek_cities, arados
+
 
 
 
@@ -21123,7 +21803,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
-ownership        seleucid, macedon, egypt, romans_brutii, pontus, armenia, parthia, carthage, numidia, greek_cities
+ownership        seleucid, macedon, egypt, romans_brutii, pontus, armenia, parthia, carthage, numidia, greek_cities, arados
+
 
 
 
@@ -21161,6 +21842,7 @@ ownership        seleucid, slave
 
 
 
+
 type             elephant cataphract
 dictionary       elephant_cataphract      ; elephant cataphract
 category         cavalry
@@ -21185,7 +21867,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
-ownership        seleucid, macedon, egypt, romans_brutii, greek_cities, carthage, parthia, armenia
+ownership        seleucid, macedon, egypt, romans_brutii, greek_cities, carthage, parthia, armenia, arados
+
 
 
 
@@ -21223,6 +21906,7 @@ ownership        all
 
 
 
+
 type             elephant royal cataphract
 dictionary       elephant_royal_cataphract      ; elephant royal cataphract
 category         cavalry
@@ -21248,6 +21932,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 720, 170, 40, 50, 400
 ownership        seleucid
+
 
 
 
@@ -21286,6 +21971,7 @@ ownership        romans_julii
 
 
 
+
 type             heavy samnite
 dictionary       heavy_samnite      ; heavy samnite
 category         infantry
@@ -21309,7 +21995,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage, romans_julii, romans_brutii
+ownership        carthage, romans_julii, romans_brutii, arados
+
 
 
 
@@ -21340,7 +22027,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
-ownership        roman, romans_brutii, carthage
+ownership        roman, romans_brutii, carthage, arados
+
 
 
 
@@ -21379,6 +22067,7 @@ ownership        romans_julii
 
 
 
+
 type             imperial armored legionary
 dictionary       imperial_armoured_legionary      ; imperial armored legionary
 category         infantry
@@ -21405,6 +22094,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        romans_julii
+
 
 
 
@@ -21444,6 +22134,7 @@ ownership        romans_julii
 
 
 
+
 type             syrian infantry
 dictionary       syrian_infantry      ; syrian infantry
 category         infantry
@@ -21470,6 +22161,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
 ownership        pontus, armenia, slave, egypt, seleucid, parthia, numidia, romans_julii
+
 
 
 
@@ -21506,6 +22198,7 @@ ownership        all
 
 
 
+
 type             merc syrian archer
 dictionary       merc_syrian_archer      ; merc syrian archer
 category         infantry
@@ -21531,6 +22224,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
 ownership        all
+
 
 
 
@@ -21569,6 +22263,7 @@ ownership        all
 
 
 
+
 type             merc illyrian slingers
 dictionary       merc_illyrian_slingers      ; merc illyrian slingers
 category         infantry
@@ -21594,6 +22289,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 40, 50, 140
 ownership        all
+
 
 
 
@@ -21631,6 +22327,7 @@ ownership        all
 
 
 
+
 type             merc bedouin warriors
 dictionary       merc_bedouin_warriors      ; merc bedouin warriors
 category         cavalry
@@ -21656,6 +22353,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        all
+
 
 
 
@@ -21694,6 +22392,7 @@ ownership        all
 
 
 
+
 type             indian archer
 dictionary       indian_archer      ; indian archer
 category         infantry
@@ -21720,6 +22419,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
 ownership        scythia, parthia, seleucid
+
 
 
 
@@ -21758,6 +22458,7 @@ ownership        all
 
 
 
+
 type             merc steppe axemen
 dictionary       merc_steppe_axemen      ; merc steppe axemen
 category         infantry
@@ -21790,6 +22491,7 @@ ownership        all
 
 
 
+
 type             merc steppe archer
 dictionary       merc_steppe_archer      ; merc steppe archer
 category         infantry
@@ -21815,6 +22517,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 30, 40, 190
 ownership        all
+
 
 
 
@@ -21853,6 +22556,7 @@ ownership        all
 
 
 
+
 type             greek bactrian hoplites
 dictionary       greek_bactrian_hoplites      ; greek bactrian hoplites
 category         infantry
@@ -21879,6 +22583,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -21917,6 +22622,7 @@ ownership        greek_cities, seleucid, romans_brutii, macedon, egypt, pontus
 
 
 
+
 type             egyptian basilikon guard
 dictionary       egyptian_basilikon_guard      ; egyptian basilikon guard
 category         infantry
@@ -21949,6 +22655,7 @@ ownership        egypt
 
 
 
+
 type             merc italic skirmisher
 dictionary       merc_italic_skirmisher      ; merc italic skirmisher
 category         infantry
@@ -21974,6 +22681,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 40, 50, 140
 ownership        all
+
 
 
 
@@ -22012,6 +22720,7 @@ ownership        greek_cities, romans_brutii, seleucid, slave, macedon, egypt, p
 
 
 
+
 type             merc greek light thureophoroi
 dictionary       greek_light_thureophoroi_merc      ; merc greek light thureophoroi
 category         infantry
@@ -22044,6 +22753,7 @@ ownership        all
 
 
 
+
 type             greek iphicratean
 dictionary       greek_iphicratean      ; greek iphicratean
 category         infantry
@@ -22070,7 +22780,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        greek_cities, romans_brutii, carthage, slave
+ownership        greek_cities, romans_brutii, carthage, slave, arados
+
 
 
 
@@ -22101,6 +22812,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        greek_cities, romans_brutii, slave
+
 
 
 
@@ -22138,6 +22850,7 @@ ownership        all
 
 
 
+
 type             indian light clubmen
 dictionary       indian_light_clubmen      ; indian light clubmen
 category         infantry
@@ -22168,6 +22881,7 @@ ownership        seleucid, parthia, slave, scythia
 
 
 
+
 type             merc indian light clubmen
 dictionary       merc_indian_light_clubmen      ; merc indian light clubmen
 category         infantry
@@ -22192,6 +22906,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 20, 30, 210
 ownership        all
+
 
 
 
@@ -22229,6 +22944,7 @@ ownership        seleucid, parthia, slave, scythia
 
 
 
+
 type             merc indian skirmishers
 dictionary       merc_indian_skirmishers      ; merc indian skirmishers
 category         infantry
@@ -22254,6 +22970,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 30, 140
 ownership        all
+
 
 
 
@@ -22291,6 +23008,7 @@ ownership        seleucid, parthia, slave, scythia
 
 
 
+
 type             merc indian noble skirmishers
 dictionary       merc_indian_noble_skirmishers      ; merc indian noble skirmishers
 category         infantry
@@ -22316,6 +23034,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 20, 30, 140
 ownership        all
+
 
 
 
@@ -22354,6 +23073,7 @@ ownership        all
 
 
 
+
 type             indian ksatriya maceman
 dictionary       indian_ksatriya_maceman      ; indian ksatriya maceman
 category         infantry
@@ -22380,6 +23100,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        seleucid, parthia, scythia, parthia, slave
+
 
 
 
@@ -22418,6 +23139,7 @@ ownership        all
 
 
 
+
 type             indian ksatriya spearmen
 dictionary       indian_ksatriya_spearmen      ; indian ksatriya spearmen
 category         infantry
@@ -22444,6 +23166,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        slave, scythia, parthia, seleucid
+
 
 
 
@@ -22482,6 +23205,7 @@ ownership        all
 
 
 
+
 type             greek colonists
 dictionary       greek_colonists      ; greek colonists
 category         infantry
@@ -22507,6 +23231,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
 ownership        slave, greek_cities, romans_brutii
+
 
 
 
@@ -22543,6 +23268,7 @@ ownership        numidia, slave
 
 
 
+
 type             tribal warriors
 dictionary       tribal_warriors      ; tribal warriors
 category         infantry
@@ -22566,6 +23292,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 20, 30, 210
 ownership        slave, numidia
+
 
 
 
@@ -22601,6 +23328,7 @@ ownership        numidia, slave
 
 
 
+
 type             desert tribesmen
 dictionary       desert_tribesmen      ; desert tribesmen
 category         infantry
@@ -22624,6 +23352,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -22654,6 +23383,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        egypt, slave
+
 
 
 
@@ -22691,6 +23421,7 @@ ownership        egyptian, slave
 
 
 
+
 type             machimoi infantry
 dictionary       machimoi_infantry      ; machimoi infantry
 category         infantry
@@ -22716,6 +23447,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 30, 40, 230
 ownership        slave, egyptian
+
 
 
 
@@ -22753,6 +23485,7 @@ ownership        all
 
 
 
+
 type             merc machimoi infantry
 dictionary       merc_machimoi_infantry      ; merc machimoi infantry
 category         infantry
@@ -22778,6 +23511,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 30, 40, 230
 ownership        all
+
 
 
 
@@ -22816,6 +23550,7 @@ ownership        greek_cities, slave
 
 
 
+
 type             greek ionian hoplite
 dictionary       greek_ionian_hoplite      ; greek ionian hoplite
 category         infantry
@@ -22848,6 +23583,7 @@ ownership        greek_cities, slave
 
 
 
+
 type             rebel citizens
 dictionary       rebel_citizens      ; rebel citizens
 category         infantry
@@ -22871,6 +23607,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 30, 40, 210
 ownership        slave
+
 
 
 
@@ -22910,6 +23647,7 @@ ownership        scythia, slave, parthia, seleucid
 
 
 
+
 type             tocharian horse archers
 dictionary       tocharian_horse_archers      ; tocharian horse archers
 category         cavalry
@@ -22937,6 +23675,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 560, 120, 40, 50, 300
 ownership        scythia, slave, parthia, seleucid
+
 
 
 
@@ -22975,6 +23714,7 @@ ownership        germans, slave
 
 
 
+
 type             barb gothic swordsman
 dictionary       barb_gothic_swordsman      ; barb gothic swordsman
 category         infantry
@@ -23001,6 +23741,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -23039,6 +23780,7 @@ ownership        eastern, seleucid, slave, phoenicium
 
 
 
+
 type             armenian archer spearmen
 dictionary       armenian_archer_spearmen      ; armenian archer spearmen
 category         infantry
@@ -23065,6 +23807,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        armenia
+
 
 
 
@@ -23103,6 +23846,7 @@ ownership        all
 
 
 
+
 type             east heavy archer spearmen
 dictionary       east_heavy_archer_spearmen      ; east heavy archer spearmen
 category         infantry
@@ -23129,6 +23873,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        eastern, seleucid, slave, phoenicium
+
 
 
 
@@ -23166,6 +23911,7 @@ ownership        carthaginian, slave
 
 
 
+
 type             libyphoenician heavy infantry
 dictionary       libyphoenician_heavy_infantry      ; libyphoenician heavy infantry
 category         infantry
@@ -23190,7 +23936,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -23222,7 +23969,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -23253,7 +24001,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -23284,7 +24033,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage, slave
+ownership        carthage, slave, arados
+
 
 
 
@@ -23315,7 +24065,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -23346,7 +24097,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage, slave
+ownership        carthage, slave, arados
+
 
 
 
@@ -23378,7 +24130,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        carthage
+ownership        carthage, arados
+
 
 
 
@@ -23410,6 +24163,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 300, 65, 30, 40, 160
 ownership        armenia, slave, phoenicium
+
 
 
 
@@ -23448,6 +24202,7 @@ ownership        all
 
 
 
+
 type             machimoi thureophoroi
 dictionary       machimoi_thureophoroi      ; machimoi thureophoroi
 category         infantry
@@ -23473,7 +24228,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        egypt, slave, seleucid, carthage, greek_cities, macedon
+ownership        egypt, slave, seleucid, carthage, greek_cities, macedon, arados
+
 
 
 
@@ -23505,7 +24261,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 55, 40, 50, 140
-ownership        romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon
+ownership        romans_julii, thrace, carthage, armenia, egypt, greek_cities, macedon, arados
+
 
 
 
@@ -23537,7 +24294,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
-ownership        slave, egypt, armenia, pontus, seleucid, carthage, parthia
+ownership        slave, egypt, armenia, pontus, seleucid, carthage, parthia, arados
+
 
 
 
@@ -23576,6 +24334,7 @@ ownership        romans_julii
 
 
 
+
 type             greek colonial thureophoroi
 dictionary       greek_colonial_thureophoroi      ; greek colonial thureophoroi
 category         infantry
@@ -23602,6 +24361,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        greek, egyptian, eastern, carthaginian
+
 
 
 
@@ -23640,6 +24400,7 @@ ownership        all
 
 
 
+
 type             east phrygian takabara merc
 dictionary       east_phrygian_takabara_merc      ; east phrygian takabara merc
 category         infantry
@@ -23672,6 +24433,7 @@ ownership        all
 
 
 
+
 type             persian archer merc
 dictionary       persian_archer_merc      ; persian archer merc
 category         infantry
@@ -23698,6 +24460,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 40, 50, 190
 ownership        all
+
 
 
 
@@ -23737,6 +24500,7 @@ ownership        slave, eastern
 
 
 
+
 type             merc kurdish javelinmen
 dictionary       merc_kurdish_javelinmen      ; merc kurdish javelinmen
 category         infantry
@@ -23764,6 +24528,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
 ownership        all
+
 
 
 
@@ -23802,6 +24567,7 @@ ownership        eastern, slave, phoenicium
 
 
 
+
 type             merc iranian sparabara
 dictionary       merc_iranian_sparabara      ; merc iranian sparabara
 category         infantry
@@ -23828,6 +24594,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 85, 40, 50, 210
 ownership        all
+
 
 
 
@@ -23866,6 +24633,7 @@ ownership        all
 
 
 
+
 type             merc persian sparabara
 dictionary       east_sparabara_merc      ; merc persian sparabara
 category         infantry
@@ -23892,6 +24660,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 450, 90, 40, 50, 230
 ownership        all
+
 
 
 
@@ -23932,6 +24701,7 @@ ownership        all
 
 
 
+
 type             merc colchian archer
 dictionary       merc_colchian_archer      ; merc colchian archer
 category         infantry
@@ -23962,6 +24732,7 @@ ownership        all
 
 
 
+
 type             colchian archer
 dictionary       colchian_archer      ; colchian archer
 category         infantry
@@ -23986,6 +24757,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 360, 75, 20, 30, 190
 ownership        eastern, slave, phoenicium
+
 
 
 

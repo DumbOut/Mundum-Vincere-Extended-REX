@@ -484,18 +484,17 @@ can_sap						yes
 prefers_naval_invasions		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction						ravenna
-culture						roman
-symbol						models_strat/symbol_slaves.cas
-rebel_symbol				models_strat/symbol_slaves.cas
-primary_colour				red 170, green 95, blue 89
-secondary_colour			red 14, green 162, blue 164
-tertiary_colour			red 0, green 0, blue 0
-loading_logo				loading_screen/symbols/symbol128_ravenna.tga
-standard_index				42
-logo_index					FACTION_LOGO_RAVENNA
-small_logo_index			SMALL_FACTION_LOGO_RAVENNA
+faction						arados
+culture						carthaginian
+symbol						models_strat/symbol_carthage_rebel.CAS
+rebel_symbol				models_strat/symbol_carthage_rebel.CAS
+primary_colour				red 54, green 35, blue 105
+secondary_colour			red 255, green 255, blue 232
+loading_logo				loading_screen/symbols/symbol128_arados.tga
+standard_index				40
+logo_index					FACTION_LOGO_ARADOS
+small_logo_index			SMALL_FACTION_LOGO_ARADOS
 triumph_value				5
 custom_battle_availability	yes
 can_sap						yes
-prefers_naval_invasions		no
+prefers_naval_invasions		yes
