@@ -13353,7 +13353,7 @@ settlement
 }
 
 ;	Phoenicum
-character	Melkartshamaas Dathanid, named character, leader, age 42, , x 469, y 459
+character	Melkartshamaas Dathanid, named character, leader, age 42, , x 469, y 315
 traits GoodCommander 4 , GoodAdministrator 3 , Intelligent 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -13367,7 +13367,7 @@ unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 ;	Phoenicum 01
-character	Zimridaas Dathanid, named character, heir, age 22, , x 470, y 456
+character	Zimridaas Dathanid, named character, heir, age 22, , x 470, y 315
 traits GoodCommander 4 , GoodAdministrator 4 , Intelligent 1
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
@@ -14667,7 +14667,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 ;character FirstName LastName, named character, age 42, , x 1280, y 540
 
 faction	qin_01, balanced smith
-denari	190000
+denari	230000
 settlement
 {
     level town
@@ -14931,6 +14931,8 @@ unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
 unit	china light infantry	exp 0 armour 0 weapon_lvl 0
+unit	china crossbow	exp 0 armour 0 weapon_lvl 0
+unit	china light chariot	exp 0 armour 0 weapon_lvl 0
 unit	china crossbow	exp 0 armour 0 weapon_lvl 0
 unit	china light chariot	exp 0 armour 0 weapon_lvl 0
 
