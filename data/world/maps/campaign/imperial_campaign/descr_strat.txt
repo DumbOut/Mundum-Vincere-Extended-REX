@@ -5438,6 +5438,8 @@ settlement
 	garrisoned_army
 	unit		greek hoplite militia
 	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
 	building
 	{
 		type core_building governors_house
@@ -15362,7 +15364,7 @@ relative 	Aktaneus Aulouporid,		end
 
 
 faction	slave, balanced_smith
-denari	-2004800
+denari	-5004800
 settlement
 {
 	level town
@@ -15427,6 +15429,82 @@ settlement
 		type defenses stone_wall
 	}
 }
+
+settlement
+{
+	level town
+	region Badais_R
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator phoenicium
+	garrisoned_army
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Dimarae_R
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator seleucid
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Ravenna_R
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator cisra_01
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 
 settlement
 {
