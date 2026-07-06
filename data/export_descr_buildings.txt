@@ -19,6 +19,24 @@ hidden_resources sparta rome italy
 ;; 	;; if display_string isn't included it will just display the strings for the events normally
 ;; }
 
+tags
+{
+	temple
+}
+;;alises, give multiple conditions a string (or allow conditions with normally no string to display one)
+; alias roman_marian_reforms_triggered
+; {
+; 	requires factions { roman, } and major_event "marian_reforms"
+;
+; 	display_string roman_marian_reforms ;;gets a string from expanded_bi
+; 	;; if display_string isn't included it will just display the strings for the events normally
+; }
+alias no_other_temple
+{
+	requires no_building_tagged temple queued
+
+	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
+}
 
 building core_building
 {
@@ -4023,6 +4041,7 @@ building temple_of_battle
 {
     levels temple_of_battle_shrine temple_of_battle_temple temple_of_battle_large_temple temple_of_battle_awesome_temple temple_of_battle_pantheon 
     {
+        tag temple
         temple_of_battle_shrine requires factions { dacia, thrace, } 
         {
             capability
@@ -4109,6 +4128,7 @@ building temple_of_battleforge
 {
     levels temple_of_battleforge_shrine temple_of_battleforge_temple temple_of_battleforge_large_temple temple_of_battleforge_awesome_temple 
     {
+        tag temple
         temple_of_battleforge_shrine requires factions { spain, gauls, armenia, } 
         {
             capability
@@ -4186,6 +4206,7 @@ building temple_of_farming
 {
     levels temple_of_farming_shrine temple_of_farming_temple temple_of_farming_large_temple temple_of_farming_awesome_temple temple_of_farming_pantheon 
     {
+        tag temple
         temple_of_farming_shrine requires factions { dacia, carthage, numidia, macedon, arados, } 
         {
             capability
@@ -4271,6 +4292,7 @@ building temple_of_fertility
 {
     levels temple_of_fertility_shrine temple_of_fertility_temple temple_of_fertility_large_temple temple_of_fertility_awesome_temple temple_of_fertility_pantheon 
     {
+        tag temple
         temple_of_fertility_shrine requires factions { germans, sciria_01, egyptian, romans_julii, memnones, } 
         {
             capability
@@ -4360,6 +4382,7 @@ building temple_of_forge
 {
     levels temple_of_forge_shrine temple_of_forge_temple temple_of_forge_large_temple temple_of_forge_awesome_temple temple_of_forge_pantheon 
     {
+        tag temple
         temple_of_forge_shrine requires factions { dacia, seleucid, romans_scipii, } 
         {
             capability
@@ -4453,6 +4476,7 @@ building temple_of_fun
 {
     levels temple_of_fun_shrine temple_of_fun_temple temple_of_fun_large_temple temple_of_fun_awesome_temple temple_of_fun_pantheon 
     {
+        tag temple
         temple_of_fun_shrine requires factions { armenia, egyptian, thrace, seleucid, romans_julii, memnones, } 
         {
             capability
@@ -4533,6 +4557,7 @@ building temple_of_governors
 {
     levels temple_of_governors_shrine temple_of_governors_temple temple_of_governors_large_temple temple_of_governors_awesome_temple temple_of_governors_pantheon 
     {
+        tag temple
         temple_of_governors_shrine requires factions { pontus, macedon, } 
         {
             capability
@@ -4619,6 +4644,7 @@ building temple_of_healing
 {
     levels temple_of_healing_shrine temple_of_healing_temple temple_of_healing_large_temple temple_of_healing_awesome_temple temple_of_healing_pantheon 
     {
+        tag temple
         temple_of_healing_shrine requires factions { britons, egyptian, seleucid, romans_brutii, memnones, } 
         {
             capability
@@ -4711,6 +4737,7 @@ building temple_of_horse
 {
     levels temple_of_horse_shrine temple_of_horse_temple temple_of_horse_large_temple 
     {
+        tag temple
         temple_of_horse_shrine requires factions { spain, gauls, } 
         {
             capability
@@ -4764,6 +4791,7 @@ building temple_of_hunting
 {
     levels temple_of_hunting_shrine temple_of_hunting_temple temple_of_hunting_large_temple temple_of_hunting_awesome_temple temple_of_hunting_pantheon 
     {
+        tag temple
         temple_of_hunting_shrine requires factions { spain, gauls, macedon, } 
         {
             capability
@@ -4849,6 +4877,7 @@ building temple_of_justice
 {
     levels temple_of_justice_shrine temple_of_justice_temple temple_of_justice_large_temple temple_of_justice_awesome_temple temple_of_justice_pantheon 
     {
+        tag temple
         temple_of_justice_shrine requires factions { spain, gauls, carthage, numidia, egyptian, arados, memnones, } 
         {
             capability
@@ -4950,6 +4979,7 @@ building temple_of_law
 {
     levels temple_of_law_shrine temple_of_law_temple temple_of_law_large_temple temple_of_law_awesome_temple temple_of_law_pantheon 
     {
+        tag temple
         temple_of_law_shrine requires factions { scythia, egyptian, romans_scipii, memnones, } 
         {
             capability
@@ -5038,6 +5068,7 @@ building temple_of_leadership
 {
     levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon 
     {
+        tag temple
         temple_of_leadership_shrine requires factions { armenia, greek_cities, romans_julii, } 
         {
             capability
@@ -5124,6 +5155,7 @@ building temple_of_love
 {
     levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon 
     {
+        tag temple
         temple_of_love_shrine requires factions { scythia, pontus, greek_cities, } 
         {
             capability
@@ -5217,6 +5249,7 @@ building temple_of_naval
 {
     levels temple_of_naval_shrine temple_of_naval_temple temple_of_naval_large_temple temple_of_naval_awesome_temple temple_of_naval_pantheon 
     {
+        tag temple
         temple_of_naval_shrine requires factions { romans_scipii, }  and building_present_min_level port_buildings port
         {
             capability
@@ -5302,6 +5335,7 @@ building temple_of_one_god
 {
     levels temple_of_one_god_shrine temple_of_one_god_temple temple_of_one_god_large_temple temple_of_one_god_awesome_temple temple_of_one_god_pantheon 
     {
+        tag temple
         temple_of_one_god_shrine requires factions { parthia, } 
         {
             capability
@@ -5385,6 +5419,7 @@ building temple_of_trade
 {
     levels temple_of_trade_shrine temple_of_trade_temple temple_of_trade_large_temple temple_of_trade_awesome_temple temple_of_trade_pantheon 
     {
+        tag temple
         temple_of_trade_shrine requires factions { britons, carthage, numidia, greek_cities, romans_brutii, arados, } 
         {
             capability
@@ -5470,6 +5505,7 @@ building temple_of_victory
 {
     levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon 
     {
+        tag temple
         temple_of_victory_shrine requires factions { britons, greek_cities, } 
         {
             capability
@@ -5564,6 +5600,7 @@ building temple_of_violence
 {
     levels temple_of_violence_shrine temple_of_violence_temple temple_of_violence_large_temple temple_of_violence_awesome_temple temple_of_violence_pantheon 
     {
+        tag temple
         temple_of_violence_shrine requires factions { germans, sciria_01, pontus, macedon, romans_brutii, } 
         {
             capability
@@ -5654,6 +5691,7 @@ building temple_of_viking
 {
     levels temple_of_viking_shrine temple_of_viking_temple temple_of_viking_large_temple 
     {
+        tag temple
         temple_of_viking_shrine requires factions { germans, sciria_01, } 
         {
             capability
@@ -5710,6 +5748,7 @@ building temple_of_horse_2
 {
     levels temple_of_horse_2_shrine temple_of_horse_2_temple temple_of_horse_2_large_temple 
     {
+        tag temple
         temple_of_horse_2_shrine requires factions { scythia, } 
         {
             capability
@@ -5764,6 +5803,7 @@ building temple_of_alexander
 
 	levels temple_of_alexander_shrine temple_of_alexander_temple temple_of_alexander_large_temple temple_of_alexander_awesome_temple temple_of_alexander_pantheon 
 	{
+        tag temple
 		temple_of_alexander_shrine requires factions { macedon, seleucid, egypt, memnones, }
 		{
 			capability
@@ -5858,6 +5898,7 @@ building temple_of_argeadai
 {
     levels temple_of_argeadai_shrine temple_of_argeadai_temple temple_of_argeadai_large_temple temple_of_argeadai_awesome_temple temple_of_argeadai_pantheon 
     {
+        tag temple
         temple_of_argeadai_shrine requires factions { macedon, } 
         {
             capability
@@ -5948,6 +5989,7 @@ building temple_of_nikaea_massilia
 {
     levels temple_of_nikaea_massilia_shrine temple_of_nikaea_massilia_temple temple_of_nikaea_massilia_large_temple temple_of_nikaea_massilia_awesome_temple temple_of_nikaea_massilia_pantheon 
     {
+        tag temple
         temple_of_nikaea_massilia_shrine requires factions { massilia_01, } 
         {
             capability
@@ -6042,6 +6084,7 @@ building temple_of_aita_cisra
 {
     levels temple_of_aita_cisra_shrine temple_of_aita_cisra_temple temple_of_aita_cisra_large_temple temple_of_aita_cisra_awesome_temple temple_of_aita_cisra_pantheon 
     {
+        tag temple
         temple_of_aita_cisra_shrine requires factions { cisra_01, } 
         {
             capability
@@ -6131,6 +6174,7 @@ building temple_of_tarchon_cisra
 {
     levels temple_of_tarchon_cisra_shrine temple_of_tarchon_cisra_temple temple_of_tarchon_cisra_large_temple temple_of_tarchon_cisra_awesome_temple temple_of_tarchon_cisra_pantheon 
     {
+        tag temple
         temple_of_tarchon_cisra_shrine requires factions { cisra_01, } 
         {
             capability
@@ -6221,6 +6265,7 @@ building temple_of_thessalidai_kos
 {
     levels temple_of_thessalidai_kos_shrine temple_of_thessalidai_kos_temple temple_of_thessalidai_kos_large_temple temple_of_thessalidai_kos_awesome_temple temple_of_thessalidai_kos_pantheon 
     {
+        tag temple
         temple_of_thessalidai_kos_shrine requires factions { kos_01, } 
         {
             capability
@@ -6312,6 +6357,7 @@ building temple_of_velchanos_itanos
 {
     levels temple_of_velchanos_itanos_shrine temple_of_velchanos_itanos_temple temple_of_velchanos_itanos_large_temple temple_of_velchanos_itanos_awesome_temple temple_of_velchanos_itanos_pantheon 
     {
+        tag temple
         temple_of_velchanos_itanos_shrine requires factions { itanos_01, } 
         {
             capability
@@ -6402,6 +6448,7 @@ building temple_of_diktynna_itanos
 {
     levels temple_of_diktynna_itanos_shrine temple_of_diktynna_itanos_temple temple_of_diktynna_itanos_large_temple temple_of_diktynna_itanos_awesome_temple temple_of_diktynna_itanos_pantheon 
     {
+        tag temple
         temple_of_diktynna_itanos_shrine requires factions { itanos_01, } 
         {
             capability
@@ -6491,6 +6538,7 @@ building temple_of_dushara_thamud
 {
     levels temple_of_dushara_thamud_shrine temple_of_dushara_thamud_temple temple_of_dushara_thamud_large_temple temple_of_dushara_thamud_awesome_temple temple_of_dushara_thamud_pantheon
     {
+        tag temple
         temple_of_dushara_thamud_shrine requires factions { thamud_01, phoenicium, }
         {
             capability
@@ -6580,6 +6628,7 @@ building temple_of_allat_thamud
 {
     levels temple_of_allat_thamud_shrine temple_of_allat_thamud_temple temple_of_allat_thamud_large_temple temple_of_allat_thamud_awesome_temple temple_of_allat_thamud_pantheon
     {
+        tag temple
         temple_of_allat_thamud_shrine requires factions { thamud_01, phoenicium, }
         {
             capability
