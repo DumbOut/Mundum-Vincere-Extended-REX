@@ -52,8 +52,8 @@ resource_role_source  data_only
 ;                                 ports. 1.0 = vanilla linear falloff; >1 = trade drops off faster (shorter reach);
 ;                                 <1 = distance matters less (longer reach).
 ;   sea_trade_max_mp            = hard cutoff. a port whose route_mp exceeds this earns no sea trade. 0 = no limit.
-sea_trade_base_multiplier    8.0
-sea_trade_distance_exponent  1.0
+sea_trade_base_multiplier    12.0
+sea_trade_distance_exponent  3.0
 sea_trade_max_mp             0
 
 ; fog_of_war_shroud - how unexplored campaign-map tiles are drawn:

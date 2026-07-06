@@ -17,17 +17,22 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 12000
+max_factions 9000000
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
 superfaction_min_regions 36
 
+; Custom AI troop-persona profile override:
+; ai_personality <troop_persona> <sally_aggression 0-8192> <sally_desperate 0-8192> <attack_risk 0-4> <subterfuge_risk 0-7> <opt:flags...>
+; flags: extreme_aggression, tartarus_aggression, reckless_sally, desperate_defense, expansionist, cautious_expansion, spy_master, low_subterfuge
+ai_personality napoleon 8192 8192 4 7 extreme_aggression expansionist spy_master
+
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 5200000.0
+camera_max_height 16000.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -46,28 +51,38 @@ disable_console false
 ; Set false to keep vanilla Loot / Enslave / Exterminate only.
 expanded_settlement_capture_options true
 
+; Optional micro-feature toggles (default false)
+fast_lobby_refresh true
+async_map_sidecar_lookup true
+quick_auto_resolve_summary true
+compact_agent_tooltips true
+prefer_cached_ui_textures false
+lightweight_turn_notifications false
+skip_redundant_advisor_popups true
+keep_campaign_camera_on_player true
+lazy_lobby_avatar_load false
+cache_campaign_tooltips false
+defer_advisor_audio_load false
+fast_menu_backdrops true
+prefetch_campaign_map_pngs true
+reuse_loading_screen_art false
+trim_idle_network_polls false
+cache_descr_strat_tokens false
+campaign_quick_confirm false
+battle_minimal_toasts false
+ui_4k_mode false
+
 ; Minimum seconds the main loading screen must stay visible before closing.
 ; Useful so players can finish reading quote / tip text on fast machines.
 ; 0 disables the delay entirely. Fractional values allowed.
 minimum_load_time 0
-
-; RTW multiplayer campaign. When enabled, multiplayer_campaign.json defines
-; player/faction ownership; if that file cannot be used, playable factions become
-; a hotseat fallback.
-multiplayer_campaign_enabled true
-multiplayer_campaign_max_players 14
-multiplayer_campaign_debug_logs true
-multiplayer_campaign_checksums false
-multiplayer_campaign_allow_multi_faction_player true
-multiplayer_campaign_allow_all_factions true
-multiplayer_campaign_autoresolve_hvh_battles false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Gameplay
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight false
+easy_nightfight true
 
 ; Limit each general to building/removing one watchtower per turn (default false)
 one_watchtower_per_general_per_turn false
@@ -91,10 +106,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 1.0
+bribe_cost_army 2.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 1.0
+bribe_cost_settlement 2.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
@@ -115,13 +130,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 127
+max_age_before_death 150
 
 ; Age the random old-age death check begins (default 60)
 old_age 100
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 120
+max_age 1157
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -151,10 +166,10 @@ min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 100
+max_age_for_conception 80
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 8000
+max_num_ancillaries 800
 
 ; Max children a character can have (default 4)
 max_num_children 4000

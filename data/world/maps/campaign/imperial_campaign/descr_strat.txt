@@ -5589,6 +5589,45 @@ settlement
 settlement
 {
 	level large_town
+	region Ourania
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator carthage
+	garrisoned_army
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	unit		greek hoplite militia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
 	region Cilicia
 
 	year_founded 0
