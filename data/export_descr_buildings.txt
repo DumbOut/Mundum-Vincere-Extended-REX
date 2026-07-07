@@ -1,6 +1,7 @@
 ;This file is generated from a spreadsheet
 ;Please do not modify by hand
-; Explicit classification overrides the automatic classification, so if you don't like the above classifications, you can overule them.
+; Explicit classification overrides the automatic classification, so if you don't like the above classifications, you can overule th
+em.
 
 hidden_resources sparta rome italy
 
@@ -24,7 +25,7 @@ building core_building
 {
     levels governors_house governors_villa governors_palace proconsuls_palace imperial_palace 
     {
-        governors_house requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        governors_house requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -49,7 +50,7 @@ building core_building
                 governors_villa
             }
         }
-        governors_villa requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        governors_villa requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -115,6 +116,10 @@ building core_building
                 recruit "sarmatian warlord"  0  requires factions { slave, }
                 recruit "hunnic warlords"  0  requires factions { slave, }
                 recruit "gaetulian chieftains cavalry"  0  requires factions { slave, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian General"  0  requires factions { mauryans, }
+                recruit "china generals early"  0  requires factions { qin_01, }
 }
             construction  2 
             cost  900 
@@ -124,7 +129,7 @@ building core_building
                 governors_palace
             }
         }
-        governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {          
@@ -200,7 +205,7 @@ building core_building
                 proconsuls_palace
             }
         }
-        proconsuls_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        proconsuls_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -276,7 +281,7 @@ building core_building
                 imperial_palace
             }
         }
-        imperial_palace requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, } 
+        imperial_palace requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, } 
         {
             capability
             {
@@ -453,7 +458,7 @@ building barracks
 {
     levels muster_field militia_barracks city_barracks army_barracks royal_barracks 
     {
-        muster_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        muster_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -524,7 +529,7 @@ building barracks
                 militia_barracks
             }
         }
-        militia_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        militia_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -842,6 +847,13 @@ building barracks
                 recruit "merc illyrian pirate"  0  requires factions { all, }
                 recruit "merc steppe light axemen"  0  requires factions { all, }
                 recruit "merc aestii axemen"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Spearmen"  0  requires factions { mauryans, }
+                recruit "Minbin Wei"  0  requires factions { qin_01, }
+                recruit "qin_maoshou"  0  requires factions { qin_01, }
+                recruit "china light infantry"  0  requires factions { qin_01, }
+                recruit "rebel citizens"  0  requires factions { slave, }
 }
             construction  3 
             cost  1200 
@@ -851,7 +863,7 @@ building barracks
                 city_barracks
             }
         }
-        city_barracks requires factions { barbarian, carthage, numidia, eastern, upper_chinese, egyptian, greek, roman, phoenicium, arados, memnones, } 
+        city_barracks requires factions { barbarian, carthage, numidia, eastern, upper_chinese, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, } 
         {
             capability
             {
@@ -1227,6 +1239,10 @@ building barracks
                 recruit "merc steppe light spearmen"  0  requires factions { all, }
                 recruit "merc steppe light axemen"  0  requires factions { all, }
                 recruit "merc aestii axemen"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "china swords infantry"  0  requires factions { qin_01, }
+                recruit "china phalanx"  0  requires factions { qin_01, }
 }
             construction  4 
             cost  2400 
@@ -1236,7 +1252,7 @@ building barracks
                 army_barracks
             }
         }
-        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, }
+        army_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -1680,6 +1696,10 @@ building barracks
                 recruit "merc steppe light spearmen"  0  requires factions { all, }
                 recruit "merc steppe light axemen"  0  requires factions { all, }
                 recruit "merc aestii axemen"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "china heavy infantry"  0  requires factions { qin_01, }
+                recruit "china suicide squad"  0  requires factions { qin_01, }
 }
             construction  6 
             cost  4800 
@@ -1689,7 +1709,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, } 
+        royal_barracks requires factions { greek, roman, carthage, numidia, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, qin_01, } 
         {
             capability
             {
@@ -2134,6 +2154,9 @@ building barracks
                 recruit "merc steppe light spearmen"  0  requires factions { all, }
                 recruit "merc steppe light axemen"  0  requires factions { all, }
                 recruit "merc aestii axemen"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "china elite infantry"  0  requires factions { qin_01, }
 }
             construction  7 
             cost  9600 
@@ -2151,7 +2174,7 @@ building equestrian
 {
     levels stables cavalry_barracks hippodrome circus_maximus 
     {
-        stables requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        stables requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -2214,6 +2237,9 @@ building equestrian
                 recruit "hunnic archers"  0  requires factions { slave, }
                 recruit "pictish mounted skirmishers"  0  requires factions { slave, }
                 recruit "gaetulian camel skirmishers"  0  requires factions { slave, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Light Cavalry"  0  requires factions { mauryans, }
 }
             construction  3 
             cost  1200 
@@ -2223,7 +2249,7 @@ building equestrian
                 cavalry_barracks
             }
         }
-        cavalry_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        cavalry_barracks requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -2410,6 +2436,11 @@ building equestrian
                 recruit "gaetulian camel skirmishers"  0  requires factions { slave, }
                 recruit "numidian camel warriors"  0  requires factions { numidia, slave, }
                 recruit "thracian hippakontistai"  0  requires factions { thrace, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Medium Cavalry"  0  requires factions { mauryans, }
+                recruit "china horse crossbow"  0  requires factions { qin_01, }
+                recruit "china horse archer"  0  requires factions { qin_01, }
 }
             construction  4 
             cost  2400 
@@ -2419,7 +2450,7 @@ building equestrian
                 hippodrome
             }
         }
-        hippodrome requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        hippodrome requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -2690,6 +2721,10 @@ building equestrian
                 recruit "italic light cavalry"  0  requires factions { roman, }
                 recruit "roman light cavalry early"  0  requires factions { roman, }
                 recruit "roman medium cavalry early"  0  requires factions { roman, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Chariots"  0  requires factions { mauryans, }
+                recruit "china light chariot"  0  requires factions { qin_01, }
 }
             construction  6 
             cost  4800 
@@ -2699,7 +2734,7 @@ building equestrian
                 circus_maximus
             }
         }
-        circus_maximus requires factions { carthaginian, parthia, macedon, seleucid, roman, greek, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, } 
+        circus_maximus requires factions { carthaginian, parthia, macedon, seleucid, roman, greek, eastern, upper_chinese, egyptian, barbarian, phoenicium, arados, memnones, qin_01, } 
         {
             capability
             {
@@ -3000,6 +3035,11 @@ building equestrian
                 recruit "roman medium cavalry early"  0  requires factions { roman, }
                 recruit "roman heavy cavalry early"  0  requires factions { roman, }
                 recruit "roman marian heavy cavalry"  0  requires factions { roman, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Elephants"  0  requires factions { mauryans, }
+                recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
+                recruit "greek baktrian cataphract"  0  requires factions { slave, }
 }
             construction  7 
             cost  9600 
@@ -3017,7 +3057,7 @@ building missiles
 {
     levels practice_field archery_range catapult_range siege_engineer 
     {
-        practice_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        practice_field requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -3140,6 +3180,10 @@ building missiles
                 recruit "roman light archer"  0  requires factions { roman, }
                 recruit "roman marian skirmisher"  0  requires factions { roman, }
                 recruit "merc aestii skirmishers"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Javelin Men"  0  requires factions { mauryans, }
+                recruit "Indian Slingers"  0  requires factions { mauryans, }
 }
             construction  3 
             cost  1200 
@@ -3149,7 +3193,7 @@ building missiles
                 archery_range
             }
         }
-        archery_range requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        archery_range requires factions { barbarian, carthage, numidia, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -3348,6 +3392,14 @@ building missiles
                 recruit "roman marian skirmisher"  0  requires factions { roman, }
                 recruit "merc euzonoi"  0  requires factions { all, }
                 recruit "merc aestii skirmishers"  0  requires factions { all, }
+
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "Indian Female Archers"  0  requires factions { mauryans, }
+                recruit "Indian Levy Archers"  0  requires factions { mauryans, }
+                recruit "Indian Longbowmen"  0  requires factions { mauryans, }
+                recruit "china archer"  0  requires factions { qin_01, }
+                recruit "china crossbow"  0  requires factions { qin_01, }
+                recruit "china armoured crossbow"  0  requires factions { qin_01, }
 }
             construction  4 
             cost  2400 
@@ -3357,7 +3409,7 @@ building missiles
                 catapult_range
             }
         }
-        catapult_range requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        catapult_range requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -3569,7 +3621,7 @@ building missiles
                 siege_engineer
             }
         }
-        siege_engineer requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        siege_engineer requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -4004,7 +4056,7 @@ building port_buildings
 {
     levels port shipwright dockyard 
     {
-        port requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, }
+        port requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
             {
@@ -4015,7 +4067,10 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 trade_fleet 1 ;trade_base_income_bonus bonus 1 
-            }
+            
+                ;; auto-added missing EDU units (non-civilian)
+                recruit "naval pirate ships"  0  requires factions { slave, }
+}
             construction  2 
             cost  800 
             settlement_min large_town
@@ -4024,7 +4079,7 @@ building port_buildings
                 shipwright
             }
         }
-        shipwright requires factions { barbarian, carthage, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, } 
+        shipwright requires factions { barbarian, carthage, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, } 
         {
             capability
             {
@@ -4051,7 +4106,7 @@ building port_buildings
                 dockyard
             }
         }
-        dockyard requires factions { carthage, eastern, upper_chinese, parthia, greek, roman, phoenicium, arados, } 
+        dockyard requires factions { carthage, eastern, upper_chinese, parthia, greek, roman, phoenicium, arados, qin_01, } 
         {
             capability
             {
