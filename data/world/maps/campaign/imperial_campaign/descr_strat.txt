@@ -13494,7 +13494,7 @@ settlement
 }
 
 ;	Memnonia
-character	Ptahotem, named character, leader, age 36, , x 457, y 180
+character	Ptahotem, named character, leader, age 42, , x 457, y 180
 traits GoodCommander 5 , GoodAdministrator 3 , Intelligent 2
 army
 unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
@@ -13516,7 +13516,7 @@ unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 
 ;	Memnonia 1
-character	Sekhemwy, named character, heir, age 16, ,  x 458, y 180
+character	Sekhemwy, named character, heir, age 18, ,  x 458, y 180
 traits GoodCommander 5 , GoodAdministrator 4 , Intelligent 1
 army
 unit		egyptian general's bodyguard early				exp 5 armour 3 weapon_lvl 3
@@ -13545,7 +13545,7 @@ relative 	Ptahotem, 	Hebeny,		Sekhemwy,	Berenike,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	numidia, balanced henry
-denari	18910
+denari	18930
 settlement
 {
 	level large_town
