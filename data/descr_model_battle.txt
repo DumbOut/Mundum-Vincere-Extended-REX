@@ -131,7 +131,7 @@ type				barb_standard
 skeleton			fs_standard_bearer
 indiv_range			40
 texture				all, data/models_unit/textures/officer_barb_standard_dacia.tga
-texture				slave, dacia, data/models_unit/textures/officer_barb_standard_dacia.tga
+texture				dacia, data/models_unit/textures/officer_barb_standard_dacia.tga
 texture				default, data/models_unit/textures/officer_barb_standard_dacia.tga
 texture				gauls, data/models_unit/textures/officer_barb_standard_gaul.tga
 texture				britons, data/models_unit/textures/officer_barb_standard_briton.tga
@@ -406,7 +406,7 @@ skeleton			fs_fast_horse
 scale				0.875
 indiv_range			40
 texture				all, Data/models_unit/textures/NL_HORSE_LIGHT_DACIA.TGA
-texture				slave, dacia, Data/models_unit/textures/NL_HORSE_LIGHT_DACIA.TGA
+texture				dacia, Data/models_unit/textures/NL_HORSE_LIGHT_DACIA.TGA
 texture				default, Data/models_unit/textures/NL_HORSE_LIGHT_MERC.TGA
 texture				slave, Data/models_unit/textures/NL_HORSE_BARE.TGA
 texture				cisra_01, Data/models_unit/textures/NL_HORSE_BARE.TGA
@@ -468,7 +468,7 @@ skeleton			fs_fast_horse
 scale				0.875
 indiv_range			40
 texture				all, Data/models_unit/textures/NL_HORSE_MEDIUM_SLAVE.TGA
-texture				slave, dacia, Data/models_unit/textures/NL_HORSE_MEDIUM_DACIA.TGA
+texture				dacia, Data/models_unit/textures/NL_HORSE_MEDIUM_DACIA.TGA
 texture				default, Data/models_unit/textures/NL_HORSE_MEDIUM_MERC.TGA
 texture				slave, Data/models_unit/textures/NL_HORSE_MEDIUM_SLAVE.TGA
 texture				cisra_01, Data/models_unit/textures/NL_HORSE_MEDIUM_SLAVE.TGA
@@ -529,7 +529,7 @@ skeleton			fs_fast_horse
 scale				0.875
 indiv_range			40
 texture				all, Data/models_unit/textures/NL_HORSE_HEAVY_SLAVE.TGA
-texture				slave, dacia, Data/models_unit/textures/NL_HORSE_HEAVY_DACIA.TGA
+texture				dacia, Data/models_unit/textures/NL_HORSE_HEAVY_DACIA.TGA
 texture				slave, Data/models_unit/textures/NL_HORSE_HEAVY_SLAVE.TGA
 texture				default, Data/models_unit/textures/NL_HORSE_HEAVY_MERC.TGA
 texture				romans_julii, Data/models_unit/textures/NL_HORSE_HEAVY_JULII.TGA
@@ -587,7 +587,7 @@ skeleton			fs_fast_horse
 scale				0.875
 indiv_range			40
 texture				all, Data/models_unit/textures/NL_GENERALS_HORSE_SLAVE.TGA
-texture				slave, dacia, Data/models_unit/textures/NL_GENERALS_HORSE_DACIA.TGA
+texture				dacia, Data/models_unit/textures/NL_GENERALS_HORSE_DACIA.TGA
 texture				slave, Data/models_unit/textures/NL_GENERALS_HORSE_SLAVE.TGA
 texture				cisra_01, Data/models_unit/textures/NL_GENERALS_HORSE_SLAVE.TGA
 texture				itanos_01, Data/models_unit/textures/NL_GENERALS_HORSE_SLAVE.TGA
@@ -1063,7 +1063,7 @@ indiv_range			40
 texture				all, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_SLAVE.tga
 texture				slave, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_SLAVE.tga
 texture				default, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_MERC.tga
-texture				slave, dacia, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_DACIA.tga
+texture				dacia, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_DACIA.tga
 texture				gauls, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_GAUL.tga
 texture				britons, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_BRITON.tga
 texture				germans, Data/models_unit/textures/UNIT_NL_BARB_MUSICIAN_GERMAN.tga
@@ -1797,7 +1797,7 @@ indiv_range			40
 texture				all, data/models_unit/textures/A_officer_greek_hoplite_slave.tga
 texture				slave, data/models_unit/textures/A_officer_greek_hoplite_slave.tga
 texture				default, data/models_unit/textures/unit_nl_officer_greek_hoplite_mercs.tga
-texture				slave, dacia, Data/models_unit/textures/UNIT_NL_OFFICER_GREEK_HOPLITE_DACIAN.TGA
+texture				dacia, Data/models_unit/textures/UNIT_NL_OFFICER_GREEK_HOPLITE_DACIAN.TGA
 texture				macedon, data/models_unit/textures/A_officer_greek_hoplite_macedon.tga
 texture				egypt, data/models_unit/textures/A_officer_greek_hoplite_egypt.tga
 texture				seleucid, data/models_unit/textures/A_officer_greek_hoplite_seleucid.tga
@@ -2521,7 +2521,7 @@ type				barb_warguard
 skeleton			fs_s1_javelinman, fs_s1_barbswordsman
 indiv_range			40
 texture				all, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_SLAVE.TGA
-texture				slave, dacia, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_DACIAN.TGA
+texture				dacia, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_DACIAN.TGA
 texture				slave, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_SLAVE.TGA
 texture				default, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_DACIAN.TGA
 texture				britons, Data/models_unit/textures/UNIT_NL_BARB_HEAVY_INFANTRY_BRITON.TGA
@@ -2558,7 +2558,7 @@ skeleton			fs_spearman
 indiv_range			40
 texture				all, Data/models_unit/textures/unit_barb_infantry_slave.tga
 texture				slave, Data/models_unit/textures/unit_barb_infantry_slave.tga
-texture				slave, dacia, Data/models_unit/textures/unit_barb_infantry_dacia.tga
+texture				dacia, Data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				default, Data/models_unit/textures/unit_barb_infantry_slave.tga
 texture				britons, Data/models_unit/textures/unit_barb_infantry_briton.tga
 texture				scythia, Data/models_unit/textures/unit_barb_infantry_scythia.tga
@@ -2584,7 +2584,7 @@ type				barb_infantry_longshield
 skeleton			fs_spearman
 indiv_range			40
 texture				all, Data/models_unit/textures/unit_NL_barb_infantry_longshield_celtic_slave.tga
-texture				slave, dacia, Data/models_unit/textures/unit_barb_warband_dacian.tga
+texture				dacia, Data/models_unit/textures/unit_barb_warband_dacian.tga
 texture				slave, Data/models_unit/textures/unit_NL_barb_infantry_longshield_celtic_slave.tga
 texture				default, Data/models_unit/textures/unit_barb_warband_dacian.tga
 texture				gauls, Data/models_unit/textures/unit_barb_warband_gaul.tga
@@ -2739,7 +2739,7 @@ type				barb_peasant_gaul
 skeleton			fs_s1_fast_javelinman, fs_fast_dagger
 indiv_range			40
 texture				all, data/models_unit/textures/unit_NL_barb_peasant_slave.tga
-texture				slave, dacia, data/models_unit/textures/unit_NL_barb_peasant_dacian.tga
+texture				dacia, data/models_unit/textures/unit_NL_barb_peasant_dacian.tga
 texture				slave, data/models_unit/textures/unit_NL_barb_peasant_slave.tga
 texture				default, data/models_unit/textures/unit_NL_barb_peasant_dacian.tga
 texture				gauls, data/models_unit/textures/unit_NL_barb_peasant_gaul.tga
@@ -2792,7 +2792,7 @@ type				barb_peltast_german
 skeleton			fs_s1_fast_javelinman, fs_fast_spearman
 indiv_range			40
 texture				all, data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_SLAVE.tga
-texture				slave, dacia,	 data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_DACIAN.tga
+texture				dacia,	 data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_DACIAN.tga
 texture				slave, data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_SLAVE.tga
 texture				default, data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_DACIAN.tga
 texture				germans, data/models_unit/textures/UNIT_NL_GERMAN_YOUNGSPEARS_GERMAN.tga
@@ -3157,7 +3157,7 @@ type				barb_naked_fanatic
 skeleton			fs_s1_fast_javelinman, fs_s1_barbswordsman
 indiv_range			40
 texture				all, Data/models_unit/textures/unit_gaesatae_slave.tga
-texture				slave, dacia, Data/models_unit/textures/unit_gaesatae_dacian.tga
+texture				dacia, Data/models_unit/textures/unit_gaesatae_dacian.tga
 texture				slave, Data/models_unit/textures/unit_gaesatae_slave.tga
 texture				default, Data/models_unit/textures/unit_gaesatae_dacian.tga
 texture				britons, Data/models_unit/textures/unit_gaesatae_briton.tga
@@ -5079,7 +5079,7 @@ type				macedon_agema_cavalry
 skeleton			fs_hc_spearman, fs_hc_swordsman
 indiv_range			40
 texture				all, data/models_unit/textures/UNIT_NL_HETAIROI_AGEMA_DACIA.TGA
-texture				slave, dacia, data/models_unit/textures/UNIT_NL_HETAIROI_AGEMA_DACIA.TGA
+texture				dacia, data/models_unit/textures/UNIT_NL_HETAIROI_AGEMA_DACIA.TGA
 texture				default, data/models_unit/textures/UNIT_NL_HETAIROI_AGEMA_DACIA.TGA
 texture				macedon, data/models_unit/textures/UNIT_NL_HETAIROI_AGEMA_MACEDON.TGA
 model_flexi_m		         data/models_unit/unit_NL_macedon_agema_cavalry_high.cas, 15
@@ -6867,7 +6867,7 @@ skeleton			fs_dagger
 indiv_range			40
 texture				all, Data/models_unit/textures/UNIT_NL_CIVILIAN_SLAVE.tga
 texture				default, Data/models_unit/textures/UNIT_NL_SIEGE_ENGINEER_MERC.tga
-texture				slave, dacia, Data/models_unit/textures/UNIT_NL_CIVILIAN_DACIAN.tga
+texture				dacia, Data/models_unit/textures/UNIT_NL_CIVILIAN_DACIAN.tga
 texture				slave, Data/models_unit/textures/UNIT_NL_CIVILIAN_SLAVE.tga
 texture				merc, Data/models_unit/textures/UNIT_NL_SIEGE_ENGINEER_MERC.tga
 texture				gauls, Data/models_unit/textures/UNIT_NL_CIVILIAN_GAUL.tga
@@ -9076,7 +9076,7 @@ type				barb_cavalry
 skeleton			fs_hc_spearman										; combat spear
 indiv_range			40
 texture				all, data/models_unit/textures/unit_barb_warband_slave.tga
-texture				slave, dacia, data/models_unit/textures/unit_barb_warband_dacia_.tga
+texture				dacia, data/models_unit/textures/unit_barb_warband_dacia_.tga
 texture				slave, data/models_unit/textures/unit_barb_warband_slave.tga
 texture				default, data/models_unit/textures/unit_barb_warband_slave.tga
 texture				gauls, data/models_unit/textures/unit_barb_warband_gaul_.tga
@@ -9097,7 +9097,7 @@ type				barb_crew
 skeleton			fs_dagger
 indiv_range			40
 texture				all, data/models_unit/textures/unit_barb_infantry_dacia.tga
-texture				slave, dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
+texture				dacia, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				default, data/models_unit/textures/unit_barb_infantry_dacia.tga
 texture				gauls, data/models_unit/textures/unit_barb_infantry_gaul.tga
 texture				britons, data/models_unit/textures/unit_barb_infantry_briton.tga
