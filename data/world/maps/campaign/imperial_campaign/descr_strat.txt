@@ -13494,7 +13494,7 @@ settlement
 }
 
 ;	Memnonia
-character	Ptahotem, named character, leader, age 42, , x 457, y 180
+character	Ptahotem, named character, leader, age 46, , x 457, y 180
 traits GoodCommander 5 , GoodAdministrator 3 , Intelligent 2
 army
 unit		egyptian general's bodyguard early				exp 9 armour 5 weapon_lvl 5
@@ -13510,10 +13510,6 @@ unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen			exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
 
 ;	Memnonia 1
 character	Sekhemwy, named character, heir, age 18, ,  x 458, y 180
@@ -13532,11 +13528,9 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 2 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 1 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character_record		Hebeny, 	female, command 0, influence 1, management 1, subterfuge 0, age 36, alive, never_a_leader
-character_record		Berenike, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+character_record		Hebeny, 	female, command 0, influence 1, management 1, subterfuge 0, age 46, alive, never_a_leader
+character_record		Berenike, 	female, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 
 relative 	Ptahotem, 	Hebeny,		Sekhemwy,	Berenike,	end
 
