@@ -1,0 +1,17 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ex_descr_ai_personality
+; descr_ex-compatible AI troop personality overrides.
+; Copy these lines into descr_ex.txt or keep this as a modder reference.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ai_personality smith 15 80 2 1
+ai_personality mao 35 20 2 0
+ai_personality genghis 90 99 2 4
+ai_personality stalin 50 50 2 2
+ai_personality napoleon 50 50 2 7
+ai_personality henry 80 30 2 3
+ai_personality caesar 60 65 2 6
+
+; Accepted descr_strat aliases:
+; superaggressive, superagressive, ex_superaggressive, ex_superagressive
+ai_personality ex_superaggressive 32768 32768 8 16 extreme_aggression expansionist spy_master

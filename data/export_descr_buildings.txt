@@ -1,7 +1,6 @@
 ;This file is generated from a spreadsheet
 ;Please do not modify by hand
 ; Explicit classification overrides the automatic classification, so if you don't like the above classifications, you can overule th
-em.
 
 hidden_resources sparta rome italy
 
@@ -494,6 +493,7 @@ building barracks
                 recruit "greek levy pikemen east"  0  requires factions { seleucid, egypt, macedon, thrace, greek_cities, romans_brutii, } 
                 recruit "armenian militia"  0  requires factions { armenia, } 
                 recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "macedon hoplite classical 01"  0  requires factions { macedon, }
                 recruit "greek levy pikemen merc"  0  requires factions { greek_cities, egypt, seleucid, }
                 recruit "carthaginian levy pike"  0  requires factions { carthage, }
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, }
@@ -578,7 +578,8 @@ building barracks
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
-                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, } 
+                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "macedon hoplite classical 01"  0  requires factions { macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, }
@@ -934,7 +935,8 @@ building barracks
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
-                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, } 
+                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "macedon hoplite classical 01"  0  requires factions { macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, }
@@ -1335,7 +1337,8 @@ building barracks
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
-                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, } 
+                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "macedon hoplite classical 01"  0  requires factions { macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, } 
                 recruit "thureophoroi"  0  requires factions { greek_cities, } 
@@ -1795,7 +1798,8 @@ building barracks
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
                 recruit "greek hoplite militia sel 01" 0 requires factions { seleucid, }
                 recruit "pontic ionian tolmetai" 0 requires factions { pontus, }
-                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, } 
+                recruit "greek levy pikemen"  0  requires factions { macedon, seleucid, }
+                recruit "macedon hoplite classical 01"  0  requires factions { macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, } 
                 recruit "median takabara" 0 requires factions { armenia, parthia, pontus, seleucid, }

@@ -17,22 +17,30 @@ doppler_factor 0.3
 
 ; Maximum number of factions (default in M2: 31, RTW: 21)
 ; Increase to support more factions in mods
-max_factions 9000000
+max_factions 890000
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 36
+superfaction_min_regions 43
 
-; Custom AI troop-persona profile override:
-; ai_personality <troop_persona> <sally_aggression 0-8192> <sally_desperate 0-8192> <attack_risk 0-4> <subterfuge_risk 0-7> <opt:flags...>
-; flags: extreme_aggression, tartarus_aggression, reckless_sally, desperate_defense, expansionist, cautious_expansion, spy_master, low_subterfuge
-ai_personality napoleon 8192 8192 4 7 extreme_aggression expansionist spy_master
+; Custom AI troop-persona profile overrides:
+; ai_personality <troop_persona> <sally_aggression> <sally_desperate> <attack_risk> <subterfuge_risk> <opt:flags...>
+; Values are uncapped by the engine. Flags only raise to old extreme defaults unless a higher value is already supplied.
+; descr_strat accepts superaggressive, superagressive, ex_superaggressive, and ex_superagressive.
+ai_personality smith 15 80 2 1
+ai_personality mao 35 20 2 0
+ai_personality genghis 90 99 2 4
+ai_personality stalin 50 50 2 2
+ai_personality napoleon 50 50 2 7
+ai_personality henry 80 30 2 3
+ai_personality caesar 60 65 2 6
+ai_personality ex_superaggressive 32768 32768 8 16 extreme_aggression expansionist spy_master
 
 ; Battle camera height limits (above terrain, in world units)
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 16000.0
+camera_max_height 5067.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -52,25 +60,43 @@ disable_console false
 expanded_settlement_capture_options true
 
 ; Optional micro-feature toggles (default false)
-fast_lobby_refresh true
-async_map_sidecar_lookup true
-quick_auto_resolve_summary true
-compact_agent_tooltips true
+fast_lobby_refresh false
+async_map_sidecar_lookup false
+quick_auto_resolve_summary false
+compact_agent_tooltips false
 prefer_cached_ui_textures false
 lightweight_turn_notifications false
-skip_redundant_advisor_popups true
-keep_campaign_camera_on_player true
+skip_redundant_advisor_popups false
+keep_campaign_camera_on_player false
 lazy_lobby_avatar_load false
 cache_campaign_tooltips false
 defer_advisor_audio_load false
-fast_menu_backdrops true
-prefetch_campaign_map_pngs true
+fast_menu_backdrops false
+prefetch_campaign_map_pngs false
 reuse_loading_screen_art false
 trim_idle_network_polls false
 cache_descr_strat_tokens false
 campaign_quick_confirm false
 battle_minimal_toasts false
 ui_4k_mode false
+
+; Multiplayer campaign. Enable this to start the RTW Multiplayer Campaign
+; framework from the normal imperial campaign flow. If multiplayer_campaign.json
+; is enabled, only its listed factions become human; otherwise playable factions
+; are used for a hotseat fallback.
+multiplayer_campaign_enabled true
+multiplayer_campaign_max_players 14
+multiplayer_campaign_debug_logs false
+multiplayer_campaign_checksums false
+multiplayer_campaign_allow_multi_faction_player true
+multiplayer_campaign_allow_all_factions true
+multiplayer_campaign_autoresolve_hvh_battles false
+multiplayer_campaign_simultaneous_turns true
+multiplayer_campaign_disable_ai_auto_sally true
+multiplayer_campaign_dedicated_server false
+multiplayer_campaign_listen_server true
+multiplayer_campaign_allow_spectators true
+multiplayer_battle_max_players 14
 
 ; Minimum seconds the main loading screen must stay visible before closing.
 ; Useful so players can finish reading quote / tip text on fast machines.
@@ -82,7 +108,7 @@ minimum_load_time 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Any general can attempt night attacks regardless of traits (default false)
-easy_nightfight true
+easy_nightfight false
 
 ; Limit each general to building/removing one watchtower per turn (default false)
 one_watchtower_per_general_per_turn false
@@ -93,7 +119,7 @@ one_fort_per_general_per_turn false
 ; Free-upkeep slots free the most expensive garrisoned units first (default false).
 ; Set true to free the cheapest units first instead. Applies to free_upkeep and the
 ; free_upkeep_infantry, free_upkeep_cavalry and free_upkeep_siege category slots.
-free_upkeep_cheap_first true
+free_upkeep_cheap_first false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Bribery
@@ -106,10 +132,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 2.0
+bribe_cost_army 1.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 2.0
+bribe_cost_settlement 1.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
@@ -130,13 +156,13 @@ horde_initial_weapon 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Age a character is forced to die of old age (default 127)
-max_age_before_death 150
+max_age_before_death 160
 
 ; Age the random old-age death check begins (default 60)
-old_age 100
+old_age 140
 
 ; Elderly-age threshold used by the UI (default 120)
-max_age 1157
+max_age 150
 
 ; Age a child character becomes an adult (default 10)
 max_age_of_child 10
@@ -166,10 +192,10 @@ min_adoption_age 20
 max_adoption_age 30
 
 ; Oldest age a character can still father a child (default 50)
-max_age_for_conception 80
+max_age_for_conception 85
 
 ; Max ancillaries a single character can hold (default 8)
-max_num_ancillaries 800
+max_num_ancillaries 8000
 
 ; Max children a character can have (default 4)
 max_num_children 4000
