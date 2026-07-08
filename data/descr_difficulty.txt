@@ -1,5 +1,10 @@
 battle_difficulty
 {
+	eazy
+	{
+		fatigue_modifier 0.55
+		morale_modifier 16
+	}
 	very_easy
 	{
 		fatigue_modifier 0.65
@@ -33,6 +38,6 @@ battle_difficulty
 	hell
 	{
 		fatigue_modifier 1.55
-		morale_modifier -4
+		morale_modifier -5
 	}
 }

@@ -27938,3 +27938,28 @@ stat_food        60, 300
 stat_cost        1, 345, 100, 35, 40, 345
 ownership        macedon
 
+type             macedonian xipherai
+dictionary       macedonian_xipherai      ; Macedonian Xiphers
+category         infantry
+class            heavy
+voice_type       Medium_1
+soldier          macedonian_xipherai, 60, 0, 1
+officer          greek_standard
+attributes       sea_faring, hide_forest, can_sap
+formation        1, 2, 2, 3, 4, square
+stat_health      1, 0
+stat_sec         8, 4, no, 0, 0, melee, simple, piercing, sword, 25, 1
+stat_pri_attr    prec, thrown ap
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
+stat_sec_attr    no
+stat_pri_armour  7, 2, 4, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      5, 0, 0, 0
+stat_mental      2, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 480, 50, 35, 40, 210
+ownership        macedon
+

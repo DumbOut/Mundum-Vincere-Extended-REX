@@ -4263,7 +4263,6 @@ model_flexi			Data/models_unit/ME_east_sparabara_lowest.cas, max
 model_sprite		armenia, 60.0, Data/sprites/armenia_persian_sparabara2_sprite.spr
 model_sprite		parthia, 60.0, Data/sprites/parthia_persian_sparabara2_sprite.spr
 model_sprite		pontus, 60.0, Data/sprites/pontus_persian_sparabara2_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				east_hillmen
 skeleton			fs_fast_spearman, fs_s1_semi_fast_swordsman
@@ -6278,7 +6277,6 @@ model_sprite		seleucid, 60.0, Data/sprites/seleucid_greek_thureophoroi_sprite.sp
 model_sprite		thrace, 60.0, Data/sprites/thrace_greek_thureophoroi_sprite.spr
 model_sprite		egypt, 60.0, Data/sprites/egypt_greek_thureophoroi_sprite.spr
 model_sprite		60.0, Data/sprites/slave_greek_thureophoroi_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				greek_heavy_spearman
 skeleton			fs_spearman, fs_s1_swordsman
@@ -6316,7 +6314,6 @@ model_sprite		romans_brutii, 60.0, Data/sprites/romans_brutii_greek_heavy_spearm
 model_sprite		romans_julii, 60.0, Data/sprites/romans_julii_greek_heavy_spearman_sprite.spr
 model_sprite		carthage, 60.0, Data/sprites/carthage_greek_heavy_spearman_sprite.spr
 model_sprite		numidia, 60.0, Data/sprites/numidia_greek_heavy_spearman_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				ME_barb_alied_infantry
 skeleton			fs_s1_javelinman, fs_semi_fast_spearman
@@ -6354,7 +6351,6 @@ model_sprite		romans_brutii, 60.0, Data/sprites/romans_brutii_ME_barb_alied_infa
 model_sprite		romans_julii, 60.0, Data/sprites/romans_julii_ME_barb_alied_infantry_sprite.spr
 model_sprite		carthage, 60.0, Data/sprites/carthage_ME_barb_alied_infantry_sprite.spr
 model_sprite		numidia, 60.0, Data/sprites/numidia_ME_barb_alied_infantry_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				barb_cavalry_auxillia
 skeleton			fs_hc_spearman
@@ -6449,7 +6445,6 @@ model_sprite		romans_brutii, 60.0, Data/sprites/romans_brutii_helenic_heavy_infa
 model_sprite		romans_julii, 60.0, Data/sprites/romans_julii_helenic_heavy_infantry_aux_sprite.spr
 model_sprite		carthage, 60.0, Data/sprites/carthage_helenic_heavy_infantry_aux_sprite.spr
 model_sprite		numidia, 60.0, Data/sprites/numidia_helenic_heavy_infantry_aux_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 
 type				getae_horse_archers
@@ -9763,7 +9758,6 @@ model_sprite		seleucid, 60.0, data/sprites/seleucid_barb_allied_skirmisher_sprit
 model_sprite		thrace, 60.0, data/sprites/thrace_barb_allied_skirmisher_sprite.spr
 model_sprite		egypt, 60.0, data/sprites/egypt_barb_allied_skirmisher_sprite.spr
 model_sprite		romans_brutii, 60.0, data/sprites/romans_brutii_barb_allied_skirmisher_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				barb_light_swordsman
 skeleton			fs_s1_javelinman, fs_s1_barbswordsman
@@ -11857,7 +11851,6 @@ model_sprite		numidia, 60.0, data/sprites/numidia_greek_doryphoroi_sprite.spr
 model_sprite		egypt, 60.0, data/sprites/egypt_greek_doryphoroi_sprite.spr
 model_sprite		carthage, 60.0, data/sprites/carthage_greek_doryphoroi_sprite.spr
 model_sprite		slave, 60.0, data/sprites/slave_greek_doryphoroi_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				auxiliary_heavy_spearman
 skeleton			fs_s1_javelinman, fs_semi_fast_spearman
@@ -11886,7 +11879,6 @@ model_sprite		macedon, 60.0, data/sprites/macedon_auxiliary_heavy_spearman_sprit
 model_sprite		seleucid, 60.0, data/sprites/seleucid_auxiliary_heavy_spearman_sprite.spr
 model_sprite		carthage, 60.0, data/sprites/carthage_auxiliary_heavy_spearman_sprite.spr
 model_sprite		numidia, 60.0, data/sprites/numidia_auxiliary_heavy_spearman_sprite.spr
-model_tri			400, 0.5f, 0.5 f, 0.5f
 
 type				indian_officer
 skeleton			fs_dagger
@@ -16325,4 +16317,10 @@ skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
 texture				macedon, data/models_unit/textures/macedon_hoplite_classical_01_macedon.tga
 model_flexi			data/models_unit/unit_greek_hoplite_elite_lowest.cas, max
+
+type				macedonian_xipherai
+skeleton			s_s1_semi_fast_swordsman
+indiv_range			40
+texture				macedon, data/models_unit/textures/macedonian_xipherai_macedon.tga
+model_flexi			data/models_unit/macedonian_xipherai.cas, max
 

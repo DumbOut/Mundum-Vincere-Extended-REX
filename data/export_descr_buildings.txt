@@ -19,6 +19,28 @@ hidden_resources sparta rome italy
 ;; 	;; if display_string isn't included it will just display the strings for the events normally
 ;; }
 
+;; exclusivity tags
+;#######################################################################################>
+;;used for the "no_building_tagged" condition
+;#######################################################################################<
+
+
+alias no_other_temple
+{
+	requires no_building_tagged temple queued
+
+	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
+}
+;; aliases
+;#######################################################################################>
+;; give multiple conditions a string (or allow conditions with normally no string to display one)
+;; alias roman_marian_reforms_triggered
+;; {
+;; 	requires factions { roman, } and major_event "marian_reforms"
+;;
+;; 	display_string roman_marian_reforms ;;gets a string from expanded_bi
+;; 	;; if display_string isn't included it will just display the strings for the events normally
+;; }
 
 building core_building
 {
@@ -599,6 +621,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
+                recruit "macedonian xipherai"  0  requires factions { macedon, }
                 recruit "east infantry2"  0  requires factions { eastern, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
@@ -959,6 +982,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
+                recruit "macedonian xipherai"  0  requires factions { macedon, }
                 recruit "east infantry2"  0  requires factions { eastern, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
@@ -1317,6 +1341,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
+                recruit "macedonian xipherai"  0  requires factions { macedon, }
                 recruit "east infantry2"  0  requires factions { eastern, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
@@ -1744,6 +1769,7 @@ building barracks
                 recruit "carthage medium infantry"  0  requires factions { carthage, } 
                 recruit "numidian medium infantry"  0  requires factions { numidia, } 
                 recruit "spain medium infantry"  0  requires factions { spain, } 
+                recruit "macedonian xipherai"  0  requires factions { macedon, }
                 recruit "east infantry2"  0  requires factions { eastern, } 
                 recruit "greek swordsman thrace"  0  requires factions { thrace, macedon, } 
                 recruit "greek light infantry"  0  requires factions { macedon, seleucid, roman, } 
