@@ -41,10 +41,9 @@ Do NOT modify:
 • Any non-faction-colored elements
 
 Only recolor the original faction-colored cloth and painted accents to RGB
-primary_colour				red 155, green 145, blue 120
 matching the brightness and shading of the source texture.
 
 Output:
 A pixel-perfect Rome: Total War png transparent background-ready diffuse texture atlas with identical UV islands and only the faction color replaced. The result should be visually indistinguishable from the original except for the faction color change.
 
-Keep the alpha background and keep the file name, do it fast
+Keep the alpha transparent background and keep the file name, do it fast
