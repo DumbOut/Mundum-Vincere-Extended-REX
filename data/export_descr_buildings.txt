@@ -4339,9 +4339,9 @@ building taverns
 }
 building temple_of_battle
 {
-    levels temple_of_battle_shrine temple_of_battle_temple temple_of_battle_large_temple temple_of_battle_awesome_temple temple_of_battle_pantheon 
+    levels temple_of_battle_shrine temple_of_battle_temple temple_of_battle_large_temple temple_of_battle_awesome_temple temple_of_battle_pantheon  
     {
-        temple_of_battle_shrine requires factions { dacia, thrace, } 
+        temple_of_battle_shrine requires factions { dacia, thrace, }
         {
             capability
             {
@@ -4403,7 +4403,7 @@ building temple_of_battle
                 temple_of_battle_pantheon
             }
         }
-        temple_of_battle_pantheon requires factions { thrace, } 
+        temple_of_battle_pantheon  requires factions { thrace, } 
         {
             capability
             {
@@ -4502,9 +4502,9 @@ building temple_of_battleforge
 }
 building temple_of_farming
 {
-    levels temple_of_farming_shrine temple_of_farming_temple temple_of_farming_large_temple temple_of_farming_awesome_temple temple_of_farming_pantheon 
+    levels temple_of_farming_shrine temple_of_farming_temple temple_of_farming_large_temple temple_of_farming_awesome_temple temple_of_farming_pantheon  
     {
-        temple_of_farming_shrine requires factions { dacia, carthage, numidia, macedon, arados, } 
+        temple_of_farming_shrine requires factions { dacia, carthage, numidia, macedon, arados, }
         {
             capability
             {
@@ -4564,7 +4564,7 @@ building temple_of_farming
                 temple_of_farming_pantheon
             }
         }
-        temple_of_farming_pantheon requires factions { macedon, } 
+        temple_of_farming_pantheon  requires factions { macedon, } 
         {
             capability
             {
@@ -4587,9 +4587,9 @@ building temple_of_farming
 }
 building temple_of_fertility
 {
-    levels temple_of_fertility_shrine temple_of_fertility_temple temple_of_fertility_large_temple temple_of_fertility_awesome_temple temple_of_fertility_pantheon 
+    levels temple_of_fertility_shrine temple_of_fertility_temple temple_of_fertility_large_temple temple_of_fertility_awesome_temple temple_of_fertility_pantheon  
     {
-        temple_of_fertility_shrine requires factions { germans, sciria_01, egyptian, romans_julii, memnones, } 
+        temple_of_fertility_shrine requires factions { germans, sciria_01, egyptian, romans_julii, memnones, }
         {
             capability
             {
@@ -4653,7 +4653,7 @@ building temple_of_fertility
                 temple_of_fertility_pantheon
             }
         }
-        temple_of_fertility_pantheon requires factions { egyptian, romans_julii, memnones, } 
+        temple_of_fertility_pantheon  requires factions { egyptian, romans_julii, memnones, } 
         {
             capability
             {
@@ -4676,9 +4676,9 @@ building temple_of_fertility
 }
 building temple_of_forge
 {
-    levels temple_of_forge_shrine temple_of_forge_temple temple_of_forge_large_temple temple_of_forge_awesome_temple temple_of_forge_pantheon 
+    levels temple_of_forge_shrine temple_of_forge_temple temple_of_forge_large_temple temple_of_forge_awesome_temple temple_of_forge_pantheon  
     {
-        temple_of_forge_shrine requires factions { dacia, seleucid, romans_scipii, } 
+        temple_of_forge_shrine requires factions { dacia, seleucid, romans_scipii, }
         {
             capability
             {
@@ -4744,7 +4744,7 @@ building temple_of_forge
                 temple_of_forge_pantheon
             }
         }
-        temple_of_forge_pantheon requires factions { seleucid, romans_scipii, } 
+        temple_of_forge_pantheon  requires factions { seleucid, romans_scipii, } 
         {
             capability
             {
@@ -4769,9 +4769,9 @@ building temple_of_forge
 }
 building temple_of_fun
 {
-    levels temple_of_fun_shrine temple_of_fun_temple temple_of_fun_large_temple temple_of_fun_awesome_temple temple_of_fun_pantheon 
+    levels temple_of_fun_shrine temple_of_fun_temple temple_of_fun_large_temple temple_of_fun_awesome_temple temple_of_fun_pantheon  
     {
-        temple_of_fun_shrine requires factions { armenia, egyptian, thrace, seleucid, romans_julii, memnones, } 
+        temple_of_fun_shrine requires factions { armenia, egyptian, thrace, seleucid, romans_julii, memnones, }
         {
             capability
             {
@@ -4827,7 +4827,7 @@ building temple_of_fun
                 temple_of_fun_pantheon
             }
         }
-        temple_of_fun_pantheon requires factions { egyptian, thrace, seleucid, romans_julii, memnones, } 
+        temple_of_fun_pantheon  requires factions { egyptian, thrace, seleucid, romans_julii, memnones, } 
         {
             capability
             {
@@ -4849,9 +4849,9 @@ building temple_of_fun
 }
 building temple_of_governors
 {
-    levels temple_of_governors_shrine temple_of_governors_temple temple_of_governors_large_temple temple_of_governors_awesome_temple temple_of_governors_pantheon 
+    levels temple_of_governors_shrine temple_of_governors_temple temple_of_governors_large_temple temple_of_governors_awesome_temple temple_of_governors_pantheon  
     {
-        temple_of_governors_shrine requires factions { pontus, macedon, } 
+        temple_of_governors_shrine requires factions { pontus, macedon, }
         {
             capability
             {
@@ -4911,7 +4911,7 @@ building temple_of_governors
                 temple_of_governors_pantheon
             }
         }
-        temple_of_governors_pantheon requires factions { macedon, } 
+        temple_of_governors_pantheon  requires factions { macedon, } 
         {
             capability
             {
@@ -4935,9 +4935,9 @@ building temple_of_governors
 }
 building temple_of_healing
 {
-    levels temple_of_healing_shrine temple_of_healing_temple temple_of_healing_large_temple temple_of_healing_awesome_temple temple_of_healing_pantheon 
+    levels temple_of_healing_shrine temple_of_healing_temple temple_of_healing_large_temple temple_of_healing_awesome_temple temple_of_healing_pantheon  
     {
-        temple_of_healing_shrine requires factions { britons, egyptian, seleucid, romans_brutii, memnones, } 
+        temple_of_healing_shrine requires factions { britons, egyptian, seleucid, romans_brutii, memnones, }
         {
             capability
             {
@@ -5002,7 +5002,7 @@ building temple_of_healing
                 temple_of_healing_pantheon
             }
         }
-        temple_of_healing_pantheon requires factions { egyptian, seleucid, romans_brutii, memnones, } 
+        temple_of_healing_pantheon  requires factions { egyptian, seleucid, romans_brutii, memnones, } 
         {
             capability
             {
@@ -5080,9 +5080,9 @@ building temple_of_horse
 }
 building temple_of_hunting
 {
-    levels temple_of_hunting_shrine temple_of_hunting_temple temple_of_hunting_large_temple temple_of_hunting_awesome_temple temple_of_hunting_pantheon 
+    levels temple_of_hunting_shrine temple_of_hunting_temple temple_of_hunting_large_temple temple_of_hunting_awesome_temple temple_of_hunting_pantheon  
     {
-        temple_of_hunting_shrine requires factions { spain, gauls, macedon, } 
+        temple_of_hunting_shrine requires factions { spain, gauls, macedon, }
         {
             capability
             {
@@ -5142,7 +5142,7 @@ building temple_of_hunting
                 temple_of_hunting_pantheon
             }
         }
-        temple_of_hunting_pantheon requires factions { macedon, } 
+        temple_of_hunting_pantheon  requires factions { macedon, } 
         {
             capability
             {
@@ -5165,9 +5165,9 @@ building temple_of_hunting
 }
 building temple_of_justice
 {
-    levels temple_of_justice_shrine temple_of_justice_temple temple_of_justice_large_temple temple_of_justice_awesome_temple temple_of_justice_pantheon 
+    levels temple_of_justice_shrine temple_of_justice_temple temple_of_justice_large_temple temple_of_justice_awesome_temple temple_of_justice_pantheon  
     {
-        temple_of_justice_shrine requires factions { spain, gauls, carthage, numidia, egyptian, arados, memnones, } 
+        temple_of_justice_shrine requires factions { spain, gauls, carthage, numidia, egyptian, arados, memnones, }
         {
             capability
             {
@@ -5238,7 +5238,7 @@ building temple_of_justice
                 temple_of_justice_pantheon
             }
         }
-        temple_of_justice_pantheon requires factions { egypt, memnones, } 
+        temple_of_justice_pantheon  requires factions { egypt, memnones, } 
         {
             capability
             {
@@ -5266,9 +5266,9 @@ building temple_of_justice
 }
 building temple_of_law
 {
-    levels temple_of_law_shrine temple_of_law_temple temple_of_law_large_temple temple_of_law_awesome_temple temple_of_law_pantheon 
+    levels temple_of_law_shrine temple_of_law_temple temple_of_law_large_temple temple_of_law_awesome_temple temple_of_law_pantheon  
     {
-        temple_of_law_shrine requires factions { scythia, egyptian, romans_scipii, memnones, } 
+        temple_of_law_shrine requires factions { scythia, egyptian, romans_scipii, memnones, }
         {
             capability
             {
@@ -5329,7 +5329,7 @@ building temple_of_law
                 temple_of_law_pantheon
             }
         }
-        temple_of_law_pantheon requires factions { egyptian, romans_scipii, memnones, } 
+        temple_of_law_pantheon  requires factions { egyptian, romans_scipii, memnones, } 
         {
             capability
             {
@@ -5354,9 +5354,9 @@ building temple_of_law
 }
 building temple_of_leadership
 {
-    levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon 
+    levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon  
     {
-        temple_of_leadership_shrine requires factions { armenia, greek_cities, romans_julii, } 
+        temple_of_leadership_shrine requires factions { armenia, greek_cities, romans_julii, }
         {
             capability
             {
@@ -5417,7 +5417,7 @@ building temple_of_leadership
                 temple_of_leadership_pantheon
             }
         }
-        temple_of_leadership_pantheon requires factions { greek_cities, romans_julii, } 
+        temple_of_leadership_pantheon  requires factions { greek_cities, romans_julii, } 
         {
             capability
             {
@@ -5440,9 +5440,9 @@ building temple_of_leadership
 }
 building temple_of_love
 {
-    levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon 
+    levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon  
     {
-        temple_of_love_shrine requires factions { scythia, pontus, greek_cities, } 
+        temple_of_love_shrine requires factions { scythia, pontus, greek_cities, }
         {
             capability
             {
@@ -5507,7 +5507,7 @@ building temple_of_love
                 temple_of_love_pantheon
             }
         }
-        temple_of_love_pantheon requires factions { greek_cities, } 
+        temple_of_love_pantheon  requires factions { greek_cities, } 
         {
             capability
             {
@@ -5533,9 +5533,9 @@ building temple_of_love
 }
 building temple_of_naval
 {
-    levels temple_of_naval_shrine temple_of_naval_temple temple_of_naval_large_temple temple_of_naval_awesome_temple temple_of_naval_pantheon 
+    levels temple_of_naval_shrine temple_of_naval_temple temple_of_naval_large_temple temple_of_naval_awesome_temple temple_of_naval_pantheon  
     {
-        temple_of_naval_shrine requires factions { romans_scipii, }  and building_present_min_level port_buildings port
+        temple_of_naval_shrine requires factions { romans_scipii, }  and building_present_min_level port_buildings por
         {
             capability
             {
@@ -5592,7 +5592,7 @@ building temple_of_naval
                 temple_of_naval_pantheon
             }
         }
-        temple_of_naval_pantheon requires factions { romans_scipii, } 
+        temple_of_naval_pantheon  requires factions { romans_scipii, } 
         {
             capability
             {
@@ -5618,9 +5618,9 @@ building temple_of_naval
 }
 building temple_of_one_god
 {
-    levels temple_of_one_god_shrine temple_of_one_god_temple temple_of_one_god_large_temple temple_of_one_god_awesome_temple temple_of_one_god_pantheon 
+    levels temple_of_one_god_shrine temple_of_one_god_temple temple_of_one_god_large_temple temple_of_one_god_awesome_temple temple_of_one_god_pantheon  
     {
-        temple_of_one_god_shrine requires factions { parthia, } 
+        temple_of_one_god_shrine requires factions { parthia, }
         {
             capability
             {
@@ -5680,7 +5680,7 @@ building temple_of_one_god
                 temple_of_one_god_pantheon
             }
         }
-        temple_of_one_god_pantheon requires factions { parthia, } 
+        temple_of_one_god_pantheon  requires factions { parthia, } 
         {
             capability
             {
@@ -5701,9 +5701,9 @@ building temple_of_one_god
 }
 building temple_of_trade
 {
-    levels temple_of_trade_shrine temple_of_trade_temple temple_of_trade_large_temple temple_of_trade_awesome_temple temple_of_trade_pantheon 
+    levels temple_of_trade_shrine temple_of_trade_temple temple_of_trade_large_temple temple_of_trade_awesome_temple temple_of_trade_pantheon  
     {
-        temple_of_trade_shrine requires factions { britons, carthage, numidia, greek_cities, romans_brutii, arados, } 
+        temple_of_trade_shrine requires factions { britons, carthage, numidia, greek_cities, romans_brutii, arados, }
         {
             capability
             {
@@ -5763,7 +5763,7 @@ building temple_of_trade
                 temple_of_trade_pantheon
             }
         }
-        temple_of_trade_pantheon requires factions { greek_cities, romans_brutii, } 
+        temple_of_trade_pantheon  requires factions { greek_cities, romans_brutii, } 
         {
             capability
             {
@@ -5786,9 +5786,9 @@ building temple_of_trade
 }
 building temple_of_victory
 {
-    levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon 
+    levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon  
     {
-        temple_of_victory_shrine requires factions { britons, greek_cities, } 
+        temple_of_victory_shrine requires factions { britons, greek_cities, }
         {
             capability
             {
@@ -5854,7 +5854,7 @@ building temple_of_victory
                 temple_of_victory_pantheon
             }
         }
-        temple_of_victory_pantheon requires factions { greek_cities, } 
+        temple_of_victory_pantheon  requires factions { greek_cities, } 
         {
             capability
             {
@@ -5880,9 +5880,9 @@ building temple_of_victory
 }
 building temple_of_violence
 {
-    levels temple_of_violence_shrine temple_of_violence_temple temple_of_violence_large_temple temple_of_violence_awesome_temple temple_of_violence_pantheon 
+    levels temple_of_violence_shrine temple_of_violence_temple temple_of_violence_large_temple temple_of_violence_awesome_temple temple_of_violence_pantheon  
     {
-        temple_of_violence_shrine requires factions { germans, sciria_01, pontus, macedon, romans_brutii, } 
+        temple_of_violence_shrine requires factions { germans, sciria_01, pontus, macedon, romans_brutii, }
         {
             capability
             {
@@ -5944,7 +5944,7 @@ building temple_of_violence
                 temple_of_violence_pantheon
             }
         }
-        temple_of_violence_pantheon requires factions { macedon, romans_brutii, } 
+        temple_of_violence_pantheon  requires factions { macedon, romans_brutii, } 
         {
             capability
             {
@@ -6080,7 +6080,7 @@ building temple_of_horse_2
 building temple_of_alexander
 {
 
-	levels temple_of_alexander_shrine temple_of_alexander_temple temple_of_alexander_large_temple temple_of_alexander_awesome_temple temple_of_alexander_pantheon 
+	levels temple_of_alexander_shrine temple_of_alexander_temple temple_of_alexander_large_temple temple_of_alexander_awesome_temple temple_of_alexander_pantheon  
 	{
 		temple_of_alexander_shrine requires factions { macedon, seleucid, egypt, memnones, }
 		{
@@ -6153,7 +6153,7 @@ building temple_of_alexander
 				temple_of_alexander_pantheon
 			}
 		}
-		temple_of_alexander_pantheon requires factions { macedon, seleucid, egypt, memnones, }
+		temple_of_alexander_pantheon  requires factions { macedon, seleucid, egypt, memnones, }
 		{
 			capability
 			{
@@ -6174,9 +6174,9 @@ building temple_of_alexander
 }
 building temple_of_argeadai
 {
-    levels temple_of_argeadai_shrine temple_of_argeadai_temple temple_of_argeadai_large_temple temple_of_argeadai_awesome_temple temple_of_argeadai_pantheon 
+    levels temple_of_argeadai_shrine temple_of_argeadai_temple temple_of_argeadai_large_temple temple_of_argeadai_awesome_temple temple_of_argeadai_pantheon  
     {
-        temple_of_argeadai_shrine requires factions { macedon, } 
+        temple_of_argeadai_shrine requires factions { macedon, }
         {
             capability
             {
@@ -6238,7 +6238,7 @@ building temple_of_argeadai
                 temple_of_argeadai_pantheon
             }
         }
-        temple_of_argeadai_pantheon requires factions { macedon, } 
+        temple_of_argeadai_pantheon  requires factions { macedon, } 
         {
             capability
             {
@@ -6264,9 +6264,9 @@ building temple_of_argeadai
 }
 building temple_of_nikaea_massilia
 {
-    levels temple_of_nikaea_massilia_shrine temple_of_nikaea_massilia_temple temple_of_nikaea_massilia_large_temple temple_of_nikaea_massilia_awesome_temple temple_of_nikaea_massilia_pantheon 
+    levels temple_of_nikaea_massilia_shrine temple_of_nikaea_massilia_temple temple_of_nikaea_massilia_large_temple temple_of_nikaea_massilia_awesome_temple temple_of_nikaea_massilia_pantheon  
     {
-        temple_of_nikaea_massilia_shrine requires factions { massilia_01, } 
+        temple_of_nikaea_massilia_shrine requires factions { massilia_01, }
         {
             capability
             {
@@ -6330,7 +6330,7 @@ building temple_of_nikaea_massilia
                 temple_of_nikaea_massilia_pantheon
             }
         }
-        temple_of_nikaea_massilia_pantheon requires factions { massilia_01, } 
+        temple_of_nikaea_massilia_pantheon  requires factions { massilia_01, } 
         {
             capability
             {
@@ -6358,9 +6358,9 @@ building temple_of_nikaea_massilia
 ;; cisra_01
 building temple_of_aita_cisra
 {
-    levels temple_of_aita_cisra_shrine temple_of_aita_cisra_temple temple_of_aita_cisra_large_temple temple_of_aita_cisra_awesome_temple temple_of_aita_cisra_pantheon 
+    levels temple_of_aita_cisra_shrine temple_of_aita_cisra_temple temple_of_aita_cisra_large_temple temple_of_aita_cisra_awesome_temple temple_of_aita_cisra_pantheon  
     {
-        temple_of_aita_cisra_shrine requires factions { cisra_01, } 
+        temple_of_aita_cisra_shrine requires factions { cisra_01, }
         {
             capability
             {
@@ -6422,7 +6422,7 @@ building temple_of_aita_cisra
                 temple_of_aita_cisra_pantheon
             }
         }
-        temple_of_aita_cisra_pantheon requires factions { cisra_01, } 
+        temple_of_aita_cisra_pantheon  requires factions { cisra_01, } 
         {
             capability
             {
@@ -6447,9 +6447,9 @@ building temple_of_aita_cisra
 ;; cisra_01
 building temple_of_tarchon_cisra
 {
-    levels temple_of_tarchon_cisra_shrine temple_of_tarchon_cisra_temple temple_of_tarchon_cisra_large_temple temple_of_tarchon_cisra_awesome_temple temple_of_tarchon_cisra_pantheon 
+    levels temple_of_tarchon_cisra_shrine temple_of_tarchon_cisra_temple temple_of_tarchon_cisra_large_temple temple_of_tarchon_cisra_awesome_temple temple_of_tarchon_cisra_pantheon  
     {
-        temple_of_tarchon_cisra_shrine requires factions { cisra_01, } 
+        temple_of_tarchon_cisra_shrine requires factions { cisra_01, }
         {
             capability
             {
@@ -6512,7 +6512,7 @@ building temple_of_tarchon_cisra
                 temple_of_tarchon_cisra_pantheon
             }
         }
-        temple_of_tarchon_cisra_pantheon requires factions { cisra_01, } 
+        temple_of_tarchon_cisra_pantheon  requires factions { cisra_01, } 
         {
             capability
             {
@@ -6537,9 +6537,9 @@ building temple_of_tarchon_cisra
 ;; kos_01
 building temple_of_thessalidai_kos
 {
-    levels temple_of_thessalidai_kos_shrine temple_of_thessalidai_kos_temple temple_of_thessalidai_kos_large_temple temple_of_thessalidai_kos_awesome_temple temple_of_thessalidai_kos_pantheon 
+    levels temple_of_thessalidai_kos_shrine temple_of_thessalidai_kos_temple temple_of_thessalidai_kos_large_temple temple_of_thessalidai_kos_awesome_temple temple_of_thessalidai_kos_pantheon  
     {
-        temple_of_thessalidai_kos_shrine requires factions { kos_01, } 
+        temple_of_thessalidai_kos_shrine requires factions { kos_01, }
         {
             capability
             {
@@ -6603,7 +6603,7 @@ building temple_of_thessalidai_kos
                 temple_of_thessalidai_kos_pantheon
             }
         }
-        temple_of_thessalidai_kos_pantheon requires factions { kos_01, } 
+        temple_of_thessalidai_kos_pantheon  requires factions { kos_01, } 
         {
             capability
             {
@@ -6628,9 +6628,9 @@ building temple_of_thessalidai_kos
 ;; itanos_01
 building temple_of_velchanos_itanos
 {
-    levels temple_of_velchanos_itanos_shrine temple_of_velchanos_itanos_temple temple_of_velchanos_itanos_large_temple temple_of_velchanos_itanos_awesome_temple temple_of_velchanos_itanos_pantheon 
+    levels temple_of_velchanos_itanos_shrine temple_of_velchanos_itanos_temple temple_of_velchanos_itanos_large_temple temple_of_velchanos_itanos_awesome_temple temple_of_velchanos_itanos_pantheon  
     {
-        temple_of_velchanos_itanos_shrine requires factions { itanos_01, } 
+        temple_of_velchanos_itanos_shrine requires factions { itanos_01, }
         {
             capability
             {
@@ -6693,7 +6693,7 @@ building temple_of_velchanos_itanos
                 temple_of_velchanos_itanos_pantheon
             }
         }
-        temple_of_velchanos_itanos_pantheon requires factions { itanos_01, } 
+        temple_of_velchanos_itanos_pantheon  requires factions { itanos_01, } 
         {
             capability
             {
@@ -6718,9 +6718,9 @@ building temple_of_velchanos_itanos
 ;; itanos_01
 building temple_of_diktynna_itanos
 {
-    levels temple_of_diktynna_itanos_shrine temple_of_diktynna_itanos_temple temple_of_diktynna_itanos_large_temple temple_of_diktynna_itanos_awesome_temple temple_of_diktynna_itanos_pantheon 
+    levels temple_of_diktynna_itanos_shrine temple_of_diktynna_itanos_temple temple_of_diktynna_itanos_large_temple temple_of_diktynna_itanos_awesome_temple temple_of_diktynna_itanos_pantheon  
     {
-        temple_of_diktynna_itanos_shrine requires factions { itanos_01, } 
+        temple_of_diktynna_itanos_shrine requires factions { itanos_01, }
         {
             capability
             {
@@ -6782,7 +6782,7 @@ building temple_of_diktynna_itanos
                 temple_of_diktynna_itanos_pantheon
             }
         }
-        temple_of_diktynna_itanos_pantheon requires factions { itanos_01, }
+        temple_of_diktynna_itanos_pantheon  requires factions { itanos_01, }
         {
             capability
             {
@@ -6872,7 +6872,7 @@ building temple_of_dushara_thamud
                 temple_of_dushara_thamud_pantheon
             }
         }
-        temple_of_dushara_thamud_pantheon requires factions { thamud_01, phoenicium, }
+        temple_of_dushara_thamud_pantheon  requires factions { thamud_01, phoenicium, }
         {
             capability
             {
@@ -6957,7 +6957,7 @@ building temple_of_allat_thamud
                 temple_of_allat_thamud_pantheon
             }
         }
-        temple_of_allat_thamud_pantheon requires factions { thamud_01, phoenicium, }
+        temple_of_allat_thamud_pantheon  requires factions { thamud_01, phoenicium, }
         {
             capability
             {
