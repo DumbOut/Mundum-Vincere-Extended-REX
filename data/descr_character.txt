@@ -121,6 +121,14 @@ strat_model		sm_greek_general
 battle_model	greek_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			carthage
 dictionary		1
 strat_model		sm_carthage_general
@@ -240,6 +248,15 @@ battle_model	slave_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 
+
+;; new_faction
+faction			new_faction
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
 faction			mauryans
 dictionary		2
 strat_model		mauryan_general
@@ -336,6 +353,15 @@ battle_model	egyptian_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
+;; tayuan
+faction			tayuan
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_greek_lesser_general
@@ -479,6 +505,15 @@ strat_model		sm_rebel_lesser_general
 battle_model	slave_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+
+;; new_faction
+faction			new_faction
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_lesser_general
+battle_model	slave_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			mauryans
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
@@ -562,6 +597,13 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			carthage
 dictionary		1
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -657,6 +699,13 @@ strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
 faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+
+;; new_faction
+faction			new_faction
 dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
@@ -740,6 +789,13 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
 faction			carthage
 dictionary		1
 strat_card		data/ui/roman/agents/card_assassin.tga
@@ -835,6 +891,13 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+
+;; new_faction
+faction			new_faction
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -918,6 +981,13 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			carthage
 dictionary		1
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -1017,6 +1087,13 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+
+;; new_faction
+faction			new_faction
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			qin_01
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -1072,6 +1149,13 @@ strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		egypt_admiral
 
 faction			seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		seleucid_admiral
+
+
+;; tayuan
+faction			tayuan
 dictionary		2
 strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		seleucid_admiral
@@ -1154,6 +1238,13 @@ strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		thrace_admiral
 
 faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
+
+
+;; new_faction
+faction			new_faction
 dictionary		2
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		slave_admiral

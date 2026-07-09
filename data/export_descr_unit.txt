@@ -1587,7 +1587,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 666, 30, 30, 40, 240
-ownership        slave
+ownership        slave, tayuan,
 
 type             barb noble horse archers scythian
 dictionary       barb_noble_horse_archers_scythian      ; Scythian Noble Archers
@@ -2850,7 +2850,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 591, 29, 20, 20, 120
-ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01, phoenicium, arados
+ownership        parthia, pontus, armenia, seleucid, slave, kos_01, thamud_01, phoenicium, arados, tayuan,
 
 type             east heavy infantry
 dictionary       east_heavy_infantry      ; Heavy Spearmen
@@ -3131,7 +3131,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 565, 28, 30, 40, 230
-ownership        parthia, armenia, slave, thamud_01, phoenicium
+ownership        parthia, armenia, slave, thamud_01, phoenicium, tayuan,
 
 type             east camel cataphract
 dictionary       east_camel_cataphract      ; Cataphract Camels
@@ -3938,7 +3938,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 469, 25, 20, 20, 120
-ownership        greek, slave, itanos_01, kos_01, cisra_01
+ownership        greek, slave, itanos_01, kos_01, cisra_01, tayuan,
 
 type             greek hoplite
 dictionary       greek_hoplite      ; Hoplites
@@ -3962,7 +3962,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 585, 29, 20, 30, 150
-ownership        greek_cities, massilia_01, slave, kos_01, cisra_01
+ownership        greek_cities, massilia_01, slave, kos_01, cisra_01, tayuan,
 
 type             greek hoplite elite
 dictionary       greek_hoplite_elite      ; Armoured Hoplites
@@ -4035,7 +4035,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 596, 29, 20, 20, 120
-ownership        macedon, seleucid, slave
+ownership        macedon, seleucid, slave, tayuan,
 
 type             greek pikemen
 dictionary       greek_pikemen      ; Phalanx Pikemen
@@ -4314,7 +4314,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2043, 0, 40, 50, 290
-ownership        greek_cities, itanos_01, seleucid, macedon, slave, massilia_01, kos_01
+ownership        greek_cities, itanos_01, seleucid, macedon, slave, massilia_01, kos_01, tayuan,
 
 type             greek general's guard cavalry
 dictionary       greek_generals_guard_cavalry      ; General's Armoured Bodyguard
@@ -5801,7 +5801,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 615, 28, 30, 40, 230
-ownership        slave, dacia
+ownership        slave, dacia, tayuan,
 
 type             merc spanish infantry
 dictionary       merc_spanish_infantry      ; Spanish Mercenaries
@@ -5921,7 +5921,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 635, 29, 20, 30, 150
-ownership        slave, thrace, greek_cities, carthage, arados
+ownership        slave, thrace, greek_cities, carthage, arados, tayuan,
 
 type             merc libyan infantry
 dictionary       merc_libyan_infantry      ; Libyan Mercenaries
@@ -7964,7 +7964,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1171, 47, 30, 40, 210
-ownership        greek_cities, slave
+ownership        greek_cities, slave, tayuan,
 
 type             east central semitic elite mercswords
 dictionary       east_central_semitic_elite_mercswords      ; (Mercenary) Central Semitic Swordsmen
@@ -8271,7 +8271,7 @@ stat_charge_dist 25
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1052, 45, 20, 30, 150
-ownership        slave, greek_cities, egypt, seleucid, massilia_01
+ownership        slave, greek_cities, egypt, seleucid, massilia_01, tayuan,
 
 type             barb infantry german
 dictionary       barb_infantry_german      ; barb infantry german
@@ -9451,7 +9451,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1629, 61, 20, 30, 180
-ownership        slave, greek_cities, egypt, seleucid, carthage, arados
+ownership        slave, greek_cities, egypt, seleucid, carthage, arados, tayuan,
 
 type             warband sword bigshield scythia
 dictionary       warband_sword_bigshield_scythia      ; warband sword bigshield scythia
@@ -9502,7 +9502,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1110, 45, 30, 30, 190
-ownership        greek_cities, slave
+ownership        greek_cities, slave, tayuan,
 
 type             barb guard cavalry gaul
 dictionary       gothic_cavalry_gaul      ; barb guard cavalry gaul
@@ -10320,7 +10320,7 @@ stat_charge_dist 150
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1732, 65, 50, 60, 340
-ownership        dacia, thrace, scythia, germans, slave
+ownership        dacia, thrace, scythia, germans, slave, tayuan,
 
 type             scythian heavy cavalry
 dictionary       scythian_heavy_cavalry      ; scythian heavy cavalry
@@ -11359,7 +11359,7 @@ stat_charge_dist 120
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 2287, 83, 60, 70, 410
-ownership        pontus, armenia, pontus, slave, scythia, numidia, phoenicium
+ownership        pontus, armenia, pontus, slave, scythia, numidia, phoenicium, tayuan,
 
 type             greek slinger
 dictionary       greek_slinger      ; greek slinger
@@ -15576,7 +15576,7 @@ stat_charge_dist 20
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1452, 56, 30, 40, 210
-ownership        greek_cities, gauls, slave, macedon, thrace, dacia
+ownership        greek_cities, gauls, slave, macedon, thrace, dacia, tayuan,
 
 type             illyrian brigands
 dictionary       illyrian_brigands      ; illyrian brigands
@@ -16764,7 +16764,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1800, 69, 40, 50, 300
-ownership        eastern, slave, scythia, seleucid, phoenicium
+ownership        eastern, slave, scythia, seleucid, phoenicium, tayuan,
 
 type             merc east light cavalry
 dictionary       merc_east_light_cavalry      ; merc east light cavalry
@@ -16851,7 +16851,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 3583, 125, 40, 50, 400
-ownership        slave
+ownership        slave, tayuan,
 
 type             east cappadocian cavalry
 dictionary       east_cappadocian_cavalry      ; east cappadocian cavalry
@@ -16879,7 +16879,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2234, 82, 40, 50, 300
-ownership        eastern, romans_julii, greek, egyptian, slave, phoenicium
+ownership        eastern, romans_julii, greek, egyptian, slave, phoenicium, tayuan,
 
 type             east armenian lancer
 dictionary       east_armenian_lancer      ; east armenian lancer
@@ -16964,7 +16964,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1764, 69, 40, 50, 300
-ownership        armenia, pontus, seleucid, romans_julii, slave
+ownership        armenia, pontus, seleucid, romans_julii, slave, tayuan,
 
 type             east horse archer merc
 dictionary       east_horse_archer_merc      ; east horse archer merc
@@ -16993,7 +16993,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1825, 71, 40, 50, 300
-ownership        all
+ownership        all, tayuan,
 
 type             east cataphract bodyguard
 dictionary       east_cataphract_bodyguard      ; east cataphract bodyguard
@@ -17233,7 +17233,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2099, 80, 40, 50, 230
-ownership        greek_cities, slave
+ownership        greek_cities, slave, tayuan,
 
 type             greek levy pikemen east
 dictionary       greek_levy_pikemen_east      ; greek levy pikemen east
@@ -17260,7 +17260,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1369, 55, 40, 50, 160
-ownership        seleucid, egypt, slave, macedon, thrace, greek_cities, romans_brutii, phoenicium
+ownership        seleucid, egypt, slave, macedon, thrace, greek_cities, romans_brutii, phoenicium, tayuan,
 
 type             thracian elite pikemen
 dictionary       thracian_elite_pikemen      ; thracian elite pikemen
@@ -17479,7 +17479,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2492, 93, 40, 50, 230
-ownership        macedon, slave
+ownership        macedon, slave, tayuan,
 
 type             merc greek cavalry
 dictionary       merc_greek_cavalry      ; merc greek cavalry
@@ -17619,7 +17619,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2102, 80, 40, 50, 300
-ownership        greek_cities, slave, thrace, macedon, romans_brutii, phoenicium
+ownership        greek_cities, slave, thrace, macedon, romans_brutii, phoenicium, tayuan,
 
 type             pergamene heitaroi
 dictionary       pergamene_heitaroi      ; pergamene heitaroi
@@ -18467,7 +18467,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1906, 73, 40, 50, 210
-ownership        greek_cities, romans_brutii, seleucid, slave, macedon, egypt, pontus
+ownership        greek_cities, romans_brutii, seleucid, slave, macedon, egypt, pontus, tayuan,
 
 type             merc greek light thureophoroi
 dictionary       greek_light_thureophoroi_merc      ; merc greek light thureophoroi
@@ -19220,7 +19220,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2651, 98, 40, 50, 300
-ownership        scythia, slave, parthia, seleucid
+ownership        scythia, slave, parthia, seleucid, tayuan,
 
 type             tocharian horse archers
 dictionary       tocharian_horse_archers      ; tocharian horse archers
@@ -19248,7 +19248,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1924, 74, 40, 50, 300
-ownership        scythia, slave, parthia, seleucid
+ownership        scythia, slave, parthia, seleucid, tayuan,
 
 type             baltic hunter
 dictionary       baltic_hunter      ; baltic hunter
@@ -19329,7 +19329,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2450, 90, 40, 50, 230
-ownership        eastern, seleucid, slave, phoenicium
+ownership        eastern, seleucid, slave, phoenicium, tayuan,
 
 type             armenian archer spearmen
 dictionary       armenian_archer_spearmen      ; armenian archer spearmen
@@ -19410,7 +19410,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 2965, 107, 40, 50, 230
-ownership        eastern, seleucid, slave, phoenicium
+ownership        eastern, seleucid, slave, phoenicium, tayuan,
 
 type             carthaginian libyphoenician assault infantry
 dictionary       carthaginian_libyphoenician_assault_infantry      ; carthaginian libyphoenician assault infantry
@@ -19700,7 +19700,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1921, 74, 40, 50, 230
-ownership        egypt, slave, seleucid, carthage, greek_cities, macedon, arados
+ownership        egypt, slave, seleucid, carthage, greek_cities, macedon, arados, tayuan,
 
 type             barb allied skirmisher
 dictionary       barb_allied_skirmisher      ; barb allied skirmisher
@@ -19972,7 +19972,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1567, 62, 40, 50, 210
-ownership        eastern, slave, phoenicium
+ownership        eastern, slave, phoenicium, tayuan,
 
 type             merc iranian sparabara
 dictionary       merc_iranian_sparabara      ; merc iranian sparabara
@@ -22492,7 +22492,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1531, 57, 40, 50, 380
-ownership        slave
+ownership        slave, tayuan,
 
 type             runaway slave spearmen
 dictionary       runaway_slave_spearmen      ; Runaway Slave Spearmen
@@ -25247,7 +25247,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 868, 35, 20, 30, 180
-ownership        parthia, slave, scythia
+ownership        parthia, slave, scythia, tayuan,
 ;; EGYC - egyptian culture
 
 type             nubian slingers
@@ -25410,7 +25410,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 751, 31, 20, 30, 160
-ownership        macedon, greek_cities, thrace, pontus, egypt, seleucid, slave
+ownership        macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, tayuan,
 ;; ROMC - roman culture
 
 type             roman gladiators

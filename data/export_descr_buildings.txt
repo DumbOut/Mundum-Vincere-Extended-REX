@@ -820,7 +820,7 @@ building barracks
                 recruit "iberian scutarii"  0  requires factions { spain, slave, }
                 recruit "east armenian assault infantry"  0  requires factions { armenia, parthia, pontus, slave, }
                 recruit "egyptian auxilia"  0  requires factions { egypt, slave, }
-                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, }
+                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, tayuan,}
                 recruit "roman gladiators"  0  requires factions { roman, }
                 recruit "roman extraordinarii"  0  requires factions { roman, }
                 recruit "roman marian auxilia"  0  requires factions { roman, }
@@ -1168,7 +1168,7 @@ building barracks
                 recruit "east armenian assault infantry"  0  requires factions { armenia, parthia, pontus, slave, }
                 recruit "egyptian auxilia"  0  requires factions { egypt, slave, }
                 recruit "nubian medium spearmen"  0  requires factions { egypt, slave, }
-                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, }
+                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, tayuan,}
                 recruit "roman gladiators"  0  requires factions { roman, }
                 recruit "roman extraordinarii"  0  requires factions { roman, }
                 recruit "roman marian auxilia"  0  requires factions { roman, }
@@ -1579,7 +1579,7 @@ building barracks
                 recruit "east armenian assault infantry"  0  requires factions { armenia, parthia, pontus, slave, }
                 recruit "egyptian auxilia"  0  requires factions { egypt, slave, }
                 recruit "nubian medium spearmen"  0  requires factions { egypt, slave, }
-                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, }
+                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, tayuan,}
                 recruit "roman gladiators"  0  requires factions { roman, }
                 recruit "roman extraordinarii"  0  requires factions { roman, }
                 recruit "roman marian auxilia"  0  requires factions { roman, }
@@ -1992,7 +1992,7 @@ building barracks
                 recruit "east armenian assault infantry"  0  requires factions { armenia, parthia, pontus, slave, }
                 recruit "egyptian auxilia"  0  requires factions { egypt, slave, }
                 recruit "nubian medium spearmen"  0  requires factions { egypt, slave, }
-                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, }
+                recruit "achaean phalangitai"  0  requires factions { macedon, greek_cities, thrace, pontus, egypt, seleucid, slave, tayuan,}
                 recruit "roman gladiators"  0  requires factions { roman, }
                 recruit "roman extraordinarii"  0  requires factions { roman, }
                 recruit "roman marian auxilia"  0  requires factions { roman, }
@@ -2150,7 +2150,7 @@ building equestrian
                 recruit "roman medium cavalry"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }  and marian_reforms 
                 recruit "roman wardogs"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
-                recruit "barb horse archers slave"  0  requires factions { slave, } 
+                recruit "barb horse archers slave"  0  requires factions { slave, tayuan,} 
                 recruit "barb cavalry slave"  0  requires factions { slave, } 
                 recruit "merc horse archers"  0  requires factions { dacia, } 
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
@@ -2394,7 +2394,7 @@ building equestrian
                 recruit "merc horse archers"  0  requires factions { dacia, } 
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
-                recruit "barb horse archers slave"  0  requires factions { slave, } 
+                recruit "barb horse archers slave"  0  requires factions { slave, tayuan,} 
                 recruit "barb light cavalry"  0  requires factions { barbarian, romans_julii, carthaginian, greek, egyptian, } 
                 recruit "barb javelin cavalry"  0  requires factions { roman, barbarian, greek, egyptian, } 
                 recruit "barb noble cavalry"  0  requires factions { barbarian, roman, eastern, carthaginian, egyptian, greek, } 
@@ -2658,7 +2658,7 @@ building equestrian
                 recruit "merc horse archers"  0  requires factions { dacia, } 
                 recruit "merc barbarian cavalry"  0  requires factions { britons, } 
                 recruit "barb noble cavalry slave"  0  requires factions { slave, } 
-                recruit "barb horse archers slave"  0  requires factions { slave, } 
+                recruit "barb horse archers slave"  0  requires factions { slave, tayuan,} 
                 recruit "barb chariot heavy slave"  0  requires factions { slave, } 
                 recruit "merc sarmatian cavalry"  0  requires factions { slave, } 
                 recruit "barb cavalry briton"  0  requires factions { britons, } 
@@ -2788,7 +2788,7 @@ building equestrian
                 recruit "sarmatian light horse archers"  0  requires factions { slave, }
                 recruit "sarmatian horse archers"  0  requires factions { slave, }
                 recruit "sarmatian heavy horse archers"  0  requires factions { slave, }
-                recruit "sarmatian noble horse archers"  0  requires factions { slave, }
+                recruit "sarmatian noble horse archers"  0  requires factions { slave, tayuan,}
                 recruit "herdsmen"  0  requires factions { slave, }
                 recruit "allied cavalry"  0  requires factions { slave, }
                 recruit "hunnic archers"  0  requires factions { slave, }
@@ -2824,7 +2824,7 @@ building equestrian
                 ;; auto-added missing EDU units (non-civilian)
                 recruit "Indian Elephants"  0  requires factions { mauryans, }
                 recruit "china heavy crossbow chariot"  0  requires factions { qin_01, }
-                recruit "greek baktrian cataphract"  0  requires factions { slave, }
+                recruit "greek baktrian cataphract"  0  requires factions { slave, tayuan,}
 }
             construction  7 
             cost  9600 
@@ -2944,7 +2944,7 @@ building missiles
                 recruit "gaetulian light archers"  0  requires factions { slave, }
                 recruit "gaetulian skirmishers"  0  requires factions { slave, }
                 recruit "aestii skirmishers"  0  requires factions { germans, slave, }
-                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, }
+                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, tayuan,}
                 recruit "nubian slingers"  0  requires factions { egypt, slave, }
                 recruit "roman light archer"  0  requires factions { roman, }
                 recruit "roman marian skirmisher"  0  requires factions { roman, }
@@ -3125,7 +3125,7 @@ building missiles
                 recruit "gaetulian light archers"  0  requires factions { slave, }
                 recruit "gaetulian skirmishers"  0  requires factions { slave, }
                 recruit "aestii skirmishers"  0  requires factions { germans, slave, }
-                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, }
+                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, tayuan,}
                 recruit "nubian slingers"  0  requires factions { egypt, slave, }
                 recruit "roman light archer"  0  requires factions { roman, }
                 recruit "roman marian skirmisher"  0  requires factions { roman, }
@@ -3313,7 +3313,7 @@ building missiles
                 recruit "gaetulian light archers"  0  requires factions { slave, }
                 recruit "gaetulian skirmishers"  0  requires factions { slave, }
                 recruit "aestii skirmishers"  0  requires factions { germans, slave, }
-                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, }
+                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, tayuan,}
                 recruit "nubian slingers"  0  requires factions { egypt, slave, }
                 recruit "roman light archer"  0  requires factions { roman, }
                 recruit "roman marian skirmisher"  0  requires factions { roman, }
@@ -3501,7 +3501,7 @@ building missiles
                 recruit "gaetulian heavy archers"  0  requires factions { slave, }
                 recruit "gaetulian skirmishers"  0  requires factions { slave, }
                 recruit "aestii skirmishers"  0  requires factions { germans, slave, }
-                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, }
+                recruit "mountain slinger"  0  requires factions { parthia, slave, scythia, tayuan,}
                 recruit "nubian slingers"  0  requires factions { egypt, slave, }
                 recruit "roman light archer"  0  requires factions { roman, }
                 recruit "roman heavy archer"  0  requires factions { roman, }
