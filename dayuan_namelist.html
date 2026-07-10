@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hellenistic Eastern Namelist Generator</title>
+<style>
+:root{--bg:#100d0a;--panel:#251c14;--gold:#d7b46a;--text:#f1e2c4;--muted:#b8aa92;--line:#6a5034}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#332318,#100d0a 58%);color:var(--text);font-family:Georgia,serif}
+header{padding:24px;border-bottom:1px solid var(--line)} h1{margin:0;color:var(--gold)} header p{color:var(--muted)}
+main{display:grid;grid-template-columns:430px 1fr;gap:18px;padding:18px} .panel{background:linear-gradient(#302319,#211912);border:1px solid var(--line);border-radius:8px;padding:16px}
+label{display:block;margin:10px 0 5px} input,textarea,button{width:100%;padding:10px;border:1px solid var(--line);border-radius:5px;background:#0d0b09;color:var(--text);font:inherit}
+textarea{min-height:76vh;font:13px/1.4 Consolas,monospace;white-space:pre;resize:vertical}
+.slider{display:grid;grid-template-columns:100px 1fr 45px;gap:8px;align-items:center} .slider label{margin:7px 0} .value{color:var(--gold);text-align:right}
+input[type=range]{padding:0;accent-color:var(--gold)} .grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}
+button{cursor:pointer;font-weight:bold;background:linear-gradient(#9a7240,#654722)} button.alt{background:linear-gradient(#4b3a2a,#2c231b)}
+.stats{margin-top:14px;padding:11px;background:#15110d;border:1px solid var(--line);color:var(--muted);line-height:1.5} strong{color:var(--gold)}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><h1>Realistic Hellenistic–Ionian–Sogdian–Persian Namelist</h1><p>Curated names only, strict uniqueness, no House_of surnames.</p></header>
+<main>
+<section class="panel">
+<h2>Export Settings</h2>
+<label>Editable faction line</label>
+<input id="faction" value="faction: hellenistic_east, ionia, sogdia, persia">
+<label>Seed</label><input id="seed" value="323BC-EASTERN-KINGDOMS">
+<h2 style="margin-top:18px">Culture weights</h2>
+<div class="slider"><label>Greek</label><input class="w" data-k="greek" type="range" min="0" max="100" value="24"><span class="value">24</span></div>
+<div class="slider"><label>Ionian</label><input class="w" data-k="ionian" type="range" min="0" max="100" value="20"><span class="value">20</span></div>
+<div class="slider"><label>Hellenistic</label><input class="w" data-k="hellenistic" type="range" min="0" max="100" value="21"><span class="value">21</span></div>
+<div class="slider"><label>Sogdian</label><input class="w" data-k="sogdian" type="range" min="0" max="100" value="17"><span class="value">17</span></div>
+<div class="slider"><label>Persian</label><input class="w" data-k="persian" type="range" min="0" max="100" value="18"><span class="value">18</span></div>
+<div class="grid">
+<button id="generate">Generate</button><button class="alt" id="randomSeed">Random Seed</button>
+<button class="alt" id="copy">Copy</button><button id="download">Download TXT</button>
+</div>
+<div class="stats" id="stats"><strong>Output:</strong> 200 characters, 140 surnames, 200 women.</div>
+</section>
+<section class="panel"><h2>Output</h2><textarea id="output" spellcheck="false"></textarea></section>
+</main>
+<script>
+const MALE=["Alexandros", "Andronikos", "Antigonos", "Antiochos", "Antipatros", "Antiphilos", "Apollodoros", "Apollonios", "Aristagoras", "Aristandros", "Aristarchos", "Aristeides", "Aristion", "Ariston", "Aristophanes", "Aristoteles", "Archelaos", "Archidamos", "Athenaios", "Bion", "Charidemos", "Charikles", "Chrysippos", "Damokrates", "Demetrios", "Demosthenes", "Diodoros", "Diogenes", "Dionysios", "Eratosthenes", "Euboulos", "Eukleides", "Eukrates", "Eumenes", "Eupolemos", "Herakleides", "Herakleitos", "Hermogenes", "Hermokrates", "Hippokrates", "Kallias", "Kallikrates", "Kallimachos", "Kleandros", "Klearchos", "Kleitos", "Leonidas", "Leontios", "Lysandros", "Lysias", "Menandros", "Menekrates", "Nikanor", "Nikandros", "Nikarchos", "Nikias", "Philagros", "Philinos", "Philiskos", "Philokles", "Philokrates", "Philoxenos", "Polyarchos", "Polykleitos", "Ptolemaios", "Seleukos", "Sostratos", "Straton", "Theodoros", "Theophilos", "Timaios", "Timarchos", "Xenokrates", "Xenophon", "Zenon", "Zoilos", "Anaxagoras", "Anaximandros", "Anaximenes", "Archytas", "Bias", "Ephoros", "Euthydemos", "Hekataios", "Herodotos", "Hermesianax", "Hipponax", "Kallinos", "Leodamas", "Melesagoras", "Mimnermos", "Nausikrates", "Onesikritos", "Parmenion", "Phanias", "Pherekydes", "Skylax", "Theopompos", "Xenophanes", "Agathokles", "Agatharchides", "Andragoras", "Andromachos", "Antialkidas", "Archebios", "Artemidoros", "Diodotos", "Epandros", "Heliokles", "Hermaios", "Hippostratos", "Pantaleon", "Peukolaos", "Platon", "Polyxenos", "Stratonikos", "Apollophanes", "Aristomachos", "Nikostratos", "Timogenes", "Abrokomas", "Achaimenes", "Ariabignes", "Ariobarzanes", "Ariomardos", "Arsames", "Artabanos", "Artabazos", "Artaphernes", "Artasyras", "Artaxerxes", "Aryandes", "Aryaramnes", "Aspastes", "Atropates", "Bagadates", "Bagoas", "Barsentes", "Datames", "Farnabazos", "Farnakes", "Gobryas", "Hystaspes", "Mardonios", "Masistes", "Mazaios", "Megabates", "Megabyzos", "Mithradates", "Nabarzanes", "Narses", "Orontes", "Otanes", "Oxyathres", "Phrataphernes", "Satibarzanes", "Spithridates", "Tiribazos", "Vardanes", "Vindafarnah", "Zariadres", "Zopyros", "Akhshunwar", "Baghpat", "Bandak", "Chaghan", "Devashtich", "Farnbag", "Gurak", "Khunak", "Makhshid", "Mithraka", "Narseh", "Nawaz", "Oxyartes", "Roxanes", "Siyawush", "Spitamenes", "Varkhuman", "Vashtak", "Wakhshdat", "Zarasp", "Zurvan", "Aristonax", "Demetrodoros", "Dionysodoros", "Eukratides", "Hermaion", "Kallistratos", "Kleomenes", "Leostratos", "Lysimachos", "Menekles", "Nikagoras", "Philodemos", "Philostratos", "Polykrates", "Theogenes", "Timotheos", "Xenodotos", "Zenodoros", "Arsinoos", "Artavardiya", "Ariamazes", "Bagapates", "Farnaspes", "Mithrobaios", "Oxybares", "Roxandros", "Spitakos", "Vardaspes", "Alexikrates", "Androtion", "Antidoros", "Apollonides", "Aristodemos", "Chariton", "Damakos", "Dion", "Euktemon", "Hegesias", "Herodoros", "Kleitarchos", "Leokrates", "Menedemos", "Nikokles", "Philippides", "Sopatros", "Theokritos", "Xenarchos"];
+const FEMALE=["Alexandra", "Apollonia", "Arsinoe", "Berenike", "Dione", "Eukleia", "Kleopatra", "Laodike", "Nikaia", "Philista", "Stratonike", "Theodora", "Timandra", "Helena", "Kallista", "Eirene", "Thais", "Melitta", "Phoibe", "Aglaia", "Agathokleia", "Aikaterine", "Alkippe", "Amastris", "Antigone", "Antiochis", "Apame", "Aristomache", "Artemisia", "Athenais", "Charikleia", "Chrysothemis", "Damaris", "Demetria", "Dionysia", "Eudokia", "Eupolemeia", "Eurydike", "Hegesipyle", "Hermione", "Hippolyte", "Kalliroe", "Kleoboule", "Kleonike", "Kynane", "Leontion", "Lysandra", "Nikomache", "Olympias", "Ptolemais", "Rhodopis", "Theophila", "Timarete", "Xenokrateia", "Zenais", "Zoe", "Amestris", "Amytis", "Atossa", "Barsine", "Damaspia", "Drypetis", "Parysatis", "Rhodogune", "Stateira", "Artazostre", "Artakama", "Artystone", "Mandane", "Sisygambis", "Anahita", "Arsama", "Aryenis", "Atropatene", "Bagadokhtha", "Farnaka", "Mithraina", "Narseia", "Oxyathra", "Roxana", "Spitama", "Vardana", "Wakhshana", "Zariada", "Nanaia", "Devashtana", "Chaghana", "Guraka", "Khunana", "Vashtana", "Alexandria", "Andromache", "Antiphila", "Apollodora", "Aristodike", "Aristokleia", "Aristone", "Artemidora", "Charideme", "Demostrate", "Diodora", "Diogeneia", "Dionysodora", "Eukrateia", "Eumeneia", "Herakleia", "Hermodike", "Kallianeira", "Kallimache", "Kleopatraia", "Leontis", "Lysimache", "Menandra", "Nikanora", "Nikandra", "Philodora", "Philokleia", "Philoxena", "Polyxena", "Seleukia", "Sostrata", "Theano", "Theodote", "Timokleia", "Xenodike", "Zenodora", "Achaimenis", "Ariobarzana", "Arsinoia", "Artabana", "Artapherna", "Aryaramna", "Aspasia", "Atropa", "Bagadata", "Farnabaza", "Gobrya", "Hystaspa", "Mazaea", "Mithradata", "Nabarzana", "Orontia", "Otana", "Satibarzana", "Spithridata", "Tiribaza", "Vindafarna", "Zopyra", "Akhshana", "Bandaka", "Farnbaga", "Makhshida", "Nawaza", "Siyawusha", "Zurvana", "Aglaonike", "Basileia", "Chryseis", "Dionysias", "Euboule", "Euphemia", "Harmonia", "Kleio", "Korinna", "Myrto", "Nausikaa", "Niko", "Phila", "Philinna", "Roxandra", "Sappho", "Stratonika", "Theokleia", "Timothea", "Xanthippe", "Zenobia", "Adrastia", "Androsthenia", "Antidora", "Aristagora", "Aristophila", "Artemonoe", "Damagora", "Demodike", "Eukleida", "Herodora", "Kallistrate", "Klearchia", "Leodike", "Lysiandra", "Menodora", "Nikagora", "Philagora", "Polykrateia", "Theogeneia", "Timodora", "Xenophile", "Zenophile", "Ariamazea", "Artavardiya", "Bagapata", "Farnaspa", "Mithrobaia", "Oxybara", "Spitaka", "Vardaspa", "Anaxandra", "Euthydemia", "Heliokleia"];
+const SURNAMES=["Argead", "Antigonid", "Seleukid", "Ptolemaid", "Attalid", "Eukratid", "Diodotid", "Achaemenid", "Arsacid", "Fratarakid", "Spitamenid", "Oxyartid", "Mithradatid", "Artabanid", "Farnakid", "Atropatid", "Orontid", "Vardanid", "Bagadatid", "Vindafarnid", "Alexandrid", "Andronikid", "Antiochid", "Apollodorid", "Aristagorid", "Aristarchid", "Aristonid", "Archelaid", "Charidemid", "Demetriad", "Diodorid", "Diogenid", "Dionysid", "Eumenid", "Herakleid", "Hermogenid", "Kallikratid", "Kleandrid", "Leonid", "Lysandrid", "Menandrid", "Nikanorid", "Nikandrid", "Philokleid", "Philoxenid", "Polykratid", "Stratonid", "Theodorid", "Timarchid", "Xenokratid", "Zenonid", "Anaxagorid", "Anaximandrid", "Herodotid", "Parmenionid", "Pherekydid", "Agathokleid", "Andragorid", "Antialkid", "Archebiad", "Artemidorid", "Epandrid", "Heliokleid", "Hermaiad", "Pantaleonid", "Peukolaid", "Stratonikid", "Abrokomid", "Ariobarzanid", "Ariomardid", "Artabazid", "Artaphernid", "Aryandid", "Aryaramnid", "Aspastid", "Barsentid", "Datamid", "Farnabazid", "Gobryad", "Hystaspid", "Mardonid", "Mazaiid", "Megabyzid", "Nabarzanid", "Otanid", "Phrataphernid", "Satibarzanid", "Spithridatid", "Tiribazid", "Zariadrid", "Zopyrid", "Akhshunwarid", "Baghpatid", "Bandakid", "Chaghanid", "Devashtichid", "Farnbagid", "Gurakid", "Khunakid", "Makhshidid", "Narsehid", "Nawazid", "Roxanid", "Siyawushid", "Varkhumanid", "Wakhshdatid", "Zaraspid", "Zurvanid", "Bar_Alexandros", "Bar_Seleukos", "Bar_Arsames", "Bar_Artabanos", "Bar_Mithradates", "Bar_Oxyartes", "Bar_Spitamenes", "Ben_Apollodoros", "Ben_Ariston", "Ben_Demetrios", "Ben_Herakleides", "Ben_Menandros", "Ben_Nikanor", "Ben_Philoxenos", "Ben_Straton", "Ben_Zenon", "Ariamazid", "Artavardid", "Mithrobaiid", "Vardaspid", "Farnaspid", "Bagapatid", "Oxybarid", "Spitakid", "Narseid", "Devashtid", "Khunid", "Vashtid", "Mithrakid", "Artasyrid", "Mazaiad", "Megabatid", "Ariabignid", "Ariamenid"];
+
+function seeded(seed){let h=2166136261;for(let i=0;i<seed.length;i++){h^=seed.charCodeAt(i);h=Math.imul(h,16777619)}return function(){h+=0x6D2B79F5;let t=h;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296}}
+function shuffle(a,r){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function section(t,a){return "\n\t"+t+"\n\n"+a.map(x=>"\t\t"+x).join("\n")+"\n"}
+function weights(){let o={},s=0;document.querySelectorAll(".w").forEach(e=>{o[e.dataset.k]=+e.value;s+=+e.value});Object.keys(o).forEach(k=>o[k]=s?o[k]/s:.2);return o}
+function cultureOf(name,kind){
+ const greek=/^(Alex|Andr|Antig|Antio|Apol|Arist|Arch|Athen|Bion|Char|Chrys|Dam|Dem|Dio|Eub|Euk|Eum|Her|Hip|Kall|Kle|Leon|Lys|Men|Nik|Phil|Poly|Ptol|Sel|Sos|Strat|Theo|Tim|Xen|Zen|Zoi)/;
+ const ionian=/^(Anax|Bias|Eph|Hek|Herod|Hermesian|Hipponax|Kallin|Leod|Meles|Mimn|Naus|Ones|Parmen|Phan|Pherek|Skyl|Theop|Xenoph)/;
+ const sogd=/^(Akhsh|Bagh|Bandak|Chagh|Devasht|Farnbag|Gurak|Khunak|Makhsh|Nawaz|Rox|Siyaw|Spit|Varkh|Vasht|Wakhsh|Zarasp|Zurvan|Nana|Chaghana|Guraka|Khunana|Vashtana)/;
+ const pers=/^(Abro|Achaim|Ariab|Ariob|Ariom|Arsam|Artab|Artap|Artas|Artax|Arya|Asp|Atrop|Bagad|Bago|Bars|Datam|Farnab|Farnak|Gobry|Hyst|Mard|Mas|Maz|Megab|Mithr|Nabar|Nars|Oront|Otan|Oxy|Phrat|Satib|Spithr|Tirib|Vard|Vind|Zari|Zopy|Amestr|Amyt|Atoss|Barsin|Damasp|Drypet|Pary|Rhodog|Stateir|Artaz|Artak|Artyst|Mandan|Sisyg|Anahit)/;
+ if(sogd.test(name))return"sogdian"; if(pers.test(name))return"persian"; if(ionian.test(name))return"ionian"; if(greek.test(name))return"greek"; return"hellenistic"
+}
+function weightedOrder(arr,w,r,kind){
+ return arr.map(n=>{const c=cultureOf(n,kind);const score=(w[c]||.2)*(0.65+r()*.7);return{n,score}}).sort((a,b)=>b.score-a.score).map(x=>x.n)
+}
+function takeUnique(arr,count){const seen=new Set(),o=[];for(const n of arr){const k=n.toLowerCase();if(!seen.has(k)&&!n.startsWith("House_of_")){seen.add(k);o.push(n)}if(o.length===count)break}if(o.length<count)throw new Error("Not enough unique entries");return o}
+function generate(){
+ try{
+  const seed=document.getElementById("seed").value||String(Date.now()),r=seeded(seed),w=weights();
+  const men=takeUnique(weightedOrder(MALE,w,r,"male"),200);
+  const women=takeUnique(weightedOrder(FEMALE,w,r,"female"),200);
+  const sur=takeUnique(weightedOrder(SURNAMES,w,r,"surname"),140);
+  const faction=document.getElementById("faction").value.trim()||"faction: hellenistic_east";
+  document.getElementById("output").value=faction+"\n"+section("characters",men)+section("surnames",sur)+section("women",women);
+  document.getElementById("stats").innerHTML="<strong>Generated:</strong> 200 characters, 140 surnames, 200 women.<br><strong>House_of entries:</strong> 0<br><strong>Repeated entries:</strong> 0";
+ }catch(e){document.getElementById("output").value="ERROR: "+e.message;}
+}
+document.querySelectorAll(".w").forEach(e=>e.addEventListener("input",()=>e.nextElementSibling.textContent=e.value));
+document.getElementById("generate").onclick=generate;
+document.getElementById("randomSeed").onclick=()=>{document.getElementById("seed").value="SEED-"+Date.now()+"-"+Math.floor(Math.random()*1000000);generate()};
+document.getElementById("copy").onclick=async()=>{const t=document.getElementById("output");try{await navigator.clipboard.writeText(t.value)}catch{t.select();document.execCommand("copy")}};
+document.getElementById("download").onclick=()=>{const b=new Blob([document.getElementById("output").value],{type:"text/plain"}),u=URL.createObjectURL(b),a=document.createElement("a");a.href=u;a.download="hellenistic_eastern_namelist.txt";a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)};
+generate();
+</script></body></html>

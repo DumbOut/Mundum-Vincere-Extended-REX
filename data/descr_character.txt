@@ -121,6 +121,14 @@ strat_model		sm_greek_general
 battle_model	greek_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 faction			carthage
 dictionary		1
 strat_model		sm_carthage_general
@@ -336,6 +344,15 @@ battle_model	egyptian_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
+;; tayuan
+faction			tayuan
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_greek_lesser_general
@@ -562,6 +579,13 @@ dictionary		2
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 faction			carthage
 dictionary		1
 strat_card		data/ui/roman/agents/card_spy.tga
@@ -736,6 +760,13 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+
+;; tayuan
+faction			tayuan
 dictionary		2
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -918,6 +949,13 @@ dictionary		2
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
 strat_model		diplomat
 
+
+;; tayuan
+faction			tayuan
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
 faction			carthage
 dictionary		1
 strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
@@ -1072,6 +1110,13 @@ strat_card		data/ui/egyptian/agents/temp_admiral.tga
 strat_model		egypt_admiral
 
 faction			seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		seleucid_admiral
+
+
+;; tayuan
+faction			tayuan
 dictionary		2
 strat_card		data/ui/greek/agents/temp_admiral.tga
 strat_model		seleucid_admiral

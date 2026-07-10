@@ -31,6 +31,7 @@ playable
 	thamud_01
 	phoenicium
 	memnones
+	tayuan
 end
 unlockable
 end
@@ -13161,8 +13162,6 @@ relative 	Dionysios of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	e
 relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
-
-; Itanos
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION ITANOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -15426,9 +15425,91 @@ relative 	Deinias Aulouporid,		end
 relative 	Epimenes Aulouporid,		end
 relative 	Aktaneus Aulouporid,		end
 
+faction	tayuan, balanced smith
+denari	37000
+settlement
+{
+	level large_town
+	region AlexandriaEschate_R
+
+	year_founded 0
+	population 4900
+	plan_set default_set
+	faction_creator tayuan
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cyropolis_Sogdiana_R
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator tayuan
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+;	Alexandreia Eschate
+character	Epameneus Ionianid, named character, leader, age 40, , x 762, y 533
+traits GoodCommander 5 , Intelligent 1 , GoodAdministrator 3
+army
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek hoplite militia				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+
+;	Cyropolis Sogdiana
+character	Dion Ionianid, named character, heir, age 20, , x 757, y 527
+traits GoodCommander 5 , Intelligent 1 , GoodAdministrator 3
+army
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek general's guard cavalry early				exp 9 armour 9 weapon_lvl 9
+unit		greek hoplite militia				exp 5 armour 1 weapon_lvl 0
+unit		greek hoplite militia				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 5 armour 2 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 2
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 2
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 2
+
+
+character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+
+relative 	Epameneus Ionianid, 	Harmonia,		Dion Ionianid,	end
+
 
 faction	slave, balanced_smith
-denari	-5004800
+denari	-9134800
 settlement
 {
 	level town
@@ -34448,44 +34529,6 @@ settlement
 settlement
 {
 	level town
-	region AlexandriaEschate_R
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator seleucid
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Cyropolis_Sogdiana_R
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator seleucid
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
 	region Maracodra_R
 
 	year_founded 0
@@ -41100,32 +41143,6 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-;	Alexandria Eschate
-character,	sub_faction seleucid, Asphalion, general, age 20, , x 762, y 533
-
-army
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-
-;	Cyropolis Sogdiana
-character,	sub_faction seleucid, Asphalion, general, age 20, , x 757, y 527
-
-army
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-
 ;	Maracodra
 character,	sub_faction seleucid, Asphalion, general, age 20, , x 745, y 528
 
@@ -42977,17 +42994,6 @@ unit		east archer				exp 0 armour 0 weapon_lvl 0
 
 ;	Aganzana
 character,	sub_faction parthia, Caspar, general, age 20, , x 570, y 451
-
-army
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-
-;	Cyropolis
-character,	sub_faction parthia, Caspar, general, age 20, , x 580, y 460
 
 army
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -51790,5 +51796,3 @@ faction_relationships	qin_01,		600		slave
 faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, cisra_01, qin_01, mauryans, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, sciria_01, germans, britons, armenia, dacia, greek_cities, numidia, massilia_01, scythia, spain, thrace ;, caledonians_01, voluntii_01, coriondi_01, nok_culture_01, arevaci_01, zhou_01, illyria_01, aestii_01, aedui_01, allobroges_01, bituriges_01
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of faction agression section <<<<
-turns_per_year 12
-seasons  winter winter spring spring summer summer summer summer autumn autumn winter winter
