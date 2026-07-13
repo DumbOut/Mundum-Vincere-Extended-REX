@@ -50,6 +50,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -75,6 +76,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -153,7 +155,8 @@ building core_building
         governors_palace requires factions { barbarian, carthaginian, eastern, upper_chinese, parthia, mauryans, egyptian, greek, roman, phoenicium, arados, memnones, qin_01, }
         {
             capability
-            {          
+            {
+                taxable_income_bonus bonus -0.056          
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -230,6 +233,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -306,6 +310,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 
@@ -393,6 +398,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 wall_level 0
                 tower_level 1
             }
@@ -408,6 +414,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 wall_level 1
                 gate_strength 1
                 tower_level 1
@@ -424,6 +431,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 wall_level 2
                 tower_level 1
                 gate_defences 1
@@ -441,6 +449,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 wall_level 3
                 tower_level 1
                 gate_defences 2
@@ -458,6 +467,7 @@ building defenses
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 wall_level 4
                 tower_level 2
                 gate_defences 2
@@ -483,6 +493,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, }
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -497,6 +508,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband spear scythian"  0  requires factions { scythia, }
+                recruit "warband spear armenian"  0  requires factions { armenia, }
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
                 recruit "numidia levy swordsmen 01" 0 requires factions { numidia, }
                 recruit "east infantry"  0  requires factions { parthia, pontus, armenia, seleucid, } 
@@ -551,6 +563,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -571,6 +584,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband spear scythian"  0  requires factions { scythia, }
+                recruit "warband spear armenian"  0  requires factions { armenia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
@@ -849,6 +863,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -877,6 +892,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband spear scythian"  0  requires factions { scythia, }
+                recruit "warband spear armenian"  0  requires factions { armenia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
@@ -1195,6 +1211,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 recruit "libyan light infantry"  0  requires factions { numidia, carthage, }
@@ -1225,6 +1242,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband spear scythian"  0  requires factions { scythia, }
+                recruit "warband spear armenian"  0  requires factions { armenia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
@@ -1607,6 +1625,7 @@ building barracks
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
 				taxable_income_bonus bonus -1 requires factions { slave, }
                 recruit "carthaginian city militia"  0  requires factions { carthage, spain, }
                 recruit "italic spearmen" 0 requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
@@ -1639,6 +1658,7 @@ building barracks
                 recruit "barb horse archers scythian"  0  requires factions { scythia, } 
                 recruit "tribesmen"  0  requires factions { scythia, } 
                 recruit "warband spear scythian"  0  requires factions { scythia, }
+                recruit "warband spear armenian"  0  requires factions { armenia, }
                 recruit "warband sword briton"  0  requires factions { britons, } 
                 recruit "warband sword gaul"  0  requires factions { gauls, } 
                 recruit "warband axe german"  0  requires factions { germans, } 
@@ -2027,6 +2047,7 @@ building equestrian
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
@@ -2101,6 +2122,7 @@ building equestrian
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
@@ -2284,6 +2306,7 @@ building equestrian
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
@@ -2547,6 +2570,7 @@ building equestrian
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian warhounds"  0  requires factions { spain, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, spain, } 
                 recruit "cantabrian"  0  requires factions { spain, } 
@@ -2846,6 +2870,7 @@ building missiles
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "baltic warband"  0  requires factions { germans, }
                 recruit "barb peltast gaul"  0  requires factions { gauls, } 
@@ -2965,6 +2990,7 @@ building missiles
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "baltic warband"  0  requires factions { germans, }
@@ -3150,6 +3176,7 @@ building missiles
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "baltic warband"  0  requires factions { germans, }
@@ -3330,6 +3357,7 @@ building missiles
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "carthaginian slinger"  0  requires factions { carthage, spain, numidia, } 
                 recruit "carthaginian peltast"  0  requires factions { carthage, spain, } 
                 recruit "baltic warband"  0  requires factions { germans, }
@@ -3528,6 +3556,7 @@ building market
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 trade_base_income_bonus bonus 1
                 population_growth_bonus bonus 1
             }
@@ -3543,6 +3572,7 @@ building market
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 agent spy  0  requires factions { barbarian, } 
                 agent spy  0  requires factions { carthage, numidia, arados, } 
                 agent spy  0  requires factions { parthia, pontus, armenia, } 
@@ -3564,6 +3594,7 @@ building market
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 agent spy  0  requires factions { barbarian, } 
                 agent assassin  0  requires factions { barbarian, } 
                 agent spy  0  requires factions { carthage, numidia, arados, } 
@@ -3591,6 +3622,7 @@ building market
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 agent spy  0  requires factions { barbarian, } 
                 agent assassin  0  requires factions { barbarian, } 
                 agent spy  0  requires factions { carthage, numidia, arados, } 
@@ -3618,6 +3650,7 @@ building market
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 agent spy  0  requires factions { barbarian, } 
                 agent assassin  0  requires factions { barbarian, } 
                 agent spy  0  requires factions { carthage, numidia, arados, } 
@@ -3654,6 +3687,7 @@ building smith
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb chariot light briton"  0  requires factions { britons, } 
                 recruit "east scythed chariot"  0  requires factions { pontus, } 
                 recruit "egyptian chariot"  0  requires factions { egypt, } 
@@ -3674,6 +3708,7 @@ building smith
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb chariot heavy briton"  0  requires factions { britons, } 
                 recruit "barb chariot light briton"  0  requires factions { britons, } 
                 recruit "east scythed chariot"  0  requires factions { pontus, } 
@@ -3699,6 +3734,7 @@ building smith
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb chariot heavy briton"  0  requires factions { britons, } 
                 recruit "barb chariot light briton"  0  requires factions { britons, } 
                 recruit "east scythed chariot"  0  requires factions { pontus, } 
@@ -3732,6 +3768,7 @@ building port_buildings
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "naval boats"  0  requires factions { barbarian, } 
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
@@ -3755,6 +3792,7 @@ building port_buildings
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "naval boats"  0  requires factions { barbarian, } 
                 recruit "naval large boats"  0  requires factions { barbarian, } 
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
@@ -3782,6 +3820,7 @@ building port_buildings
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "naval boats"  0  requires factions { barbarian, } 
                 recruit "naval large boats"  0  requires factions { barbarian, } 
                 recruit "naval biremes"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
@@ -3824,6 +3863,7 @@ building health
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 population_health_bonus bonus 1
             }
             construction  2 
@@ -3838,6 +3878,7 @@ building health
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 population_health_bonus bonus 2
             }
             construction  3 
@@ -3852,6 +3893,7 @@ building health
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 population_health_bonus bonus 3
             }
             construction  5 
@@ -3866,6 +3908,7 @@ building health
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 population_health_bonus bonus 4
             }
             construction  6 
@@ -3888,6 +3931,7 @@ building hinterland_farms
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 farming_level 1
             }
             construction  2 
@@ -3902,6 +3946,7 @@ building hinterland_farms
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 farming_level 2
             }
             construction  3 
@@ -3916,6 +3961,7 @@ building hinterland_farms
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 farming_level 3
             }
             construction  4 
@@ -3930,6 +3976,7 @@ building hinterland_farms
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 farming_level 4
             }
             construction  6 
@@ -3944,6 +3991,7 @@ building hinterland_farms
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 farming_level 5
             }
             construction  7 
@@ -3966,6 +4014,7 @@ building hinterland_roads
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 road_level 0
             }
             construction  1 
@@ -3980,6 +4029,7 @@ building hinterland_roads
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 road_level 1
             }
             construction  3 
@@ -3994,6 +4044,7 @@ building hinterland_roads
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 road_level 2
             }
             construction  4 
@@ -4016,6 +4067,7 @@ building hinterland_mines
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 mine_resource 4
             }
             construction  2 
@@ -4030,6 +4082,7 @@ building hinterland_mines
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 mine_resource 7
             }
             construction  3 
@@ -4052,6 +4105,7 @@ building academic
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
             }
             construction  3 
             cost  1600 
@@ -4065,6 +4119,7 @@ building academic
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
             }
             construction  5 
             cost  3200 
@@ -4078,6 +4133,7 @@ building academic
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
             }
             construction  6 
             cost  6400 
@@ -4099,6 +4155,7 @@ building amphitheatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
                 stage_games 1 requires factions { roman, }
                 happiness_bonus bonus 1
@@ -4115,6 +4172,7 @@ building amphitheatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
                 recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, } 
                 stage_games 2 requires factions { roman, }
@@ -4132,6 +4190,7 @@ building amphitheatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
                 recruit "roman samnite gladiator"  0  requires factions { romans_julii, romans_senate, } 
                 recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, } 
@@ -4158,6 +4217,7 @@ building theatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
             }
             construction  3 
@@ -4172,6 +4232,7 @@ building theatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
             }
             construction  5 
@@ -4186,6 +4247,7 @@ building theatres
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
             }
             construction  6 
@@ -4208,6 +4270,7 @@ building despotic_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 law_bonus bonus 2
             }
             construction  3 
@@ -4222,6 +4285,7 @@ building despotic_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 law_bonus bonus 3
             }
             construction  5 
@@ -4236,6 +4300,7 @@ building despotic_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 law_bonus bonus 4
             }
             construction  6 
@@ -4258,6 +4323,7 @@ building caravans
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 trade_base_income_bonus bonus 2
             }
             construction  3 
@@ -4272,6 +4338,7 @@ building caravans
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 trade_base_income_bonus bonus 3
             }
             construction  5 
@@ -4286,6 +4353,7 @@ building caravans
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 trade_base_income_bonus bonus 4
             }
             construction  6 
@@ -4308,6 +4376,7 @@ building taverns
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
             }
             construction  2 
@@ -4322,6 +4391,7 @@ building taverns
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb night raiders german"  0  requires factions { germans, } 
                 happiness_bonus bonus 2
             }
@@ -4345,6 +4415,7 @@ building temple_of_battle
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
             }
             construction  1 
@@ -4359,6 +4430,7 @@ building temple_of_battle
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics dacian"  0  requires factions { dacia, } 
                 happiness_bonus bonus 2
                 recruits_morale_bonus bonus 1
@@ -4375,6 +4447,7 @@ building temple_of_battle
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics dacian"  1  requires factions { dacia, } 
                 happiness_bonus bonus 3
                 recruits_morale_bonus bonus 2
@@ -4391,6 +4464,7 @@ building temple_of_battle
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics dacian"  1  requires factions { dacia, } 
                 happiness_bonus bonus 4
                 recruits_morale_bonus bonus 3
@@ -4407,6 +4481,7 @@ building temple_of_battle
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics dacian"  1  requires factions { dacia, } 
                 happiness_bonus bonus 7
                 recruits_morale_bonus bonus 4
@@ -4431,6 +4506,7 @@ building temple_of_battleforge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
@@ -4446,6 +4522,7 @@ building temple_of_battleforge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics gauls"  0  requires factions { gauls, } 
                 happiness_bonus bonus 2
                 weapon_simple bonus 1
@@ -4463,6 +4540,7 @@ building temple_of_battleforge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics gauls"  1  requires factions { gauls, } 
                 recruit "gaul revenger" 1 requires factions { gauls, }
                 happiness_bonus bonus 3
@@ -4481,6 +4559,7 @@ building temple_of_battleforge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics gauls"  1  requires factions { gauls, } 
                 recruit "gaul revenger" 1 requires factions { gauls, }
                 happiness_bonus bonus 4
@@ -4508,6 +4587,7 @@ building temple_of_farming
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 farming_level bonus 1
             }
@@ -4523,6 +4603,7 @@ building temple_of_farming
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 farming_level bonus 2
             }
@@ -4538,6 +4619,7 @@ building temple_of_farming
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 farming_level bonus 3
             }
@@ -4553,6 +4635,7 @@ building temple_of_farming
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 farming_level bonus 4
             }
@@ -4568,6 +4651,7 @@ building temple_of_farming
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 farming_level bonus 5
                 law_bonus bonus 2
@@ -4593,6 +4677,7 @@ building temple_of_fertility
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb screeching women german"  0  requires factions { germans, } 
                 happiness_bonus bonus 1
                 population_growth_bonus bonus 1
@@ -4609,6 +4694,7 @@ building temple_of_fertility
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb screeching women german"  0  requires factions { germans, } 
                 happiness_bonus bonus 2
                 population_growth_bonus bonus 2
@@ -4625,6 +4711,7 @@ building temple_of_fertility
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb screeching women german"  0  requires factions { germans, } 
                 happiness_bonus bonus 3
                 population_growth_bonus bonus 3
@@ -4641,6 +4728,7 @@ building temple_of_fertility
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb screeching women german"  0  requires factions { germans, } 
                 happiness_bonus bonus 4
                 population_growth_bonus bonus 4
@@ -4657,6 +4745,7 @@ building temple_of_fertility
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb screeching women german"  0  requires factions { germans, } 
                 happiness_bonus bonus 7
                 population_growth_bonus bonus 5
@@ -4682,6 +4771,7 @@ building temple_of_forge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 weapon_simple bonus 1
             }
@@ -4697,6 +4787,7 @@ building temple_of_forge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 weapon_simple bonus 1
                 weapon_bladed bonus 1
@@ -4713,6 +4804,7 @@ building temple_of_forge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 weapon_simple bonus 1
                 weapon_bladed bonus 1
@@ -4730,6 +4822,7 @@ building temple_of_forge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 weapon_simple bonus 1
                 weapon_bladed bonus 1
@@ -4748,6 +4841,7 @@ building temple_of_forge
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 weapon_simple bonus 1
                 weapon_bladed bonus 1
@@ -4775,6 +4869,7 @@ building temple_of_fun
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
             }
             construction  1 
@@ -4789,6 +4884,7 @@ building temple_of_fun
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
             }
             construction  2 
@@ -4803,6 +4899,7 @@ building temple_of_fun
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 6
             }
             construction  3 
@@ -4817,6 +4914,7 @@ building temple_of_fun
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 8
             }
             construction  5 
@@ -4831,6 +4929,7 @@ building temple_of_fun
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 10
                 population_growth_bonus bonus 2
                 law_bonus bonus 2
@@ -4855,6 +4954,7 @@ building temple_of_governors
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -4870,6 +4970,7 @@ building temple_of_governors
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
@@ -4885,6 +4986,7 @@ building temple_of_governors
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
@@ -4900,6 +5002,7 @@ building temple_of_governors
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
@@ -4915,6 +5018,7 @@ building temple_of_governors
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 5
                 farming_level bonus 2
@@ -4941,6 +5045,7 @@ building temple_of_healing
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 population_health_bonus bonus 1
             }
@@ -4956,6 +5061,7 @@ building temple_of_healing
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 2
                 population_health_bonus bonus 2
@@ -4972,6 +5078,7 @@ building temple_of_healing
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior briton"  0  requires factions { britons, } 
                 recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 3
@@ -4989,6 +5096,7 @@ building temple_of_healing
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior briton"  0  requires factions { britons, } 
                 recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 4
@@ -5006,6 +5114,7 @@ building temple_of_healing
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior briton"  0  requires factions { britons, } 
                 recruit "barb druids briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 5
@@ -5033,6 +5142,7 @@ building temple_of_horse
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
@@ -5048,6 +5158,7 @@ building temple_of_horse
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
@@ -5063,6 +5174,7 @@ building temple_of_horse
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }
@@ -5086,6 +5198,7 @@ building temple_of_hunting
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 weapon_missile bonus 1
             }
@@ -5101,6 +5214,7 @@ building temple_of_hunting
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 weapon_missile bonus 2
             }
@@ -5116,6 +5230,7 @@ building temple_of_hunting
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 weapon_missile bonus 3
             }
@@ -5131,6 +5246,7 @@ building temple_of_hunting
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 weapon_missile bonus 3
             }
@@ -5146,6 +5262,7 @@ building temple_of_hunting
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 weapon_missile bonus 3
                 law_bonus bonus 2
@@ -5171,6 +5288,7 @@ building temple_of_justice
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -5186,6 +5304,7 @@ building temple_of_justice
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 happiness_bonus bonus 2
@@ -5203,6 +5322,7 @@ building temple_of_justice
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
@@ -5222,6 +5342,7 @@ building temple_of_justice
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
@@ -5242,6 +5363,7 @@ building temple_of_justice
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "celtic warrior gaul"  0  requires factions { gauls, } 
                 recruit "barb druids gaul"  0  requires factions { gauls, } 
                 recruit "barb naked fanatics spain"  0  requires factions { spain, } 
@@ -5272,6 +5394,7 @@ building temple_of_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -5287,6 +5410,7 @@ building temple_of_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
@@ -5302,6 +5426,7 @@ building temple_of_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
@@ -5317,6 +5442,7 @@ building temple_of_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 4
                 law_bonus bonus 4
@@ -5333,6 +5459,7 @@ building temple_of_law
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 5
                 law_bonus bonus 5
@@ -5360,6 +5487,7 @@ building temple_of_leadership
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -5375,6 +5503,7 @@ building temple_of_leadership
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
@@ -5390,6 +5519,7 @@ building temple_of_leadership
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
@@ -5405,6 +5535,7 @@ building temple_of_leadership
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 4
                 law_bonus bonus 4
@@ -5421,6 +5552,7 @@ building temple_of_leadership
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 7
                 law_bonus bonus 5
@@ -5446,6 +5578,7 @@ building temple_of_love
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 population_growth_bonus bonus 1
             }
@@ -5461,6 +5594,7 @@ building temple_of_love
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb head hunting maidens scythian"  0  requires factions { scythia, } 
                 happiness_bonus bonus 2
                 population_growth_bonus bonus 2
@@ -5477,6 +5611,7 @@ building temple_of_love
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb head hunting maidens scythian"  0  requires factions { scythia, } 
                 recruit "barb scythian noblewomen scythian"  0  requires factions { scythia, } 
                 happiness_bonus bonus 3
@@ -5494,6 +5629,7 @@ building temple_of_love
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb head hunting maidens scythian"  0  requires factions { scythia, } 
                 recruit "barb scythian noblewomen scythian"  0  requires factions { scythia, } 
                 happiness_bonus bonus 4
@@ -5511,6 +5647,7 @@ building temple_of_love
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb head hunting maidens scythian"  0  requires factions { scythia, } 
                 recruit "barb scythian noblewomen scythian"  0  requires factions { scythia, } 
                 happiness_bonus bonus 5
@@ -5539,6 +5676,7 @@ building temple_of_naval
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
             }
             construction  1 
@@ -5553,6 +5691,7 @@ building temple_of_naval
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
             }
             construction  2 
@@ -5567,6 +5706,7 @@ building temple_of_naval
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
             }
             construction  3 
@@ -5581,6 +5721,7 @@ building temple_of_naval
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 happiness_bonus bonus 4
             }
@@ -5596,6 +5737,7 @@ building temple_of_naval
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "naval deceres"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 recruit "naval corvus quinquireme"  0  requires factions { roman, greek, carthaginian, eastern, egyptian, } 
                 happiness_bonus bonus 5
@@ -5624,6 +5766,7 @@ building temple_of_one_god
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -5639,6 +5782,7 @@ building temple_of_one_god
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 2
             }
@@ -5654,6 +5798,7 @@ building temple_of_one_god
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 3
             }
@@ -5669,6 +5814,7 @@ building temple_of_one_god
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 4
             }
@@ -5684,6 +5830,7 @@ building temple_of_one_god
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 5
             }
@@ -5707,6 +5854,7 @@ building temple_of_trade
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
@@ -5722,6 +5870,7 @@ building temple_of_trade
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 trade_base_income_bonus bonus 2
             }
@@ -5737,6 +5886,7 @@ building temple_of_trade
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 trade_base_income_bonus bonus 3
             }
@@ -5752,6 +5902,7 @@ building temple_of_trade
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 trade_base_income_bonus bonus 4
             }
@@ -5767,6 +5918,7 @@ building temple_of_trade
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 trade_base_income_bonus bonus 5
                 population_health_bonus bonus 2
@@ -5792,6 +5944,7 @@ building temple_of_victory
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "warband woad briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 1
             }
@@ -5807,6 +5960,7 @@ building temple_of_victory
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "warband woad briton"  0  requires factions { britons, } 
                 recruit "warband hurler briton"  0  requires factions { britons, } 
                 happiness_bonus bonus 2
@@ -5824,6 +5978,7 @@ building temple_of_victory
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "warband woad briton"  1  requires factions { britons, } 
                 recruit "warband hurler briton"  1  requires factions { britons, } 
                 happiness_bonus bonus 3
@@ -5841,6 +5996,7 @@ building temple_of_victory
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "warband woad briton"  1  requires factions { britons, } 
                 recruit "warband hurler briton"  1  requires factions { britons, } 
                 happiness_bonus bonus 4
@@ -5858,6 +6014,7 @@ building temple_of_victory
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "warband woad briton"  1  requires factions { britons, } 
                 recruit "warband hurler briton"  1  requires factions { britons, } 
                 happiness_bonus bonus 5
@@ -5886,6 +6043,7 @@ building temple_of_violence
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
             }
             construction  1 
@@ -5900,6 +6058,7 @@ building temple_of_violence
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 1
             }
@@ -5915,6 +6074,7 @@ building temple_of_violence
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb berserker german"  0  requires factions { germans, } 
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 2
@@ -5931,6 +6091,7 @@ building temple_of_violence
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb berserker german"  0  requires factions { germans, } 
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 4
@@ -5948,6 +6109,7 @@ building temple_of_violence
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb berserker german"  0  requires factions { germans, } 
                 recruit "roman arcani"  0  requires factions { romans_julii, romans_brutii, romans_scipii, romans_senate, } 
                 happiness_bonus bonus 5
@@ -5976,6 +6138,7 @@ building temple_of_viking
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
@@ -5991,6 +6154,7 @@ building temple_of_viking
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics german"  0  requires factions { germans, } 
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
@@ -6007,6 +6171,7 @@ building temple_of_viking
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruit "barb naked fanatics german"  0  requires factions { germans, } 
                 recruit "barb gothic cavalry german"  0  requires factions { germans, } 
                 happiness_bonus bonus 3
@@ -6032,6 +6197,7 @@ building temple_of_horse_2
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_exp_bonus bonus 1
             }
@@ -6047,6 +6213,7 @@ building temple_of_horse_2
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 2
             }
@@ -6062,6 +6229,7 @@ building temple_of_horse_2
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 recruits_exp_bonus bonus 3
             }
@@ -6180,6 +6348,7 @@ building temple_of_argeadai
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
@@ -6195,6 +6364,7 @@ building temple_of_argeadai
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 3
             }
@@ -6210,6 +6380,7 @@ building temple_of_argeadai
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 weapon_missile bonus 1
                 law_bonus bonus 3
@@ -6226,6 +6397,7 @@ building temple_of_argeadai
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 weapon_missile bonus 2
                 law_bonus bonus 2
@@ -6242,6 +6414,7 @@ building temple_of_argeadai
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruits_exp_bonus bonus 1
                 taxable_income_bonus bonus 3.02.6
                 happiness_bonus bonus 4
@@ -6270,6 +6443,7 @@ building temple_of_nikaea_massilia
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
@@ -6285,6 +6459,7 @@ building temple_of_nikaea_massilia
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 3
             }
@@ -6300,6 +6475,7 @@ building temple_of_nikaea_massilia
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 recruits_exp_bonus bonus 1
                 weapon_missile bonus 1
@@ -6317,6 +6493,7 @@ building temple_of_nikaea_massilia
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 recruits_exp_bonus bonus 3
                 weapon_missile bonus 2
@@ -6334,6 +6511,7 @@ building temple_of_nikaea_massilia
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruits_exp_bonus bonus 4
                 taxable_income_bonus bonus 4
                 happiness_bonus bonus 5
@@ -6364,6 +6542,7 @@ building temple_of_aita_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -6379,6 +6558,7 @@ building temple_of_aita_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 2
             }
@@ -6394,6 +6574,7 @@ building temple_of_aita_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 3
                 population_health_bonus bonus 1
@@ -6410,6 +6591,7 @@ building temple_of_aita_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 4
                 population_health_bonus bonus 2
@@ -6426,6 +6608,7 @@ building temple_of_aita_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 5
                 population_health_bonus bonus 3
@@ -6453,6 +6636,7 @@ building temple_of_tarchon_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
@@ -6468,6 +6652,7 @@ building temple_of_tarchon_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 1
@@ -6484,6 +6669,7 @@ building temple_of_tarchon_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 2
@@ -6500,6 +6686,7 @@ building temple_of_tarchon_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 3
@@ -6516,6 +6703,7 @@ building temple_of_tarchon_cisra
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 5
                 recruits_morale_bonus bonus 4
@@ -6543,6 +6731,7 @@ building temple_of_thessalidai_kos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_morale_bonus bonus 1
             }
@@ -6558,6 +6747,7 @@ building temple_of_thessalidai_kos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
@@ -6574,6 +6764,7 @@ building temple_of_thessalidai_kos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
@@ -6590,6 +6781,7 @@ building temple_of_thessalidai_kos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 3
@@ -6607,6 +6799,7 @@ building temple_of_thessalidai_kos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
@@ -6634,6 +6827,7 @@ building temple_of_velchanos_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 1
             }
@@ -6649,6 +6843,7 @@ building temple_of_velchanos_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 1
                 recruits_morale_bonus bonus 1
@@ -6665,6 +6860,7 @@ building temple_of_velchanos_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 2
                 recruits_morale_bonus bonus 2
@@ -6681,6 +6877,7 @@ building temple_of_velchanos_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 3
                 recruits_morale_bonus bonus 3
@@ -6697,6 +6894,7 @@ building temple_of_velchanos_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 4
                 recruits_morale_bonus bonus 4
@@ -6724,6 +6922,7 @@ building temple_of_diktynna_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
@@ -6739,6 +6938,7 @@ building temple_of_diktynna_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 trade_base_income_bonus bonus 1
             }
@@ -6754,6 +6954,7 @@ building temple_of_diktynna_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 1
                 trade_base_income_bonus bonus 2
@@ -6770,6 +6971,7 @@ building temple_of_diktynna_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 4
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 3
@@ -6786,6 +6988,7 @@ building temple_of_diktynna_itanos
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 3
                 trade_base_income_bonus bonus 4
@@ -6813,6 +7016,7 @@ building temple_of_dushara_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 law_bonus bonus 1
                 trade_base_income_bonus bonus 1
             }
@@ -6828,6 +7032,7 @@ building temple_of_dushara_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 law_bonus bonus 2
                 trade_base_income_bonus bonus 2
@@ -6844,6 +7049,7 @@ building temple_of_dushara_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 law_bonus bonus 3
                 trade_base_income_bonus bonus 3
@@ -6860,6 +7066,7 @@ building temple_of_dushara_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 law_bonus bonus 4
                 trade_base_income_bonus bonus 4
@@ -6876,6 +7083,7 @@ building temple_of_dushara_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 5
                 law_bonus bonus 5
                 trade_base_income_bonus bonus 5
@@ -6902,6 +7110,7 @@ building temple_of_allat_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 recruits_morale_bonus bonus 1
             }
             construction  1
@@ -6916,6 +7125,7 @@ building temple_of_allat_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 1
                 recruits_morale_bonus bonus 2
             }
@@ -6931,6 +7141,7 @@ building temple_of_allat_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 2
                 recruits_morale_bonus bonus 3
             }
@@ -6946,6 +7157,7 @@ building temple_of_allat_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 3
                 recruits_morale_bonus bonus 4
             }
@@ -6961,6 +7173,7 @@ building temple_of_allat_thamud
         {
             capability
             {
+                taxable_income_bonus bonus -0.056
                 happiness_bonus bonus 6
                 recruits_morale_bonus bonus 6
             }

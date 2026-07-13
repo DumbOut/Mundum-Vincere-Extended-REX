@@ -7900,7 +7900,9 @@ model_flexi			data/models_unit/unit_NL_greek_hoplite_lowest.cas, max
 type				warband_spearman_scythian
 skeleton			fs_spearman, fs_s1_barbswordsman
 indiv_range			40
-texture				all, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SCYTHIA.TGA
+texture				all, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SLAVE.TGA
+texture				slave, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SLAVE.TGA
+texture				armenia, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_ARMENIA.TGA
 texture			scythia, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SCYTHIA.TGA
 model_flexi_m			data/models_unit/ME_barb_warband_spear_high.cas, 8
 model_flexi				data/models_unit/ME_barb_warband_spear_med.cas, 15

@@ -28178,5 +28178,34 @@ stat_mental      2, normal, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 714, 30, 20, 30, 130
+stat_cost        1, 714, 30, 20, 30, 120
 ownership        macedon
+
+
+type             warband spear armenian
+dictionary       warband_spear_armenian      ; warband spear armenian
+category         infantry
+class            spearmen
+voice_type       Light_1
+soldier          warband_spearman_scythian, 60, 0, 3.2
+officer          warband_spearman_scythian
+officer          barb_standard
+mount_effect     horse +5, camel +4, elephant +3
+attributes       sea_faring, hide_improved_forest, hardy
+formation        1, 1, 2, 2, 8, square,phalanx
+stat_health      1, 0
+stat_pri         6, 1, no, 0, 0, melee, simple, piercing, spear, 75, 1
+stat_pri_attr    spear, spear_bonus_12
+stat_sec         4, 2, no, 0, 0, melee, blade, piercing, axe, 75, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 3, metal
+stat_sec_armour  0, 4, flesh
+stat_heat        3
+stat_ground      2, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 4
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 889, 50, 20, 20, 187
+ownership        armenia
+
