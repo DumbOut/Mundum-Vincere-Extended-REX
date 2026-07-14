@@ -28206,6 +28206,29 @@ stat_mental      5, normal, trained
 stat_charge_dist 4
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 889, 50, 20, 20, 187
+stat_cost        1, 889, 50, 30, 20, 187
 ownership        armenia
 
+type             merc pike phalanx
+dictionary       merc_pike_phalanx      ; Mercenary Phalanx Pikemen
+category         infantry
+class            spearmen
+voice_type       Medium_1
+soldier          greek_pike_phalanx, 40, 0, 1
+attributes       sea_faring, hide_forest, can_sap, mercenary_unit
+formation        1, 1, 2, 2, 8, square, phalanx
+stat_health      1, 0
+stat_pri         8, 3, no, 0, 0, melee, blade, piercing, spear, 25 ,1
+stat_pri_attr    spear, long_pike, spear_bonus_8
+stat_sec         5, 2, no, 0, 0, melee, simple, piercing, sword, 25 ,1
+stat_sec_attr    no
+stat_pri_armour  6, 5, 2, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, 0, 0, 0
+stat_mental      4, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 740, 200, 60, 90, 12
+ownership        slave

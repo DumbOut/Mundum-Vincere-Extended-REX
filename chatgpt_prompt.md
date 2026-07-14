@@ -2,14 +2,14 @@ Recolor this Rome: Total War unit texture atlas only. This is a game texture, no
 
 Input Colors Radius in THIS rgb format red xyz, green xyz, blue xyz:
 
-primary_colour				red 255, green 255, blue 140
-secondary_colour			red 0, green 0, blue 0
+primary_colour				red 55, green 80, blue 90
+secondary_colour			red 225, green 215, blue 200
 
 Objective:
 Replace ONLY existing faction color on clothing,  cloth trim, shields, horse cloth, banners, painted leather, and other faction-colored elements with the exact RGB value:
 
-primary_colour				red 91, green 190, blue 183
-secondary_colour			red 192, green 178, blue 109
+primary_colour				red 155, green 145, blue 120
+secondary_colour			red 90, green 75, blue 40
 
 Requirements:
 • Preserve the original UV texture atlas exactly.
@@ -42,6 +42,7 @@ Do NOT modify:
 
 Only recolor the original faction-colored cloth and painted accents to RGB
 primary_colour				red 155, green 145, blue 120
+secondary_colour			red 90, green 75, blue 40
 matching the brightness and shading of the source texture.
 
 Output:

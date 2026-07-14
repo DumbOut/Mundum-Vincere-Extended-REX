@@ -9096,7 +9096,8 @@ model_sprite		macedon, 60.0, data/sprites/macedon_greek_peasant_sprite.spr
 type				greek_pike_phalanx
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
-texture				all, data/models_unit/textures/unit_greek_pike_phalanx_macedon.tga
+texture				all, data/models_unit/textures/unit_greek_pike_phalanx_slave.tga
+texture				merc, data/models_unit/textures/merc_pike_phalanx.tga
 texture				macedon, data/models_unit/textures/unit_greek_pike_phalanx_macedon.tga
 texture				pontus, data/models_unit/textures/unit_greek_pike_phalanx_pontus.tga
 texture				seleucid, data/models_unit/textures/unit_greek_pike_phalanx_seleucid.tga
