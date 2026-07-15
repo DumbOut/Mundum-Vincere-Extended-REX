@@ -28230,5 +28230,31 @@ stat_mental      4, normal, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 740, 200, 60, 90, 12
+stat_cost        1, 940, 200, 60, 90, 120
 ownership        slave
+
+type             dacian_kometaloi
+dictionary       dacian_kometaloi      ; Falxmen
+category         infantry
+class            heavy
+voice_type       Heavy_1
+soldier          dacian_kometaloi, 60, 0, 1.5
+officer          barb_standard
+attributes       sea_faring, hide_improved_forest, warcry
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         9, 3, no, 0, 0, melee, blade, slashing, axe, 25, 0.87
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
+stat_sec_attr    no
+stat_pri_armour  3, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      2, -2, 3, 2
+stat_mental      6, impetuous, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 1200, 49, 23, 30, 190
+ownership        dacia
+
