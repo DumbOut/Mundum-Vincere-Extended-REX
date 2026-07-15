@@ -502,7 +502,7 @@ building barracks
                 recruit "greek thureophoroi" 0 requires factions { greek_cities, macedon, seleucid, egypt, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
-                recruit "dacian_kometaloi"  0  requires factions { dacia, }
+                recruit "dacian_kometaloi"  0  requires factions { dacia, thrace, }
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "warband spear german"  0  requires factions { germans, } 
@@ -575,7 +575,7 @@ building barracks
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, }
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
-                recruit "dacian_kometaloi"  0  requires factions { dacia, }
+                recruit "dacian_kometaloi"  0  requires factions { dacia, thrace, }
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "spear warrior briton"  0  requires factions { britons, } 
@@ -884,7 +884,7 @@ building barracks
                 recruit "carthaginian medium infantry"  0  requires factions { carthage, numidia, spain, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
-                recruit "dacian_kometaloi"  0  requires factions { dacia, }
+                recruit "dacian_kometaloi"  0  requires factions { dacia, thrace, }
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "spear warrior briton"  0  requires factions { britons, } 
@@ -1235,7 +1235,7 @@ building barracks
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
-                recruit "dacian_kometaloi"  0  requires factions { dacia, }
+                recruit "dacian_kometaloi"  0  requires factions { dacia, thrace, }
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "spear warrior briton"  0  requires factions { britons, } 
@@ -1651,7 +1651,7 @@ building barracks
                 recruit "carthaginian heavy swords"  0  requires factions { carthage, } 
                 recruit "barb infantry briton"  0  requires factions { britons, } 
                 recruit "barb infantry dacian"  0  requires factions { dacia, } 
-                recruit "dacian_kometaloi"  0  requires factions { dacia, }
+                recruit "dacian_kometaloi"  0  requires factions { dacia, thrace, }
                 recruit "east axe 01" 0 requires factions { parthia, armenia, }
                 recruit "barb infantry gaul"  0  requires factions { gauls, } 
                 recruit "spear warrior briton"  0  requires factions { britons, } 

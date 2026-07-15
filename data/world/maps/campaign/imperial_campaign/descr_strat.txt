@@ -52,11 +52,11 @@ nonplayable
 end
 
 start_date	-316 summer
-end_date	1205 summer
+end_date	1405 summer
 
 ;brigand_spawn_value 10
 ;pirate_spawn_value 28
-brigand_spawn_value 56
+brigand_spawn_value 64
 pirate_spawn_value 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2950,7 +2950,7 @@ resource	slaves	353	,	156		;	TerraIncognita3 (east africa / arabia)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of factions section <<<<
 
-faction	romans_julii, comfortable caesar
+faction	romans_julii,
 superfaction romans_senate
 denari	15900
 settlement
@@ -3086,7 +3086,7 @@ relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
 relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
 
-faction	romans_brutii, balanced stalin
+faction	romans_brutii,
 superfaction romans_senate
 denari	15900
 settlement
@@ -3223,7 +3223,7 @@ relative 	Aulus Brutus, 	Hostia,		Paulina,	Titus Brutus,	Oppius Brutus,	end
 relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
 
 
-faction	romans_scipii, bureaucrat napoleon
+faction	romans_scipii,
 superfaction romans_senate
 denari	11200
 settlement
@@ -3374,7 +3374,7 @@ relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
 relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 
-faction	romans_senate, comfortable napoleon
+faction	romans_senate,
 denari	15900
 settlement
 {
@@ -3519,7 +3519,7 @@ relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
 relative 	Duilius Maxentius, 	Antistia,	end
 
 
-faction	macedon, fortified napoleon
+faction	macedon,
 denari	15900
 settlement
 {
@@ -3881,8 +3881,8 @@ relative 	Gyras, 	Alkmena,		Aloeus,	Abreas,	end
 relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 
-faction	egypt, religious caesar
-denari	18900
+faction	egypt,
+denari	10900
 settlement
 {
 	level large_town
@@ -5301,8 +5301,8 @@ relative 	Ptahhotep, 	Satsobek,		Baketanhur,	Tutankhanhur,	end
 relative 	Sekhmetsekhemkhet, 	Padibastet,		Sabast,	end
 
 
-faction	seleucid, balanced stalin
-denari	132295
+faction	seleucid,
+denari	232295
 settlement
 {
 	level city
@@ -8810,6 +8810,9 @@ character	Molon, general, age 20, , x 773, y 463
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
 
 ;	Cartana / Bamiyan
 character	Molon, general, age 20, , x 757, y 464
@@ -8855,8 +8858,8 @@ relative 	Alexander, 	Parthenope,		Gyras,	Helike,	end
 relative 	Demetrius, 	Athena,		Kassandros,	Orthia,	end
 
 
-faction	carthage, balanced smith
-denari	16900
+faction	carthage,
+denari	17900
 settlement
 {
 	level city
@@ -10108,8 +10111,8 @@ relative 	Mytonnes,		end
 relative 	Edorubal,		end
 
 
-faction	parthia, balanced genghis
-denari	13900
+faction	parthia,
+denari	33900
 settlement
 {
 	level town
@@ -10287,7 +10290,7 @@ relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-faction	pontus, trader napoleon
+faction	pontus,
 denari	15800
 settlement
 {
@@ -10463,7 +10466,7 @@ relative 	Pharnaces, 	Pythodoris,		Dynamis,	Gepaepyris,	Paerisades,	end
 relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 
 
-faction	gauls, religious smith
+faction	gauls,
 denari	15900
 settlement
 {
@@ -10937,7 +10940,7 @@ relative 	Rianorix, 	Esselt,		Lucco,	end
 relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 
-faction	germans, balanced mao
+faction	germans,
 denari	15900
 settlement
 {
@@ -11098,7 +11101,7 @@ relative 	Ariogaisus, 	Thusnelda,		Vannius,	Amalberga,	Othelhildis,	end
 relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
 
-faction	britons, trader henry
+faction	britons,
 denari	15900
 settlement
 {
@@ -11249,7 +11252,7 @@ relative 	Cynfawr, 	Eudaf,		Sennianus,	Drustan,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION ARMENIA		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	armenia, fortified henry
+faction	armenia,
 denari	15900
 settlement
 {
@@ -11655,7 +11658,7 @@ relative 	Rusa, 	Karo,		Arao,	Aram,	Sarduri,	end
 relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
-faction	dacia, balanced stalin
+faction	dacia,
 denari	15900
 settlement
 {
@@ -11789,7 +11792,7 @@ relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 ;;;;;;;;;;;;;;;;;;;;;;;	GREEK STATES AND CITIES	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	greek_cities, balanced smith
+faction	greek_cities,
 denari	15900
 settlement
 {
@@ -13166,7 +13169,7 @@ relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION ITANOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	itanos_01, balanced smith
+faction	itanos_01,
 denari	7000
 settlement
 {
@@ -13224,7 +13227,7 @@ relative 	Itanios, 	Praisia,		Etearchos,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION KOS	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	kos_01, balanced smith
+faction	kos_01,
 denari	7000
 settlement
 {
@@ -13232,7 +13235,7 @@ settlement
 	region Kos_R
 
 	year_founded 0
-	population 450
+	population 700
 	plan_set default_set
 	faction_creator kos_01
 	building
@@ -13282,7 +13285,7 @@ relative 	Hippokrates, 	Phainarete,		Thessalos,	Kallianeira,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; CISRA	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	cisra_01, balanced smith
+faction	cisra_01,
 superfaction romans_senate
 denari	7000
 settlement
@@ -13345,7 +13348,7 @@ relative 	Thefarie Caisranalia, 	Ramtha,		Larth Spurinna,	Tanaquil,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	THAMUD	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	thamud_01, balanced smith
+faction	thamud_01,
 denari	8000
 settlement
 {
@@ -13399,7 +13402,7 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 
 relative 	Malik Salih_ibn_Datha, 	Labna,		Qaydar Salih_ibn_Datha,	Hind,	end
 
-faction	phoenicium, balanced smith
+faction	phoenicium,
 denari	20000
 settlement
 {
@@ -13451,6 +13454,7 @@ unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 1 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
@@ -13462,7 +13466,7 @@ character_record		Hind, 	female, command 0, influence 0, management 0, subterfug
 relative 	Melkartshamaas Dathanid, 	Labna,		Zimridaas Dathanid,	Hind,	end
 
 
-faction	memnones, balanced napoleon
+faction	memnones,
 denari	20000
 settlement
 {
@@ -13537,7 +13541,7 @@ relative 	Ptahotem, 	Hebeny,		Sekhemwy,	Berenike,	end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	FACTION NUMIDIA / MASSYLII	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	numidia, balanced henry
+faction	numidia,
 denari	18930
 settlement
 {
@@ -13722,7 +13726,7 @@ relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 ;;;;;;;;;;;;;;;;;;;;;;;	FACTION SCYTHIA			;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	scythia, trader smith
+faction	scythia,
 denari	15900
 settlement
 {
@@ -13926,7 +13930,7 @@ relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 ;;;;;;;;;;;;;;;;;;;;;;;	FACTION SPAIN			;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	spain, fortified mao
+faction	spain,
 denari	15900
 settlement
 {
@@ -14090,7 +14094,7 @@ relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 ;;;;;;;;;;;;;;;;;;;;;;;	FACTION THRACE			;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	thrace, sailor napoleon
+faction	thrace,
 denari	16800
 settlement
 {
@@ -14262,7 +14266,7 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
-faction	sciria_01, 
+faction	sciria_01,
 denari	19810
 settlement
 {
@@ -14356,8 +14360,8 @@ relative 	Etreleus, 	Eberharde,		Vangio,	end
 
 
 ;	Maurya Empire
-faction	mauryans, 
-denari	 42090
+faction	mauryans,
+denari	 52090
 settlement
 {
 	level city
@@ -14790,8 +14794,7 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, age 42, , x 79, y 474
 
-;faction	zhou_01, balanced smith
-;denari	20000
+;faction	zhou_01,;
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
@@ -14815,15 +14818,15 @@ relative 	Bindusara Maurya, 	Subhadrangi,		Susima Maurya,	Ashoka Maurya,	Suparsw
 
 ;character FirstName LastName, named character, age 42, , x 1280, y 540
 
-faction	qin_01, balanced smith
-denari	230000
+faction	qin_01,
+denari	1230000
 settlement
 {
     level town
    	region Weinan_R
 
     year_founded 0
-    population 1840
+    population 1850
     plan_set default_set
     faction_creator qin_01
     building
@@ -14844,6 +14847,12 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry	
     building
     {
         type core_building governors_house
@@ -14862,6 +14871,11 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14880,6 +14894,11 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14898,6 +14917,11 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14916,6 +14940,13 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14934,6 +14965,11 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14952,6 +14988,11 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -14988,6 +15029,12 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -15006,6 +15053,9 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -15024,6 +15074,10 @@ settlement
     population 400
     plan_set default_set
     faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit 	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -15041,7 +15095,9 @@ settlement
     year_founded 0
     population 500
     plan_set default_set
-    faction_creator qin_01
+	garrisoned_army
+	unit	china heavy infantry
+	unit	china heavy infantry
     building
     {
         type core_building governors_house
@@ -15055,6 +15111,7 @@ settlement
 character	Si Ying, named character, leader, age 42, , x 1242, y 537
 traits GoodCommander 3, GoodAdministrator 3, NaturalMilitarySkill 2
 army
+unit	china generals early	exp 1 armour 0 weapon_lvl 0
 unit	china generals early	exp 1 armour 0 weapon_lvl 0
 unit	china heavy infantry	exp 0 armour 0 weapon_lvl 0
 unit	china swords infantry	exp 0 armour 0 weapon_lvl 0
@@ -15096,8 +15153,7 @@ relative 	Si Ying, 	Ai,		Tong Ying, Yi, Dang Ying, Zhuang Ying, Ji Ying, Yun Yin
 relative	Tong ying,	end
 
 
-;faction	illyria_01, balanced smith
-;denari	15000
+;faction	illyria_01,;
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
@@ -15125,8 +15181,7 @@ relative	Tong ying,	end
 
 ;character FirstName LastName, named character, age 42, , x 252, y 529
 
-;faction	aestii_01, balanced smith
-;denari	15000
+;faction	aestii_01,;
 
 ; relative settlement and character entries for rebels are NOT removed yet.
 ;settlement
@@ -15270,7 +15325,7 @@ relative	Tong ying,	end
 
 ;character FirstName LastName, named character, age 42, , x 398, y 276
 
-faction	massilia_01, balanced napoleon
+faction	massilia_01,
 denari	24980
 settlement
 {
@@ -15425,7 +15480,7 @@ relative 	Deinias Aulouporid,		end
 relative 	Epimenes Aulouporid,		end
 relative 	Aktaneus Aulouporid,		end
 
-faction	tayuan, balanced smith
+faction	tayuan,
 denari	37000
 settlement
 {
@@ -15508,8 +15563,8 @@ character_record		Harmonia, 	female, command 0, influence 0, management 0, subte
 relative 	Epameneus Ionianid, 	Harmonia,		Dion Ionianid,	end
 
 
-faction	slave, balanced_smith
-denari	-9134800
+faction	slave, balanced_smiith
+denari	-91134800
 settlement
 {
 	level town
