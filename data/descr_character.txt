@@ -107,7 +107,6 @@ strat_model		sm_egypt_general
 battle_model	egyptian_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
-
 ;; memnones
 faction			memnones
 dictionary		2
@@ -125,8 +124,8 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;; tayuan
 faction			tayuan
 dictionary		2
-strat_model		sm_greek_general
-battle_model	greek_general
+strat_model		sm_rebel_general
+battle_model	slave_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage
@@ -355,8 +354,8 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			tayuan
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_greek_lesser_general
-battle_model	greek_lesser_general
+strat_model		sm_rebel_general
+battle_model	slave_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage

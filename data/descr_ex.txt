@@ -21,7 +21,7 @@ max_factions 890000
 
 ; Minimum regions an AI faction needs before it can target superfaction members
 ; (default 7, set to 0 to disable the restriction entirely)
-superfaction_min_regions 43
+superfaction_min_regions 45
 
 ; Custom AI troop-persona profile overrides:
 ; ai_personality <troop_persona> <sally_aggression> <sally_desperate> <attack_risk> <subterfuge_risk> <opt:flags...>
@@ -40,7 +40,7 @@ ai_personality ex_superaggressive 32768 32768 8 16 extreme_aggression expansioni
 ; Min: how close you can zoom in (default 0.1, floor 0.1)
 ; Max: how far you can zoom out (default 100.0)
 camera_min_height 0.1
-camera_max_height 5067.0
+camera_max_height 9012.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; UI
@@ -132,10 +132,10 @@ bribe_armies true
 bribe_settlements true
 
 ; Cost multiplier for army bribes (default 1.0)
-bribe_cost_army 1.0
+bribe_cost_army 2.0
 
 ; Cost multiplier for settlement bribes (default 1.0)
-bribe_cost_settlement 1.0
+bribe_cost_settlement 2.0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Horde
