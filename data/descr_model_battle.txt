@@ -7900,9 +7900,7 @@ model_flexi			data/models_unit/unit_NL_greek_hoplite_lowest.cas, max
 type				warband_spearman_scythian
 skeleton			fs_spearman, fs_s1_barbswordsman
 indiv_range			40
-texture				all, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SLAVE.TGA
-texture				slave, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SLAVE.TGA
-texture				armenia, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_ARMENIA.TGA
+texture				all, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SCYTHIA.TGA
 texture			scythia, data/models_unit/textures/ME_BARB_WARBAND_SPEARMAN_SCYTHIA.TGA
 model_flexi_m			data/models_unit/ME_barb_warband_spear_high.cas, 8
 model_flexi				data/models_unit/ME_barb_warband_spear_med.cas, 15
@@ -9096,8 +9094,7 @@ model_sprite		macedon, 60.0, data/sprites/macedon_greek_peasant_sprite.spr
 type				greek_pike_phalanx
 skeleton			fs_slow_spearman, fs_slow_swordsman									; combat spear
 indiv_range			40
-texture				all, data/models_unit/textures/unit_greek_pike_phalanx_slave.tga
-texture				merc, data/models_unit/textures/merc_pike_phalanx.tga
+texture				all, data/models_unit/textures/unit_greek_pike_phalanx_macedon.tga
 texture				macedon, data/models_unit/textures/unit_greek_pike_phalanx_macedon.tga
 texture				pontus, data/models_unit/textures/unit_greek_pike_phalanx_pontus.tga
 texture				seleucid, data/models_unit/textures/unit_greek_pike_phalanx_seleucid.tga
@@ -16328,10 +16325,3 @@ texture				macedon, data/models_unit/textures/macedonian_xipherai_macedon.tga
 model_flexi			data/models_unit/macedonian_xipherai.cas, max
 
 
-type						dacian_kometaloi
-;;--------------------------------------
-skeleton					fs_2handed
-indiv_range		40
-texture				dacia, data/models_unit/textures/dacian_kometaloi_dacia.tga
-texture				thrace, data/models_unit/textures/dacian_kometaloi_thrace.tga
-model_flexi			data/models_unit/dacian_kometaloi.cas, max

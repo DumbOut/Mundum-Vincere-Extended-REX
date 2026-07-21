@@ -121,11 +121,12 @@ strat_model		sm_greek_general
 battle_model	greek_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+
 ;; tayuan
 faction			tayuan
 dictionary		2
-strat_model		sm_rebel_general
-battle_model	slave_general
+strat_model		sm_greek_general
+battle_model	greek_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage
@@ -138,8 +139,8 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 ;; arados
 faction			arados
 dictionary		1
-strat_model		sm_rebel_general
-battle_model	slave_general
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			parthia
@@ -354,15 +355,15 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			tayuan
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_rebel_general
-battle_model	slave_general
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			carthage
 dictionary		1
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
-strat_model		sm_rebel_general
-battle_model	slave_general
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 
