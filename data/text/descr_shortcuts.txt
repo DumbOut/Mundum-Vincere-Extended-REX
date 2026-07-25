@@ -48,6 +48,9 @@ keyset default
 ;;		fov_inc				NUM_9			ALLOW_SHIFT		repeating		
 		rot_u				NUM_ADD			ALLOW_SHIFT		repeating
 		rot_d				NUM_SUBTRACT	ALLOW_SHIFT		repeating
+		cam_reset			END
+		pitch_up			R			repeating
+		pitch_down			F			repeating
 		cam_up				NUM_MULTIPLY	ALLOW_SHIFT		repeating
 		cam_down			NUM_DIVIDE		ALLOW_SHIFT		repeating
 		toggle_move_fast	CAPS_LOCK
@@ -163,7 +166,7 @@ keyset default
 		select_next					TAB
 		select_prev					TAB SHIFT
 		deselect_all				ENTER
-		hide_gui					SCROLL_LOCK		hidden
+		hide_gui					SCROLL_LOCK	K
 		show_console				GRAVE_ACCENT	hidden
 		toggle_sfx					S ALT
 		toggle_music				M ALT
@@ -184,7 +187,7 @@ keyset default
 		toggle_character_labels		N CTRL
 		toggle_settlement_labels	T CTRL
 		diplomacy_overview_button	D
-		finances_button				F
+		finances_button				G
 		senate_button				SEMI_COLON
 		construction_button			B
 		recruitment_button			R
@@ -236,6 +239,9 @@ keyset fps
 ;;		fov_dec				NUM_7		 ALLOW_SHIFT		repeating
 ;;		fov_inc				NUM_9		 ALLOW_SHIFT		repeating		
 		rot_u				R			 ALLOW_SHIFT		repeating
+		cam_reset			END
+		pitch_up			R			repeating
+		pitch_down			F			repeating
 		rot_d				F			 ALLOW_SHIFT		repeating
 		cam_up				NUM_MULTIPLY ALLOW_SHIFT		repeating
 		cam_down			NUM_DIVIDE	 ALLOW_SHIFT		repeating
@@ -352,7 +358,7 @@ keyset fps
 		select_next					TAB
 		select_prev					TAB SHIFT
 		deselect_all				ENTER
-		hide_gui					SCROLL_LOCK		hidden
+		hide_gui					SCROLL_LOCK
 		show_console				GRAVE_ACCENT	hidden
 		toggle_sfx					S ALT
 		toggle_music				M ALT
@@ -373,7 +379,7 @@ keyset fps
 		toggle_character_labels		N CTRL
 		toggle_settlement_labels	T CTRL
 		diplomacy_overview_button	G
-		finances_button				F
+		finances_button				G
 		senate_button				SEMI_COLON
 		construction_button			B
 		recruitment_button			R
@@ -606,8 +612,11 @@ mappings
 		step_bck			camera
 		rot_l				camera
 		rot_r				camera
+		pitch_up			camera
+		pitch_down			camera
+		cam_reset			camera
 		select_next_selected			hud_select_next_item_cycle
-		select_prev_selected			hud_select_prev_item_cycle	
+		select_prev_selected			hud_select_prev_item_cycle
 	end
 
 	strat_ed
@@ -626,7 +635,10 @@ mappings
 		step_bck		camera
 		rot_l				camera
 		rot_r				camera
-		inc_scale						radar	
+		pitch_up			camera
+		pitch_down			camera
+		cam_reset			camera
+		inc_scale						radar
 		dec_scale						radar
 	end
 

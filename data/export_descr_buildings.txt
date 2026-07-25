@@ -75,6 +75,7 @@ building core_building
         {
             capability
             {
+                taxable_income_bonus bonus -1
                 recruit "carthaginian peasant"  0  requires factions { carthage, spain, numidia, } 
                 recruit "barb peasant briton"  0  requires factions { britons, } 
                 recruit "barb peasant dacian"  0  requires factions { dacia, } 

@@ -218,3 +218,18 @@ range_indicator_falloff 0.30
 
 ; Outer-edge softness; small = crisp (0-1)
 range_indicator_fuzz 0.008
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Battle visuals
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Maximum blood pools on the battlefield at once (default 192, max 2048).
+; Oldest pool fades out when the limit is reached. 0 turns blood pools off.
+; Purely visual - safe for multiplayer at any value.
+blood_pool_limit 192
+
+; Maximum corpses on the battlefield at once (default 1600).
+; Above the limit, the oldest corpse of the dying unit's type is removed.
+; Corpses block pathing, so in multiplayer ALL players must use the same value -
+; a mismatch desyncs the battle, exactly like mismatched unit stats.
+corpse_limit 1600
