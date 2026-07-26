@@ -2,14 +2,14 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-06-28T18:48:08</date>
-  <millis>1782665288695</millis>
+  <date>2026-07-25T16:15:39</date>
+  <millis>1785010539720</millis>
   <sequence>0</sequence>
   <logger>twapp.UiMain</logger>
   <level>SEVERE</level>
   <class>twapp.util.Utils</class>
   <method>msgAppErr</method>
-  <thread>14</thread>
+  <thread>23</thread>
   <message>Failed to read data:
 
 twmap.TwMapException: twmap.TwMapException: Could not read image file: does not exist [map_features.tga]</message>
